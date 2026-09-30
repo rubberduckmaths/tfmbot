@@ -504,6 +504,7 @@
  "peek.yourChoice": "do rogha",
  "setup.title": "Roghnaigh do thús",
  "setup.sub": "Roghnaigh 1 chorparáid, 2 réamhrá, agus ceannaigh cártaí tionscadail ar 3 M€ an ceann. Deaschliceáil / brúigh go fada ar chárta chun é a léamh go mór.",
+ "setup.cardsList": "An lámh seo sa liosta cártaí ↗",
  "setup.corp": "Corparáid",
  "setup.pre": "Réamhráite — roghnaigh 2 (imríonn tú iad tar éis an ullmhúcháin, in ord ar bith)",
  "setup.proj": "Cártaí tionscadail — 3 M€ an ceann",
@@ -1100,5 +1101,9 @@
  "trig.order": "Réitítear iad san ord seo: {list}.",
  "trig.orderWhy": "Tagann an tarraingt ar dtús, mar sin d'fhéadfadh gurb é cárta a tharraing ceann acu an ceann a chaitheann tú uait.",
  "hex.rc": "ró {r}, heicseagán {c}",
- "hex.rcTitle": "Ró {r}, heicseagán {c}"
+ "hex.rcTitle": "Ró {r}, heicseagán {c}",
+ "hex.claimed": "{card}: curtha in áirithe ag {who}; ní féidir le haon duine eile leacán a chur anseo",
+ "rp.povTitle": "Suíochán cé atá á fhéachaint agat: a lámh, a roghanna dréachta agus a dtarraingtí. Cliceáil chun imreoir a athrú",
+ "rp.povOld": "Do shuíochán amháin: taifeadadh an t-athsheinm seo sular sábháladh cártaí TFMBot",
+ "atk.offset": "Chaill {who} iad, ach thug {card} an méid céanna ar ais"
 }

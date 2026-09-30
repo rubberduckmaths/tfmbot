@@ -90,14 +90,7 @@ export class AppHand {
       if (!st?.ghost) return;
       st.raf = 0;
       const dx = st.cx - st.x, dy = st.cy - st.y, zone = st.cy < innerHeight * 0.66;
-      // a tile card over one of its candidate hexes: that hex lights up with the tile over it,
-      // and the card shrinks up off the fingertip so the hex can be seen
-      if (st.drop) {
-        const hx = this.dropHex(st.drop, st.cx, st.cy, st.touch);
-        if (hx !== st.hx) { st.hx = hx; this.boardHover(hx); st.ghost.classList.toggle('onhex', hx >= 0); }
-      }
-      st.ghost.style.transform = st.hx >= 0 ? `translate3d(${st.cx - st.gl - st.gw / 2}px, ${st.cy - 26 - st.gt - st.gh}px, 0) scale(.5)`
-        : `translate3d(${dx}px, ${dy}px, 0) rotate(${Math.max(-8, Math.min(8, dx / 30))}deg) scale(${zone ? 1.15 : 1})`;
+      st.ghost.style.transform = `translate3d(${dx}px, ${dy}px, 0) rotate(${Math.max(-8, Math.min(8, dx / 30))}deg) scale(${zone ? 1.15 : 1})`;
       if (zone !== st.zone) { st.zone = zone; st.ghost.classList.toggle('armed', zone && playable); st.ghost.classList.toggle('nope', zone && !playable); }
     };
     const move = (e) => {
@@ -112,12 +105,7 @@ export class AppHand {
         g.classList.add('dragghost');
         g.style.left = `${r.left + r.width / 2 - 59}px`; g.style.top = `${r.top}px`;
         $('#flyer').appendChild(g);
-        st.ghost = g; st.r = r;
-        st.gl = r.left + r.width / 2 - 59; st.gt = r.top; st.gw = g.offsetWidth || 118; st.gh = g.offsetHeight || 165;
-        st.touch = e.pointerType !== 'mouse'; st.hx = -1;
-        // the drag is on: a card that places a tile shows where it can go, and can be dropped right there
-        st.drop = playable && !this.flow ? this.dropTargets(card) : null;
-        if (st.drop) { this.board.highlight(st.drop.spaces, null, st.drop.kind); this.board.dragDirty = true; $('#ui').classList.add('drophex'); }
+        st.ghost = g;
         el.classList.add('dragging');
         $('#ui').classList.add('dropping');
         this.dragged = true;
@@ -129,50 +117,22 @@ export class AppHand {
     };
     const end = (e) => {
       if (!st || e.pointerId !== st.id) return;
-      const g = st.ghost, drop = st.drop; st = null;
+      const g = st.ghost; st = null;
       removeEventListener('pointermove', move); removeEventListener('pointerup', end); removeEventListener('pointercancel', end);
       if (!g) return;
       this.board.dragAt = 0;
       $('#ui').classList.remove('dropping');
       el.classList.remove('dragging');
       const zone = e.type === 'pointerup' && e.clientY < innerHeight * 0.66;
-      const hx = drop && e.type === 'pointerup' ? this.dropHex(drop, e.clientX, e.clientY, e.pointerType !== 'mouse') : -1;
-      if (drop) { this.boardHover(-1); this.board.clearHighlight(); this.board.dragDirty = true; $('#ui').classList.remove('drophex'); }
       g.remove();
       document.querySelectorAll('#flyer .dragghost').forEach((x) => x.remove());   // never leave one behind
-      if (hx >= 0) this.startFlow('card:' + card.id, hx);                // dropped on a hex: the tile goes there (payment still asked first)
-      else if (zone && playable) this.startFlow('card:' + card.id);
+      if (zone && playable) this.startFlow('card:' + card.id);          // (a tile card then asks for its hex on the board, as a click would)
       else if (zone) { this.audio.bad(); this.toast(this.whyNot(card, true), '#ff9b9b'); }
       setTimeout(() => { this.dragged = false; }, 50);
     };
     el.addEventListener('pointerup', end);
     el.addEventListener('pointercancel', end);
     el.addEventListener('lostpointercapture', (e) => { if (st?.ghost && !el.isConnected) end(Object.assign({}, { pointerId: e.pointerId, type: 'pointercancel', clientY: innerHeight })); });
-  }
-
-  // the hexes a hand card's tile can go on right now (from its legal plays), or null if it places none
-  dropTargets(card) {
-    const idxs = this.entries().get('card:' + card.id);
-    if (!idxs) return null;
-    const set = new Set();
-    for (const i of idxs) { const a = this.legal[i]; if (a.space == null) continue; set.add(a.space); for (const x of a.xs || []) set.add(x); }
-    if (!set.size) return null;
-    const cd = this.db.get(card.id);
-    return { set, spaces: [...set], kind: cd?.city ? 'city' : cd?.greenery ? 'greenery' : cd?.ocean ? 'ocean' : 'special' };
-  }
-  // the candidate hex under a point, or -1 (not through a panel over the board)
-  dropHex(drop, x, y, touch) {
-    const b = this.board;
-    let s = b.pickAt ? b.pickAt(x, y, touch) : b.pick({ clientX: x, clientY: y });
-    if (touch && !drop.set.has(s) && b.nearestCandidate) { const n = b.nearestCandidate(x, y); if (n >= 0) s = n; }
-    if (!drop.set.has(s)) return -1;
-    const top = document.elementsFromPoint(x, y).find((e) => !e.closest('#flyer'));     // (under the dragged card)
-    return top?.closest('#gl') ? s : -1;
-  }
-  boardHover(s) {
-    const b = this.board;
-    if (b.setHover) b.setHover(s); else { b.hoverSpace = s; b.showGhost(s); }
-    b.dragDirty = true;
   }
 
   updateHandArrows() {
@@ -301,7 +261,11 @@ export class AppHand {
     const loreKey = 'lore.' + sp.name;
     const lore = sp.name && LORE[sp.name] ? `<div class="lore">${esc(tHas(loreKey) ? t(loreKey) : LORE[sp.name])}</div>` : '';
     const rc = this.rowCol(s), where = rc ? `<br><span style="color:#9aa3b5">${esc(t('hex.rcTitle', { r: rc[0], c: rc[1] }))}</span>` : '';
-    tip.innerHTML = `<b>${esc(sp.name ? spaceName(sp.name) : kind)}</b>${where}${gain}${sp.name ? `<br><span style="color:#9aa3b5">${esc(kind)}</span>` : ''}${bonus && !gain ? `<br>${esc(t('hex.bonus', { list: bonus }))}` : ''}${tile ? `<br>${esc(TILE_NAME[tile[1]] ? t('tile.' + tile[1]) : t('hex.tile'))}${tile[2] >= 0 ? ` · <span style="color:${PCOL[tile[2]]}">${esc(this.pname(tile[2]))}</span>` : ''}` : ''}${lore}`;
+    // Land Claim: the flag on the hex, said in words (who reserved it, and what that means)
+    const claim = !tile && (this.view?.claims || []).find((c) => c[0] === s);
+    const lc = claim && this.db.byName.get('Land Claim');
+    const claimed = claim ? `<br><span style="color:${PCOL[claim[1]]}">🚩 ${esc(t('hex.claimed', { card: lc ? cardName(lc) : 'Land Claim', who: this.pname(claim[1]) }))}</span>` : '';
+    tip.innerHTML = `<b>${esc(sp.name ? spaceName(sp.name) : kind)}</b>${where}${claimed}${gain}${sp.name ? `<br><span style="color:#9aa3b5">${esc(kind)}</span>` : ''}${bonus && !gain ? `<br>${esc(t('hex.bonus', { list: bonus }))}` : ''}${tile ? `<br>${esc(TILE_NAME[tile[1]] ? t('tile.' + tile[1]) : t('hex.tile'))}${tile[2] >= 0 ? ` · <span style="color:${PCOL[tile[2]]}">${esc(this.pname(tile[2]))}</span>` : ''}` : ''}${lore}`;
     tip.style.display = 'block';
     tip.style.left = Math.min(innerWidth - 250, e.clientX + 14) + 'px';
     tip.style.top = (e.clientY + 14) + 'px';

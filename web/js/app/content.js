@@ -68,3 +68,12 @@ export const CRIT = {
   'card_resources:animal+microbe': 'Animals + microbes on cards', 'tags:jovian+earth': 'Jovian + Earth tags', largest_contiguous_tiles: 'Largest group of your tiles',
   tiles_not_adjacent_ocean: 'Tiles not next to oceans', 'prod:steel+titanium': 'Steel + titanium production',
 };
+
+// ssimeonoff.github.io/cards-list, where players share starting hands: its links name a corporation by its place
+// in this list (CORP00..), preludes and projects by their card number (P18, 030)
+export const CARDS_LIST_CORPS = ['Beginner Corporation', 'CrediCor', 'EcoLine', 'Helion', 'Mining Guild', 'Interplanetary Cinematics',
+  'Inventrix', 'PhoboLog', 'Tharsis Republic', 'Thorgate', 'United Nations Mars Initiative', 'Teractor', 'Saturn Systems', 'Aphrodite',
+  'Celestic', 'Manutech', 'Morning Star Inc.', 'Viron', 'Cheung Shing MARS', 'Point Luna', 'Robinson Industries', 'Valley Trust', 'Vitor',
+  'Aridor', 'Arklight', 'Polyphemos', 'Poseidon', 'Stormcraft Incorporated', 'Lakefront Resorts', 'Pristar', 'Septem Tribus',
+  'Terralabs Research', 'Utopia Invest', 'Factorum', 'Mons Insurance', 'Philares', 'Arcadian Communities', 'Recyclon', 'Splice'];
+

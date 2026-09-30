@@ -23,16 +23,9 @@ the Viking landing sites): lifted out whole onto its hex, its real spot
 cloned over with nearby plains, tone-matched so no seam shows. Colour and
 height go through the same mapping.
 
-On VBN the Tharsis volcanoes (Olympus, Ascraeus, Pavonis, Arsia, Tharsis
-Tholus) land just past the board's rim beside Alba Mons, where the home view's
-limb squeezes them onto screen right next to the Alba hex, so their calderas
-read as a misplaced "Alba crater". They are relocated further round the globe,
-behind the home view's horizon, and Alba's own summit relief is
-exaggerated in place.
-
 The textures are served from `assets/`, which browsers and the CDN cache for a
-week: whenever the textures change, bump `MAP_TEX_V` in `js/board/board3d.js` and
-`js/board/board2d.js` so players fetch the new globe.
+week: whenever the textures change, bump `MAP_TEX_V` in `js/board/layout.js` so players fetch the
+new globe.
 
 ## Sources and credit
 

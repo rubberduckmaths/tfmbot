@@ -34,7 +34,7 @@ export class AppLog {
     const who = `<b style="color:${PCOL[p]}">${esc(this.pname(p))}</b>`;
     const card = (id) => `<b>${esc(db.lname(id))}</b>`;
     const sp = (s) => (s >= 0 && this.map.spaces[s]) ? t('log.at', { space: esc(this.spaceWhere(s)) }) : '';
-    const t = (k, q) => tw(k, q, p === v.human);            // (the log's sentences: "you" forms where a language has them)
+    const t = (k, q) => tw(k, q, this.isYou(p, v));            // (the log's sentences: "you" forms where a language has them)
     switch (L.kind) {
       case D.SETUP: return v.stage === 0 && p !== v.human ? t('log.chosenCorp', { who }) : t('log.chose', { who, card: card(L.card) });
       case D.TILE: return t('log.placedTile', { who, at: sp(L.space) });
@@ -92,14 +92,17 @@ export class AppLog {
     if (changed || act.atp === L.player) return '';
     const nm = esc(this.pname(victim.id)), note = (x) => `<span style="color:var(--faint)">${x}</span>`;
     const prot = this.db.byName.get('Protected Habitats')?.id;
-    if (victim.played.includes(prot) && /plant|animal|microbe/i.test(text)) return note(tw('atk.protected', { who: nm, card: esc(this.db.lname(prot)) }, victim.id === b.human));
+    if (victim.played.includes(prot) && /plant|animal|microbe/i.test(text)) return note(tw('atk.protected', { who: nm, card: esc(this.db.lname(prot)) }, this.isYou(victim.id, b)));
+    // Arctic Algae: the card's own oceans gave the victim plants back (+2 each), which can cancel the removal exactly
+    const algae = this.db.byName.get('Arctic Algae')?.id;
+    if (victim.played.includes(algae) && b.oceans > a.oceans && /plant/i.test(text)) return note(tw('atk.offset', { who: nm, card: esc(this.db.lname(algae)) }, this.isYou(victim.id, b)));
     // what the card would take, and whether the victim had any of it
     const R = { 'M€': 0, megacredit: 0, steel: 1, titanium: 2, plant: 3, energy: 4, heat: 5 };
     // only what the attack clause takes ("gain 2 titanium" is not taken)
     const clause = (text.match(/\b(remove|decrease|steal|reduce)\b[^.]*/i) || [''])[0];
     const hits = [...clause.matchAll(/any (M€|steel|titanium|plant|energy|heat) production|(\d+) (M€|steel|titanium|plants?|energy|heat)\b/gi)];
     const empty = hits.length && hits.every((m) => (m[1] ? was.prod[R[m[1]]] <= (m[1] === 'M€' ? -5 : 0) : was.res[R[m[3].replace(/s$/, '')]] <= 0));
-    if (empty) return note(tw('atk.nothing', { who: nm }, victim.id === b.human));
+    if (empty) return note(tw('atk.nothing', { who: nm }, this.isYou(victim.id, b)));
     if (act.atp == null && act.atk?.[3]) return '';     // "up to": the player chose to take nothing
     report('attack-no-effect', `${cd.name}: no effect on the opponent and no visible reason`, { victim: { res: was.res, prod: was.prod }, act });
     return note(t('atk.noEffect', { who: nm }));
@@ -207,7 +210,7 @@ export class AppLog {
       }
     }
     if (pv && pv.phase === 1 && v.phase !== 1 && v.bought) {
-      const t2 = t('log.researchAll', { list: v.bought.map((n, i) => tw('log.boughtN', { who: `<b style="color:${PCOL[i]}">${esc(this.pname(i))}</b>`, n }, i === v.human)).join(' · ') });
+      const t2 = t('log.researchAll', { list: v.bought.map((n, i) => tw('log.boughtN', { who: `<b style="color:${PCOL[i]}">${esc(this.pname(i))}</b>`, n }, this.isYou(i, v))).join(' · ') });
       const it2 = { t: t2, alt: '', c: '#8aa', g: v.gen };
       (this.feedItems ||= []).push(it2); this.addFeedItem(it2, true);
     }

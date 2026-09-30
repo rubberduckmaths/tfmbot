@@ -473,6 +473,7 @@
  "peek.yourChoice": "tvoj odabir",
  "setup.title": "Odaberi svoj početak",
  "setup.sub": "Odaberi 1 korporaciju, 2 preludija i kupi projektne karte po 3 M€. Desni klik / dugi pritisak na kartu za prikaz u većem obliku.",
+ "setup.cardsList": "Ova ruka na popisu karata ↗",
  "setup.corp": "Korporacija",
  "setup.pre": "Preludiji — odaberi 2 (igraš ih nakon pripreme, bilo kojim redom)",
  "setup.proj": "Projektne karte — po 3 M€",
@@ -1047,5 +1048,9 @@
  "trig.order": "Razrješavaju se ovim redom: {list}.",
  "trig.orderWhy": "Izvlačenje ide prvo, pa kartu koju je jedna od njih izvukla možeš odmah odbaciti.",
  "hex.rc": "polje {c} u redu {r}",
- "hex.rcTitle": "Red {r}, polje {c}"
+ "hex.rcTitle": "Red {r}, polje {c}",
+ "hex.claimed": "{card}: rezervirao {who}; nitko drugi ovdje ne može postaviti pločicu",
+ "rp.povTitle": "S čijeg mjesta gledaš: njegova ruka, odabiri u draftu i izvučene karte. Klikni za promjenu igrača",
+ "rp.povOld": "Samo tvoje mjesto: ova je snimka nastala prije nego što su se TFMBotove karte spremale",
+ "atk.offset": "{who} ih je izgubio, ali {card} je vratio isto toliko"
 }

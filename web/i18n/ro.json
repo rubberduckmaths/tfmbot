@@ -461,6 +461,7 @@
  "peek.yourChoice": "alegerea ta",
  "setup.title": "Alege-ți startul",
  "setup.sub": "Alege 1 corporație, 2 preludii și cumpără oricâte cărți de proiect cu 3 M€ bucata. Clic dreapta / apăsare lungă pe o carte ca s-o citești mărită.",
+ "setup.cardsList": "Această mână în lista de cărți ↗",
  "setup.corp": "Corporație",
  "setup.pre": "Preludii — alege 2 (le joci după pregătire, în orice ordine)",
  "setup.proj": "Cărți de proiect — 3 M€ bucata",
@@ -1031,5 +1032,9 @@
  "trig.order": "Se rezolvă în această ordine: {list}.",
  "trig.orderWhy": "Tragerea vine prima, deci o carte trasă de una dintre ele poate fi cea pe care o arunci.",
  "hex.rc": "rândul {r}, hexul {c}",
- "hex.rcTitle": "Rândul {r}, hexul {c}"
+ "hex.rcTitle": "Rândul {r}, hexul {c}",
+ "hex.claimed": "{card}: rezervat de {who}; nimeni altcineva nu poate plasa o piesă aici",
+ "rp.povTitle": "Din locul cui privești: mâna, alegerile din draft și cărțile trase. Dă clic pentru a schimba jucătorul",
+ "rp.povOld": "Doar locul tău: această reluare a fost înregistrată înainte ca cărțile lui TFMBot să fie salvate",
+ "atk.offset": "{who} le-a pierdut, dar {card} a dat înapoi tot atâtea"
 }

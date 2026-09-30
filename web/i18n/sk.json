@@ -489,6 +489,7 @@
  "peek.yourChoice": "vaša voľba",
  "setup.title": "Vyberte si štart",
  "setup.sub": "Vyberte 1 korporáciu, 2 predohry a kúpte ľubovoľné karty projektov po 3 M€. Kliknutím pravým tlačidlom / dlhým stlačením si kartu zväčšíte.",
+ "setup.cardsList": "Táto ruka v zozname kariet ↗",
  "setup.corp": "Korporácia",
  "setup.pre": "Predohry — vyberte 2 (zahráte ich po príprave, v ľubovoľnom poradí)",
  "setup.proj": "Karty projektov — po 3 M€",
@@ -1069,5 +1070,9 @@
  "trig.order": "Vyhodnotia sa v tomto poradí: {list}.",
  "trig.orderWhy": "Ťahanie ide prvé, takže kartu, ktorú jedna z nich potiahla, môžete hneď odhodiť.",
  "hex.rc": "pole {c} v rade {r}",
- "hex.rcTitle": "Rad {r}, pole {c}"
+ "hex.rcTitle": "Rad {r}, pole {c}",
+ "hex.claimed": "{card}: rezervované hráčom {who}; nikto iný sem nemôže umiestniť dielik",
+ "rp.povTitle": "Z koho miesta sa pozeráte: jeho ruka, výbery v drafte a ťahané karty. Kliknutím prepnete hráča",
+ "rp.povOld": "Len vaše miesto: tento záznam vznikol skôr, než sa začali ukladať karty TFMBota",
+ "atk.offset": "{who} o ne prišiel, ale {card} vrátila rovnako"
 }

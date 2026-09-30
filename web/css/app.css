@@ -247,6 +247,8 @@ button.cact.turn:hover:not(:disabled) { background: #6a3d2a; }
 #zoom .card.big, #modal .cards { zoom: var(--czm, 1); }   /* Settings > Card size (app/chrome.js setCardSize) */
 #tableau { position: absolute; left: calc(var(--side-w) + 16px); top: calc(var(--top-h) + 8px); bottom: calc(var(--hand-h) + 10px); right: 16px; background: rgba(9,11,17,.94); border: 1px solid var(--line2); border-radius: 14px; padding: 12px 14px; overflow-y: auto; z-index: 30; box-shadow: 0 20px 60px -10px #000; }
 #tableau h2 { font-family: var(--fd); margin: 0 0 8px; font-size: 22px; display: flex; gap: 10px; align-items: baseline; }
+#tableau .tbclose { position: sticky; top: 0; float: right; margin: -4px -6px 4px 10px; z-index: 3; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line2); background: rgba(20,24,34,.95); color: var(--text); font-size: 16px; cursor: pointer; }
+#tableau .tbclose:hover { background: rgba(60,66,82,.95); }
 #tableau h2 small { font-family: var(--fb); font-size: 12px; color: var(--dim); font-weight: 400; }
 #tableau .grid { display: flex; flex-wrap: wrap; gap: 10px; }
 #tableau .grid .card { zoom: 1.35; }   /* the hand's hover size, not its resting size */
@@ -254,7 +256,7 @@ button.cact.turn:hover:not(:disabled) { background: #6a3d2a; }
 #tableau .vpb { display: flex; gap: 10px; flex-wrap: wrap; font-size: 12px; color: var(--dim); }
 #tableau .vpb b { color: var(--text); font-family: var(--fd); font-size: 15px; }
 #flyer { position: absolute; inset: 0; pointer-events: none; z-index: 60; }
-#flyer .card { position: absolute; transition: transform calc(.7s * var(--as, 1)) cubic-bezier(.2,.8,.2,1), opacity calc(.5s * var(--as, 1)); }   /* --as: Settings > Animation speed */
+#flyer .card { position: absolute; transition: transform calc(.9s * var(--as, 1)) cubic-bezier(.2,.8,.2,1), opacity calc(.6s * var(--as, 1)); }   /* --as: Settings > Animation speed */
 #flyer .who { position: absolute; font-family: var(--fd); font-weight: 700; font-size: 18px; background: rgba(8,10,16,.88); border: 1px solid currentColor; border-radius: 20px; padding: 3px 14px; box-shadow: 0 6px 20px -6px #000; }
 
 /* ---------- boot ---------- */
@@ -386,12 +388,18 @@ button.cact.turn:hover:not(:disabled) { background: #6a3d2a; }
   #t-oxy { order: 3; }
   #t-ocean { order: 4; }
   #top .spacer { order: 2; flex: 1; }
-  #top button.icon { order: 2; width: 30px; height: 30px; }
+  #top button.icon { order: 2; width: 30px; height: 30px; flex-shrink: 0; }
+  /* exactly two rows, always: generation + temperature + the buttons, then oxygen + oceans. Left to wrap freely, a
+     narrow screen (or Safari's larger text) sent a button or a track onto a third row that the fixed-height bar
+     pushed out of sight -- players lost the settings cog mid-game */
+  #top::after { content: ''; order: 2; flex-basis: 100%; height: 0; }
+  #top#top { row-gap: 0; }   /* (beats the wider screens' `gap`, which would space the two rows apart) */
   #t-oxy .c, #t-temp .c { width: 6px; }
   .trk .cells { height: 32px; padding-top: 14px; padding-bottom: 6px; }
   .trk .c.major::after { display: none; }
 }
 @media (max-width: 640px) and (orientation: portrait) { #top { padding-top: 10px; } }
+@media (max-width: 350px) and (orientation: portrait) { #top { gap: 4px; padding: 0 4px; padding-top: 10px; } #top button.icon { width: 27px; height: 27px; } #t-oxy .c, #t-temp .c { width: 3px; } #t-ocean .c { width: 6px; } }
 
 /* card icon rows */
 .card .icons { display: flex; flex-wrap: wrap; gap: 3px; align-items: center; }
@@ -567,8 +575,6 @@ button.cact.turn:hover:not(:disabled) { background: #6a3d2a; }
 /* drag a card to play it */
 #flyer .dragghost { position: fixed; z-index: 70; pointer-events: none; transition: box-shadow .2s; will-change: transform; box-shadow: 0 24px 50px -10px #000; }   /* no transform transition: it would fight the per-frame moves (app/hand.js bindCardDrag) */
 #flyer .dragghost.armed { box-shadow: 0 0 0 3px var(--good), 0 0 40px -4px var(--good), 0 24px 50px -10px #000; }
-#flyer .dragghost.onhex { transform-origin: 50% 100%; opacity: .75; }   /* over a hex it can be dropped on (app/hand.js bindCardDrag) */
-#ui.drophex::after { display: none; }   /* a tile card: the lit hexes are the target */
 #flyer .dragghost.nope { box-shadow: 0 0 0 3px var(--bad), 0 24px 50px -10px #000; }
 #hand .card.dragging { opacity: .25; }
 #ui.dropping::after { content: 'Release to play'; position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%); padding: 70px 120px; border: 2px dashed rgba(255,255,255,.25); border-radius: 22px; font-family: var(--fd); font-weight: 700; font-size: 22px; color: rgba(255,255,255,.5); pointer-events: none; background: rgba(255,255,255,.03); }
@@ -622,7 +628,7 @@ button.cact.turn:hover:not(:disabled) { background: #6a3d2a; }
 @keyframes peekpulse { 50% { box-shadow: 0 0 0 3px #fff5, 0 0 36px var(--accent); } }
 /* phones: at the top it hid the player boards the player hid the dialog to look at -- smaller, above the hand */
 @media (max-width: 899px), (max-height: 559px) {
-  #modal.peek .peekbtn { top: auto; bottom: calc(var(--hand-h) + 12px); font-size: 14px; padding: 8px 16px; max-width: calc(100vw - 32px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #modal.peek .peekbtn { top: auto; bottom: calc(var(--hand-h) + 64px);   /* (dialogs.js sets the exact spot: just above the turn controls, which must stay reachable) */ font-size: 14px; padding: 8px 16px; max-width: calc(100vw - 32px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 }
 
 /* tableau: one sideways-scrolling row per card colour */
@@ -707,7 +713,7 @@ button.cact.turn:hover:not(:disabled) { background: #6a3d2a; }
 /* a move that brings no card (a standard project, plants into greenery, a milestone...): its own small card (app/anim.js flyMove) */
 #flyer .movefly { position: absolute; width: 210px; height: 250px; box-sizing: border-box; padding: 20px 14px; border-radius: 16px; border: 3px solid var(--pc, #fff);
   background: radial-gradient(120% 90% at 50% 20%, #26324a 0%, #111827 70%); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
-  text-align: center; color: #f4f6fb; transition: transform calc(.7s * var(--as, 1)) cubic-bezier(.2,.8,.2,1), opacity calc(.5s * var(--as, 1)); }
+  text-align: center; color: #f4f6fb; transition: transform calc(.9s * var(--as, 1)) cubic-bezier(.2,.8,.2,1), opacity calc(.6s * var(--as, 1)); }
 #flyer .movefly.glowfly { box-shadow: 0 0 22px 0 var(--pc), 0 18px 50px -18px #000; }
 #flyer .movefly img { max-width: 120px; max-height: 130px; object-fit: contain; filter: drop-shadow(0 6px 10px rgba(0,0,0,.5)); }
 #flyer .movefly .mi { font-size: 90px; line-height: 1; filter: drop-shadow(0 6px 10px rgba(0,0,0,.5)); }
@@ -982,6 +988,10 @@ html[data-gfx="low"] .res .rc:nth-child(6), html[data-gfx="low"] #hand .card.pic
 .rvtray .rvg { max-height: 70vh; overflow: hidden; overscroll-behavior: contain; }
 .rvtray .rvg.scroll { overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; }   /* only when the rows really don't fit (showReveal) */
 #modal .box { overflow-x: hidden; }   /* card borders/zoom never cause a sideways bar in dialogs */
+/* the dialog fits the VISIBLE screen: on phones 'vh' includes the space behind the browser's toolbars, so a
+   tall dialog ran past the bottom and its button row (Confirm) needed a scroll to reach -- dvh is what is visible */
+#modal .box { max-height: 92vh; max-height: calc(100dvh - 24px); }
+@media (max-width: 760px) { #modal { padding: 6px; } #modal .box { max-height: calc(100dvh - 12px); } #modal .foot .info:empty { display: none; } }
 
 /* title screens: fan-made note + the TFMBot Discord */
 #boot .boot-foot { position: absolute; left: 0; right: 0; bottom: max(16px, env(safe-area-inset-bottom)); z-index: 6; text-align: center; font-size: 12px; color: var(--dim); padding: 0 16px; pointer-events: auto; }
@@ -1151,6 +1161,7 @@ body.replay #menu label:has(#set-sims), body.replay #menu label:has(#set-autocon
 #rpbar .rpticks { position: absolute; left: 8px; right: 8px; top: 0; bottom: 0; pointer-events: none; }
 #rpbar .rptick { position: absolute; top: 9px; bottom: 9px; width: 2px; margin-left: -1px; background: rgba(255,255,255,.35); border-radius: 1px; }
 #rpbar .rptick i { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); font-style: normal; font-family: var(--fd); font-size: 10px; color: var(--faint); }
+#rpbar .rpb.seat { width: auto; max-width: 132px; padding: 0 9px; font-family: var(--fd); font-weight: 700; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 #rpbar .rpread { flex: none; font-family: var(--fd); font-size: 13px; color: var(--dim); white-space: nowrap; min-width: 118px; text-align: center; }
 .rvtray.rp-offer { z-index: 3; width: min(var(--rpw, 600px), 96vw); max-width: 96vw; padding: 10px 12px 12px; }   /* (an explicit width: left 50% alone would squeeze it to half the screen) */
 .rvtray.rp-offer.rp-out { opacity: 0; transition: opacity .35s; }
@@ -1232,3 +1243,42 @@ body.replay #menu label:has(#set-sims), body.replay #menu label:has(#set-autocon
 #tableau .tbn:has(.nused) .nm { opacity: .6; }
 @media (max-width: 1100px), (max-height: 760px) { #tableau .stk .card { zoom: 1; } }
 @media (min-width: 1700px) and (min-height: 950px) { #tableau .stk .card { zoom: 1.3; } }
+
+/* card iconography a size up -- tags, requirement chips and the effect icons -- still inside the card's frame */
+.card .ctags img { width: 20px; height: 20px; }
+.card .req { font-size: 9.5px; }
+.card .req img { width: 13px; height: 13px; }
+.card .req img.thermo { height: 15px; }
+.card .icons { gap: 2px; }
+.card .fxi { font-size: 12px; padding: 1px 2px; }
+.card .fxi img { width: 16px; height: 16px; }
+.card .fxi img.hex { width: 14px; height: 17px; }
+.card .prodbox { gap: 2px; padding: 1px 2px; }
+.card .prodbox img { width: 15px; height: 15px; }
+.card .prodbox span { font-size: 12px; }
+.card.big .icons { gap: 3px; }
+.card.big .fxi { padding: 2px 5px; }
+.card.big .prodbox { gap: 3px; padding: 1px 3px; }
+.card.big .ctags img { width: 36px; height: 36px; }
+.card.big .req { font-size: 13.5px; }
+.card.big .req img { width: 19px; height: 19px; }
+.card.big .req img.thermo { height: 23px; }
+.card.big .fxi { font-size: 18.5px; }
+.card.big .fxi img { width: 26px; height: 26px; }
+.card.big .fxi img.hex { width: 24px; height: 28px; }
+.card.big .prodbox img { width: 24px; height: 24px; }
+.card.big .prodbox span { font-size: 18.5px; }
+
+/* a card's action being used (the fly-by): its Action box lights up and pulses */
+#flyer .card.actused .fx.act { position: relative; background: rgba(74,163,255,.3); border-color: #9fd3ff; box-shadow: 0 0 0 2px #7fc4ff, 0 0 22px 2px #4aa3ff; animation: actpulse calc(.9s * var(--as, 1)) ease-in-out 3; }
+@keyframes actpulse { 50% { box-shadow: 0 0 0 3px #d6ecff, 0 0 34px 6px #4aa3ff; background: rgba(120,190,255,.42); } }
+@media (prefers-reduced-motion: reduce) { #flyer .card.actused .fx.act { animation: none; } }
+
+/* big cards (the zoomed card, fly-bys): no art -- the text is the point -- and one text size for all, the largest at
+   which the wordiest card still fits (Livestock in English, Search For Life in German: 15px; fitText covers longer
+   translations) */
+.card.big .art { display: none; }
+.card.big { font-size: 15px; }
+#modal .sub a.cardslist { color: var(--accent2); font-weight: 600; text-decoration: none; white-space: nowrap; }
+#modal .sub a.cardslist:hover { text-decoration: underline; }
+#modal .box h2 .mapbadge { font-size: 15px; font-weight: 600; letter-spacing: 0; margin-left: 10px; padding: 2px 10px; border-radius: 999px; background: rgba(255,255,255,.08); border: 1px solid var(--line2); color: var(--dim); vertical-align: middle; white-space: nowrap; }

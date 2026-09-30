@@ -444,6 +444,7 @@
  "peek.yourChoice": "iyong pinili",
  "setup.title": "Piliin ang iyong simula",
  "setup.sub": "Pumili ng 1 korporasyon, 2 prelude, at bumili ng kahit anong project card sa halagang 3 M€ bawat isa. I-right-click / pindutin nang matagal ang baraha para basahin ito nang malaki.",
+ "setup.cardsList": "Ang kamay na ito sa listahan ng card ↗",
  "setup.corp": "Korporasyon",
  "setup.pre": "Prelude — pumili ng 2 (lalaruin mo pagkatapos ng paghahanda, kahit anong ayos)",
  "setup.proj": "Project card — 3 M€ bawat isa",
@@ -1004,5 +1005,9 @@
  "trig.order": "Ganito ang pagkakasunod-sunod nila: {list}.",
  "trig.orderWhy": "Nauuna ang pagbunot, kaya ang barahang nabunot ng isa sa kanila ay puwedeng siyang itapon mo.",
  "hex.rc": "hanay {r}, hex {c}",
- "hex.rcTitle": "Hanay {r}, hex {c}"
+ "hex.rcTitle": "Hanay {r}, hex {c}",
+ "hex.claimed": "{card}: nakareserba kay {who}; walang ibang makapaglalagay ng tile dito",
+ "rp.povTitle": "Kaninong upuan ka nanonood: ang kanilang kamay, mga pinili sa draft at mga nabunot. I-click para magpalit ng manlalaro",
+ "rp.povOld": "Ang upuan mo lang: na-record ang replay na ito bago na-save ang mga baraha ng TFMBot",
+ "atk.offset": "Nawala ang mga ito kay {who}, pero ibinalik ng {card} ang ganoon din"
 }

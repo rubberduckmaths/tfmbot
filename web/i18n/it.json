@@ -444,6 +444,7 @@
  "peek.yourChoice": "la tua scelta",
  "setup.title": "Scegli il tuo inizio",
  "setup.sub": "Scegli 1 corporazione, 2 preludi e compra le carte progetto che vuoi a 3 M€ l'una. Clic destro / pressione lunga su una carta per leggerla in grande.",
+ "setup.cardsList": "Questa mano nella lista delle carte ↗",
  "setup.corp": "Corporazione",
  "setup.pre": "Preludi — scegline 2 (li giochi dopo la preparazione, in qualsiasi ordine)",
  "setup.proj": "Carte progetto — 3 M€ l'una",
@@ -1004,5 +1005,9 @@
  "trig.order": "Si risolvono in quest'ordine: {list}.",
  "trig.orderWhy": "Le pescate vengono prima, quindi una carta pescata da una di esse può essere quella che scarti.",
  "hex.rc": "riga {r}, esagono {c}",
- "hex.rcTitle": "Riga {r}, esagono {c}"
+ "hex.rcTitle": "Riga {r}, esagono {c}",
+ "hex.claimed": "{card}: riservato da {who}; nessun altro può piazzare una tessera qui",
+ "rp.povTitle": "Da quale posto guardi: la sua mano, le scelte del draft e le pescate. Clicca per cambiare giocatore",
+ "rp.povOld": "Solo il tuo posto: questo replay è stato registrato prima che le carte di TFMBot venissero salvate",
+ "atk.offset": "{who} le ha perse, ma {card} ne ha restituite altrettante"
 }

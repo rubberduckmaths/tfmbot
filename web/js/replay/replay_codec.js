@@ -298,5 +298,7 @@ export function sanitizeReplay(r, local, mapId) {
     if (st.cut) o.cut = 1;
     return o;
   });
-  return { views, steps, partial: !!r.partial };
+  // a whole recording (both seats' secrets kept: the recorder's `full`, or seen in the views themselves)
+  const full = r.full === 1 || views.some((v) => v.players.some((p) => p.id !== v.human && p.hand.some((c) => c >= 0)));
+  return { views, steps, partial: !!r.partial, full };
 }

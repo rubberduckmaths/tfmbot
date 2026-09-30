@@ -487,6 +487,7 @@
  "peek.yourChoice": "tavo pasirinkimas",
  "setup.title": "Pasirink pradžią",
  "setup.sub": "Pasirink 1 korporaciją, 2 preliudijas ir nusipirk projekto kortų po 3 M€. Dešinysis spustelėjimas / ilgas paspaudimas parodo kortą padidintą.",
+ "setup.cardsList": "Ši ranka kortų sąraše ↗",
  "setup.corp": "Korporacija",
  "setup.pre": "Preliudijos — pasirink 2 (sužaisi jas po pasiruošimo, bet kuria tvarka)",
  "setup.proj": "Projekto kortos — po 3 M€",
@@ -1072,5 +1073,9 @@
  "trig.order": "Jos vykdomos tokia tvarka: {list}.",
  "trig.orderWhy": "Traukimas vyksta pirmas, todėl kortą, kurią ištraukė viena iš jų, gali iškart išmesti.",
  "hex.rc": "eilė {r}, langelis {c}",
- "hex.rcTitle": "Eilė {r}, langelis {c}"
+ "hex.rcTitle": "Eilė {r}, langelis {c}",
+ "hex.claimed": "{card}: rezervavo {who}; niekas kitas čia negali padėti plytelės",
+ "rp.povTitle": "Iš kieno vietos žiūrite: jo ranka, drafto pasirinkimai ir traukiamos kortos. Spustelėkite, kad perjungtumėte žaidėją",
+ "rp.povOld": "Tik jūsų vieta: šis įrašas padarytas prieš pradedant saugoti TFMBot kortas",
+ "atk.offset": "{who} jų neteko, bet {card} grąžino tiek pat"
 }

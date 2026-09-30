@@ -20,7 +20,7 @@ export function bonusIconUrl(ic) { return `assets/res/${ic}.png`; }
 export const MAP_KEYS = { 0: 'tharsis', 1: 'hellas', 2: 'elysium', 7: 'vastitas-borealis-novus' };
 // the baked map textures' version: assets/ is cached for a week by browsers and the CDN, so BUMP THIS whenever
 // the textures in web/assets/maps/ change, or returning players keep the old globe
-export const MAP_TEX_V = '2026-09-28c';
+export const MAP_TEX_V = '2026-09-30a';
 export const MAP_LABELS = {
   1: { 60: 'South Pole' },
   2: { 7: 'Hecates Tholus', 13: 'Elysium Mons', 19: 'Olympus Mons', 36: 'Arsia Mons' },

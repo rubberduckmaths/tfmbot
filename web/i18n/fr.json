@@ -400,6 +400,7 @@
  "peek.yourChoice": "votre choix",
  "setup.title": "Choisissez votre départ",
  "setup.sub": "Choisissez 1 corporation, 2 préludes, et achetez autant de cartes projet que vous voulez à 3 M€ chacune. Clic droit / appui long sur une carte pour l'agrandir.",
+ "setup.cardsList": "Cette main dans la liste des cartes ↗",
  "setup.corp": "Corporation",
  "setup.pre": "Préludes — choisissez-en 2 (joués après la mise en place, dans l'ordre de votre choix)",
  "setup.proj": "Cartes projet — 3 M€ chacune",
@@ -1007,5 +1008,9 @@
  "trig.order": "Elles se résolvent dans cet ordre : {list}.",
  "trig.orderWhy": "Les pioches passent en premier : une carte piochée par l'une d'elles peut donc être celle que vous défaussez.",
  "hex.rc": "rangée {r}, hex. {c}",
- "hex.rcTitle": "Rangée {r}, hex. {c}"
+ "hex.rcTitle": "Rangée {r}, hex. {c}",
+ "hex.claimed": "{card} : réservé par {who} ; personne d'autre ne peut poser de tuile ici",
+ "rp.povTitle": "La place d'où vous regardez : sa main, ses choix de draft et ses pioches. Cliquez pour changer de joueur",
+ "rp.povOld": "Votre place seulement : cette rediffusion a été enregistrée avant que les cartes de TFMBot soient sauvegardées",
+ "atk.offset": "{who} les a perdues, mais {card} en a rendu autant"
 }

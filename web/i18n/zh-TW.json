@@ -387,6 +387,7 @@
  "peek.yourChoice": "你的選擇",
  "setup.title": "選擇你的開局",
  "setup.sub": "選1家公司、2張序章牌，並以每張3 M€購買任意數量的專案卡。在卡牌上按右鍵或長按可放大閱讀。",
+ "setup.cardsList": "在卡牌列表中查看這手牌 ↗",
  "setup.corp": "公司",
  "setup.pre": "序章牌——選2張（準備階段後依任意順序打出）",
  "setup.proj": "專案卡——每張3 M€",
@@ -937,5 +938,9 @@
  "trig.order": "依以下順序結算：{list}。",
  "trig.orderWhy": "抽牌先結算，所以你可以棄掉其中某張卡剛抽到的牌。",
  "hex.rc": "第{r}列第{c}格",
- "hex.rcTitle": "第{r}列第{c}格"
+ "hex.rcTitle": "第{r}列第{c}格",
+ "hex.claimed": "{card}：已被{who}預留，其他人不能在此放置板塊",
+ "rp.povTitle": "從誰的座位觀看：其手牌、輪抽選擇與抽到的牌。點擊切換玩家",
+ "rp.povOld": "僅限你的座位：此重播錄製於保存TFMBot手牌之前",
+ "atk.offset": "{who}失去了它們，但{card}又補回了同樣的數量"
 }

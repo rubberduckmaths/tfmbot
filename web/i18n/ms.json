@@ -387,6 +387,7 @@
  "peek.yourChoice": "pilihan anda",
  "setup.title": "Pilih permulaan anda",
  "setup.sub": "Pilih 1 syarikat, 2 prelud, dan beli mana-mana kad projek pada 3 M€ setiap satu. Klik kanan / tekan lama pada kad untuk membacanya dalam saiz besar.",
+ "setup.cardsList": "Tangan ini dalam senarai kad ↗",
  "setup.corp": "Syarikat",
  "setup.pre": "Prelud — pilih 2 (anda mainkannya selepas persediaan, dalam apa jua susunan)",
  "setup.proj": "Kad projek — 3 M€ setiap satu",
@@ -937,5 +938,9 @@
  "trig.order": "Ini diselesaikan mengikut urutan ini: {list}.",
  "trig.orderWhy": "Cabutan didahulukan, jadi kad yang dicabut oleh salah satunya boleh menjadi kad yang anda buang.",
  "hex.rc": "baris {r}, heks {c}",
- "hex.rcTitle": "Baris {r}, heks {c}"
+ "hex.rcTitle": "Baris {r}, heks {c}",
+ "hex.claimed": "{card}: ditempah oleh {who}; tiada orang lain boleh meletakkan jubin di sini",
+ "rp.povTitle": "Tempat duduk siapa yang anda tonton: tangan, pilihan draf dan kad yang ditarik. Klik untuk tukar pemain",
+ "rp.povOld": "Tempat anda sahaja: ulang tayang ini dirakam sebelum kad TFMBot disimpan",
+ "atk.offset": "{who} kehilangannya, tetapi {card} memulangkan jumlah yang sama"
 }

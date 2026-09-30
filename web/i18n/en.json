@@ -401,6 +401,7 @@
  "peek.yourChoice": "your choice",
  "setup.title": "Choose your start",
  "setup.sub": "Pick 1 corporation, 2 preludes, and buy any project cards at 3 M€ each. Right-click / long-press a card to read it large.",
+ "setup.cardsList": "This hand on the cards list ↗",
  "setup.corp": "Corporation",
  "setup.pre": "Preludes — choose 2 (you play them after setup, in any order)",
  "setup.proj": "Project cards — 3 M€ each",
@@ -1002,5 +1003,9 @@
  "rp.err.format": "This replay file is damaged",
  "rp.err.version": "This replay was made by a different version of TFMBot",
  "rp.err.sub": "Check the link, or start a game of your own.",
- "rp.placed": "{who} placed a {tile}{at}"
+ "rp.placed": "{who} placed a {tile}{at}",
+ "hex.claimed": "{card}: reserved by {who}; no one else can place a tile here",
+ "rp.povTitle": "Whose seat you watch from: their hand, draft picks and draws. Click to switch players",
+ "rp.povOld": "Only your seat: this replay was recorded before TFMBot's cards were saved",
+ "atk.offset": "{who} lost the plants, but {card} gave as many back"
 }

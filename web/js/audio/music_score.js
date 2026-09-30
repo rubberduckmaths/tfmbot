@@ -1,4 +1,4 @@
-// music_score.js -- the music: seven tracks, each with its own written theme (an 8-bar A phrase -- antecedent +
+// music_score.js -- the music: thirteen tracks, each with its own written theme (an 8-bar A phrase -- antecedent +
 // consequent -- and an 8-bar B phrase built on sequences), played through an arc by the orchestra:
 //   opening pad -> theme on a solo horn / flute / violas -> theme in the cellos (octaves) -> bridge in the violins ->
 //   theme with full strings + horn countermelody + soft spiccato ostinato -> build -> climax (violins in octaves with
@@ -7,11 +7,22 @@
 // Terraforming shapes every section as it starts: barren = low registers, no brass chorale, no key lift, mysterious;
 // green = the full bloom (chorale, key lift, flute descant, a major ending). Barren / green also pick the tracks.
 // E is the MusicEngine (music_engine.js); lite engines (phones, low-core machines) drop the doublings and big brass.
+// The six later tracks (Valles Marineris .. Terraformers' Hymn, auditioned in the music lab as variant E) add, only
+// for themselves: new solo voices (cello, harp, flute + harp, soft trombone), their own second-arc lead (`alt`),
+// 6/8 (beats: 6, bpm counts eighths; harp and spiccato move in eighths), and an opening pedal that yields to the
+// chord's own root under a chord that would rub against it (pedal: 'agree'). The first seven play exactly as before.
 import { SC, voiceLead, chance } from './music_engine.js';
 
 // ---- the themes ---------------------------------------------------------------------------------
 // chords: absolute names per bar ('Bb:2 C:2' splits a bar in beats). melody: semitones above the tonic
 // ('7/1.5' = 7 semitones for 1.5 beats, default 1 beat, 'r' = rest), bars separated by '|'.
+const PCN = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+const SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+const FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+// tp(chords, n): a chord line transposed by n semitones (so a theme can be written in a convenient key)
+function tp(line, n, flats = false) {
+  return line.replace(/([A-G])([b#]?)/g, (_, l, acc) => (flats ? FLAT : SHARP)[(((PCN[l] + (acc === 'b' ? -1 : acc === '#' ? 1 : 0) + n) % 12) + 12) % 12]);
+}
 const TD_SRC = {
   'red-horizon': { title: 'Red Horizon', root: 62, scale: SC.aeolian, bpm: 64, beats: 4, stage: 'barren', solo: 'hn', w: 1.3,
     A: ['Dm | Bb | F | C | Dm | C | Gm | Dm',
@@ -48,9 +59,45 @@ const TD_SRC = {
       '7/2 4 7 | 12/2 11 9 | 9/1.5 7/.5 5/2 | 7/4 | 7 12 16/2 | 18/2 14/2 | 12 9 8 7 | 12/4'],
     B: ['Cm | Ab | Eb | Bb | Cm | Ab | F | Bb',
       '9 12 16/2 | 17/1.5 16/.5 12/2 | 14 12 7/2 | 11/3 r | 9 12 16/2 | 17 19 17 16 | 14/2 18/2 | 14/2 11/2'] },
+  // the canyon: a long, low cello line that climbs a fifth and an octave and sighs back down; the bridge rises
+  // in sequence (G - D - Em) and turns through the harmonic-minor F-sharp major back home
+  'valles-marineris': { title: 'Valles Marineris', root: 59, scale: SC.aeolian, bpm: 54, beats: 4, stage: 'barren', solo: 'vc', alt: 'hn', w: 1.3, pedal: 'agree',
+    A: ['Bm | G | D | A | Bm | Em | G:2 F#:2 | Bm',
+      '0/2 7 12 | 12/1.5 10/.5 8/2 | 7 5 3/2 | 5/1.5 3/.5 2/2 | 0/2 7 12 | 17/2 15 12 | 15 12 11/2 | 12/4'],
+    B: ['G | D | Em | Bm | G | A | Em:2 G:2 | F#',
+      '8 10 12/2 | 10 12 15/2 | 12 15 17/2 | 15/3 r | 17/1.5 15/.5 12/2 | 14/1.5 12/.5 10/2 | 12 10 8/2 | 7/2 11/2'] },
+  // the two small moons: a lilting 6/8 harp tune, falling by steps onto the phrygian half-step (D -> C-sharp minor)
+  'twin-moons': { title: 'Twin Moons', root: 61, scale: SC.phrygian, bpm: 100, beats: 6, stage: 'barren', solo: 'hp', alt: 'vla', w: 1.2, pedal: 'agree',
+    A: [tp('Em | F | Em | Dm | C | F | Dm:3 F:3 | Em', -3),
+      '7/2 5 3/3 | 5/2 3 1/3 | 3 5 7 12/3 | 13/2 12 10/3 | 15/2 13 12/3 | 13/2 12 8/3 | 10/2 8 5/2 1 | 0/6'],
+    B: [tp('Am | G | F | Em | Am | G | Dm | F', -3),
+      '12/3 8 10 12 | 10/3 7 8 10 | 8/3 5/3 | 7/6 | 12/2 10 8/3 | 10/2 8 7/3 | 10/3 5/3 | 8/2 5 1/3'] },
+  // the mountain: a slow trombone call in mixolydian (the flat seventh, A-flat, is the colour), stepping up by fourths
+  'olympus-mons': { title: 'Olympus Mons', root: 58, scale: SC.mixolydian, bpm: 62, beats: 4, stage: 'any', solo: 'tbn', alt: 'hn', w: 1.3, pedal: 'agree',
+    A: [tp('A | G | D | A | F#m | D | Bm:2 G:2 | A', 1, true),
+      '7/2 12/2 | 14/1.5 12/.5 10/2 | 9 12 17/2 | 16/3 r | 16/1.5 14/.5 12 9 | 12/2 14 17 | 17 14 10/2 | 12/4'],
+    B: [tp('D | A | G | D | Bm | F#m | G | E', 1, true),
+      '12/1.5 14/.5 17/2 | 16/1.5 14/.5 12/2 | 10/1.5 12/.5 14/2 | 12/3 r | 14/1.5 17/.5 21/2 | 19/1.5 17/.5 16/2 | 14 12 10 14 | 14/2 11/2'] },
+  // the crossing: a rolling 6/8 tune for the violins, dorian (the bright IV chord, B major), like a sea song
+  'long-voyage': { title: 'The Long Voyage', root: 66, scale: SC.dorian, bpm: 102, beats: 6, stage: 'any', solo: 'vln', alt: 'fl', w: 1.3, pedal: 'agree',
+    A: [tp('Dm | C | F | G | Dm | C | Am:3 G:3 | Dm', 4),
+      '0/2 3 7/3 | 10/2 7 5/3 | 3/2 5 7/2 10 | 9/3 5/3 | 0/2 3 7/2 12 | 14/2 12 10/3 | 14/2 12 9/3 | 12/6'],
+    B: [tp('F | C | G | Dm | F | C | Em:3 Am:3 | A', 4),
+      '15/2 12 10/3 | 14/2 10 5/3 | 9/2 12 17/3 | 15/3 14 12 10 | 7/2 10 15/3 | 14/2 12 10/3 | 9/2 5 7/3 | 11/3 7/3'] },
+  // the first grass: a slow waltz, flute doubled by harp; the second phrase is the same tune over the relative minor
+  'tharsis-meadows': { title: 'Tharsis Meadows', root: 62, scale: SC.ionian, bpm: 58, beats: 3, stage: 'green', solo: 'hpfl', alt: 'vln', w: 1.3, pedal: 'agree',
+    A: ['D | G | D | A | Bm | G | Em:2 A:1 | D',
+      '4 7 12 | 14/2 12 | 12/1.5 9/.5 7 | 4/3 | 4 7 12 | 12/2 14 | 17 14 11 | 12/3'],
+    B: ['Bm | F#m | G | D | Em | Bm | G | A',
+      '9 12 16 | 16/2 11 | 5 9 12 | 12/2 7 | 14 17 21 | 21/2 16 | 17 14 12 | 11/3'] },
+  // the anthem: a stepwise hymn for the horn with plagal ("amen") colour; the bridge descends in thirds, then climbs
+  'terraformers-hymn': { title: "Terraformers' Hymn", root: 68, scale: SC.ionian, bpm: 58, beats: 4, stage: 'green', solo: 'hn', alt: 'vc', w: 1.3, pedal: 'agree',
+    A: [tp('C | F | C | G | Am | F | F:2 G:2 | C', 8, true),
+      '4/2 7/2 | 9/2 5/2 | 4 2 0 4 | 2/4 | 9/2 12/2 | 12/1.5 14/.5 12 9 | 9/2 7 2 | 0/4'],
+    B: [tp('Am | Em | F | C | Dm | Am | F | G', 8, true),
+      '12/2 16/2 | 11/2 7/2 | 9/2 12/2 | 7/2 4/2 | 5/2 9/2 | 12/1.5 14/.5 16/2 | 17/2 14 12 | 11/2 14/2'] },
 };
 
-const PCN = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
 const QUAL = { '': [0, 4, 7], m: [0, 3, 7], sus4: [0, 5, 7], sus2: [0, 2, 7] };
 function parseChord(sym) {
   const m = /^([A-G])([b#]?)(m|sus4|sus2)?$/.exec(sym);
@@ -71,13 +118,14 @@ function parsePhrase([ch, mel], beats) {
 }
 export const TRACKS = {};
 for (const [name, d] of Object.entries(TD_SRC)) {
-  TRACKS[name] = { ...d, name, steps: d.beats * 4, rv: 0.85, dl: 0.1, fx: 0.6,
+  TRACKS[name] = { ...d, name, steps: d.beats * 4, rv: 0.85, dl: 0.1, fx: 0.6, compound: d.beats === 6,
     A: parsePhrase(d.A, d.beats), B: parsePhrase(d.B, d.beats), step: (E, L, t, i, s) => { if (s === 0) epicBar(E, L, t, i); } };
 }
 
 // ---- the arc --------------------------------------------------------------------------------------------------
 // instrument ranges for placing a whole phrase (keeps the contour, picks the octave)
-const RANGE = { hn: [50, 74], fl: [64, 86], vla: [52, 72], vln: [62, 84], vln8: [60, 76], vc8: [45, 62], full: [62, 79] };
+const RANGE = { hn: [50, 74], fl: [64, 86], vla: [52, 72], vln: [62, 84], vln8: [60, 76], vc8: [45, 62], full: [62, 79],
+  vc: [43, 64], hp: [55, 79], hpfl: [64, 84], tbn: [46, 65] };
 
 function plan(L) {
   const k = ['A1', 'A2', 'B1', 'A3', 'B2', 'A4', 'tag', 'coda'];
@@ -91,7 +139,7 @@ function nextSection(E, L) {
     L.plan = plan(L); L.pi = 0;
   }
   const kind = L.plan[L.pi++], tf = E._tf, barren = tf < 0.3, bloom = tf >= 0.6, rot = L.cycle % 2;
-  const alt = d.solo === 'hn' ? 'fl' : 'hn';
+  const alt = d.alt || (d.solo === 'hn' ? 'fl' : 'hn');
   const S = { kind, bars: 8, trans: 0, counter: null, ost: 0, chorale: 0, flute: false, timpEnd: false, melBars: 8 };
   switch (kind) {
     case 'pre': Object.assign(S, { lvl: 0, bars: 4, phrase: 'A', voice: null }); break;
@@ -203,9 +251,11 @@ function chord(E, L, S, t, c, dur, base, b, beats) {
     if (top <= 88) E._smp(L, 'vln', top, t, dur, { att, rel, gain: padG * 0.7, pan: 0.3, fx: 0.45, cut: 2200, offset: 0.12, prio: 2 });
   }
   // bass: a tonic pedal at the opening, the root from the first statement on, contrabass once the arc opens up
-  if (lvl === 0) {
+  if (lvl === 0 && d.pedal === 'agree') agreeingPedal(E, L, S, t, c, dur, root, b, beats);
+  else if (lvl === 0) {
     if (b % 2 === 0) { const ped = 36 + ((d.root + S.trans - 36) % 12 + 12) % 12; E._smp(L, 'vc', ped + (ped < 40 ? 12 : 0), t, dur * 2, { att: 2, rel: 2.5, gain: 0.055, cut: 1200, fx: 0.3, offset: 0.15, prio: 2 }); }
   } else {
+    L.pedUntil = null;
     E._smp(L, 'vc', root + (root < 40 ? 12 : 0), t, dur, { att: 0.6, rel: 1.5, gain: 0.09, cut: 1400, fx: 0.3, offset: 0.12, prio: 2 });
     if (lvl >= 2) E._smp(L, 'cb', root - 12 < 28 ? root : root - 12, t, dur, { att: 0.6, rel: 1.5, gain: 0.08 + 0.01 * lvl, cut: 800, fx: 0.25, offset: 0.12, prio: 2 });
   }
@@ -213,6 +263,20 @@ function chord(E, L, S, t, c, dur, base, b, beats) {
   motion(E, L, S, t, v, root, dur, beats);
   if (S.counter) counter(E, L, S, t, tones, dur);
   if (lvl <= 1 && b % 2 === 0) E.vShimmer(L, t, dur * 2);
+}
+// the opening pedal of the later tracks: the tonic held over two bars where both chords agree with it (no semitone
+// or tritone against it), else that chord's own root, so nothing grinds (the phrygian D major over C-sharp)
+function agreeingPedal(E, L, S, t, c, dur, root, b, beats) {
+  const d = L.def, tonic = (d.root + S.trans) % 12, ped = 36 + ((tonic - 36) % 12 + 12) % 12;
+  const agrees = (cc) => cc.iv.every((x) => { const ic = ((((cc.pc + S.trans + x) - tonic) % 12) + 12) % 12; return ic !== 1 && ic !== 6; });
+  const o = { att: 2, rel: 2.5, gain: 0.055, cut: 1200, fx: 0.3, offset: 0.15, prio: 2 };
+  if (L.pedUntil != null && t < L.pedUntil - 0.05) return;   // still held from the bar before
+  if (agrees(c)) {
+    const nxt = S.ph.ch[(b + 1) % S.ph.ch.length], hold = b % 2 === 0 && beats === d.beats && nxt.every((sg) => agrees(sg.c));
+    E._smp(L, 'vc', ped + (ped < 40 ? 12 : 0), t, hold ? dur * 2 : dur, o); L.pedUntil = t + (hold ? dur * 2 : dur);
+  } else {
+    E._smp(L, 'vc', root + (root < 40 ? 12 : 0), t, dur, { ...o, att: 1.2 }); L.pedUntil = t + dur;
+  }
 }
 // soft brass chorale: horns on the upper chord tones, trombones below, tuba on the root
 function chorale(E, L, S, t, v, root, dur) {
@@ -229,6 +293,7 @@ function chorale(E, L, S, t, v, root, dur) {
 }
 // gentle forward motion: harp arpeggios, then a soft spiccato ostinato in the cellos (and violins at the climax)
 function motion(E, L, S, t, v, root, dur, beats) {
+  if (L.def.compound) return motion68(E, L, S, t, v, root, dur, beats);
   const lvl = S.lvl, beat = dur / beats, tf = E._tf;
   if (lvl >= 1) {
     const tones = [...v, ...v.map((m) => m + 12)].filter((m) => m >= 55 && m <= 84);
@@ -252,6 +317,33 @@ function motion(E, L, S, t, v, root, dur, beats) {
     }
   }
 }
+// 6/8: the harp moves in eighths (a lilting 1 . 3 4 . 6 while the arc is quiet), the spiccato in root-fifth-octave
+function motion68(E, L, S, t, v, root, dur, beats) {
+  const lvl = S.lvl, beat = dur / beats, tf = E._tf;
+  if (lvl >= 1 && (lvl > 1 || L.sb % 2 === 1)) {
+    const tones = [...v, ...v.map((m) => m + 12)].filter((m) => m >= 55 && m <= 84);
+    const every = lvl >= 2 && lvl < 4 && tf >= 0.3, updown = L.sb % 2 === 0, n = Math.round(dur / beat);
+    let j = 0;
+    for (let k = 0; k < n; k++) {
+      if (!every && k % 3 === 1) continue;
+      const per = Math.max(1, 2 * tones.length - 2), u = j % per, idx = updown ? (u < tones.length ? u : per - u) : j % tones.length;
+      j++;
+      const m = tones[idx]; if (m == null) continue;
+      E._smp(L, 'hp', m, t + k * beat, 2.5, { att: 0.004, rel: 1.2, gain: 0.07 + 0.01 * lvl, cut: 2200, fx: 0.6, pan: (idx / tones.length - 0.5) * 0.8, prio: 1 });
+    }
+  }
+  if (S.ost) {
+    const pat = [0, 7, 12, 7, 12, 7], n = Math.round(dur / beat);
+    for (let k = 0; k < n; k++) {
+      const m = root + 12 + pat[k % 6];
+      E._smp(L, 'csp', m > 62 ? m - 12 : m, t + k * beat, 0.5, { att: 0.01, rel: 0.25, gain: k % 3 ? 0.05 : 0.07, cut: 1600, fx: 0.35, pan: -0.2, prio: 1 });
+      if (S.ost === 2 && !E.lite && k % 3 !== 0) {
+        const top = v[k % v.length] + 12;
+        E._smp(L, 'vsp', top > 79 ? top - 12 : top, t + k * beat, 0.4, { att: 0.01, rel: 0.2, gain: 0.035, cut: 2000, fx: 0.45, pan: 0.3, prio: 1 });
+      }
+    }
+  }
+}
 // countermelody: guide tones (the nearest 3rd / 5th of each chord), moving in half-bars under the tune
 function counter(E, L, S, t, tones, dur) {
   const inst = S.counter, lo = 55, hi = 67;
@@ -270,6 +362,7 @@ function melody(E, L, S, t, m, dur, b) {
   const legato = dur + 0.12, long = dur >= 1.8, o = { rel: 0.45, fx: 0.5, prio: 2, pan: 0.05 };
   const k = [0.45, 0.6, 0.75, 0.9, 1.15][S.lvl];   // the tune grows with the arc: intimate solo -> full statement
   const hn = (mm, g) => E._smp(L, 'hn', mm, t, legato, { ...o, att: long ? 0.25 : 0.08, gain: g, cut: 1800, offset: 0.02 });
+  const harp = (mm, g) => E._smp(L, 'hp', mm, t, dur + 0.3, { att: 0.004, rel: 1.0, gain: g, cut: 2400, fx: 0.6, pan: 0.05, prio: 2 });
   const str = (inst, mm, g, pan = 0) => E._smp(L, inst, mm, t, legato, { ...o, att: long ? 0.3 : 0.12, gain: g, cut: inst === 'vc' ? 1700 : 2300, offset: 0.1, pan });
   switch (S.voice) {
     case 'hn': hn(m, 0.2 * k); break;
@@ -282,6 +375,16 @@ function melody(E, L, S, t, m, dur, b) {
       str('vln', m, 0.16 * k, 0.1); if (m + 12 <= 88) str('vln', m + 12, 0.08 * k, -0.1);
       hn(m - 12 >= 50 ? m - 12 : m, 0.12 * k);
       break;
+    // the later tracks' solo voices
+    case 'vc':   // solo cello; the violas take anything above D4, where the cello samples would be stretched
+      E._smp(L, m > 62 ? 'vla' : 'vc', m, t, legato, { ...o, att: long ? 0.3 : 0.12, gain: 0.21 * k, cut: m > 62 ? 2100 : 1800, offset: 0.1, pan: -0.05 });
+      break;
+    case 'hp': harp(m, 0.24 * k); break;
+    case 'hpfl':
+      E._smp(L, 'fl', m, t, legato, { ...o, att: long ? 0.2 : 0.08, gain: 0.14 * k, cut: 2600, offset: 0.03 });
+      harp(m, 0.13 * k);
+      break;
+    case 'tbn': E._smp(L, 'tbn', m, t, legato, { ...o, att: long ? 0.3 : 0.12, gain: 0.17 * k, cut: 1100, offset: 0.06 }); break;
   }
   if (S.flute && m + 12 <= 88 && b % 2 === 0) E._smp(L, 'fl', m + 12 > 86 ? m : m + 12, t, legato, { ...o, att: 0.1, gain: 0.07, cut: 2600, offset: 0.03, pan: -0.3 });
 }

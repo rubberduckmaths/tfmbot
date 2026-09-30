@@ -386,6 +386,7 @@
  "peek.yourChoice": "你的选择",
  "setup.title": "选择你的开局",
  "setup.sub": "选择1家公司、2张前序牌，并以每张3 M€购买任意数量的项目牌。右键/长按卡牌可放大阅读。",
+ "setup.cardsList": "在卡牌列表中查看这手牌 ↗",
  "setup.corp": "公司",
  "setup.pre": "前序牌——选择2张（准备阶段后按任意顺序打出）",
  "setup.proj": "项目牌——每张3 M€",
@@ -936,5 +937,9 @@
  "trig.order": "按以下顺序结算：{list}。",
  "trig.orderWhy": "抽牌先结算，所以你可以弃掉其中某张卡刚抽到的牌。",
  "hex.rc": "第{r}行第{c}格",
- "hex.rcTitle": "第{r}行第{c}格"
+ "hex.rcTitle": "第{r}行第{c}格",
+ "hex.claimed": "{card}：已被{who}预留，其他人不能在此放置板块",
+ "rp.povTitle": "从谁的座位观看：其手牌、轮抽选择和抽到的牌。点击切换玩家",
+ "rp.povOld": "仅限你的座位：此回放录制于保存TFMBot手牌之前",
+ "atk.offset": "{who}失去了它们，但{card}又补回了同样的数量"
 }

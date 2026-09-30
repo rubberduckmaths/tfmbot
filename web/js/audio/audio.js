@@ -1,6 +1,6 @@
 // audio.js -- the game's sound. SFX are synthesized with WebAudio (card swish, tile thump, TR chime, UI tick...).
 // The music is an orchestral score played from recorded samples (VSCO 2: Community Edition, CC0):
-//   music_score.js   seven tracks, each with its own written theme, played through an arc from a solo instrument
+//   music_score.js   thirteen tracks, each with its own written theme, played through an arc from a solo instrument
 //                    to full strings, brass chorale and a key lift and back; terraforming (setTerraform) picks the
 //                    tracks (barren / green) and shapes each arc as it plays
 //   music_moods.js   short colour layers over the track for card / tile events (mood(name), moodForCard/Tile)

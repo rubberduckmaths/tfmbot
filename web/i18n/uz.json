@@ -444,6 +444,7 @@
  "peek.yourChoice": "sizning tanlovingiz",
  "setup.title": "Boshlanishingizni tanlang",
  "setup.sub": "1 ta korporatsiya, 2 ta prelyudiya tanlang va istalgan loyiha kartasini har birini 3 M€ dan sotib oling. Kartani katta oʻqish uchun oʻng tugma / uzoq bosish.",
+ "setup.cardsList": "Bu qoʻl kartalar roʻyxatida ↗",
  "setup.corp": "Korporatsiya",
  "setup.pre": "Prelyudiyalar — 2 tasini tanlang (ularni tayyorgarlikdan keyin istalgan tartibda oʻynaysiz)",
  "setup.proj": "Loyiha kartalari — har biri 3 M€",
@@ -1004,5 +1005,9 @@
  "trig.order": "Ular shu tartibda bajariladi: {list}.",
  "trig.orderWhy": "Karta olish birinchi keladi, shuning uchun ulardan biri olgan kartani tashlashingiz mumkin.",
  "hex.rc": "qator {r}, katak {c}",
- "hex.rcTitle": "Qator {r}, katak {c}"
+ "hex.rcTitle": "Qator {r}, katak {c}",
+ "hex.claimed": "{card}: {who} tomonidan band qilingan; bu yerga boshqa hech kim plitka qo‘ya olmaydi",
+ "rp.povTitle": "Kimning o‘rnidan tomosha qilyapsiz: uning qo‘li, draft tanlovlari va olgan kartalari. O‘yinchini almashtirish uchun bosing",
+ "rp.povOld": "Faqat sizning o‘rningiz: bu takror TFMBot kartalari saqlanishidan oldin yozib olingan",
+ "atk.offset": "{who} ularni yo‘qotdi, lekin {card} shuncha qaytarib berdi"
 }

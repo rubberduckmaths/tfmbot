@@ -400,6 +400,7 @@
  "peek.yourChoice": "senin seçimin",
  "setup.title": "Başlangıcını seç",
  "setup.sub": "1 şirket, 2 prelüd seç ve istediğin proje kartlarını tanesi 3 M€'ya satın al. Kartı büyük okumak için sağ tıkla / uzun bas.",
+ "setup.cardsList": "Bu el kart listesinde ↗",
  "setup.corp": "Şirket",
  "setup.pre": "Prelüdler — 2 tane seç (kurulumdan sonra istediğin sırayla oynarsın)",
  "setup.proj": "Proje kartları — tanesi 3 M€",
@@ -960,5 +961,9 @@
  "trig.order": "Bunlar şu sırayla çözülür: {list}.",
  "trig.orderWhy": "Kart çekme önce gelir, bu yüzden bunlardan birinin çektiği kartı atabilirsin.",
  "hex.rc": "sıra {r}, altıgen {c}",
- "hex.rcTitle": "Sıra {r}, altıgen {c}"
+ "hex.rcTitle": "Sıra {r}, altıgen {c}",
+ "hex.claimed": "{card}: {who} tarafından ayrıldı; buraya başka kimse karo koyamaz",
+ "rp.povTitle": "Kimin koltuğundan izliyorsunuz: eli, draft seçimleri ve çektiği kartlar. Oyuncu değiştirmek için tıklayın",
+ "rp.povOld": "Yalnızca sizin koltuğunuz: bu tekrar, TFMBot'un kartları kaydedilmeden önce kaydedildi",
+ "atk.offset": "{who} bunları kaybetti, ama {card} aynısını geri verdi"
 }

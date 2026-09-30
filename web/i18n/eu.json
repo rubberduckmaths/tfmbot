@@ -456,6 +456,7 @@
  "peek.yourChoice": "zure aukera",
  "setup.title": "Aukeratu zure hasiera",
  "setup.sub": "Aukeratu korporazio 1, 2 preludio, eta erosi nahi dituzun proiektu-kartak 3 M€-an bakoitza. Eskuineko klik / sakatu luze karta bat handian irakurtzeko.",
+ "setup.cardsList": "Esku hau karta-zerrendan ↗",
  "setup.corp": "Korporazioa",
  "setup.pre": "Preludioak — aukeratu 2 (prestaketaren ondoren jokatzen dira, nahi duzun ordenan)",
  "setup.proj": "Proiektu-kartak — 3 M€ bakoitza",
@@ -1016,5 +1017,9 @@
  "trig.order": "Ordena honetan ebazten dira: {list}.",
  "trig.orderWhy": "Ateratzeak lehenago doaz, beraz haietako batek ateratako karta izan daiteke baztertzen duzuna.",
  "hex.rc": "{r}. errenkadako {c}. hexagonoa",
- "hex.rcTitle": "{r}. errenkada, {c}. hexagonoa"
+ "hex.rcTitle": "{r}. errenkada, {c}. hexagonoa",
+ "hex.claimed": "{card}: {who}-(e)k erreserbatua; beste inork ezin du hemen lauzarik jarri",
+ "rp.povTitle": "Noren eserlekutik ikusten duzun: bere eskua, draft aukerak eta ateratakoak. Egin klik jokalaria aldatzeko",
+ "rp.povOld": "Zure eserlekua bakarrik: errepikapen hau TFMBot-en kartak gorde aurretik grabatu zen",
+ "atk.offset": "{who}(e)k galdu egin zituen, baina {card}(e)k beste hainbeste itzuli zituen"
 }

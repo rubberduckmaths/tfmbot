@@ -1,83 +1,86 @@
-// restricted.js -- TileArt mixin: the Restricted Area, a fenced research compound with guard towers, searchlights
-// and an airstrip (its moving parts use the nr* helpers in nuclear.js).
+// restricted.js -- TileArt mixin: the Restricted Area, a fenced radar / tracking site (its turning dishes use the
+// nrSpin helpers in nuclear.js; its buildings nrPanel / nrConc).
 import { gfx } from '../quality.js';
 import * as THREE from 'three';
-import { BALL, BALL2, BOX, Kit, TAU, V3, _c, capsuleX, clamp01, dish, fbm2, hash2, hexCorner, part, vnoise } from './kit.js';
+import { BALL, BOX, Kit, TAU, V3, _c, _c2, dish, fbm2, hash2, hexCorner, smooth, vnoise } from './kit.js';
+
+const ROCK = new THREE.IcosahedronGeometry(1, 0);                  // (a faceted rock)
 
 export class RestrictedArt {
-  // Restricted Area: a secret installation behind layered fences. The outer chain-link perimeter
-  // (red-and-white restricted signs on it), a raked sand strip, then an inner fence topped with
-  // razor-wire coil; one way in at the front: a guard hut and boom at the outer gate, a jersey-barrier
-  // chicane, the inner gate. Guard towers at three corners sweep their searchlights (beam and pool of
-  // light, on the GPU) over the compound; a patrol vehicle drives the ring road (nrMove). Inside: an
-  // arched hangar, its door lit, a black flying wing out on the airstrip whose edge lights chase in
-  // sequence toward it; a rotating radar on its lattice tower and a white radome; the command bunker
-  // with a spinning surface-search radar on its roof, blast door and lit slits, an antenna farm by it
-  // (a lattice mast with red obstruction lights, whips, a wire dipole); a helipad painted with the
-  // restricted symbol, a VTOL on it. Buildings in panelled metal / formwork concrete (nrPanel / nrConc),
-  // the ground crisp at close range (raGroundMat: grit, aggregate, hairline cracks).
+  // Restricted Area: a radar / tracking station behind a security fence, on a gravel pad swept out of the Mars dust.
+  // Few big shapes, so it reads as a radar site at board distance: a large white geodesic radome, a smaller one, and a
+  // tracking dish on its pedestal turning slowly (nrSpin); the low control building by the gate with a small search
+  // radar spinning on its roof, and a guyed lattice mast (its one red obstruction light the only blinker). Close up:
+  // radome panel seams (raDomeMat), the dish's back ribs, feed quadripod and yoke, cable trenches between the
+  // buildings, a swing-clearance ring round the dish, dust drifted against everything. The perimeter: chain-link on
+  // posts with outrigger arms and razor-wire coil, warning plates, a gate at the front corner.
   restricted(ctx) {
     const { space } = ctx, r = this.env.srand(space * 31 + 7), HR = this.HEX_R, low = gfx.low;
-    const RX = 0.32, RZ = 0.35;                                       // the ring road (an ellipse round the centre)
-    const AX = -0.09, AZ0 = -0.07, AZ1 = 0.27, AW = 0.07;              // the airstrip: centre line x, from the hangar door to its threshold
-    const HP = [0.085, 0.14];                                         // the helipad
-    ctx.wall(0x3a3c30);
-    const tex = this.canvas('ra-ground2', 512, 592, (g, w, h) => {
+    const DA = [-0.14, -0.13, 0.125], DB = [0.2, -0.165, 0.078];     // the radomes: x, z, sphere radius
+    const DC = [0.075, 0.035], DR = 0.108;                             // the tracking dish: pedestal x, z; dish rim radius
+    const BL = [0.015, 0.265, 0.17, 0.072];                          // the control building: x, z, width, depth
+    const MS = [0.335, 0.0], GN = [-0.29, 0.0];                       // the lattice mast; the generator
+    ctx.wall(0x5a3a28);
+    const tex = this.canvas('ra-ground3', 512, 592, (g, w, h) => {
       const R0 = HR * 0.95, S = w / (Math.sqrt(3) * R0), px = (x) => (0.5 + x / (Math.sqrt(3) * R0)) * w, py = (z) => (0.5 + z / (2 * R0)) * h;
       const hexD = (x, z) => Math.max(Math.abs(x), Math.abs(x * 0.5 + z * Math.sqrt(3) / 2), Math.abs(x * 0.5 - z * Math.sqrt(3) / 2));
-      { // the base at half resolution: olive / sand camo scrub outside, the raked strip between the fences, packed gravel inside
+      { // the base at half resolution: rusty regolith outside, a raked strip inside the fence, the gravel pad, dust drifting over its edge
         const c = document.createElement('canvas'); c.width = w / 2; c.height = h / 2;
         const cg = c.getContext('2d'), id = cg.createImageData(c.width, c.height), d = id.data;
         for (let y = 0; y < c.height; y++) for (let x = 0; x < c.width; x++) {
           const bx = (x * 2 / w - 0.5) * Math.sqrt(3) * R0, bz = (y * 2 / h - 0.5) * 2 * R0, hd = hexD(bx, bz);
-          const n = fbm2(x / 30, y / 30, 3), f = vnoise(x / 4 + 11, y / 4), i = (y * c.width + x) * 4;
-          let R, G, B;
-          if (hd > 0.43) { const camo = n > 0.52, l = 0.86 + f * 0.24; R = (camo ? 100 : 150) * l; G = (camo ? 102 : 136) * l; B = (camo ? 70 : 100) * l; }
-          else if (hd > 0.37) { const l = 0.95 + 0.07 * Math.sin((bx * 0.5 - bz * 0.87) * 900) + f * 0.06; R = 182 * l; G = 164 * l; B = 128 * l; }
-          else { const l = 0.84 + n * 0.22 + f * 0.1; R = 132 * l; G = 126 * l; B = 110 * l; }
-          d[i] = R; d[i + 1] = G; d[i + 2] = B; d[i + 3] = 255;
+          const n = fbm2(x / 26, y / 26, 4), f = vnoise(x / 3 + 11, y / 3), i = (y * c.width + x) * 4;
+          const dust = [168, 122, 90], pad = [146, 137, 125];
+          let col, l = 0.86 + n * 0.26 + f * 0.08;
+          if (hd > 0.425) col = [dust[0] * 0.94, dust[1] * 0.9, dust[2] * 0.88];
+          else if (hd > 0.385) { l = 0.97 + 0.05 * Math.sin((bx * 0.5 - bz * 0.87) * 700) + f * 0.05; col = [160, 132, 108]; }
+          else {
+            const edge = smooth(0.33, 0.385, hd + (n - 0.5) * 0.08), drift = smooth(0.58, 0.8, fbm2(x / 14 + 40, y / 34, 3));   // (drifts: long, along the wind)
+            const t = Math.min(1, edge + drift * 0.35);
+            col = [pad[0] + (dust[0] - pad[0]) * t, pad[1] + (dust[1] - pad[1]) * t, pad[2] + (dust[2] - pad[2]) * t];
+          }
+          d[i] = col[0] * l; d[i + 1] = col[1] * l; d[i + 2] = col[2] * l; d[i + 3] = 255;
         }
         cg.putImageData(id, 0, 0);
         g.imageSmoothingEnabled = true; g.drawImage(c, 0, 0, w, h);
       }
-      const slab = (x0, z0, x1, z1, col, step) => {                  // a concrete slab with its joints
-        g.fillStyle = col; g.fillRect(px(x0), py(z0), (x1 - x0) * S, (z1 - z0) * S);
-        g.strokeStyle = 'rgba(30,30,28,0.45)'; g.lineWidth = 1;
-        for (let x = x0; x <= x1 + 1e-6; x += step) { g.beginPath(); g.moveTo(px(x), py(z0)); g.lineTo(px(x), py(z1)); g.stroke(); }
-        for (let z = z0; z <= z1 + 1e-6; z += step) { g.beginPath(); g.moveTo(px(x0), py(z)); g.lineTo(px(x1), py(z)); g.stroke(); }
+      const joints = (step) => { g.strokeStyle = 'rgba(40,36,32,0.4)'; g.lineWidth = 1; return step; };
+      // the gate road: packed gravel, tyre ruts
+      g.fillStyle = '#7e7466'; g.beginPath(); g.moveTo(px(-0.045), py(0.5)); g.lineTo(px(0.045), py(0.5)); g.lineTo(px(0.04), py(0.3)); g.lineTo(px(-0.04), py(0.3)); g.fill();
+      g.strokeStyle = 'rgba(50,44,38,0.3)'; g.lineWidth = 2.5;
+      for (const s of [-1, 1]) { g.beginPath(); g.moveTo(px(s * 0.02), py(0.5)); g.bezierCurveTo(px(s * 0.02), py(0.4), px(s * 0.02 + 0.03), py(0.36), px(s * 0.02 + 0.07), py(0.335)); g.stroke(); }
+      // cable trenches: concrete covers from the building to the radars and the mast
+      const trench = (pts) => {
+        const line = (col, wd) => { g.strokeStyle = col; g.lineWidth = wd; g.beginPath(); pts.forEach(([x, z], i) => (i ? g.lineTo(px(x), py(z)) : g.moveTo(px(x), py(z)))); g.stroke(); };
+        g.lineCap = 'square'; g.lineJoin = 'miter'; line('rgba(40,34,28,0.5)', 0.016 * S + 2); line('#a39d92', 0.016 * S); g.lineCap = 'butt';
+        g.strokeStyle = 'rgba(40,36,32,0.35)'; g.lineWidth = 1;
+        for (let i = 1; i < pts.length; i++) {
+          const [x0, z0] = pts[i - 1], [x1, z1] = pts[i], L = Math.hypot(x1 - x0, z1 - z0), nx = -(z1 - z0) / L * 0.007, nz = (x1 - x0) / L * 0.007;
+          for (let t = 0.02; t < L; t += 0.02) { const x = x0 + (x1 - x0) * t / L, z = z0 + (z1 - z0) * t / L; g.beginPath(); g.moveTo(px(x - nx), py(z - nz)); g.lineTo(px(x + nx), py(z + nz)); g.stroke(); }
+        }
       };
-      // the ring road, the gate road, the airstrip
-      g.strokeStyle = '#3e3e3b'; g.lineWidth = 0.05 * S; g.beginPath(); g.ellipse(px(0), py(0), RX * S, RZ * S, 0, 0, TAU); g.stroke();
-      g.fillStyle = '#3e3e3b'; g.fillRect(px(-0.032), py(0.3), 0.064 * S, py(0.58) - py(0.3));
-      g.strokeStyle = 'rgba(200,196,180,0.55)'; g.lineWidth = 1.2;
-      for (const k of [-1, 1]) { g.beginPath(); g.ellipse(px(0), py(0), RX * S + k * 0.023 * S, RZ * S + k * 0.023 * S, 0, 0, TAU); g.stroke(); }
-      g.strokeStyle = '#d0a820'; g.lineWidth = 1.4; g.setLineDash([6, 6]); g.beginPath(); g.ellipse(px(0), py(0), RX * S, RZ * S, 0, 0, TAU); g.stroke(); g.setLineDash([]);
-      slab(AX - AW / 2 - 0.035, AZ0 - 0.035, AX + AW / 2 + 0.035, AZ0 + 0.035, '#8e8d86', 0.035);   // the apron at the hangar door
-      g.fillStyle = '#2f3032'; g.fillRect(px(AX - AW / 2), py(AZ0), AW * S, (AZ1 - AZ0) * S);
-      g.fillStyle = '#e8e6de';
-      g.fillRect(px(AX - AW / 2 + 0.004), py(AZ0), 1.4, (AZ1 - AZ0) * S); g.fillRect(px(AX + AW / 2 - 0.004) - 1.4, py(AZ0), 1.4, (AZ1 - AZ0) * S);
-      for (let z = AZ0 + 0.03; z < AZ1 - 0.05; z += 0.03) g.fillRect(px(AX) - 1, py(z), 2, 0.016 * S);
-      for (let i = 0; i < 6; i++) g.fillRect(px(AX - AW / 2 + 0.008 + i * 0.0105), py(AZ1 - 0.03), 0.006 * S, 0.022 * S);   // threshold bars
-      g.fillStyle = 'rgba(12,12,12,0.35)';
-      for (let i = 0; i < 5; i++) { const x = AX + (r() - 0.5) * 0.03, z = AZ1 - 0.06 - r() * 0.12; g.fillRect(px(x), py(z), 1.5, 0.04 * S); }   // tyre marks
-      g.fillStyle = '#e0b422'; g.fillRect(px(AX - AW / 2), py(AZ1 + 0.015), AW * S, 2); g.fillRect(px(AX - AW / 2), py(AZ1 + 0.022), AW * S, 2);   // hold short
-      // gate: hazard stripes between the fences, a stop line inside
-      g.save(); g.beginPath(); g.rect(px(-0.032), py(0.43), 0.064 * S, 0.02 * S); g.clip();
-      for (let i = -10; i < 30; i++) { g.fillStyle = i % 2 ? '#f0c020' : '#1c1c1c'; g.beginPath(); const x0 = px(-0.032) + i * 7; g.moveTo(x0, py(0.43)); g.lineTo(x0 + 7, py(0.43)); g.lineTo(x0 + 18, py(0.45)); g.lineTo(x0 + 11, py(0.45)); g.fill(); }
+      trench([[BL[0] - 0.05, BL[1] - 0.04], [DA[0] + 0.03, DA[1] + 0.12]]);
+      trench([[BL[0] + 0.02, BL[1] - 0.04], [DC[0], DC[1] + 0.05]]);
+      trench([[DC[0] + 0.05, DC[1] - 0.02], [DB[0] - 0.02, DB[1] + 0.085]]);
+      trench([[DC[0] + 0.05, DC[1]], [MS[0] - 0.02, MS[1]]]);
+      trench([[BL[0] - BL[2] / 2, BL[1]], [GN[0] + 0.03, BL[1]], [GN[0] + 0.03, GN[1] + 0.04]]);
+      // pads: the radomes' round aprons, the dish's octagon, the building slab (joints)
+      for (const [x, z, rr] of [DA, DB]) {
+        const R = (rr * 1.12 + 0.02) * S; g.fillStyle = '#aaa59b'; g.beginPath(); g.arc(px(x), py(z), R, 0, TAU); g.fill();
+        joints(); for (let k = 0; k < 8; k++) { const a = k / 8 * TAU; g.beginPath(); g.moveTo(px(x) + Math.cos(a) * R * 0.75, py(z) + Math.sin(a) * R * 0.75); g.lineTo(px(x) + Math.cos(a) * R, py(z) + Math.sin(a) * R); g.stroke(); }
+        g.beginPath(); g.arc(px(x), py(z), R, 0, TAU); g.stroke();
+      }
+      { const R = 0.07 * S; g.fillStyle = '#aaa59b'; g.beginPath(); for (let k = 0; k < 8; k++) { const a = (k + 0.5) / 8 * TAU; g.lineTo(px(DC[0]) + Math.cos(a) * R, py(DC[1]) + Math.sin(a) * R); } g.closePath(); g.fill(); joints(); g.stroke();
+        g.strokeStyle = '#e0b020'; g.lineWidth = 2; g.setLineDash([7, 5]); g.beginPath(); g.arc(px(DC[0]), py(DC[1]), (DR + 0.022) * S, 0, TAU); g.stroke(); g.setLineDash([]); }   // (the dish's swing clearance)
+      g.fillStyle = '#9e998f'; g.fillRect(px(BL[0] - BL[2] / 2 - 0.015), py(BL[1] - BL[3] / 2 - 0.015), (BL[2] + 0.03) * S, (BL[3] + 0.03) * S);
+      // gate: hazard stripes across the opening, a stop line inside
+      g.save(); g.beginPath(); g.rect(px(-0.045), py(0.446), 0.09 * S, 0.02 * S); g.clip();
+      for (let i = -10; i < 30; i++) { g.fillStyle = i % 2 ? '#e8b820' : '#1c1c1c'; g.beginPath(); const x0 = px(-0.045) + i * 7; g.moveTo(x0, py(0.446)); g.lineTo(x0 + 7, py(0.446)); g.lineTo(x0 + 17, py(0.466)); g.lineTo(x0 + 10, py(0.466)); g.fill(); }
       g.restore();
-      g.fillStyle = '#e8e6de'; g.fillRect(px(-0.03), py(0.375), 0.06 * S, 2.5);
-      // pads: radar, radome, bunker, the helipad's apron
-      slab(0.125, -0.245, 0.215, -0.155, '#8a8983', 0.045); slab(0.0, -0.3, 0.08, -0.22, '#8a8983', 0.04); slab(0.16, -0.06, 0.29, 0.05, '#85847e', 0.043);
-      slab(HP[0] - 0.075, HP[1] - 0.075, HP[0] + 0.075, HP[1] + 0.075, '#8e8d86', 0.05);
-      { const hx = px(HP[0]), hy = py(HP[1]), R = 0.064 * S;                                // the helipad: the restricted symbol
-        g.fillStyle = '#34343a'; g.beginPath(); g.arc(hx, hy, R, 0, TAU); g.fill();
-        g.strokeStyle = '#f2c21c'; g.lineWidth = R * 0.1; g.beginPath(); g.arc(hx, hy, R * 0.9, 0, TAU); g.stroke();
-        g.fillStyle = '#ecebe4'; g.beginPath(); g.arc(hx, hy, R * 0.66, 0, TAU); g.fill();
-        g.strokeStyle = '#c81e1e'; g.lineWidth = R * 0.14; g.beginPath(); g.arc(hx, hy, R * 0.5, 0, TAU); g.stroke();
-        g.save(); g.translate(hx, hy); g.rotate(-Math.PI / 4); g.fillStyle = '#c81e1e'; g.fillRect(-R * 0.5, -R * 0.07, R, R * 0.14); g.restore(); }
-      for (let i = 0; i < 9; i++) {                                    // oil stains
-        const x = [AX, AX, 0.2, 0.0, HP[0], -0.05, 0.25, AX, 0.04][i] + (r() - 0.5) * 0.04, z = [-0.02, 0.12, 0.0, 0.3, 0.1, 0.3, -0.03, 0.2, -0.2][i] + (r() - 0.5) * 0.04, R = (0.008 + r() * 0.012) * S;
-        const gr = g.createRadialGradient(px(x), py(z), 0, px(x), py(z), R); gr.addColorStop(0, 'rgba(10,10,8,0.4)'); gr.addColorStop(1, 'rgba(10,10,8,0)');
+      g.fillStyle = 'rgba(236,232,220,0.85)'; g.fillRect(px(-0.035), py(0.415), 0.07 * S, 2.5);
+      for (let i = 0; i < 7; i++) {                                    // oil / dust stains
+        const x = [BL[0] + 0.1, 0, DC[0], DA[0] + 0.1, GN[0], DB[0] - 0.06, 0.25][i] + (r() - 0.5) * 0.04, z = [BL[1], 0.36, DC[1] + 0.08, DA[1] + 0.12, GN[1] + 0.05, DB[1] + 0.1, 0.05][i] + (r() - 0.5) * 0.04, R = (0.008 + r() * 0.012) * S;
+        const gr = g.createRadialGradient(px(x), py(z), 0, px(x), py(z), R); gr.addColorStop(0, 'rgba(24,18,12,0.32)'); gr.addColorStop(1, 'rgba(24,18,12,0)');
         g.fillStyle = gr; g.fillRect(px(x) - R, py(z) - R, 2 * R, 2 * R);
       }
     });
@@ -86,172 +89,237 @@ export class RestrictedArt {
     gm.receiveShadow = true; ctx.g.add(gm);
     this.frostOver(ctx, geo);
 
-    const K = new Kit(), N = new Kit(), Rb = this.nrRb(ctx);
-    const olive = 0x5d6344, oliveD = 0x474c34, conc = 0x9a9a92, concD = 0x6e6e68, steel = 0x6a7078, dark = 0x22252a;
-    // ---- the outer perimeter: chain-link panels on posts, restricted signs; the inner fence with its razor-wire coil
-    const FR = HR * 0.86, FR2 = HR * 0.745, fh = 0.055, fh2 = 0.046;
-    const fence = new Kit();
-    const panel = (x0, z0, x1, z1, H, coil) => {
+    const K = new Kit(), N = new Kit(), fence = new Kit();
+    const steel = 0x6a7078, steelL = 0x9aa0a8, conc = 0xa6a298, concD = 0x7a766e, white = 0xecebe6;
+    // Mars dust on everything near the ground: a colour fn fading base -> dust below height y1 (board units)
+    const dusty = (hex, y1 = 0.03, a = 0.55) => { const base = new THREE.Color(hex); return (x, y, z) => _c.copy(base).lerp(_c2.setRGB(0.6, 0.38, 0.25), a * (1 - smooth(0, y1, y)) * (0.6 + 0.4 * vnoise(x * 90, z * 90 + y * 40))); };
+    // a geometry in a local frame, then through a matrix (the dish's elevation frame)
+    const xf = (g0, t = [0, 0, 0], rr = [0, 0, 0], s = 1, M = null) => { const S = typeof s === 'number' ? [s, s, s] : s, g1 = g0.clone().applyMatrix4(new THREE.Matrix4().compose(new V3(...t), new THREE.Quaternion().setFromEuler(new THREE.Euler(rr[0], rr[1], rr[2])), new V3(...S))); return M ? g1.applyMatrix4(M) : g1; };
+    const rod = (a, b, rad, seg = 5) => { const d = new V3(b[0] - a[0], b[1] - a[1], b[2] - a[2]), L = d.length(); return new THREE.CylinderGeometry(rad, rad, L, seg, 1, true).translate(0, L / 2, 0).applyQuaternion(new THREE.Quaternion().setFromUnitVectors(new V3(0, 1, 0), d.divideScalar(L))).translate(a[0], a[1], a[2]); };
+
+    // ---- the perimeter: chain-link on posts, outrigger arms leaning out with razor-wire coil, warning plates; a gate at the front corner
+    const FR = HR * 0.84, fh = 0.05;
+    const panel = (x0, z0, x1, z1) => {
       const L = Math.hypot(x1 - x0, z1 - z0), ry = -Math.atan2(z1 - z0, x1 - x0), mx = (x0 + x1) / 2, mz = (z0 + z1) / 2;
-      const g = new THREE.PlaneGeometry(L, H).translate(0, H / 2, 0);
-      const uv = g.attributes.uv; for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * L / 0.05, uv.getY(i));
+      const nx = Math.sin(ry), nz = Math.cos(ry), o = nx * mx + nz * mz > 0 ? 1 : -1, ox = nx * o, oz = nz * o;   // (ox, oz: outward)
+      const g = new THREE.PlaneGeometry(L, fh).translate(0, fh / 2, 0), uv = g.attributes.uv; for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * L / 0.05, uv.getY(i));
       fence.add('fence', g, 0xffffff, [mx, 0, mz], [0, ry, 0], 1, { uv: true });
-      const n = Math.max(1, Math.round(L / 0.07));
-      for (let i = 0; i <= n; i++) K.cyl('metal', steel, x0 + (x1 - x0) * i / n, 0, z0 + (z1 - z0) * i / n, 0.004, 0.004, H + 0.012, 5);
-      K.add('metal', new THREE.CylinderGeometry(0.0035, 0.0035, L, 5), steel, [mx, H + 0.01, mz], [0, ry, Math.PI / 2]);
-      if (coil) for (const t of low ? [0] : [0.6, -0.6]) {
-        const cg = new THREE.PlaneGeometry(L, 0.024).translate(0, 0.012, 0), cu = cg.attributes.uv; for (let i = 0; i < cu.count; i++) cu.setXY(i, cu.getX(i) * L / 0.04, cu.getY(i));
-        fence.add(this.raCoilMat(), cg, 0xffffff, [mx, H + 0.006, mz], [t, ry, 0, 'YXZ'], 1, { uv: true });
+      const n = Math.max(1, Math.round(L / 0.065));
+      for (let i = 0; i <= n; i++) {
+        const x = x0 + (x1 - x0) * i / n, z = z0 + (z1 - z0) * i / n, end = i === 0 || i === n;
+        K.cyl('metal', steel, x, 0, z, end ? 0.005 : 0.0038, end ? 0.005 : 0.0038, fh + 0.004, 6);
+        if (!low) K.cyl('std', conc, x, 0, z, 0.008, 0.007, 0.004, 6);                                          // (footings)
+        K.add('metal', rod([x, fh, z], [x + ox * 0.014, fh + 0.014, z + oz * 0.014], 0.0022, 4), steel);    // the outrigger arm
       }
-      return [mx, mz, ry, L];
+      K.add('metal', new THREE.CylinderGeometry(0.003, 0.003, L, 5), steelL, [mx, fh, mz], [0, ry, Math.PI / 2]);   // top rail
+      K.add('metal', new THREE.CylinderGeometry(0.0012, 0.0012, L, 3), 0x3a3c40, [mx + ox * 0.014, fh + 0.014, mz + oz * 0.014], [0, ry, Math.PI / 2]);   // barbed strand on the arms
+      const cg = new THREE.PlaneGeometry(L, 0.022).translate(0, 0.011, 0), cu = cg.attributes.uv; for (let i = 0; i < cu.count; i++) cu.setXY(i, cu.getX(i) * L / 0.04, cu.getY(i));
+      for (const t of low ? [0] : [0.6, -0.6]) fence.add(this.raCoilMat(), cg, 0xffffff, [mx + ox * 0.008, fh + 0.003, mz + oz * 0.008], [t, ry, 0, 'YXZ'], 1, { uv: true });
+      return [mx, mz, ry, L, ox, oz];
     };
-    const ring = (R, H, gap, coil) => {
-      const cs = [0, 1, 2, 3, 4, 5].map((k) => hexCorner(k, R)), out = [];
-      for (let k = 0; k < 6; k++) {
-        const [a, b] = [cs[k], cs[(k + 1) % 6]];
-        if (k === 2) { const f = (-gap - a[0]) / (b[0] - a[0]); out.push(panel(a[0], a[1], -gap, a[1] + (b[1] - a[1]) * f, H, coil)); }   // the gate gap at the front corner
-        else if (k === 3) { const f = (gap - a[0]) / (b[0] - a[0]); out.push(panel(gap, a[1] + (b[1] - a[1]) * f, b[0], b[1], H, coil)); }
-        else out.push(panel(a[0], a[1], b[0], b[1], H, coil));
-      }
-      return out;
-    };
-    const outer = ring(FR, fh, 0.075, false);
-    ring(FR2, fh2, 0.045, true);
-    this.emit(fence, ctx, { shadow: false });
-    for (const [i, [mx, mz, ry]] of outer.entries()) {                 // a restricted sign on each outer run, facing out
+    const cs = [0, 1, 2, 3, 4, 5].map((k) => hexCorner(k, FR)), runs = [], GAP = 0.05;
+    for (let k = 0; k < 6; k++) {
+      const [a, b] = [cs[k], cs[(k + 1) % 6]];
+      if (k === 2) { const f = (-GAP - a[0]) / (b[0] - a[0]); runs.push(panel(a[0], a[1], -GAP, a[1] + (b[1] - a[1]) * f)); }   // the gate gap at the front corner
+      else if (k === 3) { const f = (GAP - a[0]) / (b[0] - a[0]); runs.push(panel(GAP, a[1] + (b[1] - a[1]) * f, b[0], b[1])); }
+      else runs.push(panel(a[0], a[1], b[0], b[1]));
+    }
+    for (const [i, [mx, mz, ry, , ox, oz]] of runs.entries()) {          // a warning plate on each run, facing out
       if (low && i % 2) continue;
-      const nx = Math.sin(ry), nz = Math.cos(ry), o = nx * mx + nz * mz > 0 ? 1 : -1;
-      K.add(this.raSignMat(), new THREE.PlaneGeometry(0.034, 0.026), 0xffffff, [mx + nx * o * 0.003, 0.03, mz + nz * o * 0.003], [0, ry + (o < 0 ? Math.PI : 0), 0], 1, { uv: true });
+      K.add(this.raSignMat(), new THREE.PlaneGeometry(0.032, 0.024), 0xffffff, [mx + ox * 0.0025, 0.028, mz + oz * 0.0025], [0, ry + (ox * Math.sin(ry) + oz * Math.cos(ry) < 0 ? Math.PI : 0), 0], 1, { uv: true });
     }
-    // ---- the gate: posts, boom (red/white) and the guard hut outside; a jersey-barrier chicane between the fences; the inner gate leaf slid open
-    K.box('nrConc', conc, -0.085, 0, 0.455, 0.022, 0.07, 0.022); K.box('nrConc', conc, 0.085, 0, 0.455, 0.022, 0.07, 0.022);
-    for (let i = 0; i < 6; i++) K.box('std', i % 2 ? 0xd82020 : 0xf2f2ee, -0.07 + i * 0.022 + 0.011, 0.045, 0.455, 0.022, 0.009, 0.009);
-    this.nrLampAdd(N, BALL, 0xff3a20, [0.085, 0.076, 0.455], [0, 0, 0], [0.006, 0.005, 0.006], -0.9, 0);
-    K.box('nrPanel', 0xd8d4c4, -0.13, 0, 0.38, 0.05, 0.045, 0.045); K.box('glow', 0xffe2a8, -0.13, 0.024, 0.4028, 0.04, 0.013, 0.002);
-    K.box('std', oliveD, -0.13, 0.045, 0.38, 0.058, 0.006, 0.052);
-    for (const [x, z] of [[-0.022, 0.405], [0.022, 0.395]]) K.add('nrConc', new THREE.CylinderGeometry(0.004, 0.009, 0.014, 4, 1).rotateY(Math.PI / 4).translate(0, 0.007, 0), conc, [x, 0, z], [0, 0, 0], [2.4, 1, 0.9]);
-    K.box('std', steel, 0.075, 0, 0.388, 0.07, 0.04, 0.004);          // the inner gate leaf, slid aside
-    // ---- guard towers at three corners, their searchlights sweeping the compound (head, beam and the pool of light it throws)
-    const towers = [1, 5, 3].map((k) => hexCorner(k, FR * 0.93));
-    for (const [ti, [tx, tz]] of towers.entries()) {
-      for (const [dx, dz] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) K.add('metal', new THREE.CylinderGeometry(0.0035, 0.0045, 0.15, 5), steel, [tx + dx * 0.018, 0.075, tz + dz * 0.018], [dz * 0.08, 0, -dx * 0.08]);
-      for (const y of [0.05, 0.1]) K.box('metal', steel, tx, y, tz, 0.042 - y * 0.08, 0.003, 0.042 - y * 0.08);
-      K.box('nrPanel', olive, tx, 0.15, tz, 0.062, 0.042, 0.062);
-      K.box('glow', 0xffe0a0, tx, 0.166, tz, 0.064, 0.01, 0.064);                    // lit windows band
-      K.add('std', new THREE.ConeGeometry(0.052, 0.03, 4).rotateY(Math.PI / 4), oliveD, [tx, 0.207, tz]);
-      K.add('blink', BALL, 0xff2a1a, [tx, 0.225, tz], [0, 0, 0], 0.007);
-      const az = Math.atan2(-tz, -tx), hL = 0.2, dH = 0.27, len = Math.hypot(hL, dH), piv = [tx, 0.196, tz], spin = [0.42 + ti * 0.07, ti * 2.1, low ? 0.35 : 0.62];
-      const D = new V3(Math.cos(az) * dH, -hL, Math.sin(az) * dH).normalize(), lx = tx + Math.cos(az) * 0.036, lz = tz + Math.sin(az) * 0.036, ly = 0.196;
-      const e = new THREE.Euler().setFromQuaternion(new THREE.Quaternion().setFromUnitVectors(new V3(0, -1, 0), D)), er = [e.x, e.y, e.z];
-      this.nrSpinAdd(N, 'nrSpin', new THREE.CylinderGeometry(0.009, 0.007, 0.018, 12).translate(0, -0.004, 0), 0x3a3e36, [lx, ly, lz], er, 1, piv, spin);
-      this.nrSpinAdd(N, 'nrSpin', BOX, steel, [tx + Math.cos(az) * 0.018, ly + 0.004, tz + Math.sin(az) * 0.018], [0, -az, 0], [0.034, 0.004, 0.004], piv, spin);
-      this.nrSpinAdd(N, 'nrBeam', new THREE.CircleGeometry(0.0085, 12).rotateX(Math.PI / 2).translate(0, -0.0135, 0), 0xfff4d8, [lx, ly, lz], er, 1, piv, spin);
-      this.nrSpinAdd(N, 'nrBeam', new THREE.ConeGeometry(0.052, len, 16, 1, true).translate(0, -len / 2, 0), (x, y, z) => _c.setRGB(1, 0.95, 0.8).multiplyScalar(0.25 + 0.75 * Math.pow(clamp01(1 - Math.hypot(x - lx, y - ly, z - lz) / len), 1.3)), [lx, ly, lz], er, 1, piv, spin);
-      const gx = lx + D.x / Math.hypot(D.x, D.z) * dH, gz = lz + D.z / Math.hypot(D.x, D.z) * dH;
-      this.nrSpinAdd(N, 'nrBeam', new THREE.CircleGeometry(0.05, 20).rotateX(-Math.PI / 2), (x, y, z) => _c.setRGB(1, 0.95, 0.82).multiplyScalar(2.2 * Math.pow(clamp01(1 - Math.hypot((x - gx) / 1.35, z - gz) / 0.05 * 1.35), 0.8)), [gx, 0.0018, gz], [0, -az, 0], [1.35, 1, 1], piv, spin);
-    }
-    // ---- the hangar: an arched shell (panelled, ribbed), closed at the back; its front door open on a lit interior
-    { const hx = AX, L = 0.17, rad = 0.072, z1 = AZ0 - 0.012, z0 = z1 - L, zc = (z0 + z1) / 2;
-      K.add('nrPanel', new THREE.CylinderGeometry(rad, rad, L, 26, 1, true, -Math.PI / 2, Math.PI).rotateX(-Math.PI / 2), 0x737a5a, [hx, 0, zc]);
-      for (let i = 0; i <= 5; i++) K.add('std', new THREE.TorusGeometry(rad * 1.012, 0.0022, 4, 20, Math.PI), 0x5a6046, [hx, 0, z0 + i / 5 * L]);
-      const face = (z, door) => {
-        const sh = new THREE.Shape(); sh.moveTo(-rad, 0); sh.absarc(0, 0, rad, Math.PI, 0, true); sh.lineTo(rad, 0);
-        if (door) { sh.lineTo(0.05, 0); sh.lineTo(0.05, 0.052); sh.lineTo(-0.05, 0.052); sh.lineTo(-0.05, 0); }
-        sh.lineTo(-rad, 0);
-        return new THREE.ExtrudeGeometry(sh, { depth: 0.004, bevelEnabled: false, curveSegments: 14 }).translate(0, 0, z);
+    { // the gate: heavy posts, one chain-link leaf shut, the other swung in
+      const gz = cs[2][1] + (cs[3][1] - cs[2][1]) * ((-GAP - cs[2][0]) / (cs[3][0] - cs[2][0]));
+      for (const s of [-1, 1]) { K.cyl('metal', steelL, s * GAP, 0, gz, 0.0065, 0.0065, fh + 0.014, 8); K.ball('metal', steelL, s * GAP, fh + 0.014, gz, 0.0065); }
+      const leaf = (x, z, ry) => {
+        const gg = new THREE.PlaneGeometry(GAP * 0.96, fh * 0.9).translate(GAP * 0.48, fh * 0.45 + 0.004, 0), uv = gg.attributes.uv; for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * GAP / 0.05, uv.getY(i));
+        fence.add('fence', gg, 0xffffff, [x, 0, z], [0, ry, 0], 1, { uv: true });
+        for (const y of [0.004, fh * 0.9 + 0.004]) K.add('metal', new THREE.CylinderGeometry(0.0022, 0.0022, GAP * 0.96, 5).rotateZ(Math.PI / 2).translate(GAP * 0.48, 0, 0), steelL, [x, y, z], [0, ry, 0]);
+        K.add('metal', new THREE.CylinderGeometry(0.0022, 0.0022, fh * 0.9, 5).translate(GAP * 0.96, fh * 0.45 + 0.004, 0), steelL, [x, 0, z], [0, ry, 0]);
       };
-      K.add('nrPanel', face(z0 - 0.004, false), 0x656b4e, [hx, 0, 0]);
-      K.add('nrPanel', face(z1 - 0.002, true), 0x656b4e, [hx, 0, 0]);
-      K.box('std', 0x121416, hx, 0, zc, rad * 1.4, rad * 0.6, L - 0.008);                  // the dark inside
-      K.add('glow', new THREE.PlaneGeometry(0.1, 0.052).translate(0, 0.026, 0), (x, y) => _c.setRGB(1, 0.86, 0.6).multiplyScalar(0.3 + 0.35 * clamp01(y / 0.052)), [hx, 0, z1 - 0.012]);
-      for (const s of [-1, 1]) K.box('nrPanel', 0x6a7052, hx + s * 0.068, 0, z1 + 0.004, 0.036, 0.05, 0.004);   // the door leaves, rolled aside
-      K.box('glow', 0xffe8b0, hx, 0.058, z1 + 0.004, 0.04, 0.004, 0.003);                  // the lamp over the door
-      // the flying wing out on the apron, nose to the strip
-      const fw = new THREE.Shape(); fw.moveTo(0, -0.058); fw.lineTo(0.078, 0.022); fw.lineTo(0.052, 0.036); fw.lineTo(0.026, 0.022); fw.lineTo(0, 0.036); fw.lineTo(-0.026, 0.022); fw.lineTo(-0.052, 0.036); fw.lineTo(-0.078, 0.022); fw.lineTo(0, -0.058);
-      const wz = AZ0 + 0.06, wy = 0.012;
-      K.add('metal', new THREE.ExtrudeGeometry(fw, { depth: 0.004, bevelEnabled: true, bevelThickness: 0.0015, bevelSize: 0.002, bevelSegments: 1 }).rotateX(Math.PI / 2), 0x1d2024, [hx, wy + 0.004, wz]);
-      K.add('metal', BALL, 0x24282c, [hx, wy + 0.004, wz - 0.012], [0, 0, 0], [0.016, 0.007, 0.034]);
-      K.add('glass', BALL, 0x3a4450, [hx, wy + 0.008, wz - 0.03], [0, 0, 0], [0.007, 0.004, 0.012]);
-      for (const [x, z] of [[0, -0.035], [-0.025, 0.01], [0.025, 0.01]]) K.cyl('metal', 0x3a3c40, hx + x, 0, wz + z, 0.0018, 0.0018, wy, 5);
-      K.box('glow', 0xff3020, hx - 0.077, wy + 0.004, wz + 0.021, 0.003, 0.002, 0.003); K.box('glow', 0x30ff60, hx + 0.077, wy + 0.004, wz + 0.021, 0.003, 0.002, 0.003); }
-    // the airstrip's edge lights, flashing in sequence toward the hangar; green threshold lights
-    for (let i = 0; i < (low ? 6 : 9); i++) {
-      const z = AZ1 - 0.02 - i * (AZ1 - AZ0 - 0.04) / ((low ? 6 : 9) - 1);
-      for (const s of [-1, 1]) this.nrLampAdd(N, BOX, 0xfff0b8, [AX + s * (AW / 2 + 0.006), 0.003, z], [0, 0, 0], [0.004, 0.005, 0.004], -0.7, i * 0.06);
+      leaf(-GAP, gz, 0); leaf(GAP, gz, Math.PI - 1.25);
+      K.add(this.raSignMat(), new THREE.PlaneGeometry(0.03, 0.022), 0xffffff, [-GAP * 0.5, 0.03, gz + 0.002], [0, 0, 0], 1, { uv: true });
     }
-    for (let i = 0; i < 5; i++) K.box('glow', 0x40ff70, AX - AW / 2 + 0.008 + i * 0.0135, 0, AZ1 + 0.004, 0.004, 0.004, 0.004);
-    // ---- the radar: lattice tower, the dish turning (nrSpin)
-    const [rx, rz] = [0.17, -0.2];
-    for (const [dx, dz] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) K.add('metal', new THREE.CylinderGeometry(0.004, 0.006, 0.2, 5), steel, [rx + dx * 0.024, 0.1, rz + dz * 0.024], [dz * 0.1, 0, -dx * 0.1]);
-    for (let i = 1; i < 4; i++) K.box('metal', steel, rx, i * 0.05, rz, 0.05 - i * 0.006, 0.004, 0.05 - i * 0.006);
-    if (!low) for (let i = 0; i < 3; i++) for (const s of [-1, 1]) this.strut(K, 'metal', steel, [rx + s * (0.026 - i * 0.004), i * 0.05 + 0.005, rz + 0.026 - i * 0.004], [rx - s * (0.022 - i * 0.004), (i + 1) * 0.05, rz + 0.022 - i * 0.004], 0.0012, 4);
-    K.cyl('metal', 0x8a9098, rx, 0.2, rz, 0.02, 0.016, 0.02, 12);
-    { const piv = [rx, 0.26, rz], sp = [0.9, r() * 6];
-      this.nrSpinAdd(N, 'nrSpin', dish(0.085, 0.03, 24), 0xe6e8ea, [rx, 0.26, rz], [Math.PI / 2 - 0.45, 0, 0], 1, piv, sp);
-      this.nrSpinAdd(N, 'nrSpin', new THREE.CylinderGeometry(0.003, 0.003, 0.07, 5), steel, [rx, 0.26 + 0.015, rz + 0.03], [Math.PI / 2 - 0.45, 0, 0], 1, piv, sp);
-      this.nrSpinAdd(N, 'nrSpin', new THREE.CylinderGeometry(0.006, 0.006, 0.05, 6), steel, [rx, 0.235, rz], [0, 0, 0], 1, piv, sp);
-      this.nrSpinAdd(N, 'nrSpin', BOX, 0x4a4f56, [rx, 0.245, rz - 0.03], [0, 0, 0], [0.02, 0.014, 0.014], piv, sp); }
-    K.add('blink', BALL, 0xff2a1a, [rx, 0.215, rz + 0.02], [0, 0, 0], 0.006);
-    // the radome on its drum
-    K.cyl('nrConc', concD, 0.04, 0, -0.26, 0.032, 0.03, 0.024, 16);
-    K.add('nrPanel', BALL2, 0xeeeeea, [0.04, 0.024, -0.26], [0, 0, 0], [0.036, 0.034, 0.036]);
-    // ---- the command bunker: sloped concrete, a blast door and lit slits; a surface-search radar spinning on its roof
-    { const bx = 0.225, bz = -0.005;
-      K.add('nrConc', new THREE.CylinderGeometry(0.07, 0.09, 0.05, 4, 1).rotateY(Math.PI / 4), conc, [bx, 0.025, bz], [0, 0.15, 0], [1.2, 1, 0.85]);
-      K.box('nrConc', concD, bx, 0.05, bz, 0.1, 0.004, 0.07, 0.15);
-      K.box('glow', 0x9fe3ff, bx - 0.012, 0.03, bz + 0.052, 0.07, 0.005, 0.004, 0.15);
-      K.box('metal', 0x4a5058, bx + 0.045, 0.0, bz + 0.05, 0.028, 0.03, 0.006, 0.15);        // the blast door
-      K.box('glow', 0xff3a20, bx + 0.045, 0.033, bz + 0.053, 0.006, 0.003, 0.002, 0.15);
-      K.cyl('metal', steel, bx - 0.02, 0.054, bz - 0.01, 0.004, 0.004, 0.02, 8);
-      const piv = [bx - 0.02, 0.078, bz - 0.01], sp = [2.4, 0.5];
-      this.nrSpinAdd(N, 'nrSpin', BOX, 0x30343a, [bx - 0.02, 0.078, bz - 0.01], [0, 0, 0], [0.06, 0.006, 0.006], piv, sp);
-      this.nrSpinAdd(N, 'nrSpin', BOX, 0x8a9098, [bx - 0.02, 0.074, bz - 0.01], [0, 0, 0], [0.012, 0.006, 0.012], piv, sp);
-      // the antenna farm: a lattice mast with red obstruction lights, two whips, a wire dipole to a short pole
-      const mx = bx + 0.05, mz = bz - 0.075;
-      for (const [dx, dz] of [[-1, -1], [1, -1], [0, 1]]) this.strut(K, 'metal', steel, [mx + dx * 0.012, 0, mz + dz * 0.012], [mx, 0.28, mz], 0.0022, 5);
-      if (!low) for (let i = 1; i < 7; i++) K.add('metal', new THREE.TorusGeometry(0.012 * (1 - i / 7), 0.0012, 3, 3), steel, [mx, i * 0.04, mz], [Math.PI / 2, 0, 0]);
-      K.add('blink', BALL, 0xff2a1a, [mx, 0.283, mz], [0, 0, 0], 0.0065); K.add('blink', BALL, 0xff2a1a, [mx, 0.15, mz], [0, 0, 0], 0.005);
-      for (const [x, z, hh] of [[bx - 0.06, bz - 0.06, 0.15], [bx - 0.035, bz - 0.075, 0.12]]) { K.cyl('metal', 0x9aa0a8, x, 0, z, 0.0016, 0.0009, hh, 5); K.box('nrConc', concD, x, 0, z, 0.012, 0.004, 0.012); }
-      if (!low) { K.cyl('metal', steel, bx - 0.095, 0, bz + 0.03, 0.002, 0.002, 0.08, 5); this.strut(K, 'metal', 0x2a2a2a, [mx, 0.2, mz], [bx - 0.095, 0.078, bz + 0.03], 0.0007, 3); }
-      for (let i = 0; i < 6; i++) K.add('std', BALL, 0x8f8360, [bx - 0.09 + i * 0.022, 0.007, bz + 0.085], [0, 0, 0], [0.013, 0.008, 0.009]);   // sandbags
-    }
-    // ---- the helipad's VTOL
-    { const [x, z] = HP, ry = 0.6;
-      K.add('std', capsuleX(0.016, 0.07, 10), 0x4f5a46, [x, 0.022, z], [0, ry, 0], 1, { smooth: true });
-      K.box('std', 0x46503e, x, 0.026, z, 0.028, 0.004, 0.14, ry);
-      K.box('std', 0x46503e, x - Math.cos(ry) * 0.05, 0.028, z + Math.sin(ry) * 0.05, 0.011, 0.003, 0.06, ry);
-      K.box('glass', 0x7fb8d8, x + Math.cos(ry) * 0.04, 0.03, z - Math.sin(ry) * 0.04, 0.018, 0.007, 0.014, ry);
-      for (const s of [-1, 1]) { K.cyl('std', 0x3c4436, x + Math.sin(ry) * s * 0.068, 0.016, z + Math.cos(ry) * s * 0.068, 0.016, 0.016, 0.014, 16); K.add('glow', BALL, s < 0 ? 0xff3020 : 0x30ff60, [x + Math.sin(ry) * s * 0.071, 0.03, z + Math.cos(ry) * s * 0.071], [0, 0, 0], 0.0025); } }
-    // parked: an armoured carrier by the hut, a fuel bowser by the apron
-    const rover = (x, z, ry, c, L = 0.07) => {
-      K.box('std', c, x, 0.012, z, L, 0.028, 0.04, ry);
-      K.box('std', 0x2a3440, x + Math.cos(ry) * L * 0.31, 0.03, z - Math.sin(ry) * L * 0.31, 0.022, 0.014, 0.036, ry);
-      for (const [a, b] of [[-L * 0.36, -0.022], [L * 0.36, -0.022], [-L * 0.36, 0.022], [L * 0.36, 0.022]]) K.add('std', new THREE.CylinderGeometry(0.011, 0.011, 0.008, 12).rotateX(Math.PI / 2), dark, [x + Math.cos(ry) * a + Math.sin(ry) * b, 0.011, z - Math.sin(ry) * a + Math.cos(ry) * b], [0, ry, 0]);
+    this.emit(fence, ctx, { shadow: false });
+
+    // ---- the radomes: geodesic spheres (raDomeMat: panel seams) on concrete ring walls, a flange, a door, a lightning rod
+    const radome = ([x, z, R], det) => {
+      const wallH = R * 0.3, cut = -0.5, yc = wallH - cut * R * 0.96;
+      K.add('nrConc', new THREE.CylinderGeometry(R * 0.9, R * 0.94, wallH, 28), dusty(conc, 0.03, 0.4), [x, wallH / 2, z]);
+      K.add('metal', new THREE.TorusGeometry(R * 0.885, R * 0.035, 5, 32).rotateX(Math.PI / 2), 0x8e9298, [x, wallH, z]);   // the base flange
+      K.add(this.raDomeMat(), this.raDomeGeo(det, cut, (x * 13.7 + z * 5.1) | 0), null, [x, yc, z], [0, r() * TAU, 0], R);
+      K.add('metal', new THREE.CylinderGeometry(0.0012, 0.002, R * 0.35, 4).translate(0, R * 0.175, 0), steelL, [x, yc + R * 0.99, z]);
+      const da = Math.atan2(-z, -x) + 0.9, dx = x + Math.cos(da) * R * 0.92, dz = z + Math.sin(da) * R * 0.92;   // the door faces round toward the centre
+      K.box('std', 0x3a3e44, dx, 0, dz, 0.022, Math.min(0.03, wallH * 0.92), 0.012, -da + Math.PI / 2);
+      K.box('nrConc', concD, x + Math.cos(da) * (R * 0.92 + 0.012), 0, z + Math.sin(da) * (R * 0.92 + 0.012), 0.03, 0.005, 0.018, -da + Math.PI / 2);   // the step
+      K.box('metal', 0x8a9096, x + Math.cos(da + 0.5) * R * 0.93, 0.008, z + Math.sin(da + 0.5) * R * 0.93, 0.016, 0.018, 0.01, -da - 0.5 + Math.PI / 2);   // a junction box
     };
-    rover(-0.205, -0.03, Math.PI / 2, oliveD);
-    { const x = AX + 0.1, z = AZ0 - 0.005; rover(x, z, Math.PI / 2, 0x6a6f4c, 0.06); K.add('nrPanel', new THREE.CylinderGeometry(0.014, 0.014, 0.04, 12).rotateX(Math.PI / 2), 0xb8b4a0, [x, 0.03, z + 0.008]); }
-    for (let i = 0; i < 4; i++) K.box('nrConc', conc, 0.04 + i * 0.012, 0, -0.07 - i * 0.004, 0.01, 0.018, 0.034, 0.3);   // spare barriers stacked by the radome
+    radome(DA, low ? 2 : 3); radome(DB, low ? 2 : 3);
+
+    // ---- the tracking dish: an octagonal plinth, the steel pedestal (static); turret, yoke and the dish on it turning (nrSpin)
+    const [cx, cz] = DC, HP = 0.14, tilt = 0.58;
+    K.add('nrConc', new THREE.CylinderGeometry(0.052, 0.058, 0.022, 8).rotateY(Math.PI / 8), dusty(conc, 0.02, 0.35), [cx, 0.011, cz]);
+    K.cyl('metal', 0xb8bcc0, cx, 0.022, cz, 0.026, 0.02, HP - 0.075, 12);
+    K.cyl('metal', 0x9aa0a6, cx, HP - 0.056, cz, 0.028, 0.028, 0.006, 16);                              // the bearing ring
+    if (!low) {
+      for (let k = 0; k < 8; k++) { const a = k / 8 * TAU; K.box('metal', 0x7a8088, cx + Math.cos(a) * 0.024, 0.022, cz + Math.sin(a) * 0.024, 0.006, 0.014, 0.006, -a); }   // (base gussets)
+      for (let i = 0; i < 6; i++) K.box('metal', 0x5a5e64, cx + 0.0215, 0.028 + i * 0.008, cz, 0.003, 0.0015, 0.012);                   // ladder rungs
+      K.box('std', 0x4a4e54, cx - 0.02, 0.022, cz + 0.02, 0.018, 0.02, 0.012, -0.8);                                                     // the drive cabinet
+    }
+    { const M = new THREE.Matrix4().makeTranslation(cx, HP, cz).multiply(new THREE.Matrix4().makeRotationX(tilt)).multiply(new THREE.Matrix4().makeTranslation(0, 0.012, 0));
+      const piv = [cx, HP, cz], spin = [0.28, r() * TAU], parts = [];
+      const P = (g0, col) => parts.push([g0, col]);
+      // turret and yoke (turning frame, not tilted)
+      P(xf(new THREE.CylinderGeometry(0.03, 0.03, 0.022, 16), [cx, HP - 0.042, cz]), 0xdcdcd6);
+      P(xf(BOX, [cx, HP - 0.028, cz - 0.01], [0, 0, 0], [0.05, 0.012, 0.03]), 0xd0d0ca);
+      for (const s of [-1, 1]) P(xf(BOX, [cx + s * 0.036, HP - 0.018, cz], [0, 0, 0], [0.008, 0.04, 0.022]), 0xd8d8d2);
+      P(xf(new THREE.CylinderGeometry(0.006, 0.006, 0.08, 8).rotateZ(Math.PI / 2), [cx, HP, cz]), 0x8a9098);             // the elevation axle
+      // the dish (tilted frame): a closed shell (a lip at the rim), the rim ring, back ribs and hub, the feed on its quadripod
+      const dep = 0.03, fz = DR * DR / (4 * dep), prof = [];
+      for (let i = 0; i <= 8; i++) { const rr = Math.max(0.004, DR * i / 8 * 0.985); prof.push(new THREE.Vector2(rr, dep * (rr / DR) ** 2 - 0.004)); }
+      for (let i = 8; i >= 0; i--) { const rr = Math.max(0.004, DR * i / 8); prof.push(new THREE.Vector2(rr, dep * (rr / DR) ** 2)); }
+      P(xf(new THREE.LatheGeometry(prof, low ? 20 : 36), [0, 0, 0], [0, 0, 0], 1, M), (X, Y, Z) => _c.set(white).multiplyScalar(1.2 + 0.06 * vnoise(X * 200, Z * 200)));   // (brighter than white: nrSpin is half metal)
+      P(xf(new THREE.TorusGeometry(DR, 0.0028, 4, low ? 24 : 40).rotateX(Math.PI / 2), [0, dep, 0], [0, 0, 0], 1, M), 0xc8ccd0);
+      if (!low) {                                                                                          // the reflector's panel joints: two rings, radial seams
+        for (const q of [0.42, 0.74]) P(xf(new THREE.TorusGeometry(DR * q, 0.0009, 3, 32).rotateX(Math.PI / 2), [0, dep * q * q + 0.0008, 0], [0, 0, 0], 1, M), 0xa8acb0);
+        for (let k = 0; k < 12; k++) { const a = k / 12 * TAU, y = (q) => dep * q * q + 0.0008; P(xf(rod([Math.cos(a) * DR * 0.2, y(0.2), Math.sin(a) * DR * 0.2], [Math.cos(a) * DR * 0.98, y(0.98), Math.sin(a) * DR * 0.98], 0.0008, 3), [0, 0, 0], [0, 0, 0], 1, M), 0xa8acb0); }
+      }
+      P(xf(new THREE.CylinderGeometry(0.024, 0.03, 0.02, 12), [0, -0.012, 0], [0, 0, 0], 1, M), 0xc4c6c2);
+      if (!low) for (let k = 0; k < 8; k++) {
+        const a = k / 8 * TAU, ca = Math.cos(a), sa = Math.sin(a), y = (q) => dep * (q / DR) ** 2 - 0.006;
+        P(xf(rod([ca * 0.028, y(0.028) - 0.004, sa * 0.028], [ca * DR * 0.95, y(DR * 0.95), sa * DR * 0.95], 0.0022, 4), [0, 0, 0], [0, 0, 0], 1, M), 0xb0b4b8);
+      }
+      if (!low) P(xf(new THREE.TorusGeometry(DR * 0.55, 0.0018, 4, 24).rotateX(Math.PI / 2), [0, dep * 0.3 - 0.008, 0], [0, 0, 0], 1, M), 0xa8acb0);   // the back ring truss
+      for (let k = 0; k < (low ? 3 : 4); k++) { const a = (k + 0.5) / (low ? 3 : 4) * TAU; P(xf(rod([Math.cos(a) * DR * 0.9, dep * 0.81, Math.sin(a) * DR * 0.9], [0, fz - 0.01, 0], 0.0016, 4), [0, 0, 0], [0, 0, 0], 1, M), 0x9aa0a6); }
+      P(xf(new THREE.CylinderGeometry(0.006, 0.01, 0.02, 10), [0, fz - 0.008, 0], [0, 0, 0], 1, M), 0x6a7078);          // the feed horn
+      P(xf(new THREE.CylinderGeometry(0.012, 0.012, 0.004, 14), [0, fz + 0.004, 0], [0, 0, 0], 1, M), 0xd0d2d4);       // its subreflector
+      const Yw = new THREE.Matrix4().makeTranslation(cx, 0, cz).multiply(new THREE.Matrix4().makeRotationY(2.4)).multiply(new THREE.Matrix4().makeTranslation(-cx, 0, -cz));
+      for (const [g0, col] of parts) {                                                                      // (built facing the front, turned to face the back-right: into the light, when it stands still)
+        g0.applyMatrix4(Yw);
+        if (low) K.add('std', g0, col);                                                                      // (low: standing still)
+        else this.nrSpinAdd(N, 'nrSpin', g0, col, [0, 0, 0], [0, 0, 0], 1, piv, spin);
+      }
+    }
+
+    // ---- the control building: panelled, a flat roof with a parapet, a door and a few lit windows toward the gate;
+    // on the roof HVAC units, a small satcom dish, whips and a search radar spinning; a generator and fuel tank beside it
+    { const [bx, bz, bw, bd] = BL, bh = 0.044;
+      K.box('nrPanel', dusty(0xc8c2b4, 0.02, 0.5), bx, 0, bz, bw, bh, bd);
+      K.box('nrConc', 0x6a665f, bx, bh, bz, bw + 0.008, 0.005, bd + 0.008);                              // the roof (a dark membrane)
+      if (!low) for (const [ox, oz, ww, dd] of [[0, bd / 2 + 0.0025, bw + 0.008, 0.003], [0, -bd / 2 - 0.0025, bw + 0.008, 0.003], [bw / 2 + 0.0025, 0, 0.003, bd + 0.008], [-bw / 2 - 0.0025, 0, 0.003, bd + 0.008]]) K.box('nrConc', 0x9a968e, bx + ox, bh + 0.005, bz + oz, ww, 0.004, dd);   // the parapet
+      K.box('nrConc', 0x8a857c, bx, 0, bz, bw + 0.004, 0.006, bd + 0.004);                              // the plinth
+      { const ax = bx + bw * 0.3, az = bz + bd / 2 + 0.013;                                              // the airlock porch: its outer door, a small window, a step
+        K.box('nrPanel', dusty(0xb8b2a4, 0.02, 0.5), ax, 0, az, 0.036, 0.036, 0.026);
+        K.box('std', 0x5a5650, ax, 0.036, az, 0.04, 0.003, 0.03);
+        K.box('std', 0x3a3e44, ax, 0.002, az + 0.0131, 0.018, 0.028, 0.002); K.box('std', 0x1c2026, ax, 0.021, az + 0.0142, 0.008, 0.006, 0.001);
+        K.box('nrConc', concD, ax, 0, az + 0.019, 0.026, 0.004, 0.012); }
+      for (let i = 0; i < 4; i++) { const lit = i !== 2, x = bx - bw * 0.38 + i * 0.024;                   // windows: frames, two lit (dimly)
+        K.box('std', 0x4a4c50, x, 0.018, bz + bd / 2 + 0.0006, 0.017, 0.013, 0.002);
+        K.box(lit ? 'glow' : 'std', lit ? 0xb89a62 : 0x23272c, x, 0.0195, bz + bd / 2 + 0.0012, 0.013, 0.009, 0.002); }
+      for (let i = 0; i < 3; i++) { const x = bx - bw * 0.3 + i * 0.05; K.box('std', 0x4a4c50, x, 0.018, bz - bd / 2 - 0.0006, 0.017, 0.013, 0.002); K.box('std', 0x23272c, x, 0.0195, bz - bd / 2 - 0.0012, 0.013, 0.009, 0.002); }
+      if (!low) {                                                                                         // a ladder up the side, the cable riser from the trench
+        for (const s of [-1, 1]) K.box('metal', steel, bx - bw / 2 - 0.004, 0, bz + s * 0.006, 0.0015, bh + 0.014, 0.0015);
+        for (let i = 1; i < 8; i++) K.box('metal', steel, bx - bw / 2 - 0.004, i * 0.0065, bz, 0.0012, 0.0012, 0.012);
+        K.box('metal', 0x8a9096, bx - bw * 0.3, 0, bz - bd / 2 - 0.004, 0.012, bh - 0.004, 0.006);
+      }
+      for (const [ox, oz] of [[-0.05, -0.012], [-0.022, -0.012]]) {                                        // HVAC units, fan grilles
+        K.box('metal', 0x9aa0a4, bx + ox, bh + 0.005, bz + oz, 0.022, 0.012, 0.03);
+        K.cyl('std', 0x2a2c30, bx + ox, bh + 0.017, bz + oz, 0.008, 0.008, 0.001, 12);
+      }
+      K.add('std', dish(0.014, 0.006, 14), 0xe8e8e4, [bx + 0.055, bh + 0.02, bz + 0.012], [0.7, 0.4, 0]); K.cyl('metal', steel, bx + 0.055, bh + 0.005, bz + 0.012, 0.002, 0.002, 0.015, 5);
+      for (const [ox, oz, hh] of [[0.07, -0.025, 0.07], [0.076, -0.018, 0.05]]) K.cyl('metal', steelL, bx + ox, bh + 0.005, bz + oz, 0.0014, 0.0008, hh, 4);
+      // the roof search radar: a slotted bar on a short mast, turning quickly
+      const rx = bx + 0.012, rz = bz + 0.012, ry = bh + 0.005;
+      K.cyl('metal', steel, rx, ry, rz, 0.004, 0.004, 0.022, 6); K.cyl('metal', 0x4a4e54, rx, ry + 0.02, rz, 0.007, 0.007, 0.006, 10);
+      { const piv = [rx, ry + 0.03, rz], spin = [1.5, r() * TAU];
+        const bar = [[BOX, 0xe4e4e0, [rx, ry + 0.032, rz], [0, 0, 0], [0.07, 0.012, 0.005]], [BOX, 0x505458, [rx, ry + 0.032, rz + 0.003], [0, 0, 0], [0.066, 0.009, 0.0015]], [BOX, 0x7a7e84, [rx, ry + 0.027, rz - 0.002], [0, 0, 0], [0.012, 0.006, 0.008]]];
+        for (const [g0, col, t, rr, s] of bar) { if (low) K.add('metal', g0, col, t, rr, s); else this.nrSpinAdd(N, 'nrSpin', g0, col, t, rr, s, piv, spin); } }
+      // the generator (a container) and a fuel tank on saddles
+      const [gx, gz] = GN;
+      K.box('nrPanel', dusty(0x6f7456, 0.02, 0.45), gx, 0, gz, 0.036, 0.03, 0.06);
+      K.box('std', 0x2a2c30, gx, 0.031, gz - 0.012, 0.018, 0.001, 0.018); K.cyl('metal', 0x4a4e54, gx + 0.008, 0.03, gz + 0.018, 0.003, 0.003, 0.018, 6);
+      if (!low) for (const s of [-1, 1]) for (let i = 0; i < 4; i++) K.box('std', 0x3a3e30, gx + s * 0.0182, 0.008 + i * 0.004, gz - 0.012, 0.001, 0.0018, 0.024);   // louvres
+      K.box('std', 0x4a5040, gx + 0.0182, 0.002, gz + 0.016, 0.001, 0.024, 0.014);                                                     // the service door
+      K.add('metal', new THREE.CylinderGeometry(0.012, 0.012, 0.05, 14).rotateX(Math.PI / 2), dusty(0xd4d0c6, 0.02, 0.4), [gx, 0.016, gz + 0.065]);
+      for (const s of [-1, 1]) { K.box('nrConc', concD, gx, 0, gz + 0.065 + s * 0.016, 0.026, 0.007, 0.006); K.add('metal', new THREE.TorusGeometry(0.0121, 0.0009, 3, 16), 0x9a968c, [gx, 0.016, gz + 0.065 + s * 0.016]); }
+      K.cyl('metal', 0x8a8e90, gx, 0.027, gz + 0.065, 0.003, 0.003, 0.004, 8);                                                           // the filler cap
+    }
+
+    // ---- the lattice mast: three legs, cross-bracing, guy wires to their anchors, antennas; one red obstruction light on top
+    { const [mx, mz] = MS, H = 0.32, w0 = 0.011;
+      const leg = (k, y) => { const a = k / 3 * TAU + 0.3, s = w0 * (1 - 0.35 * y / H); return [mx + Math.cos(a) * s, y, mz + Math.sin(a) * s]; };
+      const band = (x, y) => (Math.floor(y / H * 7) % 2 ? _c.setRGB(0.86, 0.85, 0.82) : _c.setRGB(0.74, 0.22, 0.14));   // (painted in aviation bands)
+      for (let k = 0; k < 3; k++) K.add('metal', rod(leg(k, 0), leg(k, H), 0.0016, 4), band);
+      if (!low) for (let i = 0; i < 14; i++) for (let k = 0; k < 3; k++) { const y0 = i * H / 14, y1 = (i + 1) * H / 14; K.add('metal', rod(leg(k, y0), leg((k + 1) % 3, y1), 0.0007, 3), band); }
+      K.box('nrConc', concD, mx, 0, mz, 0.03, 0.006, 0.03);
+      for (let k = 0; k < 3; k++) {
+        const a = k / 3 * TAU + 0.3 + Math.PI / 3, ax = mx + Math.cos(a) * 0.1, az = mz + Math.sin(a) * 0.1;
+        if (Math.max(Math.abs(ax), Math.abs(ax * 0.5 + az * 0.866), Math.abs(ax * 0.5 - az * 0.866)) > 0.38) continue;   // (no anchor outside the fence)
+        K.box('nrConc', concD, ax, 0, az, 0.012, 0.005, 0.012);
+        if (!low) for (const y of [H * 0.45, H * 0.8]) K.add('metal', rod([ax, 0.005, az], [mx, y, mz], 0.0005, 3), 0x303234);
+      }
+      for (const [y, a] of [[H * 0.72, 0.4], [H * 0.72, 2.5], [H * 0.6, 4.5]]) K.box('std', 0xe0e0dc, mx + Math.cos(a) * 0.012, y, mz + Math.sin(a) * 0.012, 0.008, 0.028, 0.004, -a + Math.PI / 2);   // panel antennas
+      K.cyl('metal', steelL, mx, H, mz, 0.0015, 0.0008, 0.045, 4);
+      K.add('blink', BALL, 0xff2a1a, [mx, H + 0.003, mz], [0, 0, 0], 0.004);
+    }
+    // a few rocks, half-buried in the drifts
+    for (let i = 0; i < (low ? 6 : 14); i++) {
+      const a = r() * TAU, d = 0.2 + r() * 0.2, x = Math.cos(a) * d, z = Math.sin(a) * d, s = 0.005 + r() * 0.008;
+      if (Math.max(Math.abs(x), Math.abs(x * 0.5 + z * 0.866), Math.abs(x * 0.5 - z * 0.866)) > 0.37) continue;
+      if (Math.hypot(x - DC[0], z - DC[1]) < 0.13 || Math.hypot(x - DA[0], z - DA[1]) < DA[2] + 0.05 || Math.hypot(x - DB[0], z - DB[1]) < DB[2] + 0.05 || Math.abs(x) < 0.07 || Math.hypot(x - 0.32, z - 0.22) < 0.12 || Math.hypot(x - GN[0], z - GN[1]) < 0.07) continue;
+      K.add('std', ROCK, _c.setRGB(0.36, 0.24, 0.17).multiplyScalar(0.8 + r() * 0.4).getHex(), [x, -s * 0.15, z], [r() * 0.4, r() * TAU, 0], [s * 1.3, s * 0.55, s]);
+    }
     for (const [k, L] of K.by) if (typeof k === 'string' && k.startsWith('nr')) { N.by.set(k, L); K.by.delete(k); }
     this.emit(K, ctx);
     this.nrEmit(N, ctx);
-    // ---- the patrol vehicle on the ring road: an armoured scout car, amber light bar, headlamps
-    { const VP = [], VG = [], P = (L, g, c, t, rr = [0, 0, 0], s = 1) => L.push(part(g, c, t, rr, s));
-      P(VP, BOX, 0x565c40, [0, 0.016, 0], [0, 0, 0], [0.056, 0.016, 0.03]);
-      P(VP, BOX, 0x4a5036, [-0.006, 0.029, 0], [0, 0, 0], [0.032, 0.012, 0.027]);
-      P(VP, BOX, 0x1e2a34, [0.011, 0.03, 0], [0, 0, 0.5], [0.003, 0.009, 0.024]);
-      for (const x of [-0.019, 0.019]) for (const z of [-0.016, 0.016]) P(VP, new THREE.CylinderGeometry(0.0085, 0.0085, 0.006, 12).rotateX(Math.PI / 2), 0x1e1e1e, [x, 0.0085, z]);
-      P(VP, new THREE.CylinderGeometry(0.0008, 0.0008, 0.04, 4), 0x2a2a2a, [-0.02, 0.05, 0.01]);
-      P(VG, BOX, 0xffa21a, [-0.006, 0.0365, 0], [0, 0, 0], [0.005, 0.003, 0.018]);
-      for (const z of [-0.01, 0.01]) P(VG, BOX, 0xfff2c8, [0.0282, 0.018, z], [0, 0, 0], [0.0015, 0.004, 0.006]);
-      for (const z of [-0.011, 0.011]) P(VG, BOX, 0xff2010, [-0.0282, 0.018, z], [0, 0, 0], [0.0015, 0.003, 0.004]);
-      this.nrMoveEmit(ctx, this.nrVehicle(VP, VG, [0, 0, RX, RZ], 0.21, r() * TAU, Rb)); }
     this.emblem(ctx, 'restricted_area', -0.2, 0.2, 0.26, 0.28);
   }
-  // the Restricted Area's ground: its painted canvas (ra-ground2) plus per-pixel detail from the board position
-  // (from the hex uv): grit, asphalt aggregate on the dark surfaces, hairline cracks in patches; fades under a pixel
+  // a radome's geodesic shell: the top of an icosphere (unit radius, cut flat at y = cut), each triangle a panel with
+  // its own shade of white (a little dust toward the base), smooth normals; aBar = barycentrics for the seams (raDomeMat)
+  raDomeGeo(det, cut, seed) {
+    const key = 'raDome' + det + ':' + seed, C = (this.raDomeCache ||= {});
+    if (C[key]) return C[key];
+    const src = new THREE.IcosahedronGeometry(1, det), P = src.attributes.position, pos = [], nor = [], bar = [], col = [];
+    for (let f = 0; f < P.count; f += 3) {
+      const ys = [P.getY(f), P.getY(f + 1), P.getY(f + 2)];
+      if (Math.max(...ys) < cut + 0.02) continue;
+      const cx = P.getX(f) + P.getX(f + 1) + P.getX(f + 2), cz = P.getZ(f) + P.getZ(f + 1) + P.getZ(f + 2), cy = (ys[0] + ys[1] + ys[2]) / 3;
+      const t = 0.87 + 0.13 * hash2(cx * 17.3 + seed, cz * 11.1 + cy * 5.7), dust = 0.3 * (1 - smooth(cut, cut + 0.9, cy)) * (0.5 + hash2(cx * 3.1, cz * 7.9 + seed));
+      for (let j = 0; j < 3; j++) {
+        const x = P.getX(f + j), y = Math.max(cut, P.getY(f + j)), z = P.getZ(f + j), l = Math.hypot(x, y, z);
+        pos.push(x, y, z); nor.push(x / l, y / l, z / l); bar.push(j === 0 ? 1 : 0, j === 1 ? 1 : 0, j === 2 ? 1 : 0);
+        _c.setRGB(0.93, 0.925, 0.9).multiplyScalar(t).lerp(_c2.setRGB(0.66, 0.44, 0.3), dust); col.push(_c.r, _c.g, _c.b);
+      }
+    }
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.setAttribute('normal', new THREE.Float32BufferAttribute(nor, 3));
+    g.setAttribute('aBar', new THREE.Float32BufferAttribute(bar, 3)); g.setAttribute('color', new THREE.Float32BufferAttribute(col, 3));
+    src.dispose();
+    return C[key] = g;
+  }
+  // the radomes' material: vertex-coloured panels, their seams drawn from the barycentrics (a hairline, fading out
+  // once the panels get too small on screen)
+  raDomeMat() {
+    if (this.mats.raDome) return this.mats.raDome;
+    const m = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.55, metalness: 0.02 });
+    m.onBeforeCompile = (s) => {
+      s.vertexShader = s.vertexShader.replace('#include <common>', '#include <common>\nattribute vec3 aBar; varying vec3 vBar;').replace('#include <begin_vertex>', '#include <begin_vertex>\nvBar = aBar;');
+      s.fragmentShader = s.fragmentShader.replace('#include <common>', '#include <common>\nvarying vec3 vBar;').replace('#include <color_fragment>', `#include <color_fragment>
+{
+  float e = min(min(vBar.x, vBar.y), vBar.z), fw = fwidth(e);
+  float seam = (1.0 - smoothstep(fw * 0.6, fw * 1.6, e)) * clamp(1.4 - fw * 14.0, 0.0, 1.0);
+  diffuseColor.rgb *= 1.0 - 0.32 * seam;
+}`);
+    };
+    m.customProgramCacheKey = () => 'raDome';
+    this.own(m, 0.7);
+    return this.mats.raDome = m;
+  }
+  // the Restricted Area's ground: its painted canvas (ra-ground3) plus per-pixel detail from the board position
+  // (from the hex uv): grit, gravel aggregate, hairline cracks in patches; fades under a pixel
   raGroundMat(tex) {
-    if (this.mats.raGround2) return this.mats.raGround2;
-    const m = new THREE.MeshStandardMaterial({ map: tex, roughness: 0.9 }), R0 = (this.HEX_R * 0.95).toFixed(5);
+    if (this.mats.raGround3) return this.mats.raGround3;
+    const m = new THREE.MeshStandardMaterial({ map: tex, roughness: 0.92 }), R0 = (this.HEX_R * 0.95).toFixed(5);
     m.onBeforeCompile = (s) => {
       s.fragmentShader = s.fragmentShader.replace('#include <common>', `#include <common>
 float raH(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
@@ -260,18 +328,19 @@ float raN(vec2 p) { vec2 i = floor(p), f = fract(p); f = f * f * (3.0 - 2.0 * f)
 {
   vec2 p = vec2((vMapUv.x - 0.5) * 1.7320508 * ${R0}, (0.5 - vMapUv.y) * 2.0 * ${R0});
   float px = length(fwidth(p)), fine = clamp(1.0 - px * 300.0, 0.0, 1.0), mid = clamp(1.0 - px * 80.0, 0.0, 1.0);
-  vec3 c = diffuseColor.rgb; float lum = dot(c, vec3(0.3, 0.59, 0.11));
-  float agg = raH(floor(p * 1400.0)) * fine, dk = 1.0 - smoothstep(0.03, 0.09, lum);
+  vec3 c = diffuseColor.rgb; float sat = max(c.r, max(c.g, c.b)) - min(c.r, min(c.g, c.b));
+  float grey = 1.0 - smoothstep(0.06, 0.14, sat);
+  float agg = raH(floor(p * 1400.0)) * fine;
   c *= 0.93 + 0.12 * raN(p * 800.0) * fine + 0.08 * (raN(p * 90.0) - 0.5);
-  c += vec3(0.05) * step(0.93, agg) * dk;
+  c += vec3(0.05) * step(0.9, agg) * grey - vec3(0.04) * step(agg, 0.06) * grey;
   float cx = abs(raN(p * 55.0 + vec2(raN(p * 9.0) * 2.0)) - 0.5);
-  c *= 1.0 - 0.25 * (1.0 - smoothstep(0.0, 0.02, cx)) * smoothstep(0.55, 0.75, raN(p * 11.0 + 3.0)) * mid;
+  c *= 1.0 - 0.22 * (1.0 - smoothstep(0.0, 0.02, cx)) * smoothstep(0.55, 0.75, raN(p * 11.0 + 3.0)) * mid * grey;
   diffuseColor.rgb = c;
 }`);
     };
-    m.customProgramCacheKey = () => 'raGround2';
+    m.customProgramCacheKey = () => 'raGround3';
     this.own(m, 0.55);
-    return this.mats.raGround2 = m;
+    return this.mats.raGround3 = m;
   }
   // the perimeter's warning plate: white, a red border, the restricted symbol and two lines of 'text'
   raSignMat() {
@@ -286,7 +355,7 @@ float raN(vec2 p) { vec2 i = floor(p), f = fract(p); f = f * f * (3.0 - 2.0 * f)
     this.own(m, 0.55);
     return this.mats.raSign = m;
   }
-  // razor-wire coil (concertina) on the inner fence: overlapping loops with barbs, alpha-tested
+  // razor-wire coil (concertina) on the fence: overlapping loops with barbs, alpha-tested
   raCoilMat() {
     if (this.mats.raCoil) return this.mats.raCoil;
     const t = this.canvas('raCoil', 128, 32, (g, w, h) => {

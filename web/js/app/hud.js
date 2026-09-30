@@ -7,6 +7,9 @@ import { D, AK } from '../protocol.js';
 import { SP } from './content.js';
 import { PCOL, PMARK_MS, STACK_N, TB_VIEWS, critName, lsPick, maName, resName, spName } from './shared.js';
 
+// where the action panel is a drawer behind the Actions button (style: @media in app.css, #actions-toggle)
+const PHONE_DRAWER = '(max-width: 640px) and (orientation: portrait)';
+
 export class AppHud {
   toastLong(title, body) {
     let hb = $('#hintbox');
@@ -141,6 +144,10 @@ export class AppHud {
     const p = this.view.players[pid], tb = $('#tableau');
     this.tableauPid = pid;
     tb.innerHTML = '';
+    // an explicit close: a press inside the panel never closes it (on phones that press is how you scroll it)
+    const x = tb.appendChild(h('button', 'tbclose', '✕'));
+    x.type = 'button'; x.title = t('btn.close'); x.setAttribute('aria-label', t('btn.close'));
+    x.onclick = (e) => { e.stopPropagation(); this.audio.tick(); this.hideTableau(); };
     const vp = p.vp;
     const mode = (this.tbView ||= lsPick('tableauView', TB_VIEWS, 'cards'));
     tb.dataset.view = mode;
@@ -223,15 +230,12 @@ export class AppHud {
       if (row.scrollWidth <= row.clientWidth || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
       row.scrollLeft += document.documentElement.dir === 'rtl' ? -e.deltaY : e.deltaY; e.preventDefault();   // (RTL rows start at the right: scrollLeft runs 0 .. negative)
     }, { passive: false }));
-    // a click anywhere that isn't on a card closes it (cards still zoom; the
-    // player boards keep their own toggle)
+    // a press outside it closes it (the player boards keep their own toggle; a zoomed card stays open over it).
+    // Inside, nothing closes it but the ✕: on a phone every scroll starts as a press on the panel
     if (!this.tableauOutside) {
       this.tableauOutside = (e) => {
         if ($('#tableau').classList.contains('hidden')) return;
-        if (e.target.closest('#tableau :is(.card, .tbn, .tbview)') || e.target.closest('.pb') || e.target.closest('#zoom, .zoom')) return;
-        // a press on a row's scrollbar (below the cards) scrolls, it doesn't close
-        const row = e.target.closest('#tableau .grid');
-        if (row && (row.scrollWidth > row.clientWidth) && e.offsetY >= row.clientHeight - 2) return;
+        if (e.target.closest('#tableau') || e.target.closest('.pb') || e.target.closest('#zoom, .zoom')) return;
         this.hideTableau();
       };
       document.addEventListener('pointerdown', this.tableauOutside, true);
@@ -259,6 +263,15 @@ export class AppHud {
       m.get(key).push(i);
     });
     return m;
+  }
+
+  // open the Actions drawer (phones) scrolled to one of its sections
+  openDrawerAt(sel) {
+    const a = $('#actions');
+    a.classList.add('open');
+    const tog = $('#actions-toggle'); if (tog) tog.textContent = t('btn.closeDrawer');
+    const blk = $(sel);
+    if (blk) setTimeout(() => a.scrollTo({ top: blk.offsetTop - 6, behavior: 'smooth' }), 60);
   }
 
   renderActions() {
@@ -311,7 +324,7 @@ export class AppHud {
     $('#blue-blk').classList.toggle('hidden', !actCards.length);
     // the same actions in the turn row, so an unused card action is never forgotten:
     // one button per action card not yet used this generation, lit when it is legal now
-    // three rows: card actions + conversions / standard projects / undo + confirm + turn enders
+    // three rows: card actions + conversions + claimable milestones / standard projects / undo + confirm + turn enders
     const strip = $('#turnacts'), spRow = $('#turnsp'), endRow = $('#turnend'), msRow = $('#turnms');
     strip.innerHTML = ''; spRow.innerHTML = ''; endRow.innerHTML = ''; msRow.innerHTML = '';
     const chip = (label, enabled, onclick, cls = 'ghost cact', title = '', into = strip) => {
@@ -333,13 +346,18 @@ export class AppHud {
         const enabled = i === 0 ? [...ent.keys()].some((k) => k.startsWith('sell:')) : ent.has(key);
         chip(`${esc(spName(i))}${typeof sp.cost === 'number' ? ` <span class="cost">${sp.cost}</span>` : ''}`, enabled, () => (i === 0 ? this.sellFlow() : this.startFlow(key)), 'ghost cact sp', t(`sp.${i}.what`), spRow);
       });
-      // milestones you can claim right now (only those)
+      // milestones you can claim right now (only those), on the card actions' row: one row fewer to read
       v.ms.forEach((m, i) => {
         const key = 'ms:' + (v.map * 5 + i);
-        if (ent.has(key)) chip(`🏆 ${esc(maName(m.name))} <span class="cost">8</span>`, true, () => this.startFlow(key), 'ghost cact ms', t('chip.claimTitle', { ms: maName(m.name) }), msRow);
+        if (ent.has(key)) chip(`🏆 ${esc(maName(m.name))} <span class="cost">8</span>`, true, () => this.startFlow(key), 'ghost cact ms', t('chip.claimTitle', { ms: maName(m.name) }), strip);
       });
       if (ent.has('end')) chip(esc(t('act.endTurn')), true, () => this.startFlow('end'), 'ghost cact turn', '', endRow);
       if (ent.has('pass')) chip(esc(t(pk === D.FG ? 'act.done' : 'act.passGenShort')), true, () => this.startFlow('pass'), 'ghost cact turn', t('act.passTitle'), endRow);
+    }
+    // phones: milestones and awards live in the Actions drawer, which isn't obvious -- a chip for each at the end of
+    // the standard projects row opens the drawer at that section (also outside the action phase: the draft, research)
+    if (pk !== D.OVER && matchMedia(PHONE_DRAWER).matches) {
+      for (const [k, sel, icon] of [['panel.ms', '#ms-blk', '🏆'], ['panel.aw', '#aw-blk', '🏅']]) chip(`${icon} ${esc(t(k))} ▸`, true, () => this.openDrawerAt(sel), 'ghost cact drawerlink', '', spRow);
     }
     strip.classList.toggle('hidden', !strip.children.length);
     spRow.classList.toggle('hidden', !spRow.children.length);

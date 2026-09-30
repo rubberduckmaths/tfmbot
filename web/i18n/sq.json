@@ -457,6 +457,7 @@
  "peek.yourChoice": "zgjedhja jote",
  "setup.title": "Zgjidh fillimin tënd",
  "setup.sub": "Zgjidh 1 korporatë, 2 prelude dhe bli karta projekti me 3 M€ secilën. Kliko djathtas / shtyp gjatë një kartë për ta lexuar të madhe.",
+ "setup.cardsList": "Kjo dorë në listën e letrave ↗",
  "setup.corp": "Korporata",
  "setup.pre": "Prelude — zgjidh 2 (i luan pas përgatitjes, në çdo renditje)",
  "setup.proj": "Karta projekti — 3 M€ secila",
@@ -1020,5 +1021,9 @@
  "trig.order": "Zbatohen në këtë radhë: {list}.",
  "trig.orderWhy": "Tërheqjet vijnë të parat, ndaj një kartë e tërhequr nga njëra prej tyre mund të jetë ajo që hedh.",
  "hex.rc": "rreshti {r}, kutia {c}",
- "hex.rcTitle": "Rreshti {r}, kutia {c}"
+ "hex.rcTitle": "Rreshti {r}, kutia {c}",
+ "hex.claimed": "{card}: e rezervuar nga {who}; askush tjetër nuk mund të vendosë pllakë këtu",
+ "rp.povTitle": "Nga vendi i kujt shikon: dora, zgjedhjet në draft dhe letrat e tërhequra. Kliko për të ndërruar lojtarin",
+ "rp.povOld": "Vetëm vendi yt: ky riprodhim u regjistrua para se të ruheshin letrat e TFMBot",
+ "atk.offset": "{who} i humbi, por {card} ktheu të njëjtën sasi"
 }

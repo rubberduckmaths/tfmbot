@@ -489,6 +489,7 @@
  "peek.yourChoice": "vaše volba",
  "setup.title": "Vyberte si start",
  "setup.sub": "Vyberte 1 korporaci, 2 předehry a kupte libovolné karty projektů po 3 M€. Kliknutím pravým tlačítkem / dlouhým stiskem si kartu zvětšíte.",
+ "setup.cardsList": "Tato ruka v seznamu karet ↗",
  "setup.corp": "Korporace",
  "setup.pre": "Předehry — vyberte 2 (zahrajete je po přípravě, v libovolném pořadí)",
  "setup.proj": "Karty projektů — po 3 M€",
@@ -1069,5 +1070,9 @@
  "trig.order": "Vyhodnotí se v tomto pořadí: {list}.",
  "trig.orderWhy": "Dobírání jde první, takže kartu, kterou jedna z nich dobrala, můžete hned odhodit.",
  "hex.rc": "pole {c} v řadě {r}",
- "hex.rcTitle": "Řada {r}, pole {c}"
+ "hex.rcTitle": "Řada {r}, pole {c}",
+ "hex.claimed": "{card}: rezervováno hráčem {who}; nikdo jiný sem nemůže umístit destičku",
+ "rp.povTitle": "Z čího místa se díváte: jeho ruka, výběry v draftu a dobrané karty. Kliknutím přepnete hráče",
+ "rp.povOld": "Jen vaše místo: tento záznam vznikl dřív, než se začaly ukládat karty TFMBota",
+ "atk.offset": "{who} o ně přišel, ale {card} vrátila stejně"
 }

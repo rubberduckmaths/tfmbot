@@ -414,6 +414,7 @@
  "peek.yourChoice": "dit valg",
  "setup.title": "Vælg din start",
  "setup.sub": "Vælg 1 korporation og 2 præludier, og køb de projektkort, du vil have, for 3 M€ stykket. Højreklik / tryk længe på et kort for at læse det i stor størrelse.",
+ "setup.cardsList": "Denne hånd i kortlisten ↗",
  "setup.corp": "Korporation",
  "setup.pre": "Præludier — vælg 2 (du spiller dem efter opsætningen, i valgfri rækkefølge)",
  "setup.proj": "Projektkort — 3 M€ stykket",
@@ -977,5 +978,9 @@
  "trig.order": "De afvikles i denne rækkefølge: {list}.",
  "trig.orderWhy": "Træk kommer først, så et kort, som en af dem trak, kan være det, du kasserer.",
  "hex.rc": "række {r}, felt {c}",
- "hex.rcTitle": "Række {r}, felt {c}"
+ "hex.rcTitle": "Række {r}, felt {c}",
+ "hex.claimed": "{card}: reserveret af {who}; ingen andre kan placere en brik her",
+ "rp.povTitle": "Hvis plads du ser fra: deres hånd, draftvalg og trukne kort. Klik for at skifte spiller",
+ "rp.povOld": "Kun din plads: denne genafspilning blev optaget, før TFMBots kort blev gemt",
+ "atk.offset": "{who} mistede dem, men {card} gav det samme tilbage"
 }

@@ -193,8 +193,19 @@ export const BAKE_W = 2048, BAKE_H = 1024;
 export const REG_A = 62 * Math.PI / 180;         // regional texture radius (the baked regional texture's radius: web/assets/maps/README.md)
 export const realGLSL = /* glsl */`
 uniform float uRaw;                     // 1: the texture is already graded (the Tharsis look, baked into the texture)
+// the rust grade, on every map: much less green and blue in the dust, so Mars reads red rather than orange; each
+// texel keeps its brightness (a contrast stretch here deepened the shadows and made the relief read bumpier); the
+// polar ice and bright frost stay white (and a touch brighter)
+vec3 rustMars(vec3 c){
+  const vec3 Y=vec3(0.3,0.59,0.11);
+  float l=dot(c,Y), mx=max(c.r,max(c.g,c.b));
+  float ice=smoothstep(0.55,0.75,l)*(1.0-smoothstep(0.12,0.3,(mx-min(c.r,min(c.g,c.b)))/max(mx,1e-3)));
+  vec3 r=c*vec3(0.97,0.60,0.50);
+  r*=l/max(dot(r,Y),1e-4);
+  return max(mix(r,min(c*1.22+0.04,vec3(1.0)),ice),vec3(0.0));
+}
 vec3 gradeMars(vec3 im){
-  if(uRaw>0.5) return im;
+  if(uRaw>0.5) return rustMars(im);
   float lum=dot(im,vec3(0.3,0.59,0.11));
   // onto the Tharsis palette (basalt -> dust -> bright), keeping some of the mosaic's own tint
   float t=smoothstep(0.24,0.54,lum);
@@ -203,7 +214,7 @@ vec3 gradeMars(vec3 im){
   vec3 w=max(pal+tint*pal*0.5,vec3(0.0));
   float mx=max(im.r,max(im.g,im.b)), sat=(mx-min(im.r,min(im.g,im.b)))/max(mx,1e-3);
   float ice=smoothstep(0.58,0.76,lum)*(1.0-smoothstep(0.1,0.25,sat));      // polar ice stays white
-  return mix(w,im*vec3(0.98,1.0,1.04),ice);
+  return rustMars(mix(w,im*vec3(0.98,1.0,1.04),ice));
 }
 float iceOf(vec3 im){ float lum=dot(im,vec3(0.3,0.59,0.11)); float mx=max(im.r,max(im.g,im.b)), sat=(mx-min(im.r,min(im.g,im.b)))/max(mx,1e-3); return smoothstep(0.58,0.76,lum)*(1.0-smoothstep(0.1,0.25,sat)); }
 float reliefOf(float hk, vec3 im){ return (hk-0.3)*2.0+(dot(im,vec3(0.3,0.59,0.11))-0.45)*(0.06+0.3*iceOf(im)); }   // hk: 0..1 = -9..22 km; in the ice, the dark troughs of the layered terrain read as relief

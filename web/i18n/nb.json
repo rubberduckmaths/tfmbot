@@ -414,6 +414,7 @@
  "peek.yourChoice": "ditt valg",
  "setup.title": "Velg starten din",
  "setup.sub": "Velg 1 selskap og 2 preludier, og kjøp de prosjektkortene du vil ha for 3 M€ stykket. Høyreklikk / trykk lenge på et kort for å lese det i stor størrelse.",
+ "setup.cardsList": "Denne hånden i kortlisten ↗",
  "setup.corp": "Selskap",
  "setup.pre": "Preludier — velg 2 (du spiller dem etter oppsettet, i valgfri rekkefølge)",
  "setup.proj": "Prosjektkort — 3 M€ stykket",
@@ -977,5 +978,9 @@
  "trig.order": "Disse løses i denne rekkefølgen: {list}.",
  "trig.orderWhy": "Trekk kommer først, så et kort en av dem trakk, kan være det du kaster.",
  "hex.rc": "rad {r}, felt {c}",
- "hex.rcTitle": "Rad {r}, felt {c}"
+ "hex.rcTitle": "Rad {r}, felt {c}",
+ "hex.claimed": "{card}: reservert av {who}; ingen andre kan legge en brikke her",
+ "rp.povTitle": "Hvem sin plass du ser fra: hånden, draftvalgene og trekkene. Klikk for å bytte spiller",
+ "rp.povOld": "Bare din plass: denne reprisen ble tatt opp før TFMBots kort ble lagret",
+ "atk.offset": "{who} mistet dem, men {card} ga like mange tilbake"
 }

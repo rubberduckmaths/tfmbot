@@ -454,6 +454,7 @@
  "peek.yourChoice": "þitt val",
  "setup.title": "Veldu upphafið",
  "setup.sub": "Veldu 1 fyrirtæki, 2 forleiki og keyptu verkefnaspil á 3 M€ stykkið. Hægrismelltu / haltu inni á spili til að lesa það stórt.",
+ "setup.cardsList": "Þessi hönd í spilalistanum ↗",
  "setup.corp": "Fyrirtæki",
  "setup.pre": "Forleikir — veldu 2 (þú spilar þeim eftir undirbúning, í hvaða röð sem er)",
  "setup.proj": "Verkefnaspil — 3 M€ stykkið",
@@ -1014,5 +1015,9 @@
  "trig.order": "Þetta leysist í þessari röð: {list}.",
  "trig.orderWhy": "Dráttur kemur fyrst, svo spil sem eitt þeirra dró getur verið það sem þú hendir.",
  "hex.rc": "reit {c} í röð {r}",
- "hex.rcTitle": "Röð {r}, reitur {c}"
+ "hex.rcTitle": "Röð {r}, reitur {c}",
+ "hex.claimed": "{card}: frátekið af {who}; enginn annar getur sett reit hér",
+ "rp.povTitle": "Úr hvers sæti þú horfir: hönd, draftval og dregin spil. Smelltu til að skipta um leikmann",
+ "rp.povOld": "Aðeins þitt sæti: þessi endursýning var tekin upp áður en spil TFMBot voru vistuð",
+ "atk.offset": "{who} missti þær, en {card} gaf jafnmargar til baka"
 }

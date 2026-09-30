@@ -472,6 +472,7 @@
  "peek.yourChoice": "tava izvēle",
  "setup.title": "Izvēlies sākumu",
  "setup.sub": "Izvēlies 1 korporāciju, 2 prelūdijas un nopērc projektu kārtis par 3 M€ katru. Labais klikšķis / ilgs pieskāriens parāda kārti lielu.",
+ "setup.cardsList": "Šī roka kāršu sarakstā ↗",
  "setup.corp": "Korporācija",
  "setup.pre": "Prelūdijas — izvēlies 2 (tās izspēlēsi pēc sagatavošanas, jebkurā secībā)",
  "setup.proj": "Projektu kārtis — 3 M€ katra",
@@ -1046,5 +1047,9 @@
  "trig.order": "Tās izpildās šādā secībā: {list}.",
  "trig.orderWhy": "Vilkšana notiek pirmā, tāpēc kārti, ko izvilka kāda no tām, vari uzreiz nomest.",
  "hex.rc": "rinda {r}, lauciņš {c}",
- "hex.rcTitle": "Rinda {r}, lauciņš {c}"
+ "hex.rcTitle": "Rinda {r}, lauciņš {c}",
+ "hex.claimed": "{card}: rezervējis {who}; neviens cits šeit nevar novietot flīzi",
+ "rp.povTitle": "No kura vietas skaties: viņa roka, drafta izvēles un vilktās kārtis. Noklikšķini, lai mainītu spēlētāju",
+ "rp.povOld": "Tikai tava vieta: šis atkārtojums ierakstīts, pirms TFMBot kārtis tika saglabātas",
+ "atk.offset": "{who} tos zaudēja, bet {card} atdeva tikpat daudz"
 }

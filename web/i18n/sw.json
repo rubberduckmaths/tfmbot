@@ -445,6 +445,7 @@
  "peek.yourChoice": "chaguo lako",
  "setup.title": "Chagua mwanzo wako",
  "setup.sub": "Chagua shirika 1, tangulizi 2, na ununue kadi zozote za mradi kwa 3 M€ kila moja. Bofya-kulia / bonyeza kwa muda kadi ili uisome kwa ukubwa.",
+ "setup.cardsList": "Mkono huu kwenye orodha ya kadi ↗",
  "setup.corp": "Shirika",
  "setup.pre": "Tangulizi — chagua 2 (unazicheza baada ya maandalizi, kwa mpangilio wowote)",
  "setup.proj": "Kadi za mradi — 3 M€ kila moja",
@@ -1005,5 +1006,9 @@
  "trig.order": "Hizi hutekelezwa kwa mpangilio huu: {list}.",
  "trig.orderWhy": "Kuchukua kadi huja kwanza, hivyo kadi iliyochukuliwa na mojawapo inaweza kuwa ile unayotupa.",
  "hex.rc": "safu {r}, nafasi {c}",
- "hex.rcTitle": "Safu {r}, nafasi {c}"
+ "hex.rcTitle": "Safu {r}, nafasi {c}",
+ "hex.claimed": "{card}: imehifadhiwa na {who}; hakuna mwingine anayeweza kuweka kigae hapa",
+ "rp.povTitle": "Unatazama kutoka kiti cha nani: mkono wao, chaguo za drafti na kadi walizochukua. Bofya kubadilisha mchezaji",
+ "rp.povOld": "Kiti chako pekee: marudio haya yalirekodiwa kabla kadi za TFMBot hazijahifadhiwa",
+ "atk.offset": "{who} alivipoteza, lakini {card} ilirudisha kiasi hicho hicho"
 }

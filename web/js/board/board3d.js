@@ -39,7 +39,7 @@ export class Board3D {
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
     this.renderer.setPixelRatio(this.prCap());
     gfx.renderer = this.renderer;                     // quality.js: auto level + ?stats
-    this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    this.renderer.toneMapping = THREE.NeutralToneMapping;          // hue-true: ACES pushed Mars' reds toward orange
     this.renderer.toneMappingExposure = 1.1;
     this.scene = new THREE.Scene();
     this.camera = new THREE.PerspectiveCamera(38, 1, 0.05, 3000);
@@ -685,8 +685,7 @@ export class Board3D {
     }
     const p4 = gfx.stats ? performance.now() : 0;
     if (this.hold) return;                            // (the loading screen covers the canvas: app.js, while the shaders compile)
-    if (dragging && !this.dragDirty) return;            // (one frame when the drop highlights change: hand.js)
-    this.dragDirty = false;
+    if (dragging) return;                               // (a hand card is being dragged: app/hand.js)
     this.renderer.render(this.scene, this.camera);
     if (gfx.stats) gfx.cpu('render', performance.now() - p4);
   }

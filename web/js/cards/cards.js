@@ -138,6 +138,31 @@ function effectRow(card) {
 }
 
 // opts: { big, resCount, used, discount, onClick }
+// Text that would run past the card's bottom (Search For Life, Immigrant City on the small face) or under
+// its VP badge shrinks just enough to fit -- only on the cards that need it, down to 60% (the phone hand). It needs layout to
+// measure, so it runs once the card is on the page (a card shown later, e.g. in a hidden panel, is measured
+// when it is first seen: fitText can be called again).
+const FIT_MIN = 0.6;
+function fitWhenShown(el, tries = 4) {
+  requestAnimationFrame(() => {
+    if (el.isConnected && el.offsetHeight) fitText(el);
+    else if (tries > 0) setTimeout(() => fitWhenShown(el, tries - 1), 250);
+  });
+}
+export function fitText(el) {
+  const body = el.querySelector('.body');
+  if (!body || !body.clientHeight) return;
+  body.style.fontSize = '';
+  const vp = el.querySelector('.vp');
+  const reserve = vp ? vp.offsetHeight * 0.8 : 0;     // (the last line stays clear of the VP badge)
+  // the text blocks' bottom (offsets: unaffected by the hand's scale transform); the art panel only fills spare room
+  const kids = [...body.children].filter((k) => !k.classList.contains('art'));
+  const over = () => Math.max(0, ...kids.map((k) => k.offsetTop + k.offsetHeight)) - body.offsetTop > body.clientHeight - reserve + 1;
+  if (!over()) return;
+  const base = parseFloat(getComputedStyle(body).fontSize);
+  for (let k = 0.95; k >= FIT_MIN - 1e-6 && over(); k -= 0.05) body.style.fontSize = `${(base * k).toFixed(2)}px`;
+}
+
 export function cardEl(card, opts = {}) {
   const el = document.createElement('div');
   // crowded top strip (Advanced Ecosystems: 3 tag requirements + 3 tags): requirements drop to a row of their own
@@ -156,7 +181,7 @@ export function cardEl(card, opts = {}) {
     cost = `<div class="cost" title="${esc(t('card.startMc'))}">${card.mc0}</div>`;
   }
   const fx = [
-    ...cardActions(card).map((a) => `<div class="fx"><b>${esc(t('card.action'))}</b> ${esc(a)}</div>`),
+    ...cardActions(card).map((a) => `<div class="fx act"><b>${esc(t('card.action'))}</b> ${esc(a)}</div>`),
     ...cardEffects(card).map((a) => `<div class="fx"><b>${esc(t('card.effect'))}</b> ${esc(a)}</div>`),
   ].join('');
   let vp = '';
@@ -171,6 +196,7 @@ export function cardEl(card, opts = {}) {
   el.title = cardName(card) === card.name ? card.name : `${cardName(card)} · ${card.name}`;   // the English name stays findable
   el.dataset.name = card.name;
   watchArt(el.querySelector('.art'), card);            // a painted vignette in the spare space, where cards are shown large (card_art.js)
+  fitWhenShown(el);
   if (opts.onClick) el.addEventListener('click', (e) => { e.stopPropagation(); opts.onClick(card, el); });
   return el;
 }

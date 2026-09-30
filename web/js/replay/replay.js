@@ -4,8 +4,10 @@
 // each COMMITTED step -- states, never a re-simulation, so rewinds and card
 // draws cannot diverge and a replay stays valid across engine releases. The
 // recorder takes a copy of every 'view' message as it arrives from the worker
-// (masked for the setup stage and redacted to what the human could see:
-// replay_codec.js redact), drops consecutive duplicates, and on an undo drops
+// (whole: both players' hands, packs and draws -- the file is uploaded only once
+// the game is over, and the viewer shows it from either player's seat, redacted
+// to what that player could see; recordings begun before that are redacted to the
+// human's view at recording time and play from the human's seat only), drops consecutive duplicates, and on an undo drops
 // exactly the views the undo took back (the worker tags each view with a
 // sequence number and each undo with the first number it took back). Steps are
 // kept as JSON diffs against the view before, and mirrored step by step into
@@ -101,7 +103,7 @@ export class Recorder {
   clear() {
     this.steps = []; this.views = []; this.seqs = [];
     this.partial = false; this.truncated = false; this.dead = false; this.bytes = 0;
-    this.pendingAns = null; this.checkRestore = false; this.upP = null;
+    this.pendingAns = null; this.checkRestore = false; this.upP = null; this.full = true;
     this.result = new Promise((res, rej) => { this._res = res; this._rej = rej; });
     this.result.catch(() => {});
   }
@@ -110,7 +112,7 @@ export class Recorder {
   onView(m) {
     if (!this.static || !m.view) return;
     let v;
-    try { v = redact(this.app.mask(clone(m.view))); } catch (e) { console.warn('replay: view not recorded', e); return; }
+    try { v = clone(m.view); } catch (e) { console.warn('replay: view not recorded', e); return; }
     const rec = { v, gid: m.gid || 'legacy', seq: m.seq, who: m.step?.who, kind: m.step?.kind, dropFrom: m.dropFrom, over: !!m.over || v.pending?.kind === D.OVER, fresh: !!m.fresh };
     this.chain = this.chain.then(() => this.handle(rec)).catch((e) => console.warn('replay recorder', e));
   }
@@ -122,6 +124,7 @@ export class Recorder {
   }
   async handle(rec) {
     if (rec.gid !== this.gid) await this.begin(rec);
+    if (!this.full) rec.v = redact(this.app.mask(rec.v));   // (a recording begun redacted stays redacted)
     if (rec.dropFrom != null) {
       const i = this.seqs.findIndex((q) => q != null && q >= rec.dropFrom);
       if (i >= 0) this.truncate(i);
@@ -154,7 +157,7 @@ export class Recorder {
       this.steps = saved.steps;
       this.views = decodeViews(this.steps);
       this.seqs = [];
-      this.partial = !!saved.meta.partial; this.truncated = !!saved.meta.truncated;
+      this.partial = !!saved.meta.partial; this.truncated = !!saved.meta.truncated; this.full = !!saved.meta.full;
       this.bytes = this.steps.reduce((n, s) => n + JSON.stringify(s).length, 0);
       this.checkRestore = true;
       if (saved.meta.uploaded) { this.upP = Promise.resolve(saved.meta.uploaded); this._res(saved.meta.uploaded); }
@@ -163,7 +166,7 @@ export class Recorder {
     this.partial = !isStart(rec.v);
     await store.reset(this.meta());
   }
-  meta() { return { gid: this.gid, hs: this.hs, partial: this.partial, truncated: this.truncated, dead: this.dead, uploaded: this.uploaded || null }; }
+  meta() { return { gid: this.gid, hs: this.hs, partial: this.partial, truncated: this.truncated, dead: this.dead, full: this.full, uploaded: this.uploaded || null }; }
   saveMeta() { store.meta(this.meta()); }
   truncate(n) {
     this.steps.length = Math.min(this.steps.length, n); this.views.length = this.steps.length; this.seqs.length = Math.min(this.seqs.length, n);
@@ -194,7 +197,7 @@ export class Recorder {
     const last = this.views[this.views.length - 1];
     return {
       fmt: REPLAY_FMT, v: REPLAY_VERSION, build: buildId(), created: new Date().toISOString(),
-      partial: this.partial, truncated: this.truncated, human: last.human, map: last.map,
+      partial: this.partial, truncated: this.truncated, human: last.human, map: last.map, ...(this.full ? { full: 1 } : {}),
       result: { winner: last.winner, tie: last.tie, gen: last.gen, vp: last.players.map((p) => p.vp.total) },
       static: this.static, steps: this.steps,
     };
@@ -269,7 +272,12 @@ export class ReplayViewer {
     if (!staticMatches(r.static, local.data)) return this.fail('rp.err.version');
     let rp;
     try { rp = sanitizeReplay(r, local.data, mapId); } catch (e) { console.info(e?.message || e); return this.fail(e?.key || 'rp.err.format'); }
-    this.r = { partial: rp.partial }; this.steps = rp.steps; this.views = rp.views; this.N = rp.views.length;
+    this.r = { partial: rp.partial, full: rp.full }; this.steps = rp.steps; this.N = rp.views.length;
+    // whose seat the replay is watched from: a whole recording (rp.full) can be watched from either
+    // player's, each view redacted to what that player could see; an older one only from the human's
+    this.raw = rp.views; this.human0 = rp.views[0].human;
+    const pov = +new URLSearchParams(location.search).get('pov');
+    this.setSeat(rp.full && Number.isInteger(pov) && rp.views[0].players[pov] ? pov : this.human0);
     window.tfmReplay = this;                                  // (tests)
     A.onMsg({ t: 'static', data: local.data, map: mapId });
     for (let k = 0; k < 600 && !(A.db && A.map); k++) await new Promise((res) => setTimeout(res, 20));
@@ -335,8 +343,32 @@ export class ReplayViewer {
     A.prevLogView = V[0];
   }
   stepOf(i) {
-    const st = this.steps[i], a = this.views[i - 1];
-    return { who: st.who || (a.pending.player === a.human ? 'human' : 'bot'), kind: st.kind ?? a.pending.kind };
+    const st = this.steps[i], a = this.views[i - 1], flip = this.seat !== this.human0;
+    const who = st.who && flip ? { human: 'bot', bot: 'human' }[st.who] : st.who;   // ('human' = the seat watched from)
+    return { who: who || (a.pending.player === a.human ? 'human' : 'bot'), kind: st.kind ?? a.pending.kind };
+  }
+  // the human's recorded answer at step i (only theirs is recorded: from the other seat, none)
+  ansOf(i) { return (this.seat === this.human0 && this.steps[i].ans) || {}; }
+  // the views as the player in `seat` saw them
+  setSeat(seat) {
+    this.seat = seat;
+    const A = this.app;
+    this.views = this.raw.map((v) => redact(A.mask(clone({ ...v, human: seat }))));   // (always: a no-op on an older, already redacted recording)
+  }
+  // watch from the other seat: the same step, redrawn (captions and log rebuilt for it)
+  switchSeat() {
+    if (!this.ready || !this.r.full) return;
+    const playing = this.playing;
+    this.pause();
+    this.abort();
+    return this.run(() => {
+      this.pace.skip = false;
+      this.cleanup();
+      this.setSeat(this.views[0].players.find((p) => p.id !== this.seat).id);
+      this.precompute();
+      this.render(this.target);
+      try { const u = new URL(location.href); u.searchParams.set('pov', this.seat); history.replaceState(null, '', u); } catch {}
+    }).then(() => { if (playing) this.play(); });
   }
   startCaption() {
     const A = this.app, key = A.map?.key, v = this.views[0];
@@ -359,7 +391,7 @@ export class ReplayViewer {
 
   // what the human was offered at step i, and what they chose
   chosenOf(i) {
-    const a = this.views[i - 1], b = this.views[i], st = this.steps[i], me = a.human, pd = a.pending, ans = st.ans || {};
+    const a = this.views[i - 1], b = this.views[i], me = a.human, pd = a.pending, ans = this.ansOf(i);
     const hand = b.players[me].hand;
     const inHand = (ids) => { const left = hand.slice(); return ids.filter((c) => { const j = left.indexOf(c); if (j < 0) return false; left.splice(j, 1); return true; }); };
     switch (pd.kind) {
@@ -689,6 +721,9 @@ export class ReplayViewer {
     this.bPlay = btn('play', '▶', t('rp.playTitle'));
     this.bNext = btn('next', '⏭', t('rp.nextTitle'));
     this.bSpeed = btn('speed', '1×', t('rp.speedTitle'));
+    this.bSeat = btn('seat', '', this.r.full ? t('rp.povTitle') : t('rp.povOld'));
+    this.bSeat.classList.add('seat');
+    this.bSeat.disabled = !this.r.full;
     this.bPlay.classList.add('play');
     const sc = h('div', 'rps');
     this.range = h('input', '');
@@ -704,12 +739,12 @@ export class ReplayViewer {
     });
     sc.append(ticks, this.range);
     this.read = h('span', 'rpread', '');
-    bar.append(this.bPrev, this.bPlay, this.bNext, sc, this.read, this.bSpeed);
+    bar.append(this.bPrev, this.bPlay, this.bNext, sc, this.read, this.bSpeed, this.bSeat);
     bar.addEventListener('click', (e) => {
       const b = e.target.closest('button[data-a]');
       if (!b) return;
       this.app.audio.tick?.();
-      ({ prev: () => this.prev(), play: () => this.toggle(), next: () => this.next(), speed: () => this.setSpeed(SPEEDS[(SPEEDS.indexOf(this.speed) + 1) % SPEEDS.length]) })[b.dataset.a]();
+      ({ prev: () => this.prev(), play: () => this.toggle(), next: () => this.next(), speed: () => this.setSpeed(SPEEDS[(SPEEDS.indexOf(this.speed) + 1) % SPEEDS.length]), seat: () => this.switchSeat() })[b.dataset.a]();
       b.blur();
     });
     this.range.addEventListener('input', () => {
@@ -729,6 +764,7 @@ export class ReplayViewer {
     this.bPlay.textContent = this.playing ? '⏸' : '▶';
     this.bPlay.title = t(this.playing ? 'rp.pauseTitle' : 'rp.playTitle');
     this.bSpeed.textContent = `${this.speed}×`;
+    this.bSeat.innerHTML = `👁 <span style="color:${this.app.pcolor(this.seat)}">${esc(this.app.pname(this.seat))}</span>`;
     this.bPrev.disabled = i <= 0; this.bNext.disabled = i >= this.N - 1;
     if (!fromScrub) this.range.value = String(i);
     this.range.style.setProperty('--pct', `${(i / Math.max(1, this.N - 1)) * 100}%`);

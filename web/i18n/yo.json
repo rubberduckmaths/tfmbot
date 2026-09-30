@@ -389,6 +389,7 @@
  "peek.yourChoice": "àṣàyàn rẹ",
  "setup.title": "Yan ìbẹ̀rẹ̀ rẹ",
  "setup.sub": "Yan ilé-iṣẹ́ 1, ìṣáájú 2, kí o sì ra èyíkéyìí nínú àwọn káàdì iṣẹ́ ní 3 M€ ọ̀kọ̀ọ̀kan. Tẹ ọ̀tún / tẹ̀ pẹ́ lórí káàdì láti kà á ní ńlá.",
+ "setup.cardsList": "Ọwọ́ yìí nínú àkójọ káàdì ↗",
  "setup.corp": "Ilé-iṣẹ́",
  "setup.pre": "Àwọn ìṣáájú — yan 2 (o máa gbé wọn kalẹ̀ lẹ́yìn ìmúrasílẹ̀, ní ètò èyíkéyìí)",
  "setup.proj": "Àwọn káàdì iṣẹ́ — 3 M€ ọ̀kọ̀ọ̀kan",
@@ -939,5 +940,9 @@
  "trig.order": "Wọ̀nyí ń ṣiṣẹ́ ní ètò yìí: {list}.",
  "trig.orderWhy": "Fífà ló ń kọ́kọ́ ṣẹlẹ̀, nítorí náà káàdì tí ọ̀kan nínú wọn fà lè jẹ́ èyí tí o jù sílẹ̀.",
  "hex.rc": "ìlà {r}, ààyè {c}",
- "hex.rcTitle": "Ìlà {r}, ààyè {c}"
+ "hex.rcTitle": "Ìlà {r}, ààyè {c}",
+ "hex.claimed": "{card}: {who} ti fi pamọ́; kò sí ẹlòmíràn tó lè gbé àwo síbí",
+ "rp.povTitle": "Ìjókòó ta ni o ń wò láti: ọwọ́ wọn, àṣàyàn draft àti àwọn káàdì tí wọ́n fà. Tẹ̀ láti yí olùṣeré padà",
+ "rp.povOld": "Ìjókòó rẹ nìkan: a gba àtúnwò yìí sílẹ̀ kí a tó máa fi káàdì TFMBot pamọ́",
+ "atk.offset": "{who} pàdánù wọn, ṣùgbọ́n {card} dá iye kan náà padà"
 }

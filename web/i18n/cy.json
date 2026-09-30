@@ -508,6 +508,7 @@
  "peek.yourChoice": "eich dewis",
  "setup.title": "Dewiswch eich dechrau",
  "setup.sub": "Dewiswch 1 gorfforaeth, 2 breliwd, a phrynwch unrhyw gardiau prosiect am 3 M€ yr un. De-gliciwch / pwyswch yn hir ar gerdyn i'w ddarllen yn fawr.",
+ "setup.cardsList": "Y llaw hon yn y rhestr gardiau ↗",
  "setup.corp": "Corfforaeth",
  "setup.pre": "Preliwdiau — dewiswch 2 (rydych chi'n eu chwarae ar ôl paratoi, mewn unrhyw drefn)",
  "setup.proj": "Cardiau prosiect — 3 M€ yr un",
@@ -1115,5 +1116,9 @@
  "trig.order": "Mae'r rhain yn digwydd yn y drefn hon: {list}.",
  "trig.orderWhy": "Mae tynnu'n dod gyntaf, felly gall cerdyn a dynnwyd gan un ohonynt fod yr un rydych chi'n ei daflu.",
  "hex.rc": "rhes {r}, hecs {c}",
- "hex.rcTitle": "Rhes {r}, hecs {c}"
+ "hex.rcTitle": "Rhes {r}, hecs {c}",
+ "hex.claimed": "{card}: wedi'i gadw gan {who}; ni all neb arall osod teilsen yma",
+ "rp.povTitle": "O sedd pwy rydych chi'n gwylio: eu llaw, eu dewisiadau drafft a'u tyniadau. Cliciwch i newid chwaraewr",
+ "rp.povOld": "Eich sedd chi yn unig: recordiwyd yr ailchwarae hwn cyn i gardiau TFMBot gael eu cadw",
+ "atk.offset": "Collodd {who} nhw, ond rhoddodd {card} yr un faint yn ôl"
 }

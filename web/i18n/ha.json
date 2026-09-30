@@ -445,6 +445,7 @@
  "peek.yourChoice": "zaɓinka",
  "setup.title": "Zaɓi farkonka",
  "setup.sub": "Zaɓi kamfani 1, gabatarwa 2, kuma ka sayi duk katunan aiki da kake so kan 3 M€ kowanne. Danna dama / latsa na tsawon lokaci a kan kati don karanta shi babba.",
+ "setup.cardsList": "Wannan hannu a jerin katunan ↗",
  "setup.corp": "Kamfani",
  "setup.pre": "Gabatarwa — zaɓi 2 (za ka buga su bayan shiri, a kowane tsari)",
  "setup.proj": "Katunan aiki — 3 M€ kowanne",
@@ -1005,5 +1006,9 @@
  "trig.order": "Waɗannan suna aiki a wannan tsari: {list}.",
  "trig.orderWhy": "Ɗauka ne ke fara zuwa, don haka katin da ɗaya daga cikinsu ya ɗauko zai iya zama wanda za ka jefar.",
  "hex.rc": "jere {r}, wuri {c}",
- "hex.rcTitle": "Jere {r}, wuri {c}"
+ "hex.rcTitle": "Jere {r}, wuri {c}",
+ "hex.claimed": "{card}: {who} ya keɓe; babu wani da zai iya sanya yanki a nan",
+ "rp.povTitle": "Wurin zaman wa kake kallo daga: hannunsa, zaɓen draft da abubuwan da ya ɗauko. Danna don sauya ɗan wasa",
+ "rp.povOld": "Wurinka kaɗai: an naɗi wannan maimaici kafin a fara adana katunan TFMBot",
+ "atk.offset": "{who} ya rasa su, amma {card} ya mayar da daidai"
 }

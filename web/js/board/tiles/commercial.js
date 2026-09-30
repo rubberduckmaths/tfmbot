@@ -1,214 +1,298 @@
-// commercial.js -- TileArt mixin: the Commercial District, a neon market hub of glass towers, holo billboards,
-// a market plaza and circling air-cars, with its ground, glass and hologram materials.
+// commercial.js -- TileArt mixin: the Commercial District, a dense downtown at night: towers of lit windows packed
+// on a grid of street canyons, billboards, blade signs and lit shop canopies on their facades and roofs, car light
+// trails in the streets, and in the middle a small plaza under the district's emblem -- with its street, facade,
+// sign, traffic and hologram materials.
 import { gfx } from '../quality.js';
 import * as THREE from 'three';
-import { mergeGeometries } from '../../../vendor/BufferGeometryUtils.js';
-import { BALL, BOX, Kit, TAU, _c, capsuleX, hash2, part } from './kit.js';
+import { BALL, BOX, Kit, TAU, _c, hash2 } from './kit.js';
+
+// the street grid (board units): avenues every P each way through the plaza (centre PCX, PCZ; radius PR), SW half a
+// street's width, KW a sidewalk's
+const PCX = -0.04, PCZ = 0.02, P = 0.12, SW = 0.016, KW = 0.007, PR = 0.085;
+const NEON = [0xff2d6f, 0xff9a1f, 0x28d8ff, 0xffe14a, 0xb44cff, 0x3cff9a, 0xff4a2a];
+const NEON_CSS = ['#ff2d6f', '#ff9a1f', '#28d8ff', '#ffe14a', '#b44cff', '#3cff9a', '#ff4a2a'];
+const DIRS = [[1, 0], [-1, 0], [0, 1], [0, -1]], RY = [Math.PI / 2, -Math.PI / 2, 0, Math.PI];   // a lot's four sides: outward, and the turn that faces a plane (+z) that way
+// the sign atlas (comSignMat): 8 wide billboards (256 x 80 px, two columns) over 16 blade signs (32 x 192 px)
+const ADS = [['CREDICOR', '#10204a', '#ffd23c'], ['THORGATE', '#c81e28', '#ffffff'], ['TERACTOR', '#ff8c1a', '#2a1000'], ['HELION', '#ffd84a', '#8a1a00'],
+  ['ECOLINE', '#1e9a4a', '#ffffff'], ['MARS COLA', '#e8102a', '#ffffff'], ['SATURN', '#1a3ac8', '#ffffff'], ['PHOBOLOG', '#6a1aa8', '#9ff4ff']];
+const BLADES = [['HOTEL', '#c81e28', '#ffffff'], ['SUSHI', '#f4f0e6', '#c81e28'], ['RAMEN', '#ffd23c', '#1a1a1a'], ['BAR', '#1a1a2a', '#ff3c8c'], ['CAFE', '#1e7a4a', '#ffffff'],
+  ['CLUB', '#2a0a4a', '#28d8ff'], ['24H', '#1a3ac8', '#ffffff'], ['KTV', '#ff2d6f', '#ffffff'], ['PUB', '#6a3a1a', '#ffd23c'], ['SPA', '#f4f0e6', '#1a6ac8'], ['DELI', '#ff9a1f', '#1a1a1a'],
+  ['GYM', '#1a1a1a', '#3cff9a'], ['INN', '#8a1a2a', '#ffe8c0'], ['PHARMA', '#ffffff', '#1e9a4a'], ['ARCADE', '#1a0a2a', '#ffe14a'], ['NOODLE', '#c81e28', '#ffe14a']];
 
 export class CommercialArt {
-  // Commercial District: a neon market hub -- glass towers edged in neon,
-  // holo billboards, a market plaza of lit stalls round a hologram of the
-  // district's symbol, air-cars circling the towers.
+  // Commercial District: a dense downtown at night -- blocks of towers of lit
+  // windows between street canyons, their facades and roofs hung with
+  // billboards, blade signs and lit shop canopies, car lights streaming down
+  // the streets; the avenues meet at a small plaza under the district's emblem.
   commercial(ctx) {
-    const r = this.env.srand(ctx.space * 61 + 3), HR = this.HEX_R, g = this.grow, low = gfx.low, hs = (i, j) => hash2(i * 7.3 + ctx.space * 0.37, j + 1.9);
-    ctx.wall(0x1c1a26);
-    const tex = () => this.canvas('com-ground', 256, 296, (cg, w, h) => {
-      const px = (x) => (0.5 + x / (Math.sqrt(3) * HR * 0.95)) * w, py = (z) => (0.5 + z / (2 * HR * 0.95)) * h, S = w / (Math.sqrt(3) * HR * 0.95);
-      cg.fillStyle = '#23212c'; cg.fillRect(0, 0, w, h);
-      for (let i = 0; i < 400; i++) { cg.fillStyle = `rgba(255,255,255,${0.02 + Math.random() * 0.03})`; cg.fillRect(Math.random() * w, Math.random() * h, 3, 3); }
-      cg.strokeStyle = 'rgba(255,60,200,0.9)'; cg.lineWidth = 2; cg.shadowColor = '#ff3cc8'; cg.shadowBlur = 6;
-      cg.beginPath(); cg.arc(px(-0.04), py(0.02), 0.15 * S, 0, TAU); cg.stroke();
-      cg.strokeStyle = 'rgba(40,230,255,0.9)'; cg.shadowColor = '#28e6ff';
-      cg.beginPath(); cg.arc(px(-0.04), py(0.02), 0.1 * S, 0, TAU); cg.stroke();
-      for (let k = 0; k < 6; k++) { const a = k / 6 * TAU; cg.beginPath(); cg.moveTo(px(-0.04 + Math.cos(a) * 0.15), py(0.02 + Math.sin(a) * 0.15)); cg.lineTo(px(-0.04 + Math.cos(a) * 0.42), py(0.02 + Math.sin(a) * 0.42)); cg.stroke(); }
-      cg.shadowBlur = 0;
-    });
-    // the ground: neon rings and spokes round the plaza (the canvas at Low; comGroundMat draws them per pixel,
-    // crisp close up, with dark floor panels, a tron grid, light running in along the six walkways and a
-    // ripple going out from the dais every few seconds)
-    const tm = low ? (this.mats.comG ||= this.own(new THREE.MeshStandardMaterial({ map: tex(), emissiveMap: tex(), emissive: 0xffffff, emissiveIntensity: 0.5, roughness: 0.4, metalness: 0.3 }))) : this.comGroundMat();
-    this.groundMesh(ctx, () => 0, () => _c.setRGB(1, 1, 1), { sub: 6, uv: true, mat: tm });
-    const K = new Kit(), neon = [0xff3cc8, 0x28e6ff, 0xffd23c, 0x8a5cff, 0x3cff9a], GL = low ? 'glass' : this.comGlassMat(), HM = this.comHoloMat();
+    const r = this.env.srand(ctx.space * 61 + 3), g = this.grow, low = gfx.low, hs = (i, j) => hash2(i * 7.3 + ctx.space * 0.37, j + 1.9);
+    ctx.wall(0x1c1b20);
+    this.groundMesh(ctx, () => 0, () => _c.setRGB(1, 1, 1), { sub: 6, uv: true, mat: this.comStreetMat() });
+    const K = new Kit(), GL = low ? this.cityMat('cfac') : this.comGlassMat(), SG = this.comSignMat(), HM = this.comHoloMat();
     const hol = (slot, ph, rep = 0) => new THREE.Color().setRGB(slot / 8, ph, rep / 8);          // (comHoloMat: which ad, its phase, a scroll's repeats)
-    const pcx = -0.04, pcz = 0.02;
-    // towers round the plaza (skip the owner's marker)
-    const spots = [];
-    for (let i = 0; i < 11; i++) {
-      const a = i / 11 * TAU + 0.3, d = 0.3 + (i % 2) * 0.06, x = pcx + Math.cos(a) * d, z = pcz + Math.sin(a) * d * 0.95;
-      if (this.edgeDist(x, z) < 0.05 || this.env.inClearing(x, z, 0.04)) continue;
-      spots.push([x, z]);
+    // the blocks between the streets, each cut into one, two or four lots (the four round the plaza: only their
+    // outer lots are built, the rest is the plaza)
+    const lots = [];
+    for (let i = -4; i < 4; i++) for (let j = -4; j < 4; j++) {
+      const bx = PCX + (i + 0.5) * P, bz = PCZ + (j + 0.5) * P, hb = P / 2 - SW - KW, mid = i >= -1 && i <= 0 && j >= -1 && j <= 0, s = r();
+      const cut = mid || s > 0.62 ? [[-0.5, -0.5, 0.5, 0.5], [0.5, -0.5, 0.5, 0.5], [-0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5]]
+        : s > 0.46 ? [[-0.5, 0, 0.5, 1], [0.5, 0, 0.5, 1]] : s > 0.3 ? [[0, -0.5, 1, 0.5], [0, 0.5, 1, 0.5]] : [[0, 0, 1, 1]];
+      for (const [ox, oz, fw, fd] of cut) {
+        let x = bx + ox * hb, z = bz + oz * hb, w = 2 * hb * fw - (fw < 1 ? 0.003 : 0), d = 2 * hb * fd - (fd < 1 ? 0.003 : 0);
+        const out = () => [[-1, -1], [1, -1], [-1, 1], [1, 1]].some(([a, b]) => this.edgeDist(x + a * w / 2, z + b * d / 2) < 0.012);
+        if (out()) { w *= 0.55; d *= 0.55; if (out()) continue; }                     // at the rim: a smaller building, or none
+        if (this.env.inClearing(x, z, Math.max(w, d) * 0.5)) continue;
+        if (Math.hypot(Math.max(Math.abs(x - PCX) - w / 2, 0), Math.max(Math.abs(z - PCZ) - d / 2, 0)) < PR + 0.004) continue;
+        const st = [x + w / 2 > bx + hb - 0.004, x - w / 2 < bx - hb + 0.004, z + d / 2 > bz + hb - 0.004, z - d / 2 < bz - hb + 0.004];   // the sides on a street (DIRS)
+        lots.push({ x, z, w, d, st });
+      }
     }
-    spots.forEach(([x, z], i) => {
-      const back = z < 0; let hgt = (back ? 0.2 + r() * 0.2 : 0.07 + r() * 0.07) * (0.8 + 0.1 * g), w = 0.06 + r() * 0.03, d = 0.05 + r() * 0.03, ry = r() * 0.5;
-      const glassC = new THREE.Color().setHSL(0.62 + r() * 0.1, 0.4, 0.22 + r() * 0.1);
-      const nc = neon[i % neon.length], shape = r();
-      if (back && shape < 0.3) {                          // a round glass tower ringed with neon, a news ticker running round it
-        const rad = Math.min(w, d) * 0.55;
-        K.add(GL, new THREE.CylinderGeometry(rad, rad, hgt, 20).translate(0, hgt / 2, 0), glassC, [x, 0, z]);
-        for (let f = 1; f < 6; f++) K.add('glow', new THREE.TorusGeometry(rad + 0.0015, 0.0018, 4, 20).rotateX(Math.PI / 2), f % 2 ? nc : neon[(i + 1) % neon.length], [x, hgt * f / 6, z]);
-        K.add('glow', BALL, nc, [x, hgt + 0.004, z], [0, 0, 0], 0.007);
-        K.add(HM, new THREE.CylinderGeometry(rad + 0.004, rad + 0.004, 0.014, 28, 1, true), hol(3, hs(i, 1), 2), [x, hgt * 0.74, z], [0, 0, 0], 1, { uv: true });
-        return;
+    // the buildings: towers taller toward the back, low round the plaza; glass or concrete, dark at night but for
+    // their windows (comGlassMat; the lit facade texture at Low)
+    const signs = (b, k, fw) => ({ dx: DIRS[k][0], dz: DIRS[k][1], ry: RY[k], fx: b.x + DIRS[k][0] * b.w / 2, fz: b.z + DIRS[k][1] * b.d / 2, tx: Math.abs(DIRS[k][1]), tz: Math.abs(DIRS[k][0]), fw });
+    for (const b of lots) {
+      const { x, z, w, d, st } = b, dC = Math.hypot(x - PCX, z - PCZ), back = Math.min(1, Math.max(0, (PCZ - z) / 0.4));
+      const tower = r() < 0.3 + 0.3 * back - (dC < 0.2 ? 0.2 : 0);
+      let h = (tower ? 0.12 + r() * 0.1 + 0.05 * back : r() < 0.55 ? 0.03 + r() * 0.035 : 0.065 + r() * 0.045) * (0.82 + 0.08 * g);
+      if (dC < 0.18) h = Math.min(h, 0.1);
+      if (this.env.inClearing(x, z, 0.08)) h = Math.min(h, 0.05);
+      const glass = r() < (tower ? 0.6 : 0.2), col = glass ? new THREE.Color().setHSL(0.56 + r() * 0.08, 0.3, 0.07 + r() * 0.05) : new THREE.Color().setHSL(0.6 + r() * 0.12, 0.06, 0.06 + r() * 0.06);
+      let tw = w, td = d, hb = h;
+      if (tower && r() < 0.6) { hb = h * 0.62; tw = w * 0.72; td = d * 0.72; this.comBlock(K, GL, col, x, hb, z, tw, h - hb, td); }   // a setback
+      this.comBlock(K, GL, col, x, 0, z, w, hb, d);
+      const roofC = new THREE.Color().setHSL(0.66, 0.06, 0.12 + r() * 0.1);
+      K.box('std', roofC, x, h, z, tw - 0.002, 0.0016, td - 0.002);                                    // the roof
+      if (Math.min(tw, td) > 0.026 && r() < (tower ? 0.35 : 0.65)) {                                        // a sky-ad: a lit screen on the roof, for the air traffic
+        K.add(SG, this.comSignGeo(Math.floor(r() * ADS.length)), 0xffffff, [x, h + 0.0022, z], [-Math.PI / 2, tw >= td ? 0 : Math.PI / 2, 0, 'YXZ'], [Math.max(tw, td) * 0.88, Math.min(Math.max(tw, td) * 0.88 / 2.2, Math.min(tw, td) * 0.8), 1], { uv: true });
+      } else if (!low) {
+        if (tower) { K.cyl('metal', 0x8a8e96, x + tw * 0.2, h, z - td * 0.2, 0.0014, 0.0008, 0.03, 5); K.add('glow', BALL, 0xff3a2a, [x + tw * 0.2, h + 0.031, z - td * 0.2], [0, 0, 0], 0.0024); }
+        else if (r() < 0.6) K.box('std', 0x7a7a82, x - tw * 0.2, h, z + td * 0.15, Math.min(tw, td) * 0.35, 0.006, Math.min(tw, td) * 0.25);   // plant on the roof
       }
-      if (back && shape < 0.6) {                          // stepped: a slimmer upper block
-        K.box(GL, glassC, x, hgt * 0.6, z, w * 0.66, hgt * 0.4, d * 0.66, ry + 0.4);
-        K.box('glow', neon[(i + 1) % neon.length], x, hgt - 0.006, z, w * 0.66 + 0.004, 0.005, d * 0.66 + 0.004, ry + 0.4);
-        hgt *= 0.6;
+      b.h = h; b.tower = tower; b.hb = hb;
+      const sides = st.map((on, k) => (on ? k : -1)).filter((k) => k >= 0);
+      // street level: lit shopfronts, and over the sidewalk a lit canopy or sign fascia
+      for (const k of sides) {
+        const S = signs(b, k, DIRS[k][0] ? d : w);
+        K.add('glow', BOX, r() < 0.7 ? 0xffd9a8 : 0xe8f0ff, [S.fx + S.dx * 0.0006, 0.0065, S.fz + S.dz * 0.0006], [0, S.ry, 0], [S.fw * 0.9, 0.009, 0.001]);
+        if (r() < 0.5) {
+          const L = S.fw * (0.25 + r() * 0.35), o = (r() - 0.5) * (S.fw - L);
+          K.add('glow', BOX, NEON[Math.floor(r() * NEON.length)], [S.fx + S.dx * 0.0035 + S.tx * o, 0.0125, S.fz + S.dz * 0.0035 + S.tz * o], [0, S.ry, 0], [L, 0.0016, 0.007]);
+        }
       }
-      K.box(GL, glassC, x, 0, z, w, hgt, d, ry);
-      if (!back) { const fa = Math.atan2(pcz - z, pcx - x); K.box('glow', neon[(i + 3) % neon.length], x + Math.cos(fa) * (Math.max(w, d) / 2 + 0.001), 0.004, z + Math.sin(fa) * (Math.max(w, d) / 2 + 0.001), 0.04, 0.016, 0.002, -fa + Math.PI / 2); }   // a lit shopfront
-      // neon edges: vertical strips on the corners, a crown band
-      for (const [sx, sz] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) {
-        const ex = x + Math.cos(ry) * sx * w / 2 + Math.sin(ry) * sz * d / 2, ez = z - Math.sin(ry) * sx * w / 2 + Math.cos(ry) * sz * d / 2;
-        K.box('glow', nc, ex, 0, ez, 0.004, hgt, 0.004, ry);
+      if (!sides.length) continue;
+      // a blade sign standing out from a corner, over the canopies (not on the towers)
+      if (!tower && h > 0.05 && r() < 0.6) {
+        const k = sides[Math.floor(r() * sides.length)], S = signs(b, k, DIRS[k][0] ? d : w), e = r() < 0.5 ? -1 : 1, bh = Math.min(0.046, h - 0.024), cell = Math.floor(r() * BLADES.length);
+        const bx = S.fx + S.dx * 0.0048 + S.tx * e * (S.fw / 2 - 0.006), bz = S.fz + S.dz * 0.0048 + S.tz * e * (S.fw / 2 - 0.006), ry = S.dx ? 0 : Math.PI / 2;
+        for (const q of [0, Math.PI]) K.add(SG, this.comSignGeo(8 + cell), 0xffffff, [bx, 0.018 + bh / 2, bz], [0, ry + q, 0], [0.0078, bh, 1], { uv: true });
       }
-      K.box('glow', nc, x, hgt - 0.008, z, w + 0.004, 0.006, d + 0.004, ry);
-      K.box('glow', neon[(i + 2) % neon.length], x, hgt * 0.35, z, w + 0.003, 0.004, d + 0.003, ry);
-      if (back && r() < 0.7) {                           // a spire with a beacon
-        K.cyl('metal', 0x8a8a9a, x, hgt, z, 0.004, 0.002, 0.06, 6);
-        K.add('glow', BALL, nc, [x, hgt + 0.062, z], [0, 0, 0], 0.006);
+      // billboards on the upper floors of the taller buildings, one or two sides
+      if (h > 0.075) for (const k of sides) {
+        if (r() > (tower ? 0.55 : 0.4)) continue;
+        const S = signs(b, k, DIRS[k][0] ? d : w), sw = Math.min(S.fw * 0.85, 0.07), sh = sw / 3.2, y = Math.min(hb - sh / 2 - 0.006, h * (0.45 + r() * 0.3));
+        if (y < 0.03 + sh / 2) continue;
+        K.add(SG, this.comSignGeo(Math.floor(r() * ADS.length)), 0xffffff, [S.fx + S.dx * 0.0008, y, S.fz + S.dz * 0.0008], [0, S.ry, 0], [sw, sh, 1], { uv: true });
       }
-      // a holo billboard on the plaza-facing side: animated ads (comHoloMat), in a thin neon frame
-      if (hgt > 0.12 || r() < 0.4) {
-        const fa = Math.atan2(pcz - z, pcx - x), o = Math.max(w, d) / 2 + 0.006, bx = x + Math.cos(fa) * o, bz = z + Math.sin(fa) * o;
-        K.add(HM, new THREE.PlaneGeometry(0.06, 0.04), hol(i % 3, hs(i, 2)), [bx, hgt * 0.62, bz], [0, -fa + Math.PI / 2, 0], 1, { uv: true });
-        if (!low) for (const e of [-1, 1]) K.add('glow', BOX, neon[(i + 1) % neon.length], [bx + Math.sin(fa) * e * 0.031, hgt * 0.62, bz - Math.cos(fa) * e * 0.031], [0, -fa + Math.PI / 2, 0], [0.0016, 0.042, 0.0016]);
+      // a billboard on the roof of a lower building, on legs, facing the street
+      if (!low && !tower && r() < 0.35) {
+        const k = sides[Math.floor(r() * sides.length)], S = signs(b, k, DIRS[k][0] ? d : w), sw = Math.min(S.fw * 0.85, 0.06), sh = sw / 3.2, px = S.fx - S.dx * 0.006, pz = S.fz - S.dz * 0.006;
+        K.add(SG, this.comSignGeo(Math.floor(r() * ADS.length)), 0xffffff, [px + S.dx * 0.0009, h + 0.005 + sh / 2, pz + S.dz * 0.0009], [0, S.ry, 0], [sw, sh, 1], { uv: true });
+        K.add('std', BOX, 0x2a2a30, [px, h + 0.005 + sh / 2, pz], [0, S.ry, 0], [sw + 0.002, sh + 0.002, 0.0014]);
+        for (const e of [-1, 1]) K.cyl('metal', 0x5a5e66, px + S.tx * e * sw * 0.3, h, pz + S.tz * e * sw * 0.3, 0.0008, 0.0008, 0.006, 4);
       }
+    }
+    // holographic ads on the three tallest towers' upper floors (comHoloMat)
+    lots.filter((b) => b.tower).sort((a, b) => b.h - a.h).slice(0, 3).forEach((b, i) => {
+      const k = b.st.findIndex((on) => on), S = signs(b, Math.max(k, 0), DIRS[Math.max(k, 0)][0] ? b.d : b.w);
+      K.add(HM, new THREE.PlaneGeometry(0.05, 0.033), hol(i % 3, hs(i, 2)), [S.fx + S.dx * 0.005, b.hb * 0.8, S.fz + S.dz * 0.005], [0, S.ry, 0], 1, { uv: true });
     });
-    // market stalls round the plaza with glowing awnings, each with a little lit price tag
-    for (let i = 0; i < 12; i++) {
-      const a = i / 12 * TAU, x = pcx + Math.cos(a) * 0.19, z = pcz + Math.sin(a) * 0.19;
-      if (this.env.inClearing(x, z, 0.01)) continue;
-      K.box('std', 0x4a4458, x, 0, z, 0.026, 0.018, 0.02, -a);
-      K.add('glow', new THREE.ConeGeometry(0.022, 0.012, 4).rotateY(Math.PI / 4), neon[(i * 3) % neon.length], [x, 0.024, z], [0, -a, 0]);
-      if (!low) K.box('glow', neon[(i * 3 + 1) % neon.length], x - Math.cos(a) * 0.0105, 0.009, z - Math.sin(a) * 0.0105, 0.001, 0.005, 0.012, -a);
+    // the plaza: a stone podium with the emblem's projector, trees in planters, lamps round it
+    K.cyl('std', 0x8a8276, PCX, 0, PCZ, 0.036, 0.034, 0.006, 24);
+    K.add('glow', new THREE.TorusGeometry(0.0345, 0.0016, 6, 32).rotateX(Math.PI / 2), 0xffd9a0, [PCX, 0.006, PCZ]);
+    K.cyl('metal', 0x5a5e66, PCX, 0.006, PCZ, 0.014, 0.012, 0.006, 16);
+    K.add('glow', new THREE.TorusGeometry(0.011, 0.0022, 6, 20).rotateX(Math.PI / 2), 0x9fe8ff, [PCX, 0.0125, PCZ]);
+    K.add('beam', new THREE.CylinderGeometry(0.06, 0.012, 0.2, 20, 1, true).translate(0, 0.112, 0), (X, Yy) => _c.setRGB(0.55, 0.85, 1).multiplyScalar(0.3 * (1 - Yy / 0.24)), [PCX, 0, PCZ]);
+    for (let k = 0; k < 4; k++) {
+      const a = (k + 0.5) / 4 * TAU, tx = PCX + Math.cos(a) * 0.058, tz = PCZ + Math.sin(a) * 0.058;
+      K.cyl('std', 0x5a5660, tx, 0, tz, 0.01, 0.01, 0.004, 12);
+      K.ball('std', 0x3f7a3a, tx, 0.016, tz, 0.0095, 0.85);
+      for (const e of [-1, 1]) { const la = a + e * 0.42, lx = PCX + Math.cos(la) * 0.074, lz = PCZ + Math.sin(la) * 0.074; K.cyl('metal', 0x3a3e48, lx, 0, lz, 0.0012, 0.0009, 0.026, 5); K.add('glow', BALL, 0xffe7b0, [lx, 0.027, lz], [0, 0, 0], 0.0032); }
     }
-    // the hologram dais at the centre (the emblem hovers over it) with its light cone
-    K.cyl('metal', 0x3a3a48, pcx, 0, pcz, 0.06, 0.05, 0.016, 24);
-    K.add('glow', new THREE.TorusGeometry(0.052, 0.004, 6, 32).rotateX(Math.PI / 2), 0x28e6ff, [pcx, 0.016, pcz]);
-    if (!low) for (let i = 0; i < 8; i++) { const a = i / 8 * TAU; K.add('glow', BOX, neon[i % 2 ? 0 : 1], [pcx + Math.cos(a) * 0.04, 0.0165, pcz + Math.sin(a) * 0.04], [0, -a, 0], [0.012, 0.0012, 0.003]); }
-    K.add('beam', new THREE.CylinderGeometry(0.1, 0.045, 0.22, 24, 1, true), (x, y, z) => _c.setRGB(0.2, 0.9, 1).multiplyScalar(0.9 - y * 3.5), [pcx, 0.126, pcz]);
-    // shoppers (not at Low): lit specks strolling round the stalls and along the walkways (capMoveMat, on the GPU)
+    // car lights down the streets: tail lights one way, headlights the other (comCarMat; not at Low -- the
+    // street canvas has faint streaks)
     if (!low) {
-      const MG = this.capMoveMat(true), SPK = this._comSpeck ||= new THREE.CylinderGeometry(0.0012, 0.0012, 0.0045, 5).translate(0, 0.00225, 0);
-      const cols = [0x9ff4ff, 0xff9ae0, 0xffffff, 0xffe98a], clear = (x, z) => this.edgeDist(x, z) > 0.02 && !this.env.inClearing(x, z, 0.01) && spots.every(([sx, sz]) => Math.hypot(x - sx, z - sz) > 0.06);
-      for (let i = 0; i < 16; i++) {
-        let A, M, B;
-        if (i < 10) { const a0 = hs(i, 3) * TAU, a1 = a0 + 0.35 + hs(i, 4) * 0.4, rr = 0.222 + (i % 3) * 0.008, at = (a) => [pcx + Math.cos(a) * rr, pcz + Math.sin(a) * rr]; A = at(a0); M = at((a0 + a1) / 2); B = at(a1); }
-        else { const a = (i - 10) / 6 * TAU, off = (i % 2 ? 1 : -1) * 0.005, at = (d) => [pcx + Math.cos(a) * d - Math.sin(a) * off, pcz + Math.sin(a) * d + Math.cos(a) * off]; A = at(0.165); B = at(0.26); M = [(A[0] + B[0]) / 2, (A[1] + B[1]) / 2]; }
-        if (![A, M, B].every(([x, z]) => clear(x, z))) continue;
-        K.raw(MG, this.capMover(ctx, part(SPK, cols[i % cols.length], [A[0], 0, A[1]]), A, M, B, 0, null, [hs(i, 5), 0.006 / (2 * Math.hypot(B[0] - A[0], B[1] - A[1])), 0.12]));
+      const pos = [], uv = [], cl = [], idx = [], red = new THREE.Color(0xff2a18), wht = new THREE.Color(0xfff0d0);
+      const flush = (run, tx, tz, col, dir, ph) => {
+        if (run.length < 3) return;
+        const b0 = pos.length / 3, nx = -tz * 0.0017, nz = tx * 0.0017;
+        for (const [x, z, s] of run) { pos.push(x - nx, 0.0012, z - nz, x + nx, 0.0012, z + nz); uv.push(s * dir + ph, 0, s * dir + ph, 1); cl.push(col.r, col.g, col.b, col.r, col.g, col.b); }
+        for (let i = 0; i < run.length - 1; i++) { const q = b0 + i * 2; idx.push(q, q + 2, q + 1, q + 1, q + 2, q + 3); }
+      };
+      const lane = (ax, az, tx, tz, col, dir, ph) => {
+        let run = [];
+        for (let s = -0.6; s <= 0.6; s += 0.006) {
+          const x = ax + tx * s, z = az + tz * s;
+          if (this.edgeDist(x, z) > 0.014 && Math.hypot(x - PCX, z - PCZ) > PR + 0.004) run.push([x, z, s]); else { flush(run, tx, tz, col, dir, ph); run = []; }
+        }
+        flush(run, tx, tz, col, dir, ph);
+      };
+      for (let i = -4; i <= 4; i++) {
+        lane(PCX + i * P - 0.0065, 0, 0, 1, red, 1, hs(i, 7)); lane(PCX + i * P + 0.0065, 0, 0, 1, wht, -1, hs(i, 8));
+        lane(0, PCZ + i * P - 0.0065, 1, 0, wht, 1, hs(i, 9)); lane(0, PCZ + i * P + 0.0065, 1, 0, red, -1, hs(i, 10));
       }
+      const cg = new THREE.BufferGeometry();
+      cg.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); cg.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2)); cg.setAttribute('color', new THREE.Float32BufferAttribute(cl, 3)); cg.setIndex(idx);
+      K.raw(this.comCarMat(), cg);
     }
     if (!low) for (const gm of K.by.get(GL) || []) gm.setAttribute('aL', gm.attributes.position.clone());   // (comGlassMat's windows: board position)
-    for (const m of this.emit(K, ctx)) if (m.material === this.mats.capMoveG) m.castShadow = false;
-    // air-cars: a ring of glowing capsules circling the towers, each drawing a light trail; a second, lower
-    // lane the other way round (not at Low). One group per lane, turned in tick
-    const lane = (n, rad, dr, h0, dh, speed, trail, seed) => {
-      const grp = new THREE.Group(), ck = new Kit(), sg = Math.sign(speed);
-      for (let i = 0; i < n; i++) {
-        const a = i / n * TAU + seed, rr = rad + (i % 2) * dr, h = h0 + (i % 3) * dh, nc = neon[(i + seed * 3) % neon.length | 0];
-        ck.add('std', capsuleX(0.006, 0.012, 8), 0xe8e8f0, [Math.cos(a) * rr, h, Math.sin(a) * rr], [0, -a - Math.PI / 2, 0]);
-        ck.add('glow', BALL, nc, [Math.cos(a) * rr, h - 0.006, Math.sin(a) * rr], [0, 0, 0], 0.005);
-        if (trail) ck.raw(this.comTrailMat(), this.comTrail(a, rr, h, nc, sg, 0.6 + hs(i, 6) * 0.3));
-      }
-      for (const [key, list] of ck.by) { const m = new THREE.Mesh(mergeGeometries(list), typeof key === 'string' ? this.mat(key) : key); if (m.material.transparent) m.renderOrder = 3; grp.add(m); }
-      return this.spin(this.place(grp, ctx, pcx, pcz, 0), speed, r() * 6);
-    };
-    lane(5, 0.26, 0.05, 0.14, 0.04, 0.25, !low, 0);
-    if (!low) lane(4, 0.232, 0.012, 0.052, 0.012, -0.18, true, 0.4);
-    // the plaza's hologram: the M€ coin turning slowly in the light cone, under the emblem
-    {
-      const coin = new THREE.Group();
-      const face = new THREE.Mesh(part(new THREE.CircleGeometry(0.034, 40), hol(4, 0.37), [0, 0, 0], [0, 0, 0], 1, { uv: true }), HM);
-      face.renderOrder = 3;
-      coin.add(face, new THREE.Mesh(part(new THREE.TorusGeometry(0.0345, 0.0014, 6, 48), 0xffd23c), this.mat('glow')));
-      this.spin(this.place(coin, ctx, pcx, pcz, 0.108), 0.7, 0);
-    }
-    this.emblem(ctx, 'commerical_district', pcx, pcz, 0.27, 0.3, false);
+    this.emit(K, ctx);
+    this.emblem(ctx, 'commerical_district', PCX, PCZ, 0.27, 0.3, false);
   }
   // ---- Commercial District parts
-  // a light trail behind an air-car on its ring: a flat and an upright ribbon along the arc behind it (sg: the
-  // way the ring turns), its colour fading out to nothing (additive)
-  comTrail(a, rr, h, col, sg, span) {
-    const c = new THREE.Color(col), pos = [], cl = [], idx = [], N = 14, w = 0.0035, a0 = a + sg * 0.014 / rr;
-    for (let L = 0; L < 2; L++) for (let i = 0; i <= N; i++) {
-      const s = i / N, an = a0 + sg * span * s, f = Math.pow(1 - s, 1.6), ca = Math.cos(an), sa = Math.sin(an), ww = w * (1 - 0.5 * s);
-      if (L === 0) pos.push(ca * (rr - ww), h - 0.004, sa * (rr - ww), ca * (rr + ww), h - 0.004, sa * (rr + ww));
-      else pos.push(ca * rr, h - 0.004 - ww, sa * rr, ca * rr, h - 0.004 + ww, sa * rr);
-      for (let e = 0; e < 2; e++) cl.push(c.r * f, c.g * f, c.b * f);
-      if (i < N) { const q = L * (N + 1) * 2 + i * 2; idx.push(q, q + 2, q + 1, q + 1, q + 2, q + 3); }
+  // a building block (x, z: its foot's centre; y: its base) in the facade material: at Low the city's lit facade
+  // texture, its uv scaled to the block's size (as city_parts' tower), else comGlassMat's windows
+  comBlock(K, GL, col, x, y, z, w, h, d) {
+    const g = new THREE.BoxGeometry(w, h, d).translate(0, h / 2, 0), uv = g.attributes.uv, sizes = [[d, h], [d, h], [0, 0], [0, 0], [w, h], [w, h]];
+    for (let f = 0; f < 6; f++) for (let i = 0; i < 4; i++) {
+      const j = f * 4 + i, [a, b] = sizes[f];
+      if (!a) uv.setXY(j, 0.005, 0.995); else uv.setXY(j, uv.getX(j) * a / 0.045 + (x * 7 % 1), uv.getY(j) * b / 0.09 + y / 0.09);
     }
-    const g = new THREE.BufferGeometry();
-    g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.setAttribute('color', new THREE.Float32BufferAttribute(cl, 3)); g.setIndex(idx);
-    return g;
+    K.add(GL, g, col, [x, y, z], [0, 0, 0], 1, { uv: true });
   }
-  comTrailMat() {
-    return this.mats.comTrail ||= Object.assign(new THREE.MeshBasicMaterial({ vertexColors: true, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide, toneMapped: false }), { userData: { shared: true } });
+  // a sign's quad (1 x 1, facing +z) with its uv on one cell of the sign atlas: 0-7 the billboards, 8-23 the
+  // blade signs
+  comSignGeo(cell) {
+    const c = (this._comSG ||= [])[cell];
+    if (c) return c;
+    const [x0, y0, w, h] = cell < 8 ? [(cell % 2) * 256, Math.floor(cell / 2) * 80, 256, 80] : [(cell - 8) * 32, 320, 32, 192];
+    const geo = new THREE.PlaneGeometry(1, 1), uv = geo.attributes.uv;
+    for (let i = 0; i < uv.count; i++) uv.setXY(i, (x0 + 1 + uv.getX(i) * (w - 2)) / 512, 1 - (y0 + 1 + (1 - uv.getY(i)) * (h - 2)) / 512);
+    return this._comSG[cell] = geo;
   }
-  // the district's floor: dark panels with seams (a speckled canvas), the plaza's magenta and cyan rings and
-  // the six spokes drawn per pixel with their glow, and on the GPU clock: a tron grid, chevrons of light running
-  // in along the walkways, the rings breathing, a ripple going out from the dais every few seconds. Board
-  // position from the ground's uv
-  comGroundMat() {
-    if (this.mats.comGround) return this.mats.comGround;
-    const tex = this.canvas('com-floor', 256, 296, (cg, w, h) => {
-      cg.fillStyle = '#23212c'; cg.fillRect(0, 0, w, h);
-      for (let i = 0; i < 400; i++) { cg.fillStyle = `rgba(255,255,255,${0.02 + hash2(i, 1) * 0.03})`; cg.fillRect(hash2(i, 2) * w, hash2(i, 3) * h, 3, 3); }
+  // the signs: one atlas -- the corporations' billboards (a mark and the name), the shops' blade signs (letters
+  // stacked down them) -- lit, unshaded
+  comSignMat() {
+    if (this.mats.comSign) return this.mats.comSign;
+    const tex = this.canvas('comSigns', 512, 512, (cg) => {
+      cg.fillStyle = '#101014'; cg.fillRect(0, 0, 512, 512);
+      cg.textAlign = 'center'; cg.textBaseline = 'middle';
+      ADS.forEach(([name, bg, fg], k) => {
+        const x0 = (k % 2) * 256, y0 = Math.floor(k / 2) * 80;
+        cg.save(); cg.translate(x0, y0);
+        cg.fillStyle = bg; cg.fillRect(2, 2, 252, 76);
+        cg.strokeStyle = fg; cg.globalAlpha = 0.6; cg.lineWidth = 3; cg.strokeRect(7, 7, 242, 66); cg.globalAlpha = 1;
+        cg.fillStyle = fg; cg.beginPath(); cg.arc(40, 40, 20, 0, TAU); cg.fill();                        // the mark
+        cg.fillStyle = bg; cg.beginPath(); cg.arc(40 + (k % 3 - 1) * 7, 40 - (k % 2) * 6, 11, 0, TAU); cg.fill();
+        cg.fillStyle = fg; cg.font = '700 40px Rajdhani, Arial, sans-serif';
+        const tw = cg.measureText(name).width, sx = Math.min(1, 176 / tw);
+        cg.translate(152, 42); cg.scale(sx, 1); cg.fillText(name, 0, 0);
+        cg.restore();
+      });
+      BLADES.forEach(([name, bg, fg], k) => {
+        const x0 = k * 32, y0 = 320;
+        cg.fillStyle = bg; cg.fillRect(x0 + 1, y0 + 1, 30, 190);
+        cg.strokeStyle = fg; cg.lineWidth = 2; cg.strokeRect(x0 + 3, y0 + 3, 26, 186);
+        cg.fillStyle = fg; cg.font = '700 24px Rajdhani, Arial, sans-serif';
+        const step = Math.min(30, 170 / name.length);
+        [...name].forEach((ch, i) => cg.fillText(ch, x0 + 16, y0 + 96 + (i - (name.length - 1) / 2) * step));
+      });
     });
-    const m = new THREE.MeshStandardMaterial({ map: tex, emissiveMap: tex, emissive: 0xffffff, emissiveIntensity: 0.5, roughness: 0.4, metalness: 0.3 });
-    const R0 = this.HEX_R * 0.95;
-    m.onBeforeCompile = (s) => {
-      s.uniforms.uTime = this.time;
-      s.vertexShader = s.vertexShader.replace('#include <common>', '#include <common>\nvarying vec2 vComB;')
-        .replace('#include <begin_vertex>', `#include <begin_vertex>\nvComB = vec2((uv.x - 0.5) * ${(Math.sqrt(3) * R0).toFixed(6)}, (0.5 - uv.y) * ${(2 * R0).toFixed(6)});`);
-      s.fragmentShader = s.fragmentShader.replace('#include <common>', '#include <common>\nvarying vec2 vComB; uniform float uTime;')
-        .replace('#include <color_fragment>', `#include <color_fragment>
-{
-  vec2 p = vComB; float px = max(length(fwidth(p)), 1e-6);
-  vec2 pq = 0.5 - abs(fract(p / 0.05) - 0.5);
-  float seam = 1.0 - smoothstep(0.0, 0.0005 + px, min(pq.x, pq.y) * 0.05);
-  diffuseColor.rgb *= 1.0 - 0.35 * seam * clamp(1.0 - px * 150.0, 0.0, 1.0);
-}`)
-        .replace('#include <emissivemap_fragment>', `#include <emissivemap_fragment>
-{
-  vec2 p = vComB, c = p - vec2(-0.04, 0.02); float px = max(length(fwidth(p)), 1e-6);
-  float rr = length(c), aa = atan(c.y, c.x), fine = clamp(1.0 - px * 140.0, 0.0, 1.0);
-  vec3 e = vec3(0.0);
-  vec2 gq = 0.5 - abs(fract(p / 0.025) - 0.5);
-  e += vec3(0.05, 0.35, 0.55) * 0.34 * (1.0 - smoothstep(0.0, 0.0004 + px, min(gq.x, gq.y) * 0.025)) * fine * smoothstep(0.17, 0.21, rr);
-  float sk = aa / 6.2832 * 6.0, k = floor(sk + 0.5), sd = abs(sk - k) * 6.2832 / 6.0 * rr;
-  // the rings (magenta 0.15, cyan 0.1: breathing) and the cyan spokes, each a hot core in a soft halo
-  float breathe = 1.0 + 0.35 * sin(uTime * 2.2);
-  float r1 = abs(rr - 0.15), r2 = abs(rr - 0.1), sp = rr > 0.15 && rr < 0.42 ? sd : 1.0;
-  e += vec3(1.0, 0.16, 0.7) * (0.9 * (1.0 - smoothstep(0.0022, 0.0022 + px * 1.5, r1)) + 0.4 * exp(-r1 * 260.0)) * 0.5 * breathe;
-  e += vec3(0.1, 0.85, 1.0) * (0.9 * (1.0 - smoothstep(0.0022, 0.0022 + px * 1.5, r2)) + 0.4 * exp(-r2 * 260.0)) * 0.5 * breathe;
-  e += vec3(0.1, 0.85, 1.0) * (0.9 * (1.0 - smoothstep(0.0018, 0.0018 + px * 1.5, sp)) + 0.3 * exp(-sp * 300.0)) * 0.45;
-  float walk = smoothstep(0.14, 0.165, rr) * (1.0 - smoothstep(0.4, 0.44, rr));
-  vec3 wc = mod(k, 2.0) < 0.5 ? vec3(1.0, 0.24, 0.78) : vec3(0.16, 0.9, 1.0);
-  float edge = (1.0 - smoothstep(0.0, 0.0005 + px, abs(sd - 0.011))) * walk * fine;
-  float ch = fract((rr - sd * 0.8) / 0.028 + uTime * 0.7);
-  float chev = smoothstep(0.62, 0.8, ch) * (1.0 - smoothstep(0.8, 0.95, ch)) * (1.0 - smoothstep(0.006, 0.0095, sd)) * walk;
-  e += wc * (edge * 0.55 + chev * mix(0.35, 0.9, fine) + (1.0 - smoothstep(0.009, 0.011, sd)) * walk * 0.07);
-  float ph = fract(uTime / 3.2), R = 0.06 + ph * 0.42;
-  e += vec3(1.0, 0.3, 0.85) * (1.0 - smoothstep(0.0, 0.003 + px, abs(rr - R))) * (1.0 - ph) * (1.0 - ph) * 0.7;
-  totalEmissiveRadiance += e;
-}`);
-    };
-    m.customProgramCacheKey = () => 'comGround';
-    this.own(m, 0.55);
-    return this.mats.comGround = m;
+    const m = this.own(new THREE.MeshBasicMaterial({ map: tex, vertexColors: true, toneMapped: false }));
+    return this.mats.comSign = m;
   }
-  // the towers' glass: vertex colours, and per pixel (aL = board position) a grid of windows on the walls, some
-  // lit white, cyan or magenta, with a scan of light climbing them now and then; from afar a faint even glow
+  // the streets: dark asphalt with a dashed centre line and zebra crossings, pale sidewalks, the blocks' concrete,
+  // the plaza's paving (a canvas), lit by an emissive canvas: warm street light, soft pools of sign light in their
+  // colours along the kerbs, the plaza's lamps, faint car-light streaks down the lanes
+  comStreetMat() {
+    if (this.mats.comStreet) return this.mats.comStreet;
+    const W = Math.sqrt(3) * this.HEX_R * 0.95, H = 2 * this.HEX_R * 0.95, lines = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5];
+    const frame = (w, h) => ({ px: (x) => (0.5 + x / W) * w, py: (z) => (0.5 + z / H) * h, S: w / W });
+    const map = this.canvas('comStreet', 512, 592, (cg, w, h) => {
+      const { px, py, S } = frame(w, h);
+      cg.fillStyle = '#2a2830'; cg.fillRect(0, 0, w, h);
+      for (let i = 0; i < 1500; i++) { cg.fillStyle = `rgba(0,0,0,${0.05 + hash2(i, 7) * 0.08})`; cg.fillRect(hash2(i, 8) * w, hash2(i, 9) * h, 2, 2); }
+      const band = (a, half, col, vert) => { cg.fillStyle = col; if (vert) cg.fillRect(px(a - half), 0, 2 * half * S, h); else cg.fillRect(0, py(a - half), w, 2 * half * S); };
+      for (const i of lines) { band(PCX + i * P, SW + KW, '#403d46', true); band(PCZ + i * P, SW + KW, '#403d46', false); }
+      for (const i of lines) { band(PCX + i * P, SW + 0.0012, '#5a5760', true); band(PCZ + i * P, SW + 0.0012, '#5a5760', false); }   // the kerbs
+      for (const i of lines) { band(PCX + i * P, SW, '#1d1c21', true); band(PCZ + i * P, SW, '#1d1c21', false); }
+      // the markings: each stretch between two crossings gets a dashed centre line and a zebra crossing at each end
+      const rect = (x, z, rw, rh) => cg.fillRect(px(x), py(z), rw * S, rh * S);
+      for (const i of lines) for (const j of lines) for (const vert of [true, false]) {
+        const a = (vert ? PCX : PCZ) + i * P, s0 = (vert ? PCZ : PCX) + j * P + SW, s1 = s0 + P - 2 * SW;
+        cg.fillStyle = '#c8a850';
+        for (let s = s0 + 0.014; s < s1 - 0.018; s += 0.018) vert ? rect(a - 0.0007, s, 0.0014, 0.01) : rect(s, a - 0.0007, 0.01, 0.0014);
+        cg.fillStyle = '#b8b6b0';
+        for (const e of [s0 + 0.002, s1 - 0.009]) for (let q = -SW + 0.002; q < SW - 0.002; q += 0.0045) vert ? rect(a + q, e, 0.0024, 0.007) : rect(e, a + q, 0.007, 0.0024);
+      }
+      // the plaza: paving in rings round the podium
+      cg.fillStyle = '#6e665e'; cg.beginPath(); cg.arc(px(PCX), py(PCZ), PR * S, 0, TAU); cg.fill();
+      cg.strokeStyle = 'rgba(30,24,20,0.45)'; cg.lineWidth = 1;
+      for (let rr = 0.045; rr < PR; rr += 0.012) { cg.beginPath(); cg.arc(px(PCX), py(PCZ), rr * S, 0, TAU); cg.stroke(); }
+      cg.strokeStyle = '#8a8278'; cg.lineWidth = 2; cg.beginPath(); cg.arc(px(PCX), py(PCZ), PR * S, 0, TAU); cg.stroke();
+    });
+    const em = this.canvas('comStreetE', 512, 592, (cg, w, h) => {
+      const { px, py, S } = frame(w, h);
+      cg.fillStyle = '#000'; cg.fillRect(0, 0, w, h);
+      // the streets washed in warm street light; soft pools of sign light in their colours along the kerbs
+      cg.fillStyle = 'rgba(255,170,100,0.11)';
+      for (const i of lines) { cg.fillRect(px(PCX + i * P - SW - KW), 0, 2 * (SW + KW) * S, h); cg.fillRect(0, py(PCZ + i * P - SW - KW), w, 2 * (SW + KW) * S); }
+      let n = 0;
+      for (const i of lines) for (const j of lines) for (const vert of [true, false]) for (const e of [-1, 1]) for (let q = 0; q < 2; q++) {
+        const hh = hash2(n++ * 1.7, 3.3); if (hh > 0.6) continue;
+        const a = (vert ? PCX : PCZ) + i * P + e * (SW + KW * 0.3), s = (vert ? PCZ : PCX) + j * P + SW + 0.01 + hash2(n, 8.8) * (P - 2 * SW - 0.02);
+        const [x, z] = vert ? [a, s] : [s, a], R0 = (0.008 + hash2(n, 4.4) * 0.005) * S, col = NEON_CSS[Math.floor(hash2(n, 5.1) * NEON_CSS.length)];
+        cg.save(); cg.translate(px(x), py(z)); cg.scale(vert ? 1 : 2.4, vert ? 2.4 : 1);                // (drawn out along the kerb)
+        const gr = cg.createRadialGradient(0, 0, 0, 0, 0, R0);
+        gr.addColorStop(0, col); gr.addColorStop(1, 'rgba(0,0,0,0)');
+        cg.fillStyle = gr; cg.globalAlpha = 0.75; cg.beginPath(); cg.arc(0, 0, R0, 0, TAU); cg.fill(); cg.restore();
+      }
+      cg.globalAlpha = 0.22; cg.lineWidth = 1;
+      for (const i of lines) for (const [e, c] of [[-1, '#ff3020'], [1, '#fff0d0']]) {
+        cg.strokeStyle = c; cg.beginPath(); cg.moveTo(px(PCX + i * P + e * 0.0065), 0); cg.lineTo(px(PCX + i * P + e * 0.0065), h); cg.moveTo(0, py(PCZ + i * P - e * 0.0065)); cg.lineTo(w, py(PCZ + i * P - e * 0.0065)); cg.stroke();
+      }
+      cg.globalAlpha = 1;
+      const gr = cg.createRadialGradient(px(PCX), py(PCZ), 0, px(PCX), py(PCZ), PR * S);
+      gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(0.5, 'rgba(255,200,140,0.18)'); gr.addColorStop(0.95, 'rgba(255,200,140,0.3)'); gr.addColorStop(1, 'rgba(0,0,0,0)');
+      cg.fillStyle = gr; cg.beginPath(); cg.arc(px(PCX), py(PCZ), PR * S, 0, TAU); cg.fill();
+    });
+    const m = new THREE.MeshStandardMaterial({ map, emissiveMap: em, emissive: 0xffffff, emissiveIntensity: 0.9, roughness: 0.6, metalness: 0.1 });
+    this.own(m, 0.4);
+    return this.mats.comStreet = m;
+  }
+  // the car lights: streaks along each lane (uv.x = board distance along it, signed with its way), a car every
+  // so often, bright at its head and trailing off behind; additive
+  comCarMat() {
+    if (this.mats.comCar) return this.mats.comCar;
+    const m = new THREE.ShaderMaterial({
+      uniforms: { uTime: this.time },
+      vertexColors: true, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, side: THREE.DoubleSide,
+      vertexShader: /* glsl */`varying vec2 vUv; varying vec3 vC;
+        void main(){ vUv = uv; vC = color; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`,
+      fragmentShader: /* glsl */`
+        uniform float uTime; varying vec2 vUv; varying vec3 vC;
+        float hh(float x){ return fract(sin(x * 91.7) * 43758.5453); }
+        void main(){
+          float u = vUv.x * 16.0 - uTime * 0.8, id = floor(u), f = fract(u);
+          float car = step(0.4, hh(id));
+          float streak = smoothstep(0.35, 0.95, f) * (1.0 - smoothstep(0.96, 1.0, f));
+          float across = 1.0 - abs(vUv.y * 2.0 - 1.0);
+          gl_FragColor = vec4(vC * car * streak * streak * across * 1.5, 1.0);
+          #include <colorspace_fragment>
+        }`,
+    });
+    m.userData.shared = true;
+    return this.mats.comCar = m;
+  }
+  // the buildings' facades: vertex colours (glass or concrete), and per pixel (aL = board position) a grid of
+  // windows on the walls, about a third of them lit -- warm amber, some cool white, the odd one coloured (as the
+  // city's lit facade texture, crisp); from afar their even glow
   comGlassMat() {
     if (this.mats.comGlass) return this.mats.comGlass;
-    const m = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.12, metalness: 0.85 });
+    const m = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.5, metalness: 0.25 });
     m.onBeforeCompile = (s) => {
-      s.uniforms.uTime = this.time;
       s.vertexShader = s.vertexShader.replace('#include <common>', '#include <common>\nattribute vec3 aL; varying vec3 vL;').replace('#include <begin_vertex>', '#include <begin_vertex>\nvL = aL;');
       s.fragmentShader = s.fragmentShader.replace('#include <common>', `#include <common>
-varying vec3 vL; uniform float uTime;
+varying vec3 vL;
 float comH(vec2 p){ return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }`)
         .replace('#include <emissivemap_fragment>', `#include <emissivemap_fragment>
 {
@@ -216,25 +300,23 @@ float comH(vec2 p){ return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); 
   vec3 nL = normalize(cross(dFdx(p), dFdy(p)));
   if (abs(nL.y) < 0.5) {
     float h = dot(p.xz, normalize(vec2(-nL.z, nL.x)));
-    vec2 w = vec2(h / 0.0062, p.y / 0.0078), id = floor(w), f = abs(fract(w) - 0.5);
-    float win = (1.0 - smoothstep(0.3, 0.3 + px / 0.0062, f.x)) * (1.0 - smoothstep(0.26, 0.26 + px / 0.0078, f.y));
-    float hs = comH(id + vec2(floor(nL.x * 3.0) * 7.1, floor(nL.z * 3.0) * 3.7));
-    vec3 tint = normalize(vColor.rgb + 0.02) * 1.25;
-    vec3 wc = hs > 0.96 ? vec3(1.0, 0.3, 0.85) : hs > 0.925 ? vec3(0.25, 0.9, 1.0) : mix(vec3(0.7, 0.78, 1.0), tint, 0.7);
-    float sc = fract(p.y * 4.0 - uTime * 0.11 + comH(vec2(floor(h * 18.0), 3.0)));
-    float band = smoothstep(0.0, 0.015, sc) * (1.0 - smoothstep(0.015, 0.06, sc));
-    float fine = clamp(1.0 - px * 190.0, 0.0, 1.0);
-    float floorLine = (1.0 - smoothstep(0.0, 0.00025 + px, (0.5 - abs(fract(p.y / 0.0156) - 0.5)) * 0.0156)) * 0.16;
-    vec3 e = wc * step(0.88, hs) * win * (0.3 + 1.3 * band) + tint * floorLine;
-    totalEmissiveRadiance += mix(vec3(0.018, 0.02, 0.04), e * 0.6, fine);
+    vec2 w = vec2(h / 0.0056, p.y / 0.011), id = floor(w), f = abs(fract(w) - 0.5);
+    float win = (1.0 - smoothstep(0.3, 0.3 + fwidth(w.x), f.x)) * (1.0 - smoothstep(0.24, 0.24 + fwidth(w.y), f.y));
+    vec2 side = vec2(floor(nL.x * 1.5 + 0.5) * 7.1, floor(nL.z * 1.5 + 0.5) * 3.7);   // (rounded: a wall's normal is noisy about 0)
+    float hs = comH(id + side + floor(vColor.r * 97.0)), h2 = comH(id.yx + side * 2.3);
+    float lit = step(0.64, hs);                                            // about a third of the windows lit
+    vec3 wc = h2 < 0.2 ? vec3(0.85, 0.92, 1.0) : h2 > 0.985 ? vec3(1.0, 0.35, 0.6) : vec3(1.0, 0.56 + 0.26 * h2, 0.22 + 0.3 * h2);
+    vec2 dw = fwidth(w);                                                   // (windows per pixel each way: a wall seen edge-on from above squeezes the rows)
+    float fine = clamp(2.0 - max(dw.x, dw.y) * 4.0, 0.0, 1.0);
+    totalEmissiveRadiance += mix(vec3(0.105, 0.072, 0.039), wc * lit * win, fine);
   }
 }`);
     };
-    m.customProgramCacheKey = () => 'comGlass';
+    m.customProgramCacheKey = () => 'comGlass2';
     this.own(m, 1);
     return this.mats.comGlass = m;
   }
-  // the holograms (billboards, tickers, the plaza's coin): one shader over an atlas of five ads; the
+  // the holograms (the towers' holo ads): one shader over an atlas of five ads; the
   // vertex colour picks the ad (r * 8), its phase (g) and, for a ticker, how often it repeats round (b * 8, it
   // scrolls). Scanlines drift down them, and now and then one flickers or tears sideways for a moment
   comHoloMat() {

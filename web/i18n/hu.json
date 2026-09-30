@@ -457,6 +457,7 @@
  "peek.yourChoice": "a te döntésed",
  "setup.title": "Válaszd ki a kezdésed",
  "setup.sub": "Válassz 1 céget, 2 kezdetkártyát, és vegyél tetszőleges projektkártyákat 3 M€-ért darabját. Jobb kattintással / hosszú nyomással nagyban is elolvashatod a kártyát.",
+ "setup.cardsList": "Ez a kéz a kártyalistában ↗",
  "setup.corp": "Cég",
  "setup.pre": "Kezdetkártyák — válassz 2-t (az előkészítés után, tetszőleges sorrendben játszod ki őket)",
  "setup.proj": "Projektkártyák — darabja 3 M€",
@@ -1017,5 +1018,9 @@
  "trig.order": "Ebben a sorrendben hajtódnak végre: {list}.",
  "trig.orderWhy": "A húzás jön először, így egy általuk húzott kártyát is eldobhatsz.",
  "hex.rc": "{r}. sor, {c}. mező",
- "hex.rcTitle": "{r}. sor, {c}. mező"
+ "hex.rcTitle": "{r}. sor, {c}. mező",
+ "hex.claimed": "{card}: {who} lefoglalta; senki más nem tehet ide lapkát",
+ "rp.povTitle": "Kinek a helyéről nézed: a kezét, a draftválasztásait és a húzásait. Kattints a játékosváltáshoz",
+ "rp.povOld": "Csak a saját helyed: ez a visszajátszás még azelőtt készült, hogy TFMBot lapjait elmentettük volna",
+ "atk.offset": "{who} elvesztette őket, de a(z) {card} ugyanannyit visszaadott"
 }

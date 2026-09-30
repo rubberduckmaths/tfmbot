@@ -28,6 +28,9 @@ import { AppDialogs } from './dialogs.js';
 import { AppFlows } from './flows.js';
 import { AppChrome } from './chrome.js';
 
+// bytes -> base64 (a report's game snapshot, so a refused move can be reproduced)
+const b64 = (u) => { if (!u) return null; let bin = ''; for (let i = 0; i < u.length; i += 0x8000) bin += String.fromCharCode(...u.subarray(i, i + 0x8000)); return btoa(bin); };
+
 export class App {
   constructor() {
     this.audio = new Audio();
@@ -178,7 +181,7 @@ export class App {
       case 'save': this.save(m); break;
       case 'reload': this.toast(t('toast.reloading')); setTimeout(() => location.reload(), 900); break;
       case 'gamelog': fetch('api/gamelog', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(m) }).catch(() => {}); break;
-      case 'error': this.answerSent = false; console.warn(m.msg); if (this.recPending) { this.applySetupRec?.(null); this.applyPickRec?.(null); } report('engine-error', m.msg, { view: this.view && { gen: this.view.gen, pending: this.view.pending, moves: this.view.moves } }); this.toast(m.msg.slice(0, 80), '#ff8a8a'); break;
+      case 'error': this.answerSent = false; console.warn(m.msg); if (this.recPending) { this.applySetupRec?.(null); this.applyPickRec?.(null); } report('engine-error', m.msg, { answer: this.lastAnswer, snapshot: b64(this.lastSaveBytes), view: this.view && { gen: this.view.gen, pending: this.view.pending, moves: this.view.moves } }); this.toast(m.msg.slice(0, 80), '#ff8a8a'); break;
       case 'warn': console.warn(m.msg); break;
     }
   }
@@ -279,7 +282,8 @@ export class App {
       setTimeout(() => prewarmStrike(this.board), 1500);      // asteroid shaders compiled before the first strike
       setTimeout(() => (this.eventsFx ||= new EventsFx(this.board)).prewarm(), 1700);   // launches, arcs, planet pulses (events_fx.js)
       this.board.setGlobals(v.temp, v.oxy, v.oceans); this.audio.setTerraform(v.temp, v.oxy, v.oceans);
-      if (m.fresh) { $('#log-list').innerHTML = ''; this.feedEl().innerHTML = ''; this.feedItems = []; try { localStorage.removeItem('tfmweb.feed'); } catch {} this.closeModal(); this.history = []; }
+      if (m.fresh) { $('#log-list').innerHTML = ''; this.feedEl().innerHTML = ''; this.feedItems = []; try { localStorage.removeItem('tfmweb.feed'); } catch {} this.closeModal(); this.history = [];
+        this.heldRevealLog = null; this.heldReveals = []; this.prevLogView = null; }   // (an abandoned game's held setup reveal must not surface in the next one)
       else if (this.resumed) this.restoreFeed();
     }
     this.renderAll();
@@ -322,13 +326,17 @@ export class App {
 
   pcolor(p) { return PCOL[p] || '#ffffff'; }
   // the engine names the human seat "You": shown in the UI language
-  pname(p) { const pl = this.view?.players[p]; return !pl ? '?' : p === this.view.human && pl.name === 'You' ? t('player.you') : pl.name; }
+  // the grammatical 'you' (the log's and toasts' second-person forms): the human, whichever seat a replay is watched from
+  snapB64() { return b64(this.lastSaveBytes); }   // the current game, for a report that needs reproducing
+  isYou(p, v = this.view) { return v?.players[p]?.name === 'You'; }
+  pname(p) { const pl = this.view?.players[p]; return !pl ? '?' : pl.name === 'You' ? t('player.you') : pl.name; }   // (a replay can be watched from the other seat: the human stays 'You')
   hideTableau() { $('#tableau').classList.add('hidden'); }
 
   myTurn() { const v = this.view; return v && v.pending.player === v.human && !this.awaitingConfirm; }
   setStatus(txt, busy) { $('#status-text').textContent = txt; $('#status').classList.toggle('think', !!busy); }
 
   answer(msg) {
+    this.lastAnswer = { msg, legalN: this.legal?.length ?? null, moves: this.view?.moves };   // (an engine-error report says what was refused)
     this.flow = null;
     this.forced = false;
     this.closeModal();

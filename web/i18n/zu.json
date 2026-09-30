@@ -406,6 +406,7 @@
  "peek.yourChoice": "ukukhetha kwakho",
  "setup.title": "Khetha ukuqala kwakho",
  "setup.sub": "Khetha inkampani e-1, izandulela ezi-2, bese uthenga noma yimaphi amakhadi ephrojekthi nge-3 M€ ngalinye. Chofoza ngakwesokudla / cindezela isikhathi eside ikhadi ukuze ulifunde lilikhulu.",
+ "setup.cardsList": "Lesi sandla ohlwini lwamakhadi ↗",
  "setup.corp": "Inkampani",
  "setup.pre": "Izandulela — khetha ezi-2 (uzozidlala ngemva kokulungiselela, nganoma yiluphi uhlelo)",
  "setup.proj": "Amakhadi ephrojekthi — 3 M€ ngalinye",
@@ -966,5 +967,9 @@
  "trig.order": "Lokhu kwenzeka ngalolu hlelo: {list}.",
  "trig.orderWhy": "Ukudweba kuza kuqala, ngakho ikhadi elidwetshwe ngelinye lawo lingaba yilo olilahlayo.",
  "hex.rc": "indawo {c} emugqeni {r}",
- "hex.rcTitle": "Umugqa {r}, indawo {c}"
+ "hex.rcTitle": "Umugqa {r}, indawo {c}",
+ "hex.claimed": "{card}: kugodliwe ngu-{who}; akekho omunye ongabeka ithayela lapha",
+ "rp.povTitle": "Ubuka ngesihlalo sikabani: isandla sakhe, ukukhetha kwe-draft namakhadi adonsiwe. Chofoza ukuze ushintshe umdlali",
+ "rp.povOld": "Isihlalo sakho kuphela: lokhu kuphinda kwaqoshwa ngaphambi kokuba kugcinwe amakhadi e-TFMBot",
+ "atk.offset": "{who} ulahlekelwe yiwo, kodwa {card} ubuyise okufanayo"
 }

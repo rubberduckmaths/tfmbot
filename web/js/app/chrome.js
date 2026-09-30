@@ -53,7 +53,8 @@ export class AppChrome {
     const key = `${v.gen}:${v.moves}`;
     if (this.evalKey === key) return;
     this.evalKey = key;
-    fetch(apiUrl(`eval?pid=${v.human}`), { method: 'POST', body: this.lastSaveBytes, headers: { 'content-type': 'application/octet-stream' } })
+    // (g, mv: which game and move, so the server's meter log can be joined with the game's result -- calibration)
+    fetch(apiUrl(`eval?pid=${v.human}&g=${encodeURIComponent(this.recorder?.gid || '')}&mv=${v.moves}`), { method: 'POST', body: this.lastSaveBytes, headers: { 'content-type': 'application/octet-stream' } })
       .then((r) => (r.ok ? r.json() : null)).then((r) => { if (r && !r.err && this.evalKey === key) this.showOdds(r.p, r.sd, v.gen); }).catch(() => {});
   }
   showOdds(p, sd, gen) {

@@ -9,6 +9,9 @@ import { D, AK } from '../protocol.js';
 import { MOOD_RANK, SP } from './content.js';
 import { FAST, PCOL, PMARK_MS, REPLAY, cresName, dur, maName, pace, signed, sleep, spName } from './shared.js';
 
+// fly-bys (cards, moves, resources placed on cards) linger this much longer than their base timings
+const FLY_PACE = 1.35;
+
 export class AppAnim {
   // Which card placed each city, so the board can dress it to match (Domed
   // Crater's dome, Research Outpost's base... board/tiles/): a new city is
@@ -80,11 +83,11 @@ export class AppAnim {
       for (const c of newCards) fly(() => this.flyCard(c, pb.id));
     }
     // the bot's moves that bring no card into a tableau get a fly-by of their own (a replay: both players')
-    const willReveal = !!(b.reveal && b.moves !== a.moves && !(b.stage === 0 && b.reveal.player !== b.human));
     if ((botMove || (REPLAY != null && step)) && (step.kind === D.ACTION || step.kind === D.FG)) {
       const ac = b.last.act, nm = this.pname(who), bare = (k) => t(k).replace(/^[^\p{L}]+/u, '');
-      // an action whose reveal tray already names the card (Search For Life...) needs no second fly-by
-      if (ac.k === AK.BLUE) { if (!willReveal) fly(() => this.flyCard(ac.card, who, 'used')); }
+      // a card's action: the card flies with its Action box lit (any reveal tray -- the card Restricted Area
+      // drew, Search For Life's -- follows it), so the move can't slip by as just a "drew a card"
+      if (ac.k === AK.BLUE) fly(() => this.flyCard(ac.card, who, 'used'));
       else if (ac.k === AK.SP) {
         const icon = ['assets/res/card.png', 'assets/res/power.png', 'assets/temperature.png', 'assets/tiles/ocean.png', 'assets/tiles/greenery.png', 'assets/tiles/city.png'][ac.sp] || 'assets/tiles/special.png';
         fly(() => this.flyMove(who, icon, spName(ac.sp), esc(ac.sp === 0 ? t('toast.botSell', { who: nm, sp: spName(0), n: ac.disc.length }) : t('toast.botSp', { who: nm, sp: spName(ac.sp) }))));
@@ -206,10 +209,10 @@ export class AppAnim {
     else if (b.players.some((p, i) => p.tr > a.players[i].tr)) this.audio.chime(1);
     // milestones / awards
     const fliesFor = (p) => p !== b.human || REPLAY != null;
-    b.ms.forEach((m, i) => { if (m.owner >= 0 && a.ms[i].owner < 0 && fliesFor(m.owner)) { fly(() => this.flyMove(m.owner, '🏆', maName(m.name), tw('toast.claimed', { who: this.pname(m.owner), ms: maName(m.name) }, m.owner === b.human))); this.audio.fanfare(); } });
-    b.aw.forEach((w, i) => { if (w.funder >= 0 && a.aw[i].funder < 0 && fliesFor(w.funder)) { fly(() => this.flyMove(w.funder, '🏅', maName(w.name), tw('toast.funded', { who: this.pname(w.funder), aw: maName(w.name) }, w.funder === b.human))); this.audio.coin(); } });
-    b.ms.forEach((m, i) => { if (m.owner >= 0 && a.ms[i].owner < 0 && !fliesFor(m.owner)) { this.toast(tw('toast.claimed', { who: this.pname(m.owner), ms: maName(m.name) }, m.owner === b.human), PCOL[m.owner]); this.audio.fanfare(); wait = Math.max(wait, 1200); } });
-    b.aw.forEach((w, i) => { if (w.funder >= 0 && a.aw[i].funder < 0 && !fliesFor(w.funder)) { this.toast(tw('toast.funded', { who: this.pname(w.funder), aw: maName(w.name) }, w.funder === b.human), PCOL[w.funder]); this.audio.coin(); wait = Math.max(wait, 1000); } });
+    b.ms.forEach((m, i) => { if (m.owner >= 0 && a.ms[i].owner < 0 && fliesFor(m.owner)) { fly(() => this.flyMove(m.owner, '🏆', maName(m.name), tw('toast.claimed', { who: this.pname(m.owner), ms: maName(m.name) }, this.isYou(m.owner, b)))); this.audio.fanfare(); } });
+    b.aw.forEach((w, i) => { if (w.funder >= 0 && a.aw[i].funder < 0 && fliesFor(w.funder)) { fly(() => this.flyMove(w.funder, '🏅', maName(w.name), tw('toast.funded', { who: this.pname(w.funder), aw: maName(w.name) }, this.isYou(w.funder, b)))); this.audio.coin(); } });
+    b.ms.forEach((m, i) => { if (m.owner >= 0 && a.ms[i].owner < 0 && !fliesFor(m.owner)) { this.toast(tw('toast.claimed', { who: this.pname(m.owner), ms: maName(m.name) }, this.isYou(m.owner, b)), PCOL[m.owner]); this.audio.fanfare(); wait = Math.max(wait, 1200); } });
+    b.aw.forEach((w, i) => { if (w.funder >= 0 && a.aw[i].funder < 0 && !fliesFor(w.funder)) { this.toast(tw('toast.funded', { who: this.pname(w.funder), aw: maName(w.name) }, this.isYou(w.funder, b)), PCOL[w.funder]); this.audio.coin(); wait = Math.max(wait, 1000); } });
     // what the move did to the stocks and production shows as its fly-by lands (with the counters: present), not before
     const landed = (fn) => (flights.length ? Promise.all(flights).then(fn) : fn());
     if (b.gen === a.gen) landed(() => this.flashResources(a, b, false));
@@ -481,14 +484,17 @@ export class AppAnim {
   async flyCard(cardId, pid, verb) {
     const card = this.db.get(cardId);
     if (!card) return;
-    const label = tw('fly.' + (verb || (card.type === 0 ? 'chose' : 'played')), { who: esc(this.pname(pid)) }, pid === this.view.human);
-    await this.flyEl(cardEl(card, { big: true }), card.type === 0 ? 300 : 250, 348, pid, label, pid === this.view.human && REPLAY == null ? 700 : 1500);
+    const label = tw('fly.' + (verb || (card.type === 0 ? 'chose' : 'played')), { who: esc(this.pname(pid)) }, this.isYou(pid));
+    const el = cardEl(card, { big: true });
+    if (verb === 'used') el.classList.add('actused');   // (its Action box glows: which ability fired)
+    await this.flyEl(el, card.type === 0 ? 300 : 250, 348, pid, label, pid === this.view.human && REPLAY == null ? 700 : 1500);
   }
   // a move that brings no card (a standard project, plants into greenery, a milestone...): a small card of its own, briefly
   flyMove(pid, icon, title, label) {
     const art = !icon ? '' : icon.startsWith('assets/') ? `<img src="${icon}" alt="">` : `<span class="mi">${icon}</span>`;
     return this.flyEl(h('div', 'movefly', `${art}<div class="mt">${esc(title)}</div>`), 210, 250, pid, label, 900);
   }
+  // (hold: ms in the middle of the screen, at Normal speed; FLY_PACE stretches every fly-by so a move can be read)
   async flyEl(el, W, H, pid, labelHtml, hold) {
     this.audio.card();
     const fl = $('#flyer');
@@ -511,11 +517,11 @@ export class AppAnim {
     const scale = Math.min(1, (innerHeight - 160) / H);
     el.style.transform = `translate(${cx}px, ${cy}px) scale(${scale})`;
     label.style.opacity = '1';
-    await sleep(hold);
+    await sleep(hold * FLY_PACE);
     label.style.opacity = '0';
     el.style.transform = `translate(${pr.left + pr.width / 2 - W / 2}px, ${pr.top + pr.height / 2 - H / 2}px) scale(.15)`;
     el.style.opacity = '0';
-    await sleep(600);
+    await sleep(800);
     el.remove(); label.remove();
     this.uiFx.settle(pid);                            // the board it landed on glows
   }

@@ -400,6 +400,7 @@
  "peek.yourChoice": "deine Wahl",
  "setup.title": "Wähle deinen Start",
  "setup.sub": "Wähle 1 Konzern und 2 Preludes und kaufe beliebig viele Projektkarten für je 3 M€. Rechtsklick / lange drücken zeigt eine Karte groß an.",
+ "setup.cardsList": "Diese Hand in der Kartenliste ↗",
  "setup.corp": "Konzern",
  "setup.pre": "Preludes — wähle 2 (du spielst sie nach dem Aufbau in beliebiger Reihenfolge)",
  "setup.proj": "Projektkarten — je 3 M€",
@@ -960,5 +961,9 @@
  "trig.order": "Diese werden in dieser Reihenfolge abgehandelt: {list}.",
  "trig.orderWhy": "Ziehen kommt zuerst, daher kannst du eine Karte, die eine davon gezogen hat, gleich wieder abwerfen.",
  "hex.rc": "Reihe {r}, Feld {c}",
- "hex.rcTitle": "Reihe {r}, Feld {c}"
+ "hex.rcTitle": "Reihe {r}, Feld {c}",
+ "hex.claimed": "{card}: reserviert von {who}; niemand sonst darf hier ein Plättchen legen",
+ "rp.povTitle": "Aus wessen Sicht du zusiehst: Hand, Draft-Wahl und gezogene Karten. Klicken, um den Spieler zu wechseln",
+ "rp.povOld": "Nur deine Sicht: Diese Wiederholung wurde aufgenommen, bevor TFMBots Karten gespeichert wurden",
+ "atk.offset": "{who} verlor sie, aber {card} gab genauso viele zurück"
 }

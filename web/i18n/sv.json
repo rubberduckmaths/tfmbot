@@ -414,6 +414,7 @@
  "peek.yourChoice": "ditt val",
  "setup.title": "Välj din start",
  "setup.sub": "Välj 1 företag, 2 preludier och köp valfria projektkort för 3 M€ styck. Högerklicka / tryck länge på ett kort för att läsa det i stort format.",
+ "setup.cardsList": "Den här handen i kortlistan ↗",
  "setup.corp": "Företag",
  "setup.pre": "Preludier — välj 2 (du spelar dem efter förberedelserna, i valfri ordning)",
  "setup.proj": "Projektkort — 3 M€ styck",
@@ -977,5 +978,9 @@
  "trig.order": "De avgörs i den här ordningen: {list}.",
  "trig.orderWhy": "Dragningar kommer först, så ett kort som en av dem drog kan vara det du slänger.",
  "hex.rc": "rad {r}, ruta {c}",
- "hex.rcTitle": "Rad {r}, ruta {c}"
+ "hex.rcTitle": "Rad {r}, ruta {c}",
+ "hex.claimed": "{card}: reserverad av {who}; ingen annan kan lägga en bricka här",
+ "rp.povTitle": "Vems plats du tittar från: handen, draftvalen och dragna kort. Klicka för att byta spelare",
+ "rp.povOld": "Bara din plats: den här reprisen spelades in innan TFMBots kort sparades",
+ "atk.offset": "{who} förlorade dem, men {card} gav lika många tillbaka"
 }

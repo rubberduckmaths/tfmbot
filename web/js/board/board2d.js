@@ -15,12 +15,12 @@
 // azimuthal-equidistant about the board centre -- the flat board plane IS that projection).
 import { MAP_KEYS, MAP_LABELS } from './board3d.js';
 import { tName, onLangChange } from '../i18n.js';
+import { MAP_TEX_V } from './layout.js';
 
 const NS = 'http://www.w3.org/2000/svg';
 const HEX_R = 1 / Math.sqrt(3);          // pointy-top hex circumradius, column pitch 1 (as board3d.js)
 const THETA_MAX = 50 * Math.PI / 180;    // board edge on the globe (board3d.js): fixes the texture scale
 const REG_A = 62 * Math.PI / 180;        // regional texture radius (the baked regional texture's radius: web/assets/maps/README.md)
-const MAP_TEX_V = '2026-09-28c';         // keep in step with board3d.js MAP_TEX_V (the region textures' cache buster)
 const TEX_W = 256, TEX_H = 296;          // board3d.js cellTex box: a hex is drawn in these units, scaled to 1 x 2*HEX_R
 const SPECIAL_ICON = { 4: 'commerical_district', 7: 'lava_flows', 10: 'mohole_area', 11: 'natural_preserve', 12: 'nuclear_zone', 13: 'restricted_area', 14: 'industrial_center', 15: 'ecological_zone', 16: 'mining_area', 17: 'mining_area' };
 const BONUS_ICON = { 0: 'steel', 1: 'titanium', 2: 'plant', 3: 'card', 4: 'heat', 5: 'power', 11: '../tiles/ocean', 12: '../temperature', 14: '../temperature' };

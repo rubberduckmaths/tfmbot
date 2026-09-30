@@ -455,6 +455,7 @@
  "peek.yourChoice": "sinu valik",
  "setup.title": "Vali oma algus",
  "setup.sub": "Vali 1 korporatsioon, 2 prelüüdi ja osta projektikaarte 3 M€ tükk. Paremklõps / pikk vajutus näitab kaarti suurelt.",
+ "setup.cardsList": "See käsi kaardinimekirjas ↗",
  "setup.corp": "Korporatsioon",
  "setup.pre": "Prelüüdid — vali 2 (mängid need pärast ettevalmistust suvalises järjekorras)",
  "setup.proj": "Projektikaardid — 3 M€ tükk",
@@ -1018,5 +1019,9 @@
  "trig.order": "Need lahendatakse selles järjekorras: {list}.",
  "trig.orderWhy": "Tõmbamine tuleb enne, nii et kaart, mille üks neist tõmbas, võib olla see, mille ära viskad.",
  "hex.rc": "rida {r}, väli {c}",
- "hex.rcTitle": "Rida {r}, väli {c}"
+ "hex.rcTitle": "Rida {r}, väli {c}",
+ "hex.claimed": "{card}: reserveeritud mängijale {who}; keegi teine ei saa siia plaati panna",
+ "rp.povTitle": "Kelle kohalt vaatad: tema käsi, drafti valikud ja tõmmatud kaardid. Klõpsa mängija vahetamiseks",
+ "rp.povOld": "Ainult sinu koht: see kordus salvestati enne, kui TFMBoti kaarte hakati talletama",
+ "atk.offset": "{who} kaotas need, kuid {card} andis sama palju tagasi"
 }

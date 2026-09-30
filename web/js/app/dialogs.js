@@ -5,6 +5,7 @@ import { cardActions, cardDesc, cardEl, cardName, cardOrTitles } from '../cards/
 import { $, h, esc } from '../dom.js';
 import { D, AK } from '../protocol.js';
 import { PCOL, REPLAY, cresName, critName, maName, resName } from './shared.js';
+import { CARDS_LIST_CORPS } from './content.js';
 
 export class AppDialogs {
   // "Remove 5 plants from TFMBot (has 7)" / "Remove 2 animals from TFMBot's Small Animals"
@@ -156,7 +157,7 @@ export class AppDialogs {
         if (v.pending.kind === D.ACTION && keys.length && keys.every((k) => k.startsWith('aw:'))) return this.freeAwardModal(keys);
         if (v.pending.kind === D.ACTION && keys.length === 1 && !['pass', 'end'].includes(keys[0]) && !this.flow) { this.forced = true; this.startFlow(keys[0]); }
         // final greenery: straight to the board (Cancel on the prompt skips it)
-        if (v.pending.kind === D.FG && keys.includes('plants') && !this.flow && this.fgSkip !== v.moves) { this.fgAuto = v.moves; this.startFlow('plants'); }
+        if (v.pending.kind === D.FG && keys.includes('plants') && !this.flow && this.fgSkip !== v.moves) { this.fgAuto = v.moves; this.startFlow('plants', true); }
         return;
       }
     }
@@ -227,7 +228,8 @@ export class AppDialogs {
   tilePrompt() {
     const v = this.view;
     const kind = ['city', 'greenery', 'ocean'][v.pending.tile];
-    this.prompt(t('prompt.place', { tile: esc(t('tilew.' + kind)) }));
+    // (the ocean a tile on the Hellas South Pole grants, before that tile goes down)
+    this.prompt(v.pending.bo != null ? t('prompt.where', { what: esc(t('what.bonusOcean')) }) : t('prompt.place', { tile: esc(t('tilew.' + kind)) }));
     this.board.highlight(v.pending.spaces, (s) => this.answer({ a: 'space', space: s }), kind);
     this.placing = kind;
   }
@@ -254,7 +256,15 @@ export class AppDialogs {
     // that redraw their contents get it back); while hidden it's the big
     // "Back to …" button up top
     const place = () => {
-      if (m.classList.contains('peek')) { if (pk.parentNode !== m) m.appendChild(pk); return; }
+      if (m.classList.contains('peek')) {
+        if (pk.parentNode !== m) m.appendChild(pk);
+        // phones: just above the turn controls (Undo / Actions and the milestones / awards chips), whatever rows show
+        const tc = $('#turnctl');
+        if (tc && matchMedia('(max-width: 899px), (max-height: 559px)').matches) pk.style.bottom = `${Math.round(innerHeight - tc.getBoundingClientRect().top + 8)}px`;
+        else pk.style.bottom = '';
+        return;
+      }
+      pk.style.bottom = '';
       const foot = [...box.querySelectorAll('.foot')].pop();
       if (!foot) { if (pk.parentNode !== m) m.appendChild(pk); return; }
       const primary = [...foot.querySelectorAll('button.primary')].pop();
@@ -287,8 +297,10 @@ export class AppDialogs {
     const box = this.modal(() => {});
     const draw = () => {
       box.innerHTML = '';
-      box.appendChild(h('h2', '', esc(t('setup.title'))));
-      box.appendChild(h('div', 'sub', esc(t('setup.sub'))));
+      // the map, named here too (a Random map was only visible by hiding the dialog)
+      const mapName = this.map?.key && tHas(`map.${this.map.key}.name`) ? t(`map.${this.map.key}.name`) : '';
+      box.appendChild(h('h2', '', `${esc(t('setup.title'))}${mapName ? ` <span class="mapbadge">🗺 ${esc(mapName)}</span>` : ''}`));
+      box.appendChild(h('div', 'sub', `${esc(t('setup.sub'))} <a class="cardslist" href="${esc(this.cardsListUrl(me))}" target="_blank" rel="noopener">${esc(t('setup.cardsList'))}</a>`));
       box.appendChild(h('div', 'sect', esc(t('setup.corp'))));
       this.cardRow(box, me.dcorps, '', new Set([st.corp]), (id) => { st.corp = id; draw(); }, {});
       box.appendChild(h('div', 'sect', esc(t('setup.pre'))));
@@ -326,6 +338,18 @@ export class AppDialogs {
       draw();
     };
     draw();
+  }
+
+  // the dealt starting hand as a ssimeonoff cards-list link, the format players share hands in
+  cardsListUrl(me) {
+    const norm = (s) => String(s).toUpperCase().replace(/[^A-Z0-9]/g, '');
+    const toks = [];
+    for (const id of me.dcorps || []) {
+      const i = CARDS_LIST_CORPS.findIndex((n) => norm(n) === norm(this.db.name(id)));
+      if (i >= 0) toks.push(`CORP${String(i).padStart(2, '0')}`);
+    }
+    for (const id of [...(me.dpre || []), ...(me.dproj || [])]) { const n = this.db.get(id)?.cardNumber; if (n) toks.push(/^\d+$/.test(n) ? n.padStart(3, '0') : n); }   // (the site's projects are 3 digits: 088)
+    return `https://ssimeonoff.github.io/cards-list#${toks.join('#')}`;
   }
 
   pickModal(title, sub, ids, min, max, done, extra, rec = false, cancel = false) {

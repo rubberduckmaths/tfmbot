@@ -404,6 +404,7 @@
  "peek.yourChoice": "jouw keuze",
  "setup.title": "Kies je start",
  "setup.sub": "Kies 1 bedrijf, 2 preludes en koop zoveel projectkaarten als je wilt voor 3 M€ per stuk. Rechtsklik / houd een kaart ingedrukt om hem groot te lezen.",
+ "setup.cardsList": "Deze hand in de kaartenlijst ↗",
  "setup.corp": "Bedrijf",
  "setup.pre": "Preludes — kies er 2 (je speelt ze na de voorbereiding, in willekeurige volgorde)",
  "setup.proj": "Projectkaarten — 3 M€ per stuk",
@@ -967,5 +968,9 @@
  "trig.order": "Deze worden in deze volgorde afgehandeld: {list}.",
  "trig.orderWhy": "Trekken gaat eerst, dus een kaart die een ervan trok, kan de kaart zijn die je aflegt.",
  "hex.rc": "rij {r}, vak {c}",
- "hex.rcTitle": "Rij {r}, vak {c}"
+ "hex.rcTitle": "Rij {r}, vak {c}",
+ "hex.claimed": "{card}: gereserveerd door {who}; niemand anders kan hier een tegel leggen",
+ "rp.povTitle": "Vanaf wiens plaats je kijkt: hun hand, draftkeuzes en getrokken kaarten. Klik om van speler te wisselen",
+ "rp.povOld": "Alleen jouw plaats: deze herhaling is opgenomen voordat de kaarten van TFMBot werden bewaard",
+ "atk.offset": "{who} verloor ze, maar {card} gaf er evenveel terug"
 }

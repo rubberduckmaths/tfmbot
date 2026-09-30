@@ -461,6 +461,7 @@
  "peek.yourChoice": "la teva elecció",
  "setup.title": "Tria el teu inici",
  "setup.sub": "Tria 1 corporació, 2 preludis i compra les cartes de projecte que vulguis a 3 M€ cadascuna. Clic dret / pulsació llarga en una carta per llegir-la en gran.",
+ "setup.cardsList": "Aquesta mà a la llista de cartes ↗",
  "setup.corp": "Corporació",
  "setup.pre": "Preludis — tria'n 2 (els jugues després de la preparació, en qualsevol ordre)",
  "setup.proj": "Cartes de projecte — 3 M€ cadascuna",
@@ -1035,5 +1036,9 @@
  "trig.order": "Es resolen en aquest ordre: {list}.",
  "trig.orderWhy": "Primer es roba, així que pots descartar una carta que hagi robat una d'elles.",
  "hex.rc": "fila {r}, hexàgon {c}",
- "hex.rcTitle": "Fila {r}, hexàgon {c}"
+ "hex.rcTitle": "Fila {r}, hexàgon {c}",
+ "hex.claimed": "{card}: reservat per {who}; ningú més hi pot col·locar una fitxa",
+ "rp.povTitle": "Des del seient de qui mires: la seva mà, les tries del draft i els robatoris. Clica per canviar de jugador",
+ "rp.povOld": "Només el teu seient: aquesta repetició es va gravar abans que es desessin les cartes de TFMBot",
+ "atk.offset": "{who} els ha perdut, però {card} n'ha retornat els mateixos"
 }

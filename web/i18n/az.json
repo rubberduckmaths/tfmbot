@@ -444,6 +444,7 @@
  "peek.yourChoice": "sizin seçiminiz",
  "setup.title": "Başlanğıcınızı seçin",
  "setup.sub": "1 korporasiya, 2 prelüdiya seçin və istənilən layihə kartını hər biri 3 M€-yə satın alın. Kartı böyük oxumaq üçün sağ klik / uzun toxunuş.",
+ "setup.cardsList": "Bu əl kart siyahısında ↗",
  "setup.corp": "Korporasiya",
  "setup.pre": "Prelüdiyalar — 2 seçin (hazırlıqdan sonra istənilən ardıcıllıqla oynayırsınız)",
  "setup.proj": "Layihə kartları — hər biri 3 M€",
@@ -1004,5 +1005,9 @@
  "trig.order": "Bunlar bu ardıcıllıqla icra olunur: {list}.",
  "trig.orderWhy": "Kart çəkmə əvvəl gəlir, ona görə onlardan birinin çəkdiyi kartı ata bilərsiniz.",
  "hex.rc": "sıra {r}, xana {c}",
- "hex.rcTitle": "Sıra {r}, xana {c}"
+ "hex.rcTitle": "Sıra {r}, xana {c}",
+ "hex.claimed": "{card}: {who} tərəfindən rezerv edilib; başqa heç kim bura kaşı qoya bilməz",
+ "rp.povTitle": "Kimin yerindən baxırsınız: onun əli, seçimləri və çəkdiyi kartlar. Oyunçunu dəyişmək üçün klikləyin",
+ "rp.povOld": "Yalnız sizin yeriniz: bu təkrar TFMBot-un kartları saxlanmazdan əvvəl yazılıb",
+ "atk.offset": "{who} onları itirdi, amma {card} eyni qədərini geri verdi"
 }

@@ -387,6 +387,7 @@
  "peek.yourChoice": "pilihan Anda",
  "setup.title": "Pilih awal permainan Anda",
  "setup.sub": "Pilih 1 korporasi, 2 prelude, dan beli kartu proyek mana saja seharga 3 M€ per kartu. Klik kanan / tekan lama sebuah kartu untuk membacanya dalam ukuran besar.",
+ "setup.cardsList": "Tangan ini di daftar kartu ↗",
  "setup.corp": "Korporasi",
  "setup.pre": "Prelude — pilih 2 (dimainkan setelah persiapan, urutan bebas)",
  "setup.proj": "Kartu proyek — 3 M€ per kartu",
@@ -937,5 +938,9 @@
  "trig.order": "Ini diselesaikan dalam urutan berikut: {list}.",
  "trig.orderWhy": "Pengambilan kartu didahulukan, jadi kartu yang diambil salah satunya bisa jadi kartu yang Anda buang.",
  "hex.rc": "baris {r}, heks {c}",
- "hex.rcTitle": "Baris {r}, heks {c}"
+ "hex.rcTitle": "Baris {r}, heks {c}",
+ "hex.claimed": "{card}: dipesan oleh {who}; tidak ada orang lain yang bisa menaruh petak di sini",
+ "rp.povTitle": "Kursi siapa yang Anda tonton: tangan, pilihan draf, dan kartu yang diambilnya. Klik untuk ganti pemain",
+ "rp.povOld": "Hanya kursi Anda: tayangan ulang ini direkam sebelum kartu TFMBot disimpan",
+ "atk.offset": "{who} kehilangan itu, tetapi {card} mengembalikan jumlah yang sama"
 }

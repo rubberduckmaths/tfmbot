@@ -17,13 +17,14 @@ export class AppFlows {
     this.pickModal(esc(spName(0)), esc(t('sell.sub')), ids, 1, ids.length, (sel) => this.answer({ a: 'sell', cards: sel }), null, true, true);
   }
 
-  startFlow(key, drop = null) {
+  // auto: the client opened this flow itself (the final greenery), so even a single legal hex waits for the player's tap
+  startFlow(key, auto = false) {
     if ($('#actions').classList.contains('open')) { $('#actions').classList.remove('open'); const tog = $('#actions-toggle'); if (tog) tog.textContent = t('btn.actions'); }
     const ent = this.entries();
     const idxs = ent.get(key);
     if (!idxs) return;
     this.closeModal();
-    this.flow = { key, cands: idxs.slice(), drop };
+    this.flow = { key, cands: idxs.slice(), auto };
     this.audio.tick();
     this.resolve();
   }
@@ -54,7 +55,7 @@ export class AppFlows {
     if (!f.payAsked) {
       const a0 = L[f.cands[0]];
       const placesTile = f.cands.some((i) => L[i].space !== a0.space || L[i].bocean !== a0.bocean || JSON.stringify(L[i].xs) !== JSON.stringify(a0.xs));
-      if (this.needsPayDialog(a0) && placesTile) { f.payAsked = true; f.payFirst = true; f.payIdx = f.cands[0]; this.worker.postMessage({ t: 'payopts', idx: f.cands[0] }); return; }
+      if (this.needsPayDialog(a0) && placesTile) { f.payAsked = true; f.payFirst = true; this.askPayOpts(f.cands[0]); return; }
     }
     const dims = ['space', 'bocean', 'xs', 'or', 'ai', 'spend', 'var', 'buy', 'atp', 'atc', 'steal', 'rtc', 'rtc2', 'rfc', 'pt', 'pss', 'free', 'burn', 'pay'];
     for (const d of dims) {
@@ -76,7 +77,7 @@ export class AppFlows {
         if (groups.size > 1 || g0.atp != null || g0.rfc != null) return this.targetModal(groups);
         f.targetOk = true;          // nobody holds anything it could take: nothing to choose
       }
-      if (vals.size <= 1) continue;
+      if (vals.size <= 1 && !(f.auto && d === 'space' && JSON.parse([...vals.keys()][0]) != null)) continue;
       if (d === 'buy') { f.cands = vals.get('0') || vals.get('null') || [...vals.values()][0]; continue; }
       if (d === 'atp' && f.cands.every((i) => L[i].atc != null)) continue;      // the victim card names its owner
       // Virus-style cards: first WHAT to remove (plants vs animals), then from which card
@@ -98,13 +99,11 @@ export class AppFlows {
         for (const i of f.cands) { const s0 = setOf(i).slice(); for (const p of f.picks) s0.splice(s0.indexOf(p), 1); s0.forEach((x) => next.add(x)); }
         const a0 = L[f.cands[0]], cd = a0.card != null ? this.db.get(a0.card) : null;
         const what = cd?.ocean || a0.bocean != null || /ocean/i.test(cd?.description || '') ? 'ocean' : 'tile';
-        if (f.drop != null && next.has(f.drop)) { f.picks.push(f.drop); this.board.markPicked(f.drop, what === 'ocean' ? 'ocean' : 'special'); f.drop = null; return this.resolve(); }   // the card was dropped on this hex
         this.prompt(t('prompt.placeN', { what: esc(t('what.' + what)), i: f.picks.length + 1, n: need, card: cd ? ` — ${esc(cardName(cd))}` : '' }), () => this.cancelFlow());
         this.board.highlight([...next], (sp) => { f.picks.push(sp); this.board.markPicked(sp, what === 'ocean' ? 'ocean' : 'special'); this.board.clearHighlight(); $('#prompt').classList.add('hidden'); this.resolve(); }, what === 'ocean' ? 'ocean' : 'special');
         this.placing = what;
         return;
       }
-      if (d === 'space' && f.drop != null && vals.has(JSON.stringify(f.drop))) { f.cands = vals.get(JSON.stringify(f.drop)); f.drop = null; continue; }   // the card was dropped on this hex
       if (d === 'space' || d === 'bocean') {
         const spaces = [...vals.keys()].map((k) => JSON.parse(k)).filter((s) => s != null);
         const a0 = L[f.cands[0]];
@@ -115,7 +114,8 @@ export class AppFlows {
         const tharsis = this.forced && what === 'city' && this.db.name(me0.corp) === 'Tharsis Republic';
         const whatL = cd && what === `${esc(cd.name)} tile` ? t('what.cardTile', { card: esc(cardName(cd)) }) : esc(t({ greenery: 'what.greenery', ocean: 'what.ocean', city: 'what.city', 'bonus ocean': 'what.bonusOcean' }[what] || 'what.tile'));
         this.prompt(tharsis ? t('prompt.tharsis', { card: esc(this.db.lname(me0.corp)) }) : t('prompt.where', { what: whatL }), this.forced ? null : () => this.cancelFlow());
-        this.board.highlight(spaces, (s) => { f.cands = vals.get(JSON.stringify(s)); this.board.clearHighlight(); $('#prompt').classList.add('hidden'); this.resolve(); }, what.includes('city') ? 'city' : what.includes('greenery') ? 'greenery' : what.includes('ocean') ? 'ocean' : 'special');
+        // (the tap is the player's choice: an auto-started flow must not ask for the same single hex again)
+        this.board.highlight(spaces, (s) => { f.cands = vals.get(JSON.stringify(s)); f.auto = false; this.board.clearHighlight(); $('#prompt').classList.add('hidden'); this.resolve(); }, what.includes('city') ? 'city' : what.includes('greenery') ? 'greenery' : what.includes('ocean') ? 'ocean' : 'special');
         this.placing = what;
         return;
       }
@@ -163,17 +163,29 @@ export class AppFlows {
     const canCardRes = !!(a.pay?.crp?.length);          // microbes / floaters that can pay
     if (f.paid) return this.answer({ a: 'pay', idx: f.cands[0], pay: f.paid });    // paid before placing
     if (f.payAsked) return this.answer({ a: 'action', idx: f.cands[0] });
-    if ((canMetal || canCardRes) && a.k !== AK.SP) { this.flow.payIdx = f.cands[0]; this.worker.postMessage({ t: 'payopts', idx: f.cands[0] }); return; }
+    if ((canMetal || canCardRes) && a.k !== AK.SP) return this.askPayOpts(f.cands[0]);
     this.answer({ a: 'action', idx: f.cands[0] });
   }
 
+  // the worker's payment options for legal move idx; the reply is matched to the very move asked about
+  askPayOpts(idx) {
+    this.flow.payIdx = idx; this.flow.payAct = JSON.stringify(this.legal[idx]);
+    this.worker.postMessage({ t: 'payopts', idx });
+  }
   payModal(idx, po) {
     if (!this.flow || this.flow.payIdx !== idx || !this.legal?.[idx]) return;
+    // the move list changed while the options were on their way (a new view): idx may now be another move --
+    // never answer it; the player starts the move again
+    if (JSON.stringify(this.legal[idx]) !== this.flow.payAct) {
+      report('pay-stale', 'the legal list changed under a pending payment', { k: this.legal[idx].k, was: this.flow.payAct?.slice(0, 200) });
+      this.cancelFlow();
+      return;
+    }
     const opts = po.opts || [];
     const a = this.legal[idx], canon = a.pay || {};
     // cross-check: the executor's full price must be the printed cost less the engine's discounts
     if (po.base >= 0 && po.cost !== Math.max(0, po.base - po.disc)) report('pay-cost-mismatch', `${this.db.name(a.card)}: executor min ${po.cost}, printed ${po.base} - discount ${po.disc}`);
-    if (!opts.length) report('pay-no-options', `${this.db.name(a.card)}: no payment option passed the executor`, { po, k: a.k, pay: a.pay });
+    if (!opts.length) report('pay-no-options', `${this.db.name(a.card)}: no payment option passed the executor`, { po, k: a.k, pay: a.pay, idx, snapshot: this.snapB64() });   // (the position, to reproduce it)
     if (opts.length <= 1) {
       if (this.flow?.payFirst) { this.flow.payFirst = false; this.flow.paid = opts[0] || null; return this.resolve(); }
       return opts.length ? this.answer({ a: 'pay', idx, pay: opts[0] }) : this.answer({ a: 'action', idx });

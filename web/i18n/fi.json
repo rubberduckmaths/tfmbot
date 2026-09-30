@@ -445,6 +445,7 @@
  "peek.yourChoice": "valintasi",
  "setup.title": "Valitse aloituksesi",
  "setup.sub": "Valitse 1 yhtiö, 2 preludia ja osta haluamasi projektikortit, 3 M€ kappale. Oikealla napsautuksella / pitkällä painalluksella kortti näkyy suurena.",
+ "setup.cardsList": "Tämä käsi korttilistassa ↗",
  "setup.corp": "Yhtiö",
  "setup.pre": "Preludit — valitse 2 (pelaat ne valmistelun jälkeen, missä järjestyksessä tahansa)",
  "setup.proj": "Projektikortit — 3 M€ kappale",
@@ -1008,5 +1009,9 @@
  "trig.order": "Nämä ratkaistaan tässä järjestyksessä: {list}.",
  "trig.orderWhy": "Nostot tulevat ensin, joten jonkin niistä nostama kortti voi olla se, jonka hylkäät.",
  "hex.rc": "rivi {r}, heksa {c}",
- "hex.rcTitle": "Rivi {r}, heksa {c}"
+ "hex.rcTitle": "Rivi {r}, heksa {c}",
+ "hex.claimed": "{card}: varannut {who}; kukaan muu ei voi asettaa laattaa tähän",
+ "rp.povTitle": "Kenen paikalta katsot: hänen kätensä, draft-valintansa ja nostonsa. Vaihda pelaajaa napsauttamalla",
+ "rp.povOld": "Vain oma paikkasi: tämä uusinta tallennettiin ennen kuin TFMBotin kortteja tallennettiin",
+ "atk.offset": "{who} menetti ne, mutta {card} antoi saman verran takaisin"
 }

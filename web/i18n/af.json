@@ -401,6 +401,7 @@
  "peek.yourChoice": "jou keuse",
  "setup.title": "Kies jou begin",
  "setup.sub": "Kies 1 korporasie, 2 voorspele, en koop enige projekkaarte vir 3 M€ elk. Regsklik / druk lank op 'n kaart om dit groot te lees.",
+ "setup.cardsList": "Hierdie hand in die kaartlys ↗",
  "setup.corp": "Korporasie",
  "setup.pre": "Voorspele — kies 2 (jy speel hulle ná die opstelling, in enige volgorde)",
  "setup.proj": "Projekkaarte — 3 M€ elk",
@@ -961,5 +962,9 @@
  "trig.order": "Hierdie word in hierdie volgorde afgehandel: {list}.",
  "trig.orderWhy": "Trekkings kom eerste, so 'n kaart wat een van hulle getrek het, kan die een wees wat jy weggooi.",
  "hex.rc": "ry {r}, seskant {c}",
- "hex.rcTitle": "Ry {r}, seskant {c}"
+ "hex.rcTitle": "Ry {r}, seskant {c}",
+ "hex.claimed": "{card}: gereserveer deur {who}; niemand anders kan hier 'n teël plaas nie",
+ "rp.povTitle": "Wie se sitplek jy van kyk: hul hand, trekkeuses en trekkings. Klik om spelers te wissel",
+ "rp.povOld": "Net jou sitplek: hierdie herspeling is opgeneem voordat TFMBot se kaarte gestoor is",
+ "atk.offset": "{who} het hulle verloor, maar {card} het dieselfde teruggegee"
 }

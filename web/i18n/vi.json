@@ -387,6 +387,7 @@
  "peek.yourChoice": "lựa chọn của bạn",
  "setup.title": "Chọn khởi đầu",
  "setup.sub": "Chọn 1 tập đoàn, 2 thẻ mở màn, và mua thẻ dự án bất kỳ với giá 3 M€ mỗi thẻ. Nhấp chuột phải / nhấn giữ một thẻ để xem to.",
+ "setup.cardsList": "Tay bài này trong danh sách thẻ ↗",
  "setup.corp": "Tập đoàn",
  "setup.pre": "Mở màn — chọn 2 (chơi sau khi chuẩn bị, theo thứ tự bất kỳ)",
  "setup.proj": "Thẻ dự án — 3 M€ mỗi thẻ",
@@ -937,5 +938,9 @@
  "trig.order": "Chúng được xử lý theo thứ tự: {list}.",
  "trig.orderWhy": "Rút thẻ diễn ra trước, nên thẻ do một trong số chúng rút có thể chính là thẻ bạn bỏ.",
  "hex.rc": "hàng {r}, ô {c}",
- "hex.rcTitle": "Hàng {r}, ô {c}"
+ "hex.rcTitle": "Hàng {r}, ô {c}",
+ "hex.claimed": "{card}: {who} đã giữ chỗ; không ai khác được đặt ô ở đây",
+ "rp.povTitle": "Bạn xem từ ghế của ai: bài trên tay, lựa chọn draft và các lá rút. Nhấp để đổi người chơi",
+ "rp.povOld": "Chỉ ghế của bạn: bản phát lại này được ghi trước khi lưu bài của TFMBot",
+ "atk.offset": "{who} đã mất chúng, nhưng {card} trả lại đúng bằng số đó"
 }

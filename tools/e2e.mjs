@@ -138,11 +138,16 @@ async function replayCheck() {
     if (s.undone) { const k = exp.lastIndexOf(hsh); if (k >= 0) { exp.length = k + 1; continue; } }
     if (exp[exp.length - 1] !== hsh) exp.push(hsh);
   }
-  const got = views.map(vhash);
+  // a whole recording (r.full) holds both seats' secrets: compare what the viewer shows from the human's seat
+  // (app.js mask + redact; secret-only changes collapse into one step there)
+  const mask = (v) => (v.stage !== 0 ? v : { ...v, temp: -30, oxy: 0, players: v.players.map((p) => p.id === v.human ? p : { ...p, corp: -1, preludes: [], played: [], hand: [], res: [0, 0, 0, 0, 0, 0], prod: [0, 0, 0, 0, 0, 0], tags: p.tags.map(() => 0), cres: {}, events: [], tr: 20, vp: { ...p.vp, total: 20, cards: 0 } }) });
+  const full = r.full === 1 || views.some((v) => v.players.some((p) => p.id !== v.human && p.hand.some((c) => c >= 0)));
+  const got = full ? views.map((v) => vhash(redact(mask(JSON.parse(JSON.stringify(v)))))).filter((x, i, a) => !i || x !== a[i - 1]) : views.map(vhash);
+  if (!full) console.log('REPLAY: not a whole recording (full) -- only the human seat can be watched');
   let bad = got.length === exp.length ? -1 : Math.min(got.length, exp.length);
   for (let i = 0; i < Math.min(got.length, exp.length); i++) if (got[i] !== exp[i]) { bad = i; break; }
   const gz = zlib.gzipSync(JSON.stringify(r)).length;
-  console.log(`REPLAY ${id}: ${r.steps.length} steps, ${shown.length} views shown, partial=${r.partial}, ${(gz / 1024).toFixed(1)} KB gz, human ${r.human}`);
+  console.log(`REPLAY ${id}: ${r.steps.length} steps, ${shown.length} views shown, partial=${r.partial}, full=${full} (flag ${r.full}), ${(gz / 1024).toFixed(1)} KB gz, human ${r.human}`);
   const keeps = views.filter((v, i) => i && views[i - 1].pending.kind === 10 && views[i - 1].pending.player === views[i - 1].human).length;
   console.log(`  human look-and-keep choices: ${keeps}; research buys: ${views.filter((v, i) => i && views[i - 1].pending.kind === 6 && views[i - 1].pending.player === views[i - 1].human).length}; reloaded: ${reloaded}`);
   if (reloaded && !!process.env.RELOAD_CLEAR !== !!r.partial) { console.log('REPLAY CHECK FAIL: partial flag', r.partial); process.exitCode = 1; }

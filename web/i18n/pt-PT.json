@@ -461,6 +461,7 @@
  "peek.yourChoice": "a tua escolha",
  "setup.title": "Escolhe o teu início",
  "setup.sub": "Escolhe 1 corporação, 2 prelúdios, e compra as cartas de projeto que quiseres a 3 M€ cada. Clica com o botão direito / mantém premida uma carta para a ler em grande.",
+ "setup.cardsList": "Esta mão na lista de cartas ↗",
  "setup.corp": "Corporação",
  "setup.pre": "Prelúdios — escolhe 2 (jogas depois da preparação, pela ordem que quiseres)",
  "setup.proj": "Cartas de projeto — 3 M€ cada",
@@ -1035,5 +1036,9 @@
  "trig.order": "Resolvem-se por esta ordem: {list}.",
  "trig.orderWhy": "Tirar cartas vem primeiro, por isso uma carta tirada por uma delas pode ser a que descartas.",
  "hex.rc": "linha {r}, hexágono {c}",
- "hex.rcTitle": "Linha {r}, hexágono {c}"
+ "hex.rcTitle": "Linha {r}, hexágono {c}",
+ "hex.claimed": "{card}: reservado por {who}; mais ninguém pode colocar uma peça aqui",
+ "rp.povTitle": "De que lugar estás a ver: a mão, as escolhas do draft e as cartas tiradas. Clica para trocar de jogador",
+ "rp.povOld": "Só o teu lugar: esta repetição foi gravada antes de as cartas do TFMBot serem guardadas",
+ "atk.offset": "{who} perdeu-os, mas {card} devolveu a mesma quantidade"
 }

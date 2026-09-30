@@ -440,6 +440,7 @@
  "peek.yourChoice": "twój wybór",
  "setup.title": "Wybierz start",
  "setup.sub": "Wybierz 1 korporację, 2 preludia i kup dowolne karty projektów po 3 M€. Prawy klik / długie przytrzymanie powiększa kartę.",
+ "setup.cardsList": "Ta ręka na liście kart ↗",
  "setup.corp": "Korporacja",
  "setup.pre": "Preludia — wybierz 2 (zagrywasz je po przygotowaniu, w dowolnej kolejności)",
  "setup.proj": "Karty projektów — po 3 M€",
@@ -1020,5 +1021,9 @@
  "trig.order": "Rozpatrywane są w tej kolejności: {list}.",
  "trig.orderWhy": "Dobieranie jest pierwsze, więc kartę dobraną przez jedną z nich możesz od razu odrzucić.",
  "hex.rc": "polu {c} w rzędzie {r}",
- "hex.rcTitle": "Rząd {r}, pole {c}"
+ "hex.rcTitle": "Rząd {r}, pole {c}",
+ "hex.claimed": "{card}: zarezerwowane przez {who}; nikt inny nie może tu położyć płytki",
+ "rp.povTitle": "Z czyjego miejsca oglądasz: jego ręka, wybory w drafcie i dobrane karty. Kliknij, aby zmienić gracza",
+ "rp.povOld": "Tylko twoje miejsce: ta powtórka została nagrana, zanim zaczęto zapisywać karty TFMBota",
+ "atk.offset": "{who} je stracił, ale {card} oddała tyle samo"
 }
