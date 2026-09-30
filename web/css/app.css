@@ -630,6 +630,8 @@ button.cact.turn:hover:not(:disabled) { background: #6a3d2a; }
 @media (max-width: 899px), (max-height: 559px) {
   #modal.peek .peekbtn { top: auto; bottom: calc(var(--hand-h) + 64px);   /* (dialogs.js sets the exact spot: just above the turn controls, which must stay reachable) */ font-size: 14px; padding: 8px 16px; max-width: calc(100vw - 32px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 }
+/* an open tableau sits under the dialog layer: the button would hide its rows. It comes back when the tableau closes (its ✕) */
+body:has(#tableau:not(.hidden)) #modal.peek .peekbtn { display: none; }
 
 /* tableau: one sideways-scrolling row per card colour */
 #tableau .grid.row { flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; padding-bottom: 8px; scrollbar-width: thin; }
