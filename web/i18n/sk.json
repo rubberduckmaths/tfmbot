@@ -743,7 +743,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Severný pól",
- "foot.html": "Fanúšikovská komunitná verzia hry Terraforming Mars · bez prepojenia s FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Pridajte sa na Discord TFMBota</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Chcete hrať predchádzajúcu verziu?</a>",
+ "foot.html": "Fanúšikovská komunitná verzia hry Terraforming Mars · bez prepojenia s FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Pridajte sa na Discord TFMBota</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Chcete hrať predchádzajúcu verziu?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Zdrojový kód frontendu</a>",
  "menu.sims": "Sila bota (simulácie hľadania)",
  "menu.simsQuick": "128 · rýchle",
  "menu.simsServed": "4096 · štandardná sila",

@@ -646,7 +646,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Pôle Nord",
- "foot.html": "Une version de Terraforming Mars faite par des fans · non affiliée à FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Rejoignez le Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Jouer à la version précédente ?</a>",
+ "foot.html": "Une version de Terraforming Mars faite par des fans · non affiliée à FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Rejoignez le Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Jouer à la version précédente ?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Code source du front-end</a>",
  "menu.sims": "Force du bot (simulations)",
  "menu.simsQuick": "128 · rapide",
  "menu.simsServed": "4096 · force standard",

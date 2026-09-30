@@ -628,7 +628,7 @@
  "space.Viking 1": "海盗1号",
  "space.Viking 2": "海盗2号",
  "space.North Pole": "北极",
- "foot.html": "《殖民火星》社区粉丝自制版 · 与FryxGames无关 · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">加入TFMBot Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">想玩旧版本？</a>",
+ "foot.html": "《殖民火星》社区粉丝自制版 · 与FryxGames无关 · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">加入TFMBot Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">想玩旧版本？</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">前端源代码</a>",
  "menu.sims": "机器人强度（搜索次数）",
  "menu.simsQuick": "128 · 快速",
  "menu.simsServed": "4096 · 标准强度",

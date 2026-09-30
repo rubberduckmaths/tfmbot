@@ -702,7 +702,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Ipar poloa",
- "foot.html": "Komunitateak egindako Terraforming Mars bertsioa · ez dago FryxGamesekin lotuta · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Batu TFMBot-en Discordera</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Aurreko bertsioa jokatu nahi duzu?</a>",
+ "foot.html": "Komunitateak egindako Terraforming Mars bertsioa · ez dago FryxGamesekin lotuta · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Batu TFMBot-en Discordera</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Aurreko bertsioa jokatu nahi duzu?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Frontendaren iturburu-kodea</a>",
  "menu.sims": "Botaren indarra (bilaketa-simulazioak)",
  "menu.simsQuick": "128 · azkarra",
  "menu.simsServed": "4096 · zerbitzuko indarra",

@@ -689,7 +689,7 @@
  "space.Viking 1": "भाइकिङ 1",
  "space.Viking 2": "भाइकिङ 2",
  "space.North Pole": "उत्तरी ध्रुव",
- "foot.html": "टेराफर्मिङ मार्सको समुदायद्वारा बनाइएको फ्यान संस्करण · FryxGames सँग सम्बद्ध छैन · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot डिस्कर्डमा सामेल हुनुहोस्</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">अघिल्लो संस्करण खेल्न चाहनुहुन्छ?</a>",
+ "foot.html": "टेराफर्मिङ मार्सको समुदायद्वारा बनाइएको फ्यान संस्करण · FryxGames सँग सम्बद्ध छैन · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot डिस्कर्डमा सामेल हुनुहोस्</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">अघिल्लो संस्करण खेल्न चाहनुहुन्छ?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">फ्रन्ट-एन्ड स्रोत कोड</a>",
  "menu.sims": "बोटको शक्ति (खोज सिम)",
  "menu.simsQuick": "128 · छिटो",
  "menu.simsServed": "4096 · सर्भरको शक्ति",

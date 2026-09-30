@@ -629,7 +629,7 @@
  "space.Viking 1": "維京1號",
  "space.Viking 2": "維京2號",
  "space.North Pole": "北極",
- "foot.html": "社群粉絲自製的《殖民火星》（Terraforming Mars）版本 · 與FryxGames無關 · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">加入TFMBot Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">想玩舊版嗎？</a>",
+ "foot.html": "社群粉絲自製的《殖民火星》（Terraforming Mars）版本 · 與FryxGames無關 · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">加入TFMBot Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">想玩舊版嗎？</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">前端原始碼</a>",
  "menu.sims": "機器人強度（搜尋模擬次數）",
  "menu.simsQuick": "128 · 快速",
  "menu.simsServed": "4096 · 線上強度",

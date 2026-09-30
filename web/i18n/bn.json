@@ -688,7 +688,7 @@
  "space.Viking 1": "ভাইকিং 1",
  "space.Viking 2": "ভাইকিং 2",
  "space.North Pole": "উত্তর মেরু",
- "foot.html": "Terraforming Mars-এর একটি কমিউনিটি ফ্যান-মেড সংস্করণ · FryxGames-এর সাথে সম্পর্কিত নয় · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord-এ যোগ দিন</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">আগের সংস্করণ খেলতে চান?</a>",
+ "foot.html": "Terraforming Mars-এর একটি কমিউনিটি ফ্যান-মেড সংস্করণ · FryxGames-এর সাথে সম্পর্কিত নয় · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord-এ যোগ দিন</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">আগের সংস্করণ খেলতে চান?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">ফ্রন্ট-এন্ড সোর্স কোড</a>",
  "menu.sims": "বটের শক্তি (সার্চ সিম)",
  "menu.simsQuick": "128 · দ্রুত",
  "menu.simsServed": "4096 · সার্ভারের শক্তি",

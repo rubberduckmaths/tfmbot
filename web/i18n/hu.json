@@ -703,7 +703,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Északi-sark",
- "foot.html": "A Terraforming Mars közösségi rajongói változata · nem áll kapcsolatban a FryxGames-szel · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Csatlakozz a TFMBot Discordjához</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Az előző verzióval játszanál?</a>",
+ "foot.html": "A Terraforming Mars közösségi rajongói változata · nem áll kapcsolatban a FryxGames-szel · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Csatlakozz a TFMBot Discordjához</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Az előző verzióval játszanál?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Frontend forráskód</a>",
  "menu.sims": "Bot erőssége (keresési szimulációk)",
  "menu.simsQuick": "128 · gyors",
  "menu.simsServed": "4096 · alapértelmezett erősség",

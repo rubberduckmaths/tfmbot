@@ -770,7 +770,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Pegwn y Gogledd",
- "foot.html": "Fersiwn o Terraforming Mars wedi'i gwneud gan y gymuned · heb gysylltiad â FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Ymunwch â Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Eisiau chwarae'r fersiwn flaenorol?</a>",
+ "foot.html": "Fersiwn o Terraforming Mars wedi'i gwneud gan y gymuned · heb gysylltiad â FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Ymunwch â Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Eisiau chwarae'r fersiwn flaenorol?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Cod ffynhonnell y pen blaen</a>",
  "menu.sims": "Cryfder y bot (efelychiadau chwilio)",
  "menu.simsQuick": "128 · cyflym",
  "menu.simsServed": "4096 · cryfder safonol",

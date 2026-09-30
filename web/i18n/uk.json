@@ -682,7 +682,7 @@
  "space.Viking 1": "Вікінг-1",
  "space.Viking 2": "Вікінг-2",
  "space.North Pole": "Північний полюс",
- "foot.html": "Фанатська версія «Тераформування Марса» від спільноти · не пов'язана з FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Хочете зіграти в попередню версію?</a>",
+ "foot.html": "Фанатська версія «Тераформування Марса» від спільноти · не пов'язана з FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Хочете зіграти в попередню версію?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Вихідний код інтерфейсу</a>",
  "menu.sims": "Сила бота (симуляції пошуку)",
  "menu.simsQuick": "128 · швидко",
  "menu.simsServed": "4096 · стандартна сила",

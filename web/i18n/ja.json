@@ -628,7 +628,7 @@
  "space.Viking 1": "バイキング1号",
  "space.Viking 2": "バイキング2号",
  "space.North Pole": "北極",
- "foot.html": "テラフォーミング・マーズのコミュニティによる非公式ファンメイド版 · FryxGamesとは無関係です · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBotのDiscordに参加</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">旧バージョンで遊ぶ</a>",
+ "foot.html": "テラフォーミング・マーズのコミュニティによる非公式ファンメイド版 · FryxGamesとは無関係です · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBotのDiscordに参加</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">旧バージョンで遊ぶ</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">フロントエンドのソースコード</a>",
  "menu.sims": "ボットの強さ(探索回数)",
  "menu.simsQuick": "128 · 高速",
  "menu.simsServed": "4096 · 標準の強さ",

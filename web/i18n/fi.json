@@ -691,7 +691,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Pohjoisnapa",
- "foot.html": "Yhteisön tekemä fanversio Terraforming Marsista · ei FryxGamesin kanssa yhteydessä · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Liity TFMBotin Discordiin</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Haluatko pelata edellistä versiota?</a>",
+ "foot.html": "Yhteisön tekemä fanversio Terraforming Marsista · ei FryxGamesin kanssa yhteydessä · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Liity TFMBotin Discordiin</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Haluatko pelata edellistä versiota?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Käyttöliittymän lähdekoodi</a>",
  "menu.sims": "Botin vahvuus (hakusimulaatiot)",
  "menu.simsQuick": "128 · nopea",
  "menu.simsServed": "4096 · palvelimen vahvuus",

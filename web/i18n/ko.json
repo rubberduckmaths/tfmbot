@@ -628,7 +628,7 @@
  "space.Viking 1": "바이킹 1호",
  "space.Viking 2": "바이킹 2호",
  "space.North Pole": "북극",
- "foot.html": "커뮤니티가 만든 비공식 팬 버전 테라포밍 마스 · FryxGames와 무관합니다 · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot 디스코드 참여</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">이전 버전으로 플레이하기</a>",
+ "foot.html": "커뮤니티가 만든 비공식 팬 버전 테라포밍 마스 · FryxGames와 무관합니다 · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot 디스코드 참여</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">이전 버전으로 플레이하기</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">프런트엔드 소스 코드</a>",
  "menu.sims": "봇 강도 (탐색 횟수)",
  "menu.simsQuick": "128 · 빠름",
  "menu.simsServed": "4096 · 기본 강도",

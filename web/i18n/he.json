@@ -709,7 +709,7 @@
  "space.Viking 1": "ויקינג 1",
  "space.Viking 2": "ויקינג 2",
  "space.North Pole": "הקוטב הצפוני",
- "foot.html": "גרסת מעריצים קהילתית של Terraforming Mars · ללא קשר ל־FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">הצטרפו לדיסקורד של TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">רוצים לשחק בגרסה הקודמת?</a>",
+ "foot.html": "גרסת מעריצים קהילתית של Terraforming Mars · ללא קשר ל־FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">הצטרפו לדיסקורד של TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">רוצים לשחק בגרסה הקודמת?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">קוד המקור של הממשק</a>",
  "menu.sims": "עוצמת הבוט (סימולציות חיפוש)",
  "menu.simsQuick": "128 · מהיר",
  "menu.simsServed": "4096 · עוצמה רגילה",

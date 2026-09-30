@@ -660,7 +660,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Nordpolen",
- "foot.html": "En fanlaget versjon av Terraforming Mars fra fellesskapet · ikke tilknyttet FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Bli med på TFMBots Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Vil du spille den forrige versjonen?</a>",
+ "foot.html": "En fanlaget versjon av Terraforming Mars fra fellesskapet · ikke tilknyttet FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Bli med på TFMBots Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Vil du spille den forrige versjonen?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Kildekode for grensesnittet</a>",
  "menu.sims": "Botens styrke (søk)",
  "menu.simsQuick": "128 · rask",
  "menu.simsServed": "4096 · standardstyrke",

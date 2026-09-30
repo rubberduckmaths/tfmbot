@@ -650,7 +650,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Noordpool",
- "foot.html": "Een door fans gemaakte communityversie van Terraforming Mars · niet verbonden aan FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Word lid van de TFMBot-Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">De vorige versie spelen?</a>",
+ "foot.html": "Een door fans gemaakte communityversie van Terraforming Mars · niet verbonden aan FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Word lid van de TFMBot-Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">De vorige versie spelen?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Broncode van de front-end</a>",
  "menu.sims": "Botsterkte (zoeksimulaties)",
  "menu.simsQuick": "128 · snel",
  "menu.simsServed": "4096 · standaardsterkte",

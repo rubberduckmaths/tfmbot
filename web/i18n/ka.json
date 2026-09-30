@@ -691,7 +691,7 @@
  "space.Viking 1": "ვიკინგ 1",
  "space.Viking 2": "ვიკინგ 2",
  "space.North Pole": "ჩრდილოეთ პოლუსი",
- "foot.html": "Terraforming Mars-ის საზოგადოების მიერ შექმნილი ვერსია · არ არის დაკავშირებული FryxGames-თან · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">შემოგვიერთდით TFMBot-ის Discord-ზე</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">გსურთ წინა ვერსიის თამაში?</a>",
+ "foot.html": "Terraforming Mars-ის საზოგადოების მიერ შექმნილი ვერსია · არ არის დაკავშირებული FryxGames-თან · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">შემოგვიერთდით TFMBot-ის Discord-ზე</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">გსურთ წინა ვერსიის თამაში?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">ინტერფეისის საწყისი კოდი</a>",
  "menu.sims": "ბოტის სიძლიერე (ძიების სიმულაციები)",
  "menu.simsQuick": "128 · სწრაფი",
  "menu.simsServed": "4096 · სტანდარტული სიძლიერე",

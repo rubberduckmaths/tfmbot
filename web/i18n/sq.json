@@ -703,7 +703,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Poli i Veriut",
- "foot.html": "Një version jozyrtar i Terraforming Mars i krijuar nga komuniteti · nuk lidhet me FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Bashkohu në Discord-in e TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Dëshiron të luash versionin e mëparshëm?</a>",
+ "foot.html": "Një version jozyrtar i Terraforming Mars i krijuar nga komuniteti · nuk lidhet me FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Bashkohu në Discord-in e TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Dëshiron të luash versionin e mëparshëm?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Kodi burimor i ndërfaqes</a>",
  "menu.sims": "Forca e botit (simulime kërkimi)",
  "menu.simsQuick": "128 · shpejt",
  "menu.simsServed": "4096 · forca e serverit",

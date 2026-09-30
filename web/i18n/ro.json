@@ -711,7 +711,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Polul Nord",
- "foot.html": "O versiune de Terraforming Mars făcută de comunitatea fanilor · fără legătură cu FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Intră pe Discordul TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Vrei să joci versiunea anterioară?</a>",
+ "foot.html": "O versiune de Terraforming Mars făcută de comunitatea fanilor · fără legătură cu FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Intră pe Discordul TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Vrei să joci versiunea anterioară?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Codul sursă al interfeței</a>",
  "menu.sims": "Puterea botului (simulări de căutare)",
  "menu.simsQuick": "128 · rapid",
  "menu.simsServed": "4096 · puterea standard",

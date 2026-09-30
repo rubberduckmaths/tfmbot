@@ -647,7 +647,7 @@
  "space.Viking 1": "വൈക്കിങ് 1",
  "space.Viking 2": "വൈക്കിങ് 2",
  "space.North Pole": "ഉത്തരധ്രുവം",
- "foot.html": "Terraforming Mars-ന്റെ സമൂഹനിർമ്മിത ആരാധക പതിപ്പ് · FryxGames-മായി ബന്ധമില്ല · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord-ൽ ചേരുക</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">മുൻ പതിപ്പ് കളിക്കണോ?</a>",
+ "foot.html": "Terraforming Mars-ന്റെ സമൂഹനിർമ്മിത ആരാധക പതിപ്പ് · FryxGames-മായി ബന്ധമില്ല · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord-ൽ ചേരുക</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">മുൻ പതിപ്പ് കളിക്കണോ?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">ഫ്രണ്ട്-എൻഡ് സോഴ്സ് കോഡ്</a>",
  "menu.sims": "ബോട്ടിന്റെ ശക്തി (തിരച്ചിൽ സിമ്മുകൾ)",
  "menu.simsQuick": "128 · വേഗം",
  "menu.simsServed": "4096 · സാധാരണ ശക്തി",

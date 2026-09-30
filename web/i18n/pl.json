@@ -694,7 +694,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Biegun Północny",
- "foot.html": "Fanowska wersja Terraformacji Marsa tworzona przez społeczność · niezwiązana z FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Dołącz do Discorda TFMBota</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Chcesz zagrać w poprzednią wersję?</a>",
+ "foot.html": "Fanowska wersja Terraformacji Marsa tworzona przez społeczność · niezwiązana z FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Dołącz do Discorda TFMBota</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Chcesz zagrać w poprzednią wersję?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Kod źródłowy interfejsu</a>",
  "menu.sims": "Siła bota (symulacje)",
  "menu.simsQuick": "128 · szybko",
  "menu.simsServed": "4096 · siła serwerowa",

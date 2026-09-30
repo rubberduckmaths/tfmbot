@@ -703,7 +703,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Βόρειος Πόλος",
- "foot.html": "Μια κοινοτική έκδοση του Terraforming Mars φτιαγμένη από φαν · χωρίς σχέση με τη FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Μπες στο Discord του TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Θέλεις να παίξεις την προηγούμενη έκδοση;</a>",
+ "foot.html": "Μια κοινοτική έκδοση του Terraforming Mars φτιαγμένη από φαν · χωρίς σχέση με τη FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Μπες στο Discord του TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Θέλεις να παίξεις την προηγούμενη έκδοση;</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Πηγαίος κώδικας frontend</a>",
  "menu.sims": "Δύναμη του bot (προσομοιώσεις αναζήτησης)",
  "menu.simsQuick": "128 · γρήγορο",
  "menu.simsServed": "4096 · κανονική δύναμη",

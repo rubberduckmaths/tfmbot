@@ -700,7 +700,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Norðurpóll",
- "foot.html": "Útgáfa af Terraforming Mars gerð af samfélaginu · ekki tengd FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Vertu með á Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Viltu spila fyrri útgáfuna?</a>",
+ "foot.html": "Útgáfa af Terraforming Mars gerð af samfélaginu · ekki tengd FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Vertu með á Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Viltu spila fyrri útgáfuna?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Frumkóði viðmótsins</a>",
  "menu.sims": "Styrkur vélmennis (leitarhermanir)",
  "menu.simsQuick": "128 · hratt",
  "menu.simsServed": "4096 · sjálfgefinn styrkur",

@@ -629,7 +629,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Kutub Utara",
- "foot.html": "Versi Terraforming Mars buatan komunitas penggemar · tidak berafiliasi dengan FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Gabung ke Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Ingin memainkan versi sebelumnya?</a>",
+ "foot.html": "Versi Terraforming Mars buatan komunitas penggemar · tidak berafiliasi dengan FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Gabung ke Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Ingin memainkan versi sebelumnya?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Kode sumber front-end</a>",
  "menu.sims": "Kekuatan bot (simulasi pencarian)",
  "menu.simsQuick": "128 · cepat",
  "menu.simsServed": "4096 · kekuatan standar",

@@ -723,7 +723,7 @@
  "space.Viking 1": "Викинг 1",
  "space.Viking 2": "Викинг 2",
  "space.North Pole": "Северни пол",
- "foot.html": "Незванична верзија игре Terraforming Mars коју је направила заједница · није повезана са FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Придружи се TFMBot Discord-у</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Желиш да играш претходну верзију?</a>",
+ "foot.html": "Незванична верзија игре Terraforming Mars коју је направила заједница · није повезана са FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Придружи се TFMBot Discord-у</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Желиш да играш претходну верзију?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Изворни код интерфејса</a>",
  "menu.sims": "Јачина бота (симулације претраге)",
  "menu.simsQuick": "128 · брзо",
  "menu.simsServed": "4096 · јачина сервера",

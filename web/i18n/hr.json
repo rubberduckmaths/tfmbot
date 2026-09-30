@@ -723,7 +723,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Sjeverni pol",
- "foot.html": "Verzija Terraforming Marsa koju je izradila zajednica · nije povezano s FryxGamesom · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Pridruži se TFMBot Discordu</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Želiš igrati prethodnu verziju?</a>",
+ "foot.html": "Verzija Terraforming Marsa koju je izradila zajednica · nije povezano s FryxGamesom · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Pridruži se TFMBot Discordu</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Želiš igrati prethodnu verziju?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Izvorni kod sučelja</a>",
  "menu.sims": "Snaga bota (simulacije pretrage)",
  "menu.simsQuick": "128 · brzo",
  "menu.simsServed": "4096 · standardna snaga",

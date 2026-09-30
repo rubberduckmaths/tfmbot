@@ -741,7 +741,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Šiaurės ašigalis",
- "foot.html": "Bendruomenės sukurta neoficiali „Terraforming Mars“ versija · nesusijusi su FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Prisijunk prie TFMBot Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Nori žaisti ankstesnę versiją?</a>",
+ "foot.html": "Bendruomenės sukurta neoficiali „Terraforming Mars“ versija · nesusijusi su FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Prisijunk prie TFMBot Discord</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Nori žaisti ankstesnę versiją?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Sąsajos pirminis kodas</a>",
  "menu.sims": "Boto stiprumas (paieškos simuliacijos)",
  "menu.simsQuick": "128 · greitai",
  "menu.simsServed": "4096 · serverio stiprumas",

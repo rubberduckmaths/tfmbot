@@ -647,7 +647,7 @@
  "space.Viking 1": "Викинг-1",
  "space.Viking 2": "Викинг-2",
  "space.North Pole": "Хойд туйл",
- "foot.html": "Terraforming Mars тоглоомын нийгэмлэгийн бүтээсэн фен хувилбар · FryxGames-тэй холбоогүй · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord-д нэгдэх</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Өмнөх хувилбарыг тоглох уу?</a>",
+ "foot.html": "Terraforming Mars тоглоомын нийгэмлэгийн бүтээсэн фен хувилбар · FryxGames-тэй холбоогүй · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord-д нэгдэх</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Өмнөх хувилбарыг тоглох уу?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Интерфейсийн эх код</a>",
  "menu.sims": "Ботын хүч (хайлтын симуляц)",
  "menu.simsQuick": "128 · хурдан",
  "menu.simsServed": "4096 · үндсэн хүч",

@@ -629,7 +629,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Cực Bắc",
- "foot.html": "Phiên bản Terraforming Mars do cộng đồng người hâm mộ làm · không liên kết với FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Tham gia Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Muốn chơi phiên bản cũ?</a>",
+ "foot.html": "Phiên bản Terraforming Mars do cộng đồng người hâm mộ làm · không liên kết với FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Tham gia Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Muốn chơi phiên bản cũ?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Mã nguồn giao diện</a>",
  "menu.sims": "Sức mạnh bot (số mô phỏng)",
  "menu.simsQuick": "128 · nhanh",
  "menu.simsServed": "4096 · sức mạnh chuẩn",

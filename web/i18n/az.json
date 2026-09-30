@@ -690,7 +690,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Şimal qütbü",
- "foot.html": "Terraforming Mars-ın icma tərəfindən hazırlanmış fanat versiyası · FryxGames ilə əlaqəli deyil · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord-una qoşulun</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Əvvəlki versiyanı oynamaq istəyirsiniz?</a>",
+ "foot.html": "Terraforming Mars-ın icma tərəfindən hazırlanmış fanat versiyası · FryxGames ilə əlaqəli deyil · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord-una qoşulun</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Əvvəlki versiyanı oynamaq istəyirsiniz?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Frontend mənbə kodu</a>",
  "menu.sims": "Botun gücü (axtarış simulyasiyaları)",
  "menu.simsQuick": "128 · sürətli",
  "menu.simsServed": "4096 · əsas güc",

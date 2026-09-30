@@ -777,7 +777,7 @@
  "space.Viking 1": "فايكنغ 1",
  "space.Viking 2": "فايكنغ 2",
  "space.North Pole": "القطب الشمالي",
- "foot.html": "نسخة مجتمعية من صنع المعجبين للعبة Terraforming Mars · غير تابعة لـFryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">انضم إلى Discord الخاص بـTFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">هل تريد لعب النسخة السابقة؟</a>",
+ "foot.html": "نسخة مجتمعية من صنع المعجبين للعبة Terraforming Mars · غير تابعة لـFryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">انضم إلى Discord الخاص بـTFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">هل تريد لعب النسخة السابقة؟</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">الشيفرة المصدرية للواجهة</a>",
  "menu.sims": "قوة البوت (عمليات محاكاة البحث)",
  "menu.simsQuick": "128 · سريع",
  "menu.simsServed": "4096 · القوة المعتمدة",

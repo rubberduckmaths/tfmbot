@@ -701,7 +701,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Põhjapoolus",
- "foot.html": "Kogukonna tehtud mitteametlik „Terraforming Mars“ · ei ole seotud FryxGamesiga · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Liitu TFMBoti Discordiga</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Tahad mängida eelmist versiooni?</a>",
+ "foot.html": "Kogukonna tehtud mitteametlik „Terraforming Mars“ · ei ole seotud FryxGamesiga · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Liitu TFMBoti Discordiga</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Tahad mängida eelmist versiooni?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Esiliidese lähtekood</a>",
  "menu.sims": "Boti tugevus (otsingu simulatsioonid)",
  "menu.simsQuick": "128 · kiire",
  "menu.simsServed": "4096 · serveri tugevus",

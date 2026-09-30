@@ -646,7 +646,7 @@
  "space.Viking 1": "Viking 1",
  "space.Viking 2": "Viking 2",
  "space.North Pole": "Kuzey Kutbu",
- "foot.html": "Terraforming Mars'ın topluluk yapımı bir hayran sürümü · FryxGames ile bağlantılı değildir · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord'una katıl</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Önceki sürümü mü oynamak istiyorsun?</a>",
+ "foot.html": "Terraforming Mars'ın topluluk yapımı bir hayran sürümü · FryxGames ile bağlantılı değildir · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">TFMBot Discord'una katıl</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Önceki sürümü mü oynamak istiyorsun?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Arayüz kaynak kodu</a>",
  "menu.sims": "Bot gücü (arama simülasyonu)",
  "menu.simsQuick": "128 · hızlı",
  "menu.simsServed": "4096 · sunulan güç",

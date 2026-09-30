@@ -61,6 +61,7 @@ function wrap() {
     sessPtr: c('tw_session_ptr', 'number', []),
     sessSize: c('tw_session_size', 'number', []),
     restored: c('tw_session_restored', null, []),
+    refreshLegal: c('tw_refresh_legal', null, []),
     payOpts: c('tw_pay_options', 'string', ['number']),
     ansPay: c('tw_answer_action_pay', 'number', ['number', 'number', 'number', 'number', 'number']),
     layout: c('tw_layout_hash', 'number', []),
@@ -197,6 +198,7 @@ self.onmessage = async (e) => {
       await loadEngine();
       if (m.restore && m.restore.bytes.byteLength <= api.sessSize() && m.restore.bytes.byteLength > api.sessSize() - 128) {
         restore(new Uint8Array(m.restore.bytes));
+        api.refreshLegal();                         // (saved by an older build: its pending moves, made again by this one)
         gameMeta = m.restore.meta || {};
         log = m.restore.log || [];
         sendStatic(curMap());                       // the saved game's own map

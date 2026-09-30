@@ -682,7 +682,7 @@
  "space.Viking 1": "Викинг-1",
  "space.Viking 2": "Викинг-2",
  "space.North Pole": "Северный полюс",
- "foot.html": "Фанатская версия «Покорения Марса» от сообщества · не связана с FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Играть в прошлую версию?</a>",
+ "foot.html": "Фанатская версия «Покорения Марса» от сообщества · не связана с FryxGames · <a href=\"https://discord.gg/GvJtv7kuX\" target=\"_blank\" rel=\"noopener\">Discord TFMBot</a> · <a href=\"https://classic.tfmbot.com/\" target=\"_blank\" rel=\"noopener\">Играть в прошлую версию?</a> · <a href=\"https://github.com/rubberduckmaths/tfmbot\" target=\"_blank\" rel=\"noopener\">Исходный код интерфейса</a>",
  "menu.sims": "Сила бота (симуляций поиска)",
  "menu.simsQuick": "128 · быстро",
  "menu.simsServed": "4096 · стандартная сила",
