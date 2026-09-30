@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Felvásárolt társaság",
+  "desc": "Növeld a M€-termelésed 3 értékkel!"
+ },
+ "Advanced Alloys": {
+  "name": "Fejlett ötvözetek",
+  "effects": [
+   "Minden titánod 1 M€-tel többet ér.",
+   "Minden acélod 1 M€-tel többet ér."
+  ]
+ },
+ "AI Central": {
+  "name": "M.I. központ",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel!",
+  "actions": [
+   "Húzz 2 kártyát!"
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitációs technológia",
+  "effects": [
+   "Amikor kijátszol egy kártyát, 2 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Aszteroida bányász konzorcium",
+  "desc": "Csökkentsd bárki titántermelését 1 értékkel, és növeld a sajátodat 1 értékkel!"
+ },
+ "Bribed Committee": {
+  "name": "Megvesztegetett bizottság",
+  "desc": "Növeld a TR-ed 2 értékkel!"
+ },
+ "Building Industries": {
+  "name": "Építőipar",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld az acéltermelésed 2 értékkel!"
+ },
+ "Business Contacts": {
+  "name": "Üzleti partnerek",
+  "desc": "Nézd meg a pakli felső 4 lapját! 2-t vegyél a kezedbe, a többit dobd el!"
+ },
+ "Business Network": {
+  "name": "Üzleti hálózat",
+  "desc": "Csökkentsd a M€-termelésed 1 értékkel!",
+  "actions": [
+   "Nézd meg a pakli legfelső lapját, és vagy vedd meg, vagy dobd el!"
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Callisto börtönbánya",
+  "desc": "Növeld a M€-termelésed 3 értékkel!"
+ },
+ "Caretaker Contract": {
+  "name": "Szolgáltatói szerződés",
+  "actions": [
+   "Költs el 8 hőt, hogy növeld a terraformációs rátád 1 értékkel!"
+  ]
+ },
+ "Cartel": {
+  "name": "Kartell",
+  "desc": "Növeld a M€-termelésed 1 értékkel minden Föld ikonod után, ezt is beleértve!"
+ },
+ "CEO's Favorite Project": {
+  "name": "A főnök kedvenc projektje",
+  "desc": "Tégy 1 erőforrást bármelyik olyan saját kártyádra, amelyen már van legalább 1 erőforrás!"
+ },
+ "Commercial District": {
+  "name": "Kereskedelmi negyed",
+  "desc": "Helyezd le ezt a lapkát! Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 4 értékkel!",
+  "vpText": [
+   "1 GyP minden szomszédos városlapka után."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Céges főhadiszállás",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 3 értékkel! Helyezz le egy városlapkát!"
+ },
+ "Development Center": {
+  "name": "Fejlesztési központ",
+  "actions": [
+   "Költs el 1 energiát, hogy húzz egy kártyát!"
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Föld-katapult",
+  "effects": [
+   "Amikor kijátszol egy kártyát, 2 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Earth Office": {
+  "name": "Földi iroda",
+  "effects": [
+   "Amikor Föld ikont játszol ki, 3 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektro-katapult",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel!",
+  "actions": [
+   "Költs el 1 palántát vagy 1 acélt, hogy kapj 7 M€-t!"
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Áramlopás",
+  "desc": "Csökkentsd bárki energiatermelését 1 értékkel, és növeld a sajátodat 1 értékkel!"
+ },
+ "Fuel Factory": {
+  "name": "Üzemanyag-finomító",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a titántermelésed és a M€-termelésed 1-1 értékkel!"
+ },
+ "Gene Repair": {
+  "name": "Génjavítás",
+  "desc": "Növeld a M€-termelésed 2 értékkel!"
+ },
+ "Great Escarpment Consortium": {
+  "name": "Hegylánc konzorcium",
+  "desc": "Csökkentsd bárki acéltermelését 1 értékkel, és növeld a sajátodat 1 értékkel!"
+ },
+ "Hackers": {
+  "name": "Hackerek",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel és bárki M€-termelését 2 értékkel! Növeld a M€-termelésed 2 értékkel!"
+ },
+ "Hired Raiders": {
+  "name": "Felbérelt fosztogatók",
+  "desc": "Lopj el bármely játékostól legfeljebb 2 acélt vagy 3 M€-t!"
+ },
+ "Indentured Workers": {
+  "name": "Önkéntes munkaerő",
+  "desc": "A következő kártya, amelyet ebben a generációban kijátszol, 8 M€-tel kevesebbe kerül."
+ },
+ "Industrial Center": {
+  "name": "Iparközpont",
+  "desc": "Helyezd le ezt a lapkát egy városlapka mellé!",
+  "actions": [
+   "Költs el 7 M€-t, hogy növeld az acéltermelésed 1 értékkel!"
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Csillagközi kolonizációs hajó"
+ },
+ "Invention Contest": {
+  "name": "Feltalálók versenye",
+  "desc": "Nézd meg a pakli felső 3 lapját! 1-et vegyél a kezedbe, a többit dobd el!"
+ },
+ "Inventors' Guild": {
+  "name": "Feltalálók céhe",
+  "actions": [
+   "Nézd meg a pakli legfelső lapját, és vagy vedd meg, vagy dobd el!"
+  ]
+ },
+ "Investment Loan": {
+  "name": "Beruházási hitel",
+  "desc": "Csökkentsd a M€-termelésed 1 értékkel! Kapsz 10 M€-t."
+ },
+ "Io Mining Industries": {
+  "name": "Io bányászüzemek",
+  "desc": "Növeld a titántermelésed 2 értékkel és a M€-termelésed 2 értékkel!",
+  "vpText": [
+   "1 GyP minden Jupiter ikonod után."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrange obszervatórium",
+  "desc": "Húzz 1 kártyát!"
+ },
+ "Land Claim": {
+  "name": "Területigény",
+  "desc": "Foglalj le magadnak egy még le nem foglalt mezőt: oda csak te helyezhetsz lapkát."
+ },
+ "Lightning Harvest": {
+  "name": "Villámszüretelés",
+  "desc": "Növeld az energiatermelésed és a M€-termelésed egy-egy értékkel!"
+ },
+ "Mars University": {
+  "name": "Mars egyetem",
+  "effects": [
+   "Amikor tudomány ikont játszol ki, ezt is beleértve, eldobhatsz egy kártyát a kezedből, hogy húzz egy kártyát."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Tömegkonverter",
+  "desc": "Növeld az energiatermelésed 6 értékkel!",
+  "effects": [
+   "Amikor űr ikonos kártyát játszol ki, 2 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Media Archives": {
+  "name": "Irattárolás",
+  "desc": "Kapsz 1 M€-t minden esemény után, amelyet a játékosok VALAHA kijátszottak."
+ },
+ "Media Group": {
+  "name": "Média csoport",
+  "effects": [
+   "Miután kijátszol egy eseménykártyát, kapsz 3 M€-t."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Orvosi laboratórium",
+  "desc": "Növeld a M€-termelésed 1 értékkel minden 2 épület ikonod után, ezt is beleértve!"
+ },
+ "Mine": {
+  "name": "Bányászat",
+  "desc": "Növeld az acéltermelésed 1 értékkel!"
+ },
+ "Mineral Deposit": {
+  "name": "Ásványtartalékok",
+  "desc": "Kapsz 5 acélt."
+ },
+ "Mining Area": {
+  "name": "Bányatelep",
+  "desc": "Helyezd le ezt a lapkát egy acél vagy titán lehelyezési bónuszt adó mezőre, egy másik saját lapkád mellé! Növeld az adott erőforrás termelését 1 értékkel!"
+ },
+ "Miranda Resort": {
+  "name": "Miranda wellness",
+  "desc": "Növeld a M€-termelésed 1 értékkel minden Föld ikonod után!"
+ },
+ "Olympus Conference": {
+  "name": "Olympus konferencia",
+  "desc": "Amikor tudomány ikont játszol ki, ezt is beleértve, vagy tégy egy tudomány-erőforrást erre a kártyára, vagy vegyél le róla egy tudomány-erőforrást, hogy húzz egy kártyát."
+ },
+ "Physics Complex": {
+  "name": "Fizikai intézet",
+  "actions": [
+   "Költs el 6 energiát, hogy tégy egy tudomány-erőforrást erre a kártyára!"
+  ],
+  "vpText": [
+   "2 GyP minden tudomány-erőforrás után ezen a kártyán."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energia-termelési infrastruktúra",
+  "actions": [
+   "Költs el tetszőleges mennyiségű energiát, és kapsz ugyanannyi M€-t!"
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Energiaellátó konzorcium",
+  "desc": "Csökkentsd bárki energiatermelését 1 értékkel, és növeld a sajátodat 1 értékkel!"
+ },
+ "Protected Habitats": {
+  "name": "Védett élőhelyek",
+  "effects": [
+   "Az ellenfeleid nem vehetik el a palántáidat, állataidat és mikrobáidat."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Quantum feldolgozó",
+  "desc": "Növeld az energiatermelésed 4 értékkel!",
+  "effects": [
+   "Amikor űr ikonos kártyát játszol ki, 2 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Atom-ruházat",
+  "desc": "Növeld a M€-termelésed 1 értékkel!"
+ },
+ "Research": {
+  "name": "Kutatás",
+  "desc": "Úgy számít, mintha 2 tudomány ikonos kártyát játszottál volna ki. Húzz 2 kártyát!"
+ },
+ "Restricted Area": {
+  "name": "Szigorított védelmi terület",
+  "desc": "Helyezd le ezt a lapkát!",
+  "actions": [
+   "Költs el 2 M€-t, hogy húzz egy kártyát!"
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotizált munkaerő",
+  "desc": "Másold le egy saját épület ikonos kártyád kizárólag termelési mezőjét!"
+ },
+ "Sabotage": {
+  "name": "Szabotázs",
+  "desc": "Távolíts el bármely játékostól legfeljebb 3 titánt, vagy 4 acélt, vagy 7 M€-t!"
+ },
+ "Satellites": {
+  "name": "Műholdak",
+  "desc": "Növeld a M€-termelésed 1 értékkel minden űr ikonod után, ezt is beleértve!"
+ },
+ "Security Fleet": {
+  "name": "Rendvédelmi flotta",
+  "actions": [
+   "Költs el 1 titánt, hogy tégy 1 vadászgépet erre a kártyára!"
+  ],
+  "vpText": [
+   "1 GyP minden vadászgép után ezen a kártyán."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Űrlift",
+  "desc": "Növeld a titántermelésed 1 értékkel!",
+  "actions": [
+   "Költs el 1 acélt, hogy kapj 5 M€-t!"
+  ]
+ },
+ "Space Station": {
+  "name": "Űrállomás",
+  "effects": [
+   "Amikor űr ikonos kártyát játszol ki, 2 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Sponsors": {
+  "name": "Szponzorok",
+  "desc": "Növeld a M€-termelésed 2 értékkel!"
+ },
+ "Standard Technology": {
+  "name": "Szabványos technológia",
+  "effects": [
+   "Miután kifizettél egy általános projektet (a szabadalmak értékesítésén kívül), kapsz 3 M€-t."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Medveállatkák",
+  "actions": [
+   "Tégy 1 mikrobát erre a kártyára!"
+  ],
+  "vpText": [
+   "1 GyP minden 4 mikroba után ezen a kártyán."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Technológiai bemutató",
+  "desc": "Húzz két kártyát!"
+ },
+ "Terraforming Ganymede": {
+  "name": "A Ganymedes terraformálása",
+  "desc": "Növeld a TR-ed 1 értékkel minden Jupiter ikonod után, ezt is beleértve!"
+ },
+ "Titanium Mine": {
+  "name": "Titánbányászat",
+  "desc": "Növeld a titántermelésed 1 értékkel!"
+ },
+ "Toll Station": {
+  "name": "Vámkapu",
+  "desc": "Növeld a M€-termelésed 1 értékkel minden űr ikon után, amely az ELLENFELEIDNEK van!"
+ },
+ "Trans-Neptune Probe": {
+  "name": "Transzneptun szonda",
+  "desc": "Mélyűri szonda: 1 GyP-t ér."
+ },
+ "Tropical Resort": {
+  "name": "Trópusi pihenő",
+  "desc": "Csökkentsd a hőtermelésed 2 értékkel, és növeld a M€-termelésed 3 értékkel!"
+ },
+ "Vesta Shipyard": {
+  "name": "Vesta hajógyár",
+  "desc": "Növeld a titántermelésed 1 értékkel!"
+ },
+ "Viral Enhancers": {
+  "name": "Retrovírusok",
+  "effects": [
+   "Amikor növény, mikroba vagy állat ikont játszol ki, ezt is beleértve, kapsz 1 palántát, vagy tégy 1 erőforrást ARRA A KÁRTYÁRA."
+  ]
+ },
+ "Virus": {
+  "name": "Vírusok",
+  "desc": "Távolíts el bármely játékostól legfeljebb 2 állatot vagy 5 palántát!"
+ },
+ "SF Memorial": {
+  "name": "Sci-fi emlékmű",
+  "desc": "Húzz 1 kártyát!"
+ },
+ "House Printing": {
+  "name": "Háznyomtatás",
+  "desc": "Növeld az acéltermelésed 1 értékkel!"
+ },
+ "Space Hotels": {
+  "name": "Űrhotelek",
+  "desc": "Növeld a M€-termelésed 4 értékkel!"
+ },
+ "Martian Survey": {
+  "name": "A Mars vizsgálata",
+  "desc": "Húzz két kártyát!"
+ },
+ "Research Coordination": {
+  "name": "A kutatás összehangolása",
+  "desc": "Kijátszás után, amikor akciót hajtasz végre, a dzsóker ikon tetszőleges, általad választott ikonnak számít."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lávaalagúti település",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 2 értékkel! Helyezz le egy városlapkát egy VULKANIKUS MEZŐRE, a szomszédos városoktól függetlenül!"
+ },
+ "Psychrophiles": {
+  "name": "Hidegkedvelők",
+  "actions": [
+   "Tégy 1 mikrobát erre a kártyára!"
+  ],
+  "effects": [
+   "Amikor növény ikonos kártyáért fizetsz, az itteni mikrobákat darabonként 2 M€-ként használhatod."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Adaptációs technológia",
+  "effects": [
+   "A globális kijátszási feltételeid +2 vagy −2 értékkel módosulnak, mindig a választásod szerint."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Adaptív zuzmók",
+  "desc": "Növeld a palántatermelésed 1 értékkel!"
+ },
+ "Advanced Ecosystems": {
+  "name": "Fejlett ökoszisztéma"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Légfékezett ammónia aszteroidák",
+  "desc": "Növeld a hőtermelésed 3 értékkel és a palántatermelésed 1 értékkel! Tégy 2 mikrobát egy MÁSIK kártyára!"
+ },
+ "Ants": {
+  "name": "Hangyák",
+  "actions": [
+   "Vegyél le 1 mikrobát bármelyik kártyáról, és tégy 1-et erre a kártyára!"
+  ],
+  "vpText": [
+   "1 GyP minden 2 mikroba után ezen a kártyán."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Rétegvíz-szivattyúzás",
+  "actions": [
+   "Költs el 8 M€-t, hogy lehelyezz 1 óceánlapkát! ACÉLT IS HASZNÁLHATSZ, mintha épület ikonos kártyát játszanál ki."
+  ]
+ },
+ "Algae": {
+  "name": "Algák",
+  "desc": "Kapsz 1 palántát, és növeld a palántatermelésed 2 értékkel!"
+ },
+ "ArchaeBacteria": {
+  "name": "Ősbaktériumok",
+  "desc": "Növeld a palántatermelésed 1 értékkel!"
+ },
+ "Arctic Algae": {
+  "name": "Sarkköri algák",
+  "desc": "Kapsz 1 palántát.",
+  "effects": [
+   "Amikor bárki lehelyez egy óceánlapkát, kapsz 2 palántát."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Mesterséges tavak",
+  "desc": "Helyezz le 1 óceánlapkát egy NEM ÓCEÁNNAK FENNTARTOTT MEZŐRE!"
+ },
+ "Artificial Photosynthesis": {
+  "name": "Mesterséges fotoszintézis",
+  "desc": "Növeld a palántatermelésed 1 értékkel vagy az energiatermelésed 2 értékkel!",
+  "orTitles": [
+   "Növeld az energiatermelésed 2 értékkel",
+   "Növeld a palántatermelésed 1 értékkel"
+  ]
+ },
+ "Asteroid": {
+  "name": "Aszteroida",
+  "desc": "Növeld a hőmérsékletet 1 értékkel, és kapsz 2 titánt. Távolíts el bármely játékostól legfeljebb 3 palántát!"
+ },
+ "Asteroid Mining": {
+  "name": "Aszteroida bányászat",
+  "desc": "Növeld a titántermelésed 2 értékkel!"
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Sugár egy tórium aszteroidáról",
+  "desc": "Növeld a hőtermelésed és az energiatermelésed 3-3 értékkel!"
+ },
+ "Big Asteroid": {
+  "name": "Nagy aszteroida",
+  "desc": "Növeld a hőmérsékletet 2 értékkel, és kapsz 4 titánt. Távolíts el bármely játékostól legfeljebb 4 palántát!"
+ },
+ "Biomass Combustors": {
+  "name": "Biomassza égető",
+  "desc": "Csökkentsd bárki palántatermelését 1 értékkel, és növeld az energiatermelésed 2 értékkel!"
+ },
+ "Birds": {
+  "name": "Madarak",
+  "desc": "Csökkentsd bárki palántatermelését 2 értékkel! 1 GyP minden állat után ezen a kártyán.",
+  "actions": [
+   "Tégy egy állatot erre a kártyára!"
+  ],
+  "vpText": [
+   "1 GyP minden állat után ezen a kártyán."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Fekete sarki por",
+  "desc": "Helyezz le egy óceánlapkát! Csökkentsd a M€-termelésed 2 értékkel, és növeld a hőtermelésed 3 értékkel!"
+ },
+ "Breathing Filters": {
+  "name": "Légszűrő maszkok"
+ },
+ "Bushes": {
+  "name": "Bokrok",
+  "desc": "Növeld a palántatermelésed 2 értékkel! Kapsz 2 palántát."
+ },
+ "Capital": {
+  "name": "Főváros",
+  "desc": "Helyezd le ezt a lapkát! Csökkentsd az energiatermelésed 2 értékkel, és növeld a M€-termelésed 5 értékkel!",
+  "vpText": [
+   "További 1 GyP minden óceánlapka után, amely szomszédos ezzel a városlapkával."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonátfelhasználás",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a hőtermelésed 3 értékkel!"
+ },
+ "Cloud Seeding": {
+  "name": "Felhővetés",
+  "desc": "Csökkentsd a M€-termelésed 1 értékkel és bárki hőtermelését 1 értékkel! Növeld a palántatermelésed 2 értékkel!"
+ },
+ "Colonizer Training Camp": {
+  "name": "Gyarmatosító kiképző állomás"
+ },
+ "Comet": {
+  "name": "Üstökös",
+  "desc": "Növeld a hőmérsékletet 1 értékkel, és helyezz le egy óceánlapkát! Távolíts el bármely játékostól legfeljebb 3 palántát!"
+ },
+ "Convoy From Europa": {
+  "name": "Konvoj az Europáról",
+  "desc": "Helyezz le 1 óceánlapkát, és húzz 1 kártyát!"
+ },
+ "Cupola City": {
+  "name": "Kupola város",
+  "desc": "Helyezz le egy városlapkát! Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 3 értékkel!"
+ },
+ "Decomposers": {
+  "name": "Komposztálók",
+  "effects": [
+   "Amikor állat, növény vagy mikroba ikont játszol ki, ezt is beleértve, tégy egy mikrobát erre a kártyára."
+  ],
+  "vpText": [
+   "1 GyP minden 3 mikroba után ezen a kártyán."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Mélykútfűtés",
+  "desc": "Növeld az energiatermelésed 1 értékkel! Növeld a hőmérsékletet 1 értékkel!"
+ },
+ "Deimos Down": {
+  "name": "Deimos „leszállt”",
+  "desc": "Növeld a hőmérsékletet 3 értékkel, és kapsz 4 acélt. Távolíts el bármely játékostól legfeljebb 8 palántát!"
+ },
+ "Designed Microorganisms": {
+  "name": "Megtervezett mikroorganizmusok",
+  "desc": "Növeld a palántatermelésed 2 értékkel!"
+ },
+ "Domed Crater": {
+  "name": "Kupolás kráter",
+  "desc": "Kapsz 3 palántát. Helyezz le egy városlapkát! Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 3 értékkel!"
+ },
+ "Dust Seals": {
+  "name": "Porvédők"
+ },
+ "Ecological Zone": {
+  "name": "Ökológiai övezet",
+  "desc": "Helyezd le ezt a lapkát BÁRMELY növényzetlapka mellé!",
+  "effects": [
+   "Amikor állat vagy növény ikont játszol ki, EZEKET IS BELEÉRTVE, tégy egy állatot erre a kártyára."
+  ],
+  "vpText": [
+   "1 GyP minden 2 állat után ezen a kártyán."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Energiatartalék",
+  "desc": "Növeld az energiatermelésed 1 értékkel minden játékban lévő városlapka után!"
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos Chasma Nemzeti Park",
+  "desc": "Tégy 1 állatot BÁRMELY ÁLLATOS KÁRTYÁRA! Kapsz 3 palántát. Növeld a M€-termelésed 2 értékkel!"
+ },
+ "Equatorial Magnetizer": {
+  "name": "Egyenlítői magnetizáló",
+  "actions": [
+   "Csökkentsd az energiatermelésed 1 értékkel, hogy növeld a terraformációs rátád 1 értékkel!"
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Hidegtűrő gombák",
+  "actions": [
+   "Kapsz 1 palántát.",
+   "Tégy 2 mikrobát egy MÁSIK kártyára!"
+  ]
+ },
+ "Farming": {
+  "name": "Mezőgazdaság",
+  "desc": "Növeld a M€-termelésed 2 értékkel és a palántatermelésed 2 értékkel! Kapsz 2 palántát."
+ },
+ "Fish": {
+  "name": "Halak",
+  "desc": "Csökkentsd bárki palántatermelését 1 értékkel!",
+  "actions": [
+   "Tégy 1 állatot erre a kártyára!"
+  ],
+  "vpText": [
+   "1 GyP minden állat után ezen a kártyán."
+  ]
+ },
+ "Flooding": {
+  "name": "Árasztás",
+  "desc": "Helyezz le egy óceánlapkát! HA EZZEL AZ ÓCEÁNLAPKÁVAL SZOMSZÉDOS LAPKÁK VANNAK, AZ EGYIK TULAJDONOSÁTÓL ELVEHETSZ 4 M€-T."
+ },
+ "Food Factory": {
+  "name": "Élelmiszeripar",
+  "desc": "Csökkentsd a palántatermelésed 1 értékkel, és növeld a M€-termelésed 4 értékkel!"
+ },
+ "Fusion Power": {
+  "name": "Fúziós erőmű",
+  "desc": "Növeld az energiatermelésed 3 értékkel!"
+ },
+ "Fueled Generators": {
+  "name": "Fűtőolajos generátorok",
+  "desc": "Csökkentsd a M€-termelésed 1 értékkel, és növeld az energiatermelésed 1 értékkel!"
+ },
+ "Ganymede Colony": {
+  "name": "Ganymedes-kolónia",
+  "desc": "Helyezz le egy városlapkát A FENNTARTOTT MEZŐRE!",
+  "vpText": [
+   "1 GyP minden Jupiter ikonod után."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geotermikus energia",
+  "desc": "Növeld az energiatermelésed 2 értékkel!"
+ },
+ "GHG Factories": {
+  "name": "Üvegházhatású gázüzem",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a hőtermelésed 4 értékkel!"
+ },
+ "GHG Producing Bacteria": {
+  "name": "Metanogén baktériumok",
+  "actions": [
+   "Tégy 1 mikrobát erre a kártyára!",
+   "Vegyél le 2 mikrobát, hogy növeld a hőmérsékletet 1 értékkel!"
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Óriás jégaszteroida",
+  "desc": "Növeld a hőmérsékletet 2 értékkel, és helyezz le 2 óceánlapkát! Távolíts el bármely játékostól legfeljebb 6 palántát!"
+ },
+ "Giant Space Mirror": {
+  "name": "Óriás űrtükör",
+  "desc": "Növeld az energiatermelésed 3 értékkel!"
+ },
+ "Grass": {
+  "name": "Füvesítés",
+  "desc": "Növeld a palántatermelésed 1 értékkel! Kapsz 3 palántát."
+ },
+ "Great Dam": {
+  "name": "Nagy gát",
+  "desc": "Növeld az energiatermelésed 2 értékkel!"
+ },
+ "Greenhouses": {
+  "name": "Üvegházak",
+  "desc": "Kapsz 1 palántát minden játékban lévő városlapka után."
+ },
+ "Heather": {
+  "name": "Hanga",
+  "desc": "Növeld a palántatermelésed 1 értékkel! Kapsz 1 palántát."
+ },
+ "Heat Trappers": {
+  "name": "Hőcsapdák",
+  "desc": "Csökkentsd bárki hőtermelését 2 értékkel, és növeld az energiatermelésed 1 értékkel!"
+ },
+ "Herbivores": {
+  "name": "Növényevők",
+  "desc": "+1 állat erre a kártyára. −1 palántatermelés bárkinél",
+  "effects": [
+   "Amikor növényzetlapkát helyezel le, tégy egy állatot erre a kártyára."
+  ],
+  "vpText": [
+   "1 GyP minden 2 állat után ezen a kártyán."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Jégaszteroida",
+  "desc": "Helyezz le 2 óceánlapkát!"
+ },
+ "Ice Cap Melting": {
+  "name": "Jégsapkák megolvasztása",
+  "desc": "Helyezz le 1 óceánlapkát!"
+ },
+ "Immigrant City": {
+  "name": "Bevándorlók letelepítése",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel és a M€-termelésed 2 értékkel! Helyezz le egy városlapkát!",
+  "effects": [
+   "Amikor városlapkát helyeznek le, ezt is beleértve, növeld a M€-termelésed 1 értékkel."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Emigrációs űrkompok",
+  "desc": "Növeld a M€-termelésed 5 értékkel!",
+  "vpText": [
+   "1 GyP minden 3. játékban lévő város után."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Importált üvegházhatású gázok",
+  "desc": "Növeld a hőtermelésed 1 értékkel, és kapsz 3 hőt."
+ },
+ "Imported Hydrogen": {
+  "name": "Importált hidrogén",
+  "desc": "Kapsz 3 palántát, vagy tégy 3 mikrobát vagy 2 állatot egy MÁSIK kártyára! Helyezz le egy óceánlapkát!",
+  "orTitles": [
+   "Kapsz 3 palántát",
+   "Tégy 3 mikrobát egy MÁSIK kártyára",
+   "Tégy 2 állatot egy MÁSIK kártyára"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Importált nitrogén",
+  "desc": "Növeld a TR-ed 1 értékkel, és kapsz 4 palántát. Tégy 3 mikrobát egy MÁSIK kártyára és 2 állatot egy MÁSIK kártyára!"
+ },
+ "Import of Advanced GHG": {
+  "name": "Importált összetett üvegházhatású gázok",
+  "desc": "Növeld a hőtermelésed 2 értékkel!"
+ },
+ "Industrial Microbes": {
+  "name": "Ipari mikrobák",
+  "desc": "Növeld az energiatermelésed és az acéltermelésed 1-1 értékkel!"
+ },
+ "Insects": {
+  "name": "Rovarok",
+  "desc": "Növeld a palántatermelésed 1 értékkel minden növény ikonod után!"
+ },
+ "Insulation": {
+  "name": "Szigetelés",
+  "desc": "Csökkentsd a hőtermelésed tetszőleges értékkel, és növeld a M€-termelésed ugyanannyival!"
+ },
+ "Ironworks": {
+  "name": "Vasüzem",
+  "actions": [
+   "Költs el 4 energiát, hogy kapj 1 acélt, és növeld az oxigénszintet 1 értékkel!"
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Hínártermesztés",
+  "desc": "Növeld a M€-termelésed 2 értékkel és a palántatermelésed 3 értékkel! Kapsz 2 palántát."
+ },
+ "Lake Marineris": {
+  "name": "Mariner-tó",
+  "desc": "Helyezz le 2 óceánlapkát!"
+ },
+ "Large Convoy": {
+  "name": "Nagy konvoj",
+  "desc": "Helyezz le egy óceánlapkát, és húzz 2 kártyát! Kapsz 5 palántát, vagy tégy 4 állatot egy MÁSIK kártyára.",
+  "orTitles": [
+   "Kapsz 5 palántát",
+   "Tégy 4 állatot egy MÁSIK kártyára"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lávafolyamok",
+  "desc": "Növeld a hőmérsékletet 2 értékkel, és helyezd le ezt a lapkát a THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS VAGY ARSIA MONS MEZŐK EGYIKÉRE!"
+ },
+ "Lichen": {
+  "name": "Zuzmók",
+  "desc": "Növeld a palántatermelésed 1 értékkel!"
+ },
+ "Livestock": {
+  "name": "Haszonállatok",
+  "desc": "Csökkentsd a palántatermelésed 1 értékkel, és növeld a M€-termelésed 2 értékkel!",
+  "actions": [
+   "Tégy 1 állatot erre a kártyára!"
+  ],
+  "vpText": [
+   "1 GyP minden állat után ezen a kártyán."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Helyi hőcsapdák",
+  "desc": "Költs el 5 hőt, és kapsz 4 palántát, vagy tégy 2 állatot egy MÁSIK kártyára.",
+  "orTitles": [
+   "Kapsz 4 palántát",
+   "Tégy 2 állatot egy MÁSIK kártyára"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Holdsugár",
+  "desc": "Csökkentsd a M€-termelésed 2 értékkel, és növeld a hőtermelésed és az energiatermelésed 2-2 értékkel!"
+ },
+ "Magnetic Field Dome": {
+  "name": "Mágneses tér kupola",
+  "desc": "Csökkentsd az energiatermelésed 2 értékkel, és növeld a palántatermelésed 1 értékkel! Növeld a TR-ed 1 értékkel!"
+ },
+ "Magnetic Field Generators": {
+  "name": "Mágneses tér generátor",
+  "desc": "Csökkentsd az energiatermelésed 4 értékkel, és növeld a palántatermelésed 2 értékkel! Növeld a TR-ed 3 értékkel!"
+ },
+ "Mangrove": {
+  "name": "Mangroveerdő",
+  "desc": "Helyezz le egy növényzetlapkát EGY ÓCEÁNNAK FENNTARTOTT MEZŐRE, és növeld az oxigénszintet 1 értékkel! Ehhez hagyd figyelmen kívül a szokásos lehelyezési szabályokat."
+ },
+ "Martian Rails": {
+  "name": "Marsi általános vasutak",
+  "actions": [
+   "Költs el 1 energiát, hogy kapj 1 M€-t minden A MARSON lévő városlapka után!"
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metán a Titánról",
+  "desc": "Növeld a hőtermelésed 2 értékkel és a palántatermelésed 2 értékkel!"
+ },
+ "Micro-Mills": {
+  "name": "Mikró-szélerőművek",
+  "desc": "Növeld a hőtermelésed 1 értékkel!"
+ },
+ "Mining Expedition": {
+  "name": "Bányászati expedíció",
+  "desc": "Növeld az oxigénszintet 1 értékkel! Távolíts el bármely játékostól 2 palántát! Kapsz 2 acélt."
+ },
+ "Mining Rights": {
+  "name": "Bányászati jogok",
+  "desc": "Helyezd le ezt a lapkát egy acél vagy titán lehelyezési bónuszt adó mezőre! Növeld az adott termelést 1 értékkel!"
+ },
+ "Mohole Area": {
+  "name": "Mohole terület",
+  "desc": "Növeld a hőtermelésed 4 értékkel! Helyezd le ezt a lapkát EGY ÓCEÁNNAK FENNTARTOTT MEZŐRE!"
+ },
+ "Moss": {
+  "name": "Moha",
+  "desc": "Veszíts el 1 palántát! Növeld a palántatermelésed 1 értékkel!"
+ },
+ "Natural Preserve": {
+  "name": "Természetvédelmi övezet",
+  "desc": "Helyezd le ezt a lapkát ÚGY, HOGY SEMMILYEN MÁSIK LAPKÁVAL NE LEGYEN SZOMSZÉDOS! Növeld a M€-termelésed 1 értékkel!"
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitrát redukáló baktériumok",
+  "desc": "Tégy 3 mikrobát erre a kártyára!",
+  "actions": [
+   "Tégy 1 mikrobát erre a kártyára!",
+   "Vegyél le 3 mikrobát, hogy növeld a TR-ed 1 értékkel!"
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Nitrogénben gazdag aszteroida",
+  "desc": "Növeld a terraformációs rátád 2 értékkel és a hőmérsékletet 1 értékkel! Növeld a palántatermelésed 1 értékkel, vagy 4 értékkel, ha van 3 növény ikonod!"
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofil mohák",
+  "desc": "Veszíts el 2 palántát! Növeld a palántatermelésed 2 értékkel!"
+ },
+ "Noctis City": {
+  "name": "Noctis város",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 3 értékkel! Helyezz le egy városlapkát A FENNTARTOTT MEZŐRE, a szokásos lehelyezési szabályokat figyelmen kívül hagyva!"
+ },
+ "Noctis Farming": {
+  "name": "Noctisi mezőgazdaság",
+  "desc": "Növeld a M€-termelésed 1 értékkel, és kapsz 2 palántát."
+ },
+ "Nuclear Power": {
+  "name": "Atomenergia",
+  "desc": "Csökkentsd a M€-termelésed 2 értékkel, és növeld az energiatermelésed 3 értékkel!"
+ },
+ "Nuclear Zone": {
+  "name": "Nukleáris övezet",
+  "desc": "Helyezd le ezt a lapkát, és növeld a hőmérsékletet 2 értékkel!"
+ },
+ "Open City": {
+  "name": "Nyitott város",
+  "desc": "Kapsz 2 palántát. Helyezz le egy városlapkát! Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 4 értékkel!"
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimális aerofékezés",
+  "effects": [
+   "Amikor űr ikonos eseményt játszol ki, kapsz 3 M€-t és 3 hőt."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Ércművek",
+  "actions": [
+   "Költs el 4 energiát, hogy kapj 1 titánt, és növeld az oxigénszintet 1 értékkel!"
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Permafroszt-kitermelés",
+  "desc": "Helyezz le 1 óceánlapkát!"
+ },
+ "Peroxide Power": {
+  "name": "Peroxid energia",
+  "desc": "Csökkentsd a M€-termelésed 1 értékkel, és növeld az energiatermelésed 2 értékkel!"
+ },
+ "Pets": {
+  "name": "Kedvencek",
+  "desc": "Tégy 1 állatot erre a kártyára!",
+  "effects": [
+   "Amikor bárki városlapkát helyez le, tégy egy állatot erre a kártyára."
+  ],
+  "vpText": [
+   "1 GyP minden 2 itteni állat után."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Phobos-űrállomás",
+  "desc": "Növeld a titántermelésed 1 értékkel, és helyezz le egy városlapkát A FENNTARTOTT MEZŐRE!"
+ },
+ "Plantation": {
+  "name": "Ültetvény",
+  "desc": "Helyezz le egy növényzetlapkát, és növeld az oxigénszintet 1 értékkel!"
+ },
+ "Power Grid": {
+  "name": "Elektromos hálózat",
+  "desc": "Növeld az energiatermelésed 1 értékkel minden energia ikonod után, ezt is beleértve!"
+ },
+ "Power Plant": {
+  "name": "Erőmű",
+  "desc": "Növeld az energiatermelésed 1 értékkel!"
+ },
+ "Predators": {
+  "name": "Ragadozók",
+  "actions": [
+   "Vegyél le 1 állatot bármelyik kártyáról, és tedd erre a kártyára!"
+  ],
+  "vpText": [
+   "1 GyP minden állat után ezen a kártyán."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Védett völgy",
+  "desc": "Növeld a M€-termelésed 2 értékkel! Helyezz le egy növényzetlapkát EGY ÓCEÁNNAK FENNTARTOTT MEZŐRE a szokásos lehelyezési szabályokat figyelmen kívül hagyva, és növeld az oxigénszintet 1 értékkel!"
+ },
+ "Rad-Chem Factory": {
+  "name": "Sugárkémiai üzem",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel! Növeld a TR-ed 2 értékkel!"
+ },
+ "Regolith Eaters": {
+  "name": "Regolifágok",
+  "actions": [
+   "Tégy 1 mikrobát erre a kártyára!",
+   "Vegyél le 2 mikrobát erről a kártyáról, hogy növeld az oxigénszintet 1 értékkel!"
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Inert gázok kibocsátása",
+  "desc": "Növeld a terraformációs rátád 2 értékkel!"
+ },
+ "Research Outpost": {
+  "name": "Kutatóbázis",
+  "desc": "Helyezz le egy városlapkát ÚGY, HOGY SEMMILYEN MÁSIK LAPKÁVAL NE LEGYEN SZOMSZÉDOS!",
+  "effects": [
+   "Amikor kijátszol egy kártyát, 1 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Marsjáró-építés",
+  "effects": [
+   "Amikor bárki városlapkát helyez le, kapsz 2 M€-t."
+  ]
+ },
+ "Search For Life": {
+  "name": "Élet kutatása",
+  "actions": [
+   "Költs el 1 M€-t, hogy felfedd a húzópakli legfelső lapját! Ha azon mikroba ikon van, tégy ide egy tudomány-erőforrást."
+  ],
+  "vpText": [
+   "3 GyP, ha van itt legalább egy tudomány-erőforrás."
+  ]
+ },
+ "Shuttles": {
+  "name": "Űrkompok",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 2 értékkel!",
+  "effects": [
+   "Amikor űr ikonos kártyát játszol ki, 2 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Small Animals": {
+  "name": "Kis állatok",
+  "desc": "Csökkentsd bárki palántatermelését 1 értékkel!",
+  "actions": [
+   "Tégy 1 állatot erre a kártyára!"
+  ],
+  "vpText": [
+   "1 GyP minden 2 állat után ezen a kártyán."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Talajgyár",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a palántatermelésed 1 értékkel!"
+ },
+ "Solar Power": {
+  "name": "Napenergia",
+  "desc": "Növeld az energiatermelésed 1 értékkel!"
+ },
+ "Solar Wind Power": {
+  "name": "Napszél-energia",
+  "desc": "Növeld az energiatermelésed 1 értékkel, és kapsz 2 titánt."
+ },
+ "Soletta": {
+  "name": "Szoletta",
+  "desc": "Növeld a hőtermelésed 7 értékkel!"
+ },
+ "Space Mirrors": {
+  "name": "Űrtükrök",
+  "actions": [
+   "Költs el 7 M€-t, hogy növeld az energiatermelésed 1 értékkel!"
+  ]
+ },
+ "Special Design": {
+  "name": "Egyedi megoldás",
+  "desc": "A következő kártyád, amelyet ebben a generációban kijátszol, globális kijátszási feltételei +2 vagy −2 értékkel módosulnak, a választásod szerint."
+ },
+ "Steelworks": {
+  "name": "Acélüzem",
+  "actions": [
+   "Költs el 4 energiát, hogy kapj 2 acélt, és növeld az oxigénszintet 1 értékkel!"
+  ]
+ },
+ "Strip Mine": {
+  "name": "Külszíni fejtés",
+  "desc": "Csökkentsd az energiatermelésed 2 értékkel! Növeld az acéltermelésed 2 értékkel és a titántermelésed 1 értékkel! Növeld az oxigénszintet 2 értékkel!"
+ },
+ "Subterranean Reservoir": {
+  "name": "Felszín alatti víztartalékok",
+  "desc": "Helyezz le 1 óceánlapkát!"
+ },
+ "Symbiotic Fungus": {
+  "name": "Szimbiotikus gomba",
+  "actions": [
+   "Tégy egy mikrobát egy MÁSIK kártyára!"
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektonikus erőmű",
+  "desc": "Növeld az energiatermelésed 3 értékkel!"
+ },
+ "Towing A Comet": {
+  "name": "Üstökös vontatás",
+  "desc": "Kapsz 2 palántát. Növeld az oxigénszintet 1 értékkel, és helyezz le egy óceánlapkát!"
+ },
+ "Trees": {
+  "name": "Fák",
+  "desc": "Növeld a palántatermelésed 3 értékkel! Kapsz 1 palántát."
+ },
+ "Tundra Farming": {
+  "name": "Tundrai mezőgazdaság",
+  "desc": "Növeld a palántatermelésed 1 értékkel és a M€-termelésed 2 értékkel! Kapsz 1 palántát."
+ },
+ "Underground City": {
+  "name": "Földalatti város",
+  "desc": "Helyezz le egy városlapkát! Csökkentsd az energiatermelésed 2 értékkel, és növeld az acéltermelésed 2 értékkel!"
+ },
+ "Underground Detonations": {
+  "name": "Föld alatti robbantások",
+  "actions": [
+   "Költs el 10 M€-t, hogy növeld a hőtermelésed 2 értékkel!"
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Városi területek",
+  "desc": "Csökkentsd az energiatermelésed 1 értékkel, és növeld a M€-termelésed 2 értékkel! Helyezz le egy városlapkát LEGALÁBB 2 MÁSIK VÁROSLAPKA MELLÉ!"
+ },
+ "Water Import From Europa": {
+  "name": "Vízimport az Europáról",
+  "actions": [
+   "Fizess 12 M€-t, hogy lehelyezz egy óceánlapkát! TITÁNT IS HASZNÁLHATSZ, mintha űr ikonos kártyát játszanál ki."
+  ],
+  "vpText": [
+   "1 GyP minden Jupiter ikonod után."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Vízbontó erőmű",
+  "actions": [
+   "Költs el 3 energiát, hogy növeld az oxigénszintet 1 értékkel!"
+  ]
+ },
+ "Wave Power": {
+  "name": "Hullámerőművek",
+  "desc": "Növeld az energiatermelésed 1 értékkel!"
+ },
+ "Windmills": {
+  "name": "Szélerőművek",
+  "desc": "Növeld az energiatermelésed 1 értékkel!"
+ },
+ "Worms": {
+  "name": "Férgek",
+  "desc": "Növeld a palántatermelésed 1 értékkel minden 2 mikroba ikonod után, ezt is beleértve!"
+ },
+ "Zeppelins": {
+  "name": "Léghajók",
+  "desc": "Növeld a M€-termelésed 1 értékkel minden A MARSON lévő városlapka után!"
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "1 titántermeléssel és 42 M€-tel kezdesz.",
+  "effects": [
+   "Valahányszor bárki Jupiter ikont játszik ki, ezt is beleértve, növeld a M€-termelésed 1 értékkel."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "60 M€-tel kezdesz.",
+  "effects": [
+   "Amikor Föld ikont játszol ki, 3 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "3 M€-termeléssel és 44 M€-tel kezdesz.",
+  "effects": [
+   "Amikor épület ikont játszol ki, 2 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "1 titántermeléssel és 38 M€-tel kezdesz.",
+  "effects": [
+   "Amikor Föld ikont játszol ki, ezt is beleértve, húzz egy kártyát."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "47 M€-tel kezdesz.",
+  "actions": [
+   "Költs el 4 M€-t, hogy növeld a (valamelyik) LEGALACSONYABB termelésed 1 értékkel!"
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "37 M€-tel kezdesz. Első akcióként húzz 3 kezdetkártyát, és játssz ki közülük egyet! A másik kettőt dobd el!",
+  "effects": [
+   "Amikor tudomány ikont játszol ki, 2 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "45 M€-tel kezdesz. Első akcióként alapíts ingyen egy díjat!",
+  "effects": [
+   "Amikor NEM NEGATÍV GyP-értékű kártyát játszol ki, ezt is beleértve, kapsz 3 M€-t."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Kezdő cég",
+  "desc": "42 M€-tel kezdesz. Ahelyett, hogy az előkészítéskor 10 kártyából választanál, 10 kártyát ingyen kapsz."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "57 M€-tel kezdesz.",
+  "effects": [
+   "Miután kifizettél egy legalább 20 M€ alapárú kártyát vagy általános projektet, kapsz 4 M€-t."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "2 palántatermeléssel, 3 palántával és 36 M€-tel kezdesz.",
+  "effects": [
+   "A növényzethez mindig 8 helyett 7 palántát fizethetsz."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "3 hőtermeléssel és 42 M€-tel kezdesz.",
+  "effects": [
+   "A hőt M€-ként használhatod. A M€-t nem használhatod hőként."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "20 acéllal és 30 M€-tel kezdesz.",
+  "effects": [
+   "Valahányszor eseményt játszol ki, kapsz 2 M€-t."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Első akcióként a játékban húzz 3 kártyát! 45 M€-tel kezdesz.",
+  "effects": [
+   "A hőmérsékletre, oxigénre, óceánokra és a Vénuszra vonatkozó kijátszási feltételeid +2 vagy −2 értékkel módosulnak, mindig a választásod szerint."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Mining Guild",
+  "desc": "30 M€-tel, 5 acéllal és 1 acéltermeléssel kezdesz.",
+  "effects": [
+   "Valahányszor acél vagy titán lehelyezési bónuszt adó mezőre helyezel lapkát, növeld az acéltermelésed 1 értékkel."
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "10 titánnal és 23 M€-tel kezdesz.",
+  "effects": [
+   "Minden titánod 1 M€-tel többet ér."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tharsis Köztársaság",
+  "desc": "40 M€-tel kezdesz. Első akcióként a játékban helyezz le egy városlapkát!",
+  "effects": [
+   "Amikor bárki városlapkát helyez le A MARSRA, növeld a M€-termelésed 1 értékkel. Amikor te helyezel le városlapkát, kapsz 3 M€-t."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "1 energiatermeléssel és 48 M€-tel kezdesz.",
+  "effects": [
+   "Amikor energia ikonos kártyát VAGY AZ ERŐMŰ ÁLTALÁNOS PROJEKTET játszod ki, 3 M€-tel kevesebbet fizetsz érte."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "United Nations Mars Initiative",
+  "desc": "40 M€-tel kezdesz.",
+  "actions": [
+   "Ha a terraformációs rátád nőtt ebben a generációban, fizethetsz 3 M€-t, hogy még 1 értékkel növeld."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Szövetséges bank",
+  "desc": "Növeld a M€-termelésed 4 értékkel! Kapsz 3 M€-t."
+ },
+ "Biosphere Support": {
+  "name": "A bioszféra támogatása",
+  "desc": "Növeld a palántatermelésed 2 értékkel! Csökkentsd a M€-termelésed 1 értékkel!"
+ },
+ "Aquifer Turbines": {
+  "name": "Víztározó turbinák",
+  "desc": "Helyezz le egy óceánlapkát! Növeld az energiatermelésed 2 értékkel! Fizess 3 M€-t!"
+ },
+ "Mohole Excavation": {
+  "name": "Mohole kitermelés",
+  "desc": "Növeld az acéltermelésed 1 értékkel és a hőtermelésed 2 értékkel! Kapsz 2 hőt."
+ },
+ "Early Settlement": {
+  "name": "Korai település",
+  "desc": "Növeld a palántatermelésed 1 értékkel! Helyezz le egy városlapkát!"
+ },
+ "Biofuels": {
+  "name": "Bioüzemanyagok",
+  "desc": "Növeld az energia- és a palántatermelésed 1 értékkel! Kapsz 2 palántát."
+ },
+ "Power Generation": {
+  "name": "Energiatermelés",
+  "desc": "Növeld az energiatermelésed 3 értékkel!"
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Önellátó település",
+  "desc": "Növeld a M€-termelésed 2 értékkel! Helyezz le egy városlapkát!"
+ },
+ "Mining Operations": {
+  "name": "Bányászati műveletek",
+  "desc": "Növeld az acéltermelésed 2 értékkel! Kapsz 4 acélt."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI alvállalkozó",
+  "desc": "Növeld a TR-ed 3 értékkel! Húzz egy kártyát!"
+ },
+ "Dome Farming": {
+  "name": "Kupolagazdálkodás",
+  "desc": "Növeld a M€-termelésed 2 értékkel és a palántatermelésed 1 értékkel!"
+ },
+ "Business Empire": {
+  "name": "Üzletbirodalom",
+  "desc": "Növeld a M€-termelésed 6 értékkel! Fizess 6 M€-t!"
+ },
+ "Donation": {
+  "name": "Adomány",
+  "desc": "Kapsz 21 M€-t."
+ },
+ "Nitrogen Shipment": {
+  "name": "Nitrogénszállítás",
+  "desc": "Növeld a palántatermelésed 1 értékkel! Növeld a TR-ed 1 értékkel! Kapsz 5 M€-t."
+ },
+ "Smelting Plant": {
+  "name": "Kohó",
+  "desc": "Növeld az oxigénszintet 2 értékkel! Kapsz 5 acélt."
+ },
+ "Supplier": {
+  "name": "Ellátó",
+  "desc": "Növeld az energiatermelésed 2 értékkel! Kapsz 4 acélt."
+ },
+ "Supply Drop": {
+  "name": "Ellátmánycsomagok",
+  "desc": "Kapsz 3 titánt, 8 acélt és 3 palántát."
+ },
+ "Great Aquifer": {
+  "name": "Nagy víztározó",
+  "desc": "Helyezz le 2 óceánlapkát!"
+ },
+ "Biolab": {
+  "name": "Biolaboratórium",
+  "desc": "Növeld a palántatermelésed 1 értékkel! Húzz 3 kártyát!"
+ },
+ "Martian Industries": {
+  "name": "Marsi ipar",
+  "desc": "Növeld az energia- és az acéltermelésed 1 értékkel! Kapsz 6 M€-t."
+ },
+ "Io Research Outpost": {
+  "name": "Io vizsgálati előörs",
+  "desc": "Növeld a titántermelésed 1 értékkel! Húzz egy kártyát!"
+ },
+ "Polar Industries": {
+  "name": "Sarki ipar",
+  "desc": "Növeld a hőtermelésed 2 értékkel! Helyezz le egy óceánlapkát!"
+ },
+ "Society Support": {
+  "name": "A társadalom támogatása",
+  "desc": "Növeld a palánta-, energia- és hőtermelésed 1 értékkel! Csökkentsd a M€-termelésed 1 értékkel!"
+ },
+ "Galilean Mining": {
+  "name": "Bányászat a Galilei-holdakon",
+  "desc": "Növeld a titántermelésed 2 értékkel! Fizess 5 M€-t!"
+ },
+ "Huge Asteroid": {
+  "name": "Hatalmas aszteroida",
+  "desc": "Növeld a hőmérsékletet 3 értékkel! Fizess 5 M€-t!"
+ },
+ "Metals Company": {
+  "name": "Fémek cége",
+  "desc": "Növeld a M€-, acél- és titántermelésed 1 értékkel!"
+ },
+ "Loan": {
+  "name": "Hitel",
+  "desc": "Kapsz 30 M€-t. Csökkentsd a M€-termelésed 2 értékkel!"
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Növeld a hőtermelésed 3 értékkel! Kapsz 3 hőt."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Fémben gazdag aszteroida",
+  "desc": "Növeld a hőmérsékletet 1 értékkel! Kapsz 4 titánt és 4 acélt."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitális építőudvar",
+  "desc": "Növeld a titántermelésed 1 értékkel! Kapsz 4 titánt."
+ },
+ "Acquired Space Agency": {
+  "name": "Űrügynökség felvásárlása",
+  "desc": "Kapsz 6 titánt. Fedj fel kártyákat, amíg két űr ikonos kártyát nem fedsz fel! Ezeket vedd a kezedbe, a többit dobd el!"
+ },
+ "Research Network": {
+  "name": "Kutatási hálózat",
+  "desc": "Növeld a M€-termelésed 1 értékkel! Húzz 3 kártyát! Kijátszás után, amikor akciót hajtasz végre, a dzsóker ikon tetszőleges, általad választott ikonnak számít."
+ },
+ "Eccentric Sponsor": {
+  "name": "Különcködő szponzor",
+  "desc": "JÁTSSZ KI EGY KÁRTYÁT A KEZEDBŐL 25 M€ KEDVEZMÉNNYEL!"
+ },
+ "Ecology Experts": {
+  "name": "Ökológiai szakértők",
+  "desc": "Növeld a palántatermelésed 1 értékkel! JÁTSSZ KI EGY KÁRTYÁT A KEZEDBŐL A GLOBÁLIS KIJÁTSZÁSI FELTÉTELEK FIGYELMEN KÍVÜL HAGYÁSÁVAL!"
+ },
+ "Experimental Forest": {
+  "name": "Kísérleti erdő",
+  "desc": "Helyezz le 1 növényzetlapkát, és növeld az oxigénszintet 1 értékkel! Fedj fel kártyákat, amíg két növény ikonos kártyát nem fedsz fel! Ezeket vedd a kezedbe, a többit dobd el!"
+ }
+}

@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Kampuni Iliyonunuliwa",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 3."
+ },
+ "Advanced Alloys": {
+  "name": "Aloi za Hali ya Juu",
+  "effects": [
+   "Kila titani uliyo nayo ina thamani ya 1 M€ zaidi.",
+   "Kila chuma ulicho nacho kina thamani ya 1 M€ zaidi."
+  ]
+ },
+ "AI Central": {
+  "name": "Kituo Kikuu cha AI",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1.",
+  "actions": [
+   "Chukua kadi 2."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Teknolojia ya Kupinga Uvutano",
+  "effects": [
+   "Unapocheza kadi, unalipa 2 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Muungano wa Uchimbaji wa Asteroidi",
+  "desc": "Punguza uzalishaji wowote wa titani hatua 1 na uongeze wako hatua 1."
+ },
+ "Bribed Committee": {
+  "name": "Kamati Iliyohongwa",
+  "desc": "Pandisha TR yako hatua 2."
+ },
+ "Building Industries": {
+  "name": "Viwanda vya Ujenzi",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa chuma hatua 2."
+ },
+ "Business Contacts": {
+  "name": "Mawasiliano ya Biashara",
+  "desc": "Tazama kadi 4 za juu za rundo. Chukua 2 mkononi mwako na utupe zilizobaki."
+ },
+ "Business Network": {
+  "name": "Mtandao wa Biashara",
+  "desc": "Punguza uzalishaji wako wa M€ hatua 1.",
+  "actions": [
+   "Tazama kadi ya juu kisha uinunue au uitupe."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Migodi ya Adhabu ya Callisto",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 3."
+ },
+ "Caretaker Contract": {
+  "name": "Mkataba wa Utunzaji",
+  "actions": [
+   "Tumia joto 8 ili kupandisha Kiwango chako cha Terraform hatua 1."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1 kwa kila lebo ya Dunia uliyo nayo, ikiwemo hii."
+ },
+ "CEO's Favorite Project": {
+  "name": "Mradi Pendwa wa Mkurugenzi",
+  "desc": "Ongeza rasilimali 1 kwenye kadi yako yoyote ambayo tayari ina angalau rasilimali 1."
+ },
+ "Commercial District": {
+  "name": "Wilaya ya Biashara",
+  "desc": "Weka kigae hiki. Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 4.",
+  "vpText": [
+   "PU 1 kwa kila kigae cha jiji jirani."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Ngome ya Shirika",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 3. Weka kigae cha jiji."
+ },
+ "Development Center": {
+  "name": "Kituo cha Maendeleo",
+  "actions": [
+   "Tumia nishati 1 ili kuchukua kadi."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Manati ya Dunia",
+  "effects": [
+   "Unapocheza kadi, unalipa 2 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Earth Office": {
+  "name": "Ofisi ya Dunia",
+  "effects": [
+   "Unapocheza lebo ya Dunia, unalipa 3 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Manati ya Umeme",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1.",
+  "actions": [
+   "Tumia mmea 1 au chuma 1 ili kupata 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Kunyonya Nishati",
+  "desc": "Punguza uzalishaji wowote wa nishati hatua 1 na uongeze wako hatua 1."
+ },
+ "Fuel Factory": {
+  "name": "Kiwanda cha Mafuta",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa titani na wa M€ hatua 1 kila mmoja."
+ },
+ "Gene Repair": {
+  "name": "Ukarabati wa Jeni",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 2."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Muungano wa Genge Kuu",
+  "desc": "Punguza uzalishaji wowote wa chuma hatua 1 na uongeze wako hatua 1."
+ },
+ "Hackers": {
+  "name": "Wadukuzi",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uzalishaji wowote wa M€ hatua 2. Ongeza uzalishaji wako wa M€ hatua 2."
+ },
+ "Hired Raiders": {
+  "name": "Wavamizi wa Kukodiwa",
+  "desc": "Iba hadi chuma 2, au 3 M€ kutoka kwa mchezaji yeyote."
+ },
+ "Indentured Workers": {
+  "name": "Wafanyakazi wa Mkataba",
+  "desc": "Kadi inayofuata unayocheza katika kizazi hiki inagharimu 8 M€ pungufu."
+ },
+ "Industrial Center": {
+  "name": "Kituo cha Viwanda",
+  "desc": "Weka kigae hiki jirani na kigae cha jiji.",
+  "actions": [
+   "Tumia 7 M€ ili kuongeza uzalishaji wako wa chuma hatua 1."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Chombo cha Koloni cha Kati ya Nyota"
+ },
+ "Invention Contest": {
+  "name": "Shindano la Uvumbuzi",
+  "desc": "Tazama kadi 3 za juu za rundo. Chukua 1 mkononi mwako na utupe zilizobaki."
+ },
+ "Inventors' Guild": {
+  "name": "Chama cha Wavumbuzi",
+  "actions": [
+   "Tazama kadi ya juu kisha uinunue au uitupe."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Mkopo wa Uwekezaji",
+  "desc": "Punguza uzalishaji wako wa M€ hatua 1. Pata 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Viwanda vya Uchimbaji vya Io",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 2 na uzalishaji wako wa M€ hatua 2.",
+  "vpText": [
+   "PU 1 kwa kila lebo ya Mshtarii uliyo nayo."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Kituo cha Uchunguzi cha Lagrange",
+  "desc": "Chukua kadi 1."
+ },
+ "Land Claim": {
+  "name": "Dai la Ardhi",
+  "desc": "Jiwekee eneo lisilohifadhiwa: ni wewe tu unayeweza kuweka kigae hapo."
+ },
+ "Lightning Harvest": {
+  "name": "Mavuno ya Radi",
+  "desc": "Ongeza uzalishaji wako wa nishati na uzalishaji wako wa M€ hatua moja kila mmoja."
+ },
+ "Mars University": {
+  "name": "Chuo Kikuu cha Mirihi",
+  "effects": [
+   "Unapocheza lebo ya sayansi, ikiwemo hii, unaweza kutupa kadi kutoka mkononi ili kuchukua kadi."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Kigeuzi cha Masi",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 6.",
+  "effects": [
+   "Unapocheza kadi ya anga, unalipa 2 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Media Archives": {
+  "name": "Hifadhi za Vyombo vya Habari",
+  "desc": "Pata 1 M€ kwa kila tukio LILILOWAHI KUCHEZWA na wachezaji wote."
+ },
+ "Media Group": {
+  "name": "Kundi la Vyombo vya Habari",
+  "effects": [
+   "Baada ya kucheza kadi ya tukio, unapata 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Maabara ya Tiba",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1 kwa kila lebo 2 za ujenzi ulizo nazo, ikiwemo hii."
+ },
+ "Mine": {
+  "name": "Mgodi",
+  "desc": "Ongeza uzalishaji wako wa chuma hatua 1."
+ },
+ "Mineral Deposit": {
+  "name": "Hazina ya Madini",
+  "desc": "Pata chuma 5."
+ },
+ "Mining Area": {
+  "name": "Eneo la Uchimbaji",
+  "desc": "Weka kigae hiki kwenye eneo lenye ziada ya kuweka ya chuma au titani, jirani na kigae chako kingine. Ongeza uzalishaji wako wa rasilimali hiyo hatua 1."
+ },
+ "Miranda Resort": {
+  "name": "Hoteli ya Mapumziko ya Miranda",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1 kwa kila lebo ya Dunia uliyo nayo."
+ },
+ "Olympus Conference": {
+  "name": "Mkutano wa Olympus",
+  "desc": "Unapocheza lebo ya sayansi, ikiwemo hii, ama ongeza rasilimali ya sayansi kwenye kadi hii, ama ondoa rasilimali ya sayansi kutoka kadi hii ili kuchukua kadi."
+ },
+ "Physics Complex": {
+  "name": "Jengo la Fizikia",
+  "actions": [
+   "Tumia nishati 6 ili kuongeza rasilimali ya sayansi kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 2 kwa kila rasilimali ya sayansi kwenye kadi hii."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Miundombinu ya Umeme",
+  "actions": [
+   "Tumia kiasi chochote cha nishati na upate M€ kiasi hicho hicho."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Muungano wa Usambazaji Umeme",
+  "desc": "Punguza uzalishaji wowote wa nishati hatua 1 na uongeze wako hatua 1."
+ },
+ "Protected Habitats": {
+  "name": "Makazi Yaliyolindwa",
+  "effects": [
+   "Wapinzani hawawezi kuondoa mimea, wanyama au vijidudu vyako."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kichimbaji cha Kwantamu",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 4.",
+  "effects": [
+   "Unapocheza kadi ya anga, unalipa 2 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Suti za Kinga ya Mionzi",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1."
+ },
+ "Research": {
+  "name": "Utafiti",
+  "desc": "Inahesabiwa kama kucheza kadi 2 za sayansi. Chukua kadi 2."
+ },
+ "Restricted Area": {
+  "name": "Eneo Lililozuiliwa",
+  "desc": "Weka kigae hiki.",
+  "actions": [
+   "Tumia 2 M€ ili kuchukua kadi."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Nguvukazi ya Roboti",
+  "desc": "Nakili kisanduku cha uzalishaji pekee cha mojawapo ya kadi zako za ujenzi."
+ },
+ "Sabotage": {
+  "name": "Hujuma",
+  "desc": "Ondoa hadi titani 3 kutoka kwa mchezaji yeyote, au chuma 4, au 7 M€."
+ },
+ "Satellites": {
+  "name": "Setilaiti",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1 kwa kila lebo ya anga uliyo nayo, ikiwemo hii."
+ },
+ "Security Fleet": {
+  "name": "Kikosi cha Ulinzi",
+  "actions": [
+   "Tumia titani 1 ili kuongeza rasilimali 1 ya mpiganaji kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila rasilimali ya mpiganaji kwenye kadi hii."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Lifti ya Anga",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 1.",
+  "actions": [
+   "Tumia chuma 1 ili kupata 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Kituo cha Anga",
+  "effects": [
+   "Unapocheza kadi ya anga, unalipa 2 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Sponsors": {
+  "name": "Wadhamini",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 2."
+ },
+ "Standard Technology": {
+  "name": "Teknolojia ya Kawaida",
+  "effects": [
+   "Baada ya kulipia mradi wa kawaida, isipokuwa kuuza hataza, unapata 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigradi",
+  "actions": [
+   "Ongeza kijidudu 1 kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila vijidudu 4 kwenye kadi hii."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Onyesho la Teknolojia",
+  "desc": "Chukua kadi mbili."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraforming ya Ganymede",
+  "desc": "Pandisha TR yako hatua 1 kwa kila lebo ya Mshtarii uliyo nayo, ikiwemo hii."
+ },
+ "Titanium Mine": {
+  "name": "Mgodi wa Titani",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 1."
+ },
+ "Toll Station": {
+  "name": "Kituo cha Ushuru",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1 kwa kila lebo ya anga waliyo nayo WAPINZANI wako."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Chombo cha Utafiti cha Nje ya Neptuni",
+  "desc": "Chombo cha utafiti cha anga za mbali: kina thamani ya PU 1."
+ },
+ "Tropical Resort": {
+  "name": "Hoteli ya Kitropiki",
+  "desc": "Punguza uzalishaji wako wa joto hatua 2 na uongeze uzalishaji wako wa M€ hatua 3."
+ },
+ "Vesta Shipyard": {
+  "name": "Kiwanda cha Meli cha Vesta",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 1."
+ },
+ "Viral Enhancers": {
+  "name": "Viboreshaji vya Virusi",
+  "effects": [
+   "Unapocheza lebo ya mmea, kijidudu au mnyama, ikiwemo hii, pata mmea 1 au ongeza rasilimali 1 kwenye KADI HIYO."
+  ]
+ },
+ "Virus": {
+  "name": "Virusi",
+  "desc": "Ondoa hadi wanyama 2 au mimea 5 kutoka kwa mchezaji yeyote."
+ },
+ "SF Memorial": {
+  "name": "Kumbukumbu ya SF",
+  "desc": "Chukua kadi 1."
+ },
+ "House Printing": {
+  "name": "Uchapishaji wa Nyumba",
+  "desc": "Ongeza uzalishaji wako wa chuma hatua 1."
+ },
+ "Space Hotels": {
+  "name": "Hoteli za Anga",
+  "desc": "Ongeza uzalishaji wa M€ hatua 4."
+ },
+ "Martian Survey": {
+  "name": "Upimaji wa Mirihi",
+  "desc": "Chukua kadi mbili."
+ },
+ "Research Coordination": {
+  "name": "Uratibu wa Utafiti",
+  "desc": "Baada ya kuchezwa, unapofanya kitendo, lebo huru inahesabiwa kama lebo yoyote upendayo."
+ },
+ "Lava Tube Settlement": {
+  "name": "Makazi ya Pango la Lava",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 2. Weka kigae cha jiji kwenye ENEO LA VOLKANO bila kujali majiji jirani."
+ },
+ "Psychrophiles": {
+  "name": "Vijidudu vya Baridi",
+  "actions": [
+   "Ongeza kijidudu 1 kwenye kadi hii."
+  ],
+  "effects": [
+   "Unapolipia kadi ya mmea, vijidudu vilivyo hapa vinaweza kutumika kama 2 M€ kila kimoja."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Teknolojia ya Kujirekebisha",
+  "effects": [
+   "Masharti yako ya kimataifa ni +2 au -2 hatua, kwa chaguo lako kila mara."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Likeni Iliyozoea",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Mifumo Ikolojia ya Hali ya Juu"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroidi ya Amonia Iliyopunguzwa Kasi Angani",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 3 na uzalishaji wako wa mimea hatua 1. Ongeza vijidudu 2 kwenye kadi NYINGINE."
+ },
+ "Ants": {
+  "name": "Siafu",
+  "actions": [
+   "Ondoa kijidudu 1 kutoka kadi yoyote ili kuongeza 1 kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila vijidudu 2 kwenye kadi hii."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Kusukuma Maji ya Akwifa",
+  "actions": [
+   "Tumia 8 M€ ili kuweka kigae 1 cha bahari. CHUMA KINAWEZA KUTUMIKA kana kwamba unacheza kadi ya ujenzi."
+  ]
+ },
+ "Algae": {
+  "name": "Mwani",
+  "desc": "Pata mmea 1 na uongeze uzalishaji wako wa mimea hatua 2."
+ },
+ "ArchaeBacteria": {
+  "name": "Akiobakteria",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1."
+ },
+ "Arctic Algae": {
+  "name": "Mwani wa Aktiki",
+  "desc": "Pata mmea 1.",
+  "effects": [
+   "Mtu yeyote anapoweka kigae cha bahari, pata mimea 2."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Ziwa Bandia",
+  "desc": "Weka kigae 1 cha bahari KWENYE ENEO AMBALO HALIJAHIFADHIWA KWA BAHARI."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Usanisinuru Bandia",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1 au uzalishaji wako wa nishati hatua 2.",
+  "orTitles": [
+   "Ongeza uzalishaji wako wa nishati hatua 2",
+   "Ongeza uzalishaji wako wa mimea hatua 1"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroidi",
+  "desc": "Pandisha halijoto hatua 1 na upate titani 2. Ondoa hadi mimea 3 kutoka kwa mchezaji yeyote."
+ },
+ "Asteroid Mining": {
+  "name": "Uchimbaji wa Asteroidi",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 2."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Mwale Kutoka Asteroidi ya Thoriamu",
+  "desc": "Ongeza uzalishaji wako wa joto na uzalishaji wako wa nishati hatua 3 kila mmoja."
+ },
+ "Big Asteroid": {
+  "name": "Asteroidi Kubwa",
+  "desc": "Pandisha halijoto hatua 2 na upate titani 4. Ondoa hadi mimea 4 kutoka kwa mchezaji yeyote."
+ },
+ "Biomass Combustors": {
+  "name": "Vichomaji vya Biomasi",
+  "desc": "Punguza uzalishaji wowote wa mimea hatua 1 na uongeze uzalishaji wako wa nishati hatua 2."
+ },
+ "Birds": {
+  "name": "Ndege",
+  "desc": "Punguza uzalishaji wowote wa mimea hatua 2. PU 1 kwa kila mnyama kwenye kadi hii.",
+  "actions": [
+   "Ongeza mnyama kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila mnyama kwenye kadi hii."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Vumbi Jeusi la Ncha",
+  "desc": "Weka kigae cha bahari. Punguza uzalishaji wako wa M€ hatua 2 na uongeze uzalishaji wako wa joto hatua 3."
+ },
+ "Breathing Filters": {
+  "name": "Vichujio vya Kupumulia"
+ },
+ "Bushes": {
+  "name": "Vichaka",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 2. Pata mimea 2."
+ },
+ "Capital": {
+  "name": "Mji Mkuu",
+  "desc": "Weka kigae hiki. Punguza uzalishaji wako wa nishati hatua 2 na uongeze uzalishaji wako wa M€ hatua 5.",
+  "vpText": [
+   "PU 1 ya ziada kwa kila kigae cha bahari jirani na kigae hiki cha jiji."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Usindikaji wa Kaboneti",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa joto hatua 3."
+ },
+ "Cloud Seeding": {
+  "name": "Kupandikiza Mawingu",
+  "desc": "Punguza uzalishaji wako wa M€ hatua 1 na uzalishaji wowote wa joto hatua 1. Ongeza uzalishaji wako wa mimea hatua 2."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kambi ya Mafunzo ya Walowezi"
+ },
+ "Comet": {
+  "name": "Nyotamkia",
+  "desc": "Pandisha halijoto hatua 1 na uweke kigae cha bahari. Ondoa hadi mimea 3 kutoka kwa mchezaji yeyote."
+ },
+ "Convoy From Europa": {
+  "name": "Msafara Kutoka Europa",
+  "desc": "Weka kigae 1 cha bahari na uchukue kadi 1."
+ },
+ "Cupola City": {
+  "name": "Jiji la Kuba",
+  "desc": "Weka kigae cha jiji. Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 3."
+ },
+ "Decomposers": {
+  "name": "Waozeshaji",
+  "effects": [
+   "Unapocheza lebo ya mnyama, mmea au kijidudu, ikiwemo hii, ongeza kijidudu kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila vijidudu 3 kwenye kadi hii."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Kupasha Joto kwa Kisima Kirefu",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 1. Pandisha halijoto hatua 1."
+ },
+ "Deimos Down": {
+  "name": "Kuangushwa kwa Deimos",
+  "desc": "Pandisha halijoto hatua 3 na upate chuma 4. Ondoa hadi mimea 8 kutoka kwa mchezaji yeyote."
+ },
+ "Designed Microorganisms": {
+  "name": "Vijidudu Vilivyobuniwa",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 2."
+ },
+ "Domed Crater": {
+  "name": "Kasoko Lenye Kuba",
+  "desc": "Pata mimea 3. Weka kigae cha jiji. Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 3."
+ },
+ "Dust Seals": {
+  "name": "Vizuizi vya Vumbi"
+ },
+ "Ecological Zone": {
+  "name": "Eneo la Ikolojia",
+  "desc": "Weka kigae hiki jirani na msitu WOWOTE.",
+  "effects": [
+   "Unapocheza lebo ya mnyama au mmea IKIWEMO HIZI, ongeza mnyama kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila wanyama 2 kwenye kadi hii."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Kuokoa Nishati",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 1 kwa kila kigae cha jiji kilicho mchezoni."
+ },
+ "Eos Chasma National Park": {
+  "name": "Hifadhi ya Taifa ya Eos Chasma",
+  "desc": "Ongeza mnyama 1 KWENYE KADI YOYOTE YA WANYAMA. Pata mimea 3. Ongeza uzalishaji wako wa M€ hatua 2."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Kisumakisha cha Ikweta",
+  "actions": [
+   "Punguza uzalishaji wako wa nishati hatua 1 ili kupandisha Kiwango chako cha Terraform hatua 1."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Kuvu wa Baridi Kali",
+  "actions": [
+   "Pata mmea 1.",
+   "Ongeza vijidudu 2 kwenye kadi NYINGINE."
+  ]
+ },
+ "Farming": {
+  "name": "Kilimo",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 2 na uzalishaji wako wa mimea hatua 2. Pata mimea 2."
+ },
+ "Fish": {
+  "name": "Samaki",
+  "desc": "Punguza uzalishaji wowote wa mimea hatua 1.",
+  "actions": [
+   "Ongeza mnyama 1 kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila mnyama kwenye kadi hii."
+  ]
+ },
+ "Flooding": {
+  "name": "Mafuriko",
+  "desc": "Weka kigae cha bahari. IKIWA KUNA VIGAE JIRANI NA KIGAE HIKI CHA BAHARI, UNAWEZA KUONDOA 4 M€ KUTOKA KWA MMILIKI WA MOJAWAPO YA VIGAE HIVYO."
+ },
+ "Food Factory": {
+  "name": "Kiwanda cha Chakula",
+  "desc": "Punguza uzalishaji wako wa mimea hatua 1 na uongeze uzalishaji wako wa M€ hatua 4."
+ },
+ "Fusion Power": {
+  "name": "Nishati ya Muungano wa Nyuklia",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 3."
+ },
+ "Fueled Generators": {
+  "name": "Jenereta za Mafuta",
+  "desc": "Punguza uzalishaji wako wa M€ hatua 1 na uongeze uzalishaji wako wa nishati hatua 1."
+ },
+ "Ganymede Colony": {
+  "name": "Koloni ya Ganymede",
+  "desc": "Weka kigae cha jiji KWENYE ENEO LILILOHIFADHIWA.",
+  "vpText": [
+   "PU 1 kwa kila lebo ya Mshtarii uliyo nayo."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Nishati ya Jotoardhi",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 2."
+ },
+ "GHG Factories": {
+  "name": "Viwanda vya Gesi Joto",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa joto hatua 4."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bakteria Wanaozalisha Gesi Joto",
+  "actions": [
+   "Ongeza kijidudu 1 kwenye kadi hii.",
+   "Ondoa vijidudu 2 ili kupandisha halijoto hatua 1."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroidi Kubwa Sana ya Barafu",
+  "desc": "Pandisha halijoto hatua 2 na uweke vigae 2 vya bahari. Ondoa hadi mimea 6 kutoka kwa mchezaji yeyote."
+ },
+ "Giant Space Mirror": {
+  "name": "Kioo Kikubwa cha Anga",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 3."
+ },
+ "Grass": {
+  "name": "Nyasi",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1. Pata mimea 3."
+ },
+ "Great Dam": {
+  "name": "Bwawa Kuu",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 2."
+ },
+ "Greenhouses": {
+  "name": "Vitalu vya Kioo",
+  "desc": "Pata mmea 1 kwa kila kigae cha jiji kilicho mchezoni."
+ },
+ "Heather": {
+  "name": "Heza",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1. Pata mmea 1."
+ },
+ "Heat Trappers": {
+  "name": "Vinasa Joto",
+  "desc": "Punguza uzalishaji wowote wa joto hatua 2 na uongeze uzalishaji wako wa nishati hatua 1."
+ },
+ "Herbivores": {
+  "name": "Wala Majani",
+  "desc": "+1 mnyama kwenye kadi hii. -1 uzalishaji wowote wa mimea",
+  "effects": [
+   "Unapoweka kigae cha msitu, ongeza mnyama kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila wanyama 2 kwenye kadi hii."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroidi ya Barafu",
+  "desc": "Weka vigae 2 vya bahari."
+ },
+ "Ice Cap Melting": {
+  "name": "Kuyeyuka kwa Kofia ya Barafu",
+  "desc": "Weka kigae 1 cha bahari."
+ },
+ "Immigrant City": {
+  "name": "Jiji la Wahamiaji",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na upunguze uzalishaji wako wa M€ hatua 2. Weka kigae cha jiji.",
+  "effects": [
+   "Kigae cha jiji kinapowekwa, ikiwemo hiki, ongeza uzalishaji wako wa M€ hatua 1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Vyombo vya Wahamiaji",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 5.",
+  "vpText": [
+   "PU 1 kwa kila jiji la 3 lililo mchezoni."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Gesi Joto Iliyoagizwa",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 1 na upate joto 3."
+ },
+ "Imported Hydrogen": {
+  "name": "Hidrojeni Iliyoagizwa",
+  "desc": "Pata mimea 3, au ongeza vijidudu 3 au wanyama 2 kwenye kadi NYINGINE. Weka kigae cha bahari.",
+  "orTitles": [
+   "Pata mimea 3",
+   "Ongeza vijidudu 3 kwenye kadi NYINGINE",
+   "Ongeza wanyama 2 kwenye kadi NYINGINE"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitrojeni Iliyoagizwa",
+  "desc": "Pandisha TR yako hatua 1 na upate mimea 4. Ongeza vijidudu 3 kwenye kadi NYINGINE na wanyama 2 kwenye kadi NYINGINE."
+ },
+ "Import of Advanced GHG": {
+  "name": "Uagizaji wa Gesi Joto za Hali ya Juu",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 2."
+ },
+ "Industrial Microbes": {
+  "name": "Vijidudu vya Viwandani",
+  "desc": "Ongeza uzalishaji wako wa nishati na uzalishaji wako wa chuma hatua 1 kila mmoja."
+ },
+ "Insects": {
+  "name": "Wadudu",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1 kwa kila lebo ya mmea uliyo nayo."
+ },
+ "Insulation": {
+  "name": "Kihami Joto",
+  "desc": "Punguza uzalishaji wako wa joto idadi yoyote ya hatua na uongeze uzalishaji wako wa M€ idadi hiyo hiyo ya hatua."
+ },
+ "Ironworks": {
+  "name": "Kiwanda cha Chuma",
+  "actions": [
+   "Tumia nishati 4 ili kupata chuma 1 na kupandisha oksijeni hatua 1."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Kilimo cha Mwani wa Baharini",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 2 na uzalishaji wako wa mimea hatua 3. Pata mimea 2."
+ },
+ "Lake Marineris": {
+  "name": "Ziwa Marineris",
+  "desc": "Weka vigae 2 vya bahari."
+ },
+ "Large Convoy": {
+  "name": "Msafara Mkubwa",
+  "desc": "Weka kigae cha bahari na uchukue kadi 2. Pata mimea 5 au ongeza wanyama 4 kwenye kadi NYINGINE.",
+  "orTitles": [
+   "Pata mimea 5",
+   "Ongeza wanyama 4 kwenye kadi NYINGINE"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Mitiririko ya Lava",
+  "desc": "Pandisha halijoto hatua 2 na uweke kigae hiki KWENYE THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS AU ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Likeni",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1."
+ },
+ "Livestock": {
+  "name": "Mifugo",
+  "desc": "Punguza uzalishaji wako wa mimea hatua 1 na uongeze uzalishaji wako wa M€ hatua 2",
+  "actions": [
+   "Ongeza mnyama 1 kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila mnyama kwenye kadi hii."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Kunasa Joto Mahali Hapo",
+  "desc": "Tumia joto 5 ili ama kupata mimea 4, ama kuongeza wanyama 2 kwenye kadi NYINGINE.",
+  "orTitles": [
+   "Pata mimea 4",
+   "Ongeza wanyama 2 kwenye kadi NYINGINE"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Mwale wa Mwezi",
+  "desc": "Punguza uzalishaji wako wa M€ hatua 2 na uongeze uzalishaji wako wa joto na uzalishaji wako wa nishati hatua 2 kila mmoja."
+ },
+ "Magnetic Field Dome": {
+  "name": "Kuba la Uga wa Sumaku",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 2 na uongeze uzalishaji wako wa mimea hatua 1. Pandisha TR yako hatua 1."
+ },
+ "Magnetic Field Generators": {
+  "name": "Jenereta za Uga wa Sumaku",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 4 na uongeze uzalishaji wako wa mimea hatua 2. Pandisha TR yako hatua 3."
+ },
+ "Mangrove": {
+  "name": "Mikoko",
+  "desc": "Weka kigae cha msitu KWENYE ENEO LILILOHIFADHIWA KWA BAHARI na upandishe oksijeni hatua 1. Puuza masharti ya kawaida ya kuweka kwa hili."
+ },
+ "Martian Rails": {
+  "name": "Reli za Mirihi",
+  "actions": [
+   "Tumia nishati 1 ili kupata 1 M€ kwa kila kigae cha jiji KWENYE MIRIHI."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Methani Kutoka Titan",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 2 na uzalishaji wako wa mimea hatua 2."
+ },
+ "Micro-Mills": {
+  "name": "Viwanda Vidogo",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 1."
+ },
+ "Mining Expedition": {
+  "name": "Msafara wa Uchimbaji",
+  "desc": "Pandisha oksijeni hatua 1. Ondoa mimea 2 kutoka kwa mchezaji yeyote. Pata chuma 2."
+ },
+ "Mining Rights": {
+  "name": "Haki za Uchimbaji",
+  "desc": "Weka kigae hiki kwenye eneo lenye ziada ya kuweka ya chuma au titani. Ongeza uzalishaji huo hatua 1."
+ },
+ "Mohole Area": {
+  "name": "Eneo la Mohole",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 4. Weka kigae hiki KWENYE ENEO LILILOHIFADHIWA KWA BAHARI."
+ },
+ "Moss": {
+  "name": "Mosi",
+  "desc": "Poteza mmea 1. Ongeza uzalishaji wako wa mimea hatua 1."
+ },
+ "Natural Preserve": {
+  "name": "Hifadhi ya Asili",
+  "desc": "Weka kigae hiki MBALI NA KIGAE KINGINE CHOCHOTE. Ongeza uzalishaji wako wa M€ hatua 1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bakteria Wanaopunguza Nitraiti",
+  "desc": "Ongeza vijidudu 3 kwenye kadi hii.",
+  "actions": [
+   "Ongeza kijidudu 1 kwenye kadi hii.",
+   "Ondoa vijidudu 3 ili kupandisha TR yako hatua 1."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroidi Yenye Nitrojeni Nyingi",
+  "desc": "Pandisha Kiwango chako cha Terraform hatua 2 na halijoto hatua 1. Ongeza uzalishaji wako wa mimea hatua 1, au hatua 4 ukiwa na lebo 3 za mmea."
+ },
+ "Nitrophilic Moss": {
+  "name": "Mosi Inayopenda Nitrojeni",
+  "desc": "Poteza mimea 2. Ongeza uzalishaji wako wa mimea hatua 2."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 3. Weka kigae cha jiji KWENYE ENEO LILILOHIFADHIWA, ukipuuza masharti ya kawaida ya kuweka."
+ },
+ "Noctis Farming": {
+  "name": "Kilimo cha Noctis",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1 na upate mimea 2."
+ },
+ "Nuclear Power": {
+  "name": "Nishati ya Nyuklia",
+  "desc": "Punguza uzalishaji wako wa M€ hatua 2 na uongeze uzalishaji wako wa nishati hatua 3."
+ },
+ "Nuclear Zone": {
+  "name": "Eneo la Nyuklia",
+  "desc": "Weka kigae hiki na upandishe halijoto hatua 2."
+ },
+ "Open City": {
+  "name": "Jiji Wazi",
+  "desc": "Pata mimea 2. Weka kigae cha jiji. Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 4."
+ },
+ "Optimal Aerobraking": {
+  "name": "Upunguzaji Kasi Bora Angani",
+  "effects": [
+   "Unapocheza tukio la anga, unapata 3 M€ na joto 3."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Kichakataji Madini",
+  "actions": [
+   "Tumia nishati 4 ili kupata titani 1 na kupandisha oksijeni hatua 1."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Uchimbaji wa Ardhi Iliyoganda",
+  "desc": "Weka kigae 1 cha bahari."
+ },
+ "Peroxide Power": {
+  "name": "Nishati ya Peroksidi",
+  "desc": "Punguza uzalishaji wako wa M€ hatua 1 na uongeze uzalishaji wako wa nishati hatua 2."
+ },
+ "Pets": {
+  "name": "Wanyama Vipenzi",
+  "desc": "Ongeza mnyama 1 kwenye kadi hii.",
+  "effects": [
+   "Kigae chochote cha jiji kinapowekwa, ongeza mnyama kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila wanyama 2 hapa."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Bandari ya Anga ya Phobos",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 1 na uweke kigae cha jiji KWENYE ENEO LILILOHIFADHIWA."
+ },
+ "Plantation": {
+  "name": "Shamba Kubwa",
+  "desc": "Weka kigae cha msitu na upandishe oksijeni hatua 1."
+ },
+ "Power Grid": {
+  "name": "Gridi ya Umeme",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua moja kwa kila lebo ya nishati uliyo nayo, ikiwemo hii."
+ },
+ "Power Plant": {
+  "name": "Kituo cha Umeme",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 1."
+ },
+ "Predators": {
+  "name": "Wawindaji",
+  "actions": [
+   "Ondoa mnyama 1 kutoka kadi yoyote na umuongeze kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila mnyama kwenye kadi hii."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Bonde Lililolindwa",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 2. Weka kigae cha msitu KWENYE ENEO LILILOHIFADHIWA KWA BAHARI, ukipuuza masharti ya kawaida ya kuweka, na upandishe oksijeni hatua 1."
+ },
+ "Rad-Chem Factory": {
+  "name": "Kiwanda cha Kemikali za Mionzi",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1. Pandisha TR yako hatua 2."
+ },
+ "Regolith Eaters": {
+  "name": "Walaji wa Regoliti",
+  "actions": [
+   "Ongeza kijidudu 1 kwenye kadi hii.",
+   "Ondoa vijidudu 2 kutoka kadi hii ili kupandisha kiwango cha oksijeni hatua 1."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Kuachilia Gesi Ajizi",
+  "desc": "Pandisha Kiwango chako cha Terraform hatua 2."
+ },
+ "Research Outpost": {
+  "name": "Kituo cha Utafiti cha Mbali",
+  "desc": "Weka kigae cha jiji MBALI NA KIGAE KINGINE CHOCHOTE.",
+  "effects": [
+   "Unapocheza kadi, unalipa 1 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Ujenzi wa Magari ya Uchunguzi",
+  "effects": [
+   "Kigae chochote cha jiji kinapowekwa, pata 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Kutafuta Uhai",
+  "actions": [
+   "Tumia 1 M€ ili kufunua kadi ya juu ya rundo la kuchukua. Ikiwa kadi hiyo ina lebo ya kijidudu, ongeza rasilimali ya sayansi hapa."
+  ],
+  "vpText": [
+   "PU 3 ukiwa na rasilimali moja au zaidi ya sayansi hapa."
+  ]
+ },
+ "Shuttles": {
+  "name": "Vyombo vya Usafiri",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 2.",
+  "effects": [
+   "Unapocheza kadi ya anga, unalipa 2 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Small Animals": {
+  "name": "Wanyama Wadogo",
+  "desc": "Punguza uzalishaji wowote wa mimea hatua 1.",
+  "actions": [
+   "Ongeza mnyama 1 kwenye kadi hii."
+  ],
+  "vpText": [
+   "PU 1 kwa kila wanyama 2 kwenye kadi hii."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Kiwanda cha Udongo",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa mimea hatua 1."
+ },
+ "Solar Power": {
+  "name": "Nishati ya Jua",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 1."
+ },
+ "Solar Wind Power": {
+  "name": "Nishati ya Upepo wa Jua",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 1 na upate titani 2."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 7."
+ },
+ "Space Mirrors": {
+  "name": "Vioo vya Anga",
+  "actions": [
+   "Tumia 7 M€ ili kuongeza uzalishaji wako wa nishati hatua 1."
+  ]
+ },
+ "Special Design": {
+  "name": "Muundo Maalum",
+  "desc": "Kadi inayofuata unayocheza katika kizazi hiki ina +2 au -2 hatua katika masharti ya kimataifa, kwa chaguo lako."
+ },
+ "Steelworks": {
+  "name": "Kiwanda cha Chuma cha Pua",
+  "actions": [
+   "Tumia nishati 4 ili kupata chuma 2 na kupandisha oksijeni hatua 1."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Mgodi wa Wazi",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 2. Ongeza uzalishaji wako wa chuma hatua 2 na uzalishaji wako wa titani hatua 1. Pandisha oksijeni hatua 2."
+ },
+ "Subterranean Reservoir": {
+  "name": "Hifadhi ya Maji ya Chini ya Ardhi",
+  "desc": "Weka kigae 1 cha bahari."
+ },
+ "Symbiotic Fungus": {
+  "name": "Kuvu Shirikishi",
+  "actions": [
+   "Ongeza kijidudu kwenye kadi NYINGINE."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Nishati ya Mkazo wa Tektoniki",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 3."
+ },
+ "Towing A Comet": {
+  "name": "Kuvuta Nyotamkia",
+  "desc": "Pata mimea 2. Pandisha kiwango cha oksijeni hatua 1 na uweke kigae cha bahari."
+ },
+ "Trees": {
+  "name": "Miti",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 3. Pata mmea 1."
+ },
+ "Tundra Farming": {
+  "name": "Kilimo cha Tundra",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1 na uzalishaji wako wa M€ hatua 2. Pata mmea 1."
+ },
+ "Underground City": {
+  "name": "Jiji la Chini ya Ardhi",
+  "desc": "Weka kigae cha jiji. Punguza uzalishaji wako wa nishati hatua 2 na uongeze uzalishaji wako wa chuma hatua 2."
+ },
+ "Underground Detonations": {
+  "name": "Milipuko ya Chini ya Ardhi",
+  "actions": [
+   "Tumia 10 M€ ili kuongeza uzalishaji wako wa joto hatua 2."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Eneo la Mjini",
+  "desc": "Punguza uzalishaji wako wa nishati hatua 1 na uongeze uzalishaji wako wa M€ hatua 2. Weka kigae cha jiji JIRANI NA ANGALAU VIGAE VINGINE 2 VYA JIJI."
+ },
+ "Water Import From Europa": {
+  "name": "Kuagiza Maji Kutoka Europa",
+  "actions": [
+   "Lipa 12 M€ ili kuweka kigae cha bahari. TITANI INAWEZA KUTUMIKA kana kwamba unacheza kadi ya anga."
+  ],
+  "vpText": [
+   "PU 1 kwa kila lebo ya Mshtarii uliyo nayo."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Kiwanda cha Kupasua Maji",
+  "actions": [
+   "Tumia nishati 3 ili kupandisha oksijeni hatua 1."
+  ]
+ },
+ "Wave Power": {
+  "name": "Nishati ya Mawimbi",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 1."
+ },
+ "Windmills": {
+  "name": "Vinu vya Upepo",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 1."
+ },
+ "Worms": {
+  "name": "Minyoo",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1 kwa kila lebo 2 za kijidudu ulizo nazo, ikiwemo hii."
+ },
+ "Zeppelins": {
+  "name": "Zepelini",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1 kwa kila kigae cha jiji KWENYE MIRIHI."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Unaanza na uzalishaji wa titani 1 na 42 M€.",
+  "effects": [
+   "Kila mara lebo yoyote ya Mshtarii inapoingia mchezoni, ikiwemo hii, ongeza uzalishaji wako wa M€ hatua 1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Unaanza na 60 M€.",
+  "effects": [
+   "Unapocheza lebo ya Dunia, unalipa 3 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Unaanza na uzalishaji wa M€ 3 na 44 M€.",
+  "effects": [
+   "Unapocheza lebo ya ujenzi, unalipa 2 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Unaanza na uzalishaji wa titani 1 na 38 M€.",
+  "effects": [
+   "Unapocheza lebo ya Dunia, ikiwemo hii, chukua kadi."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Unaanza na 47 M€.",
+  "actions": [
+   "Tumia 4 M€ ili kuongeza (mojawapo ya) uzalishaji wako ULIO CHINI ZAIDI hatua 1."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Unaanza na 37 M€. Kama kitendo chako cha kwanza, chukua kadi 3 za Utangulizi, na ucheze mojawapo. Tupa zile mbili nyingine.",
+  "effects": [
+   "Unapocheza lebo ya sayansi, unalipa 2 M€ pungufu kwa kadi hiyo."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Unaanza na 45 M€. Kama kitendo chako cha kwanza, fadhili tuzo bure.",
+  "effects": [
+   "Unapocheza kadi yenye alama ya PU ISIYO HASI, ikiwemo hii, pata 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Shirika la Mwanzilishi",
+  "desc": "Unaanza na 42 M€. Badala ya kuchagua kutoka kadi 10 wakati wa maandalizi, unapata kadi 10 bure."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Unaanza na 57 M€.",
+  "effects": [
+   "Baada ya kulipia kadi au mradi wa kawaida wenye gharama ya msingi ya 20 M€ au zaidi, unapata 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Unaanza na uzalishaji wa mimea 2, mimea 3, na 36 M€.",
+  "effects": [
+   "Unaweza kulipa mimea 7 kila mara, badala ya 8, ili kuweka msitu."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Unaanza na uzalishaji wa joto 3 na 42 M€.",
+  "effects": [
+   "Unaweza kutumia joto kama M€. Huwezi kutumia M€ kama joto."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Unaanza na chuma 20 na 30 M€.",
+  "effects": [
+   "Kila mara unapocheza tukio, unapata 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Kama kitendo chako cha kwanza katika mchezo, chukua kadi 3. Anza na 45 M€.",
+  "effects": [
+   "Masharti yako ya halijoto, oksijeni, bahari na Zuhura ni +2 au -2 hatua, kwa chaguo lako kila mara."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Chama cha Wachimbaji",
+  "desc": "Unaanza na 30 M€, chuma 5 na uzalishaji wa chuma 1.",
+  "effects": [
+   "Kila mara unapoweka kigae kwenye eneo lenye ziada ya kuweka ya chuma au titani, ongeza uzalishaji wako wa chuma hatua 1"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Unaanza na titani 10 na 23 M€.",
+  "effects": [
+   "Kila titani yako ina thamani ya 1 M€ zaidi."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Jamhuri ya Tharsis",
+  "desc": "Unaanza na 40 M€. Kama kitendo chako cha kwanza katika mchezo, weka kigae cha jiji.",
+  "effects": [
+   "Kigae chochote cha jiji kinapowekwa KWENYE MIRIHI, ongeza uzalishaji wako wa M€ hatua 1. Unapoweka kigae cha jiji, pata 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Unaanza na uzalishaji wa nishati 1 na 48 M€.",
+  "effects": [
+   "Unapocheza kadi ya nishati AU MRADI WA KAWAIDA WA KITUO CHA UMEME, unalipa 3 M€ pungufu."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Mpango wa Mirihi wa Umoja wa Mataifa",
+  "desc": "Unaanza na 40 M€.",
+  "actions": [
+   "Ikiwa Kiwango chako cha Terraform kilipandishwa katika kizazi hiki, unaweza kulipa 3 M€ ili kukipandisha hatua 1 zaidi."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Benki Mshirika",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 4. Pata 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Msaada wa Biosfia",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 2. Punguza uzalishaji wako wa M€ hatua 1."
+ },
+ "Aquifer Turbines": {
+  "name": "Tabini za Akwifa",
+  "desc": "Weka kigae cha bahari. Ongeza uzalishaji wako wa nishati hatua 2. Lipa 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Uchimbaji wa Mohole",
+  "desc": "Ongeza uzalishaji wako wa chuma hatua 1 na uzalishaji wa joto hatua 2. Pata joto 2."
+ },
+ "Early Settlement": {
+  "name": "Makazi ya Mapema",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1. Weka kigae cha jiji."
+ },
+ "Biofuels": {
+  "name": "Nishati ya Mimea",
+  "desc": "Ongeza uzalishaji wako wa nishati na wa mimea hatua 1. Pata mimea 2."
+ },
+ "Power Generation": {
+  "name": "Uzalishaji wa Umeme",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 3."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Makazi Yanayojitosheleza",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 2. Weka kigae cha jiji."
+ },
+ "Mining Operations": {
+  "name": "Shughuli za Uchimbaji",
+  "desc": "Ongeza uzalishaji wako wa chuma hatua 2. Pata chuma 4."
+ },
+ "UNMI Contractor": {
+  "name": "Mkandarasi wa UNMI",
+  "desc": "Pandisha TR yako hatua 3. Chukua kadi."
+ },
+ "Dome Farming": {
+  "name": "Kilimo cha Kuba",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 2 na uzalishaji wa mimea hatua 1."
+ },
+ "Business Empire": {
+  "name": "Himaya ya Biashara",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 6. Lipa 6 M€."
+ },
+ "Donation": {
+  "name": "Mchango",
+  "desc": "Pata 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Shehena ya Nitrojeni",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1. Pandisha TR yako hatua 1. Pata 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Kiwanda cha Kuyeyusha",
+  "desc": "Pandisha oksijeni hatua 2. Pata chuma 5."
+ },
+ "Supplier": {
+  "name": "Msambazaji",
+  "desc": "Ongeza uzalishaji wako wa nishati hatua 2. Pata chuma 4."
+ },
+ "Supply Drop": {
+  "name": "Shehena ya Vifaa",
+  "desc": "Pata titani 3, chuma 8 na mimea 3."
+ },
+ "Great Aquifer": {
+  "name": "Akwifa Kuu",
+  "desc": "Weka vigae 2 vya bahari."
+ },
+ "Biolab": {
+  "name": "Maabara ya Biolojia",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1. Chukua kadi 3."
+ },
+ "Martian Industries": {
+  "name": "Viwanda vya Mirihi",
+  "desc": "Ongeza uzalishaji wako wa nishati na wa chuma hatua 1. Pata 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Kituo cha Utafiti cha Io",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 1. Chukua kadi."
+ },
+ "Polar Industries": {
+  "name": "Viwanda vya Ncha",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 2. Weka kigae cha bahari."
+ },
+ "Society Support": {
+  "name": "Msaada wa Jamii",
+  "desc": "Ongeza uzalishaji wako wa mimea, nishati na joto hatua 1. Punguza uzalishaji wa M€ hatua 1."
+ },
+ "Galilean Mining": {
+  "name": "Uchimbaji wa Galilaya",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 2. Lipa 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroidi Kubwa Mno",
+  "desc": "Pandisha halijoto hatua 3. Lipa 5 M€."
+ },
+ "Metals Company": {
+  "name": "Kampuni ya Metali",
+  "desc": "Ongeza uzalishaji wako wa M€, chuma na titani hatua 1."
+ },
+ "Loan": {
+  "name": "Mkopo",
+  "desc": "Pata 30 M€. Punguza uzalishaji wako wa M€ hatua 2."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Ongeza uzalishaji wako wa joto hatua 3. Pata joto 3."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroidi Yenye Metali Nyingi",
+  "desc": "Pandisha halijoto hatua 1. Pata titani 4 na chuma 4."
+ },
+ "Orbital Construction Yard": {
+  "name": "Karakana ya Ujenzi ya Obiti",
+  "desc": "Ongeza uzalishaji wako wa titani hatua 1. Pata titani 4."
+ },
+ "Acquired Space Agency": {
+  "name": "Shirika la Anga Lililonunuliwa",
+  "desc": "Pata titani 6. Funua kadi hadi ufunue kadi mbili zenye lebo za Anga. Zichukue mkononi mwako, tupa zilizobaki."
+ },
+ "Research Network": {
+  "name": "Mtandao wa Utafiti",
+  "desc": "Ongeza uzalishaji wako wa M€ hatua 1. Chukua kadi 3. Baada ya kuchezwa, unapofanya kitendo, lebo huru inahesabiwa kama lebo yoyote upendayo."
+ },
+ "Eccentric Sponsor": {
+  "name": "Mdhamini wa Ajabu",
+  "desc": "CHEZA KADI KUTOKA MKONONI KWA PUNGUZO LA 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Wataalamu wa Ikolojia",
+  "desc": "Ongeza uzalishaji wako wa mimea hatua 1. CHEZA KADI KUTOKA MKONONI, UKIPUUZA MASHARTI YA KIMATAIFA."
+ },
+ "Experimental Forest": {
+  "name": "Msitu wa Majaribio",
+  "desc": "Weka kigae 1 cha msitu na upandishe oksijeni hatua 1. Funua kadi hadi ufunue kadi mbili zenye lebo za mmea. Zichukue mkononi mwako na utupe zilizobaki."
+ }
+}

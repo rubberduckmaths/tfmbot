@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Yfirtekið fyrirtæki",
+  "desc": "Auktu M€-framleiðslu þína um 3 þrep."
+ },
+ "Advanced Alloys": {
+  "name": "Háþróaðar málmblöndur",
+  "effects": [
+   "Hvert títan sem þú átt er 1 M€ meira virði.",
+   "Hvert stál sem þú átt er 1 M€ meira virði."
+  ]
+ },
+ "AI Central": {
+  "name": "Gervigreindarmiðstöð",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep.",
+  "actions": [
+   "Dragðu 2 spil."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Andþyngdartækni",
+  "effects": [
+   "Þegar þú spilar spili greiðirðu 2 M€ minna fyrir það."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Smástirnanámusamsteypa",
+  "desc": "Lækkaðu títanframleiðslu hvaða leikmanns sem er um 1 þrep og auktu þína eigin um 1 þrep."
+ },
+ "Bribed Committee": {
+  "name": "Mútuþæg nefnd",
+  "desc": "Hækkaðu JMS þitt um 2 þrep."
+ },
+ "Building Industries": {
+  "name": "Byggingariðnaður",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu stálframleiðslu þína um 2 þrep."
+ },
+ "Business Contacts": {
+  "name": "Viðskiptatengsl",
+  "desc": "Skoðaðu efstu 4 spil bunkans. Taktu 2 á hendi og hentu hinum."
+ },
+ "Business Network": {
+  "name": "Viðskiptanet",
+  "desc": "Lækkaðu M€-framleiðslu þína um 1 þrep.",
+  "actions": [
+   "Skoðaðu efsta spilið og annaðhvort keyptu það eða hentu því."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Fanganámur á Kallistó",
+  "desc": "Auktu M€-framleiðslu þína um 3 þrep."
+ },
+ "Caretaker Contract": {
+  "name": "Umsjónarsamningur",
+  "actions": [
+   "Notaðu 8 hita til að hækka jarðmótunarstig þitt um 1 þrep."
+  ]
+ },
+ "Cartel": {
+  "name": "Samráðshringur",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep fyrir hvert Jarðartákn sem þú átt, að þessu meðtöldu."
+ },
+ "CEO's Favorite Project": {
+  "name": "Uppáhaldsverkefni forstjórans",
+  "desc": "Bættu 1 auðlind á eitthvert spila þinna sem hefur þegar að minnsta kosti 1 auðlind."
+ },
+ "Commercial District": {
+  "name": "Verslunarhverfi",
+  "desc": "Leggðu þessa flís. Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 4 þrep.",
+  "vpText": [
+   "1 stig fyrir hverja aðliggjandi borgarflís."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Virki fyrirtækisins",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 3 þrep. Leggðu borgarflís."
+ },
+ "Development Center": {
+  "name": "Þróunarmiðstöð",
+  "actions": [
+   "Notaðu 1 orku til að draga spil."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Jarðarslöngva",
+  "effects": [
+   "Þegar þú spilar spili greiðirðu 2 M€ minna fyrir það."
+  ]
+ },
+ "Earth Office": {
+  "name": "Jarðarskrifstofa",
+  "effects": [
+   "Þegar þú spilar Jarðartákni greiðirðu 3 M€ minna fyrir það."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Rafslöngva",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep.",
+  "actions": [
+   "Notaðu 1 plöntu eða 1 stál til að fá 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Orkustuldur",
+  "desc": "Lækkaðu orkuframleiðslu hvaða leikmanns sem er um 1 þrep og auktu þína eigin um 1 þrep."
+ },
+ "Fuel Factory": {
+  "name": "Eldsneytisverksmiðja",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu títan- og M€-framleiðslu þína um 1 þrep hvora."
+ },
+ "Gene Repair": {
+  "name": "Genaviðgerðir",
+  "desc": "Auktu M€-framleiðslu þína um 2 þrep."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Samsteypan við Miklabrún",
+  "desc": "Lækkaðu stálframleiðslu hvaða leikmanns sem er um 1 þrep og auktu þína eigin um 1 þrep."
+ },
+ "Hackers": {
+  "name": "Tölvuþrjótar",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og M€-framleiðslu hvaða leikmanns sem er um 2 þrep. Auktu M€-framleiðslu þína um 2 þrep."
+ },
+ "Hired Raiders": {
+  "name": "Leigðir ræningjar",
+  "desc": "Steldu allt að 2 stáli eða 3 M€ frá hvaða leikmanni sem er."
+ },
+ "Indentured Workers": {
+  "name": "Samningsbundnir verkamenn",
+  "desc": "Næsta spil sem þú spilar í þessari kynslóð kostar 8 M€ minna."
+ },
+ "Industrial Center": {
+  "name": "Iðnaðarmiðstöð",
+  "desc": "Leggðu þessa flís við hliðina á borgarflís.",
+  "actions": [
+   "Notaðu 7 M€ til að auka stálframleiðslu þína um 1 þrep."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Millistjörnu-nýlenduskip"
+ },
+ "Invention Contest": {
+  "name": "Uppfinningakeppni",
+  "desc": "Skoðaðu efstu 3 spil bunkans. Taktu 1 á hendi og hentu hinum."
+ },
+ "Inventors' Guild": {
+  "name": "Uppfinningamannagildið",
+  "actions": [
+   "Skoðaðu efsta spilið og annaðhvort keyptu það eða hentu því."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Fjárfestingarlán",
+  "desc": "Lækkaðu M€-framleiðslu þína um 1 þrep. Fáðu 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Námuiðnaður á Íó",
+  "desc": "Auktu títanframleiðslu þína um 2 þrep og M€-framleiðslu þína um 2 þrep.",
+  "vpText": [
+   "1 stig fyrir hvert Júpíterstákn sem þú átt."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrange-stjörnustöðin",
+  "desc": "Dragðu 1 spil."
+ },
+ "Land Claim": {
+  "name": "Landnám",
+  "desc": "Taktu frá ófrátekinn reit fyrir sjálfan þig: aðeins þú mátt leggja flís þar."
+ },
+ "Lightning Harvest": {
+  "name": "Eldingauppskera",
+  "desc": "Auktu orkuframleiðslu þína og M€-framleiðslu þína um eitt þrep hvora."
+ },
+ "Mars University": {
+  "name": "Marsháskóli",
+  "effects": [
+   "Þegar þú spilar vísindatákni, þessu meðtöldu, máttu henda spili af hendi til að draga spil."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Massabreytir",
+  "desc": "Auktu orkuframleiðslu þína um 6 þrep.",
+  "effects": [
+   "Þegar þú spilar geimspili greiðirðu 2 M€ minna fyrir það."
+  ]
+ },
+ "Media Archives": {
+  "name": "Fjölmiðlasafn",
+  "desc": "Fáðu 1 M€ fyrir hvern atburð sem ALLIR leikmenn hafa NOKKURN TÍMA SPILAÐ."
+ },
+ "Media Group": {
+  "name": "Fjölmiðlasamsteypa",
+  "effects": [
+   "Eftir að þú spilar atburðaspili færðu 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Læknisfræðistofa",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep fyrir hver 2 byggingartákn sem þú átt, að þessu meðtöldu."
+ },
+ "Mine": {
+  "name": "Náma",
+  "desc": "Auktu stálframleiðslu þína um 1 þrep."
+ },
+ "Mineral Deposit": {
+  "name": "Steinefnaæð",
+  "desc": "Fáðu 5 stál."
+ },
+ "Mining Area": {
+  "name": "Námusvæði",
+  "desc": "Leggðu þessa flís á reit með stál- eða títanbónus, við hliðina á annarri flís þinni. Auktu framleiðslu þína á þeirri auðlind um 1 þrep."
+ },
+ "Miranda Resort": {
+  "name": "Ferðamannastaðurinn Míranda",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep fyrir hvert Jarðartákn sem þú átt."
+ },
+ "Olympus Conference": {
+  "name": "Ólympusráðstefnan",
+  "desc": "Þegar þú spilar vísindatákni, þessu meðtöldu, annaðhvort bættu vísindaeiningu á þetta spil eða fjarlægðu vísindaeiningu af þessu spili til að draga spil."
+ },
+ "Physics Complex": {
+  "name": "Eðlisfræðimiðstöð",
+  "actions": [
+   "Notaðu 6 orku til að bæta vísindaeiningu á þetta spil."
+  ],
+  "vpText": [
+   "2 stig fyrir hverja vísindaeiningu á þessu spili."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Orkuinnviðir",
+  "actions": [
+   "Notaðu hvaða magn af orku sem er og fáðu jafnmargar M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Orkuveitusamsteypa",
+  "desc": "Lækkaðu orkuframleiðslu hvaða leikmanns sem er um 1 þrep og auktu þína eigin um 1 þrep."
+ },
+ "Protected Habitats": {
+  "name": "Vernduð búsvæði",
+  "effects": [
+   "Andstæðingar mega ekki fjarlægja plöntur, dýr eða örverur þínar."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Skammtaútdráttur",
+  "desc": "Auktu orkuframleiðslu þína um 4 þrep.",
+  "effects": [
+   "Þegar þú spilar geimspili greiðirðu 2 M€ minna fyrir það."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Geislabúningar",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep."
+ },
+ "Research": {
+  "name": "Rannsóknir",
+  "desc": "Telst sem að spila 2 vísindaspilum. Dragðu 2 spil."
+ },
+ "Restricted Area": {
+  "name": "Bannsvæði",
+  "desc": "Leggðu þessa flís.",
+  "actions": [
+   "Notaðu 2 M€ til að draga spil."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Vélmennavinnuafl",
+  "desc": "Tvöfaldaðu aðeins framleiðslureit eins af byggingarspilum þínum."
+ },
+ "Sabotage": {
+  "name": "Skemmdarverk",
+  "desc": "Fjarlægðu allt að 3 títan frá hvaða leikmanni sem er, eða 4 stál, eða 7 M€."
+ },
+ "Satellites": {
+  "name": "Gervitungl",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep fyrir hvert geimtákn sem þú átt, að þessu meðtöldu."
+ },
+ "Security Fleet": {
+  "name": "Öryggisfloti",
+  "actions": [
+   "Notaðu 1 títan til að bæta 1 orrustuflaug á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hverja orrustuflaug á þessu spili."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Geimlyfta",
+  "desc": "Auktu títanframleiðslu þína um 1 þrep.",
+  "actions": [
+   "Notaðu 1 stál til að fá 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Geimstöð",
+  "effects": [
+   "Þegar þú spilar geimspili greiðirðu 2 M€ minna fyrir það."
+  ]
+ },
+ "Sponsors": {
+  "name": "Styrktaraðilar",
+  "desc": "Auktu M€-framleiðslu þína um 2 þrep."
+ },
+ "Standard Technology": {
+  "name": "Stöðluð tækni",
+  "effects": [
+   "Eftir að þú greiðir fyrir staðlað verkefni, annað en að selja einkaleyfi, færðu 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Bessadýr",
+  "actions": [
+   "Bættu 1 örveru á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hverjar 4 örverur á þessu spili."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Tæknisýning",
+  "desc": "Dragðu tvö spil."
+ },
+ "Terraforming Ganymede": {
+  "name": "Jarðmótun Ganýmedesar",
+  "desc": "Hækkaðu JMS þitt um 1 þrep fyrir hvert Júpíterstákn sem þú átt, að þessu meðtöldu."
+ },
+ "Titanium Mine": {
+  "name": "Títannáma",
+  "desc": "Auktu títanframleiðslu þína um 1 þrep."
+ },
+ "Toll Station": {
+  "name": "Tollstöð",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep fyrir hvert geimtákn sem ANDSTÆÐINGAR þínir eiga."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Könnunarfar handan Neptúnusar",
+  "desc": "Könnunarfar í djúpgeimnum: 1 stigs virði."
+ },
+ "Tropical Resort": {
+  "name": "Hitabeltisdvalarstaður",
+  "desc": "Lækkaðu hitaframleiðslu þína um 2 þrep og auktu M€-framleiðslu þína um 3 þrep."
+ },
+ "Vesta Shipyard": {
+  "name": "Skipasmíðastöðin á Vestu",
+  "desc": "Auktu títanframleiðslu þína um 1 þrep."
+ },
+ "Viral Enhancers": {
+  "name": "Veirumagnarar",
+  "effects": [
+   "Þegar þú spilar plöntu-, örveru- eða dýratákni, þessu meðtöldu, fáðu 1 plöntu eða bættu 1 auðlind á ÞAÐ SPIL."
+  ]
+ },
+ "Virus": {
+  "name": "Veira",
+  "desc": "Fjarlægðu allt að 2 dýr eða 5 plöntur frá hvaða leikmanni sem er."
+ },
+ "SF Memorial": {
+  "name": "Minnisvarði vísindaskáldskapar",
+  "desc": "Dragðu 1 spil."
+ },
+ "House Printing": {
+  "name": "Húsaprentun",
+  "desc": "Auktu stálframleiðslu þína um 1 þrep."
+ },
+ "Space Hotels": {
+  "name": "Geimhótel",
+  "desc": "Auktu M€-framleiðslu um 4 þrep."
+ },
+ "Martian Survey": {
+  "name": "Marsmæling",
+  "desc": "Dragðu tvö spil."
+ },
+ "Research Coordination": {
+  "name": "Samræming rannsókna",
+  "desc": "Eftir að spilið hefur verið spilað, þegar þú framkvæmir aðgerð, telst jókertáknið sem hvaða tákn sem þú velur."
+ },
+ "Lava Tube Settlement": {
+  "name": "Hraunhellabyggð",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 2 þrep. Leggðu borgarflís á ELDFJALLASVÆÐI óháð aðliggjandi borgum."
+ },
+ "Psychrophiles": {
+  "name": "Kuldakærar örverur",
+  "actions": [
+   "Bættu 1 örveru á þetta spil."
+  ],
+  "effects": [
+   "Þegar þú greiðir fyrir plöntuspil má nota örverur hér sem 2 M€ hverja."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Aðlögunartækni",
+  "effects": [
+   "Hnattrænu skilyrðin þín eru +2 eða -2 þrep, að eigin vali í hvert sinn."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Aðlöguð flétta",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep."
+ },
+ "Advanced Ecosystems": {
+  "name": "Háþróuð vistkerfi"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Loftbremsað ammóníaksmástirni",
+  "desc": "Auktu hitaframleiðslu þína um 3 þrep og plöntuframleiðslu þína um 1 þrep. Bættu 2 örverum á ANNAÐ spil."
+ },
+ "Ants": {
+  "name": "Maurar",
+  "actions": [
+   "Fjarlægðu 1 örveru af hvaða spili sem er til að bæta 1 á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hverjar 2 örverur á þessu spili."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Vatnsæðardæling",
+  "actions": [
+   "Notaðu 8 M€ til að leggja 1 hafflís. NOTA MÁ STÁL eins og þú værir að spila byggingarspili."
+  ]
+ },
+ "Algae": {
+  "name": "Þörungar",
+  "desc": "Fáðu 1 plöntu og auktu plöntuframleiðslu þína um 2 þrep."
+ },
+ "ArchaeBacteria": {
+  "name": "Fornbakteríur",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep."
+ },
+ "Arctic Algae": {
+  "name": "Heimskautaþörungar",
+  "desc": "Fáðu 1 plöntu.",
+  "effects": [
+   "Þegar einhver leggur hafflís færðu 2 plöntur."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Manngert stöðuvatn",
+  "desc": "Leggðu 1 hafflís Á REIT SEM ER EKKI FRÁTEKINN FYRIR HAF."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Gervitillífun",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep eða orkuframleiðslu þína um 2 þrep.",
+  "orTitles": [
+   "Auktu orkuframleiðslu þína um 2 þrep",
+   "Auktu plöntuframleiðslu þína um 1 þrep"
+  ]
+ },
+ "Asteroid": {
+  "name": "Smástirni",
+  "desc": "Hækkaðu hitastig um 1 þrep og fáðu 2 títan. Fjarlægðu allt að 3 plöntur frá hvaða leikmanni sem er."
+ },
+ "Asteroid Mining": {
+  "name": "Smástirnanám",
+  "desc": "Auktu títanframleiðslu þína um 2 þrep."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Geisli frá þóríumsmástirni",
+  "desc": "Auktu hitaframleiðslu og orkuframleiðslu þína um 3 þrep hvora."
+ },
+ "Big Asteroid": {
+  "name": "Stórt smástirni",
+  "desc": "Hækkaðu hitastig um 2 þrep og fáðu 4 títan. Fjarlægðu allt að 4 plöntur frá hvaða leikmanni sem er."
+ },
+ "Biomass Combustors": {
+  "name": "Lífmassabrennarar",
+  "desc": "Lækkaðu plöntuframleiðslu hvaða leikmanns sem er um 1 þrep og auktu orkuframleiðslu þína um 2 þrep."
+ },
+ "Birds": {
+  "name": "Fuglar",
+  "desc": "Lækkaðu plöntuframleiðslu hvaða leikmanns sem er um 2 þrep. 1 stig fyrir hvert dýr á þessu spili.",
+  "actions": [
+   "Bættu dýri á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hvert dýr á þessu spili."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Svart pólryk",
+  "desc": "Leggðu hafflís. Lækkaðu M€-framleiðslu þína um 2 þrep og auktu hitaframleiðslu þína um 3 þrep."
+ },
+ "Breathing Filters": {
+  "name": "Öndunarsíur"
+ },
+ "Bushes": {
+  "name": "Runnar",
+  "desc": "Auktu plöntuframleiðslu þína um 2 þrep. Fáðu 2 plöntur."
+ },
+ "Capital": {
+  "name": "Höfuðborg",
+  "desc": "Leggðu þessa flís. Lækkaðu orkuframleiðslu þína um 2 þrep og auktu M€-framleiðslu þína um 5 þrep.",
+  "vpText": [
+   "1 aukastig fyrir hverja hafflís sem liggur að þessari borgarflís."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbónatvinnsla",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu hitaframleiðslu þína um 3 þrep."
+ },
+ "Cloud Seeding": {
+  "name": "Skýjasáning",
+  "desc": "Lækkaðu M€-framleiðslu þína um 1 þrep og hitaframleiðslu hvaða leikmanns sem er um 1 þrep. Auktu plöntuframleiðslu þína um 2 þrep."
+ },
+ "Colonizer Training Camp": {
+  "name": "Þjálfunarbúðir landnema"
+ },
+ "Comet": {
+  "name": "Halastjarna",
+  "desc": "Hækkaðu hitastig um 1 þrep og leggðu hafflís. Fjarlægðu allt að 3 plöntur frá hvaða leikmanni sem er."
+ },
+ "Convoy From Europa": {
+  "name": "Skipalest frá Evrópu",
+  "desc": "Leggðu 1 hafflís og dragðu 1 spil."
+ },
+ "Cupola City": {
+  "name": "Hvolfþakaborg",
+  "desc": "Leggðu borgarflís. Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 3 þrep."
+ },
+ "Decomposers": {
+  "name": "Sundrendur",
+  "effects": [
+   "Þegar þú spilar dýra-, plöntu- eða örverutákni, þessu meðtöldu, bættu örveru á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hverjar 3 örverur á þessu spili."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Hitun úr djúpborholum",
+  "desc": "Auktu orkuframleiðslu þína um 1 þrep. Hækkaðu hitastig um 1 þrep."
+ },
+ "Deimos Down": {
+  "name": "Deimos-hrapið",
+  "desc": "Hækkaðu hitastig um 3 þrep og fáðu 4 stál. Fjarlægðu allt að 8 plöntur frá hvaða leikmanni sem er."
+ },
+ "Designed Microorganisms": {
+  "name": "Hannaðar örverur",
+  "desc": "Auktu plöntuframleiðslu þína um 2 þrep."
+ },
+ "Domed Crater": {
+  "name": "Hvelfdur gígur",
+  "desc": "Fáðu 3 plöntur. Leggðu borgarflís. Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 3 þrep."
+ },
+ "Dust Seals": {
+  "name": "Rykþéttingar"
+ },
+ "Ecological Zone": {
+  "name": "Vistfræðisvæði",
+  "desc": "Leggðu þessa flís við hliðina á HVAÐA gróðurreit sem er.",
+  "effects": [
+   "Þegar þú spilar dýra- eða plöntutákni, ÞESSUM MEÐTÖLDUM, bættu dýri á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hver 2 dýr á þessu spili."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Orkusparnaður",
+  "desc": "Auktu orkuframleiðslu þína um 1 þrep fyrir hverja borgarflís í spili."
+ },
+ "Eos Chasma National Park": {
+  "name": "Þjóðgarðurinn Eos Chasma",
+  "desc": "Bættu 1 dýri Á HVAÐA DÝRASPIL SEM ER. Fáðu 3 plöntur. Auktu M€-framleiðslu þína um 2 þrep."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Miðbaugssegull",
+  "actions": [
+   "Lækkaðu orkuframleiðslu þína um 1 þrep til að hækka jarðmótunarstig þitt um 1 þrep."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Frostþolinn sveppur",
+  "actions": [
+   "Fáðu 1 plöntu.",
+   "Bættu 2 örverum á ANNAÐ spil."
+  ]
+ },
+ "Farming": {
+  "name": "Landbúnaður",
+  "desc": "Auktu M€-framleiðslu þína um 2 þrep og plöntuframleiðslu þína um 2 þrep. Fáðu 2 plöntur."
+ },
+ "Fish": {
+  "name": "Fiskar",
+  "desc": "Lækkaðu plöntuframleiðslu hvaða leikmanns sem er um 1 þrep.",
+  "actions": [
+   "Bættu 1 dýri á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hvert dýr á þessu spili."
+  ]
+ },
+ "Flooding": {
+  "name": "Flóð",
+  "desc": "Leggðu hafflís. EF FLÍSAR LIGGJA AÐ ÞESSARI HAFFLÍS MÁTTU FJARLÆGJA 4 M€ FRÁ EIGANDA EINNAR ÞEIRRA."
+ },
+ "Food Factory": {
+  "name": "Matvælaverksmiðja",
+  "desc": "Lækkaðu plöntuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 4 þrep."
+ },
+ "Fusion Power": {
+  "name": "Samrunaorka",
+  "desc": "Auktu orkuframleiðslu þína um 3 þrep."
+ },
+ "Fueled Generators": {
+  "name": "Eldsneytisrafstöðvar",
+  "desc": "Lækkaðu M€-framleiðslu þína um 1 þrep og auktu orkuframleiðslu þína um 1 þrep."
+ },
+ "Ganymede Colony": {
+  "name": "Nýlendan á Ganýmedesi",
+  "desc": "Leggðu borgarflís Á FRÁTEKNA REITINN.",
+  "vpText": [
+   "1 stig fyrir hvert Júpíterstákn sem þú átt."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Jarðvarmaorka",
+  "desc": "Auktu orkuframleiðslu þína um 2 þrep."
+ },
+ "GHG Factories": {
+  "name": "Gróðurhúsalofttegundaverksmiðjur",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu hitaframleiðslu þína um 4 þrep."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Gróðurhúsagerlar",
+  "actions": [
+   "Bættu 1 örveru á þetta spil.",
+   "Fjarlægðu 2 örverur til að hækka hitastig um 1 þrep."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Risavaxið íssmástirni",
+  "desc": "Hækkaðu hitastig um 2 þrep og leggðu 2 hafflísar. Fjarlægðu allt að 6 plöntur frá hvaða leikmanni sem er."
+ },
+ "Giant Space Mirror": {
+  "name": "Risavaxinn geimspegill",
+  "desc": "Auktu orkuframleiðslu þína um 3 þrep."
+ },
+ "Grass": {
+  "name": "Gras",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep. Fáðu 3 plöntur."
+ },
+ "Great Dam": {
+  "name": "Stóra stíflan",
+  "desc": "Auktu orkuframleiðslu þína um 2 þrep."
+ },
+ "Greenhouses": {
+  "name": "Gróðurhús",
+  "desc": "Fáðu 1 plöntu fyrir hverja borgarflís í spili."
+ },
+ "Heather": {
+  "name": "Beitilyng",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep. Fáðu 1 plöntu."
+ },
+ "Heat Trappers": {
+  "name": "Hitagildrur",
+  "desc": "Lækkaðu hitaframleiðslu hvaða leikmanns sem er um 2 þrep og auktu orkuframleiðslu þína um 1 þrep."
+ },
+ "Herbivores": {
+  "name": "Grasbítar",
+  "desc": "+1 dýr á þetta spil. -1 plöntuframleiðsla hvaða leikmanns sem er",
+  "effects": [
+   "Þegar þú leggur gróðurreit, bættu dýri á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hver 2 dýr á þessu spili."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Íssmástirni",
+  "desc": "Leggðu 2 hafflísar."
+ },
+ "Ice Cap Melting": {
+  "name": "Bráðnun íshettunnar",
+  "desc": "Leggðu 1 hafflís."
+ },
+ "Immigrant City": {
+  "name": "Innflytjendaborg",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og M€-framleiðslu þína um 2 þrep. Leggðu borgarflís.",
+  "effects": [
+   "Þegar borgarflís er lögð, þessi meðtalin, auktu M€-framleiðslu þína um 1 þrep."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Innflytjendaferjur",
+  "desc": "Auktu M€-framleiðslu þína um 5 þrep.",
+  "vpText": [
+   "1 stig fyrir hverja 3. borg í spili."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Innfluttar gróðurhúsalofttegundir",
+  "desc": "Auktu hitaframleiðslu þína um 1 þrep og fáðu 3 hita."
+ },
+ "Imported Hydrogen": {
+  "name": "Innflutt vetni",
+  "desc": "Fáðu 3 plöntur, eða bættu 3 örverum eða 2 dýrum á ANNAÐ spil. Leggðu hafflís.",
+  "orTitles": [
+   "Fáðu 3 plöntur",
+   "Bættu 3 örverum á ANNAÐ spil",
+   "Bættu 2 dýrum á ANNAÐ spil"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Innflutt nitur",
+  "desc": "Hækkaðu JMS þitt um 1 þrep og fáðu 4 plöntur. Bættu 3 örverum á ANNAÐ spil og 2 dýrum á ANNAÐ spil."
+ },
+ "Import of Advanced GHG": {
+  "name": "Innflutningur háþróaðra gróðurhúsalofttegunda",
+  "desc": "Auktu hitaframleiðslu þína um 2 þrep."
+ },
+ "Industrial Microbes": {
+  "name": "Iðnaðarörverur",
+  "desc": "Auktu orkuframleiðslu þína og stálframleiðslu þína um 1 þrep hvora."
+ },
+ "Insects": {
+  "name": "Skordýr",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep fyrir hvert plöntutákn sem þú átt."
+ },
+ "Insulation": {
+  "name": "Einangrun",
+  "desc": "Lækkaðu hitaframleiðslu þína um hve mörg þrep sem er og auktu M€-framleiðslu þína um jafnmörg þrep."
+ },
+ "Ironworks": {
+  "name": "Járnbræðsla",
+  "actions": [
+   "Notaðu 4 orku til að fá 1 stál og hækka súrefni um 1 þrep."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Þararækt",
+  "desc": "Auktu M€-framleiðslu þína um 2 þrep og plöntuframleiðslu þína um 3 þrep. Fáðu 2 plöntur."
+ },
+ "Lake Marineris": {
+  "name": "Marinerisvatn",
+  "desc": "Leggðu 2 hafflísar."
+ },
+ "Large Convoy": {
+  "name": "Stór skipalest",
+  "desc": "Leggðu hafflís og dragðu 2 spil. Fáðu 5 plöntur eða bættu 4 dýrum á ANNAÐ spil.",
+  "orTitles": [
+   "Fáðu 5 plöntur",
+   "Bættu 4 dýrum á ANNAÐ spil"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Hraunstraumar",
+  "desc": "Hækkaðu hitastig um 2 þrep og leggðu þessa flís Á THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS EÐA ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Flétta",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep."
+ },
+ "Livestock": {
+  "name": "Búfénaður",
+  "desc": "Lækkaðu plöntuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 2 þrep",
+  "actions": [
+   "Bættu 1 dýri á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hvert dýr á þessu spili."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Staðbundin hitabinding",
+  "desc": "Notaðu 5 hita til að fá annaðhvort 4 plöntur eða til að bæta 2 dýrum á ANNAÐ spil.",
+  "orTitles": [
+   "Fáðu 4 plöntur",
+   "Bættu 2 dýrum á ANNAÐ spil"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Tunglgeisli",
+  "desc": "Lækkaðu M€-framleiðslu þína um 2 þrep og auktu hitaframleiðslu og orkuframleiðslu þína um 2 þrep hvora."
+ },
+ "Magnetic Field Dome": {
+  "name": "Segulsviðshvelfing",
+  "desc": "Lækkaðu orkuframleiðslu þína um 2 þrep og auktu plöntuframleiðslu þína um 1 þrep. Hækkaðu JMS þitt um 1 þrep."
+ },
+ "Magnetic Field Generators": {
+  "name": "Segulsviðsrafalar",
+  "desc": "Lækkaðu orkuframleiðslu þína um 4 þrep og auktu plöntuframleiðslu þína um 2 þrep. Hækkaðu JMS þitt um 3 þrep."
+ },
+ "Mangrove": {
+  "name": "Fenjaviður",
+  "desc": "Leggðu gróðurreit Á REIT SEM ER FRÁTEKINN FYRIR HAF og hækkaðu súrefni um 1 þrep. Hunsaðu venjulegar takmarkanir um lagningu fyrir þetta."
+ },
+ "Martian Rails": {
+  "name": "Marsjárnbrautir",
+  "actions": [
+   "Notaðu 1 orku til að fá 1 M€ fyrir hverja borgarflís Á MARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metan frá Títan",
+  "desc": "Auktu hitaframleiðslu þína um 2 þrep og plöntuframleiðslu þína um 2 þrep."
+ },
+ "Micro-Mills": {
+  "name": "Örmyllur",
+  "desc": "Auktu hitaframleiðslu þína um 1 þrep."
+ },
+ "Mining Expedition": {
+  "name": "Námuleiðangur",
+  "desc": "Hækkaðu súrefni um 1 þrep. Fjarlægðu 2 plöntur frá hvaða leikmanni sem er. Fáðu 2 stál."
+ },
+ "Mining Rights": {
+  "name": "Námuréttindi",
+  "desc": "Leggðu þessa flís á reit með stál- eða títanbónus. Auktu þá framleiðslu um 1 þrep."
+ },
+ "Mohole Area": {
+  "name": "Mohole-svæði",
+  "desc": "Auktu hitaframleiðslu þína um 4 þrep. Leggðu þessa flís Á REIT SEM ER FRÁTEKINN FYRIR HAF."
+ },
+ "Moss": {
+  "name": "Mosi",
+  "desc": "Tapaðu 1 plöntu. Auktu plöntuframleiðslu þína um 1 þrep."
+ },
+ "Natural Preserve": {
+  "name": "Friðland",
+  "desc": "Leggðu þessa flís EKKI VIÐ HLIÐINA Á NEINNI ANNARRI FLÍS. Auktu M€-framleiðslu þína um 1 þrep."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nítrítafoxandi gerlar",
+  "desc": "Bættu 3 örverum á þetta spil.",
+  "actions": [
+   "Bættu 1 örveru á þetta spil.",
+   "Fjarlægðu 3 örverur til að hækka JMS þitt um 1 þrep."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Niturríkt smástirni",
+  "desc": "Hækkaðu jarðmótunarstig þitt um 2 þrep og hitastig um 1 þrep. Auktu plöntuframleiðslu þína um 1 þrep, eða 4 þrep ef þú átt 3 plöntutákn."
+ },
+ "Nitrophilic Moss": {
+  "name": "Niturkær mosi",
+  "desc": "Tapaðu 2 plöntum. Auktu plöntuframleiðslu þína um 2 þrep."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 3 þrep. Leggðu borgarflís Á FRÁTEKNA REITINN, óháð venjulegum takmörkunum um lagningu."
+ },
+ "Noctis Farming": {
+  "name": "Landbúnaður í Noctis",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep og fáðu 2 plöntur."
+ },
+ "Nuclear Power": {
+  "name": "Kjarnorka",
+  "desc": "Lækkaðu M€-framleiðslu þína um 2 þrep og auktu orkuframleiðslu þína um 3 þrep."
+ },
+ "Nuclear Zone": {
+  "name": "Kjarnorkusvæði",
+  "desc": "Leggðu þessa flís og hækkaðu hitastig um 2 þrep."
+ },
+ "Open City": {
+  "name": "Opin borg",
+  "desc": "Fáðu 2 plöntur. Leggðu borgarflís. Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 4 þrep."
+ },
+ "Optimal Aerobraking": {
+  "name": "Besta loftbremsun",
+  "effects": [
+   "Þegar þú spilar geimatburði færðu 3 M€ og 3 hita."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Málmgrýtisvinnsla",
+  "actions": [
+   "Notaðu 4 orku til að fá 1 títan og hækka súrefni um 1 þrep."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Sífreravinnsla",
+  "desc": "Leggðu 1 hafflís."
+ },
+ "Peroxide Power": {
+  "name": "Peroxíðorka",
+  "desc": "Lækkaðu M€-framleiðslu þína um 1 þrep og auktu orkuframleiðslu þína um 2 þrep."
+ },
+ "Pets": {
+  "name": "Gæludýr",
+  "desc": "Bættu 1 dýri á þetta spil.",
+  "effects": [
+   "Þegar einhver borgarflís er lögð, bættu dýri á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hver 2 dýr hér."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Geimhöfnin á Fóbosi",
+  "desc": "Auktu títanframleiðslu þína um 1 þrep og leggðu borgarflís Á FRÁTEKNA REITINN."
+ },
+ "Plantation": {
+  "name": "Plantekra",
+  "desc": "Leggðu gróðurreit og hækkaðu súrefni um 1 þrep."
+ },
+ "Power Grid": {
+  "name": "Raforkukerfi",
+  "desc": "Auktu orkuframleiðslu þína um eitt þrep fyrir hvert orkutákn sem þú átt, að þessu meðtöldu."
+ },
+ "Power Plant": {
+  "name": "Orkuver",
+  "desc": "Auktu orkuframleiðslu þína um 1 þrep."
+ },
+ "Predators": {
+  "name": "Rándýr",
+  "actions": [
+   "Fjarlægðu 1 dýr af hvaða spili sem er og bættu því á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hvert dýr á þessu spili."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Verndaði dalurinn",
+  "desc": "Auktu M€-framleiðslu þína um 2 þrep. Leggðu gróðurreit Á REIT SEM ER FRÁTEKINN FYRIR HAF, óháð venjulegum takmörkunum um lagningu, og hækkaðu súrefni um 1 þrep."
+ },
+ "Rad-Chem Factory": {
+  "name": "Geislaefnaverksmiðja",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep. Hækkaðu JMS þitt um 2 þrep."
+ },
+ "Regolith Eaters": {
+  "name": "Rególítætur",
+  "actions": [
+   "Bættu 1 örveru á þetta spil.",
+   "Fjarlægðu 2 örverur af þessu spili til að hækka súrefnisstigið um 1 þrep."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Losun eðallofttegunda",
+  "desc": "Hækkaðu jarðmótunarstig þitt um 2 þrep."
+ },
+ "Research Outpost": {
+  "name": "Rannsóknarstöð",
+  "desc": "Leggðu borgarflís EKKI VIÐ HLIÐINA Á NEINNI ANNARRI FLÍS.",
+  "effects": [
+   "Þegar þú spilar spili greiðirðu 1 M€ minna fyrir það."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Jeppasmíði",
+  "effects": [
+   "Þegar einhver borgarflís er lögð færðu 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Leit að lífi",
+  "actions": [
+   "Notaðu 1 M€ til að afhjúpa efsta spil dráttarbunkans. Ef það spil er með örverutákn, bættu vísindaeiningu hér."
+  ],
+  "vpText": [
+   "3 stig ef þú átt eina eða fleiri vísindaeiningar hér."
+  ]
+ },
+ "Shuttles": {
+  "name": "Ferjur",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 2 þrep.",
+  "effects": [
+   "Þegar þú spilar geimspili greiðirðu 2 M€ minna fyrir það."
+  ]
+ },
+ "Small Animals": {
+  "name": "Smádýr",
+  "desc": "Lækkaðu plöntuframleiðslu hvaða leikmanns sem er um 1 þrep.",
+  "actions": [
+   "Bættu 1 dýri á þetta spil."
+  ],
+  "vpText": [
+   "1 stig fyrir hver 2 dýr á þessu spili."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Jarðvegsverksmiðja",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu plöntuframleiðslu þína um 1 þrep."
+ },
+ "Solar Power": {
+  "name": "Sólarorka",
+  "desc": "Auktu orkuframleiðslu þína um 1 þrep."
+ },
+ "Solar Wind Power": {
+  "name": "Sólvindsorka",
+  "desc": "Auktu orkuframleiðslu þína um 1 þrep og fáðu 2 títan."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Auktu hitaframleiðslu þína um 7 þrep."
+ },
+ "Space Mirrors": {
+  "name": "Geimspeglar",
+  "actions": [
+   "Notaðu 7 M€ til að auka orkuframleiðslu þína um 1 þrep."
+  ]
+ },
+ "Special Design": {
+  "name": "Sérhönnun",
+  "desc": "Næsta spil sem þú spilar í þessari kynslóð er +2 eða -2 þrep í hnattrænum skilyrðum, að eigin vali."
+ },
+ "Steelworks": {
+  "name": "Stálver",
+  "actions": [
+   "Notaðu 4 orku til að fá 2 stál og hækka súrefni um 1 þrep."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Opin náma",
+  "desc": "Lækkaðu orkuframleiðslu þína um 2 þrep. Auktu stálframleiðslu þína um 2 þrep og títanframleiðslu þína um 1 þrep. Hækkaðu súrefni um 2 þrep."
+ },
+ "Subterranean Reservoir": {
+  "name": "Neðanjarðarlón",
+  "desc": "Leggðu 1 hafflís."
+ },
+ "Symbiotic Fungus": {
+  "name": "Samlífissveppur",
+  "actions": [
+   "Bættu örveru á ANNAÐ spil."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Flekaspennuorka",
+  "desc": "Auktu orkuframleiðslu þína um 3 þrep."
+ },
+ "Towing A Comet": {
+  "name": "Halastjarna dregin",
+  "desc": "Fáðu 2 plöntur. Hækkaðu súrefnisstigið um 1 þrep og leggðu hafflís."
+ },
+ "Trees": {
+  "name": "Tré",
+  "desc": "Auktu plöntuframleiðslu þína um 3 þrep. Fáðu 1 plöntu."
+ },
+ "Tundra Farming": {
+  "name": "Túndrubúskapur",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep og M€-framleiðslu þína um 2 þrep. Fáðu 1 plöntu."
+ },
+ "Underground City": {
+  "name": "Neðanjarðarborg",
+  "desc": "Leggðu borgarflís. Lækkaðu orkuframleiðslu þína um 2 þrep og auktu stálframleiðslu þína um 2 þrep."
+ },
+ "Underground Detonations": {
+  "name": "Neðanjarðarsprengingar",
+  "actions": [
+   "Notaðu 10 M€ til að auka hitaframleiðslu þína um 2 þrep."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Þéttbýli",
+  "desc": "Lækkaðu orkuframleiðslu þína um 1 þrep og auktu M€-framleiðslu þína um 2 þrep. Leggðu borgarflís VIÐ HLIÐINA Á AÐ MINNSTA KOSTI 2 ÖÐRUM BORGARFLÍSUM."
+ },
+ "Water Import From Europa": {
+  "name": "Vatnsinnflutningur frá Evrópu",
+  "actions": [
+   "Greiddu 12 M€ til að leggja hafflís. NOTA MÁ TÍTAN eins og þegar geimspili er spilað."
+  ],
+  "vpText": [
+   "1 stig fyrir hvert Júpíterstákn sem þú átt."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Vatnsklofnunarstöð",
+  "actions": [
+   "Notaðu 3 orku til að hækka súrefni um 1 þrep."
+  ]
+ },
+ "Wave Power": {
+  "name": "Ölduorka",
+  "desc": "Auktu orkuframleiðslu þína um 1 þrep."
+ },
+ "Windmills": {
+  "name": "Vindmyllur",
+  "desc": "Auktu orkuframleiðslu þína um 1 þrep."
+ },
+ "Worms": {
+  "name": "Ormar",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep fyrir hver 2 örverutákn sem þú átt, að þessu meðtöldu."
+ },
+ "Zeppelins": {
+  "name": "Loftskip",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep fyrir hverja borgarflís Á MARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Þú byrjar með 1 títanframleiðslu og 42 M€.",
+  "effects": [
+   "Í hvert sinn sem Júpíterstákn kemur í spil, þetta meðtalið, auktu M€-framleiðslu þína um 1 þrep."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Þú byrjar með 60 M€.",
+  "effects": [
+   "Þegar þú spilar Jarðartákni greiðirðu 3 M€ minna fyrir það."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Þú byrjar með 3 M€-framleiðslu og 44 M€.",
+  "effects": [
+   "Þegar þú spilar byggingartákni greiðirðu 2 M€ minna fyrir það."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Þú byrjar með 1 títanframleiðslu og 38 M€.",
+  "effects": [
+   "Þegar þú spilar Jarðartákni, þessu meðtöldu, dragðu spil."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Þú byrjar með 47 M€.",
+  "actions": [
+   "Notaðu 4 M€ til að auka (eina af) LÆGSTU framleiðslu þinni um 1 þrep."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Þú byrjar með 37 M€. Sem fyrstu aðgerð dregurðu 3 forleiksspil og spilar einu þeirra. Hentu hinum tveimur.",
+  "effects": [
+   "Þegar þú spilar vísindatákni greiðirðu 2 M€ minna fyrir það."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Þú byrjar með 45 M€. Sem fyrstu aðgerð fjármagnarðu verðlaun ókeypis.",
+  "effects": [
+   "Þegar þú spilar spili með stigatákni sem er EKKI NEIKVÆTT, þessu meðtöldu, fáðu 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Byrjendafyrirtæki",
+  "desc": "Þú byrjar með 42 M€. Í stað þess að velja úr 10 spilum í undirbúningi færðu 10 spil ókeypis."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Þú byrjar með 57 M€.",
+  "effects": [
+   "Eftir að þú greiðir fyrir spil eða staðlað verkefni með grunnverð 20 M€ eða meira færðu 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Þú byrjar með 2 plöntuframleiðslu, 3 plöntur og 36 M€.",
+  "effects": [
+   "Þú mátt alltaf greiða 7 plöntur í stað 8 til að leggja gróðurreit."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Þú byrjar með 3 hitaframleiðslu og 42 M€.",
+  "effects": [
+   "Þú mátt nota hita sem M€. Þú mátt ekki nota M€ sem hita."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Þú byrjar með 20 stál og 30 M€.",
+  "effects": [
+   "Í hvert sinn sem þú spilar atburði færðu 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Sem fyrstu aðgerð í leiknum dregurðu 3 spil. Þú byrjar með 45 M€.",
+  "effects": [
+   "Skilyrði þín um hitastig, súrefni, höf og Venus eru +2 eða -2 þrep, að eigin vali í hvert sinn."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Námugildið",
+  "desc": "Þú byrjar með 30 M€, 5 stál og 1 stálframleiðslu.",
+  "effects": [
+   "Í hvert sinn sem þú leggur flís á reit með stál- eða títanbónus, auktu stálframleiðslu þína um 1 þrep"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Þú byrjar með 10 títan og 23 M€.",
+  "effects": [
+   "Hvert títan sem þú átt er 1 M€ meira virði."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tharsis-lýðveldið",
+  "desc": "Þú byrjar með 40 M€. Sem fyrstu aðgerð í leiknum leggurðu borgarflís.",
+  "effects": [
+   "Þegar einhver borgarflís er lögð Á MARS, auktu M€-framleiðslu þína um 1 þrep. Þegar þú leggur borgarflís færðu 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Þú byrjar með 1 orkuframleiðslu og 48 M€.",
+  "effects": [
+   "Þegar þú spilar orkuspili EÐA STAÐLAÐA VERKEFNINU ORKUVER greiðirðu 3 M€ minna fyrir það."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Marsátak Sameinuðu þjóðanna",
+  "desc": "Þú byrjar með 40 M€.",
+  "actions": [
+   "Ef jarðmótunarstig þitt hækkaði í þessari kynslóð máttu greiða 3 M€ til að hækka það um 1 þrep í viðbót."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Bandamannabankinn",
+  "desc": "Auktu M€-framleiðslu þína um 4 þrep. Fáðu 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Stuðningur við lífhvolfið",
+  "desc": "Auktu plöntuframleiðslu þína um 2 þrep. Lækkaðu M€-framleiðslu þína um 1 þrep."
+ },
+ "Aquifer Turbines": {
+  "name": "Vatnsæðarhverflar",
+  "desc": "Leggðu hafflís. Auktu orkuframleiðslu þína um 2 þrep. Greiddu 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Mohole-uppgröftur",
+  "desc": "Auktu stálframleiðslu þína um 1 þrep og hitaframleiðslu um 2 þrep. Fáðu 2 hita."
+ },
+ "Early Settlement": {
+  "name": "Snemmbúin byggð",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep. Leggðu borgarflís."
+ },
+ "Biofuels": {
+  "name": "Lífeldsneyti",
+  "desc": "Auktu orku- og plöntuframleiðslu þína um 1 þrep. Fáðu 2 plöntur."
+ },
+ "Power Generation": {
+  "name": "Orkuframleiðsla",
+  "desc": "Auktu orkuframleiðslu þína um 3 þrep."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Sjálfbær byggð",
+  "desc": "Auktu M€-framleiðslu þína um 2 þrep. Leggðu borgarflís."
+ },
+ "Mining Operations": {
+  "name": "Námurekstur",
+  "desc": "Auktu stálframleiðslu þína um 2 þrep. Fáðu 4 stál."
+ },
+ "UNMI Contractor": {
+  "name": "Verktaki UNMI",
+  "desc": "Hækkaðu JMS þitt um 3 þrep. Dragðu spil."
+ },
+ "Dome Farming": {
+  "name": "Hvelfingarbúskapur",
+  "desc": "Auktu M€-framleiðslu þína um 2 þrep og plöntuframleiðslu um 1 þrep."
+ },
+ "Business Empire": {
+  "name": "Viðskiptaveldi",
+  "desc": "Auktu M€-framleiðslu þína um 6 þrep. Greiddu 6 M€."
+ },
+ "Donation": {
+  "name": "Framlag",
+  "desc": "Fáðu 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Nitursending",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep. Hækkaðu JMS þitt um 1 þrep. Fáðu 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Bræðsla",
+  "desc": "Hækkaðu súrefni um 2 þrep. Fáðu 5 stál."
+ },
+ "Supplier": {
+  "name": "Birgir",
+  "desc": "Auktu orkuframleiðslu þína um 2 þrep. Fáðu 4 stál."
+ },
+ "Supply Drop": {
+  "name": "Birgðasending",
+  "desc": "Fáðu 3 títan, 8 stál og 3 plöntur."
+ },
+ "Great Aquifer": {
+  "name": "Stóra vatnsæðin",
+  "desc": "Leggðu 2 hafflísar."
+ },
+ "Biolab": {
+  "name": "Líffræðistofa",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep. Dragðu 3 spil."
+ },
+ "Martian Industries": {
+  "name": "Marsiðnaður",
+  "desc": "Auktu orku- og stálframleiðslu þína um 1 þrep. Fáðu 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Rannsóknarstöðin á Íó",
+  "desc": "Auktu títanframleiðslu þína um 1 þrep. Dragðu spil."
+ },
+ "Polar Industries": {
+  "name": "Pólaiðnaður",
+  "desc": "Auktu hitaframleiðslu þína um 2 þrep. Leggðu hafflís."
+ },
+ "Society Support": {
+  "name": "Stuðningur samfélagsins",
+  "desc": "Auktu plöntu-, orku- og hitaframleiðslu þína um 1 þrep. Lækkaðu M€-framleiðslu um 1 þrep."
+ },
+ "Galilean Mining": {
+  "name": "Galíleónám",
+  "desc": "Auktu títanframleiðslu þína um 2 þrep. Greiddu 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Gríðarstórt smástirni",
+  "desc": "Hækkaðu hitastig um 3 þrep. Greiddu 5 M€."
+ },
+ "Metals Company": {
+  "name": "Málmfyrirtækið",
+  "desc": "Auktu M€-, stál- og títanframleiðslu þína um 1 þrep."
+ },
+ "Loan": {
+  "name": "Lán",
+  "desc": "Fáðu 30 M€. Lækkaðu M€-framleiðslu þína um 2 þrep."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Auktu hitaframleiðslu þína um 3 þrep. Fáðu 3 hita."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Málmríkt smástirni",
+  "desc": "Hækkaðu hitastig um 1 þrep. Fáðu 4 títan og 4 stál."
+ },
+ "Orbital Construction Yard": {
+  "name": "Sporbrautarsmíðastöð",
+  "desc": "Auktu títanframleiðslu þína um 1 þrep. Fáðu 4 títan."
+ },
+ "Acquired Space Agency": {
+  "name": "Yfirtekin geimferðastofnun",
+  "desc": "Fáðu 6 títan. Afhjúpaðu spil þar til þú afhjúpar tvö spil með geimtákni. Taktu þau á hendi og hentu hinum."
+ },
+ "Research Network": {
+  "name": "Rannsóknanet",
+  "desc": "Auktu M€-framleiðslu þína um 1 þrep. Dragðu 3 spil. Eftir að spilið hefur verið spilað, þegar þú framkvæmir aðgerð, telst jókertáknið sem hvaða tákn sem þú velur."
+ },
+ "Eccentric Sponsor": {
+  "name": "Sérvitur styrktaraðili",
+  "desc": "SPILAÐU SPILI AF HENDI MEÐ 25 M€ AFSLÆTTI."
+ },
+ "Ecology Experts": {
+  "name": "Vistfræðisérfræðingar",
+  "desc": "Auktu plöntuframleiðslu þína um 1 þrep. SPILAÐU SPILI AF HENDI OG HUNSAÐU HNATTRÆN SKILYRÐI."
+ },
+ "Experimental Forest": {
+  "name": "Tilraunaskógur",
+  "desc": "Leggðu 1 gróðurreit og hækkaðu súrefni um 1 þrep. Afhjúpaðu spil þar til þú afhjúpar tvö spil með plöntutákni. Taktu þau á hendi og hentu hinum."
+ }
+}

@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Comhlacht faighte",
+  "desc": "Méadaigh do tháirgeadh M€ 3 chéim."
+ },
+ "Advanced Alloys": {
+  "name": "Cóimhiotail ardleibhéil",
+  "effects": [
+   "Is fiú 1 M€ breise gach tíotáiniam atá agat.",
+   "Is fiú 1 M€ breise gach cruach atá agat."
+  ]
+ },
+ "AI Central": {
+  "name": "Lárionad IS",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim.",
+  "actions": [
+   "Tarraing 2 chárta."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Teicneolaíocht fhrithdhomhantarraingthe",
+  "effects": [
+   "Nuair a imríonn tú cárta, íocann tú 2 M€ níos lú air."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Cuibhreannas mianadóireachta astaróideach",
+  "desc": "Laghdaigh táirgeadh tíotáiniam aon imreora 1 chéim agus méadaigh do cheann féin 1 chéim."
+ },
+ "Bribed Committee": {
+  "name": "Coiste breabaithe",
+  "desc": "Ardaigh do RT 2 chéim."
+ },
+ "Building Industries": {
+  "name": "Tionscail tógála",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh cruach 2 chéim."
+ },
+ "Business Contacts": {
+  "name": "Teagmhálacha gnó",
+  "desc": "Féach ar na 4 chárta uachtaracha den phaca. Tóg 2 isteach i do lámh agus caith uait an chuid eile."
+ },
+ "Business Network": {
+  "name": "Líonra gnó",
+  "desc": "Laghdaigh do tháirgeadh M€ 1 chéim.",
+  "actions": [
+   "Féach ar an gcárta uachtarach agus ceannaigh é nó caith uait é."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Mianaigh phionósacha Challisto",
+  "desc": "Méadaigh do tháirgeadh M€ 3 chéim."
+ },
+ "Caretaker Contract": {
+  "name": "Conradh feighlí",
+  "actions": [
+   "Caith 8 teas chun do rátáil terraformála a ardú 1 chéim."
+  ]
+ },
+ "Cartel": {
+  "name": "Cartail",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim in aghaidh gach clib an Domhain atá agat, an ceann seo san áireamh."
+ },
+ "CEO's Favorite Project": {
+  "name": "Tionscadal ceanúil an phríomhfheidhmeannaigh",
+  "desc": "Cuir 1 acmhainn le haon cheann de do chártaí a bhfuil 1 acmhainn ar a laghad air cheana."
+ },
+ "Commercial District": {
+  "name": "Ceantar tráchtála",
+  "desc": "Cuir an leacán seo. Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 4 chéim.",
+  "vpText": [
+   "1 PB in aghaidh gach leacán cathrach tadhlach."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Daingean corparáideach",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 3 chéim. Cuir leacán cathrach."
+ },
+ "Development Center": {
+  "name": "Ionad forbartha",
+  "actions": [
+   "Caith 1 fuinneamh chun cárta a tharraingt."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Catapalt an Domhain",
+  "effects": [
+   "Nuair a imríonn tú cárta, íocann tú 2 M€ níos lú air."
+  ]
+ },
+ "Earth Office": {
+  "name": "Oifig ar an Domhan",
+  "effects": [
+   "Nuair a imríonn tú clib an Domhain, íocann tú 3 M€ níos lú air."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Leictreacatapalt",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim.",
+  "actions": [
+   "Caith 1 phlanda nó 1 cruach chun 7 M€ a fháil."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Fuinneamh a shú",
+  "desc": "Laghdaigh táirgeadh fuinnimh aon imreora 1 chéim agus méadaigh do cheann féin 1 chéim."
+ },
+ "Fuel Factory": {
+  "name": "Monarcha breosla",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh tíotáiniam agus M€ 1 chéim an ceann."
+ },
+ "Gene Repair": {
+  "name": "Deisiú géinte",
+  "desc": "Méadaigh do tháirgeadh M€ 2 chéim."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Cuibhreannas an Chreagáin Mhóir",
+  "desc": "Laghdaigh táirgeadh cruach aon imreora 1 chéim agus méadaigh do cheann féin 1 chéim."
+ },
+ "Hackers": {
+  "name": "Hacálaithe",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus táirgeadh M€ aon imreora 2 chéim. Méadaigh do tháirgeadh M€ 2 chéim."
+ },
+ "Hired Raiders": {
+  "name": "Ruathróirí ar tuarastal",
+  "desc": "Goid suas le 2 cruach, nó 3 M€, ó aon imreoir."
+ },
+ "Indentured Workers": {
+  "name": "Oibrithe faoi chonradh",
+  "desc": "Cosnaíonn an chéad chárta eile a imríonn tú sa ghlúin seo 8 M€ níos lú."
+ },
+ "Industrial Center": {
+  "name": "Ionad tionsclaíoch",
+  "desc": "Cuir an leacán seo in aice le leacán cathrach.",
+  "actions": [
+   "Caith 7 M€ chun do tháirgeadh cruach a mhéadú 1 chéim."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Long choilíneachta idir-réaltach"
+ },
+ "Invention Contest": {
+  "name": "Comórtas aireagán",
+  "desc": "Féach ar na 3 chárta uachtaracha den phaca. Tóg 1 isteach i do lámh agus caith uait an chuid eile."
+ },
+ "Inventors' Guild": {
+  "name": "Cumann na n-aireagóirí",
+  "actions": [
+   "Féach ar an gcárta uachtarach agus ceannaigh é nó caith uait é."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Iasacht infheistíochta",
+  "desc": "Laghdaigh do tháirgeadh M€ 1 chéim. Faigh 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Tionscail mhianadóireachta Io",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 2 chéim agus do tháirgeadh M€ 2 chéim.",
+  "vpText": [
+   "1 PB in aghaidh gach clib Iúpatair atá agat."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Réadlann Lagrange",
+  "desc": "Tarraing 1 chárta."
+ },
+ "Land Claim": {
+  "name": "Éileamh talún",
+  "desc": "Cuir spás nach bhfuil curtha in áirithe in áirithe duit féin: is tusa amháin a fhéadfaidh leacán a chur ann."
+ },
+ "Lightning Harvest": {
+  "name": "Fómhar tintrí",
+  "desc": "Méadaigh do tháirgeadh fuinnimh agus do tháirgeadh M€ céim amháin an ceann."
+ },
+ "Mars University": {
+  "name": "Ollscoil Mhars",
+  "effects": [
+   "Nuair a imríonn tú clib eolaíochta, an ceann seo san áireamh, is féidir leat cárta a chaitheamh as do lámh chun cárta a tharraingt."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Tiontaire maise",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 6 chéim.",
+  "effects": [
+   "Nuair a imríonn tú cárta spáis, íocann tú 2 M€ níos lú air."
+  ]
+ },
+ "Media Archives": {
+  "name": "Cartlanna na meán",
+  "desc": "Faigh 1 M€ in aghaidh gach teagmhais A IMRÍODH RIAMH ag na himreoirí go léir."
+ },
+ "Media Group": {
+  "name": "Grúpa meán",
+  "effects": [
+   "Tar éis duit cárta teagmhais a imirt, faigheann tú 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Saotharlann leighis",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim in aghaidh gach 2 chlib foirgníochta atá agat, an ceann seo san áireamh."
+ },
+ "Mine": {
+  "name": "Mianach",
+  "desc": "Méadaigh do tháirgeadh cruach 1 chéim."
+ },
+ "Mineral Deposit": {
+  "name": "Taisce mianraí",
+  "desc": "Faigh 5 cruach."
+ },
+ "Mining Area": {
+  "name": "Limistéar mianadóireachta",
+  "desc": "Cuir an leacán seo ar spás a bhfuil bónas cruach nó tíotáiniam air, in aice le leacán eile leat. Méadaigh do tháirgeadh den acmhainn sin 1 chéim."
+ },
+ "Miranda Resort": {
+  "name": "Ionad saoire Miranda",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim in aghaidh gach clib an Domhain atá agat."
+ },
+ "Olympus Conference": {
+  "name": "Comhdháil Olympus",
+  "desc": "Nuair a imríonn tú clib eolaíochta, an ceann seo san áireamh, cuir acmhainn eolaíochta leis an gcárta seo, nó bain acmhainn eolaíochta den chárta seo chun cárta a tharraingt."
+ },
+ "Physics Complex": {
+  "name": "Coimpléasc fisice",
+  "actions": [
+   "Caith 6 fuinneamh chun acmhainn eolaíochta a chur leis an gcárta seo."
+  ],
+  "vpText": [
+   "2 PB in aghaidh gach acmhainn eolaíochta ar an gcárta seo."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Bonneagar fuinnimh",
+  "actions": [
+   "Caith méid ar bith fuinnimh agus faigh an méid céanna M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Cuibhreannas soláthair fuinnimh",
+  "desc": "Laghdaigh táirgeadh fuinnimh aon imreora 1 chéim agus méadaigh do cheann féin 1 chéim."
+ },
+ "Protected Habitats": {
+  "name": "Gnáthóga cosanta",
+  "effects": [
+   "Ní féidir le céilí comhraic do phlandaí, d'ainmhithe ná do mhiocróib a bhaint."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Eastóscóir candamach",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 4 chéim.",
+  "effects": [
+   "Nuair a imríonn tú cárta spáis, íocann tú 2 M€ níos lú air."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Culaithe radaíochta",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim."
+ },
+ "Research": {
+  "name": "Taighde",
+  "desc": "Áirítear é mar 2 chárta eolaíochta a imirt. Tarraing 2 chárta."
+ },
+ "Restricted Area": {
+  "name": "Limistéar srianta",
+  "desc": "Cuir an leacán seo.",
+  "actions": [
+   "Caith 2 M€ chun cárta a tharraingt."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Lucht saothair róbatach",
+  "desc": "Dúbail bosca táirgeachta ceann de do chártaí foirgníochta amháin."
+ },
+ "Sabotage": {
+  "name": "Sabaitéireacht",
+  "desc": "Bain suas le 3 tíotáiniam d'aon imreoir, nó 4 cruach, nó 7 M€."
+ },
+ "Satellites": {
+  "name": "Satailítí",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim in aghaidh gach clib spáis atá agat, an ceann seo san áireamh."
+ },
+ "Security Fleet": {
+  "name": "Cabhlach slándála",
+  "actions": [
+   "Caith 1 tíotáiniam chun 1 trodaire a chur leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach trodaire ar an gcárta seo."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Ardaitheoir spáis",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 1 chéim.",
+  "actions": [
+   "Caith 1 cruach chun 5 M€ a fháil."
+  ]
+ },
+ "Space Station": {
+  "name": "Stáisiún spáis",
+  "effects": [
+   "Nuair a imríonn tú cárta spáis, íocann tú 2 M€ níos lú air."
+  ]
+ },
+ "Sponsors": {
+  "name": "Urraitheoirí",
+  "desc": "Méadaigh do tháirgeadh M€ 2 chéim."
+ },
+ "Standard Technology": {
+  "name": "Teicneolaíocht chaighdeánach",
+  "effects": [
+   "Tar éis duit íoc as tionscadal caighdeánach, seachas paitinní a dhíol, faigheann tú 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Béir uisce",
+  "actions": [
+   "Cuir 1 mhiocrób leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach 4 mhiocrób ar an gcárta seo."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Taispeántas teicneolaíochta",
+  "desc": "Tarraing dhá chárta."
+ },
+ "Terraforming Ganymede": {
+  "name": "Ganymede a terraformáil",
+  "desc": "Ardaigh do RT 1 chéim in aghaidh gach clib Iúpatair atá agat, an ceann seo san áireamh."
+ },
+ "Titanium Mine": {
+  "name": "Mianach tíotáiniam",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 1 chéim."
+ },
+ "Toll Station": {
+  "name": "Stáisiún dola",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim in aghaidh gach clib spáis atá ag do CHÉILÍ COMHRAIC."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Taiscéalaí tras-Neiptiún",
+  "desc": "Taiscéalaí domhainspáis: is fiú 1 PB é."
+ },
+ "Tropical Resort": {
+  "name": "Ionad saoire trópaiceach",
+  "desc": "Laghdaigh do tháirgeadh teasa 2 chéim agus méadaigh do tháirgeadh M€ 3 chéim."
+ },
+ "Vesta Shipyard": {
+  "name": "Longchlós Vesta",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 1 chéim."
+ },
+ "Viral Enhancers": {
+  "name": "Treisitheoirí víreasacha",
+  "effects": [
+   "Nuair a imríonn tú clib planda, miocróib nó ainmhí, an ceann seo san áireamh, faigh 1 phlanda nó cuir 1 acmhainn leis AN gCÁRTA SIN."
+  ]
+ },
+ "Virus": {
+  "name": "Víreas",
+  "desc": "Bain suas le 2 ainmhí nó 5 phlanda d'aon imreoir."
+ },
+ "SF Memorial": {
+  "name": "Leacht ficsean eolaíochta",
+  "desc": "Tarraing 1 chárta."
+ },
+ "House Printing": {
+  "name": "Priontáil tithe",
+  "desc": "Méadaigh do tháirgeadh cruach 1 chéim."
+ },
+ "Space Hotels": {
+  "name": "Óstáin spáis",
+  "desc": "Méadaigh táirgeadh M€ 4 chéim."
+ },
+ "Martian Survey": {
+  "name": "Suirbhé ar Mhars",
+  "desc": "Tarraing dhá chárta."
+ },
+ "Research Coordination": {
+  "name": "Comhordú taighde",
+  "desc": "Tar éis é a imirt, nuair a dhéanann tú gníomh, áirítear an chlib fhiáin mar chlib ar bith is rogha leat."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lonnaíocht feadáin laibhe",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 2 chéim. Cuir leacán cathrach ar LIMISTÉAR BOLCÁNACH beag beann ar chathracha tadhlacha."
+ },
+ "Psychrophiles": {
+  "name": "Síceafailí",
+  "actions": [
+   "Cuir 1 mhiocrób leis an gcárta seo."
+  ],
+  "effects": [
+   "Agus tú ag íoc as cárta planda, is féidir na miocróib anseo a úsáid mar 2 M€ an ceann."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Teicneolaíocht oiriúnaithe",
+  "effects": [
+   "Tá do riachtanais dhomhanda +2 nó -2 chéim, de réir do rogha i ngach cás."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Crotal oiriúnaithe",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim."
+ },
+ "Advanced Ecosystems": {
+  "name": "Éiceachórais ardleibhéil"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Astaróideach amóinia aerchoscánaithe",
+  "desc": "Méadaigh do tháirgeadh teasa 3 chéim agus do tháirgeadh plandaí 1 chéim. Cuir 2 mhiocrób le cárta EILE."
+ },
+ "Ants": {
+  "name": "Seangáin",
+  "actions": [
+   "Bain 1 mhiocrób d'aon chárta chun 1 a chur leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach 2 mhiocrób ar an gcárta seo."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Caidéalú uiscígh",
+  "actions": [
+   "Caith 8 M€ chun 1 leacán aigéin a chur. IS FÉIDIR CRUACH A ÚSÁID amhail is dá mbeifeá ag imirt cárta foirgníochta."
+  ]
+ },
+ "Algae": {
+  "name": "Algaí",
+  "desc": "Faigh 1 phlanda agus méadaigh do tháirgeadh plandaí 2 chéim."
+ },
+ "ArchaeBacteria": {
+  "name": "Seanbhaictéir",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim."
+ },
+ "Arctic Algae": {
+  "name": "Algaí Artacha",
+  "desc": "Faigh 1 phlanda.",
+  "effects": [
+   "Nuair a chuireann aon duine leacán aigéin, faigh 2 phlanda."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Loch saorga",
+  "desc": "Cuir 1 leacán aigéin AR SPÁS NACH BHFUIL IN ÁIRITHE D'AIGÉAN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Fótaisintéis shaorga",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim nó do tháirgeadh fuinnimh 2 chéim.",
+  "orTitles": [
+   "Méadaigh do tháirgeadh fuinnimh 2 chéim",
+   "Méadaigh do tháirgeadh plandaí 1 chéim"
+  ]
+ },
+ "Asteroid": {
+  "name": "Astaróideach",
+  "desc": "Ardaigh an teocht 1 chéim agus faigh 2 tíotáiniam. Bain suas le 3 phlanda d'aon imreoir."
+ },
+ "Asteroid Mining": {
+  "name": "Mianadóireacht astaróideach",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 2 chéim."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Léas ó astaróideach tóiriam",
+  "desc": "Méadaigh do tháirgeadh teasa agus do tháirgeadh fuinnimh 3 chéim an ceann."
+ },
+ "Big Asteroid": {
+  "name": "Astaróideach mór",
+  "desc": "Ardaigh an teocht 2 chéim agus faigh 4 tíotáiniam. Bain suas le 4 phlanda d'aon imreoir."
+ },
+ "Biomass Combustors": {
+  "name": "Dóiteoirí bithmhaise",
+  "desc": "Laghdaigh táirgeadh plandaí aon imreora 1 chéim agus méadaigh do tháirgeadh fuinnimh 2 chéim."
+ },
+ "Birds": {
+  "name": "Éin",
+  "desc": "Laghdaigh táirgeadh plandaí aon imreora 2 chéim. 1 PB in aghaidh gach ainmhí ar an gcárta seo.",
+  "actions": [
+   "Cuir ainmhí leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach ainmhí ar an gcárta seo."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Deannach dubh polach",
+  "desc": "Cuir leacán aigéin. Laghdaigh do tháirgeadh M€ 2 chéim agus méadaigh do tháirgeadh teasa 3 chéim."
+ },
+ "Breathing Filters": {
+  "name": "Scagairí análaithe"
+ },
+ "Bushes": {
+  "name": "Toir",
+  "desc": "Méadaigh do tháirgeadh plandaí 2 chéim. Faigh 2 phlanda."
+ },
+ "Capital": {
+  "name": "Príomhchathair",
+  "desc": "Cuir an leacán seo. Laghdaigh do tháirgeadh fuinnimh 2 chéim agus méadaigh do tháirgeadh M€ 5 chéim.",
+  "vpText": [
+   "1 PB breise in aghaidh gach leacán aigéin in aice leis an leacán cathrach seo."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Próiseáil carbónáití",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh teasa 3 chéim."
+ },
+ "Cloud Seeding": {
+  "name": "Síolú scamall",
+  "desc": "Laghdaigh do tháirgeadh M€ 1 chéim agus táirgeadh teasa aon imreora 1 chéim. Méadaigh do tháirgeadh plandaí 2 chéim."
+ },
+ "Colonizer Training Camp": {
+  "name": "Campa traenála coilíneach"
+ },
+ "Comet": {
+  "name": "Cóiméad",
+  "desc": "Ardaigh an teocht 1 chéim agus cuir leacán aigéin. Bain suas le 3 phlanda d'aon imreoir."
+ },
+ "Convoy From Europa": {
+  "name": "Conmhaigh ó Europa",
+  "desc": "Cuir 1 leacán aigéin agus tarraing 1 chárta."
+ },
+ "Cupola City": {
+  "name": "Cathair chruacháin",
+  "desc": "Cuir leacán cathrach. Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 3 chéim."
+ },
+ "Decomposers": {
+  "name": "Dianscaoilteoirí",
+  "effects": [
+   "Nuair a imríonn tú clib ainmhí, planda nó miocróib, an ceann seo san áireamh, cuir miocrób leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach 3 mhiocrób ar an gcárta seo."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Téamh ó thobar domhain",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 1 chéim. Ardaigh an teocht 1 chéim."
+ },
+ "Deimos Down": {
+  "name": "Titim Deimos",
+  "desc": "Ardaigh an teocht 3 chéim agus faigh 4 cruach. Bain suas le 8 bplanda d'aon imreoir."
+ },
+ "Designed Microorganisms": {
+  "name": "Miocrorgánaigh deartha",
+  "desc": "Méadaigh do tháirgeadh plandaí 2 chéim."
+ },
+ "Domed Crater": {
+  "name": "Cráitéar faoi chruachán",
+  "desc": "Faigh 3 phlanda. Cuir leacán cathrach. Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 3 chéim."
+ },
+ "Dust Seals": {
+  "name": "Rónta deannaigh"
+ },
+ "Ecological Zone": {
+  "name": "Crios éiceolaíoch",
+  "desc": "Cuir an leacán seo in aice le HAON fhásra.",
+  "effects": [
+   "Nuair a imríonn tú clib ainmhí nó planda, IAD SEO SAN ÁIREAMH, cuir ainmhí leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach 2 ainmhí ar an gcárta seo."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Coigilt fuinnimh",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 1 chéim in aghaidh gach leacán cathrach sa chluiche."
+ },
+ "Eos Chasma National Park": {
+  "name": "Páirc Náisiúnta Eos Chasma",
+  "desc": "Cuir 1 ainmhí LE HAON CHÁRTA AINMHÍ. Faigh 3 phlanda. Méadaigh do tháirgeadh M€ 2 chéim."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Maighnéadóir meánchiorclach",
+  "actions": [
+   "Laghdaigh do tháirgeadh fuinnimh 1 chéim chun do rátáil terraformála a ardú 1 chéim."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Fungas an fhuachta mhóir",
+  "actions": [
+   "Faigh 1 phlanda.",
+   "Cuir 2 mhiocrób le cárta EILE."
+  ]
+ },
+ "Farming": {
+  "name": "Feirmeoireacht",
+  "desc": "Méadaigh do tháirgeadh M€ 2 chéim agus do tháirgeadh plandaí 2 chéim. Faigh 2 phlanda."
+ },
+ "Fish": {
+  "name": "Iasc",
+  "desc": "Laghdaigh táirgeadh plandaí aon imreora 1 chéim.",
+  "actions": [
+   "Cuir 1 ainmhí leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach ainmhí ar an gcárta seo."
+  ]
+ },
+ "Flooding": {
+  "name": "Tuilte",
+  "desc": "Cuir leacán aigéin. MÁ TÁ LEACÁIN IN AICE LEIS AN LEACÁN AIGÉIN SEO, IS FÉIDIR LEAT 4 M€ A BHAINT DE ÚINÉIR CHEANN DE NA LEACÁIN SIN."
+ },
+ "Food Factory": {
+  "name": "Monarcha bia",
+  "desc": "Laghdaigh do tháirgeadh plandaí 1 chéim agus méadaigh do tháirgeadh M€ 4 chéim."
+ },
+ "Fusion Power": {
+  "name": "Cumhacht chomhleá",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 3 chéim."
+ },
+ "Fueled Generators": {
+  "name": "Gineadóirí breosla",
+  "desc": "Laghdaigh do tháirgeadh M€ 1 chéim agus méadaigh do tháirgeadh fuinnimh 1 chéim."
+ },
+ "Ganymede Colony": {
+  "name": "Coilíneacht Ghainiméid",
+  "desc": "Cuir leacán cathrach AR AN SPÁS ATÁ IN ÁIRITHE.",
+  "vpText": [
+   "1 PB in aghaidh gach clib Iúpatair atá agat."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Cumhacht gheoiteirmeach",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 2 chéim."
+ },
+ "GHG Factories": {
+  "name": "Monarchana gás ceaptha teasa",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh teasa 4 chéim."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Baictéir a tháirgeann gáis cheaptha teasa",
+  "actions": [
+   "Cuir 1 mhiocrób leis an gcárta seo.",
+   "Bain 2 mhiocrób chun an teocht a ardú 1 chéim."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Astaróideach oighir ollmhór",
+  "desc": "Ardaigh an teocht 2 chéim agus cuir 2 leacán aigéin. Bain suas le 6 phlanda d'aon imreoir."
+ },
+ "Giant Space Mirror": {
+  "name": "Scáthán spáis ollmhór",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 3 chéim."
+ },
+ "Grass": {
+  "name": "Féar",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim. Faigh 3 phlanda."
+ },
+ "Great Dam": {
+  "name": "An damba mór",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 2 chéim."
+ },
+ "Greenhouses": {
+  "name": "Teachíní gloine",
+  "desc": "Faigh 1 phlanda in aghaidh gach leacán cathrach sa chluiche."
+ },
+ "Heather": {
+  "name": "Fraoch",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim. Faigh 1 phlanda."
+ },
+ "Heat Trappers": {
+  "name": "Gaistí teasa",
+  "desc": "Laghdaigh táirgeadh teasa aon imreora 2 chéim agus méadaigh do tháirgeadh fuinnimh 1 chéim."
+ },
+ "Herbivores": {
+  "name": "Luibhiteoirí",
+  "desc": "+1 ainmhí leis an gcárta seo. -1 táirgeadh plandaí aon imreora",
+  "effects": [
+   "Nuair a chuireann tú leacán fásra, cuir ainmhí leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach 2 ainmhí ar an gcárta seo."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Astaróideach oighir",
+  "desc": "Cuir 2 leacán aigéin."
+ },
+ "Ice Cap Melting": {
+  "name": "Leá an chaipín oighir",
+  "desc": "Cuir 1 leacán aigéin."
+ },
+ "Immigrant City": {
+  "name": "Cathair na n-inimirceach",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus do tháirgeadh M€ 2 chéim. Cuir leacán cathrach.",
+  "effects": [
+   "Nuair a chuirtear leacán cathrach, an ceann seo san áireamh, méadaigh do tháirgeadh M€ 1 chéim."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Tointeálaithe inimirce",
+  "desc": "Méadaigh do tháirgeadh M€ 5 chéim.",
+  "vpText": [
+   "1 PB in aghaidh gach 3ú cathair sa chluiche."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Gáis cheaptha teasa allmhairithe",
+  "desc": "Méadaigh do tháirgeadh teasa 1 chéim agus faigh 3 teas."
+ },
+ "Imported Hydrogen": {
+  "name": "Hidrigin allmhairithe",
+  "desc": "Faigh 3 phlanda, nó cuir 3 mhiocrób nó 2 ainmhí le cárta EILE. Cuir leacán aigéin.",
+  "orTitles": [
+   "Faigh 3 phlanda",
+   "Cuir 3 mhiocrób le cárta EILE",
+   "Cuir 2 ainmhí le cárta EILE"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nítrigin allmhairithe",
+  "desc": "Ardaigh do RT 1 chéim agus faigh 4 phlanda. Cuir 3 mhiocrób le cárta EILE agus 2 ainmhí le cárta EILE."
+ },
+ "Import of Advanced GHG": {
+  "name": "Allmhairiú gás ceaptha teasa ardleibhéil",
+  "desc": "Méadaigh do tháirgeadh teasa 2 chéim."
+ },
+ "Industrial Microbes": {
+  "name": "Miocróib thionsclaíocha",
+  "desc": "Méadaigh do tháirgeadh fuinnimh agus do tháirgeadh cruach 1 chéim an ceann."
+ },
+ "Insects": {
+  "name": "Feithidí",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim in aghaidh gach clib planda atá agat."
+ },
+ "Insulation": {
+  "name": "Insliú",
+  "desc": "Laghdaigh do tháirgeadh teasa líon ar bith céimeanna agus méadaigh do tháirgeadh M€ an líon céanna céimeanna."
+ },
+ "Ironworks": {
+  "name": "Iarnlann",
+  "actions": [
+   "Caith 4 fuinneamh chun 1 cruach a fháil agus an ocsaigin a ardú 1 chéim."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Feirmeoireacht ceilpe",
+  "desc": "Méadaigh do tháirgeadh M€ 2 chéim agus do tháirgeadh plandaí 3 chéim. Faigh 2 phlanda."
+ },
+ "Lake Marineris": {
+  "name": "Loch Marineris",
+  "desc": "Cuir 2 leacán aigéin."
+ },
+ "Large Convoy": {
+  "name": "Conmhaigh mhór",
+  "desc": "Cuir leacán aigéin agus tarraing 2 chárta. Faigh 5 phlanda nó cuir 4 ainmhí le cárta EILE.",
+  "orTitles": [
+   "Faigh 5 phlanda",
+   "Cuir 4 ainmhí le cárta EILE"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Sruthanna laibhe",
+  "desc": "Ardaigh an teocht 2 chéim agus cuir an leacán seo AR THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS NÓ ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Crotal",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim."
+ },
+ "Livestock": {
+  "name": "Beostoc",
+  "desc": "Laghdaigh do tháirgeadh plandaí 1 chéim agus méadaigh do tháirgeadh M€ 2 chéim",
+  "actions": [
+   "Cuir 1 ainmhí leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach ainmhí ar an gcárta seo."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Gaistiú teasa áitiúil",
+  "desc": "Caith 5 teas chun 4 phlanda a fháil, nó chun 2 ainmhí a chur le cárta EILE.",
+  "orTitles": [
+   "Faigh 4 phlanda",
+   "Cuir 2 ainmhí le cárta EILE"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Léas gealaí",
+  "desc": "Laghdaigh do tháirgeadh M€ 2 chéim agus méadaigh do tháirgeadh teasa agus do tháirgeadh fuinnimh 2 chéim an ceann."
+ },
+ "Magnetic Field Dome": {
+  "name": "Cruachán réimse mhaighnéadaigh",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 2 chéim agus méadaigh do tháirgeadh plandaí 1 chéim. Ardaigh do RT 1 chéim."
+ },
+ "Magnetic Field Generators": {
+  "name": "Gineadóirí réimse mhaighnéadaigh",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 4 chéim agus méadaigh do tháirgeadh plandaí 2 chéim. Ardaigh do RT 3 chéim."
+ },
+ "Mangrove": {
+  "name": "Mangróbh",
+  "desc": "Cuir leacán fásra AR SPÁS ATÁ IN ÁIRITHE D'AIGÉAN agus ardaigh an ocsaigin 1 chéim. Déan neamhaird de na gnáthshrianta socrúcháin chuige seo."
+ },
+ "Martian Rails": {
+  "name": "Iarnróid Mhars",
+  "actions": [
+   "Caith 1 fuinneamh chun 1 M€ a fháil in aghaidh gach leacán cathrach AR MHARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Meatán ó Titan",
+  "desc": "Méadaigh do tháirgeadh teasa 2 chéim agus do tháirgeadh plandaí 2 chéim."
+ },
+ "Micro-Mills": {
+  "name": "Micrea-mhuilte",
+  "desc": "Méadaigh do tháirgeadh teasa 1 chéim."
+ },
+ "Mining Expedition": {
+  "name": "Turas mianadóireachta",
+  "desc": "Ardaigh an ocsaigin 1 chéim. Bain 2 phlanda d'aon imreoir. Faigh 2 cruach."
+ },
+ "Mining Rights": {
+  "name": "Cearta mianadóireachta",
+  "desc": "Cuir an leacán seo ar spás a bhfuil bónas cruach nó tíotáiniam air. Méadaigh an táirgeadh sin 1 chéim."
+ },
+ "Mohole Area": {
+  "name": "Limistéar Mohole",
+  "desc": "Méadaigh do tháirgeadh teasa 4 chéim. Cuir an leacán seo AR SPÁS ATÁ IN ÁIRITHE D'AIGÉAN."
+ },
+ "Moss": {
+  "name": "Caonach",
+  "desc": "Caill 1 phlanda. Méadaigh do tháirgeadh plandaí 1 chéim."
+ },
+ "Natural Preserve": {
+  "name": "Tearmann dúlra",
+  "desc": "Cuir an leacán seo GAN É A BHEITH IN AICE LE HAON LEACÁN EILE. Méadaigh do tháirgeadh M€ 1 chéim."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Baictéir a laghdaíonn nítrítí",
+  "desc": "Cuir 3 mhiocrób leis an gcárta seo.",
+  "actions": [
+   "Cuir 1 mhiocrób leis an gcárta seo.",
+   "Bain 3 mhiocrób chun do RT a ardú 1 chéim."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Astaróideach saibhir i nítrigin",
+  "desc": "Ardaigh do rátáil terraformála 2 chéim agus an teocht 1 chéim. Méadaigh do tháirgeadh plandaí 1 chéim, nó 4 chéim má tá 3 chlib planda agat."
+ },
+ "Nitrophilic Moss": {
+  "name": "Caonach nítreafaileach",
+  "desc": "Caill 2 phlanda. Méadaigh do tháirgeadh plandaí 2 chéim."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 3 chéim. Cuir leacán cathrach AR AN SPÁS ATÁ IN ÁIRITHE, gan aird ar na gnáthshrianta socrúcháin."
+ },
+ "Noctis Farming": {
+  "name": "Feirmeoireacht Noctis",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim agus faigh 2 phlanda."
+ },
+ "Nuclear Power": {
+  "name": "Cumhacht núicléach",
+  "desc": "Laghdaigh do tháirgeadh M€ 2 chéim agus méadaigh do tháirgeadh fuinnimh 3 chéim."
+ },
+ "Nuclear Zone": {
+  "name": "Crios núicléach",
+  "desc": "Cuir an leacán seo agus ardaigh an teocht 2 chéim."
+ },
+ "Open City": {
+  "name": "Cathair oscailte",
+  "desc": "Faigh 2 phlanda. Cuir leacán cathrach. Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 4 chéim."
+ },
+ "Optimal Aerobraking": {
+  "name": "Aerchoscánú barrmhaith",
+  "effects": [
+   "Nuair a imríonn tú teagmhas spáis, faigheann tú 3 M€ agus 3 teas."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Próiseálaí méine",
+  "actions": [
+   "Caith 4 fuinneamh chun 1 tíotáiniam a fháil agus an ocsaigin a mhéadú 1 chéim."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Eastóscadh buanreoite",
+  "desc": "Cuir 1 leacán aigéin."
+ },
+ "Peroxide Power": {
+  "name": "Cumhacht sárocsaíde",
+  "desc": "Laghdaigh do tháirgeadh M€ 1 chéim agus méadaigh do tháirgeadh fuinnimh 2 chéim."
+ },
+ "Pets": {
+  "name": "Peataí",
+  "desc": "Cuir 1 ainmhí leis an gcárta seo.",
+  "effects": [
+   "Nuair a chuirtear aon leacán cathrach, cuir ainmhí leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach 2 ainmhí anseo."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Cuan spáis Phobos",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 1 chéim agus cuir leacán cathrach AR AN SPÁS ATÁ IN ÁIRITHE."
+ },
+ "Plantation": {
+  "name": "Plandáil",
+  "desc": "Cuir leacán fásra agus ardaigh an ocsaigin 1 chéim."
+ },
+ "Power Grid": {
+  "name": "Eangach chumhachta",
+  "desc": "Méadaigh do tháirgeadh fuinnimh céim amháin in aghaidh gach clib fuinnimh atá agat, an ceann seo san áireamh."
+ },
+ "Power Plant": {
+  "name": "Stáisiún cumhachta",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 1 chéim."
+ },
+ "Predators": {
+  "name": "Creachadóirí",
+  "actions": [
+   "Bain 1 ainmhí d'aon chárta agus cuir leis an gcárta seo é."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach ainmhí ar an gcárta seo."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Gleann cosanta",
+  "desc": "Méadaigh do tháirgeadh M€ 2 chéim. Cuir leacán fásra AR SPÁS ATÁ IN ÁIRITHE D'AIGÉAN, gan aird ar na gnáthshrianta socrúcháin, agus méadaigh an ocsaigin 1 chéim."
+ },
+ "Rad-Chem Factory": {
+  "name": "Monarcha radacheimiceach",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim. Ardaigh do RT 2 chéim."
+ },
+ "Regolith Eaters": {
+  "name": "Itheoirí réigiliot",
+  "actions": [
+   "Cuir 1 mhiocrób leis an gcárta seo.",
+   "Bain 2 mhiocrób den chárta seo chun leibhéal na hocsaigine a ardú 1 chéim."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Scaoileadh gás támh",
+  "desc": "Ardaigh do rátáil terraformála 2 chéim."
+ },
+ "Research Outpost": {
+  "name": "Stáisiún taighde",
+  "desc": "Cuir leacán cathrach GAN É A BHEITH IN AICE LE HAON LEACÁN EILE.",
+  "effects": [
+   "Nuair a imríonn tú cárta, íocann tú 1 M€ níos lú air."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Tógáil róbhéar",
+  "effects": [
+   "Nuair a chuirtear aon leacán cathrach, faigh 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Cuardach beatha",
+  "actions": [
+   "Caith 1 M€ chun an cárta uachtarach den charn tarraingthe a nochtadh. Má tá clib miocróib ar an gcárta sin, cuir acmhainn eolaíochta anseo."
+  ],
+  "vpText": [
+   "3 PB má tá acmhainn eolaíochta amháin nó níos mó agat anseo."
+  ]
+ },
+ "Shuttles": {
+  "name": "Tointeálaithe",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 2 chéim.",
+  "effects": [
+   "Nuair a imríonn tú cárta spáis, íocann tú 2 M€ níos lú air."
+  ]
+ },
+ "Small Animals": {
+  "name": "Ainmhithe beaga",
+  "desc": "Laghdaigh táirgeadh plandaí aon imreora 1 chéim.",
+  "actions": [
+   "Cuir 1 ainmhí leis an gcárta seo."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach 2 ainmhí ar an gcárta seo."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Monarcha ithreach",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh plandaí 1 chéim."
+ },
+ "Solar Power": {
+  "name": "Cumhacht ghréine",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 1 chéim."
+ },
+ "Solar Wind Power": {
+  "name": "Cumhacht ghaoth na gréine",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 1 chéim agus faigh 2 tíotáiniam."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Méadaigh do tháirgeadh teasa 7 gcéim."
+ },
+ "Space Mirrors": {
+  "name": "Scátháin spáis",
+  "actions": [
+   "Caith 7 M€ chun do tháirgeadh fuinnimh a mhéadú 1 chéim."
+  ]
+ },
+ "Special Design": {
+  "name": "Dearadh speisialta",
+  "desc": "Tá +2 nó -2 chéim sna riachtanais dhomhanda ag an gcéad chárta eile a imríonn tú sa ghlúin seo, de réir do rogha."
+ },
+ "Steelworks": {
+  "name": "Cruachlann",
+  "actions": [
+   "Caith 4 fuinneamh chun 2 cruach a fháil agus an ocsaigin a mhéadú 1 chéim."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Mianach stiallta",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 2 chéim. Méadaigh do tháirgeadh cruach 2 chéim agus do tháirgeadh tíotáiniam 1 chéim. Ardaigh an ocsaigin 2 chéim."
+ },
+ "Subterranean Reservoir": {
+  "name": "Taiscumar faoi thalamh",
+  "desc": "Cuir 1 leacán aigéin."
+ },
+ "Symbiotic Fungus": {
+  "name": "Fungas siombóiseach",
+  "actions": [
+   "Cuir miocrób le cárta EILE."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Cumhacht strus teicteonach",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 3 chéim."
+ },
+ "Towing A Comet": {
+  "name": "Cóiméad a tharraingt",
+  "desc": "Faigh 2 phlanda. Ardaigh leibhéal na hocsaigine 1 chéim agus cuir leacán aigéin."
+ },
+ "Trees": {
+  "name": "Crainn",
+  "desc": "Méadaigh do tháirgeadh plandaí 3 chéim. Faigh 1 phlanda."
+ },
+ "Tundra Farming": {
+  "name": "Feirmeoireacht tundra",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim agus do tháirgeadh M€ 2 chéim. Faigh 1 phlanda."
+ },
+ "Underground City": {
+  "name": "Cathair faoi thalamh",
+  "desc": "Cuir leacán cathrach. Laghdaigh do tháirgeadh fuinnimh 2 chéim agus méadaigh do tháirgeadh cruach 2 chéim."
+ },
+ "Underground Detonations": {
+  "name": "Pléascanna faoi thalamh",
+  "actions": [
+   "Caith 10 M€ chun do tháirgeadh teasa a mhéadú 2 chéim."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Limistéar uirbithe",
+  "desc": "Laghdaigh do tháirgeadh fuinnimh 1 chéim agus méadaigh do tháirgeadh M€ 2 chéim. Cuir leacán cathrach IN AICE LE 2 LEACÁN CATHRACH EILE AR A LAGHAD."
+ },
+ "Water Import From Europa": {
+  "name": "Allmhairiú uisce ó Europa",
+  "actions": [
+   "Íoc 12 M€ chun leacán aigéin a chur. IS FÉIDIR TÍOTÁINIAM A ÚSÁID amhail is dá mbeifeá ag imirt cárta spáis."
+  ],
+  "vpText": [
+   "1 PB in aghaidh gach clib Iúpatair atá agat."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Gléasra scoilte uisce",
+  "actions": [
+   "Caith 3 fuinneamh chun an ocsaigin a ardú 1 chéim."
+  ]
+ },
+ "Wave Power": {
+  "name": "Cumhacht tonnta",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 1 chéim."
+ },
+ "Windmills": {
+  "name": "Muilte gaoithe",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 1 chéim."
+ },
+ "Worms": {
+  "name": "Péisteanna",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim in aghaidh gach 2 chlib miocróib atá agat, an ceann seo san áireamh."
+ },
+ "Zeppelins": {
+  "name": "Seipilíní",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim in aghaidh gach leacán cathrach AR MHARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Tosaíonn tú le táirgeadh tíotáiniam 1 agus 42 M€.",
+  "effects": [
+   "Gach uair a thagann aon chlib Iúpatair i bhfeidhm, an ceann seo san áireamh, méadaigh do tháirgeadh M€ 1 chéim."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Tosaíonn tú le 60 M€.",
+  "effects": [
+   "Nuair a imríonn tú clib an Domhain, íocann tú 3 M€ níos lú air."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Tosaíonn tú le táirgeadh M€ 3 agus 44 M€.",
+  "effects": [
+   "Nuair a imríonn tú clib foirgníochta, íocann tú 2 M€ níos lú air."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Tosaíonn tú le táirgeadh tíotáiniam 1 agus 38 M€.",
+  "effects": [
+   "Nuair a imríonn tú clib an Domhain, an ceann seo san áireamh, tarraing cárta."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Tosaíonn tú le 47 M€.",
+  "actions": [
+   "Caith 4 M€ chun (ceann de) do tháirgeadh IS ÍSLE a mhéadú 1 chéim."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Tosaíonn tú le 37 M€. Mar do chéad ghníomh, tarraing 3 chárta Réamhrá, agus imir ceann acu. Caith uait an dá cheann eile.",
+  "effects": [
+   "Nuair a imríonn tú clib eolaíochta, íocann tú 2 M€ níos lú air."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Tosaíonn tú le 45 M€. Mar do chéad ghníomh, maoinigh duais saor in aisce.",
+  "effects": [
+   "Nuair a imríonn tú cárta a bhfuil deilbhín PB NACH BHFUIL DIÚLTACH air, an ceann seo san áireamh, faigh 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Corparáid thosaitheoirí",
+  "desc": "Tosaíonn tú le 42 M€. In ionad roghnú as 10 gcárta le linn an ullmhúcháin, faigheann tú na 10 gcárta saor in aisce."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Tosaíonn tú le 57 M€.",
+  "effects": [
+   "Tar éis duit íoc as cárta nó as tionscadal caighdeánach a bhfuil bunchostas 20 M€ nó níos mó air, faigheann tú 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Tosaíonn tú le táirgeadh plandaí 2, 3 phlanda, agus 36 M€.",
+  "effects": [
+   "Is féidir leat 7 bplanda a íoc i gcónaí, in ionad 8, chun fásra a chur."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Tosaíonn tú le táirgeadh teasa 3 agus 42 M€.",
+  "effects": [
+   "Is féidir leat teas a úsáid mar M€. Ní féidir leat M€ a úsáid mar theas."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Tosaíonn tú le 20 cruach agus 30 M€.",
+  "effects": [
+   "Gach uair a imríonn tú teagmhas, faigheann tú 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Mar do chéad ghníomh sa chluiche, tarraing 3 chárta. Tosaíonn tú le 45 M€.",
+  "effects": [
+   "Tá do riachtanais teochta, ocsaigine, aigéin agus Véineas +2 nó -2 chéim, de réir do rogha i ngach cás."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Cumann na mianadóirí",
+  "desc": "Tosaíonn tú le 30 M€, 5 cruach agus táirgeadh cruach 1.",
+  "effects": [
+   "Gach uair a chuireann tú leacán ar spás a bhfuil bónas cruach nó tíotáiniam air, méadaigh do tháirgeadh cruach 1 chéim"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Tosaíonn tú le 10 tíotáiniam agus 23 M€.",
+  "effects": [
+   "Is fiú 1 M€ breise gach ceann de d'acmhainní tíotáiniam."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Poblacht Tharsis",
+  "desc": "Tosaíonn tú le 40 M€. Mar do chéad ghníomh sa chluiche, cuir leacán cathrach.",
+  "effects": [
+   "Nuair a chuirtear aon leacán cathrach AR MHARS, méadaigh do tháirgeadh M€ 1 chéim. Nuair a chuireann tú leacán cathrach, faigh 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Tosaíonn tú le táirgeadh fuinnimh 1 agus 48 M€.",
+  "effects": [
+   "Agus tú ag imirt cárta fuinnimh NÓ AN TIONSCADAL CAIGHDEÁNACH STÁISIÚN CUMHACHTA, íocann tú 3 M€ níos lú air."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Tionscnamh Mhars na Náisiún Aontaithe",
+  "desc": "Tosaíonn tú le 40 M€.",
+  "actions": [
+   "Má ardaíodh do Rátáil Terraformála sa ghlúin seo, is féidir leat 3 M€ a íoc chun í a ardú 1 chéim eile."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Banc na gcomhghuaillithe",
+  "desc": "Méadaigh do tháirgeadh M€ 4 chéim. Faigh 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Tacaíocht don bhithsféar",
+  "desc": "Méadaigh do tháirgeadh plandaí 2 chéim. Laghdaigh do tháirgeadh M€ 1 chéim."
+ },
+ "Aquifer Turbines": {
+  "name": "Tuirbíní uiscígh",
+  "desc": "Cuir leacán aigéin. Méadaigh do tháirgeadh fuinnimh 2 chéim. Íoc 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Tochailt Mohole",
+  "desc": "Méadaigh do tháirgeadh cruach 1 chéim agus do tháirgeadh teasa 2 chéim. Faigh 2 teas."
+ },
+ "Early Settlement": {
+  "name": "Lonnaíocht luath",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim. Cuir leacán cathrach."
+ },
+ "Biofuels": {
+  "name": "Bithbhreoslaí",
+  "desc": "Méadaigh do tháirgeadh fuinnimh agus plandaí 1 chéim. Faigh 2 phlanda."
+ },
+ "Power Generation": {
+  "name": "Giniúint cumhachta",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 3 chéim."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Lonnaíocht fhéinchothaitheach",
+  "desc": "Méadaigh do tháirgeadh M€ 2 chéim. Cuir leacán cathrach."
+ },
+ "Mining Operations": {
+  "name": "Oibríochtaí mianadóireachta",
+  "desc": "Méadaigh do tháirgeadh cruach 2 chéim. Faigh 4 cruach."
+ },
+ "UNMI Contractor": {
+  "name": "Conraitheoir UNMI",
+  "desc": "Méadaigh do RT 3 chéim. Tarraing cárta."
+ },
+ "Dome Farming": {
+  "name": "Feirmeoireacht faoi chruachán",
+  "desc": "Méadaigh do tháirgeadh M€ 2 chéim agus do tháirgeadh plandaí 1 chéim."
+ },
+ "Business Empire": {
+  "name": "Impireacht ghnó",
+  "desc": "Méadaigh do tháirgeadh M€ 6 chéim. Íoc 6 M€."
+ },
+ "Donation": {
+  "name": "Síntiús",
+  "desc": "Faigh 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Lastas nítrigine",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim. Méadaigh do RT 1 chéim. Faigh 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Gléasra bruithnithe",
+  "desc": "Ardaigh an ocsaigin 2 chéim. Faigh 5 cruach."
+ },
+ "Supplier": {
+  "name": "Soláthraí",
+  "desc": "Méadaigh do tháirgeadh fuinnimh 2 chéim. Faigh 4 cruach."
+ },
+ "Supply Drop": {
+  "name": "Soláthairtí ón aer",
+  "desc": "Faigh 3 tíotáiniam, 8 cruach agus 3 phlanda."
+ },
+ "Great Aquifer": {
+  "name": "An t-uiscíoch mór",
+  "desc": "Cuir 2 leacán aigéin."
+ },
+ "Biolab": {
+  "name": "Bithshaotharlann",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim. Tarraing 3 chárta."
+ },
+ "Martian Industries": {
+  "name": "Tionscail Mhars",
+  "desc": "Méadaigh do tháirgeadh fuinnimh agus cruach 1 chéim. Faigh 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Stáisiún taighde Io",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 1 chéim. Tarraing cárta."
+ },
+ "Polar Industries": {
+  "name": "Tionscail pholacha",
+  "desc": "Méadaigh do tháirgeadh teasa 2 chéim. Cuir leacán aigéin."
+ },
+ "Society Support": {
+  "name": "Tacaíocht shóisialta",
+  "desc": "Méadaigh do tháirgeadh plandaí, fuinnimh agus teasa 1 chéim. Laghdaigh táirgeadh M€ 1 chéim."
+ },
+ "Galilean Mining": {
+  "name": "Mianadóireacht Ghailíleach",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 2 chéim. Íoc 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Astaróideach ollmhór",
+  "desc": "Ardaigh an teocht 3 chéim. Íoc 5 M€."
+ },
+ "Metals Company": {
+  "name": "Comhlacht miotal",
+  "desc": "Méadaigh do tháirgeadh M€, cruach agus tíotáiniam 1 chéim."
+ },
+ "Loan": {
+  "name": "Iasacht",
+  "desc": "Faigh 30 M€. Laghdaigh do tháirgeadh M€ 2 chéim."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Méadaigh do tháirgeadh teasa 3 chéim. Faigh 3 teas."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Astaróideach saibhir i miotail",
+  "desc": "Ardaigh an teocht 1 chéim. Faigh 4 tíotáiniam agus 4 cruach."
+ },
+ "Orbital Construction Yard": {
+  "name": "Clós tógála fithiseach",
+  "desc": "Méadaigh do tháirgeadh tíotáiniam 1 chéim. Faigh 4 tíotáiniam."
+ },
+ "Acquired Space Agency": {
+  "name": "Gníomhaireacht spáis faighte",
+  "desc": "Faigh 6 tíotáiniam. Nocht cártaí go dtí go nochtann tú dhá chárta a bhfuil clibeanna spáis orthu. Tóg isteach i do lámh iad, agus caith uait an chuid eile."
+ },
+ "Research Network": {
+  "name": "Líonra taighde",
+  "desc": "Méadaigh do tháirgeadh M€ 1 chéim. Tarraing 3 chárta. Tar éis é a imirt, nuair a dhéanann tú gníomh, áirítear an chlib fhiáin mar chlib ar bith is rogha leat."
+ },
+ "Eccentric Sponsor": {
+  "name": "Urraitheoir aisteach",
+  "desc": "IMIR CÁRTA AS DO LÁMH LE LASCAINE 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Saineolaithe éiceolaíochta",
+  "desc": "Méadaigh do tháirgeadh plandaí 1 chéim. IMIR CÁRTA AS DO LÁMH, GAN AIRD AR NA RIACHTANAIS DHOMHANDA."
+ },
+ "Experimental Forest": {
+  "name": "Foraois thurgnamhach",
+  "desc": "Cuir 1 leacán fásra agus ardaigh an ocsaigin 1 chéim. Nocht cártaí go dtí go nochtann tú dhá chárta a bhfuil clibeanna planda orthu. Tóg isteach i do lámh iad agus caith uait an chuid eile."
+ }
+}

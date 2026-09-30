@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Ostettu yritys",
+  "desc": "Nosta M€-tuotantoasi 3 askelta."
+ },
+ "Advanced Alloys": {
+  "name": "Kehittyneet seokset",
+  "effects": [
+   "Jokainen titaanisi on 1 M€ arvokkaampi.",
+   "Jokainen teräksesi on 1 M€ arvokkaampi."
+  ]
+ },
+ "AI Central": {
+  "name": "Tekoälykeskus",
+  "desc": "Vähennä energiantuotantoasi 1 askel.",
+  "actions": [
+   "Nosta 2 korttia."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitaatioteknologia",
+  "effects": [
+   "Kun pelaat kortin, maksat siitä 2 M€ vähemmän."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroidikaivoskonsortio",
+  "desc": "Vähennä minkä tahansa pelaajan titaanituotantoa 1 askel ja nosta omaasi 1 askel."
+ },
+ "Bribed Committee": {
+  "name": "Lahjottu komitea",
+  "desc": "Nosta MLK:tasi 2 askelta."
+ },
+ "Building Industries": {
+  "name": "Rakennusteollisuus",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta terästuotantoasi 2 askelta."
+ },
+ "Business Contacts": {
+  "name": "Liikesuhteet",
+  "desc": "Katso pakan 4 päällimmäistä korttia. Ota 2 käteesi ja hylkää loput."
+ },
+ "Business Network": {
+  "name": "Liiketoimintaverkosto",
+  "desc": "Vähennä M€-tuotantoasi 1 askel.",
+  "actions": [
+   "Katso päällimmäinen kortti ja joko osta tai hylkää se."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Kalliston vankilakaivokset",
+  "desc": "Nosta M€-tuotantoasi 3 askelta."
+ },
+ "Caretaker Contract": {
+  "name": "Ylläpitosopimus",
+  "actions": [
+   "Käytä 8 lämpöä nostaaksesi maankaltaistusluokitustasi 1 askel."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartelli",
+  "desc": "Nosta M€-tuotantoasi 1 askel jokaista Maa-tyyppiäsi kohden, tämä mukaan lukien."
+ },
+ "CEO's Favorite Project": {
+  "name": "Toimitusjohtajan lempiprojekti",
+  "desc": "Lisää 1 resurssi mille tahansa kortillesi, jolla on jo vähintään 1 resurssi."
+ },
+ "Commercial District": {
+  "name": "Liikekeskusta",
+  "desc": "Aseta tämä laatta. Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 4 askelta.",
+  "vpText": [
+   "1 VP jokaista viereistä kaupunkilaattaa kohden."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Yhtiön linnake",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 3 askelta. Aseta kaupunkilaatta."
+ },
+ "Development Center": {
+  "name": "Kehityskeskus",
+  "actions": [
+   "Käytä 1 energia ja nosta kortti."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Maan katapultti",
+  "effects": [
+   "Kun pelaat kortin, maksat siitä 2 M€ vähemmän."
+  ]
+ },
+ "Earth Office": {
+  "name": "Maan toimisto",
+  "effects": [
+   "Kun pelaat Maa-tyypin, maksat siitä 3 M€ vähemmän."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Sähkökatapultti",
+  "desc": "Vähennä energiantuotantoasi 1 askel.",
+  "actions": [
+   "Käytä 1 kasvi tai 1 teräs ja saat 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Energiavarkaus",
+  "desc": "Vähennä minkä tahansa pelaajan energiantuotantoa 1 askel ja nosta omaasi 1 askel."
+ },
+ "Fuel Factory": {
+  "name": "Polttoainetehdas",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta titaani- ja M€-tuotantoasi kumpaakin 1 askel."
+ },
+ "Gene Repair": {
+  "name": "Geenikorjaus",
+  "desc": "Nosta M€-tuotantoasi 2 askelta."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Suuren jyrkänteen konsortio",
+  "desc": "Vähennä minkä tahansa pelaajan terästuotantoa 1 askel ja nosta omaasi 1 askel."
+ },
+ "Hackers": {
+  "name": "Hakkerit",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja minkä tahansa pelaajan M€-tuotantoa 2 askelta. Nosta M€-tuotantoasi 2 askelta."
+ },
+ "Hired Raiders": {
+  "name": "Palkatut ryöstäjät",
+  "desc": "Varasta keneltä tahansa pelaajalta enintään 2 terästä tai 3 M€."
+ },
+ "Indentured Workers": {
+  "name": "Sopimusorjat",
+  "desc": "Seuraava tässä sukupolvessa pelaamasi kortti maksaa 8 M€ vähemmän."
+ },
+ "Industrial Center": {
+  "name": "Teollisuuskeskus",
+  "desc": "Aseta tämä laatta kaupunkilaatan viereen.",
+  "actions": [
+   "Käytä 7 M€ nostaaksesi terästuotantoasi 1 askel."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Tähtienvälinen siirtokunta-alus"
+ },
+ "Invention Contest": {
+  "name": "Keksintökilpailu",
+  "desc": "Katso pakan 3 päällimmäistä korttia. Ota 1 käteesi ja hylkää loput."
+ },
+ "Inventors' Guild": {
+  "name": "Keksijöiden kilta",
+  "actions": [
+   "Katso päällimmäinen kortti ja joko osta tai hylkää se."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investointilaina",
+  "desc": "Vähennä M€-tuotantoasi 1 askel. Saat 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Ion kaivosteollisuus",
+  "desc": "Nosta titaanituotantoasi 2 askelta ja M€-tuotantoasi 2 askelta.",
+  "vpText": [
+   "1 VP jokaista Jupiter-tyyppiäsi kohden."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrangen observatorio",
+  "desc": "Nosta 1 kortti."
+ },
+ "Land Claim": {
+  "name": "Maanvaltaus",
+  "desc": "Varaa itsellesi varaamaton alue: vain sinä saat asettaa sinne laatan."
+ },
+ "Lightning Harvest": {
+  "name": "Salamasato",
+  "desc": "Nosta energiantuotantoasi ja M€-tuotantoasi kumpaakin yhden askeleen."
+ },
+ "Mars University": {
+  "name": "Marsin yliopisto",
+  "effects": [
+   "Kun pelaat tiede-tyypin, tämä mukaan lukien, voit hylätä kortin kädestäsi ja nostaa kortin."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Massamuunnin",
+  "desc": "Nosta energiantuotantoasi 6 askelta.",
+  "effects": [
+   "Kun pelaat avaruuskortin, maksat siitä 2 M€ vähemmän."
+  ]
+ },
+ "Media Archives": {
+  "name": "Media-arkisto",
+  "desc": "Saat 1 M€ jokaisesta tapahtumasta, jonka kaikki pelaajat ovat KOSKAAN PELANNEET."
+ },
+ "Media Group": {
+  "name": "Mediakonserni",
+  "effects": [
+   "Kun olet pelannut tapahtumakortin, saat 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Lääketieteellinen laboratorio",
+  "desc": "Nosta M€-tuotantoasi 1 askel jokaista 2 rakennustyyppiäsi kohden, tämä mukaan lukien."
+ },
+ "Mine": {
+  "name": "Kaivos",
+  "desc": "Nosta terästuotantoasi 1 askel."
+ },
+ "Mineral Deposit": {
+  "name": "Mineraaliesiintymä",
+  "desc": "Saat 5 terästä."
+ },
+ "Mining Area": {
+  "name": "Kaivosalue",
+  "desc": "Aseta tämä laatta alueelle, jonka asettamisbonus on terästä tai titaania, toisen laattasi viereen. Nosta kyseisen resurssin tuotantoasi 1 askel."
+ },
+ "Miranda Resort": {
+  "name": "Mirandan lomakeskus",
+  "desc": "Nosta M€-tuotantoasi 1 askel jokaista Maa-tyyppiäsi kohden."
+ },
+ "Olympus Conference": {
+  "name": "Olympus-konferenssi",
+  "desc": "Kun pelaat tiede-tyypin, tämä mukaan lukien, joko lisää tälle kortille tiederesurssi tai poista tältä kortilta tiederesurssi ja nosta kortti."
+ },
+ "Physics Complex": {
+  "name": "Fysiikkakompleksi",
+  "actions": [
+   "Käytä 6 energiaa lisätäksesi tälle kortille tiederesurssin."
+  ],
+  "vpText": [
+   "2 VP jokaisesta tämän kortin tiederesurssista."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energiainfrastruktuuri",
+  "actions": [
+   "Käytä mikä tahansa määrä energiaa ja saat saman määrän M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Sähkönjakelukonsortio",
+  "desc": "Vähennä minkä tahansa pelaajan energiantuotantoa 1 askel ja nosta omaasi 1 askel."
+ },
+ "Protected Habitats": {
+  "name": "Suojellut elinympäristöt",
+  "effects": [
+   "Vastustajat eivät saa poistaa kasvejasi, eläimiäsi tai mikrobejasi."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvanttierotin",
+  "desc": "Nosta energiantuotantoasi 4 askelta.",
+  "effects": [
+   "Kun pelaat avaruuskortin, maksat siitä 2 M€ vähemmän."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Säteilypuvut",
+  "desc": "Nosta M€-tuotantoasi 1 askel."
+ },
+ "Research": {
+  "name": "Tutkimus",
+  "desc": "Lasketaan 2 tiedekortin pelaamiseksi. Nosta 2 korttia."
+ },
+ "Restricted Area": {
+  "name": "Rajoitettu alue",
+  "desc": "Aseta tämä laatta.",
+  "actions": [
+   "Käytä 2 M€ ja nosta kortti."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robottityövoima",
+  "desc": "Kopioi vain yhden rakennuskorttisi tuotantolaatikko."
+ },
+ "Sabotage": {
+  "name": "Sabotaasi",
+  "desc": "Poista keneltä tahansa pelaajalta enintään 3 titaania tai 4 terästä tai 7 M€."
+ },
+ "Satellites": {
+  "name": "Satelliitit",
+  "desc": "Nosta M€-tuotantoasi 1 askel jokaista avaruustyyppiäsi kohden, tämä mukaan lukien."
+ },
+ "Security Fleet": {
+  "name": "Turvallisuuslaivasto",
+  "actions": [
+   "Käytä 1 titaani lisätäksesi tälle kortille 1 hävittäjäresurssin."
+  ],
+  "vpText": [
+   "1 VP jokaisesta tämän kortin hävittäjäresurssista."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Avaruushissi",
+  "desc": "Nosta titaanituotantoasi 1 askel.",
+  "actions": [
+   "Käytä 1 teräs ja saat 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Avaruusasema",
+  "effects": [
+   "Kun pelaat avaruuskortin, maksat siitä 2 M€ vähemmän."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsorit",
+  "desc": "Nosta M€-tuotantoasi 2 askelta."
+ },
+ "Standard Technology": {
+  "name": "Vakioteknologia",
+  "effects": [
+   "Kun olet maksanut vakioprojektista (paitsi patenttien myynnistä), saat 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Karhukaiset",
+  "actions": [
+   "Lisää tälle kortille 1 mikrobi."
+  ],
+  "vpText": [
+   "1 VP jokaista tämän kortin 4 mikrobia kohden."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Teknologiademonstraatio",
+  "desc": "Nosta kaksi korttia."
+ },
+ "Terraforming Ganymede": {
+  "name": "Ganymeden maankaltaistus",
+  "desc": "Nosta MLK:tasi 1 askel jokaista Jupiter-tyyppiäsi kohden, tämä mukaan lukien."
+ },
+ "Titanium Mine": {
+  "name": "Titaanikaivos",
+  "desc": "Nosta titaanituotantoasi 1 askel."
+ },
+ "Toll Station": {
+  "name": "Tulliasema",
+  "desc": "Nosta M€-tuotantoasi 1 askel jokaista VASTUSTAJIESI avaruustyyppiä kohden."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Neptunuksen takainen luotain",
+  "desc": "Syväavaruusluotain: arvoltaan 1 VP."
+ },
+ "Tropical Resort": {
+  "name": "Trooppinen lomakeskus",
+  "desc": "Vähennä lämmöntuotantoasi 2 askelta ja nosta M€-tuotantoasi 3 askelta."
+ },
+ "Vesta Shipyard": {
+  "name": "Vestan telakka",
+  "desc": "Nosta titaanituotantoasi 1 askel."
+ },
+ "Viral Enhancers": {
+  "name": "Virustehostajat",
+  "effects": [
+   "Kun pelaat kasvi-, mikrobi- tai eläintyypin, tämä mukaan lukien, saat 1 kasvin tai lisää 1 resurssin KYSEISELLE KORTILLE."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Poista keneltä tahansa pelaajalta enintään 2 eläintä tai 5 kasvia."
+ },
+ "SF Memorial": {
+  "name": "Tieteiskirjallisuuden muistomerkki",
+  "desc": "Nosta 1 kortti."
+ },
+ "House Printing": {
+  "name": "Talojen 3D-tulostus",
+  "desc": "Nosta terästuotantoasi 1 askel."
+ },
+ "Space Hotels": {
+  "name": "Avaruushotellit",
+  "desc": "Nosta M€-tuotantoa 4 askelta."
+ },
+ "Martian Survey": {
+  "name": "Marsin kartoitus",
+  "desc": "Nosta kaksi korttia."
+ },
+ "Research Coordination": {
+  "name": "Tutkimuksen koordinointi",
+  "desc": "Pelaamisen jälkeen jokeri-tyyppi lasketaan toimintoa suorittaessasi mieleiseksesi tyypiksi."
+ },
+ "Lava Tube Settlement": {
+  "name": "Laavaputkiasutus",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 2 askelta. Aseta kaupunkilaatta TULIPERÄISELLE ALUEELLE viereisistä kaupungeista välittämättä."
+ },
+ "Psychrophiles": {
+  "name": "Psykrofiilit",
+  "actions": [
+   "Lisää tälle kortille 1 mikrobi."
+  ],
+  "effects": [
+   "Kun maksat kasvikortista, tämän kortin mikrobeja voi käyttää 2 M€:n arvoisina."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Sopeutumisteknologia",
+  "effects": [
+   "Yhteisten muuttujien vaatimuksesi ovat +2 tai -2 askelta, valintasi mukaan kussakin tapauksessa."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Sopeutettu jäkälä",
+  "desc": "Nosta kasvintuotantoasi 1 askel."
+ },
+ "Advanced Ecosystems": {
+  "name": "Kehittyneet ekosysteemit"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Ilmajarrutettu ammoniakkiasteroidi",
+  "desc": "Nosta lämmöntuotantoasi 3 askelta ja kasvintuotantoasi 1 askel. Lisää 2 mikrobia TOISELLE kortille."
+ },
+ "Ants": {
+  "name": "Muurahaiset",
+  "actions": [
+   "Poista 1 mikrobi miltä tahansa kortilta ja lisää 1 tälle kortille."
+  ],
+  "vpText": [
+   "1 VP jokaista tämän kortin 2 mikrobia kohden."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Pohjavesipumppaamo",
+  "actions": [
+   "Käytä 8 M€ asettaaksesi 1 merilaatan. TERÄSTÄ VOI KÄYTTÄÄ kuin pelaisit rakennuskortin."
+  ]
+ },
+ "Algae": {
+  "name": "Levät",
+  "desc": "Saat 1 kasvin ja nosta kasvintuotantoasi 2 askelta."
+ },
+ "ArchaeBacteria": {
+  "name": "Arkkibakteerit",
+  "desc": "Nosta kasvintuotantoasi 1 askel."
+ },
+ "Arctic Algae": {
+  "name": "Arktiset levät",
+  "desc": "Saat 1 kasvin.",
+  "effects": [
+   "Kun kuka tahansa asettaa merilaatan, saat 2 kasvia."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Tekojärvi",
+  "desc": "Aseta 1 merilaatta ALUEELLE, JOTA EI OLE VARATTU MERELLE."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Keinotekoinen yhteyttäminen",
+  "desc": "Nosta kasvintuotantoasi 1 askel tai energiantuotantoasi 2 askelta.",
+  "orTitles": [
+   "Nosta energiantuotantoasi 2 askelta",
+   "Nosta kasvintuotantoasi 1 askel"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroidi",
+  "desc": "Nosta lämpötilaa 1 askel ja saat 2 titaania. Poista keneltä tahansa pelaajalta enintään 3 kasvia."
+ },
+ "Asteroid Mining": {
+  "name": "Kaivosasteroidi",
+  "desc": "Nosta titaanituotantoasi 2 askelta."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Säde toriumasteroidilta",
+  "desc": "Nosta lämmöntuotantoasi ja energiantuotantoasi kumpaakin 3 askelta."
+ },
+ "Big Asteroid": {
+  "name": "Iso asteroidi",
+  "desc": "Nosta lämpötilaa 2 askelta ja saat 4 titaania. Poista keneltä tahansa pelaajalta enintään 4 kasvia."
+ },
+ "Biomass Combustors": {
+  "name": "Biomassapolttimet",
+  "desc": "Vähennä minkä tahansa pelaajan kasvintuotantoa 1 askel ja nosta energiantuotantoasi 2 askelta."
+ },
+ "Birds": {
+  "name": "Linnut",
+  "desc": "Vähennä minkä tahansa pelaajan kasvintuotantoa 2 askelta. 1 VP jokaisesta tämän kortin eläimestä.",
+  "actions": [
+   "Lisää tälle kortille eläin."
+  ],
+  "vpText": [
+   "1 VP jokaisesta tämän kortin eläimestä."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Musta napapöly",
+  "desc": "Aseta merilaatta. Vähennä M€-tuotantoasi 2 askelta ja nosta lämmöntuotantoasi 3 askelta."
+ },
+ "Breathing Filters": {
+  "name": "Hengityssuodattimet"
+ },
+ "Bushes": {
+  "name": "Pensaat",
+  "desc": "Nosta kasvintuotantoasi 2 askelta. Saat 2 kasvia."
+ },
+ "Capital": {
+  "name": "Pääkaupunki",
+  "desc": "Aseta tämä laatta. Vähennä energiantuotantoasi 2 askelta ja nosta M€-tuotantoasi 5 askelta.",
+  "vpText": [
+   "1 lisä-VP jokaisesta tämän kaupunkilaatan viereisestä merilaatasta."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonaatinkäsittely",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta lämmöntuotantoasi 3 askelta."
+ },
+ "Cloud Seeding": {
+  "name": "Pilvikylvö",
+  "desc": "Vähennä M€-tuotantoasi 1 askel ja minkä tahansa pelaajan lämmöntuotantoa 1 askel. Nosta kasvintuotantoasi 2 askelta."
+ },
+ "Colonizer Training Camp": {
+  "name": "Siirtolaisten koulutusleiri"
+ },
+ "Comet": {
+  "name": "Komeetta",
+  "desc": "Nosta lämpötilaa 1 askel ja aseta merilaatta. Poista keneltä tahansa pelaajalta enintään 3 kasvia."
+ },
+ "Convoy From Europa": {
+  "name": "Saattue Europalta",
+  "desc": "Aseta 1 merilaatta ja nosta 1 kortti."
+ },
+ "Cupola City": {
+  "name": "Kupolikaupunki",
+  "desc": "Aseta kaupunkilaatta. Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 3 askelta."
+ },
+ "Decomposers": {
+  "name": "Hajottajat",
+  "effects": [
+   "Kun pelaat eläin-, kasvi- tai mikrobityypin, tämä mukaan lukien, lisää tälle kortille mikrobi."
+  ],
+  "vpText": [
+   "1 VP jokaista tämän kortin 3 mikrobia kohden."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Syväkaivolämmitys",
+  "desc": "Nosta energiantuotantoasi 1 askel. Nosta lämpötilaa 1 askel."
+ },
+ "Deimos Down": {
+  "name": "Deimos putoaa",
+  "desc": "Nosta lämpötilaa 3 askelta ja saat 4 terästä. Poista keneltä tahansa pelaajalta enintään 8 kasvia."
+ },
+ "Designed Microorganisms": {
+  "name": "Suunnitellut mikro-organismit",
+  "desc": "Nosta kasvintuotantoasi 2 askelta."
+ },
+ "Domed Crater": {
+  "name": "Kupolikraatteri",
+  "desc": "Saat 3 kasvia. Aseta kaupunkilaatta. Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 3 askelta."
+ },
+ "Dust Seals": {
+  "name": "Pölytiivisteet"
+ },
+ "Ecological Zone": {
+  "name": "Ekologinen vyöhyke",
+  "desc": "Aseta tämä laatta MINKÄ TAHANSA kasvillisuuden viereen.",
+  "effects": [
+   "Kun pelaat eläin- tai kasvityypin, NÄMÄ MUKAAN LUKIEN, lisää tälle kortille eläin."
+  ],
+  "vpText": [
+   "1 VP jokaista tämän kortin 2 eläintä kohden."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Energiansäästö",
+  "desc": "Nosta energiantuotantoasi 1 askel jokaista pelissä olevaa kaupunkilaattaa kohden."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos Chasman kansallispuisto",
+  "desc": "Lisää 1 eläin MILLE TAHANSA ELÄINKORTILLE. Saat 3 kasvia. Nosta M€-tuotantoasi 2 askelta."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Päiväntasaajan magnetoija",
+  "actions": [
+   "Vähennä energiantuotantoasi 1 askel nostaaksesi maankaltaistusluokitustasi 1 askel."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Äärikylmän sieni",
+  "actions": [
+   "Saat 1 kasvin.",
+   "Lisää 2 mikrobia TOISELLE kortille."
+  ]
+ },
+ "Farming": {
+  "name": "Maanviljely",
+  "desc": "Nosta M€-tuotantoasi 2 askelta ja kasvintuotantoasi 2 askelta. Saat 2 kasvia."
+ },
+ "Fish": {
+  "name": "Kalat",
+  "desc": "Vähennä minkä tahansa pelaajan kasvintuotantoa 1 askel.",
+  "actions": [
+   "Lisää tälle kortille 1 eläin."
+  ],
+  "vpText": [
+   "1 VP jokaisesta tämän kortin eläimestä."
+  ]
+ },
+ "Flooding": {
+  "name": "Tulva",
+  "desc": "Aseta merilaatta. JOS TÄMÄN MERILAATAN VIERESSÄ ON LAATTOJA, VOIT POISTAA 4 M€ JONKIN NIISTÄ OMISTAJALTA."
+ },
+ "Food Factory": {
+  "name": "Ruokatehdas",
+  "desc": "Vähennä kasvintuotantoasi 1 askel ja nosta M€-tuotantoasi 4 askelta."
+ },
+ "Fusion Power": {
+  "name": "Fuusiovoima",
+  "desc": "Nosta energiantuotantoasi 3 askelta."
+ },
+ "Fueled Generators": {
+  "name": "Polttoainegeneraattorit",
+  "desc": "Vähennä M€-tuotantoasi 1 askel ja nosta energiantuotantoasi 1 askel."
+ },
+ "Ganymede Colony": {
+  "name": "Ganymeden siirtokunta",
+  "desc": "Aseta kaupunkilaatta SILLE VARATULLE ALUEELLE.",
+  "vpText": [
+   "1 VP jokaista Jupiter-tyyppiäsi kohden."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Maalämpövoimala",
+  "desc": "Nosta energiantuotantoasi 2 askelta."
+ },
+ "GHG Factories": {
+  "name": "Kasvihuonekaasutehtaat",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta lämmöntuotantoasi 4 askelta."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Kasvihuonekaasua tuottavat bakteerit",
+  "actions": [
+   "Lisää tälle kortille 1 mikrobi.",
+   "Poista 2 mikrobia nostaaksesi lämpötilaa 1 askel."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Jättimäinen jääasteroidi",
+  "desc": "Nosta lämpötilaa 2 askelta ja aseta 2 merilaattaa. Poista keneltä tahansa pelaajalta enintään 6 kasvia."
+ },
+ "Giant Space Mirror": {
+  "name": "Jättimäinen avaruuspeili",
+  "desc": "Nosta energiantuotantoasi 3 askelta."
+ },
+ "Grass": {
+  "name": "Ruoho",
+  "desc": "Nosta kasvintuotantoasi 1 askel. Saat 3 kasvia."
+ },
+ "Great Dam": {
+  "name": "Suuri pato",
+  "desc": "Nosta energiantuotantoasi 2 askelta."
+ },
+ "Greenhouses": {
+  "name": "Kasvihuoneet",
+  "desc": "Saat 1 kasvin jokaista pelissä olevaa kaupunkilaattaa kohden."
+ },
+ "Heather": {
+  "name": "Kanerva",
+  "desc": "Nosta kasvintuotantoasi 1 askel. Saat 1 kasvin."
+ },
+ "Heat Trappers": {
+  "name": "Lämpöloukut",
+  "desc": "Vähennä minkä tahansa pelaajan lämmöntuotantoa 2 askelta ja nosta energiantuotantoasi 1 askel."
+ },
+ "Herbivores": {
+  "name": "Kasvinsyöjät",
+  "desc": "+1 eläin tälle kortille. -1 minkä tahansa pelaajan kasvintuotanto",
+  "effects": [
+   "Kun asetat kasvillisuuslaatan, lisää tälle kortille eläin."
+  ],
+  "vpText": [
+   "1 VP jokaista tämän kortin 2 eläintä kohden."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Jääasteroidi",
+  "desc": "Aseta 2 merilaattaa."
+ },
+ "Ice Cap Melting": {
+  "name": "Napajäätikön sulaminen",
+  "desc": "Aseta 1 merilaatta."
+ },
+ "Immigrant City": {
+  "name": "Siirtolaiskaupunki",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja vähennä M€-tuotantoasi 2 askelta. Aseta kaupunkilaatta.",
+  "effects": [
+   "Kun kaupunkilaatta asetetaan, tämä mukaan lukien, nosta M€-tuotantoasi 1 askel."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Siirtolaissukkulat",
+  "desc": "Nosta M€-tuotantoasi 5 askelta.",
+  "vpText": [
+   "1 VP jokaista pelissä olevaa 3 kaupunkia kohden."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Tuodut kasvihuonekaasut",
+  "desc": "Nosta lämmöntuotantoasi 1 askel ja saat 3 lämpöä."
+ },
+ "Imported Hydrogen": {
+  "name": "Tuotu vety",
+  "desc": "Saat 3 kasvia tai lisää 3 mikrobia tai 2 eläintä TOISELLE kortille. Aseta merilaatta.",
+  "orTitles": [
+   "Saat 3 kasvia",
+   "Lisää 3 mikrobia TOISELLE kortille",
+   "Lisää 2 eläintä TOISELLE kortille"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Tuotu typpi",
+  "desc": "Nosta MLK:tasi 1 askel ja saat 4 kasvia. Lisää 3 mikrobia TOISELLE kortille ja 2 eläintä TOISELLE kortille."
+ },
+ "Import of Advanced GHG": {
+  "name": "Kehittyneiden kasvihuonekaasujen tuonti",
+  "desc": "Nosta lämmöntuotantoasi 2 askelta."
+ },
+ "Industrial Microbes": {
+  "name": "Teollisuusmikrobit",
+  "desc": "Nosta energiantuotantoasi ja terästuotantoasi kumpaakin 1 askel."
+ },
+ "Insects": {
+  "name": "Hyönteiset",
+  "desc": "Nosta kasvintuotantoasi 1 askel jokaista kasvityyppiäsi kohden."
+ },
+ "Insulation": {
+  "name": "Eristys",
+  "desc": "Vähennä lämmöntuotantoasi haluamasi määrä askelia ja nosta M€-tuotantoasi saman verran askelia."
+ },
+ "Ironworks": {
+  "name": "Rautatehdas",
+  "actions": [
+   "Käytä 4 energiaa: saat 1 teräksen ja nosta happipitoisuutta 1 askel."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Rakkolevänviljely",
+  "desc": "Nosta M€-tuotantoasi 2 askelta ja kasvintuotantoasi 3 askelta. Saat 2 kasvia."
+ },
+ "Lake Marineris": {
+  "name": "Marineriksen järvi",
+  "desc": "Aseta 2 merilaattaa."
+ },
+ "Large Convoy": {
+  "name": "Suuri saattue",
+  "desc": "Aseta merilaatta ja nosta 2 korttia. Saat 5 kasvia tai lisää 4 eläintä TOISELLE kortille.",
+  "orTitles": [
+   "Saat 5 kasvia",
+   "Lisää 4 eläintä TOISELLE kortille"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Laavavirrat",
+  "desc": "Nosta lämpötilaa 2 askelta ja aseta tämä laatta JOKO THARSIS THOLUKSEEN, ASCRAEUS MONSIIN, PAVONIS MONSIIN TAI ARSIA MONSIIN."
+ },
+ "Lichen": {
+  "name": "Jäkälä",
+  "desc": "Nosta kasvintuotantoasi 1 askel."
+ },
+ "Livestock": {
+  "name": "Karja",
+  "desc": "Vähennä kasvintuotantoasi 1 askel ja nosta M€-tuotantoasi 2 askelta",
+  "actions": [
+   "Lisää tälle kortille 1 eläin."
+  ],
+  "vpText": [
+   "1 VP jokaisesta tämän kortin eläimestä."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Paikallinen lämmön talteenotto",
+  "desc": "Käytä 5 lämpöä: saat joko 4 kasvia tai lisää 2 eläintä TOISELLE kortille.",
+  "orTitles": [
+   "Saat 4 kasvia",
+   "Lisää 2 eläintä TOISELLE kortille"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Kuusäde",
+  "desc": "Vähennä M€-tuotantoasi 2 askelta ja nosta lämmöntuotantoasi ja energiantuotantoasi kumpaakin 2 askelta."
+ },
+ "Magnetic Field Dome": {
+  "name": "Magneettikenttäkupoli",
+  "desc": "Vähennä energiantuotantoasi 2 askelta ja nosta kasvintuotantoasi 1 askel. Nosta MLK:tasi 1 askel."
+ },
+ "Magnetic Field Generators": {
+  "name": "Magneettikenttägeneraattorit",
+  "desc": "Vähennä energiantuotantoasi 4 askelta ja nosta kasvintuotantoasi 2 askelta. Nosta MLK:tasi 3 askelta."
+ },
+ "Mangrove": {
+  "name": "Mangrove",
+  "desc": "Aseta kasvillisuuslaatta MERELLE VARATULLE ALUEELLE ja nosta happipitoisuutta 1 askel. Ohita tällöin tavalliset asettamisrajoitukset."
+ },
+ "Martian Rails": {
+  "name": "Marsin rautatiet",
+  "actions": [
+   "Käytä 1 energia ja saat 1 M€ jokaista MARSISSA olevaa kaupunkilaattaa kohden."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metaania Titanilta",
+  "desc": "Nosta lämmöntuotantoasi 2 askelta ja kasvintuotantoasi 2 askelta."
+ },
+ "Micro-Mills": {
+  "name": "Mikrotehtaat",
+  "desc": "Nosta lämmöntuotantoasi 1 askel."
+ },
+ "Mining Expedition": {
+  "name": "Kaivosretkikunta",
+  "desc": "Nosta happipitoisuutta 1 askel. Poista keneltä tahansa pelaajalta 2 kasvia. Saat 2 terästä."
+ },
+ "Mining Rights": {
+  "name": "Kaivosoikeudet",
+  "desc": "Aseta tämä laatta alueelle, jonka asettamisbonus on terästä tai titaania. Nosta kyseistä tuotantoa 1 askel."
+ },
+ "Mohole Area": {
+  "name": "Mohole-alue",
+  "desc": "Nosta lämmöntuotantoasi 4 askelta. Aseta tämä laatta MERELLE VARATULLE ALUEELLE."
+ },
+ "Moss": {
+  "name": "Sammal",
+  "desc": "Menetä 1 kasvi. Nosta kasvintuotantoasi 1 askel."
+ },
+ "Natural Preserve": {
+  "name": "Luonnonsuojelualue",
+  "desc": "Aseta tämä laatta EI MINKÄÄN MUUN LAATAN VIEREEN. Nosta M€-tuotantoasi 1 askel."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitriittiä pelkistävät bakteerit",
+  "desc": "Lisää tälle kortille 3 mikrobia.",
+  "actions": [
+   "Lisää tälle kortille 1 mikrobi.",
+   "Poista 3 mikrobia nostaaksesi MLK:tasi 1 askel."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Typpirikas asteroidi",
+  "desc": "Nosta maankaltaistusluokitustasi 2 askelta ja lämpötilaa 1 askel. Nosta kasvintuotantoasi 1 askel, tai 4 askelta, jos sinulla on 3 kasvityyppiä."
+ },
+ "Nitrophilic Moss": {
+  "name": "Typpeä rakastava sammal",
+  "desc": "Menetä 2 kasvia. Nosta kasvintuotantoasi 2 askelta."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 3 askelta. Aseta kaupunkilaatta SILLE VARATULLE ALUEELLE tavallisista asettamisrajoituksista välittämättä."
+ },
+ "Noctis Farming": {
+  "name": "Noctisin maanviljely",
+  "desc": "Nosta M€-tuotantoasi 1 askel ja saat 2 kasvia."
+ },
+ "Nuclear Power": {
+  "name": "Ydinvoima",
+  "desc": "Vähennä M€-tuotantoasi 2 askelta ja nosta energiantuotantoasi 3 askelta."
+ },
+ "Nuclear Zone": {
+  "name": "Ydinvyöhyke",
+  "desc": "Aseta tämä laatta ja nosta lämpötilaa 2 askelta."
+ },
+ "Open City": {
+  "name": "Avoin kaupunki",
+  "desc": "Saat 2 kasvia. Aseta kaupunkilaatta. Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 4 askelta."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimaalinen ilmajarrutus",
+  "effects": [
+   "Kun pelaat avaruustapahtuman, saat 3 M€ ja 3 lämpöä."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Malminkäsittelylaitos",
+  "actions": [
+   "Käytä 4 energiaa: saat 1 titaanin ja nosta happipitoisuutta 1 askel."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Ikiroudan louhinta",
+  "desc": "Aseta 1 merilaatta."
+ },
+ "Peroxide Power": {
+  "name": "Peroksidivoima",
+  "desc": "Vähennä M€-tuotantoasi 1 askel ja nosta energiantuotantoasi 2 askelta."
+ },
+ "Pets": {
+  "name": "Lemmikit",
+  "desc": "Lisää tälle kortille 1 eläin.",
+  "effects": [
+   "Kun mikä tahansa kaupunkilaatta asetetaan, lisää tälle kortille eläin."
+  ],
+  "vpText": [
+   "1 VP jokaista täällä olevaa 2 eläintä kohden."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Phobosin avaruussatama",
+  "desc": "Nosta titaanituotantoasi 1 askel ja aseta kaupunkilaatta SILLE VARATULLE ALUEELLE."
+ },
+ "Plantation": {
+  "name": "Viljelmä",
+  "desc": "Aseta kasvillisuuslaatta ja nosta happipitoisuutta 1 askel."
+ },
+ "Power Grid": {
+  "name": "Sähköverkko",
+  "desc": "Nosta energiantuotantoasi yhden askeleen jokaista voimatyyppiäsi kohden, tämä mukaan lukien."
+ },
+ "Power Plant": {
+  "name": "Voimalaitos",
+  "desc": "Nosta energiantuotantoasi 1 askel."
+ },
+ "Predators": {
+  "name": "Pedot",
+  "actions": [
+   "Poista 1 eläin miltä tahansa kortilta ja lisää se tälle kortille."
+  ],
+  "vpText": [
+   "1 VP jokaisesta tämän kortin eläimestä."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Suojeltu laakso",
+  "desc": "Nosta M€-tuotantoasi 2 askelta. Aseta kasvillisuuslaatta MERELLE VARATULLE ALUEELLE tavallisista asettamisrajoituksista välittämättä ja nosta happipitoisuutta 1 askel."
+ },
+ "Rad-Chem Factory": {
+  "name": "Säteilykemian tehdas",
+  "desc": "Vähennä energiantuotantoasi 1 askel. Nosta MLK:tasi 2 askelta."
+ },
+ "Regolith Eaters": {
+  "name": "Regoliitinsyöjät",
+  "actions": [
+   "Lisää tälle kortille 1 mikrobi.",
+   "Poista tältä kortilta 2 mikrobia nostaaksesi happipitoisuutta 1 askel."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Jalokaasujen vapautus",
+  "desc": "Nosta maankaltaistusluokitustasi 2 askelta."
+ },
+ "Research Outpost": {
+  "name": "Tutkimusasema",
+  "desc": "Aseta kaupunkilaatta EI MINKÄÄN MUUN LAATAN VIEREEN.",
+  "effects": [
+   "Kun pelaat kortin, maksat siitä 1 M€ vähemmän."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Mönkijärakennus",
+  "effects": [
+   "Kun mikä tahansa kaupunkilaatta asetetaan, saat 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Elämän etsintä",
+  "actions": [
+   "Käytä 1 M€ paljastaaksesi nostopinon päällimmäisen kortin. Jos kortissa on mikrobityyppi, lisää tänne tiederesurssi."
+  ],
+  "vpText": [
+   "3 VP, jos täällä on vähintään yksi tiederesurssi."
+  ]
+ },
+ "Shuttles": {
+  "name": "Sukkulat",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 2 askelta.",
+  "effects": [
+   "Kun pelaat avaruuskortin, maksat siitä 2 M€ vähemmän."
+  ]
+ },
+ "Small Animals": {
+  "name": "Pieneläimet",
+  "desc": "Vähennä minkä tahansa pelaajan kasvintuotantoa 1 askel.",
+  "actions": [
+   "Lisää tälle kortille 1 eläin."
+  ],
+  "vpText": [
+   "1 VP jokaista tämän kortin 2 eläintä kohden."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Maaperätehdas",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta kasvintuotantoasi 1 askel."
+ },
+ "Solar Power": {
+  "name": "Aurinkovoima",
+  "desc": "Nosta energiantuotantoasi 1 askel."
+ },
+ "Solar Wind Power": {
+  "name": "Aurinkotuulivoima",
+  "desc": "Nosta energiantuotantoasi 1 askel ja saat 2 titaania."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Nosta lämmöntuotantoasi 7 askelta."
+ },
+ "Space Mirrors": {
+  "name": "Avaruuspeilit",
+  "actions": [
+   "Käytä 7 M€ nostaaksesi energiantuotantoasi 1 askel."
+  ]
+ },
+ "Special Design": {
+  "name": "Erikoissuunnittelu",
+  "desc": "Seuraavan tässä sukupolvessa pelaamasi kortin yhteisten muuttujien vaatimukset ovat +2 tai -2 askelta, valintasi mukaan."
+ },
+ "Steelworks": {
+  "name": "Terästehdas",
+  "actions": [
+   "Käytä 4 energiaa: saat 2 terästä ja nosta happipitoisuutta 1 askel."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Avolouhos",
+  "desc": "Vähennä energiantuotantoasi 2 askelta. Nosta terästuotantoasi 2 askelta ja titaanituotantoasi 1 askel. Nosta happipitoisuutta 2 askelta."
+ },
+ "Subterranean Reservoir": {
+  "name": "Maanalainen vesivarasto",
+  "desc": "Aseta 1 merilaatta."
+ },
+ "Symbiotic Fungus": {
+  "name": "Symbioottinen sieni",
+  "actions": [
+   "Lisää mikrobi TOISELLE kortille."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektonisen jännityksen voimala",
+  "desc": "Nosta energiantuotantoasi 3 askelta."
+ },
+ "Towing A Comet": {
+  "name": "Komeetan hinaus",
+  "desc": "Saat 2 kasvia. Nosta happipitoisuutta 1 askel ja aseta merilaatta."
+ },
+ "Trees": {
+  "name": "Puut",
+  "desc": "Nosta kasvintuotantoasi 3 askelta. Saat 1 kasvin."
+ },
+ "Tundra Farming": {
+  "name": "Tundraviljely",
+  "desc": "Nosta kasvintuotantoasi 1 askel ja M€-tuotantoasi 2 askelta. Saat 1 kasvin."
+ },
+ "Underground City": {
+  "name": "Maanalainen kaupunki",
+  "desc": "Aseta kaupunkilaatta. Vähennä energiantuotantoasi 2 askelta ja nosta terästuotantoasi 2 askelta."
+ },
+ "Underground Detonations": {
+  "name": "Maanalaiset räjäytykset",
+  "actions": [
+   "Käytä 10 M€ nostaaksesi lämmöntuotantoasi 2 askelta."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Kaupungistunut alue",
+  "desc": "Vähennä energiantuotantoasi 1 askel ja nosta M€-tuotantoasi 2 askelta. Aseta kaupunkilaatta VÄHINTÄÄN 2 MUUN KAUPUNKILAATAN VIEREEN."
+ },
+ "Water Import From Europa": {
+  "name": "Vedentuonti Europalta",
+  "actions": [
+   "Maksa 12 M€ asettaaksesi merilaatan. TITAANIA VOI KÄYTTÄÄ kuin pelaisit avaruuskortin."
+  ],
+  "vpText": [
+   "1 VP jokaista Jupiter-tyyppiäsi kohden."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Vedenhajotuslaitos",
+  "actions": [
+   "Käytä 3 energiaa nostaaksesi happipitoisuutta 1 askel."
+  ]
+ },
+ "Wave Power": {
+  "name": "Aaltovoima",
+  "desc": "Nosta energiantuotantoasi 1 askel."
+ },
+ "Windmills": {
+  "name": "Tuulimyllyt",
+  "desc": "Nosta energiantuotantoasi 1 askel."
+ },
+ "Worms": {
+  "name": "Madot",
+  "desc": "Nosta kasvintuotantoasi 1 askel jokaista 2 mikrobityyppiäsi kohden, tämä mukaan lukien."
+ },
+ "Zeppelins": {
+  "name": "Zeppeliinit",
+  "desc": "Nosta M€-tuotantoasi 1 askel jokaista MARSISSA olevaa kaupunkilaattaa kohden."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Aloitat 1 titaanituotannolla ja 42 M€:lla.",
+  "effects": [
+   "Aina kun mikä tahansa Jupiter-tyyppi tulee peliin, tämä mukaan lukien, nosta M€-tuotantoasi 1 askel."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Aloitat 60 M€:lla.",
+  "effects": [
+   "Kun pelaat Maa-tyypin, maksat siitä 3 M€ vähemmän."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Aloitat 3 M€-tuotannolla ja 44 M€:lla.",
+  "effects": [
+   "Kun pelaat rakennustyypin, maksat siitä 2 M€ vähemmän."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Aloitat 1 titaanituotannolla ja 38 M€:lla.",
+  "effects": [
+   "Kun pelaat Maa-tyypin, tämä mukaan lukien, nosta kortti."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Aloitat 47 M€:lla.",
+  "actions": [
+   "Käytä 4 M€ nostaaksesi (yhtä) PIENINTÄ tuotantoasi 1 askel."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Aloitat 37 M€:lla. Ensimmäisenä toimintonasi nosta 3 preludikorttia ja pelaa niistä yksi. Hylkää kaksi muuta.",
+  "effects": [
+   "Kun pelaat tiede-tyypin, maksat siitä 2 M€ vähemmän."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Aloitat 45 M€:lla. Ensimmäisenä toimintonasi rahoita palkinto ilmaiseksi.",
+  "effects": [
+   "Kun pelaat kortin, jonka VP-kuvake EI OLE NEGATIIVINEN, tämä mukaan lukien, saat 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Aloittelijayhtiö",
+  "desc": "Aloitat 42 M€:lla. Sen sijaan, että valitsisit valmistelussa 10 kortista, saat 10 korttia ilmaiseksi."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Aloitat 57 M€:lla.",
+  "effects": [
+   "Kun olet maksanut kortista tai vakioprojektista, jonka perushinta on 20 M€ tai enemmän, saat 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Aloitat 2 kasvintuotannolla, 3 kasvilla ja 36 M€:lla.",
+  "effects": [
+   "Voit aina maksaa kasvillisuudesta 7 kasvia 8:n sijaan."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Aloitat 3 lämmöntuotannolla ja 42 M€:lla.",
+  "effects": [
+   "Voit käyttää lämpöä kuin M€:ja. Et voi käyttää M€:ja lämpönä."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Aloitat 20 teräksellä ja 30 M€:lla.",
+  "effects": [
+   "Aina kun pelaat tapahtuman, saat 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Ensimmäisenä toimintonasi pelissä nosta 3 korttia. Aloitat 45 M€:lla.",
+  "effects": [
+   "Lämpötila-, happi-, meri- ja Venus-vaatimuksesi ovat +2 tai -2 askelta, valintasi mukaan kussakin tapauksessa."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Mining Guild",
+  "desc": "Aloitat 30 M€:lla, 5 teräksellä ja 1 terästuotannolla.",
+  "effects": [
+   "Aina kun asetat laatan alueelle, jonka asettamisbonus on terästä tai titaania, nosta terästuotantoasi 1 askel"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Aloitat 10 titaanilla ja 23 M€:lla.",
+  "effects": [
+   "Jokainen titaaniresurssisi on 1 M€ arvokkaampi."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tharsis Republic",
+  "desc": "Aloitat 40 M€:lla. Ensimmäisenä toimintonasi pelissä aseta kaupunkilaatta.",
+  "effects": [
+   "Kun mikä tahansa kaupunkilaatta asetetaan MARSIIN, nosta M€-tuotantoasi 1 askel. Kun asetat kaupunkilaatan, saat 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Aloitat 1 energiantuotannolla ja 48 M€:lla.",
+  "effects": [
+   "Kun pelaat voimakortin TAI VOIMALA-VAKIOPROJEKTIN, maksat siitä 3 M€ vähemmän."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "United Nations Mars Initiative",
+  "desc": "Aloitat 40 M€:lla.",
+  "actions": [
+   "Jos maankaltaistusluokituksesi nousi tässä sukupolvessa, voit maksaa 3 M€ nostaaksesi sitä vielä 1 askeleen."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Liittoutunut pankki",
+  "desc": "Nosta M€-tuotantoasi 4 askelta. Saat 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Biosfäärin tuki",
+  "desc": "Nosta kasvintuotantoasi 2 askelta. Vähennä M€-tuotantoasi 1 askel."
+ },
+ "Aquifer Turbines": {
+  "name": "Pohjavesiturbiinit",
+  "desc": "Aseta merilaatta. Nosta energiantuotantoasi 2 askelta. Maksa 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Mohole-kaivaus",
+  "desc": "Nosta terästuotantoasi 1 askel ja lämmöntuotantoasi 2 askelta. Saat 2 lämpöä."
+ },
+ "Early Settlement": {
+  "name": "Varhainen asutus",
+  "desc": "Nosta kasvintuotantoasi 1 askel. Aseta kaupunkilaatta."
+ },
+ "Biofuels": {
+  "name": "Biopolttoaineet",
+  "desc": "Nosta energian- ja kasvintuotantoasi 1 askel. Saat 2 kasvia."
+ },
+ "Power Generation": {
+  "name": "Sähköntuotanto",
+  "desc": "Nosta energiantuotantoasi 3 askelta."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Omavarainen asutus",
+  "desc": "Nosta M€-tuotantoasi 2 askelta. Aseta kaupunkilaatta."
+ },
+ "Mining Operations": {
+  "name": "Kaivostoiminta",
+  "desc": "Nosta terästuotantoasi 2 askelta. Saat 4 terästä."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI:n urakoitsija",
+  "desc": "Nosta MLK:tasi 3 askelta. Nosta kortti."
+ },
+ "Dome Farming": {
+  "name": "Kupoliviljely",
+  "desc": "Nosta M€-tuotantoasi 2 askelta ja kasvintuotantoasi 1 askel."
+ },
+ "Business Empire": {
+  "name": "Liiketoimintaimperiumi",
+  "desc": "Nosta M€-tuotantoasi 6 askelta. Maksa 6 M€."
+ },
+ "Donation": {
+  "name": "Lahjoitus",
+  "desc": "Saat 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Typpilähetys",
+  "desc": "Nosta kasvintuotantoasi 1 askel. Nosta MLK:tasi 1 askel. Saat 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Sulatto",
+  "desc": "Nosta happipitoisuutta 2 askelta. Saat 5 terästä."
+ },
+ "Supplier": {
+  "name": "Toimittaja",
+  "desc": "Nosta energiantuotantoasi 2 askelta. Saat 4 terästä."
+ },
+ "Supply Drop": {
+  "name": "Tarvikepudotus",
+  "desc": "Saat 3 titaania, 8 terästä ja 3 kasvia."
+ },
+ "Great Aquifer": {
+  "name": "Suuri pohjavesiesiintymä",
+  "desc": "Aseta 2 merilaattaa."
+ },
+ "Biolab": {
+  "name": "Biolaboratorio",
+  "desc": "Nosta kasvintuotantoasi 1 askel. Nosta 3 korttia."
+ },
+ "Martian Industries": {
+  "name": "Marsin teollisuus",
+  "desc": "Nosta energian- ja terästuotantoasi 1 askel. Saat 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Ion tutkimusasema",
+  "desc": "Nosta titaanituotantoasi 1 askel. Nosta kortti."
+ },
+ "Polar Industries": {
+  "name": "Napateollisuus",
+  "desc": "Nosta lämmöntuotantoasi 2 askelta. Aseta merilaatta."
+ },
+ "Society Support": {
+  "name": "Yhteiskunnan tuki",
+  "desc": "Nosta kasvin-, energian- ja lämmöntuotantoasi 1 askel. Vähennä M€-tuotantoa 1 askel."
+ },
+ "Galilean Mining": {
+  "name": "Galilein kuiden kaivostoiminta",
+  "desc": "Nosta titaanituotantoasi 2 askelta. Maksa 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Valtava asteroidi",
+  "desc": "Nosta lämpötilaa 3 askelta. Maksa 5 M€."
+ },
+ "Metals Company": {
+  "name": "Metalliyhtiö",
+  "desc": "Nosta M€-, teräs- ja titaanituotantoasi 1 askel."
+ },
+ "Loan": {
+  "name": "Laina",
+  "desc": "Saat 30 M€. Vähennä M€-tuotantoasi 2 askelta."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Nosta lämmöntuotantoasi 3 askelta. Saat 3 lämpöä."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metallirikas asteroidi",
+  "desc": "Nosta lämpötilaa 1 askel. Saat 4 titaania ja 4 terästä."
+ },
+ "Orbital Construction Yard": {
+  "name": "Kiertoratatelakka",
+  "desc": "Nosta titaanituotantoasi 1 askel. Saat 4 titaania."
+ },
+ "Acquired Space Agency": {
+  "name": "Ostettu avaruusjärjestö",
+  "desc": "Saat 6 titaania. Paljasta kortteja, kunnes olet paljastanut kaksi avaruustyypin korttia. Ota ne käteesi ja hylkää loput."
+ },
+ "Research Network": {
+  "name": "Tutkimusverkosto",
+  "desc": "Nosta M€-tuotantoasi 1 askel. Nosta 3 korttia. Pelaamisen jälkeen jokeri-tyyppi lasketaan toimintoa suorittaessasi mieleiseksesi tyypiksi."
+ },
+ "Eccentric Sponsor": {
+  "name": "Eksentrinen sponsori",
+  "desc": "PELAA KORTTI KÄDESTÄ 25 M€:N ALENNUKSELLA."
+ },
+ "Ecology Experts": {
+  "name": "Ekologian asiantuntijat",
+  "desc": "Nosta kasvintuotantoasi 1 askel. PELAA KORTTI KÄDESTÄ YHTEISTEN MUUTTUJIEN VAATIMUKSISTA VÄLITTÄMÄTTÄ."
+ },
+ "Experimental Forest": {
+  "name": "Koemetsä",
+  "desc": "Aseta 1 kasvillisuuslaatta ja nosta happipitoisuutta 1 askel. Paljasta kortteja, kunnes olet paljastanut kaksi kasvityypin korttia. Ota ne käteesi ja hylkää loput."
+ }
+}

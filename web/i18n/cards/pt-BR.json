@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Empresa Adquirida",
+  "desc": "Aumente sua produção de M€ em 3."
+ },
+ "Advanced Alloys": {
+  "name": "Ligas Avançadas",
+  "effects": [
+   "Cada titânio seu vale 1 M€ a mais.",
+   "Cada aço seu vale 1 M€ a mais."
+  ]
+ },
+ "AI Central": {
+  "name": "Central de IA",
+  "desc": "Reduza sua produção de energia em 1.",
+  "actions": [
+   "Compre 2 cartas."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Tecnologia Antigravidade",
+  "effects": [
+   "Ao jogar uma carta, pague 2 M€ a menos por ela."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Consórcio de Mineração de Asteroides",
+  "desc": "Reduza em 1 a produção de titânio de qualquer jogador e aumente a sua em 1."
+ },
+ "Bribed Committee": {
+  "name": "Comitê Subornado",
+  "desc": "Aumente sua TT em 2."
+ },
+ "Building Industries": {
+  "name": "Indústrias de Construção",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de aço em 2."
+ },
+ "Business Contacts": {
+  "name": "Contatos Comerciais",
+  "desc": "Olhe as 4 cartas do topo do baralho. Fique com 2 na mão e descarte o resto."
+ },
+ "Business Network": {
+  "name": "Rede de Negócios",
+  "desc": "Reduza sua produção de M€ em 1.",
+  "actions": [
+   "Olhe a carta do topo e compre-a ou descarte-a."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Minas Penais de Calisto",
+  "desc": "Aumente sua produção de M€ em 3."
+ },
+ "Caretaker Contract": {
+  "name": "Contrato de Manutenção",
+  "actions": [
+   "Gaste 8 de calor para aumentar sua TT em 1."
+  ]
+ },
+ "Cartel": {
+  "name": "Cartel",
+  "desc": "Aumente sua produção de M€ em 1 para cada símbolo de Terra que você tem, incluindo este."
+ },
+ "CEO's Favorite Project": {
+  "name": "Projeto Favorito do CEO",
+  "desc": "Adicione 1 recurso a uma carta sua que já tenha ao menos 1 recurso."
+ },
+ "Commercial District": {
+  "name": "Distrito Comercial",
+  "desc": "Coloque esta peça. Reduza sua produção de energia em 1 e aumente sua produção de M€ em 4.",
+  "vpText": [
+   "1 PV por peça de cidade adjacente."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Fortaleza Corporativa",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de M€ em 3. Coloque uma peça de cidade."
+ },
+ "Development Center": {
+  "name": "Centro de Desenvolvimento",
+  "actions": [
+   "Gaste 1 de energia para comprar uma carta."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Catapulta Terrestre",
+  "effects": [
+   "Ao jogar uma carta, pague 2 M€ a menos por ela."
+  ]
+ },
+ "Earth Office": {
+  "name": "Escritório na Terra",
+  "effects": [
+   "Ao jogar um símbolo de Terra, pague 3 M€ a menos por ele."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Eletrocatapulta",
+  "desc": "Reduza sua produção de energia em 1.",
+  "actions": [
+   "Gaste 1 planta ou 1 aço para receber 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Desvio de Energia",
+  "desc": "Reduza em 1 a produção de energia de qualquer jogador e aumente a sua em 1."
+ },
+ "Fuel Factory": {
+  "name": "Fábrica de Combustível",
+  "desc": "Reduza sua produção de energia em 1 e aumente suas produções de titânio e de M€ em 1 cada."
+ },
+ "Gene Repair": {
+  "name": "Reparo Genético",
+  "desc": "Aumente sua produção de M€ em 2."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Consórcio da Grande Escarpa",
+  "desc": "Reduza em 1 a produção de aço de qualquer jogador e aumente a sua em 1."
+ },
+ "Hackers": {
+  "name": "Hackers",
+  "desc": "Reduza sua produção de energia em 1 e a produção de M€ de qualquer jogador em 2. Aumente sua produção de M€ em 2."
+ },
+ "Hired Raiders": {
+  "name": "Saqueadores Contratados",
+  "desc": "Roube até 2 aços ou 3 M€ de qualquer jogador."
+ },
+ "Indentured Workers": {
+  "name": "Trabalhadores Endividados",
+  "desc": "A próxima carta que você jogar nesta geração custa 8 M€ a menos."
+ },
+ "Industrial Center": {
+  "name": "Centro Industrial",
+  "desc": "Coloque esta peça adjacente a uma peça de cidade.",
+  "actions": [
+   "Gaste 7 M€ para aumentar sua produção de aço em 1."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Nave Colonial Interestelar"
+ },
+ "Invention Contest": {
+  "name": "Concurso de Invenções",
+  "desc": "Olhe as 3 cartas do topo do baralho. Fique com 1 na mão e descarte o resto."
+ },
+ "Inventors' Guild": {
+  "name": "Guilda dos Inventores",
+  "actions": [
+   "Olhe a carta do topo e compre-a ou descarte-a."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Empréstimo de Investimento",
+  "desc": "Reduza sua produção de M€ em 1. Receba 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Indústrias de Mineração de Io",
+  "desc": "Aumente sua produção de titânio em 2 e sua produção de M€ em 2.",
+  "vpText": [
+   "1 PV por símbolo joviano que você tem."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Observatório de Lagrange",
+  "desc": "Compre 1 carta."
+ },
+ "Land Claim": {
+  "name": "Reivindicação de Terras",
+  "desc": "Reserve para você uma área não reservada: só você pode colocar uma peça ali."
+ },
+ "Lightning Harvest": {
+  "name": "Colheita de Relâmpagos",
+  "desc": "Aumente suas produções de energia e de M€ em 1 cada."
+ },
+ "Mars University": {
+  "name": "Universidade de Marte",
+  "effects": [
+   "Ao jogar um símbolo de ciência, incluindo este, você pode descartar uma carta da mão para comprar uma carta."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Conversor de Massa",
+  "desc": "Aumente sua produção de energia em 6.",
+  "effects": [
+   "Ao jogar uma carta espacial, pague 2 M€ a menos por ela."
+  ]
+ },
+ "Media Archives": {
+  "name": "Arquivos de Mídia",
+  "desc": "Receba 1 M€ para cada evento JÁ JOGADO por todos os jogadores."
+ },
+ "Media Group": {
+  "name": "Grupo de Mídia",
+  "effects": [
+   "Após jogar uma carta de evento, receba 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Laboratório Médico",
+  "desc": "Aumente sua produção de M€ em 1 a cada 2 símbolos de construção que você tem, incluindo este."
+ },
+ "Mine": {
+  "name": "Mina",
+  "desc": "Aumente sua produção de aço em 1."
+ },
+ "Mineral Deposit": {
+  "name": "Depósito Mineral",
+  "desc": "Receba 5 aços."
+ },
+ "Mining Area": {
+  "name": "Área de Mineração",
+  "desc": "Coloque esta peça numa área com bônus de aço ou titânio, adjacente a outra peça sua. Aumente em 1 sua produção desse recurso."
+ },
+ "Miranda Resort": {
+  "name": "Resort em Miranda",
+  "desc": "Aumente sua produção de M€ em 1 para cada símbolo de Terra que você tem."
+ },
+ "Olympus Conference": {
+  "name": "Conferência do Olimpo",
+  "desc": "Ao jogar um símbolo de ciência, incluindo este, adicione um recurso de ciência a esta carta ou remova um daqui para comprar uma carta."
+ },
+ "Physics Complex": {
+  "name": "Complexo de Física",
+  "actions": [
+   "Gaste 6 de energia para adicionar um recurso de ciência a esta carta."
+  ],
+  "vpText": [
+   "2 PV por recurso de ciência nesta carta."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Infraestrutura de Energia",
+  "actions": [
+   "Gaste qualquer quantidade de energia e receba a mesma quantidade de M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Consórcio de Fornecimento de Energia",
+  "desc": "Reduza em 1 a produção de energia de qualquer jogador e aumente a sua em 1."
+ },
+ "Protected Habitats": {
+  "name": "Habitats Protegidos",
+  "effects": [
+   "Os oponentes não podem remover suas plantas, animais ou micróbios."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Extrator Quântico",
+  "desc": "Aumente sua produção de energia em 4.",
+  "effects": [
+   "Ao jogar uma carta espacial, pague 2 M€ a menos por ela."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Trajes Antirradiação",
+  "desc": "Aumente sua produção de M€ em 1."
+ },
+ "Research": {
+  "name": "Pesquisa",
+  "desc": "Conta como jogar 2 cartas de ciência. Compre 2 cartas."
+ },
+ "Restricted Area": {
+  "name": "Área Restrita",
+  "desc": "Coloque esta peça.",
+  "actions": [
+   "Gaste 2 M€ para comprar uma carta."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Mão de Obra Robótica",
+  "desc": "Duplique apenas o quadro de produção de uma de suas cartas de construção."
+ },
+ "Sabotage": {
+  "name": "Sabotagem",
+  "desc": "Remova até 3 titânios de qualquer jogador, ou 4 aços, ou 7 M€."
+ },
+ "Satellites": {
+  "name": "Satélites",
+  "desc": "Aumente sua produção de M€ em 1 para cada símbolo espacial que você tem, incluindo este."
+ },
+ "Security Fleet": {
+  "name": "Frota de Segurança",
+  "actions": [
+   "Gaste 1 titânio para adicionar 1 recurso de caça a esta carta."
+  ],
+  "vpText": [
+   "1 PV por recurso de caça nesta carta."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Elevador Espacial",
+  "desc": "Aumente sua produção de titânio em 1.",
+  "actions": [
+   "Gaste 1 aço para receber 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Estação Espacial",
+  "effects": [
+   "Ao jogar uma carta espacial, pague 2 M€ a menos por ela."
+  ]
+ },
+ "Sponsors": {
+  "name": "Patrocinadores",
+  "desc": "Aumente sua produção de M€ em 2."
+ },
+ "Standard Technology": {
+  "name": "Tecnologia Padrão",
+  "effects": [
+   "Após pagar por um projeto padrão, exceto vender patentes, receba 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardígrados",
+  "actions": [
+   "Adicione 1 micróbio a esta carta."
+  ],
+  "vpText": [
+   "1 PV a cada 4 micróbios nesta carta."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Demonstração Tecnológica",
+  "desc": "Compre 2 cartas."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraformação de Ganimedes",
+  "desc": "Aumente sua TT em 1 para cada símbolo joviano que você tem, incluindo este."
+ },
+ "Titanium Mine": {
+  "name": "Mina de Titânio",
+  "desc": "Aumente sua produção de titânio em 1."
+ },
+ "Toll Station": {
+  "name": "Posto de Pedágio",
+  "desc": "Aumente sua produção de M€ em 1 para cada símbolo espacial dos seus OPONENTES."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Sonda Transnetuniana",
+  "desc": "Uma sonda de espaço profundo: vale 1 PV."
+ },
+ "Tropical Resort": {
+  "name": "Resort Tropical",
+  "desc": "Reduza sua produção de calor em 2 e aumente sua produção de M€ em 3."
+ },
+ "Vesta Shipyard": {
+  "name": "Estaleiro de Vesta",
+  "desc": "Aumente sua produção de titânio em 1."
+ },
+ "Viral Enhancers": {
+  "name": "Potencializadores Virais",
+  "effects": [
+   "Ao jogar um símbolo de planta, micróbio ou animal, incluindo este, receba 1 planta ou adicione 1 recurso NAQUELA CARTA."
+  ]
+ },
+ "Virus": {
+  "name": "Vírus",
+  "desc": "Remova até 2 animais ou 5 plantas de qualquer jogador."
+ },
+ "SF Memorial": {
+  "name": "Memorial da Ficção Científica",
+  "desc": "Compre 1 carta."
+ },
+ "House Printing": {
+  "name": "Impressão de Casas",
+  "desc": "Aumente sua produção de aço em 1."
+ },
+ "Space Hotels": {
+  "name": "Hotéis Espaciais",
+  "desc": "Aumente a produção de M€ em 4."
+ },
+ "Martian Survey": {
+  "name": "Levantamento Marciano",
+  "desc": "Compre 2 cartas."
+ },
+ "Research Coordination": {
+  "name": "Coordenação de Pesquisa",
+  "desc": "Depois de jogada, ao realizar uma ação, o símbolo curinga conta como qualquer símbolo à sua escolha."
+ },
+ "Lava Tube Settlement": {
+  "name": "Assentamento em Tubo de Lava",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de M€ em 2. Coloque uma peça de cidade numa ÁREA VULCÂNICA, ignorando cidades adjacentes."
+ },
+ "Psychrophiles": {
+  "name": "Psicrófilos",
+  "actions": [
+   "Adicione 1 micróbio a esta carta."
+  ],
+  "effects": [
+   "Ao pagar por uma carta de planta, os micróbios daqui valem 2 M€ cada."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Tecnologia de Adaptação",
+  "effects": [
+   "Seus requisitos globais variam em +2 ou -2 níveis, à sua escolha em cada caso."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Líquen Adaptado",
+  "desc": "Aumente sua produção de plantas em 1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ecossistemas Avançados"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroide de Amônia Aerofreado",
+  "desc": "Aumente sua produção de calor em 3 e sua produção de plantas em 1. Adicione 2 micróbios a OUTRA carta."
+ },
+ "Ants": {
+  "name": "Formigas",
+  "actions": [
+   "Remova 1 micróbio de qualquer carta para adicionar 1 a esta carta."
+  ],
+  "vpText": [
+   "1 PV a cada 2 micróbios nesta carta."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Bombeamento de Aquífero",
+  "actions": [
+   "Gaste 8 M€ para colocar 1 peça de oceano. PODE-SE USAR AÇO como se jogasse uma carta de construção."
+  ]
+ },
+ "Algae": {
+  "name": "Algas",
+  "desc": "Receba 1 planta e aumente sua produção de plantas em 2."
+ },
+ "ArchaeBacteria": {
+  "name": "Arqueobactérias",
+  "desc": "Aumente sua produção de plantas em 1."
+ },
+ "Arctic Algae": {
+  "name": "Algas Árticas",
+  "desc": "Receba 1 planta.",
+  "effects": [
+   "Quando qualquer jogador colocar uma peça de oceano, receba 2 plantas."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Lago Artificial",
+  "desc": "Coloque 1 peça de oceano NUMA ÁREA NÃO RESERVADA A OCEANOS."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Fotossíntese Artificial",
+  "desc": "Aumente sua produção de plantas em 1 ou sua produção de energia em 2.",
+  "orTitles": [
+   "Aumente sua produção de energia em 2",
+   "Aumente sua produção de plantas em 1"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroide",
+  "desc": "Aumente a temperatura em 1 nível e receba 2 titânios. Remova até 3 plantas de qualquer jogador."
+ },
+ "Asteroid Mining": {
+  "name": "Mineração de Asteroides",
+  "desc": "Aumente sua produção de titânio em 2."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Feixe de um Asteroide de Tório",
+  "desc": "Aumente suas produções de calor e de energia em 3 cada."
+ },
+ "Big Asteroid": {
+  "name": "Asteroide Grande",
+  "desc": "Aumente a temperatura em 2 níveis e receba 4 titânios. Remova até 4 plantas de qualquer jogador."
+ },
+ "Biomass Combustors": {
+  "name": "Combustores de Biomassa",
+  "desc": "Reduza em 1 a produção de plantas de qualquer jogador e aumente sua produção de energia em 2."
+ },
+ "Birds": {
+  "name": "Pássaros",
+  "desc": "Reduza em 2 a produção de plantas de qualquer jogador. 1 PV por animal nesta carta.",
+  "actions": [
+   "Adicione um animal a esta carta."
+  ],
+  "vpText": [
+   "1 PV por animal nesta carta."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Poeira Polar Negra",
+  "desc": "Coloque uma peça de oceano. Reduza sua produção de M€ em 2 e aumente sua produção de calor em 3."
+ },
+ "Breathing Filters": {
+  "name": "Filtros Respiratórios"
+ },
+ "Bushes": {
+  "name": "Arbustos",
+  "desc": "Aumente sua produção de plantas em 2. Receba 2 plantas."
+ },
+ "Capital": {
+  "name": "Capital",
+  "desc": "Coloque esta peça. Reduza sua produção de energia em 2 e aumente sua produção de M€ em 5.",
+  "vpText": [
+   "1 PV adicional por peça de oceano adjacente a esta cidade."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Processamento de Carbonato",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de calor em 3."
+ },
+ "Cloud Seeding": {
+  "name": "Semeadura de Nuvens",
+  "desc": "Reduza sua produção de M€ em 1 e a produção de calor de qualquer jogador em 1. Aumente sua produção de plantas em 2."
+ },
+ "Colonizer Training Camp": {
+  "name": "Campo de Treinamento de Colonos"
+ },
+ "Comet": {
+  "name": "Cometa",
+  "desc": "Aumente a temperatura em 1 nível e coloque uma peça de oceano. Remova até 3 plantas de qualquer jogador."
+ },
+ "Convoy From Europa": {
+  "name": "Comboio de Europa",
+  "desc": "Coloque 1 peça de oceano e compre 1 carta."
+ },
+ "Cupola City": {
+  "name": "Cidade-Cúpula",
+  "desc": "Coloque uma peça de cidade. Reduza sua produção de energia em 1 e aumente sua produção de M€ em 3."
+ },
+ "Decomposers": {
+  "name": "Decompositores",
+  "effects": [
+   "Ao jogar um símbolo de animal, planta ou micróbio, incluindo este, adicione um micróbio a esta carta."
+  ],
+  "vpText": [
+   "1 PV a cada 3 micróbios nesta carta."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Aquecimento por Poço Profundo",
+  "desc": "Aumente sua produção de energia em 1. Aumente a temperatura em 1 nível."
+ },
+ "Deimos Down": {
+  "name": "Queda de Deimos",
+  "desc": "Aumente a temperatura em 3 níveis e receba 4 aços. Remova até 8 plantas de qualquer jogador."
+ },
+ "Designed Microorganisms": {
+  "name": "Microrganismos Projetados",
+  "desc": "Aumente sua produção de plantas em 2."
+ },
+ "Domed Crater": {
+  "name": "Cratera com Cúpula",
+  "desc": "Receba 3 plantas. Coloque uma peça de cidade. Reduza sua produção de energia em 1 e aumente sua produção de M€ em 3."
+ },
+ "Dust Seals": {
+  "name": "Vedação contra Poeira"
+ },
+ "Ecological Zone": {
+  "name": "Zona Ecológica",
+  "desc": "Coloque esta peça adjacente a QUALQUER área verde.",
+  "effects": [
+   "Ao jogar um símbolo de animal ou planta, INCLUINDO ESTES, adicione um animal a esta carta."
+  ],
+  "vpText": [
+   "1 PV a cada 2 animais nesta carta."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Economia de Energia",
+  "desc": "Aumente sua produção de energia em 1 para cada peça de cidade em jogo."
+ },
+ "Eos Chasma National Park": {
+  "name": "Parque Nacional Eos Chasma",
+  "desc": "Adicione 1 animal A QUALQUER CARTA DE ANIMAL. Receba 3 plantas. Aumente sua produção de M€ em 2."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Magnetizador Equatorial",
+  "actions": [
+   "Reduza sua produção de energia em 1 para aumentar sua TT em 1."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Fungo de Frio Extremo",
+  "actions": [
+   "Receba 1 planta.",
+   "Adicione 2 micróbios a OUTRA carta."
+  ]
+ },
+ "Farming": {
+  "name": "Agricultura",
+  "desc": "Aumente sua produção de M€ em 2 e sua produção de plantas em 2. Receba 2 plantas."
+ },
+ "Fish": {
+  "name": "Peixes",
+  "desc": "Reduza em 1 a produção de plantas de qualquer jogador.",
+  "actions": [
+   "Adicione 1 animal a esta carta."
+  ],
+  "vpText": [
+   "1 PV por animal nesta carta."
+  ]
+ },
+ "Flooding": {
+  "name": "Inundação",
+  "desc": "Coloque uma peça de oceano. SE HOUVER PEÇAS ADJACENTES A ESTE OCEANO, VOCÊ PODE REMOVER 4 M€ DO DONO DE UMA DELAS."
+ },
+ "Food Factory": {
+  "name": "Fábrica de Alimentos",
+  "desc": "Reduza sua produção de plantas em 1 e aumente sua produção de M€ em 4."
+ },
+ "Fusion Power": {
+  "name": "Energia de Fusão",
+  "desc": "Aumente sua produção de energia em 3."
+ },
+ "Fueled Generators": {
+  "name": "Geradores a Combustível",
+  "desc": "Reduza sua produção de M€ em 1 e aumente sua produção de energia em 1."
+ },
+ "Ganymede Colony": {
+  "name": "Colônia de Ganimedes",
+  "desc": "Coloque uma peça de cidade NA ÁREA RESERVADA.",
+  "vpText": [
+   "1 PV por símbolo joviano que você tem."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Energia Geotérmica",
+  "desc": "Aumente sua produção de energia em 2."
+ },
+ "GHG Factories": {
+  "name": "Fábricas de GEE",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de calor em 4."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bactérias Produtoras de GEE",
+  "actions": [
+   "Adicione 1 micróbio a esta carta.",
+   "Remova 2 micróbios para aumentar a temperatura em 1 nível."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroide de Gelo Gigante",
+  "desc": "Aumente a temperatura em 2 níveis e coloque 2 peças de oceano. Remova até 6 plantas de qualquer jogador."
+ },
+ "Giant Space Mirror": {
+  "name": "Espelho Espacial Gigante",
+  "desc": "Aumente sua produção de energia em 3."
+ },
+ "Grass": {
+  "name": "Grama",
+  "desc": "Aumente sua produção de plantas em 1. Receba 3 plantas."
+ },
+ "Great Dam": {
+  "name": "Grande Represa",
+  "desc": "Aumente sua produção de energia em 2."
+ },
+ "Greenhouses": {
+  "name": "Estufas",
+  "desc": "Receba 1 planta para cada peça de cidade em jogo."
+ },
+ "Heather": {
+  "name": "Urze",
+  "desc": "Aumente sua produção de plantas em 1. Receba 1 planta."
+ },
+ "Heat Trappers": {
+  "name": "Retentores de Calor",
+  "desc": "Reduza em 2 a produção de calor de qualquer jogador e aumente sua produção de energia em 1."
+ },
+ "Herbivores": {
+  "name": "Herbívoros",
+  "desc": "+1 animal nesta carta. -1 de produção de plantas de qualquer jogador",
+  "effects": [
+   "Ao colocar uma peça de área verde, adicione um animal a esta carta."
+  ],
+  "vpText": [
+   "1 PV a cada 2 animais nesta carta."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroide de Gelo",
+  "desc": "Coloque 2 peças de oceano."
+ },
+ "Ice Cap Melting": {
+  "name": "Derretimento da Calota Polar",
+  "desc": "Coloque 1 peça de oceano."
+ },
+ "Immigrant City": {
+  "name": "Cidade de Imigrantes",
+  "desc": "Reduza sua produção de energia em 1 e sua produção de M€ em 2. Coloque uma peça de cidade.",
+  "effects": [
+   "Quando uma peça de cidade for colocada, incluindo esta, aumente sua produção de M€ em 1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Naves de Imigração",
+  "desc": "Aumente sua produção de M€ em 5.",
+  "vpText": [
+   "1 PV a cada 3 cidades em jogo."
+  ]
+ },
+ "Imported GHG": {
+  "name": "GEE Importados",
+  "desc": "Aumente sua produção de calor em 1 e receba 3 de calor."
+ },
+ "Imported Hydrogen": {
+  "name": "Hidrogênio Importado",
+  "desc": "Receba 3 plantas, ou adicione 3 micróbios ou 2 animais a OUTRA carta. Coloque uma peça de oceano.",
+  "orTitles": [
+   "Receba 3 plantas",
+   "Adicione 3 micróbios a OUTRA carta",
+   "Adicione 2 animais a OUTRA carta"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitrogênio Importado",
+  "desc": "Aumente sua TT em 1 e receba 4 plantas. Adicione 3 micróbios a OUTRA carta e 2 animais a OUTRA carta."
+ },
+ "Import of Advanced GHG": {
+  "name": "Importação de GEE Avançados",
+  "desc": "Aumente sua produção de calor em 2."
+ },
+ "Industrial Microbes": {
+  "name": "Micróbios Industriais",
+  "desc": "Aumente suas produções de energia e de aço em 1 cada."
+ },
+ "Insects": {
+  "name": "Insetos",
+  "desc": "Aumente sua produção de plantas em 1 para cada símbolo de planta que você tem."
+ },
+ "Insulation": {
+  "name": "Isolamento Térmico",
+  "desc": "Reduza sua produção de calor em quantos níveis quiser e aumente sua produção de M€ na mesma quantidade."
+ },
+ "Ironworks": {
+  "name": "Fundição de Ferro",
+  "actions": [
+   "Gaste 4 de energia para receber 1 aço e aumentar o oxigênio em 1 nível."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Cultivo de Algas Marinhas",
+  "desc": "Aumente sua produção de M€ em 2 e sua produção de plantas em 3. Receba 2 plantas."
+ },
+ "Lake Marineris": {
+  "name": "Lago Marineris",
+  "desc": "Coloque 2 peças de oceano."
+ },
+ "Large Convoy": {
+  "name": "Grande Comboio",
+  "desc": "Coloque uma peça de oceano e compre 2 cartas. Receba 5 plantas ou adicione 4 animais a OUTRA carta.",
+  "orTitles": [
+   "Receba 5 plantas",
+   "Adicione 4 animais a OUTRA carta"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Fluxos de Lava",
+  "desc": "Aumente a temperatura em 2 níveis e coloque esta peça em THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS OU ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Líquen",
+  "desc": "Aumente sua produção de plantas em 1."
+ },
+ "Livestock": {
+  "name": "Gado",
+  "desc": "Reduza sua produção de plantas em 1 e aumente sua produção de M€ em 2",
+  "actions": [
+   "Adicione 1 animal a esta carta."
+  ],
+  "vpText": [
+   "1 PV por animal nesta carta."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Retenção Local de Calor",
+  "desc": "Gaste 5 de calor para receber 4 plantas ou adicionar 2 animais a OUTRA carta.",
+  "orTitles": [
+   "Receba 4 plantas",
+   "Adicione 2 animais a OUTRA carta"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Feixe Lunar",
+  "desc": "Reduza sua produção de M€ em 2 e aumente suas produções de calor e de energia em 2 cada."
+ },
+ "Magnetic Field Dome": {
+  "name": "Cúpula de Campo Magnético",
+  "desc": "Reduza sua produção de energia em 2 e aumente sua produção de plantas em 1. Aumente sua TT em 1."
+ },
+ "Magnetic Field Generators": {
+  "name": "Geradores de Campo Magnético",
+  "desc": "Reduza sua produção de energia em 4 e aumente sua produção de plantas em 2. Aumente sua TT em 3."
+ },
+ "Mangrove": {
+  "name": "Manguezal",
+  "desc": "Coloque uma peça de área verde NUMA ÁREA RESERVADA A OCEANOS e aumente o oxigênio em 1 nível. Ignore as restrições normais de colocação."
+ },
+ "Martian Rails": {
+  "name": "Ferrovias Marcianas",
+  "actions": [
+   "Gaste 1 de energia para receber 1 M€ por peça de cidade EM MARTE."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metano de Titã",
+  "desc": "Aumente sua produção de calor em 2 e sua produção de plantas em 2."
+ },
+ "Micro-Mills": {
+  "name": "Micromoinhos",
+  "desc": "Aumente sua produção de calor em 1."
+ },
+ "Mining Expedition": {
+  "name": "Expedição de Mineração",
+  "desc": "Aumente o oxigênio em 1 nível. Remova 2 plantas de qualquer jogador. Receba 2 aços."
+ },
+ "Mining Rights": {
+  "name": "Direitos de Mineração",
+  "desc": "Coloque esta peça numa área com bônus de aço ou titânio. Aumente essa produção em 1."
+ },
+ "Mohole Area": {
+  "name": "Área de Mohole",
+  "desc": "Aumente sua produção de calor em 4. Coloque esta peça NUMA ÁREA RESERVADA A OCEANOS."
+ },
+ "Moss": {
+  "name": "Musgo",
+  "desc": "Perca 1 planta. Aumente sua produção de plantas em 1."
+ },
+ "Natural Preserve": {
+  "name": "Reserva Natural",
+  "desc": "Coloque esta peça SEM NENHUMA OUTRA PEÇA ADJACENTE. Aumente sua produção de M€ em 1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bactérias Redutoras de Nitrito",
+  "desc": "Adicione 3 micróbios a esta carta.",
+  "actions": [
+   "Adicione 1 micróbio a esta carta.",
+   "Remova 3 micróbios para aumentar sua TT em 1."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroide Rico em Nitrogênio",
+  "desc": "Aumente sua TT em 2 e a temperatura em 1 nível. Aumente sua produção de plantas em 1, ou em 4 se você tiver 3 símbolos de planta."
+ },
+ "Nitrophilic Moss": {
+  "name": "Musgo Nitrófilo",
+  "desc": "Perca 2 plantas. Aumente sua produção de plantas em 2."
+ },
+ "Noctis City": {
+  "name": "Cidade de Noctis",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de M€ em 3. Coloque uma peça de cidade NA ÁREA RESERVADA, ignorando as restrições normais de colocação."
+ },
+ "Noctis Farming": {
+  "name": "Agricultura em Noctis",
+  "desc": "Aumente sua produção de M€ em 1 e receba 2 plantas."
+ },
+ "Nuclear Power": {
+  "name": "Energia Nuclear",
+  "desc": "Reduza sua produção de M€ em 2 e aumente sua produção de energia em 3."
+ },
+ "Nuclear Zone": {
+  "name": "Zona Nuclear",
+  "desc": "Coloque esta peça e aumente a temperatura em 2 níveis."
+ },
+ "Open City": {
+  "name": "Cidade Aberta",
+  "desc": "Receba 2 plantas. Coloque uma peça de cidade. Reduza sua produção de energia em 1 e aumente sua produção de M€ em 4."
+ },
+ "Optimal Aerobraking": {
+  "name": "Aerofrenagem Ideal",
+  "effects": [
+   "Ao jogar um evento espacial, receba 3 M€ e 3 de calor."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Processador de Minério",
+  "actions": [
+   "Gaste 4 de energia para receber 1 titânio e aumentar o oxigênio em 1 nível."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Extração de Permafrost",
+  "desc": "Coloque 1 peça de oceano."
+ },
+ "Peroxide Power": {
+  "name": "Energia de Peróxido",
+  "desc": "Reduza sua produção de M€ em 1 e aumente sua produção de energia em 2."
+ },
+ "Pets": {
+  "name": "Animais de Estimação",
+  "desc": "Adicione 1 animal a esta carta.",
+  "effects": [
+   "Quando qualquer peça de cidade for colocada, adicione um animal a esta carta."
+  ],
+  "vpText": [
+   "1 PV a cada 2 animais aqui."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Refúgio Espacial de Fobos",
+  "desc": "Aumente sua produção de titânio em 1 e coloque uma peça de cidade NA ÁREA RESERVADA."
+ },
+ "Plantation": {
+  "name": "Plantação",
+  "desc": "Coloque uma peça de área verde e aumente o oxigênio em 1 nível."
+ },
+ "Power Grid": {
+  "name": "Rede Elétrica",
+  "desc": "Aumente sua produção de energia em 1 para cada símbolo de energia que você tem, incluindo este."
+ },
+ "Power Plant": {
+  "name": "Usina de Energia",
+  "desc": "Aumente sua produção de energia em 1."
+ },
+ "Predators": {
+  "name": "Predadores",
+  "actions": [
+   "Remova 1 animal de qualquer carta e adicione-o a esta carta."
+  ],
+  "vpText": [
+   "1 PV por animal nesta carta."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Vale Protegido",
+  "desc": "Aumente sua produção de M€ em 2. Coloque uma peça de área verde NUMA ÁREA RESERVADA A OCEANOS, ignorando as restrições normais de colocação, e aumente o oxigênio em 1 nível."
+ },
+ "Rad-Chem Factory": {
+  "name": "Fábrica Radioquímica",
+  "desc": "Reduza sua produção de energia em 1. Aumente sua TT em 2."
+ },
+ "Regolith Eaters": {
+  "name": "Comedores de Regolito",
+  "actions": [
+   "Adicione 1 micróbio a esta carta.",
+   "Remova 2 micróbios desta carta para aumentar o oxigênio em 1 nível."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Liberação de Gases Inertes",
+  "desc": "Aumente sua TT em 2."
+ },
+ "Research Outpost": {
+  "name": "Posto de Pesquisa",
+  "desc": "Coloque uma peça de cidade SEM NENHUMA OUTRA PEÇA ADJACENTE.",
+  "effects": [
+   "Ao jogar uma carta, pague 1 M€ a menos por ela."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Construção de Rovers",
+  "effects": [
+   "Quando qualquer peça de cidade for colocada, receba 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Busca por Vida",
+  "actions": [
+   "Gaste 1 M€ para revelar a carta do topo do baralho. Se ela tiver símbolo de micróbio, adicione um recurso de ciência aqui."
+  ],
+  "vpText": [
+   "3 PV se houver algum recurso de ciência aqui."
+  ]
+ },
+ "Shuttles": {
+  "name": "Ônibus Espaciais",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de M€ em 2.",
+  "effects": [
+   "Ao jogar uma carta espacial, pague 2 M€ a menos por ela."
+  ]
+ },
+ "Small Animals": {
+  "name": "Pequenos Animais",
+  "desc": "Reduza em 1 a produção de plantas de qualquer jogador.",
+  "actions": [
+   "Adicione 1 animal a esta carta."
+  ],
+  "vpText": [
+   "1 PV a cada 2 animais nesta carta."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Fábrica de Solo",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de plantas em 1."
+ },
+ "Solar Power": {
+  "name": "Energia Solar",
+  "desc": "Aumente sua produção de energia em 1."
+ },
+ "Solar Wind Power": {
+  "name": "Energia de Vento Solar",
+  "desc": "Aumente sua produção de energia em 1 e receba 2 titânios."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Aumente sua produção de calor em 7."
+ },
+ "Space Mirrors": {
+  "name": "Espelhos Espaciais",
+  "actions": [
+   "Gaste 7 M€ para aumentar sua produção de energia em 1."
+  ]
+ },
+ "Special Design": {
+  "name": "Projeto Especial",
+  "desc": "A próxima carta que você jogar nesta geração tem requisitos globais +2 ou -2 níveis, à sua escolha."
+ },
+ "Steelworks": {
+  "name": "Siderúrgica",
+  "actions": [
+   "Gaste 4 de energia para receber 2 aços e aumentar o oxigênio em 1 nível."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Mina a Céu Aberto",
+  "desc": "Reduza sua produção de energia em 2. Aumente sua produção de aço em 2 e sua produção de titânio em 1. Aumente o oxigênio em 2 níveis."
+ },
+ "Subterranean Reservoir": {
+  "name": "Reservatório Subterrâneo",
+  "desc": "Coloque 1 peça de oceano."
+ },
+ "Symbiotic Fungus": {
+  "name": "Fungo Simbiótico",
+  "actions": [
+   "Adicione um micróbio a OUTRA carta."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Energia de Estresse Tectônico",
+  "desc": "Aumente sua produção de energia em 3."
+ },
+ "Towing A Comet": {
+  "name": "Rebocando um Cometa",
+  "desc": "Receba 2 plantas. Aumente o oxigênio em 1 nível e coloque uma peça de oceano."
+ },
+ "Trees": {
+  "name": "Árvores",
+  "desc": "Aumente sua produção de plantas em 3. Receba 1 planta."
+ },
+ "Tundra Farming": {
+  "name": "Agricultura na Tundra",
+  "desc": "Aumente sua produção de plantas em 1 e sua produção de M€ em 2. Receba 1 planta."
+ },
+ "Underground City": {
+  "name": "Cidade Subterrânea",
+  "desc": "Coloque uma peça de cidade. Reduza sua produção de energia em 2 e aumente sua produção de aço em 2."
+ },
+ "Underground Detonations": {
+  "name": "Detonações Subterrâneas",
+  "actions": [
+   "Gaste 10 M€ para aumentar sua produção de calor em 2."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Área Urbanizada",
+  "desc": "Reduza sua produção de energia em 1 e aumente sua produção de M€ em 2. Coloque uma peça de cidade ADJACENTE A PELO MENOS 2 OUTRAS PEÇAS DE CIDADE."
+ },
+ "Water Import From Europa": {
+  "name": "Importação de Água de Europa",
+  "actions": [
+   "Pague 12 M€ para colocar uma peça de oceano. PODE-SE USAR TITÂNIO como se jogasse uma carta espacial."
+  ],
+  "vpText": [
+   "1 PV por símbolo joviano que você tem."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Usina de Eletrólise da Água",
+  "actions": [
+   "Gaste 3 de energia para aumentar o oxigênio em 1 nível."
+  ]
+ },
+ "Wave Power": {
+  "name": "Energia das Ondas",
+  "desc": "Aumente sua produção de energia em 1."
+ },
+ "Windmills": {
+  "name": "Moinhos de Vento",
+  "desc": "Aumente sua produção de energia em 1."
+ },
+ "Worms": {
+  "name": "Minhocas",
+  "desc": "Aumente sua produção de plantas em 1 a cada 2 símbolos de micróbio que você tem, incluindo este."
+ },
+ "Zeppelins": {
+  "name": "Zepelins",
+  "desc": "Aumente sua produção de M€ em 1 para cada peça de cidade EM MARTE."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Você começa com 1 de produção de titânio e 42 M€.",
+  "effects": [
+   "Sempre que qualquer símbolo joviano entrar em jogo, incluindo este, aumente sua produção de M€ em 1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Você começa com 60 M€.",
+  "effects": [
+   "Ao jogar um símbolo de Terra, pague 3 M€ a menos por ele."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Você começa com 3 de produção de M€ e 44 M€.",
+  "effects": [
+   "Ao jogar um símbolo de construção, pague 2 M€ a menos por ele."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Você começa com 1 de produção de titânio e 38 M€.",
+  "effects": [
+   "Ao jogar um símbolo de Terra, incluindo este, compre uma carta."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Indústrias Robinson",
+  "desc": "Você começa com 47 M€.",
+  "actions": [
+   "Gaste 4 M€ para aumentar em 1 (uma de) sua produção MAIS BAIXA."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Você começa com 37 M€. Como sua primeira ação, compre 3 cartas de Prelúdio e jogue uma delas. Descarte as outras.",
+  "effects": [
+   "Ao jogar um símbolo de ciência, pague 2 M€ a menos por ele."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Você começa com 45 M€. Como sua primeira ação, financie uma premiação de graça.",
+  "effects": [
+   "Ao jogar uma carta com ícone de PV NÃO NEGATIVO, incluindo esta, receba 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Corporação Iniciante",
+  "desc": "Você começa com 42 M€. Em vez de escolher entre 10 cartas na preparação, você recebe as 10 cartas de graça."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Você começa com 57 M€.",
+  "effects": [
+   "Após pagar por uma carta ou projeto padrão com custo básico de 20 M€ ou mais, receba 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Você começa com 2 de produção de plantas, 3 plantas e 36 M€.",
+  "effects": [
+   "Você sempre pode pagar 7 plantas, em vez de 8, para colocar uma área verde."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Você começa com 3 de produção de calor e 42 M€.",
+  "effects": [
+   "Você pode usar calor como M€. Não pode usar M€ como calor."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Cinematográfica Interplanetária",
+  "desc": "Você começa com 20 aços e 30 M€.",
+  "effects": [
+   "Sempre que jogar um evento, receba 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Como sua primeira ação no jogo, compre 3 cartas. Comece com 45 M€.",
+  "effects": [
+   "Seus requisitos de temperatura, oxigênio, oceano e Vênus variam em +2 ou -2 níveis, à sua escolha em cada caso."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Guilda de Mineração",
+  "desc": "Você começa com 30 M€, 5 aços e 1 de produção de aço.",
+  "effects": [
+   "Sempre que colocar uma peça numa área com bônus de aço ou titânio, aumente sua produção de aço em 1"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Você começa com 10 titânios e 23 M€.",
+  "effects": [
+   "Cada titânio seu vale 1 M€ a mais."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "República de Tharsis",
+  "desc": "Você começa com 40 M€. Como sua primeira ação no jogo, coloque uma peça de cidade.",
+  "effects": [
+   "Quando qualquer peça de cidade for colocada EM MARTE, aumente sua produção de M€ em 1. Ao colocar uma peça de cidade, receba 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Você começa com 1 de produção de energia e 48 M€.",
+  "effects": [
+   "Ao jogar uma carta de energia OU O PROJETO PADRÃO USINA DE ENERGIA, pague 3 M€ a menos por ela."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Iniciativa das Nações Unidas para Marte",
+  "desc": "Você começa com 40 M€.",
+  "actions": [
+   "Se sua Taxa de Terraformação aumentou nesta geração, você pode pagar 3 M€ para aumentá-la em mais 1."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Banco Aliado",
+  "desc": "Aumente sua produção de M€ em 4. Receba 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Suporte à Biosfera",
+  "desc": "Aumente sua produção de plantas em 2. Reduza sua produção de M€ em 1."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbinas de Aquífero",
+  "desc": "Coloque uma peça de oceano. Aumente sua produção de energia em 2. Pague 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Escavação de Mohole",
+  "desc": "Aumente sua produção de aço em 1 e sua produção de calor em 2. Receba 2 de calor."
+ },
+ "Early Settlement": {
+  "name": "Assentamento Pioneiro",
+  "desc": "Aumente sua produção de plantas em 1. Coloque uma peça de cidade."
+ },
+ "Biofuels": {
+  "name": "Biocombustíveis",
+  "desc": "Aumente suas produções de energia e de plantas em 1. Receba 2 plantas."
+ },
+ "Power Generation": {
+  "name": "Geração de Energia",
+  "desc": "Aumente sua produção de energia em 3."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Assentamento Autossuficiente",
+  "desc": "Aumente sua produção de M€ em 2. Coloque uma peça de cidade."
+ },
+ "Mining Operations": {
+  "name": "Operações de Mineração",
+  "desc": "Aumente sua produção de aço em 2. Receba 4 aços."
+ },
+ "UNMI Contractor": {
+  "name": "Contratada da UNMI",
+  "desc": "Aumente sua TT em 3. Compre uma carta."
+ },
+ "Dome Farming": {
+  "name": "Agricultura em Cúpulas",
+  "desc": "Aumente sua produção de M€ em 2 e sua produção de plantas em 1."
+ },
+ "Business Empire": {
+  "name": "Império Empresarial",
+  "desc": "Aumente sua produção de M€ em 6. Pague 6 M€."
+ },
+ "Donation": {
+  "name": "Doação",
+  "desc": "Receba 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Carregamento de Nitrogênio",
+  "desc": "Aumente sua produção de plantas em 1. Aumente sua TT em 1. Receba 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Usina de Fundição",
+  "desc": "Aumente o oxigênio em 2 níveis. Receba 5 aços."
+ },
+ "Supplier": {
+  "name": "Fornecedor",
+  "desc": "Aumente sua produção de energia em 2. Receba 4 aços."
+ },
+ "Supply Drop": {
+  "name": "Lançamento de Suprimentos",
+  "desc": "Receba 3 titânios, 8 aços e 3 plantas."
+ },
+ "Great Aquifer": {
+  "name": "Grande Aquífero",
+  "desc": "Coloque 2 peças de oceano."
+ },
+ "Biolab": {
+  "name": "Biolaboratório",
+  "desc": "Aumente sua produção de plantas em 1. Compre 3 cartas."
+ },
+ "Martian Industries": {
+  "name": "Indústrias Marcianas",
+  "desc": "Aumente suas produções de energia e de aço em 1. Receba 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Posto de Pesquisa de Io",
+  "desc": "Aumente sua produção de titânio em 1. Compre uma carta."
+ },
+ "Polar Industries": {
+  "name": "Indústrias Polares",
+  "desc": "Aumente sua produção de calor em 2. Coloque uma peça de oceano."
+ },
+ "Society Support": {
+  "name": "Apoio da Sociedade",
+  "desc": "Aumente suas produções de plantas, energia e calor em 1. Reduza a produção de M€ em 1."
+ },
+ "Galilean Mining": {
+  "name": "Mineração Galileana",
+  "desc": "Aumente sua produção de titânio em 2. Pague 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroide Enorme",
+  "desc": "Aumente a temperatura em 3 níveis. Pague 5 M€."
+ },
+ "Metals Company": {
+  "name": "Companhia de Metais",
+  "desc": "Aumente suas produções de M€, aço e titânio em 1."
+ },
+ "Loan": {
+  "name": "Empréstimo",
+  "desc": "Receba 30 M€. Reduza sua produção de M€ em 2."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Aumente sua produção de calor em 3. Receba 3 de calor."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroide Rico em Metais",
+  "desc": "Aumente a temperatura em 1 nível. Receba 4 titânios e 4 aços."
+ },
+ "Orbital Construction Yard": {
+  "name": "Estaleiro Orbital",
+  "desc": "Aumente sua produção de titânio em 1. Receba 4 titânios."
+ },
+ "Acquired Space Agency": {
+  "name": "Agência Espacial Adquirida",
+  "desc": "Receba 6 titânios. Revele cartas até revelar 2 com símbolo espacial. Fique com elas na mão e descarte o resto."
+ },
+ "Research Network": {
+  "name": "Rede de Pesquisa",
+  "desc": "Aumente sua produção de M€ em 1. Compre 3 cartas. Depois de jogada, ao realizar uma ação, o símbolo curinga conta como qualquer símbolo à sua escolha."
+ },
+ "Eccentric Sponsor": {
+  "name": "Patrocinador Excêntrico",
+  "desc": "JOGUE UMA CARTA DA MÃO COM DESCONTO DE 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Especialistas em Ecologia",
+  "desc": "Aumente sua produção de plantas em 1. JOGUE UMA CARTA DA MÃO IGNORANDO OS REQUISITOS GLOBAIS."
+ },
+ "Experimental Forest": {
+  "name": "Floresta Experimental",
+  "desc": "Coloque 1 peça de área verde e aumente o oxigênio em 1 nível. Revele cartas até revelar 2 com símbolo de planta. Fique com elas na mão e descarte o resto."
+ }
+}

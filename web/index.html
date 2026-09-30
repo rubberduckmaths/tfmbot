@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#07080d">
+<!-- where TFMBot answers (js/paths.js): "api/" = this site; a copy hosted elsewhere can use https://tfmbot.com/api/ -->
+<meta name="tfmbot-api" content="api/">
+<title>TFMBot</title>
+<link rel="icon" href="assets/favicon.svg">
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js" } }</script>
+</head>
+<body>
+<canvas id="gl"></canvas>
+
+<div id="ui">
+  <!-- top: global parameters -->
+  <header id="top">
+    <div class="gen"><span class="lbl" data-i18n="top.gen">GEN</span><b id="gen">1</b></div>
+    <div class="trk" id="t-temp" data-i18n-title="top.tempTitle" title="Temperature: -30 to +8 °C in 2° steps. Bonuses: -24 and -20 give +1 heat production, 0 °C places an ocean.">
+      <img class="ti" src="assets/temperature.png" alt=""><div class="cells"></div><b class="val">-30°</b>
+    </div>
+    <div class="trk" id="t-oxy" data-i18n-title="top.oxyTitle" title="Oxygen: 0 to 14 %. Bonus: reaching 8 % also raises the temperature one step.">
+      <img class="ti" src="assets/oxygen.png" alt=""><div class="cells"></div><b class="val">0%</b>
+    </div>
+    <div class="trk" id="t-ocean" data-i18n-title="top.oceanTitle" title="Oceans: 9 tiles.">
+      <span class="ti ocean-ico"></span><div class="cells"></div><b class="val">0/9</b>
+    </div>
+    <div class="deck" data-i18n-title="top.deckTitle" title="Draw pile / discard"><span class="cardico"></span><b id="deckn">0</b><small id="discn"></small></div>
+    <div class="spacer"></div>
+    <button class="icon" id="btn-feedback" data-i18n-title="top.feedback" title="Send feedback">✉</button>
+    <button class="icon" id="btn-help" data-i18n-title="top.help" title="Help">?</button>
+    <button class="icon" id="btn-log" data-i18n-title="top.log" title="Game log">☰</button>
+    <button class="icon" id="btn-music" data-i18n-title="top.music" title="Music">♫</button>
+    <button class="icon" id="btn-menu" data-i18n-title="top.menu" title="Menu">⚙</button>
+  </header>
+
+  <!-- left: player boards -->
+  <aside id="players"></aside>
+
+  <!-- right: actions -->
+  <aside id="actions">
+    <section id="turnbox"></section>
+    <section class="blk" id="sp-blk"><h3 data-i18n="panel.sp">Standard projects</h3><div id="sps"></div></section>
+    <section class="blk" id="blue-blk"><h3 data-i18n="panel.blue">Card actions</h3><div id="blues"></div></section>
+    <section class="blk" id="ms-blk"><h3><span data-i18n="panel.ms">Milestones</span> <small data-i18n="panel.msCost">(8 M€, 5 VP)</small></h3><div id="mss"></div></section>
+    <section class="blk" id="aw-blk"><h3><span data-i18n="panel.aw">Awards</span> <small id="awcost"></small></h3><div id="aws"></div></section>
+  </aside>
+
+  <!-- bottom: hand -->
+  <footer id="handbar">
+    <div id="hand"></div>
+  </footer>
+
+  <div id="turnctl">
+    <div id="turnacts" class="actrow hidden"></div>
+    <div id="turnsp" class="actrow hidden"></div>
+    <div id="turnms" class="actrow hidden"></div>
+    <div class="ctl">
+      <button id="btn-undo" class="ghost" disabled data-i18n="btn.undo">↶ Undo</button>
+      <button id="btn-confirm" class="primary hidden" data-i18n="btn.confirmTurn">Confirm turn ▸</button>
+      <span id="turnend"></span>
+      <button id="btn-acts" class="ghost hidden"></button>
+      <button id="btn-hint" class="ghost" data-i18n-title="hint.title" title="Ask TFMBot what it would do">💡</button>
+    </div>
+  </div>
+
+  <div id="status"><span class="dot"></span><span id="status-text" data-i18n="status.loading">Loading…</span></div>
+  <div id="prompt" class="hidden"></div>
+  <div id="toast"></div>
+  <div id="log" class="panel hidden"><h3><span data-i18n="log.title">Log</span> <button class="x" data-close="log">✕</button></h3><ol id="log-list"></ol></div>
+  <div id="menu" class="panel hidden">
+    <h3>TFMBot <button class="x" data-close="menu">✕</button></h3>
+    <label><span data-i18n="menu.sims">Bot strength (search sims)</span>
+      <select id="set-sims"><option value="128" data-i18n="menu.simsQuick">128 · quick</option><option value="256">256</option><option value="512">512</option><option value="1024">1024</option><option value="2048">2048</option><option value="4096" data-i18n="menu.simsServed">4096 · served strength</option><option value="8192" data-i18n="menu.simsSlow">8192 · slow</option></select>
+    </label>
+    <label><span data-i18n="menu.gfx">Graphics quality</span>
+      <select id="set-gfx"><option value="auto">Auto</option><option value="high" data-i18n="gfx.high">High</option><option value="medium" data-i18n="gfx.medium">Medium</option><option value="low" data-i18n="gfx.lowOpt">Low · smoothest</option></select>
+    </label>
+    <label><input type="checkbox" id="set-autoconf"> <span data-i18n="menu.autoconf">Auto-confirm turns (no hold for undo)</span></label>
+    <label><input type="checkbox" id="set-think"> <span data-i18n="menu.think">Show TFMBot's search in the log</span> <small class="warn" data-i18n="menu.thinkWarn">(what it considered and how sure it was — this can give away cards in its hand)</small></label>
+    <label><span data-i18n="menu.music">Music volume</span> <input type="range" id="set-music" min="0" max="100" value="45"></label>
+    <label><span data-i18n="menu.sfx">Effects volume</span> <input type="range" id="set-sfx" min="0" max="100" value="70"></label>
+    <label><span><span aria-hidden="true">🌐 </span><span data-i18n="menu.lang">Language</span></span>
+      <select id="set-lang"></select>
+    </label>
+    <button id="menu-feedback" class="ghost" data-i18n="fb.title">Send feedback</button>
+    <div class="row"><button id="btn-new" class="primary" data-i18n="btn.newGame">New game</button><button id="btn-auto" class="ghost" data-i18n-title="menu.autoTitle" title="Let TFMBot make your current decision" data-i18n="menu.auto">Bot plays my move</button></div>
+    <p class="fine" data-i18n="menu.fine">Rules engine: tfmc (C → WebAssembly) in your browser. TFMBot: the served champion, running natively on the server. Not affiliated with FryxGames, Asmodee Digital or Steam.</p>
+  </div>
+  <div id="feedback" class="panel hidden">
+    <h3><span data-i18n="fb.title">Send feedback</span> <button class="x" data-close="feedback">✕</button></h3>
+    <p data-i18n="fb.sub">Bugs, ideas, rules questions, praise — anything. It goes straight to the developer.</p>
+    <textarea id="fb-text" maxlength="5000" rows="7" data-i18n-ph="fb.placeholder" placeholder="What happened, or what would you like to see?"></textarea>
+    <input id="fb-contact" maxlength="200" data-i18n-ph="fb.contact" placeholder="How to reach you (optional)">
+    <div class="row"><small class="fine" data-i18n="fb.note">Your current game position is attached so we can see what you saw.</small><button id="fb-send" class="primary" data-i18n="fb.send">Send</button></div>
+  </div>
+  <div id="help" class="panel hidden">
+    <h3><span data-i18n="help.title">How to play here</span> <button class="x" data-close="help">✕</button></h3>
+    <div class="hgrid">
+      <div data-i18n-html="help.globe"><b>Globe</b><br>Drag to rotate · wheel / pinch to zoom · two-finger or right-drag to pan · double-click (or H) to recentre.</div>
+      <div data-i18n-html="help.turn"><b>Your turn</b><br>Glowing cards in your hand are playable — click one to read it and play it. Standard projects, card actions, milestones and awards are on the right.</div>
+      <div data-i18n-html="help.tiles"><b>Placing tiles</b><br>Candidate hexes glow gold. Hover to preview the tile and see what the space gives you.</div>
+      <div data-i18n-html="help.undo"><b>Undo</b><br>Undo anything until a card is revealed. When your turn ends you get <i>Confirm turn</i> — nothing reaches TFMBot until you confirm. <kbd>Ctrl+Z</kbd> undo · <kbd>Enter</kbd> confirm · <kbd>Esc</kbd> cancel.</div>
+      <div data-i18n-html="help.opp"><b>Opponent</b><br>Hover (or hold) a player board to see their tableau. The feed on the left shows each TFMBot move and what else it considered; the top bar shows its estimate of your win chance.</div>
+      <div data-i18n-html="help.tracks"><b>Tracks</b><br>Temperature: heat-production bonuses at −24 and −20, an ocean at 0 °C. Oxygen: +1 temperature at 8%. Oceans: 9 slots.</div>
+      <div data-i18n-html="help.hint"><b>💡 Hint</b><br>Asks TFMBot what it would play in your position, with the search share of its top options.</div>
+    </div>
+  </div>
+  <div id="modal" class="hidden"></div>
+  <div id="zoom" class="hidden"></div>
+  <div id="tableau" class="hidden"></div>
+  <div id="flyer"></div>
+</div>
+
+<div id="boot">
+  <div class="boot-sky" aria-hidden="true"><div class="boot-orbit p back"></div><div class="boot-orbit d back"></div><div class="boot-mars"><img src="assets/mars_disc.jpg" alt=""></div><div class="boot-orbit p front"></div><div class="boot-orbit d front"></div><i class="boot-moon p back"></i><i class="boot-moon d back"></i><i class="boot-moon p front"></i><i class="boot-moon d front"></i></div>
+  <div class="boot-inner">
+    <div class="boot-title">TFMBot</div>
+    <div class="boot-bar"><div></div></div>
+    <div class="boot-msg">&nbsp;</div>
+    <script>
+      // a whimsical first line straight away, before the app script has even loaded
+      (function () {
+        var m = ['Finding the lost titanium cube under the table…', 'Unboxing Mars (some assembly required)…', 'Updating the “days since last asteroid” sign: 0…',
+          'Mistaking Phobos for a potato (again)…', 'Arguing about what counts as a building tag…', 'Waiting for someone to fund an award…',
+          'Counting craters (lost count, starting again)…', 'Waiting for the planet to finish loading. Planets are big…', 'Placing the first-player marker, very carefully…',
+          'Stacking the ocean tiles (all nine of them)…', 'Arguing whether Mars is red or just very orange…',
+          'Measuring twice, terraforming once…', 'Explaining to the bot that “Sabotage” is not a greeting…', 'Terraforming the loading bar…'];
+        var el = document.currentScript.previousElementSibling;
+        // English only: any other language gets its first line once its bundle has loaded
+        // (i18n.js; unsupported languages fall back to English there)
+        var l = '';
+        try { l = new URLSearchParams(location.search).get('lang') || localStorage.getItem('lang') || ''; } catch (e) {}
+        if (!l) l = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+        if (!/^en\b/i.test(l)) m = ['…'];
+        if (el) el.textContent = m[Math.floor(Math.random() * m.length)];
+      })();
+    </script>
+  </div>
+  <div class="boot-foot" data-i18n-html="foot.html">A community fan-made version of Terraforming Mars · not affiliated with FryxGames · <a href="https://discord.gg/GvJtv7kuX" target="_blank" rel="noopener">Join the TFMBot Discord</a> · <a href="https://classic.tfmbot.com/" target="_blank" rel="noopener">Want to play the previous version?</a></div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

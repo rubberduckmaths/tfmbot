@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Overgenomen Bedrijf",
+  "desc": "Verhoog je M€-productie 3 stappen."
+ },
+ "Advanced Alloys": {
+  "name": "Geavanceerde Legeringen",
+  "effects": [
+   "Elk titanium dat je hebt is 1 M€ extra waard.",
+   "Elk staal dat je hebt is 1 M€ extra waard."
+  ]
+ },
+ "AI Central": {
+  "name": "AI-Centrale",
+  "desc": "Verlaag je energieproductie 1 stap.",
+  "actions": [
+   "Trek 2 kaarten."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antizwaartekrachttechnologie",
+  "effects": [
+   "Als je een kaart speelt, betaal je er 2 M€ minder voor."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroïdemijnbouwconsortium",
+  "desc": "Verlaag willekeurige titaniumproductie 1 stap en verhoog je eigen 1 stap."
+ },
+ "Bribed Committee": {
+  "name": "Omgekocht Comité",
+  "desc": "Verhoog je TW 2 stappen."
+ },
+ "Building Industries": {
+  "name": "Bouwindustrie",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je staalproductie 2 stappen."
+ },
+ "Business Contacts": {
+  "name": "Zakelijke Contacten",
+  "desc": "Bekijk de bovenste 4 kaarten van de stapel. Neem er 2 in je hand en leg de rest af."
+ },
+ "Business Network": {
+  "name": "Zakennetwerk",
+  "desc": "Verlaag je M€-productie 1 stap.",
+  "actions": [
+   "Bekijk de bovenste kaart en koop hem of leg hem af."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Strafmijnen van Callisto",
+  "desc": "Verhoog je M€-productie 3 stappen."
+ },
+ "Caretaker Contract": {
+  "name": "Beheerderscontract",
+  "actions": [
+   "Besteed 8 warmte om je terraformingwaarde 1 stap te verhogen."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Verhoog je M€-productie 1 stap per Aarde-symbool dat je hebt, inclusief dit."
+ },
+ "CEO's Favorite Project": {
+  "name": "Lievelingsproject van de CEO",
+  "desc": "Voeg 1 grondstof toe aan een van je kaarten die al minstens 1 grondstof heeft."
+ },
+ "Commercial District": {
+  "name": "Handelsdistrict",
+  "desc": "Plaats deze tegel. Verlaag je energieproductie 1 stap en verhoog je M€-productie 4 stappen.",
+  "vpText": [
+   "1 OP per aangrenzende stadstegel."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Bedrijfsbolwerk",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je M€-productie 3 stappen. Plaats een stadstegel."
+ },
+ "Development Center": {
+  "name": "Ontwikkelingscentrum",
+  "actions": [
+   "Besteed 1 energie om een kaart te trekken."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Aardekatapult",
+  "effects": [
+   "Als je een kaart speelt, betaal je er 2 M€ minder voor."
+  ]
+ },
+ "Earth Office": {
+  "name": "Aardekantoor",
+  "effects": [
+   "Als je een Aarde-symbool speelt, betaal je er 3 M€ minder voor."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrokatapult",
+  "desc": "Verlaag je energieproductie 1 stap.",
+  "actions": [
+   "Besteed 1 plant of 1 staal om 7 M€ te krijgen."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Energie Aftappen",
+  "desc": "Verlaag willekeurige energieproductie 1 stap en verhoog je eigen 1 stap."
+ },
+ "Fuel Factory": {
+  "name": "Brandstoffabriek",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je titanium- en M€-productie elk 1 stap."
+ },
+ "Gene Repair": {
+  "name": "Genherstel",
+  "desc": "Verhoog je M€-productie 2 stappen."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Consortium van de Grote Klif",
+  "desc": "Verlaag willekeurige staalproductie 1 stap en verhoog je eigen 1 stap."
+ },
+ "Hackers": {
+  "name": "Hackers",
+  "desc": "Verlaag je energieproductie 1 stap en willekeurige M€-productie 2 stappen. Verhoog je M€-productie 2 stappen."
+ },
+ "Hired Raiders": {
+  "name": "Ingehuurde Plunderaars",
+  "desc": "Steel tot 2 staal of 3 M€ van een willekeurige speler."
+ },
+ "Indentured Workers": {
+  "name": "Contractarbeiders",
+  "desc": "De volgende kaart die je deze generatie speelt, kost 8 M€ minder."
+ },
+ "Industrial Center": {
+  "name": "Industrieel Centrum",
+  "desc": "Plaats deze tegel naast een stadstegel.",
+  "actions": [
+   "Besteed 7 M€ om je staalproductie 1 stap te verhogen."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Interstellair Kolonieschip"
+ },
+ "Invention Contest": {
+  "name": "Uitvindingswedstrijd",
+  "desc": "Bekijk de bovenste 3 kaarten van de stapel. Neem er 1 in je hand en leg de rest af."
+ },
+ "Inventors' Guild": {
+  "name": "Uitvindersgilde",
+  "actions": [
+   "Bekijk de bovenste kaart en koop hem of leg hem af."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investeringslening",
+  "desc": "Verlaag je M€-productie 1 stap. Krijg 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Mijnbouwindustrie Io",
+  "desc": "Verhoog je titaniumproductie 2 stappen en je M€-productie 2 stappen.",
+  "vpText": [
+   "1 OP per Jupiter-symbool dat je hebt."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrange-observatorium",
+  "desc": "Trek 1 kaart."
+ },
+ "Land Claim": {
+  "name": "Landclaim",
+  "desc": "Reserveer een niet-gereserveerd gebied voor jezelf: alleen jij mag daar een tegel plaatsen."
+ },
+ "Lightning Harvest": {
+  "name": "Bliksemoogst",
+  "desc": "Verhoog je energie- en M€-productie elk 1 stap."
+ },
+ "Mars University": {
+  "name": "Universiteit van Mars",
+  "effects": [
+   "Als je een Wetenschap-symbool speelt, inclusief dit, mag je een handkaart afleggen om een kaart te trekken."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Massaomzetter",
+  "desc": "Verhoog je energieproductie 6 stappen.",
+  "effects": [
+   "Als je een Ruimte-kaart speelt, betaal je er 2 M€ minder voor."
+  ]
+ },
+ "Media Archives": {
+  "name": "Media-archief",
+  "desc": "Krijg 1 M€ per gebeurtenis die OOIT GESPEELD is door alle spelers."
+ },
+ "Media Group": {
+  "name": "Mediagroep",
+  "effects": [
+   "Nadat je een gebeurteniskaart speelt, krijg je 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Medisch Lab",
+  "desc": "Verhoog je M€-productie 1 stap per 2 Gebouw-symbolen die je hebt, inclusief dit."
+ },
+ "Mine": {
+  "name": "Mijn",
+  "desc": "Verhoog je staalproductie 1 stap."
+ },
+ "Mineral Deposit": {
+  "name": "Mineraalafzetting",
+  "desc": "Krijg 5 staal."
+ },
+ "Mining Area": {
+  "name": "Mijnbouwgebied",
+  "desc": "Plaats deze tegel op een gebied met een staal- of titaniumbonus, naast een andere tegel van jou. Verhoog je productie van die grondstof 1 stap."
+ },
+ "Miranda Resort": {
+  "name": "Mirandaresort",
+  "desc": "Verhoog je M€-productie 1 stap per Aarde-symbool dat je hebt."
+ },
+ "Olympus Conference": {
+  "name": "Olympusconferentie",
+  "desc": "Als je een Wetenschap-symbool speelt, inclusief dit: voeg een wetenschapsgrondstof toe aan deze kaart, of verwijder er een om een kaart te trekken."
+ },
+ "Physics Complex": {
+  "name": "Natuurkundecomplex",
+  "actions": [
+   "Besteed 6 energie om een wetenschapsgrondstof aan deze kaart toe te voegen."
+  ],
+  "vpText": [
+   "2 OP per wetenschapsgrondstof op deze kaart."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energie-infrastructuur",
+  "actions": [
+   "Besteed zoveel energie als je wilt en krijg evenveel M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Energieconsortium",
+  "desc": "Verlaag willekeurige energieproductie 1 stap en verhoog je eigen 1 stap."
+ },
+ "Protected Habitats": {
+  "name": "Beschermde Habitats",
+  "effects": [
+   "Tegenstanders mogen je planten, dieren of microben niet verwijderen."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kwantumextractor",
+  "desc": "Verhoog je energieproductie 4 stappen.",
+  "effects": [
+   "Als je een Ruimte-kaart speelt, betaal je er 2 M€ minder voor."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Stralingspakken",
+  "desc": "Verhoog je M€-productie 1 stap."
+ },
+ "Research": {
+  "name": "Onderzoek",
+  "desc": "Telt als het spelen van 2 wetenschapskaarten. Trek 2 kaarten."
+ },
+ "Restricted Area": {
+  "name": "Verboden Gebied",
+  "desc": "Plaats deze tegel.",
+  "actions": [
+   "Besteed 2 M€ om een kaart te trekken."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotarbeiders",
+  "desc": "Kopieer alleen het productievak van een van je Gebouw-kaarten."
+ },
+ "Sabotage": {
+  "name": "Sabotage",
+  "desc": "Verwijder tot 3 titanium, of 4 staal, of 7 M€ van een willekeurige speler."
+ },
+ "Satellites": {
+  "name": "Satellieten",
+  "desc": "Verhoog je M€-productie 1 stap per Ruimte-symbool dat je hebt, inclusief dit."
+ },
+ "Security Fleet": {
+  "name": "Beveiligingsvloot",
+  "actions": [
+   "Besteed 1 titanium om 1 gevechtsschip aan deze kaart toe te voegen."
+  ],
+  "vpText": [
+   "1 OP per gevechtsschip op deze kaart."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Ruimtelift",
+  "desc": "Verhoog je titaniumproductie 1 stap.",
+  "actions": [
+   "Besteed 1 staal om 5 M€ te krijgen."
+  ]
+ },
+ "Space Station": {
+  "name": "Ruimtestation",
+  "effects": [
+   "Als je een Ruimte-kaart speelt, betaal je er 2 M€ minder voor."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsors",
+  "desc": "Verhoog je M€-productie 2 stappen."
+ },
+ "Standard Technology": {
+  "name": "Standaardtechnologie",
+  "effects": [
+   "Nadat je voor een standaardproject betaalt (behalve patenten verkopen), krijg je 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Beerdiertjes",
+  "actions": [
+   "Voeg 1 microbe toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per 4 microben op deze kaart."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Technologiedemonstratie",
+  "desc": "Trek 2 kaarten."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraforming van Ganymedes",
+  "desc": "Verhoog je TW 1 stap per Jupiter-symbool dat je hebt, inclusief dit."
+ },
+ "Titanium Mine": {
+  "name": "Titaniummijn",
+  "desc": "Verhoog je titaniumproductie 1 stap."
+ },
+ "Toll Station": {
+  "name": "Tolstation",
+  "desc": "Verhoog je M€-productie 1 stap per Ruimte-symbool van je TEGENSTANDERS."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Trans-Neptunussonde",
+  "desc": "Een diepe-ruimtesonde: 1 OP waard."
+ },
+ "Tropical Resort": {
+  "name": "Tropisch Resort",
+  "desc": "Verlaag je warmteproductie 2 stappen en verhoog je M€-productie 3 stappen."
+ },
+ "Vesta Shipyard": {
+  "name": "Scheepswerf Vesta",
+  "desc": "Verhoog je titaniumproductie 1 stap."
+ },
+ "Viral Enhancers": {
+  "name": "Virale Versterkers",
+  "effects": [
+   "Als je een Plant-, Microbe- of Dier-symbool speelt, inclusief dit: krijg 1 plant of voeg 1 grondstof toe aan DIE KAART."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Verwijder tot 2 dieren of 5 planten van een willekeurige speler."
+ },
+ "SF Memorial": {
+  "name": "SF-gedenkteken",
+  "desc": "Trek 1 kaart."
+ },
+ "House Printing": {
+  "name": "Huizen Printen",
+  "desc": "Verhoog je staalproductie 1 stap."
+ },
+ "Space Hotels": {
+  "name": "Ruimtehotels",
+  "desc": "Verhoog je M€-productie 4 stappen."
+ },
+ "Martian Survey": {
+  "name": "Marsverkenning",
+  "desc": "Trek 2 kaarten."
+ },
+ "Research Coordination": {
+  "name": "Onderzoekscoördinatie",
+  "desc": "Na het spelen telt het jokersymbool, wanneer je een actie uitvoert, als een symbool naar keuze."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lavatunnelnederzetting",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je M€-productie 2 stappen. Plaats een stadstegel op een VULKANISCH GEBIED, ongeacht aangrenzende steden."
+ },
+ "Psychrophiles": {
+  "name": "Psychrofielen",
+  "actions": [
+   "Voeg 1 microbe toe aan deze kaart."
+  ],
+  "effects": [
+   "Bij betaling voor een Plant-kaart mag je microben hier gebruiken als 2 M€ per stuk."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Aanpassingstechnologie",
+  "effects": [
+   "Je globale voorwaarden zijn +2 of -2 stappen, telkens naar keuze."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Aangepast Korstmos",
+  "desc": "Verhoog je plantproductie 1 stap."
+ },
+ "Advanced Ecosystems": {
+  "name": "Geavanceerde Ecosystemen"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Luchtgeremde Ammoniakasteroïde",
+  "desc": "Verhoog je warmteproductie 3 stappen en je plantproductie 1 stap. Voeg 2 microben toe aan een ANDERE kaart."
+ },
+ "Ants": {
+  "name": "Mieren",
+  "actions": [
+   "Verwijder 1 microbe van een willekeurige kaart om er 1 aan deze kaart toe te voegen."
+  ],
+  "vpText": [
+   "1 OP per 2 microben op deze kaart."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Grondwater Oppompen",
+  "actions": [
+   "Besteed 8 M€ om 1 oceaantegel te plaatsen. STAAL MAG GEBRUIKT WORDEN alsof je een Gebouw-kaart speelt."
+  ]
+ },
+ "Algae": {
+  "name": "Algen",
+  "desc": "Krijg 1 plant en verhoog je plantproductie 2 stappen."
+ },
+ "ArchaeBacteria": {
+  "name": "Archaebacteriën",
+  "desc": "Verhoog je plantproductie 1 stap."
+ },
+ "Arctic Algae": {
+  "name": "Arctische Algen",
+  "desc": "Krijg 1 plant.",
+  "effects": [
+   "Als iemand een oceaantegel plaatst, krijg je 2 planten."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Kunstmatig Meer",
+  "desc": "Plaats 1 oceaantegel OP EEN GEBIED DAT NIET VOOR OCEAAN GERESERVEERD IS."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Kunstmatige Fotosynthese",
+  "desc": "Verhoog je plantproductie 1 stap of je energieproductie 2 stappen.",
+  "orTitles": [
+   "Verhoog je energieproductie 2 stappen",
+   "Verhoog je plantproductie 1 stap"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroïde",
+  "desc": "Verhoog de temperatuur 1 stap en krijg 2 titanium. Verwijder tot 3 planten van een willekeurige speler."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroïdemijnbouw",
+  "desc": "Verhoog je titaniumproductie 2 stappen."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Straal van een Thoriumasteroïde",
+  "desc": "Verhoog je warmte- en energieproductie elk 3 stappen."
+ },
+ "Big Asteroid": {
+  "name": "Grote Asteroïde",
+  "desc": "Verhoog de temperatuur 2 stappen en krijg 4 titanium. Verwijder tot 4 planten van een willekeurige speler."
+ },
+ "Biomass Combustors": {
+  "name": "Biomassaverbranders",
+  "desc": "Verlaag willekeurige plantproductie 1 stap en verhoog je energieproductie 2 stappen."
+ },
+ "Birds": {
+  "name": "Vogels",
+  "desc": "Verlaag willekeurige plantproductie 2 stappen. 1 OP per dier op deze kaart.",
+  "actions": [
+   "Voeg een dier toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per dier op deze kaart."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Zwart Poolstof",
+  "desc": "Plaats een oceaantegel. Verlaag je M€-productie 2 stappen en verhoog je warmteproductie 3 stappen."
+ },
+ "Breathing Filters": {
+  "name": "Ademfilters"
+ },
+ "Bushes": {
+  "name": "Struiken",
+  "desc": "Verhoog je plantproductie 2 stappen. Krijg 2 planten."
+ },
+ "Capital": {
+  "name": "Hoofdstad",
+  "desc": "Plaats deze tegel. Verlaag je energieproductie 2 stappen en verhoog je M€-productie 5 stappen.",
+  "vpText": [
+   "1 extra OP per oceaantegel naast deze stadstegel."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Carbonaatverwerking",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je warmteproductie 3 stappen."
+ },
+ "Cloud Seeding": {
+  "name": "Wolken Zaaien",
+  "desc": "Verlaag je M€-productie 1 stap en willekeurige warmteproductie 1 stap. Verhoog je plantproductie 2 stappen."
+ },
+ "Colonizer Training Camp": {
+  "name": "Trainingskamp voor Kolonisten"
+ },
+ "Comet": {
+  "name": "Komeet",
+  "desc": "Verhoog de temperatuur 1 stap en plaats een oceaantegel. Verwijder tot 3 planten van een willekeurige speler."
+ },
+ "Convoy From Europa": {
+  "name": "Konvooi van Europa",
+  "desc": "Plaats 1 oceaantegel en trek 1 kaart."
+ },
+ "Cupola City": {
+  "name": "Koepelstad",
+  "desc": "Plaats een stadstegel. Verlaag je energieproductie 1 stap en verhoog je M€-productie 3 stappen."
+ },
+ "Decomposers": {
+  "name": "Afbrekers",
+  "effects": [
+   "Als je een Dier-, Plant- of Microbe-symbool speelt, inclusief dit, voeg je een microbe toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per 3 microben op deze kaart."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Diepe Bronverwarming",
+  "desc": "Verhoog je energieproductie 1 stap. Verhoog de temperatuur 1 stap."
+ },
+ "Deimos Down": {
+  "name": "Deimos Neergestort",
+  "desc": "Verhoog de temperatuur 3 stappen en krijg 4 staal. Verwijder tot 8 planten van een willekeurige speler."
+ },
+ "Designed Microorganisms": {
+  "name": "Ontworpen Micro-organismen",
+  "desc": "Verhoog je plantproductie 2 stappen."
+ },
+ "Domed Crater": {
+  "name": "Overkoepelde Krater",
+  "desc": "Krijg 3 planten. Plaats een stadstegel. Verlaag je energieproductie 1 stap en verhoog je M€-productie 3 stappen."
+ },
+ "Dust Seals": {
+  "name": "Stofafdichtingen"
+ },
+ "Ecological Zone": {
+  "name": "Ecologische Zone",
+  "desc": "Plaats deze tegel naast EEN WILLEKEURIGE begroeiingstegel.",
+  "effects": [
+   "Als je een Dier- of Plant-symbool speelt, INCLUSIEF DEZE, voeg je een dier toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per 2 dieren op deze kaart."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Energiebesparing",
+  "desc": "Verhoog je energieproductie 1 stap per stadstegel in het spel."
+ },
+ "Eos Chasma National Park": {
+  "name": "Nationaal Park Eos Chasma",
+  "desc": "Voeg 1 dier toe AAN EEN WILLEKEURIGE DIERKAART. Krijg 3 planten. Verhoog je M€-productie 2 stappen."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Equatoriale Magnetiseerder",
+  "actions": [
+   "Verlaag je energieproductie 1 stap om je terraformingwaarde 1 stap te verhogen."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Extreme-Koudeschimmel",
+  "actions": [
+   "Krijg 1 plant.",
+   "Voeg 2 microben toe aan een ANDERE kaart."
+  ]
+ },
+ "Farming": {
+  "name": "Landbouw",
+  "desc": "Verhoog je M€-productie 2 stappen en je plantproductie 2 stappen. Krijg 2 planten."
+ },
+ "Fish": {
+  "name": "Vissen",
+  "desc": "Verlaag willekeurige plantproductie 1 stap.",
+  "actions": [
+   "Voeg 1 dier toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per dier op deze kaart."
+  ]
+ },
+ "Flooding": {
+  "name": "Overstroming",
+  "desc": "Plaats een oceaantegel. ALS ER TEGELS NAAST DEZE OCEAANTEGEL LIGGEN, MAG JE 4 M€ AFNEMEN VAN DE EIGENAAR VAN EEN VAN DIE TEGELS."
+ },
+ "Food Factory": {
+  "name": "Voedselfabriek",
+  "desc": "Verlaag je plantproductie 1 stap en verhoog je M€-productie 4 stappen."
+ },
+ "Fusion Power": {
+  "name": "Fusie-energie",
+  "desc": "Verhoog je energieproductie 3 stappen."
+ },
+ "Fueled Generators": {
+  "name": "Brandstofgeneratoren",
+  "desc": "Verlaag je M€-productie 1 stap en verhoog je energieproductie 1 stap."
+ },
+ "Ganymede Colony": {
+  "name": "Kolonie op Ganymedes",
+  "desc": "Plaats een stadstegel OP HET GERESERVEERDE GEBIED.",
+  "vpText": [
+   "1 OP per Jupiter-symbool dat je hebt."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geothermische Energie",
+  "desc": "Verhoog je energieproductie 2 stappen."
+ },
+ "GHG Factories": {
+  "name": "Broeikasgasfabrieken",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je warmteproductie 4 stappen."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Broeikasgasbacteriën",
+  "actions": [
+   "Voeg 1 microbe toe aan deze kaart.",
+   "Verwijder 2 microben om de temperatuur 1 stap te verhogen."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Reuzenijsasteroïde",
+  "desc": "Verhoog de temperatuur 2 stappen en plaats 2 oceaantegels. Verwijder tot 6 planten van een willekeurige speler."
+ },
+ "Giant Space Mirror": {
+  "name": "Reusachtige Ruimtespiegel",
+  "desc": "Verhoog je energieproductie 3 stappen."
+ },
+ "Grass": {
+  "name": "Gras",
+  "desc": "Verhoog je plantproductie 1 stap. Krijg 3 planten."
+ },
+ "Great Dam": {
+  "name": "Grote Dam",
+  "desc": "Verhoog je energieproductie 2 stappen."
+ },
+ "Greenhouses": {
+  "name": "Kassen",
+  "desc": "Krijg 1 plant per stadstegel in het spel."
+ },
+ "Heather": {
+  "name": "Heide",
+  "desc": "Verhoog je plantproductie 1 stap. Krijg 1 plant."
+ },
+ "Heat Trappers": {
+  "name": "Warmtevangers",
+  "desc": "Verlaag willekeurige warmteproductie 2 stappen en verhoog je energieproductie 1 stap."
+ },
+ "Herbivores": {
+  "name": "Herbivoren",
+  "desc": "+1 dier op deze kaart. -1 willekeurige plantproductie",
+  "effects": [
+   "Als je een begroeiingstegel plaatst, voeg je een dier toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per 2 dieren op deze kaart."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "IJsasteroïde",
+  "desc": "Plaats 2 oceaantegels."
+ },
+ "Ice Cap Melting": {
+  "name": "Smeltende IJskap",
+  "desc": "Plaats 1 oceaantegel."
+ },
+ "Immigrant City": {
+  "name": "Immigrantenstad",
+  "desc": "Verlaag je energieproductie 1 stap en je M€-productie 2 stappen. Plaats een stadstegel.",
+  "effects": [
+   "Als er een stadstegel wordt geplaatst, inclusief deze, verhoog je je M€-productie 1 stap."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Immigratieshuttles",
+  "desc": "Verhoog je M€-productie 5 stappen.",
+  "vpText": [
+   "1 OP per 3 steden in het spel."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Geïmporteerde Broeikasgassen",
+  "desc": "Verhoog je warmteproductie 1 stap en krijg 3 warmte."
+ },
+ "Imported Hydrogen": {
+  "name": "Geïmporteerde Waterstof",
+  "desc": "Krijg 3 planten, of voeg 3 microben of 2 dieren toe aan een ANDERE kaart. Plaats een oceaantegel.",
+  "orTitles": [
+   "Krijg 3 planten",
+   "Voeg 3 microben toe aan een ANDERE kaart",
+   "Voeg 2 dieren toe aan een ANDERE kaart"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Geïmporteerde Stikstof",
+  "desc": "Verhoog je TW 1 stap en krijg 4 planten. Voeg 3 microben toe aan een ANDERE kaart en 2 dieren aan een ANDERE kaart."
+ },
+ "Import of Advanced GHG": {
+  "name": "Import van Geavanceerde Broeikasgassen",
+  "desc": "Verhoog je warmteproductie 2 stappen."
+ },
+ "Industrial Microbes": {
+  "name": "Industriële Microben",
+  "desc": "Verhoog je energie- en staalproductie elk 1 stap."
+ },
+ "Insects": {
+  "name": "Insecten",
+  "desc": "Verhoog je plantproductie 1 stap per Plant-symbool dat je hebt."
+ },
+ "Insulation": {
+  "name": "Isolatie",
+  "desc": "Verlaag je warmteproductie een aantal stappen naar keuze en verhoog je M€-productie evenveel stappen."
+ },
+ "Ironworks": {
+  "name": "IJzergieterij",
+  "actions": [
+   "Besteed 4 energie om 1 staal te krijgen en het zuurstofniveau 1 stap te verhogen."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Kelpkwekerij",
+  "desc": "Verhoog je M€-productie 2 stappen en je plantproductie 3 stappen. Krijg 2 planten."
+ },
+ "Lake Marineris": {
+  "name": "Marinerismeer",
+  "desc": "Plaats 2 oceaantegels."
+ },
+ "Large Convoy": {
+  "name": "Groot Konvooi",
+  "desc": "Plaats een oceaantegel en trek 2 kaarten. Krijg 5 planten of voeg 4 dieren toe aan een ANDERE kaart.",
+  "orTitles": [
+   "Krijg 5 planten",
+   "Voeg 4 dieren toe aan een ANDERE kaart"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lavastromen",
+  "desc": "Verhoog de temperatuur 2 stappen en plaats deze tegel OP THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS OF ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Korstmos",
+  "desc": "Verhoog je plantproductie 1 stap."
+ },
+ "Livestock": {
+  "name": "Vee",
+  "desc": "Verlaag je plantproductie 1 stap en verhoog je M€-productie 2 stappen",
+  "actions": [
+   "Voeg 1 dier toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per dier op deze kaart."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Lokale Warmtevangst",
+  "desc": "Besteed 5 warmte om 4 planten te krijgen, of om 2 dieren toe te voegen aan een ANDERE kaart.",
+  "orTitles": [
+   "Krijg 4 planten",
+   "Voeg 2 dieren toe aan een ANDERE kaart"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Maanstraal",
+  "desc": "Verlaag je M€-productie 2 stappen en verhoog je warmte- en energieproductie elk 2 stappen."
+ },
+ "Magnetic Field Dome": {
+  "name": "Magnetische Veldkoepel",
+  "desc": "Verlaag je energieproductie 2 stappen en verhoog je plantproductie 1 stap. Verhoog je TW 1 stap."
+ },
+ "Magnetic Field Generators": {
+  "name": "Magnetische Veldgeneratoren",
+  "desc": "Verlaag je energieproductie 4 stappen en verhoog je plantproductie 2 stappen. Verhoog je TW 3 stappen."
+ },
+ "Mangrove": {
+  "name": "Mangrove",
+  "desc": "Plaats een begroeiingstegel OP EEN GEBIED GERESERVEERD VOOR OCEAAN en verhoog het zuurstofniveau 1 stap. Negeer hierbij de normale plaatsingsregels."
+ },
+ "Martian Rails": {
+  "name": "Marsspoorwegen",
+  "actions": [
+   "Besteed 1 energie om 1 M€ te krijgen per stadstegel OP MARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Methaan van Titan",
+  "desc": "Verhoog je warmteproductie 2 stappen en je plantproductie 2 stappen."
+ },
+ "Micro-Mills": {
+  "name": "Micromolens",
+  "desc": "Verhoog je warmteproductie 1 stap."
+ },
+ "Mining Expedition": {
+  "name": "Mijnbouwexpeditie",
+  "desc": "Verhoog het zuurstofniveau 1 stap. Verwijder 2 planten van een willekeurige speler. Krijg 2 staal."
+ },
+ "Mining Rights": {
+  "name": "Mijnrechten",
+  "desc": "Plaats deze tegel op een gebied met een staal- of titaniumbonus. Verhoog die productie 1 stap."
+ },
+ "Mohole Area": {
+  "name": "Moholegebied",
+  "desc": "Verhoog je warmteproductie 4 stappen. Plaats deze tegel OP EEN GEBIED GERESERVEERD VOOR OCEAAN."
+ },
+ "Moss": {
+  "name": "Mos",
+  "desc": "Verlies 1 plant. Verhoog je plantproductie 1 stap."
+ },
+ "Natural Preserve": {
+  "name": "Natuurreservaat",
+  "desc": "Plaats deze tegel NAAST GEEN ENKELE ANDERE TEGEL. Verhoog je M€-productie 1 stap."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitrietreducerende Bacteriën",
+  "desc": "Voeg 3 microben toe aan deze kaart.",
+  "actions": [
+   "Voeg 1 microbe toe aan deze kaart.",
+   "Verwijder 3 microben om je TW 1 stap te verhogen."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Stikstofrijke Asteroïde",
+  "desc": "Verhoog je terraformingwaarde 2 stappen en de temperatuur 1 stap. Verhoog je plantproductie 1 stap, of 4 stappen als je 3 Plant-symbolen hebt."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofiel Mos",
+  "desc": "Verlies 2 planten. Verhoog je plantproductie 2 stappen."
+ },
+ "Noctis City": {
+  "name": "Noctis-stad",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je M€-productie 3 stappen. Plaats een stadstegel OP HET GERESERVEERDE GEBIED, ongeacht de normale plaatsingsregels."
+ },
+ "Noctis Farming": {
+  "name": "Landbouw in Noctis",
+  "desc": "Verhoog je M€-productie 1 stap en krijg 2 planten."
+ },
+ "Nuclear Power": {
+  "name": "Kernenergie",
+  "desc": "Verlaag je M€-productie 2 stappen en verhoog je energieproductie 3 stappen."
+ },
+ "Nuclear Zone": {
+  "name": "Nucleaire Zone",
+  "desc": "Plaats deze tegel en verhoog de temperatuur 2 stappen."
+ },
+ "Open City": {
+  "name": "Open Stad",
+  "desc": "Krijg 2 planten. Plaats een stadstegel. Verlaag je energieproductie 1 stap en verhoog je M€-productie 4 stappen."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimaal Luchtremmen",
+  "effects": [
+   "Als je een Ruimte-gebeurtenis speelt, krijg je 3 M€ en 3 warmte."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Ertsverwerker",
+  "actions": [
+   "Besteed 4 energie om 1 titanium te krijgen en het zuurstofniveau 1 stap te verhogen."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Permafrostwinning",
+  "desc": "Plaats 1 oceaantegel."
+ },
+ "Peroxide Power": {
+  "name": "Peroxide-energie",
+  "desc": "Verlaag je M€-productie 1 stap en verhoog je energieproductie 2 stappen."
+ },
+ "Pets": {
+  "name": "Huisdieren",
+  "desc": "Voeg 1 dier toe aan deze kaart.",
+  "effects": [
+   "Als er een stadstegel wordt geplaatst, voeg je een dier toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per 2 dieren hier."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Ruimtehaven Phobos",
+  "desc": "Verhoog je titaniumproductie 1 stap en plaats een stadstegel OP HET GERESERVEERDE GEBIED."
+ },
+ "Plantation": {
+  "name": "Plantage",
+  "desc": "Plaats een begroeiingstegel en verhoog het zuurstofniveau 1 stap."
+ },
+ "Power Grid": {
+  "name": "Stroomnet",
+  "desc": "Verhoog je energieproductie 1 stap per Energie-symbool dat je hebt, inclusief dit."
+ },
+ "Power Plant": {
+  "name": "Energiecentrale",
+  "desc": "Verhoog je energieproductie 1 stap."
+ },
+ "Predators": {
+  "name": "Roofdieren",
+  "actions": [
+   "Verwijder 1 dier van een willekeurige kaart en voeg het toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per dier op deze kaart."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Beschermde Vallei",
+  "desc": "Verhoog je M€-productie 2 stappen. Plaats een begroeiingstegel OP EEN GEBIED GERESERVEERD VOOR OCEAAN, ongeacht de normale plaatsingsregels, en verhoog het zuurstofniveau 1 stap."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radiochemische Fabriek",
+  "desc": "Verlaag je energieproductie 1 stap. Verhoog je TW 2 stappen."
+ },
+ "Regolith Eaters": {
+  "name": "Regolieteters",
+  "actions": [
+   "Voeg 1 microbe toe aan deze kaart.",
+   "Verwijder 2 microben van deze kaart om het zuurstofniveau 1 stap te verhogen."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Vrijlating van Inerte Gassen",
+  "desc": "Verhoog je terraformingwaarde 2 stappen."
+ },
+ "Research Outpost": {
+  "name": "Onderzoekspost",
+  "desc": "Plaats een stadstegel NAAST GEEN ENKELE ANDERE TEGEL.",
+  "effects": [
+   "Als je een kaart speelt, betaal je er 1 M€ minder voor."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Roverbouw",
+  "effects": [
+   "Als er een stadstegel wordt geplaatst, krijg je 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Zoektocht naar Leven",
+  "actions": [
+   "Besteed 1 M€ om de bovenste kaart van de trekstapel te onthullen. Heeft die kaart een Microbe-symbool, voeg dan hier een wetenschapsgrondstof toe."
+  ],
+  "vpText": [
+   "3 OP als je hier minstens 1 wetenschapsgrondstof hebt."
+  ]
+ },
+ "Shuttles": {
+  "name": "Shuttles",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je M€-productie 2 stappen.",
+  "effects": [
+   "Als je een Ruimte-kaart speelt, betaal je er 2 M€ minder voor."
+  ]
+ },
+ "Small Animals": {
+  "name": "Kleine Dieren",
+  "desc": "Verlaag willekeurige plantproductie 1 stap.",
+  "actions": [
+   "Voeg 1 dier toe aan deze kaart."
+  ],
+  "vpText": [
+   "1 OP per 2 dieren op deze kaart."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Bodemfabriek",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je plantproductie 1 stap."
+ },
+ "Solar Power": {
+  "name": "Zonne-energie",
+  "desc": "Verhoog je energieproductie 1 stap."
+ },
+ "Solar Wind Power": {
+  "name": "Zonnewindenergie",
+  "desc": "Verhoog je energieproductie 1 stap en krijg 2 titanium."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Verhoog je warmteproductie 7 stappen."
+ },
+ "Space Mirrors": {
+  "name": "Ruimtespiegels",
+  "actions": [
+   "Besteed 7 M€ om je energieproductie 1 stap te verhogen."
+  ]
+ },
+ "Special Design": {
+  "name": "Speciaal Ontwerp",
+  "desc": "Voor de volgende kaart die je deze generatie speelt, zijn globale voorwaarden +2 of -2 stappen, naar keuze."
+ },
+ "Steelworks": {
+  "name": "Staalfabriek",
+  "actions": [
+   "Besteed 4 energie om 2 staal te krijgen en het zuurstofniveau 1 stap te verhogen."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Dagbouwmijn",
+  "desc": "Verlaag je energieproductie 2 stappen. Verhoog je staalproductie 2 stappen en je titaniumproductie 1 stap. Verhoog het zuurstofniveau 2 stappen."
+ },
+ "Subterranean Reservoir": {
+  "name": "Ondergronds Reservoir",
+  "desc": "Plaats 1 oceaantegel."
+ },
+ "Symbiotic Fungus": {
+  "name": "Symbiotische Schimmel",
+  "actions": [
+   "Voeg een microbe toe aan een ANDERE kaart."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektonische Spanningsenergie",
+  "desc": "Verhoog je energieproductie 3 stappen."
+ },
+ "Towing A Comet": {
+  "name": "Een Komeet Slepen",
+  "desc": "Krijg 2 planten. Verhoog het zuurstofniveau 1 stap en plaats een oceaantegel."
+ },
+ "Trees": {
+  "name": "Bomen",
+  "desc": "Verhoog je plantproductie 3 stappen. Krijg 1 plant."
+ },
+ "Tundra Farming": {
+  "name": "Toendralandbouw",
+  "desc": "Verhoog je plantproductie 1 stap en je M€-productie 2 stappen. Krijg 1 plant."
+ },
+ "Underground City": {
+  "name": "Ondergrondse Stad",
+  "desc": "Plaats een stadstegel. Verlaag je energieproductie 2 stappen en verhoog je staalproductie 2 stappen."
+ },
+ "Underground Detonations": {
+  "name": "Ondergrondse Ontploffingen",
+  "actions": [
+   "Besteed 10 M€ om je warmteproductie 2 stappen te verhogen."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Verstedelijkt Gebied",
+  "desc": "Verlaag je energieproductie 1 stap en verhoog je M€-productie 2 stappen. Plaats een stadstegel NAAST MINSTENS 2 ANDERE STADSTEGELS."
+ },
+ "Water Import From Europa": {
+  "name": "Waterimport van Europa",
+  "actions": [
+   "Betaal 12 M€ om een oceaantegel te plaatsen. TITANIUM MAG GEBRUIKT WORDEN alsof je een Ruimte-kaart speelt."
+  ],
+  "vpText": [
+   "1 OP per Jupiter-symbool dat je hebt."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Watersplitsingsinstallatie",
+  "actions": [
+   "Besteed 3 energie om het zuurstofniveau 1 stap te verhogen."
+  ]
+ },
+ "Wave Power": {
+  "name": "Golfenergie",
+  "desc": "Verhoog je energieproductie 1 stap."
+ },
+ "Windmills": {
+  "name": "Windmolens",
+  "desc": "Verhoog je energieproductie 1 stap."
+ },
+ "Worms": {
+  "name": "Wormen",
+  "desc": "Verhoog je plantproductie 1 stap per 2 Microbe-symbolen die je hebt, inclusief dit."
+ },
+ "Zeppelins": {
+  "name": "Zeppelins",
+  "desc": "Verhoog je M€-productie 1 stap per stadstegel OP MARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Je begint met 1 titaniumproductie en 42 M€.",
+  "effects": [
+   "Telkens als er een Jupiter-symbool in het spel komt, inclusief dit, verhoog je je M€-productie 1 stap."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Je begint met 60 M€.",
+  "effects": [
+   "Als je een Aarde-symbool speelt, betaal je er 3 M€ minder voor."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Je begint met 3 M€-productie en 44 M€.",
+  "effects": [
+   "Als je een Gebouw-symbool speelt, betaal je er 2 M€ minder voor."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Je begint met 1 titaniumproductie en 38 M€.",
+  "effects": [
+   "Als je een Aarde-symbool speelt, inclusief dit, trek je een kaart."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Je begint met 47 M€.",
+  "actions": [
+   "Besteed 4 M€ om (een van) je LAAGSTE productie(s) 1 stap te verhogen."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Je begint met 37 M€. Trek als eerste actie 3 preludekaarten en speel er 1 van. Leg de andere 2 af.",
+  "effects": [
+   "Als je een Wetenschap-symbool speelt, betaal je er 2 M€ minder voor."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Je begint met 45 M€. Financier als eerste actie gratis een prijs.",
+  "effects": [
+   "Als je een kaart met een NIET-NEGATIEF OP-symbool speelt, inclusief deze, krijg je 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Beginnersbedrijf",
+  "desc": "Je begint met 42 M€. In plaats van bij de voorbereiding uit 10 kaarten te kiezen, krijg je 10 kaarten gratis."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Je begint met 57 M€.",
+  "effects": [
+   "Nadat je betaalt voor een kaart of standaardproject met basiskosten van 20 M€ of meer, krijg je 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Je begint met 2 plantproductie, 3 planten en 36 M€.",
+  "effects": [
+   "Je mag altijd 7 in plaats van 8 planten betalen om een begroeiingstegel te plaatsen."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Je begint met 3 warmteproductie en 42 M€.",
+  "effects": [
+   "Je mag warmte gebruiken als M€. Je mag geen M€ gebruiken als warmte."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Je begint met 20 staal en 30 M€.",
+  "effects": [
+   "Telkens als je een gebeurtenis speelt, krijg je 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Trek als eerste actie in het spel 3 kaarten. Begin met 45 M€.",
+  "effects": [
+   "Je temperatuur-, zuurstof-, oceaan- en Venusvoorwaarden zijn +2 of -2 stappen, telkens naar keuze."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Mijnwerkersgilde",
+  "desc": "Je begint met 30 M€, 5 staal en 1 staalproductie.",
+  "effects": [
+   "Telkens als je een tegel plaatst op een gebied met een staal- of titaniumbonus, verhoog je je staalproductie 1 stap"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Je begint met 10 titanium en 23 M€.",
+  "effects": [
+   "Elk titanium van je is 1 M€ extra waard."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republiek Tharsis",
+  "desc": "Je begint met 40 M€. Plaats als eerste actie in het spel een stadstegel.",
+  "effects": [
+   "Als er een stadstegel OP MARS wordt geplaatst, verhoog je je M€-productie 1 stap. Als je een stadstegel plaatst, krijg je 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Je begint met 1 energieproductie en 48 M€.",
+  "effects": [
+   "Als je een Energie-kaart OF HET STANDAARDPROJECT ENERGIECENTRALE speelt, betaal je er 3 M€ minder voor."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Marsinitiatief van de Verenigde Naties",
+  "desc": "Je begint met 40 M€.",
+  "actions": [
+   "Als je terraformingwaarde deze generatie is verhoogd, mag je 3 M€ betalen om die nog 1 stap te verhogen."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Geallieerde Bank",
+  "desc": "Verhoog je M€-productie 4 stappen. Krijg 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Biosfeerondersteuning",
+  "desc": "Verhoog je plantproductie 2 stappen. Verlaag je M€-productie 1 stap."
+ },
+ "Aquifer Turbines": {
+  "name": "Grondwaterturbines",
+  "desc": "Plaats een oceaantegel. Verhoog je energieproductie 2 stappen. Betaal 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Mohole-uitgraving",
+  "desc": "Verhoog je staalproductie 1 stap en je warmteproductie 2 stappen. Krijg 2 warmte."
+ },
+ "Early Settlement": {
+  "name": "Vroege Nederzetting",
+  "desc": "Verhoog je plantproductie 1 stap. Plaats een stadstegel."
+ },
+ "Biofuels": {
+  "name": "Biobrandstoffen",
+  "desc": "Verhoog je energie- en plantproductie 1 stap. Krijg 2 planten."
+ },
+ "Power Generation": {
+  "name": "Energieopwekking",
+  "desc": "Verhoog je energieproductie 3 stappen."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Zelfvoorzienende Nederzetting",
+  "desc": "Verhoog je M€-productie 2 stappen. Plaats een stadstegel."
+ },
+ "Mining Operations": {
+  "name": "Mijnbouwactiviteiten",
+  "desc": "Verhoog je staalproductie 2 stappen. Krijg 4 staal."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI-aannemer",
+  "desc": "Verhoog je TW 3 stappen. Trek een kaart."
+ },
+ "Dome Farming": {
+  "name": "Koepellandbouw",
+  "desc": "Verhoog je M€-productie 2 stappen en je plantproductie 1 stap."
+ },
+ "Business Empire": {
+  "name": "Zakenimperium",
+  "desc": "Verhoog je M€-productie 6 stappen. Betaal 6 M€."
+ },
+ "Donation": {
+  "name": "Donatie",
+  "desc": "Krijg 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Stikstoflevering",
+  "desc": "Verhoog je plantproductie 1 stap. Verhoog je TW 1 stap. Krijg 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Smelterij",
+  "desc": "Verhoog het zuurstofniveau 2 stappen. Krijg 5 staal."
+ },
+ "Supplier": {
+  "name": "Leverancier",
+  "desc": "Verhoog je energieproductie 2 stappen. Krijg 4 staal."
+ },
+ "Supply Drop": {
+  "name": "Bevoorradingsdropping",
+  "desc": "Krijg 3 titanium, 8 staal en 3 planten."
+ },
+ "Great Aquifer": {
+  "name": "Grote Aquifer",
+  "desc": "Plaats 2 oceaantegels."
+ },
+ "Biolab": {
+  "name": "Biolab",
+  "desc": "Verhoog je plantproductie 1 stap. Trek 3 kaarten."
+ },
+ "Martian Industries": {
+  "name": "Marsindustrie",
+  "desc": "Verhoog je energie- en staalproductie 1 stap. Krijg 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Onderzoekspost Io",
+  "desc": "Verhoog je titaniumproductie 1 stap. Trek een kaart."
+ },
+ "Polar Industries": {
+  "name": "Poolindustrie",
+  "desc": "Verhoog je warmteproductie 2 stappen. Plaats een oceaantegel."
+ },
+ "Society Support": {
+  "name": "Maatschappelijke Steun",
+  "desc": "Verhoog je plant-, energie- en warmteproductie 1 stap. Verlaag je M€-productie 1 stap."
+ },
+ "Galilean Mining": {
+  "name": "Galileïsche Mijnbouw",
+  "desc": "Verhoog je titaniumproductie 2 stappen. Betaal 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Enorme Asteroïde",
+  "desc": "Verhoog de temperatuur 3 stappen. Betaal 5 M€."
+ },
+ "Metals Company": {
+  "name": "Metaalbedrijf",
+  "desc": "Verhoog je M€-, staal- en titaniumproductie 1 stap."
+ },
+ "Loan": {
+  "name": "Lening",
+  "desc": "Krijg 30 M€. Verlaag je M€-productie 2 stappen."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Verhoog je warmteproductie 3 stappen. Krijg 3 warmte."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metaalrijke Asteroïde",
+  "desc": "Verhoog de temperatuur 1 stap. Krijg 4 titanium en 4 staal."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitale Bouwwerf",
+  "desc": "Verhoog je titaniumproductie 1 stap. Krijg 4 titanium."
+ },
+ "Acquired Space Agency": {
+  "name": "Overgenomen Ruimtevaartorganisatie",
+  "desc": "Krijg 6 titanium. Onthul kaarten tot je 2 kaarten met een Ruimte-symbool onthult. Neem ze in je hand en leg de rest af."
+ },
+ "Research Network": {
+  "name": "Onderzoeksnetwerk",
+  "desc": "Verhoog je M€-productie 1 stap. Trek 3 kaarten. Na het spelen telt het jokersymbool, wanneer je een actie uitvoert, als een symbool naar keuze."
+ },
+ "Eccentric Sponsor": {
+  "name": "Excentrieke Sponsor",
+  "desc": "SPEEL EEN HANDKAART MET 25 M€ KORTING."
+ },
+ "Ecology Experts": {
+  "name": "Ecologie-experts",
+  "desc": "Verhoog je plantproductie 1 stap. SPEEL EEN HANDKAART EN NEGEER DAARBIJ GLOBALE VOORWAARDEN."
+ },
+ "Experimental Forest": {
+  "name": "Experimenteel Bos",
+  "desc": "Plaats 1 begroeiingstegel en verhoog het zuurstofniveau 1 stap. Onthul kaarten tot je 2 kaarten met een Plant-symbool onthult. Neem ze in je hand en leg de rest af."
+ }
+}

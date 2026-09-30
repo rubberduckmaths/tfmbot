@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Ilé-iṣẹ́ Tí A Rà",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Advanced Alloys": {
+  "name": "Àdàlù Irin Ìgbàlódé",
+  "effects": [
+   "Titanium kọ̀ọ̀kan tí o ní tó 1 M€ sí i.",
+   "Irin kọ̀ọ̀kan tí o ní tó 1 M€ sí i."
+  ]
+ },
+ "AI Central": {
+  "name": "Ibùdó AI",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1.",
+  "actions": [
+   "Fa káàdì 2."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Ìmọ̀ Ẹ̀rọ Agbógunti Òòfà",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì kalẹ̀, o máa san 2 M€ dín fún un."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Àjọ Ìwakùsà Asteroid",
+  "desc": "Dín ìpèsè titanium olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 1, kí o sì mú tìrẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Bribed Committee": {
+  "name": "Ìgbìmọ̀ Tí A Fún Ní Àbẹ̀tẹ́lẹ̀",
+  "desc": "Gbé TR rẹ sókè ní ìgbésẹ̀ 2."
+ },
+ "Building Industries": {
+  "name": "Àwọn Ilé-iṣẹ́ Ìkọ́lé",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Business Contacts": {
+  "name": "Àwọn Alábàáṣepọ̀ Ìṣòwò",
+  "desc": "Wo káàdì 4 lókè òkìtì. Mú 2 sí ọwọ́ rẹ kí o sì ju ìyókù sílẹ̀."
+ },
+ "Business Network": {
+  "name": "Nẹ́tíwọ́ọ̀kì Ìṣòwò",
+  "desc": "Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 1.",
+  "actions": [
+   "Wo káàdì orí òkìtì, lẹ́yìn náà rà á tàbí jù ú sílẹ̀."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Ibi Ìwakùsà Ẹ̀wọ̀n Callisto",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Caretaker Contract": {
+  "name": "Àdéhùn Olùtọ́jú",
+  "actions": [
+   "Ná ooru 8 láti gbé Ìpele Terraform rẹ sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Cartel": {
+  "name": "Ẹgbẹ́ Àjọṣe Oníṣòwò",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún àmì Ayé kọ̀ọ̀kan tí o ní, pẹ̀lú èyí."
+ },
+ "CEO's Favorite Project": {
+  "name": "Iṣẹ́ Tí Ọ̀gá Àgbà Fẹ́ràn Jù",
+  "desc": "Fi orísun 1 kún èyíkéyìí nínú àwọn káàdì rẹ tí ó ti ní orísun 1 ó kéré tán."
+ },
+ "Commercial District": {
+  "name": "Agbègbè Ìṣòwò",
+  "desc": "Fi táìlì yìí sílẹ̀. Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 4.",
+  "vpText": [
+   "Máàkì 1 fún táìlì ìlú kọ̀ọ̀kan tó wà lẹ́gbẹ̀ẹ́."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Ibi Agbára Ilé-iṣẹ́",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 3. Fi táìlì ìlú kan sílẹ̀."
+ },
+ "Development Center": {
+  "name": "Ibùdó Ìdàgbàsókè",
+  "actions": [
+   "Ná agbára 1 láti fa káàdì kan."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Kàtàpúlú Ayé",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì kalẹ̀, o máa san 2 M€ dín fún un."
+  ]
+ },
+ "Earth Office": {
+  "name": "Ọ́fíìsì Ayé",
+  "effects": [
+   "Nígbà tí o bá gbé àmì Ayé kalẹ̀, o máa san 3 M€ dín fún un."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Kàtàpúlú Oníná",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1.",
+  "actions": [
+   "Ná ewéko 1 tàbí irin 1 láti gba 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Ìfàmú Agbára",
+  "desc": "Dín ìpèsè agbára olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 1, kí o sì mú tìrẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Fuel Factory": {
+  "name": "Ilé-iṣẹ́ Epo",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè titanium àti ti M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1 ọ̀kọ̀ọ̀kan."
+ },
+ "Gene Repair": {
+  "name": "Àtúnṣe Àbùdá",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Àjọ Ògiri Òkè Ńlá",
+  "desc": "Dín ìpèsè irin olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 1, kí o sì mú tìrẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Hackers": {
+  "name": "Àwọn Agbónàwọlé",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1 àti ìpèsè M€ olùṣeré èyíkéyìí ní ìgbésẹ̀ 2. Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Hired Raiders": {
+  "name": "Àwọn Olè Agbaṣẹ́ṣe",
+  "desc": "Jí tó irin 2, tàbí 3 M€ lọ́wọ́ olùṣeré èyíkéyìí."
+ },
+ "Indentured Workers": {
+  "name": "Àwọn Òṣìṣẹ́ Àdéhùn",
+  "desc": "Káàdì tó kàn tí o bá gbé kalẹ̀ ní ìran yìí yóò dín ní 8 M€."
+ },
+ "Industrial Center": {
+  "name": "Ibùdó Ilé-iṣẹ́",
+  "desc": "Fi táìlì yìí sílẹ̀ lẹ́gbẹ̀ẹ́ táìlì ìlú kan.",
+  "actions": [
+   "Ná 7 M€ láti mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Ọkọ̀ Ìletò Láàárín Ìràwọ̀"
+ },
+ "Invention Contest": {
+  "name": "Ìdíje Ìṣẹ̀dá",
+  "desc": "Wo káàdì 3 lókè òkìtì. Mú 1 sí ọwọ́ rẹ kí o sì ju ìyókù sílẹ̀."
+ },
+ "Inventors' Guild": {
+  "name": "Ẹgbẹ́ Àwọn Olùṣẹ̀dá",
+  "actions": [
+   "Wo káàdì orí òkìtì, lẹ́yìn náà rà á tàbí jù ú sílẹ̀."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Awin Ìdókòwò",
+  "desc": "Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 1. Gba 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Àwọn Ilé-iṣẹ́ Ìwakùsà Io",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 2 àti ìpèsè M€ rẹ ní ìgbésẹ̀ 2.",
+  "vpText": [
+   "Máàkì 1 fún àmì Júpítà kọ̀ọ̀kan tí o ní."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Ibùdó Àkíyèsí Lagrange",
+  "desc": "Fa káàdì 1."
+ },
+ "Land Claim": {
+  "name": "Ẹ̀tọ́ Ilẹ̀",
+  "desc": "Ya agbègbè kan tí a kò tíì yà sọ́tọ̀ fún ara rẹ: ìwọ nìkan lo lè fi táìlì síbẹ̀."
+ },
+ "Lightning Harvest": {
+  "name": "Ìkórè Mànàmáná",
+  "desc": "Mú ìpèsè agbára rẹ àti ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ kan ọ̀kọ̀ọ̀kan."
+ },
+ "Mars University": {
+  "name": "Yunifásítì Mars",
+  "effects": [
+   "Nígbà tí o bá gbé àmì sáyẹ́ǹsì kalẹ̀, pẹ̀lú èyí, o lè ju káàdì kan sílẹ̀ láti ọwọ́ láti fa káàdì kan."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Ẹ̀rọ Ìyípadà Ìwọ̀n",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 6.",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì òfuurufú kalẹ̀, o máa san 2 M€ dín fún un."
+  ]
+ },
+ "Media Archives": {
+  "name": "Ibi Ìpamọ́ Ìròyìn",
+  "desc": "Gba 1 M€ fún ìṣẹ̀lẹ̀ kọ̀ọ̀kan tí GBOGBO olùṣeré TI GBÉ KALẸ̀ RÍ."
+ },
+ "Media Group": {
+  "name": "Ẹgbẹ́ Ìròyìn",
+  "effects": [
+   "Lẹ́yìn tí o bá gbé káàdì ìṣẹ̀lẹ̀ kalẹ̀, o máa gba 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Yàrá Ìwádìí Ìṣègùn",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún àmì ilé kíkọ́ 2 kọ̀ọ̀kan tí o ní, pẹ̀lú èyí."
+ },
+ "Mine": {
+  "name": "Ibi Ìwakùsà",
+  "desc": "Mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Mineral Deposit": {
+  "name": "Ìkójọ Ohun Alumọni",
+  "desc": "Gba irin 5."
+ },
+ "Mining Area": {
+  "name": "Agbègbè Ìwakùsà",
+  "desc": "Fi táìlì yìí sí agbègbè tó ní ẹ̀bùn fífisílẹ̀ irin tàbí titanium, lẹ́gbẹ̀ẹ́ táìlì mìíràn tìrẹ. Mú ìpèsè orísun náà rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Miranda Resort": {
+  "name": "Ibi Ìgbafẹ́ Miranda",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún àmì Ayé kọ̀ọ̀kan tí o ní."
+ },
+ "Olympus Conference": {
+  "name": "Àpérò Olympus",
+  "desc": "Nígbà tí o bá gbé àmì sáyẹ́ǹsì kalẹ̀, pẹ̀lú èyí, yálà fi orísun sáyẹ́ǹsì kún káàdì yìí, tàbí yọ orísun sáyẹ́ǹsì kúrò lórí káàdì yìí láti fa káàdì kan."
+ },
+ "Physics Complex": {
+  "name": "Ibùdó Físíìsì",
+  "actions": [
+   "Ná agbára 6 láti fi orísun sáyẹ́ǹsì kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 2 fún orísun sáyẹ́ǹsì kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Ohun Amáyédẹrùn Agbára",
+  "actions": [
+   "Ná iye agbára èyíkéyìí kí o sì gba iye M€ kan náà."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Àjọ Ìpèsè Agbára",
+  "desc": "Dín ìpèsè agbára olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 1, kí o sì mú tìrẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Protected Habitats": {
+  "name": "Àwọn Ibùgbé Aláàbò",
+  "effects": [
+   "Àwọn alátakò kò lè yọ ewéko, ẹranko tàbí kòkòrò àìrí rẹ kúrò."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Ẹ̀rọ Ìyọjáde Quantum",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 4.",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì òfuurufú kalẹ̀, o máa san 2 M€ dín fún un."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Aṣọ Ààbò Ìtànṣán",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Research": {
+  "name": "Ìwádìí",
+  "desc": "A kà á sí gbígbé káàdì sáyẹ́ǹsì 2 kalẹ̀. Fa káàdì 2."
+ },
+ "Restricted Area": {
+  "name": "Agbègbè Èèwọ̀",
+  "desc": "Fi táìlì yìí sílẹ̀.",
+  "actions": [
+   "Ná 2 M€ láti fa káàdì kan."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Òṣìṣẹ́ Rọ́bọ́ọ̀tì",
+  "desc": "Ṣe àdàkọ àpótí ìpèsè nìkan ti ọ̀kan nínú àwọn káàdì ilé kíkọ́ rẹ."
+ },
+ "Sabotage": {
+  "name": "Ìbàjẹ́ Mọ̀ọ́mọ̀",
+  "desc": "Yọ tó titanium 3 kúrò lọ́wọ́ olùṣeré èyíkéyìí, tàbí irin 4, tàbí 7 M€."
+ },
+ "Satellites": {
+  "name": "Sátẹ́láìtì",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún àmì òfuurufú kọ̀ọ̀kan tí o ní, pẹ̀lú èyí."
+ },
+ "Security Fleet": {
+  "name": "Ọ̀wọ́ Ọkọ̀ Ààbò",
+  "actions": [
+   "Ná titanium 1 láti fi orísun jagunjagun 1 kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún orísun jagunjagun kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Ẹ̀rọ Agbéniga Òfuurufú",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 1.",
+  "actions": [
+   "Ná irin 1 láti gba 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Ibùdó Òfuurufú",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì òfuurufú kalẹ̀, o máa san 2 M€ dín fún un."
+  ]
+ },
+ "Sponsors": {
+  "name": "Àwọn Onígbọ̀wọ́",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Standard Technology": {
+  "name": "Ìmọ̀ Ẹ̀rọ Ìpìlẹ̀",
+  "effects": [
+   "Lẹ́yìn tí o bá sanwó fún iṣẹ́ ìpìlẹ̀ kan, àyàfi títa ẹ̀tọ́ àṣẹ, o máa gba 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigrade",
+  "actions": [
+   "Fi kòkòrò àìrí 1 kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún kòkòrò àìrí 4 kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Àfihàn Ìmọ̀ Ẹ̀rọ",
+  "desc": "Fa káàdì méjì."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraforming Ganymede",
+  "desc": "Gbé TR rẹ sókè ní ìgbésẹ̀ 1 fún àmì Júpítà kọ̀ọ̀kan tí o ní, pẹ̀lú èyí."
+ },
+ "Titanium Mine": {
+  "name": "Ibi Ìwakùsà Titanium",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Toll Station": {
+  "name": "Ibùdó Owó-Ọ̀nà",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún àmì òfuurufú kọ̀ọ̀kan tí ÀWỌN ALÁTAKÒ rẹ ní."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Ọkọ̀ Ìwádìí Rékọjá Neptune",
+  "desc": "Ọkọ̀ ìwádìí òfuurufú jíjìn: ó tó máàkì 1."
+ },
+ "Tropical Resort": {
+  "name": "Ibi Ìgbafẹ́ Ilẹ̀ Olóoru",
+  "desc": "Dín ìpèsè ooru rẹ kù ní ìgbésẹ̀ 2, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Vesta Shipyard": {
+  "name": "Ibi Ìkọ́ Ọkọ̀ Vesta",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Viral Enhancers": {
+  "name": "Àwọn Olùmúgbòòrò Fáírọ́ọ̀sì",
+  "effects": [
+   "Nígbà tí o bá gbé àmì ewéko, kòkòrò àìrí, tàbí ẹranko kalẹ̀, pẹ̀lú èyí, gba ewéko 1 tàbí fi orísun 1 kún KÁÀDÌ NÁÀ."
+  ]
+ },
+ "Virus": {
+  "name": "Fáírọ́ọ̀sì",
+  "desc": "Yọ tó ẹranko 2 tàbí ewéko 5 kúrò lọ́wọ́ olùṣeré èyíkéyìí."
+ },
+ "SF Memorial": {
+  "name": "Ìrántí SF",
+  "desc": "Fa káàdì 1."
+ },
+ "House Printing": {
+  "name": "Títẹ̀ Ilé",
+  "desc": "Mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Space Hotels": {
+  "name": "Àwọn Òtẹ́ẹ̀lì Òfuurufú",
+  "desc": "Mú ìpèsè M€ pọ̀ sí i ní ìgbésẹ̀ 4."
+ },
+ "Martian Survey": {
+  "name": "Ìwádìí Mars",
+  "desc": "Fa káàdì méjì."
+ },
+ "Research Coordination": {
+  "name": "Ìṣètò Ìwádìí",
+  "desc": "Lẹ́yìn tí a bá gbé e kalẹ̀, nígbà tí o bá ṣe ìṣe kan, àmì èyíkéyìí náà ka bí àmì èyíkéyìí tí o bá yàn."
+ },
+ "Lava Tube Settlement": {
+  "name": "Ìletò Ihò Láfà",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Fi táìlì ìlú kan sí AGBÈGBÈ ONÍNÀ-ÒKÈ láìka àwọn ìlú tó wà lẹ́gbẹ̀ẹ́ sí."
+ },
+ "Psychrophiles": {
+  "name": "Àwọn Olùfẹ́ Òtútù",
+  "actions": [
+   "Fi kòkòrò àìrí 1 kún káàdì yìí."
+  ],
+  "effects": [
+   "Nígbà tí o bá ń sanwó fún káàdì ewéko, a lè lo àwọn kòkòrò àìrí ibí bí 2 M€ ọ̀kọ̀ọ̀kan."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Ìmọ̀ Ẹ̀rọ Ìmúbádọ́gba",
+  "effects": [
+   "Àwọn ìbéèrè àgbáyé rẹ jẹ́ +2 tàbí -2 ìgbésẹ̀, bí o ṣe yàn ní gbogbo ìgbà."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Lichen Tó Ti Mọ́ Ara",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Àwọn Àyíká Ìgbàlódé"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroid Amóníà Tí Afẹ́fẹ́ Dá Dúró",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 3 àti ìpèsè ewéko rẹ ní ìgbésẹ̀ 1. Fi kòkòrò àìrí 2 kún káàdì MÌÍRÀN."
+ },
+ "Ants": {
+  "name": "Èèrà",
+  "actions": [
+   "Yọ kòkòrò àìrí 1 kúrò lórí káàdì èyíkéyìí láti fi 1 kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún kòkòrò àìrí 2 kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Fífa Omi Abẹ́lẹ̀",
+  "actions": [
+   "Ná 8 M€ láti fi táìlì òkun 1 sílẹ̀. A LÈ LO IRIN bí ẹni pé o ń gbé káàdì ilé kíkọ́ kalẹ̀."
+  ]
+ },
+ "Algae": {
+  "name": "Ewé Omi",
+  "desc": "Gba ewéko 1, kí o sì mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "ArchaeBacteria": {
+  "name": "Archaebacteria",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Arctic Algae": {
+  "name": "Ewé Omi Arctic",
+  "desc": "Gba ewéko 1.",
+  "effects": [
+   "Nígbà tí ẹnikẹ́ni bá fi táìlì òkun sílẹ̀, gba ewéko 2."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Adágún Àtọwọ́dá",
+  "desc": "Fi táìlì òkun 1 sí AGBÈGBÈ TÍ A KÒ YÀ SỌ́TỌ̀ FÚN ÒKUN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Photosynthesis Àtọwọ́dá",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1 tàbí ìpèsè agbára rẹ ní ìgbésẹ̀ 2.",
+  "orTitles": [
+   "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 2",
+   "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 1 kí o sì gba titanium 2. Yọ tó ewéko 3 kúrò lọ́wọ́ olùṣeré èyíkéyìí."
+ },
+ "Asteroid Mining": {
+  "name": "Ìwakùsà Asteroid",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Ìtànṣán Láti Asteroid Thorium",
+  "desc": "Mú ìpèsè ooru rẹ àti ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 3 ọ̀kọ̀ọ̀kan."
+ },
+ "Big Asteroid": {
+  "name": "Asteroid Ńlá",
+  "desc": "Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 2 kí o sì gba titanium 4. Yọ tó ewéko 4 kúrò lọ́wọ́ olùṣeré èyíkéyìí."
+ },
+ "Biomass Combustors": {
+  "name": "Àwọn Ẹ̀rọ Ìjóná Biomass",
+  "desc": "Dín ìpèsè ewéko olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Birds": {
+  "name": "Ẹyẹ",
+  "desc": "Dín ìpèsè ewéko olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 2. Máàkì 1 fún ẹranko kọ̀ọ̀kan lórí káàdì yìí.",
+  "actions": [
+   "Fi ẹranko kan kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún ẹranko kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Eruku Dúdú Òpó",
+  "desc": "Fi táìlì òkun kan sílẹ̀. Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 2, kí o sì mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Breathing Filters": {
+  "name": "Asẹ́ Èémí"
+ },
+ "Bushes": {
+  "name": "Igbó Kékeré",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Gba ewéko 2."
+ },
+ "Capital": {
+  "name": "Olú-ìlú",
+  "desc": "Fi táìlì yìí sílẹ̀. Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 2, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 5.",
+  "vpText": [
+   "Máàkì 1 àfikún fún táìlì òkun kọ̀ọ̀kan tó wà lẹ́gbẹ̀ẹ́ táìlì ìlú yìí."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Ìṣiṣẹ́ Carbonate",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Cloud Seeding": {
+  "name": "Gbígbin Ìkùukùu",
+  "desc": "Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 1 àti ìpèsè ooru olùṣeré èyíkéyìí ní ìgbésẹ̀ 1. Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Colonizer Training Camp": {
+  "name": "Ibùdó Ìdálẹ́kọ̀ọ́ Àwọn Olùdásílẹ̀ Ìletò"
+ },
+ "Comet": {
+  "name": "Ìràwọ̀ Oníru",
+  "desc": "Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 1 kí o sì fi táìlì òkun kan sílẹ̀. Yọ tó ewéko 3 kúrò lọ́wọ́ olùṣeré èyíkéyìí."
+ },
+ "Convoy From Europa": {
+  "name": "Ọ̀wọ́ Ọkọ̀ Láti Europa",
+  "desc": "Fi táìlì òkun 1 sílẹ̀ kí o sì fa káàdì 1."
+ },
+ "Cupola City": {
+  "name": "Ìlú Abẹ́ Àjà Ìdorí",
+  "desc": "Fi táìlì ìlú kan sílẹ̀. Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Decomposers": {
+  "name": "Àwọn Olùjẹrà",
+  "effects": [
+   "Nígbà tí o bá gbé àmì ẹranko, ewéko, tàbí kòkòrò àìrí kalẹ̀, pẹ̀lú èyí, fi kòkòrò àìrí kan kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún kòkòrò àìrí 3 kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Ìmóoru Kànga Jíjìn",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 1."
+ },
+ "Deimos Down": {
+  "name": "Ìṣubú Deimos",
+  "desc": "Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 3 kí o sì gba irin 4. Yọ tó ewéko 8 kúrò lọ́wọ́ olùṣeré èyíkéyìí."
+ },
+ "Designed Microorganisms": {
+  "name": "Àwọn Kòkòrò Àìrí Tí A Ṣètò",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Domed Crater": {
+  "name": "Kòtò Aláàjà Ìdorí",
+  "desc": "Gba ewéko 3. Fi táìlì ìlú kan sílẹ̀. Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Dust Seals": {
+  "name": "Ìdènà Eruku"
+ },
+ "Ecological Zone": {
+  "name": "Agbègbè Àyíká",
+  "desc": "Fi táìlì yìí sílẹ̀ lẹ́gbẹ̀ẹ́ igbó ÈYÍKÉYÌÍ.",
+  "effects": [
+   "Nígbà tí o bá gbé àmì ẹranko tàbí ewéko kalẹ̀, PẸ̀LÚ ÀWỌN WỌ̀NYÍ, fi ẹranko kan kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún ẹranko 2 kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Ìfipamọ́ Agbára",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún táìlì ìlú kọ̀ọ̀kan nínú eré."
+ },
+ "Eos Chasma National Park": {
+  "name": "Ọgbà Ìgbafẹ́ Orílẹ̀-èdè Eos Chasma",
+  "desc": "Fi ẹranko 1 kún KÁÀDÌ ẸRANKO ÈYÍKÉYÌÍ. Gba ewéko 3. Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Ẹ̀rọ Òòfà Ìbú-ayé",
+  "actions": [
+   "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1 láti gbé Ìpele Terraform rẹ sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Olú Òtútù Líle",
+  "actions": [
+   "Gba ewéko 1.",
+   "Fi kòkòrò àìrí 2 kún káàdì MÌÍRÀN."
+  ]
+ },
+ "Farming": {
+  "name": "Iṣẹ́ Àgbẹ̀",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2 àti ìpèsè ewéko rẹ ní ìgbésẹ̀ 2. Gba ewéko 2."
+ },
+ "Fish": {
+  "name": "Ẹja",
+  "desc": "Dín ìpèsè ewéko olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 1.",
+  "actions": [
+   "Fi ẹranko 1 kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún ẹranko kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Flooding": {
+  "name": "Omíyalé",
+  "desc": "Fi táìlì òkun kan sílẹ̀. BÍ ÀWỌN TÁÌLÌ BÁ WÀ LẸ́GBẸ̀Ẹ́ TÁÌLÌ ÒKUN YÌÍ, O LÈ YỌ 4 M€ KÚRÒ LỌ́WỌ́ ONÍ Ọ̀KAN NÍNÚ ÀWỌN TÁÌLÌ NÁÀ."
+ },
+ "Food Factory": {
+  "name": "Ilé-iṣẹ́ Oúnjẹ",
+  "desc": "Dín ìpèsè ewéko rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 4."
+ },
+ "Fusion Power": {
+  "name": "Agbára Ìsopọ̀ Átọ́mù",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Fueled Generators": {
+  "name": "Ẹ̀rọ Amúnáwá Olóró Epo",
+  "desc": "Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Ganymede Colony": {
+  "name": "Ìletò Ganymede",
+  "desc": "Fi táìlì ìlú kan sí AGBÈGBÈ TÍ A YÀ SỌ́TỌ̀.",
+  "vpText": [
+   "Máàkì 1 fún àmì Júpítà kọ̀ọ̀kan tí o ní."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Agbára Ooru-ilẹ̀",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "GHG Factories": {
+  "name": "Àwọn Ilé-iṣẹ́ Gáàsì Amóoru",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 4."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bakitéríà Olùṣẹ̀dá Gáàsì Amóoru",
+  "actions": [
+   "Fi kòkòrò àìrí 1 kún káàdì yìí.",
+   "Yọ kòkòrò àìrí 2 kúrò láti gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroid Yìnyín Òmìrán",
+  "desc": "Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 2 kí o sì fi táìlì òkun 2 sílẹ̀. Yọ tó ewéko 6 kúrò lọ́wọ́ olùṣeré èyíkéyìí."
+ },
+ "Giant Space Mirror": {
+  "name": "Dígí Òfuurufú Òmìrán",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Grass": {
+  "name": "Koríko",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Gba ewéko 3."
+ },
+ "Great Dam": {
+  "name": "Ìsédò Ńlá",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Greenhouses": {
+  "name": "Ilé Gíláàsì Ọ̀gbìn",
+  "desc": "Gba ewéko 1 fún táìlì ìlú kọ̀ọ̀kan nínú eré."
+ },
+ "Heather": {
+  "name": "Heather",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Gba ewéko 1."
+ },
+ "Heat Trappers": {
+  "name": "Àwọn Apẹ̀yìndà Ooru",
+  "desc": "Dín ìpèsè ooru olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 2, kí o sì mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Herbivores": {
+  "name": "Àwọn Ajẹ̀wéko",
+  "desc": "+1 ẹranko lórí káàdì yìí. -1 ìpèsè ewéko olùṣeré èyíkéyìí",
+  "effects": [
+   "Nígbà tí o bá fi táìlì igbó sílẹ̀, fi ẹranko kan kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún ẹranko 2 kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroid Yìnyín",
+  "desc": "Fi táìlì òkun 2 sílẹ̀."
+ },
+ "Ice Cap Melting": {
+  "name": "Yíyọ́ Fìlà Yìnyín",
+  "desc": "Fi táìlì òkun 1 sílẹ̀."
+ },
+ "Immigrant City": {
+  "name": "Ìlú Àwọn Àtìpó",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 2. Fi táìlì ìlú kan sílẹ̀.",
+  "effects": [
+   "Nígbà tí a bá fi táìlì ìlú kan sílẹ̀, pẹ̀lú èyí, mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Ọkọ̀ Àwọn Àtìpó",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 5.",
+  "vpText": [
+   "Máàkì 1 fún ìlú 3 kọ̀ọ̀kan nínú eré."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Gáàsì Amóoru Tí A Kó Wọlé",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 1 kí o sì gba ooru 3."
+ },
+ "Imported Hydrogen": {
+  "name": "Hydrogen Tí A Kó Wọlé",
+  "desc": "Gba ewéko 3, tàbí fi kòkòrò àìrí 3 tàbí ẹranko 2 kún káàdì MÌÍRÀN. Fi táìlì òkun kan sílẹ̀.",
+  "orTitles": [
+   "Gba ewéko 3",
+   "Fi kòkòrò àìrí 3 kún káàdì MÌÍRÀN",
+   "Fi ẹranko 2 kún káàdì MÌÍRÀN"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitrogen Tí A Kó Wọlé",
+  "desc": "Gbé TR rẹ sókè ní ìgbésẹ̀ 1 kí o sì gba ewéko 4. Fi kòkòrò àìrí 3 kún káàdì MÌÍRÀN àti ẹranko 2 kún káàdì MÌÍRÀN."
+ },
+ "Import of Advanced GHG": {
+  "name": "Kíkó Gáàsì Amóoru Ìgbàlódé Wọlé",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Industrial Microbes": {
+  "name": "Àwọn Kòkòrò Àìrí Ilé-iṣẹ́",
+  "desc": "Mú ìpèsè agbára rẹ àti ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 1 ọ̀kọ̀ọ̀kan."
+ },
+ "Insects": {
+  "name": "Kòkòrò",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún àmì ewéko kọ̀ọ̀kan tí o ní."
+ },
+ "Insulation": {
+  "name": "Ìdábòbò Ooru",
+  "desc": "Dín ìpèsè ooru rẹ kù ní iye ìgbésẹ̀ èyíkéyìí, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní iye ìgbésẹ̀ kan náà."
+ },
+ "Ironworks": {
+  "name": "Ilé Alágbẹ̀dẹ Irin",
+  "actions": [
+   "Ná agbára 4 láti gba irin 1 kí o sì gbé ọ́síjìn sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Oko Ewé Òkun",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2 àti ìpèsè ewéko rẹ ní ìgbésẹ̀ 3. Gba ewéko 2."
+ },
+ "Lake Marineris": {
+  "name": "Adágún Marineris",
+  "desc": "Fi táìlì òkun 2 sílẹ̀."
+ },
+ "Large Convoy": {
+  "name": "Ọ̀wọ́ Ọkọ̀ Ńlá",
+  "desc": "Fi táìlì òkun kan sílẹ̀ kí o sì fa káàdì 2. Gba ewéko 5 tàbí fi ẹranko 4 kún káàdì MÌÍRÀN.",
+  "orTitles": [
+   "Gba ewéko 5",
+   "Fi ẹranko 4 kún káàdì MÌÍRÀN"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Ìṣàn Láfà",
+  "desc": "Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 2 kí o sì fi táìlì yìí sí ORÍ THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS TÀBÍ ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Lichen",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Livestock": {
+  "name": "Ẹran Ọ̀sìn",
+  "desc": "Dín ìpèsè ewéko rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2",
+  "actions": [
+   "Fi ẹranko 1 kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún ẹranko kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Ìdẹkùn Ooru Àdúgbò",
+  "desc": "Ná ooru 5 láti gba ewéko 4, tàbí láti fi ẹranko 2 kún káàdì MÌÍRÀN.",
+  "orTitles": [
+   "Gba ewéko 4",
+   "Fi ẹranko 2 kún káàdì MÌÍRÀN"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Ìtànṣán Òṣùpá",
+  "desc": "Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 2, kí o sì mú ìpèsè ooru rẹ àti ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 2 ọ̀kọ̀ọ̀kan."
+ },
+ "Magnetic Field Dome": {
+  "name": "Àjà Ìdorí Pápá Òòfà",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 2, kí o sì mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Gbé TR rẹ sókè ní ìgbésẹ̀ 1."
+ },
+ "Magnetic Field Generators": {
+  "name": "Àwọn Ẹ̀rọ Pápá Òòfà",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 4, kí o sì mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Gbé TR rẹ sókè ní ìgbésẹ̀ 3."
+ },
+ "Mangrove": {
+  "name": "Igi Ẹ̀gbẹ́ Òkun",
+  "desc": "Fi táìlì igbó kan sí AGBÈGBÈ TÍ A YÀ SỌ́TỌ̀ FÚN ÒKUN kí o sì gbé ọ́síjìn sókè ní ìgbésẹ̀ 1. Má ka àwọn òfin fífisílẹ̀ déédé sí fún èyí."
+ },
+ "Martian Rails": {
+  "name": "Ojú-irin Mars",
+  "actions": [
+   "Ná agbára 1 láti gba 1 M€ fún táìlì ìlú kọ̀ọ̀kan LÓRÍ MARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Methane Láti Titan",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 2 àti ìpèsè ewéko rẹ ní ìgbésẹ̀ 2."
+ },
+ "Micro-Mills": {
+  "name": "Ẹ̀rọ Ìlọ̀ Kékeré",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Mining Expedition": {
+  "name": "Ìrìnàjò Ìwakùsà",
+  "desc": "Gbé ọ́síjìn sókè ní ìgbésẹ̀ 1. Yọ ewéko 2 kúrò lọ́wọ́ olùṣeré èyíkéyìí. Gba irin 2."
+ },
+ "Mining Rights": {
+  "name": "Ẹ̀tọ́ Ìwakùsà",
+  "desc": "Fi táìlì yìí sí agbègbè tó ní ẹ̀bùn fífisílẹ̀ irin tàbí titanium. Mú ìpèsè náà pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Mohole Area": {
+  "name": "Agbègbè Mohole",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 4. Fi táìlì yìí sí AGBÈGBÈ TÍ A YÀ SỌ́TỌ̀ FÚN ÒKUN."
+ },
+ "Moss": {
+  "name": "Ewéko Ẹ̀yìn Àpáta",
+  "desc": "Pàdánù ewéko 1. Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Natural Preserve": {
+  "name": "Ibi Ìpamọ́ Àdáyébá",
+  "desc": "Fi táìlì yìí sílẹ̀ NÍBI TÍ KÒ SÍ TÁÌLÌ MÌÍRÀN LẸ́GBẸ̀Ẹ́. Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bakitéríà Adín Nitrite Kù",
+  "desc": "Fi kòkòrò àìrí 3 kún káàdì yìí.",
+  "actions": [
+   "Fi kòkòrò àìrí 1 kún káàdì yìí.",
+   "Yọ kòkòrò àìrí 3 kúrò láti gbé TR rẹ sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid Olóró Nitrogen",
+  "desc": "Gbé Ìpele Terraform rẹ sókè ní ìgbésẹ̀ 2 àti ìwọ̀n ooru ní ìgbésẹ̀ 1. Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1, tàbí ìgbésẹ̀ 4 bí o bá ní àmì ewéko 3."
+ },
+ "Nitrophilic Moss": {
+  "name": "Ewéko Ẹ̀yìn Àpáta Olùfẹ́ Nitrogen",
+  "desc": "Pàdánù ewéko 2. Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 3. Fi táìlì ìlú kan sí AGBÈGBÈ TÍ A YÀ SỌ́TỌ̀, láìka àwọn òfin fífisílẹ̀ déédé sí."
+ },
+ "Noctis Farming": {
+  "name": "Oko Noctis",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1 kí o sì gba ewéko 2."
+ },
+ "Nuclear Power": {
+  "name": "Agbára Núkílíà",
+  "desc": "Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 2, kí o sì mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Nuclear Zone": {
+  "name": "Agbègbè Núkílíà",
+  "desc": "Fi táìlì yìí sílẹ̀ kí o sì gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 2."
+ },
+ "Open City": {
+  "name": "Ìlú Ṣíṣí",
+  "desc": "Gba ewéko 2. Fi táìlì ìlú kan sílẹ̀. Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 4."
+ },
+ "Optimal Aerobraking": {
+  "name": "Ìdádúró Afẹ́fẹ́ Tó Dára Jù",
+  "effects": [
+   "Nígbà tí o bá gbé ìṣẹ̀lẹ̀ òfuurufú kalẹ̀, o máa gba 3 M€ àti ooru 3."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Ẹ̀rọ Ìṣiṣẹ́ Irin-tútù",
+  "actions": [
+   "Ná agbára 4 láti gba titanium 1 kí o sì gbé ọ́síjìn sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Ìwakùsà Ilẹ̀ Dídì",
+  "desc": "Fi táìlì òkun 1 sílẹ̀."
+ },
+ "Peroxide Power": {
+  "name": "Agbára Peroxide",
+  "desc": "Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Pets": {
+  "name": "Ẹran Ọ̀sìn Ilé",
+  "desc": "Fi ẹranko 1 kún káàdì yìí.",
+  "effects": [
+   "Nígbà tí a bá fi táìlì ìlú èyíkéyìí sílẹ̀, fi ẹranko kan kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún ẹranko 2 kọ̀ọ̀kan níbí."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Èbúté Òfuurufú Phobos",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 1 kí o sì fi táìlì ìlú kan sí AGBÈGBÈ TÍ A YÀ SỌ́TỌ̀."
+ },
+ "Plantation": {
+  "name": "Oko Ọ̀gbìn",
+  "desc": "Fi táìlì igbó kan sílẹ̀ kí o sì gbé ọ́síjìn sókè ní ìgbésẹ̀ 1."
+ },
+ "Power Grid": {
+  "name": "Àwọ̀n Agbára",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ kan fún àmì agbára kọ̀ọ̀kan tí o ní, pẹ̀lú èyí."
+ },
+ "Power Plant": {
+  "name": "Ilé Agbára",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Predators": {
+  "name": "Àwọn Apẹranjẹ",
+  "actions": [
+   "Yọ ẹranko 1 kúrò lórí káàdì èyíkéyìí kí o sì fi kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún ẹranko kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Àfonífojì Aláàbò",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Fi táìlì igbó kan sí AGBÈGBÈ TÍ A YÀ SỌ́TỌ̀ FÚN ÒKUN, láìka àwọn òfin fífisílẹ̀ déédé sí, kí o sì gbé ọ́síjìn sókè ní ìgbésẹ̀ 1."
+ },
+ "Rad-Chem Factory": {
+  "name": "Ilé-iṣẹ́ Kẹ́míkà Ìtànṣán",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1. Gbé TR rẹ sókè ní ìgbésẹ̀ 2."
+ },
+ "Regolith Eaters": {
+  "name": "Àwọn Ajẹ Regolith",
+  "actions": [
+   "Fi kòkòrò àìrí 1 kún káàdì yìí.",
+   "Yọ kòkòrò àìrí 2 kúrò lórí káàdì yìí láti gbé ìpele ọ́síjìn sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Ìtúsílẹ̀ Àwọn Gáàsì Aláìṣiṣẹ́",
+  "desc": "Gbé Ìpele Terraform rẹ sókè ní ìgbésẹ̀ 2."
+ },
+ "Research Outpost": {
+  "name": "Ibùdó Ìwádìí Àdádó",
+  "desc": "Fi táìlì ìlú kan sílẹ̀ NÍBI TÍ KÒ SÍ TÁÌLÌ MÌÍRÀN LẸ́GBẸ̀Ẹ́.",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì kalẹ̀, o máa san 1 M€ dín fún un."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Kíkọ́ Ọkọ̀ Rover",
+  "effects": [
+   "Nígbà tí a bá fi táìlì ìlú èyíkéyìí sílẹ̀, gba 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Wíwá Ìyè",
+  "actions": [
+   "Ná 1 M€ láti ṣí káàdì orí òkìtì fífà payá. Bí káàdì náà bá ní àmì kòkòrò àìrí, fi orísun sáyẹ́ǹsì kan kún ibí."
+  ],
+  "vpText": [
+   "Máàkì 3 bí o bá ní orísun sáyẹ́ǹsì kan tàbí jù bẹ́ẹ̀ lọ níbí."
+  ]
+ },
+ "Shuttles": {
+  "name": "Ọkọ̀ Àlọ-àbọ̀",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2.",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì òfuurufú kalẹ̀, o máa san 2 M€ dín fún un."
+  ]
+ },
+ "Small Animals": {
+  "name": "Ẹranko Kékeré",
+  "desc": "Dín ìpèsè ewéko olùṣeré èyíkéyìí kù ní ìgbésẹ̀ 1.",
+  "actions": [
+   "Fi ẹranko 1 kún káàdì yìí."
+  ],
+  "vpText": [
+   "Máàkì 1 fún ẹranko 2 kọ̀ọ̀kan lórí káàdì yìí."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Ilé-iṣẹ́ Ilẹ̀ Ọ̀gbìn",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Solar Power": {
+  "name": "Agbára Oòrùn",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Solar Wind Power": {
+  "name": "Agbára Afẹ́fẹ́ Oòrùn",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1 kí o sì gba titanium 2."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 7."
+ },
+ "Space Mirrors": {
+  "name": "Àwọn Dígí Òfuurufú",
+  "actions": [
+   "Ná 7 M€ láti mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Special Design": {
+  "name": "Àwòṣe Àkànṣe",
+  "desc": "Káàdì tó kàn tí o bá gbé kalẹ̀ ní ìran yìí ní +2 tàbí -2 ìgbésẹ̀ nínú àwọn ìbéèrè àgbáyé, bí o ṣe yàn."
+ },
+ "Steelworks": {
+  "name": "Ilé-iṣẹ́ Irin",
+  "actions": [
+   "Ná agbára 4 láti gba irin 2 kí o sì gbé ọ́síjìn sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Ìwakùsà Orí Ilẹ̀",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 2. Mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 2 àti ìpèsè titanium rẹ ní ìgbésẹ̀ 1. Gbé ọ́síjìn sókè ní ìgbésẹ̀ 2."
+ },
+ "Subterranean Reservoir": {
+  "name": "Àkámọ́ Omi Abẹ́lẹ̀",
+  "desc": "Fi táìlì òkun 1 sílẹ̀."
+ },
+ "Symbiotic Fungus": {
+  "name": "Olú Alájọṣe",
+  "actions": [
+   "Fi kòkòrò àìrí kan kún káàdì MÌÍRÀN."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Agbára Ìfúnpá Ilẹ̀",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Towing A Comet": {
+  "name": "Fífa Ìràwọ̀ Oníru",
+  "desc": "Gba ewéko 2. Gbé ìpele ọ́síjìn sókè ní ìgbésẹ̀ 1 kí o sì fi táìlì òkun kan sílẹ̀."
+ },
+ "Trees": {
+  "name": "Igi",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 3. Gba ewéko 1."
+ },
+ "Tundra Farming": {
+  "name": "Oko Tundra",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1 àti ìpèsè M€ rẹ ní ìgbésẹ̀ 2. Gba ewéko 1."
+ },
+ "Underground City": {
+  "name": "Ìlú Abẹ́lẹ̀",
+  "desc": "Fi táìlì ìlú kan sílẹ̀. Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 2, kí o sì mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+ },
+ "Underground Detonations": {
+  "name": "Ìbúgbàmù Abẹ́lẹ̀",
+  "actions": [
+   "Ná 10 M€ láti mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 2."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Agbègbè Ìlú Ńlá",
+  "desc": "Dín ìpèsè agbára rẹ kù ní ìgbésẹ̀ 1, kí o sì mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Fi táìlì ìlú kan sílẹ̀ LẸ́GBẸ̀Ẹ́ Ó KÉRÉ TÁN TÁÌLÌ ÌLÚ MÌÍRÀN 2."
+ },
+ "Water Import From Europa": {
+  "name": "Kíkó Omi Wọlé Láti Europa",
+  "actions": [
+   "San 12 M€ láti fi táìlì òkun kan sílẹ̀. A LÈ LO TITANIUM bí ẹni pé o ń gbé káàdì òfuurufú kalẹ̀."
+  ],
+  "vpText": [
+   "Máàkì 1 fún àmì Júpítà kọ̀ọ̀kan tí o ní."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Ilé-iṣẹ́ Ìpín Omi",
+  "actions": [
+   "Ná agbára 3 láti gbé ọ́síjìn sókè ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Wave Power": {
+  "name": "Agbára Ìgbì Omi",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Windmills": {
+  "name": "Ẹ̀rọ Afẹ́fẹ́",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Worms": {
+  "name": "Aràn",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún àmì kòkòrò àìrí 2 kọ̀ọ̀kan tí o ní, pẹ̀lú èyí."
+ },
+ "Zeppelins": {
+  "name": "Zeppelin",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1 fún táìlì ìlú kọ̀ọ̀kan LÓRÍ MARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú ìpèsè titanium 1 àti 42 M€.",
+  "effects": [
+   "Nígbàkigbà tí a bá mú àmì Júpítà èyíkéyìí wọ inú eré, pẹ̀lú èyí, mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 60 M€.",
+  "effects": [
+   "Nígbà tí o bá gbé àmì Ayé kalẹ̀, o máa san 3 M€ dín fún un."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú ìpèsè M€ 3 àti 44 M€.",
+  "effects": [
+   "Nígbà tí o bá gbé àmì ilé kíkọ́ kalẹ̀, o máa san 2 M€ dín fún un."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú ìpèsè titanium 1 àti 38 M€.",
+  "effects": [
+   "Nígbà tí o bá gbé àmì Ayé kalẹ̀, pẹ̀lú èyí, fa káàdì kan."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 47 M€.",
+  "actions": [
+   "Ná 4 M€ láti mú (ọ̀kan nínú) ìpèsè rẹ tó KÉRÉ JÙ pọ̀ sí i ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 37 M€. Gẹ́gẹ́ bí ìṣe àkọ́kọ́ rẹ, fa káàdì Ìṣáájú 3, kí o sì gbé ọ̀kan nínú wọn kalẹ̀. Ju méjì yòókù sílẹ̀.",
+  "effects": [
+   "Nígbà tí o bá gbé àmì sáyẹ́ǹsì kalẹ̀, o máa san 2 M€ dín fún un."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 45 M€. Gẹ́gẹ́ bí ìṣe àkọ́kọ́ rẹ, ṣe onígbọ̀wọ́ ẹ̀bùn kan lọ́fẹ̀ẹ́.",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì tó ní àmì máàkì TÍ KÌ Í ṢE ÒDÌ kalẹ̀, pẹ̀lú èyí, gba 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Ilé-iṣẹ́ Olùbẹ̀rẹ̀",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 42 M€. Dípò yíyàn nínú káàdì 10 nígbà ìmúrasílẹ̀, o máa gba káàdì 10 lọ́fẹ̀ẹ́."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 57 M€.",
+  "effects": [
+   "Lẹ́yìn tí o bá sanwó fún káàdì tàbí iṣẹ́ ìpìlẹ̀ tí iye owó ìpìlẹ̀ rẹ̀ jẹ́ 20 M€ tàbí jù bẹ́ẹ̀ lọ, o máa gba 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú ìpèsè ewéko 2, ewéko 3, àti 36 M€.",
+  "effects": [
+   "O lè san ewéko 7 nígbà gbogbo, dípò 8, láti fi igbó sílẹ̀."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú ìpèsè ooru 3 àti 42 M€.",
+  "effects": [
+   "O lè lo ooru bí M€. O kò lè lo M€ bí ooru."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú irin 20 àti 30 M€.",
+  "effects": [
+   "Nígbàkigbà tí o bá gbé ìṣẹ̀lẹ̀ kan kalẹ̀, o máa gba 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Gẹ́gẹ́ bí ìṣe àkọ́kọ́ rẹ nínú eré, fa káàdì 3. Bẹ̀rẹ̀ pẹ̀lú 45 M€.",
+  "effects": [
+   "Àwọn ìbéèrè ìwọ̀n ooru, ọ́síjìn, òkun, àti Venus rẹ jẹ́ +2 tàbí -2 ìgbésẹ̀, bí o ṣe yàn ní gbogbo ìgbà."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Ẹgbẹ́ Àwọn Awakùsà",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 30 M€, irin 5 àti ìpèsè irin 1.",
+  "effects": [
+   "Nígbàkigbà tí o bá fi táìlì sí agbègbè tó ní ẹ̀bùn fífisílẹ̀ irin tàbí titanium, mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 1"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú titanium 10 àti 23 M€.",
+  "effects": [
+   "Orísun titanium rẹ kọ̀ọ̀kan tó 1 M€ sí i."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Orílẹ̀-èdè Olómìnira Tharsis",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 40 M€. Gẹ́gẹ́ bí ìṣe àkọ́kọ́ rẹ nínú eré, fi táìlì ìlú kan sílẹ̀.",
+  "effects": [
+   "Nígbà tí a bá fi táìlì ìlú èyíkéyìí sí ORÍ MARS, mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Nígbà tí o bá fi táìlì ìlú kan sílẹ̀, gba 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú ìpèsè agbára 1 àti 48 M€.",
+  "effects": [
+   "Nígbà tí o bá gbé káàdì agbára TÀBÍ IṢẸ́ ÌPÌLẸ̀ ILÉ AGBÁRA kalẹ̀, o máa san 3 M€ dín fún un."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Ìgbésẹ̀ Mars ti Àjọ Ìṣọ̀kan Àgbáyé",
+  "desc": "O bẹ̀rẹ̀ pẹ̀lú 40 M€.",
+  "actions": [
+   "Bí a bá ti gbé Ìpele Terraform rẹ sókè ní ìran yìí, o lè san 3 M€ láti gbé e sókè sí i ní ìgbésẹ̀ 1."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Báǹkì Alájọṣe",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 4. Gba 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Àtìlẹ́yìn Àyíká Ìyè",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 1."
+ },
+ "Aquifer Turbines": {
+  "name": "Àwọn Tọ́báìnì Omi Abẹ́lẹ̀",
+  "desc": "Fi táìlì òkun kan sílẹ̀. Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 2. San 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Ìwalẹ̀ Mohole",
+  "desc": "Mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 1 àti ìpèsè ooru ní ìgbésẹ̀ 2. Gba ooru 2."
+ },
+ "Early Settlement": {
+  "name": "Ìletò Àkọ́kọ́",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Fi táìlì ìlú kan sílẹ̀."
+ },
+ "Biofuels": {
+  "name": "Epo Ẹlẹ́mìí",
+  "desc": "Mú ìpèsè agbára àti ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Gba ewéko 2."
+ },
+ "Power Generation": {
+  "name": "Ìṣẹ̀dá Agbára",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 3."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Ìletò Tó Tó Ara Rẹ̀",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Fi táìlì ìlú kan sílẹ̀."
+ },
+ "Mining Operations": {
+  "name": "Àwọn Iṣẹ́ Ìwakùsà",
+  "desc": "Mú ìpèsè irin rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Gba irin 4."
+ },
+ "UNMI Contractor": {
+  "name": "Agbaṣẹ́ṣe UNMI",
+  "desc": "Gbé TR rẹ sókè ní ìgbésẹ̀ 3. Fa káàdì kan."
+ },
+ "Dome Farming": {
+  "name": "Oko Abẹ́ Àjà Ìdorí",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 2 àti ìpèsè ewéko ní ìgbésẹ̀ 1."
+ },
+ "Business Empire": {
+  "name": "Ilẹ̀ Ọba Ìṣòwò",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 6. San 6 M€."
+ },
+ "Donation": {
+  "name": "Ẹ̀bùn Owó",
+  "desc": "Gba 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Ẹrù Nitrogen",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Gbé TR rẹ sókè ní ìgbésẹ̀ 1. Gba 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Ilé Ìyọ́ Irin",
+  "desc": "Gbé ọ́síjìn sókè ní ìgbésẹ̀ 2. Gba irin 5."
+ },
+ "Supplier": {
+  "name": "Olùpèsè",
+  "desc": "Mú ìpèsè agbára rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Gba irin 4."
+ },
+ "Supply Drop": {
+  "name": "Ìjù Ẹrù Sílẹ̀",
+  "desc": "Gba titanium 3, irin 8 àti ewéko 3."
+ },
+ "Great Aquifer": {
+  "name": "Omi Abẹ́lẹ̀ Ńlá",
+  "desc": "Fi táìlì òkun 2 sílẹ̀."
+ },
+ "Biolab": {
+  "name": "Yàrá Ìwádìí Ẹ̀dá",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Fa káàdì 3."
+ },
+ "Martian Industries": {
+  "name": "Àwọn Ilé-iṣẹ́ Mars",
+  "desc": "Mú ìpèsè agbára àti irin rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Gba 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Ibùdó Ìwádìí Io",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Fa káàdì kan."
+ },
+ "Polar Industries": {
+  "name": "Àwọn Ilé-iṣẹ́ Òpó",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 2. Fi táìlì òkun kan sílẹ̀."
+ },
+ "Society Support": {
+  "name": "Àtìlẹ́yìn Àwùjọ",
+  "desc": "Mú ìpèsè ewéko, agbára àti ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Dín ìpèsè M€ kù ní ìgbésẹ̀ 1."
+ },
+ "Galilean Mining": {
+  "name": "Ìwakùsà Òṣùpá Galileo",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 2. San 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroid Ràbàtà",
+  "desc": "Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 3. San 5 M€."
+ },
+ "Metals Company": {
+  "name": "Ilé-iṣẹ́ Irin-oríṣiríṣi",
+  "desc": "Mú ìpèsè M€, irin àti titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 1."
+ },
+ "Loan": {
+  "name": "Awin",
+  "desc": "Gba 30 M€. Dín ìpèsè M€ rẹ kù ní ìgbésẹ̀ 2."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Mú ìpèsè ooru rẹ pọ̀ sí i ní ìgbésẹ̀ 3. Gba ooru 3."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid Olóró Irin",
+  "desc": "Gbé ìwọ̀n ooru sókè ní ìgbésẹ̀ 1. Gba titanium 4 àti irin 4."
+ },
+ "Orbital Construction Yard": {
+  "name": "Àgbàlá Ìkọ́lé Ojú Òfuurufú",
+  "desc": "Mú ìpèsè titanium rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Gba titanium 4."
+ },
+ "Acquired Space Agency": {
+  "name": "Àjọ Òfuurufú Tí A Rà",
+  "desc": "Gba titanium 6. Ṣí àwọn káàdì payá títí o fi ṣí káàdì méjì tó ní àmì Òfuurufú payá. Mú wọn sí ọwọ́ rẹ, ju ìyókù sílẹ̀."
+ },
+ "Research Network": {
+  "name": "Nẹ́tíwọ́ọ̀kì Ìwádìí",
+  "desc": "Mú ìpèsè M€ rẹ pọ̀ sí i ní ìgbésẹ̀ 1. Fa káàdì 3. Lẹ́yìn tí a bá gbé e kalẹ̀, nígbà tí o bá ṣe ìṣe kan, àmì èyíkéyìí náà ka bí àmì èyíkéyìí tí o bá yàn."
+ },
+ "Eccentric Sponsor": {
+  "name": "Onígbọ̀wọ́ Aláìlẹ́gbẹ́",
+  "desc": "GBÉ KÁÀDÌ KAN KALẸ̀ LÁTI ỌWỌ́ PẸ̀LÚ Ẹ̀DÍNWÓ 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Àwọn Ògbóǹtarìgì Àyíká",
+  "desc": "Mú ìpèsè ewéko rẹ pọ̀ sí i ní ìgbésẹ̀ 1. GBÉ KÁÀDÌ KAN KALẸ̀ LÁTI ỌWỌ́, LÁÌKA ÀWỌN ÌBÉÈRÈ ÀGBÁYÉ SÍ."
+ },
+ "Experimental Forest": {
+  "name": "Igbó Àdánwò",
+  "desc": "Fi táìlì igbó 1 sílẹ̀ kí o sì gbé ọ́síjìn sókè ní ìgbésẹ̀ 1. Ṣí àwọn káàdì payá títí o fi ṣí káàdì méjì tó ní àmì ewéko payá. Mú wọn sí ọwọ́ rẹ kí o sì ju ìyókù sílẹ̀."
+ }
+}

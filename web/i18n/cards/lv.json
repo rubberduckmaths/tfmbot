@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Iegādāts uzņēmums",
+  "desc": "Palielini savu M€ ražošanu par 3 soļiem."
+ },
+ "Advanced Alloys": {
+  "name": "Uzlaboti sakausējumi",
+  "effects": [
+   "Katrs tavs titāns ir par 1 M€ vērtīgāks.",
+   "Katrs tavs tērauds ir par 1 M€ vērtīgāks."
+  ]
+ },
+ "AI Central": {
+  "name": "MI centrs",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli.",
+  "actions": [
+   "Izvelc 2 kārtis."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitācijas tehnoloģija",
+  "effects": [
+   "Kad izspēlē kārti, maksā par to 2 M€ mazāk."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroīdu ieguves konsorcijs",
+  "desc": "Samazini jebkura spēlētāja titāna ražošanu par 1 soli un palielini savējo par 1 soli."
+ },
+ "Bribed Committee": {
+  "name": "Uzpirkta komiteja",
+  "desc": "Paaugstini savu TR par 2 soļiem."
+ },
+ "Building Industries": {
+  "name": "Būvniecības nozare",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini tērauda ražošanu par 2 soļiem."
+ },
+ "Business Contacts": {
+  "name": "Biznesa kontakti",
+  "desc": "Apskati 4 augšējās kavas kārtis. 2 paņem rokā, pārējās nomet."
+ },
+ "Business Network": {
+  "name": "Biznesa tīkls",
+  "desc": "Samazini savu M€ ražošanu par 1 soli.",
+  "actions": [
+   "Apskati augšējo kārti un to nopērc vai nomet."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Kallisto katorgas raktuves",
+  "desc": "Palielini savu M€ ražošanu par 3 soļiem."
+ },
+ "Caretaker Contract": {
+  "name": "Uzraudzības līgums",
+  "actions": [
+   "Iztērē 8 siltumu, lai paaugstinātu savu teraformēšanas reitingu par 1 soli."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartelis",
+  "desc": "Palielini savu M€ ražošanu par 1 soli par katru savu Zemes birku, ieskaitot šo."
+ },
+ "CEO's Favorite Project": {
+  "name": "Izpilddirektora mīļākais projekts",
+  "desc": "Pievieno 1 resursu jebkurai savai kārtij, uz kuras jau ir vismaz 1 resurss."
+ },
+ "Commercial District": {
+  "name": "Komercrajons",
+  "desc": "Novieto šo plāksnīti. Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 4 soļiem.",
+  "vpText": [
+   "1 UP par katru blakus esošu pilsētas plāksnīti."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Korporācijas cietoksnis",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 3 soļiem. Novieto pilsētas plāksnīti."
+ },
+ "Development Center": {
+  "name": "Attīstības centrs",
+  "actions": [
+   "Iztērē 1 enerģiju, lai izvilktu kārti."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Zemes katapulta",
+  "effects": [
+   "Kad izspēlē kārti, maksā par to 2 M€ mazāk."
+  ]
+ },
+ "Earth Office": {
+  "name": "Zemes birojs",
+  "effects": [
+   "Kad izspēlē Zemes birku, maksā par to 3 M€ mazāk."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrokatapulta",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli.",
+  "actions": [
+   "Iztērē 1 augu vai 1 tēraudu, lai iegūtu 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Enerģijas nopludināšana",
+  "desc": "Samazini jebkura spēlētāja enerģijas ražošanu par 1 soli un palielini savējo par 1 soli."
+ },
+ "Fuel Factory": {
+  "name": "Degvielas rūpnīca",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini titāna un M€ ražošanu katru par 1 soli."
+ },
+ "Gene Repair": {
+  "name": "Gēnu labošana",
+  "desc": "Palielini savu M€ ražošanu par 2 soļiem."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Lielās kraujas konsorcijs",
+  "desc": "Samazini jebkura spēlētāja tērauda ražošanu par 1 soli un palielini savējo par 1 soli."
+ },
+ "Hackers": {
+  "name": "Hakeri",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un jebkura spēlētāja M€ ražošanu par 2 soļiem. Palielini savu M€ ražošanu par 2 soļiem."
+ },
+ "Hired Raiders": {
+  "name": "Algotie laupītāji",
+  "desc": "Nozodz līdz 2 tēraudiem vai 3 M€ jebkuram spēlētājam."
+ },
+ "Indentured Workers": {
+  "name": "Līgumstrādnieki",
+  "desc": "Nākamā kārts, ko šajā paaudzē izspēlē, maksā par 8 M€ mazāk."
+ },
+ "Industrial Center": {
+  "name": "Rūpniecības centrs",
+  "desc": "Novieto šo plāksnīti blakus pilsētas plāksnītei.",
+  "actions": [
+   "Iztērē 7 M€, lai palielinātu savu tērauda ražošanu par 1 soli."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Starpzvaigžņu kolonistu kuģis"
+ },
+ "Invention Contest": {
+  "name": "Izgudrojumu konkurss",
+  "desc": "Apskati 3 augšējās kavas kārtis. 1 paņem rokā, pārējās nomet."
+ },
+ "Inventors' Guild": {
+  "name": "Izgudrotāju ģilde",
+  "actions": [
+   "Apskati augšējo kārti un to nopērc vai nomet."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investīciju aizdevums",
+  "desc": "Samazini savu M€ ražošanu par 1 soli. Iegūsti 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Io ieguves rūpniecība",
+  "desc": "Palielini savu titāna ražošanu par 2 soļiem un M€ ražošanu par 2 soļiem.",
+  "vpText": [
+   "1 UP par katru savu Jupitera birku."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagranža observatorija",
+  "desc": "Izvelc 1 kārti."
+ },
+ "Land Claim": {
+  "name": "Zemes pieteikums",
+  "desc": "Rezervē sev nerezervētu laukumu: tur plāksnīti drīksti novietot tikai tu."
+ },
+ "Lightning Harvest": {
+  "name": "Zibens raža",
+  "desc": "Palielini savu enerģijas ražošanu un M€ ražošanu katru par vienu soli."
+ },
+ "Mars University": {
+  "name": "Marsa universitāte",
+  "effects": [
+   "Kad izspēlē zinātnes birku, ieskaitot šo, vari nomest kārti no rokas, lai izvilktu kārti."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Masas pārveidotājs",
+  "desc": "Palielini savu enerģijas ražošanu par 6 soļiem.",
+  "effects": [
+   "Kad izspēlē kosmosa kārti, maksā par to 2 M€ mazāk."
+  ]
+ },
+ "Media Archives": {
+  "name": "Mediju arhīvi",
+  "desc": "Iegūsti 1 M€ par katru notikumu, ko visi spēlētāji JEBKAD IZSPĒLĒJUŠI."
+ },
+ "Media Group": {
+  "name": "Mediju grupa",
+  "effects": [
+   "Pēc tam, kad izspēlē notikuma kārti, iegūsti 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Medicīnas laboratorija",
+  "desc": "Palielini savu M€ ražošanu par 1 soli par katrām 2 savām būvniecības birkām, ieskaitot šo."
+ },
+ "Mine": {
+  "name": "Raktuves",
+  "desc": "Palielini savu tērauda ražošanu par 1 soli."
+ },
+ "Mineral Deposit": {
+  "name": "Minerālu atradne",
+  "desc": "Iegūsti 5 tēraudu."
+ },
+ "Mining Area": {
+  "name": "Ieguves zona",
+  "desc": "Novieto šo plāksnīti laukumā ar tērauda vai titāna novietošanas bonusu, blakus citai savai plāksnītei. Palielini šī resursa ražošanu par 1 soli."
+ },
+ "Miranda Resort": {
+  "name": "Mirandas kūrorts",
+  "desc": "Palielini savu M€ ražošanu par 1 soli par katru savu Zemes birku."
+ },
+ "Olympus Conference": {
+  "name": "Olimpa konference",
+  "desc": "Kad izspēlē zinātnes birku, ieskaitot šo, vai nu pievieno zinātnes resursu šai kārtij, vai noņem zinātnes resursu no šīs kārts, lai izvilktu kārti."
+ },
+ "Physics Complex": {
+  "name": "Fizikas komplekss",
+  "actions": [
+   "Iztērē 6 enerģiju, lai pievienotu zinātnes resursu šai kārtij."
+  ],
+  "vpText": [
+   "2 UP par katru zinātnes resursu uz šīs kārts."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Enerģētikas infrastruktūra",
+  "actions": [
+   "Iztērē jebkādu daudzumu enerģijas un iegūsti tikpat M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Energoapgādes konsorcijs",
+  "desc": "Samazini jebkura spēlētāja enerģijas ražošanu par 1 soli un palielini savējo par 1 soli."
+ },
+ "Protected Habitats": {
+  "name": "Aizsargātas dzīvotnes",
+  "effects": [
+   "Pretinieki nedrīkst noņemt tavus augus, dzīvniekus vai mikrobus."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvantu ekstraktors",
+  "desc": "Palielini savu enerģijas ražošanu par 4 soļiem.",
+  "effects": [
+   "Kad izspēlē kosmosa kārti, maksā par to 2 M€ mazāk."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Pretradiācijas tērpi",
+  "desc": "Palielini savu M€ ražošanu par 1 soli."
+ },
+ "Research": {
+  "name": "Pētniecība",
+  "desc": "Skaitās kā 2 zinātnes kāršu izspēlēšana. Izvelc 2 kārtis."
+ },
+ "Restricted Area": {
+  "name": "Slēgtā zona",
+  "desc": "Novieto šo plāksnīti.",
+  "actions": [
+   "Iztērē 2 M€, lai izvilktu kārti."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotizēts darbaspēks",
+  "desc": "Dublē tikai vienas savas būvniecības kārts ražošanas lodziņu."
+ },
+ "Sabotage": {
+  "name": "Sabotāža",
+  "desc": "Noņem jebkuram spēlētājam līdz 3 titāniem, vai līdz 4 tēraudiem, vai līdz 7 M€."
+ },
+ "Satellites": {
+  "name": "Satelīti",
+  "desc": "Palielini savu M€ ražošanu par 1 soli par katru savu kosmosa birku, ieskaitot šo."
+ },
+ "Security Fleet": {
+  "name": "Apsardzes flote",
+  "actions": [
+   "Iztērē 1 titānu, lai pievienotu šai kārtij 1 iznīcinātāja resursu."
+  ],
+  "vpText": [
+   "1 UP par katru iznīcinātāja resursu uz šīs kārts."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Kosmiskais lifts",
+  "desc": "Palielini savu titāna ražošanu par 1 soli.",
+  "actions": [
+   "Iztērē 1 tēraudu, lai iegūtu 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Kosmosa stacija",
+  "effects": [
+   "Kad izspēlē kosmosa kārti, maksā par to 2 M€ mazāk."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsori",
+  "desc": "Palielini savu M€ ražošanu par 2 soļiem."
+ },
+ "Standard Technology": {
+  "name": "Standarta tehnoloģija",
+  "effects": [
+   "Pēc samaksas par standartprojektu, izņemot patentu pārdošanu, iegūsti 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigrādi",
+  "actions": [
+   "Pievieno 1 mikrobu šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katriem 4 mikrobiem uz šīs kārts."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Tehnoloģiju demonstrācija",
+  "desc": "Izvelc divas kārtis."
+ },
+ "Terraforming Ganymede": {
+  "name": "Ganimēda teraformēšana",
+  "desc": "Paaugstini savu TR par 1 soli par katru savu Jupitera birku, ieskaitot šo."
+ },
+ "Titanium Mine": {
+  "name": "Titāna raktuves",
+  "desc": "Palielini savu titāna ražošanu par 1 soli."
+ },
+ "Toll Station": {
+  "name": "Nodevu stacija",
+  "desc": "Palielini savu M€ ražošanu par 1 soli par katru PRETINIEKU kosmosa birku."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Aizneptūna zonde",
+  "desc": "Tālā kosmosa zonde: vērta 1 UP."
+ },
+ "Tropical Resort": {
+  "name": "Tropu kūrorts",
+  "desc": "Samazini savu siltuma ražošanu par 2 soļiem un palielini M€ ražošanu par 3 soļiem."
+ },
+ "Vesta Shipyard": {
+  "name": "Vestas kuģu būvētava",
+  "desc": "Palielini savu titāna ražošanu par 1 soli."
+ },
+ "Viral Enhancers": {
+  "name": "Vīrusu pastiprinātāji",
+  "effects": [
+   "Kad izspēlē augu, mikrobu vai dzīvnieku birku, ieskaitot šo, iegūsti 1 augu vai pievieno 1 resursu TAI KĀRTIJ."
+  ]
+ },
+ "Virus": {
+  "name": "Vīruss",
+  "desc": "Noņem līdz 2 dzīvniekiem vai 5 augiem jebkuram spēlētājam."
+ },
+ "SF Memorial": {
+  "name": "Zinātniskās fantastikas memoriāls",
+  "desc": "Izvelc 1 kārti."
+ },
+ "House Printing": {
+  "name": "Māju drukāšana",
+  "desc": "Palielini savu tērauda ražošanu par 1 soli."
+ },
+ "Space Hotels": {
+  "name": "Kosmosa viesnīcas",
+  "desc": "Palielini M€ ražošanu par 4 soļiem."
+ },
+ "Martian Survey": {
+  "name": "Marsa izpēte",
+  "desc": "Izvelc divas kārtis."
+ },
+ "Research Coordination": {
+  "name": "Pētniecības koordinācija",
+  "desc": "Pēc izspēlēšanas, kad veic darbību, džokera birka skaitās kā jebkura tevis izvēlēta birka."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lavas tuneļa apmetne",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 2 soļiem. Novieto pilsētas plāksnīti VULKĀNISKĀ LAUKUMĀ neatkarīgi no blakus esošajām pilsētām."
+ },
+ "Psychrophiles": {
+  "name": "Psihrofili",
+  "actions": [
+   "Pievieno 1 mikrobu šai kārtij."
+  ],
+  "effects": [
+   "Maksājot par augu kārti, šeit esošos mikrobus var izmantot kā 2 M€ katru."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Adaptācijas tehnoloģija",
+  "effects": [
+   "Tavas globālās prasības ir +2 vai -2 soļi, katrā gadījumā pēc tavas izvēles."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Pielāgoti ķērpji",
+  "desc": "Palielini savu augu ražošanu par 1 soli."
+ },
+ "Advanced Ecosystems": {
+  "name": "Attīstītas ekosistēmas"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aerobremzēts amonjaka asteroīds",
+  "desc": "Palielini savu siltuma ražošanu par 3 soļiem un augu ražošanu par 1 soli. Pievieno 2 mikrobus CITAI kārtij."
+ },
+ "Ants": {
+  "name": "Skudras",
+  "actions": [
+   "Noņem 1 mikrobu no jebkuras kārts, lai pievienotu 1 šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katriem 2 mikrobiem uz šīs kārts."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Pazemes ūdens sūknēšana",
+  "actions": [
+   "Iztērē 8 M€, lai novietotu 1 okeāna plāksnīti. DRĪKST IZMANTOT TĒRAUDU tā, it kā tu izspēlētu būvniecības kārti."
+  ]
+ },
+ "Algae": {
+  "name": "Aļģes",
+  "desc": "Iegūsti 1 augu un palielini savu augu ražošanu par 2 soļiem."
+ },
+ "ArchaeBacteria": {
+  "name": "Arhebaktērijas",
+  "desc": "Palielini savu augu ražošanu par 1 soli."
+ },
+ "Arctic Algae": {
+  "name": "Arktiskās aļģes",
+  "desc": "Iegūsti 1 augu.",
+  "effects": [
+   "Kad kāds novieto okeāna plāksnīti, iegūsti 2 augus."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Mākslīgais ezers",
+  "desc": "Novieto 1 okeāna plāksnīti LAUKUMĀ, KAS NAV REZERVĒTS OKEĀNAM."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Mākslīgā fotosintēze",
+  "desc": "Palielini savu augu ražošanu par 1 soli vai enerģijas ražošanu par 2 soļiem.",
+  "orTitles": [
+   "Palielini savu enerģijas ražošanu par 2 soļiem",
+   "Palielini savu augu ražošanu par 1 soli"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroīds",
+  "desc": "Paaugstini temperatūru par 1 soli un iegūsti 2 titānu. Noņem līdz 3 augiem jebkuram spēlētājam."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroīdu ieguve",
+  "desc": "Palielini savu titāna ražošanu par 2 soļiem."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Stars no torija asteroīda",
+  "desc": "Palielini savu siltuma un enerģijas ražošanu katru par 3 soļiem."
+ },
+ "Big Asteroid": {
+  "name": "Liels asteroīds",
+  "desc": "Paaugstini temperatūru par 2 soļiem un iegūsti 4 titānu. Noņem līdz 4 augiem jebkuram spēlētājam."
+ },
+ "Biomass Combustors": {
+  "name": "Biomasas sadedzinātāji",
+  "desc": "Samazini jebkura spēlētāja augu ražošanu par 1 soli un palielini savu enerģijas ražošanu par 2 soļiem."
+ },
+ "Birds": {
+  "name": "Putni",
+  "desc": "Samazini jebkura spēlētāja augu ražošanu par 2 soļiem. 1 UP par katru dzīvnieku uz šīs kārts.",
+  "actions": [
+   "Pievieno dzīvnieku šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katru dzīvnieku uz šīs kārts."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Melnie polārie putekļi",
+  "desc": "Novieto okeāna plāksnīti. Samazini savu M€ ražošanu par 2 soļiem un palielini siltuma ražošanu par 3 soļiem."
+ },
+ "Breathing Filters": {
+  "name": "Elpošanas filtri"
+ },
+ "Bushes": {
+  "name": "Krūmi",
+  "desc": "Palielini savu augu ražošanu par 2 soļiem. Iegūsti 2 augus."
+ },
+ "Capital": {
+  "name": "Galvaspilsēta",
+  "desc": "Novieto šo plāksnīti. Samazini savu enerģijas ražošanu par 2 soļiem un palielini M€ ražošanu par 5 soļiem.",
+  "vpText": [
+   "1 papildu UP par katru okeāna plāksnīti blakus šai pilsētas plāksnītei."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonātu pārstrāde",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini siltuma ražošanu par 3 soļiem."
+ },
+ "Cloud Seeding": {
+  "name": "Mākoņu sēšana",
+  "desc": "Samazini savu M€ ražošanu par 1 soli un jebkura spēlētāja siltuma ražošanu par 1 soli. Palielini savu augu ražošanu par 2 soļiem."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kolonistu apmācības nometne"
+ },
+ "Comet": {
+  "name": "Komēta",
+  "desc": "Paaugstini temperatūru par 1 soli un novieto okeāna plāksnīti. Noņem līdz 3 augiem jebkuram spēlētājam."
+ },
+ "Convoy From Europa": {
+  "name": "Konvojs no Eiropas",
+  "desc": "Novieto 1 okeāna plāksnīti un izvelc 1 kārti."
+ },
+ "Cupola City": {
+  "name": "Kupola pilsēta",
+  "desc": "Novieto pilsētas plāksnīti. Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 3 soļiem."
+ },
+ "Decomposers": {
+  "name": "Sadalītāji",
+  "effects": [
+   "Kad izspēlē dzīvnieku, augu vai mikrobu birku, ieskaitot šo, pievieno mikrobu šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katriem 3 mikrobiem uz šīs kārts."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Dziļurbumu apsilde",
+  "desc": "Palielini savu enerģijas ražošanu par 1 soli. Paaugstini temperatūru par 1 soli."
+ },
+ "Deimos Down": {
+  "name": "Deimosa kritiens",
+  "desc": "Paaugstini temperatūru par 3 soļiem un iegūsti 4 tēraudu. Noņem līdz 8 augiem jebkuram spēlētājam."
+ },
+ "Designed Microorganisms": {
+  "name": "Projektēti mikroorganismi",
+  "desc": "Palielini savu augu ražošanu par 2 soļiem."
+ },
+ "Domed Crater": {
+  "name": "Kupolveida krāteris",
+  "desc": "Iegūsti 3 augus. Novieto pilsētas plāksnīti. Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 3 soļiem."
+ },
+ "Dust Seals": {
+  "name": "Putekļu blīves"
+ },
+ "Ecological Zone": {
+  "name": "Ekoloģiskā zona",
+  "desc": "Novieto šo plāksnīti blakus JEBKURAI zaļajai zonai.",
+  "effects": [
+   "Kad izspēlē dzīvnieku vai augu birku, IESKAITOT ŠĪS, pievieno dzīvnieku šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katriem 2 dzīvniekiem uz šīs kārts."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Enerģijas taupīšana",
+  "desc": "Palielini savu enerģijas ražošanu par 1 soli par katru spēlē esošu pilsētas plāksnīti."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos Chasma nacionālais parks",
+  "desc": "Pievieno 1 dzīvnieku JEBKURAI DZĪVNIEKU KĀRTIJ. Iegūsti 3 augus. Palielini savu M€ ražošanu par 2 soļiem."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Ekvatoriālais magnetizators",
+  "actions": [
+   "Samazini savu enerģijas ražošanu par 1 soli, lai paaugstinātu savu teraformēšanas reitingu par 1 soli."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Ekstrēma aukstuma sēne",
+  "actions": [
+   "Iegūsti 1 augu.",
+   "Pievieno 2 mikrobus CITAI kārtij."
+  ]
+ },
+ "Farming": {
+  "name": "Lauksaimniecība",
+  "desc": "Palielini savu M€ ražošanu par 2 soļiem un augu ražošanu par 2 soļiem. Iegūsti 2 augus."
+ },
+ "Fish": {
+  "name": "Zivis",
+  "desc": "Samazini jebkura spēlētāja augu ražošanu par 1 soli.",
+  "actions": [
+   "Pievieno 1 dzīvnieku šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katru dzīvnieku uz šīs kārts."
+  ]
+ },
+ "Flooding": {
+  "name": "Plūdi",
+  "desc": "Novieto okeāna plāksnīti. JA BLAKUS ŠAI OKEĀNA PLĀKSNĪTEI IR PLĀKSNĪTES, VARI ATŅEMT 4 M€ VIENAS NO TĀM ĪPAŠNIEKAM."
+ },
+ "Food Factory": {
+  "name": "Pārtikas fabrika",
+  "desc": "Samazini savu augu ražošanu par 1 soli un palielini M€ ražošanu par 4 soļiem."
+ },
+ "Fusion Power": {
+  "name": "Kodolsintēzes enerģija",
+  "desc": "Palielini savu enerģijas ražošanu par 3 soļiem."
+ },
+ "Fueled Generators": {
+  "name": "Degvielas ģeneratori",
+  "desc": "Samazini savu M€ ražošanu par 1 soli un palielini enerģijas ražošanu par 1 soli."
+ },
+ "Ganymede Colony": {
+  "name": "Ganimēda kolonija",
+  "desc": "Novieto pilsētas plāksnīti REZERVĒTAJĀ LAUKUMĀ.",
+  "vpText": [
+   "1 UP par katru savu Jupitera birku."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Ģeotermālā enerģija",
+  "desc": "Palielini savu enerģijas ražošanu par 2 soļiem."
+ },
+ "GHG Factories": {
+  "name": "SEG rūpnīcas",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini siltuma ražošanu par 4 soļiem."
+ },
+ "GHG Producing Bacteria": {
+  "name": "SEG ražojošas baktērijas",
+  "actions": [
+   "Pievieno 1 mikrobu šai kārtij.",
+   "Noņem 2 mikrobus, lai paaugstinātu temperatūru par 1 soli."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Milzu ledus asteroīds",
+  "desc": "Paaugstini temperatūru par 2 soļiem un novieto 2 okeāna plāksnītes. Noņem līdz 6 augiem jebkuram spēlētājam."
+ },
+ "Giant Space Mirror": {
+  "name": "Milzu kosmiskais spogulis",
+  "desc": "Palielini savu enerģijas ražošanu par 3 soļiem."
+ },
+ "Grass": {
+  "name": "Zāle",
+  "desc": "Palielini savu augu ražošanu par 1 soli. Iegūsti 3 augus."
+ },
+ "Great Dam": {
+  "name": "Lielais dambis",
+  "desc": "Palielini savu enerģijas ražošanu par 2 soļiem."
+ },
+ "Greenhouses": {
+  "name": "Siltumnīcas",
+  "desc": "Iegūsti 1 augu par katru spēlē esošu pilsētas plāksnīti."
+ },
+ "Heather": {
+  "name": "Virši",
+  "desc": "Palielini savu augu ražošanu par 1 soli. Iegūsti 1 augu."
+ },
+ "Heat Trappers": {
+  "name": "Siltuma slazdi",
+  "desc": "Samazini jebkura spēlētāja siltuma ražošanu par 2 soļiem un palielini savu enerģijas ražošanu par 1 soli."
+ },
+ "Herbivores": {
+  "name": "Zālēdāji",
+  "desc": "+1 dzīvnieks šai kārtij. -1 jebkura spēlētāja augu ražošana",
+  "effects": [
+   "Kad novieto zaļās zonas plāksnīti, pievieno dzīvnieku šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katriem 2 dzīvniekiem uz šīs kārts."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Ledus asteroīds",
+  "desc": "Novieto 2 okeāna plāksnītes."
+ },
+ "Ice Cap Melting": {
+  "name": "Ledus cepures kušana",
+  "desc": "Novieto 1 okeāna plāksnīti."
+ },
+ "Immigrant City": {
+  "name": "Imigrantu pilsēta",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un M€ ražošanu par 2 soļiem. Novieto pilsētas plāksnīti.",
+  "effects": [
+   "Kad tiek novietota pilsētas plāksnīte, ieskaitot šo, palielini savu M€ ražošanu par 1 soli."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Imigrācijas šatli",
+  "desc": "Palielini savu M€ ražošanu par 5 soļiem.",
+  "vpText": [
+   "1 UP par katru 3. spēlē esošo pilsētu."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Importētas SEG",
+  "desc": "Palielini savu siltuma ražošanu par 1 soli un iegūsti 3 siltumu."
+ },
+ "Imported Hydrogen": {
+  "name": "Importēts ūdeņradis",
+  "desc": "Iegūsti 3 augus vai pievieno 3 mikrobus vai 2 dzīvniekus CITAI kārtij. Novieto okeāna plāksnīti.",
+  "orTitles": [
+   "Iegūsti 3 augus",
+   "Pievieno 3 mikrobus CITAI kārtij",
+   "Pievieno 2 dzīvniekus CITAI kārtij"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Importēts slāpeklis",
+  "desc": "Paaugstini savu TR par 1 soli un iegūsti 4 augus. Pievieno 3 mikrobus CITAI kārtij un 2 dzīvniekus CITAI kārtij."
+ },
+ "Import of Advanced GHG": {
+  "name": "Uzlabotu SEG imports",
+  "desc": "Palielini savu siltuma ražošanu par 2 soļiem."
+ },
+ "Industrial Microbes": {
+  "name": "Rūpnieciskie mikrobi",
+  "desc": "Palielini savu enerģijas un tērauda ražošanu katru par 1 soli."
+ },
+ "Insects": {
+  "name": "Kukaiņi",
+  "desc": "Palielini savu augu ražošanu par 1 soli par katru savu augu birku."
+ },
+ "Insulation": {
+  "name": "Izolācija",
+  "desc": "Samazini savu siltuma ražošanu par jebkādu soļu skaitu un palielini M€ ražošanu par tikpat soļiem."
+ },
+ "Ironworks": {
+  "name": "Dzelzs lietuve",
+  "actions": [
+   "Iztērē 4 enerģiju, lai iegūtu 1 tēraudu un paaugstinātu skābekli par 1 soli."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Brūnaļģu audzēšana",
+  "desc": "Palielini savu M€ ražošanu par 2 soļiem un augu ražošanu par 3 soļiem. Iegūsti 2 augus."
+ },
+ "Lake Marineris": {
+  "name": "Marinera ezers",
+  "desc": "Novieto 2 okeāna plāksnītes."
+ },
+ "Large Convoy": {
+  "name": "Liels konvojs",
+  "desc": "Novieto okeāna plāksnīti un izvelc 2 kārtis. Iegūsti 5 augus vai pievieno 4 dzīvniekus CITAI kārtij.",
+  "orTitles": [
+   "Iegūsti 5 augus",
+   "Pievieno 4 dzīvniekus CITAI kārtij"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lavas plūsmas",
+  "desc": "Paaugstini temperatūru par 2 soļiem un novieto šo plāksnīti VAI NU UZ THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS, VAI ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Ķērpji",
+  "desc": "Palielini savu augu ražošanu par 1 soli."
+ },
+ "Livestock": {
+  "name": "Mājlopi",
+  "desc": "Samazini savu augu ražošanu par 1 soli un palielini M€ ražošanu par 2 soļiem",
+  "actions": [
+   "Pievieno 1 dzīvnieku šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katru dzīvnieku uz šīs kārts."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Vietēja siltuma aizturēšana",
+  "desc": "Iztērē 5 siltumu, lai iegūtu 4 augus vai pievienotu 2 dzīvniekus CITAI kārtij.",
+  "orTitles": [
+   "Iegūsti 4 augus",
+   "Pievieno 2 dzīvniekus CITAI kārtij"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Mēness stars",
+  "desc": "Samazini savu M€ ražošanu par 2 soļiem un palielini siltuma un enerģijas ražošanu katru par 2 soļiem."
+ },
+ "Magnetic Field Dome": {
+  "name": "Magnētiskā lauka kupols",
+  "desc": "Samazini savu enerģijas ražošanu par 2 soļiem un palielini augu ražošanu par 1 soli. Paaugstini savu TR par 1 soli."
+ },
+ "Magnetic Field Generators": {
+  "name": "Magnētiskā lauka ģeneratori",
+  "desc": "Samazini savu enerģijas ražošanu par 4 soļiem un palielini augu ražošanu par 2 soļiem. Paaugstini savu TR par 3 soļiem."
+ },
+ "Mangrove": {
+  "name": "Mangrovju audze",
+  "desc": "Novieto zaļās zonas plāksnīti LAUKUMĀ, KAS REZERVĒTS OKEĀNAM, un paaugstini skābekli par 1 soli. Šim nolūkam neņem vērā parastos novietošanas ierobežojumus."
+ },
+ "Martian Rails": {
+  "name": "Marsa dzelzceļš",
+  "actions": [
+   "Iztērē 1 enerģiju, lai iegūtu 1 M€ par katru pilsētas plāksnīti UZ MARSA."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metāns no Titāna",
+  "desc": "Palielini savu siltuma ražošanu par 2 soļiem un augu ražošanu par 2 soļiem."
+ },
+ "Micro-Mills": {
+  "name": "Mikrodzirnavas",
+  "desc": "Palielini savu siltuma ražošanu par 1 soli."
+ },
+ "Mining Expedition": {
+  "name": "Ieguves ekspedīcija",
+  "desc": "Paaugstini skābekli par 1 soli. Noņem 2 augus jebkuram spēlētājam. Iegūsti 2 tēraudu."
+ },
+ "Mining Rights": {
+  "name": "Ieguves tiesības",
+  "desc": "Novieto šo plāksnīti laukumā ar tērauda vai titāna novietošanas bonusu. Palielini šo ražošanu par 1 soli."
+ },
+ "Mohole Area": {
+  "name": "Moholes zona",
+  "desc": "Palielini savu siltuma ražošanu par 4 soļiem. Novieto šo plāksnīti LAUKUMĀ, KAS REZERVĒTS OKEĀNAM."
+ },
+ "Moss": {
+  "name": "Sūnas",
+  "desc": "Zaudē 1 augu. Palielini savu augu ražošanu par 1 soli."
+ },
+ "Natural Preserve": {
+  "name": "Dabas liegums",
+  "desc": "Novieto šo plāksnīti TĀ, LAI TĀ NEBŪTU BLAKUS NEVIENAI CITAI PLĀKSNĪTEI. Palielini savu M€ ražošanu par 1 soli."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitrītus reducējošas baktērijas",
+  "desc": "Pievieno 3 mikrobus šai kārtij.",
+  "actions": [
+   "Pievieno 1 mikrobu šai kārtij.",
+   "Noņem 3 mikrobus, lai paaugstinātu savu TR par 1 soli."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Slāpekli bagāts asteroīds",
+  "desc": "Paaugstini savu teraformēšanas reitingu par 2 soļiem un temperatūru par 1 soli. Palielini savu augu ražošanu par 1 soli vai par 4 soļiem, ja tev ir 3 augu birkas."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofilās sūnas",
+  "desc": "Zaudē 2 augus. Palielini savu augu ražošanu par 2 soļiem."
+ },
+ "Noctis City": {
+  "name": "Noktisa pilsēta",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 3 soļiem. Novieto pilsētas plāksnīti REZERVĒTAJĀ LAUKUMĀ, neņemot vērā parastos novietošanas ierobežojumus."
+ },
+ "Noctis Farming": {
+  "name": "Noktisa lauksaimniecība",
+  "desc": "Palielini savu M€ ražošanu par 1 soli un iegūsti 2 augus."
+ },
+ "Nuclear Power": {
+  "name": "Kodolenerģija",
+  "desc": "Samazini savu M€ ražošanu par 2 soļiem un palielini enerģijas ražošanu par 3 soļiem."
+ },
+ "Nuclear Zone": {
+  "name": "Kodolzona",
+  "desc": "Novieto šo plāksnīti un paaugstini temperatūru par 2 soļiem."
+ },
+ "Open City": {
+  "name": "Atvērtā pilsēta",
+  "desc": "Iegūsti 2 augus. Novieto pilsētas plāksnīti. Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 4 soļiem."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimāla aerobremzēšana",
+  "effects": [
+   "Kad izspēlē kosmosa notikumu, iegūsti 3 M€ un 3 siltumu."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Rūdas pārstrāde",
+  "actions": [
+   "Iztērē 4 enerģiju, lai iegūtu 1 titānu un paaugstinātu skābekli par 1 soli."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Mūžīgā sasaluma ieguve",
+  "desc": "Novieto 1 okeāna plāksnīti."
+ },
+ "Peroxide Power": {
+  "name": "Peroksīda enerģija",
+  "desc": "Samazini savu M€ ražošanu par 1 soli un palielini enerģijas ražošanu par 2 soļiem."
+ },
+ "Pets": {
+  "name": "Mājdzīvnieki",
+  "desc": "Pievieno 1 dzīvnieku šai kārtij.",
+  "effects": [
+   "Kad tiek novietota jebkura pilsētas plāksnīte, pievieno dzīvnieku šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katriem 2 dzīvniekiem šeit."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Fobosa kosmosa osta",
+  "desc": "Palielini savu titāna ražošanu par 1 soli un novieto pilsētas plāksnīti REZERVĒTAJĀ LAUKUMĀ."
+ },
+ "Plantation": {
+  "name": "Plantācija",
+  "desc": "Novieto zaļās zonas plāksnīti un paaugstini skābekli par 1 soli."
+ },
+ "Power Grid": {
+  "name": "Elektrotīkls",
+  "desc": "Palielini savu enerģijas ražošanu par soli par katru savu enerģijas birku, ieskaitot šo."
+ },
+ "Power Plant": {
+  "name": "Elektrostacija",
+  "desc": "Palielini savu enerģijas ražošanu par 1 soli."
+ },
+ "Predators": {
+  "name": "Plēsēji",
+  "actions": [
+   "Noņem 1 dzīvnieku no jebkuras kārts un pievieno to šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katru dzīvnieku uz šīs kārts."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Aizsargātā ieleja",
+  "desc": "Palielini savu M€ ražošanu par 2 soļiem. Novieto zaļās zonas plāksnīti LAUKUMĀ, KAS REZERVĒTS OKEĀNAM, neņemot vērā parastos novietošanas ierobežojumus, un paaugstini skābekli par 1 soli."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radioķīmijas rūpnīca",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli. Paaugstini savu TR par 2 soļiem."
+ },
+ "Regolith Eaters": {
+  "name": "Regolīta ēdāji",
+  "actions": [
+   "Pievieno 1 mikrobu šai kārtij.",
+   "Noņem 2 mikrobus no šīs kārts, lai paaugstinātu skābekļa līmeni par 1 soli."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Inerto gāzu izlaišana",
+  "desc": "Paaugstini savu teraformēšanas reitingu par 2 soļiem."
+ },
+ "Research Outpost": {
+  "name": "Pētniecības postenis",
+  "desc": "Novieto pilsētas plāksnīti TĀ, LAI TĀ NEBŪTU BLAKUS NEVIENAI CITAI PLĀKSNĪTEI.",
+  "effects": [
+   "Kad izspēlē kārti, maksā par to 1 M€ mazāk."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Marsa braucēju būve",
+  "effects": [
+   "Kad tiek novietota jebkura pilsētas plāksnīte, iegūsti 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Dzīvības meklējumi",
+  "actions": [
+   "Iztērē 1 M€, lai atklātu kavas augšējo kārti. Ja tai ir mikrobu birka, pievieno šeit zinātnes resursu."
+  ],
+  "vpText": [
+   "3 UP, ja tev šeit ir viens vai vairāki zinātnes resursi."
+  ]
+ },
+ "Shuttles": {
+  "name": "Šatli",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 2 soļiem.",
+  "effects": [
+   "Kad izspēlē kosmosa kārti, maksā par to 2 M€ mazāk."
+  ]
+ },
+ "Small Animals": {
+  "name": "Sīkie dzīvnieki",
+  "desc": "Samazini jebkura spēlētāja augu ražošanu par 1 soli.",
+  "actions": [
+   "Pievieno 1 dzīvnieku šai kārtij."
+  ],
+  "vpText": [
+   "1 UP par katriem 2 dzīvniekiem uz šīs kārts."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Augsnes rūpnīca",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini augu ražošanu par 1 soli."
+ },
+ "Solar Power": {
+  "name": "Saules enerģija",
+  "desc": "Palielini savu enerģijas ražošanu par 1 soli."
+ },
+ "Solar Wind Power": {
+  "name": "Saules vēja enerģija",
+  "desc": "Palielini savu enerģijas ražošanu par 1 soli un iegūsti 2 titānu."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Palielini savu siltuma ražošanu par 7 soļiem."
+ },
+ "Space Mirrors": {
+  "name": "Kosmiskie spoguļi",
+  "actions": [
+   "Iztērē 7 M€, lai palielinātu savu enerģijas ražošanu par 1 soli."
+  ]
+ },
+ "Special Design": {
+  "name": "Īpašs dizains",
+  "desc": "Nākamajai kārtij, ko šajā paaudzē izspēlē, globālās prasības ir +2 vai -2 soļi pēc tavas izvēles."
+ },
+ "Steelworks": {
+  "name": "Tērauda lietuve",
+  "actions": [
+   "Iztērē 4 enerģiju, lai iegūtu 2 tēraudu un paaugstinātu skābekli par 1 soli."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Atklātās raktuves",
+  "desc": "Samazini savu enerģijas ražošanu par 2 soļiem. Palielini tērauda ražošanu par 2 soļiem un titāna ražošanu par 1 soli. Paaugstini skābekli par 2 soļiem."
+ },
+ "Subterranean Reservoir": {
+  "name": "Pazemes rezervuārs",
+  "desc": "Novieto 1 okeāna plāksnīti."
+ },
+ "Symbiotic Fungus": {
+  "name": "Simbiotiskā sēne",
+  "actions": [
+   "Pievieno mikrobu CITAI kārtij."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektoniskā sprieguma enerģija",
+  "desc": "Palielini savu enerģijas ražošanu par 3 soļiem."
+ },
+ "Towing A Comet": {
+  "name": "Komētas vilkšana",
+  "desc": "Iegūsti 2 augus. Paaugstini skābekļa līmeni par 1 soli un novieto okeāna plāksnīti."
+ },
+ "Trees": {
+  "name": "Koki",
+  "desc": "Palielini savu augu ražošanu par 3 soļiem. Iegūsti 1 augu."
+ },
+ "Tundra Farming": {
+  "name": "Tundras lauksaimniecība",
+  "desc": "Palielini savu augu ražošanu par 1 soli un M€ ražošanu par 2 soļiem. Iegūsti 1 augu."
+ },
+ "Underground City": {
+  "name": "Pazemes pilsēta",
+  "desc": "Novieto pilsētas plāksnīti. Samazini savu enerģijas ražošanu par 2 soļiem un palielini tērauda ražošanu par 2 soļiem."
+ },
+ "Underground Detonations": {
+  "name": "Pazemes spridzināšana",
+  "actions": [
+   "Iztērē 10 M€, lai palielinātu savu siltuma ražošanu par 2 soļiem."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanizēta teritorija",
+  "desc": "Samazini savu enerģijas ražošanu par 1 soli un palielini M€ ražošanu par 2 soļiem. Novieto pilsētas plāksnīti BLAKUS VISMAZ 2 CITĀM PILSĒTAS PLĀKSNĪTĒM."
+ },
+ "Water Import From Europa": {
+  "name": "Ūdens imports no Eiropas",
+  "actions": [
+   "Samaksā 12 M€, lai novietotu okeāna plāksnīti. DRĪKST IZMANTOT TITĀNU tā, it kā tu izspēlētu kosmosa kārti."
+  ],
+  "vpText": [
+   "1 UP par katru savu Jupitera birku."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Ūdens šķelšanas iekārta",
+  "actions": [
+   "Iztērē 3 enerģiju, lai paaugstinātu skābekli par 1 soli."
+  ]
+ },
+ "Wave Power": {
+  "name": "Viļņu enerģija",
+  "desc": "Palielini savu enerģijas ražošanu par 1 soli."
+ },
+ "Windmills": {
+  "name": "Vējdzirnavas",
+  "desc": "Palielini savu enerģijas ražošanu par 1 soli."
+ },
+ "Worms": {
+  "name": "Tārpi",
+  "desc": "Palielini savu augu ražošanu par 1 soli par katrām 2 savām mikrobu birkām, ieskaitot šo."
+ },
+ "Zeppelins": {
+  "name": "Cepelīni",
+  "desc": "Palielini savu M€ ražošanu par 1 soli par katru pilsētas plāksnīti UZ MARSA."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Tu sāc ar 1 titāna ražošanu un 42 M€.",
+  "effects": [
+   "Katru reizi, kad spēlē nonāk jebkura Jupitera birka, ieskaitot šo, palielini savu M€ ražošanu par 1 soli."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Tu sāc ar 60 M€.",
+  "effects": [
+   "Kad izspēlē Zemes birku, maksā par to 3 M€ mazāk."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Tu sāc ar 3 M€ ražošanu un 44 M€.",
+  "effects": [
+   "Kad izspēlē būvniecības birku, maksā par to 2 M€ mazāk."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Tu sāc ar 1 titāna ražošanu un 38 M€.",
+  "effects": [
+   "Kad izspēlē Zemes birku, ieskaitot šo, izvelc kārti."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Tu sāc ar 47 M€.",
+  "actions": [
+   "Iztērē 4 M€, lai palielinātu (vienu no) savām ZEMĀKAJĀM ražošanām par 1 soli."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Tu sāc ar 37 M€. Kā pirmo darbību izvelc 3 prelūdiju kārtis un izspēlē vienu no tām. Pārējās divas nomet.",
+  "effects": [
+   "Kad izspēlē zinātnes birku, maksā par to 2 M€ mazāk."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Tu sāc ar 45 M€. Kā pirmo darbību finansē balvu bez maksas.",
+  "effects": [
+   "Kad izspēlē kārti ar NENEGATĪVU UP simbolu, ieskaitot šo, iegūsti 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Iesācēju korporācija",
+  "desc": "Tu sāc ar 42 M€. Tā vietā, lai sagatavošanā izvēlētos no 10 kārtīm, tu saņem 10 kārtis bez maksas."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Tu sāc ar 57 M€.",
+  "effects": [
+   "Pēc samaksas par kārti vai standartprojektu ar bāzes cenu 20 M€ vai vairāk, iegūsti 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Tu sāc ar 2 augu ražošanu, 3 augiem un 36 M€.",
+  "effects": [
+   "Lai novietotu zaļo zonu, vienmēr vari maksāt 7 augus 8 vietā."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Tu sāc ar 3 siltuma ražošanu un 42 M€.",
+  "effects": [
+   "Siltumu vari izmantot kā M€. M€ nevari izmantot kā siltumu."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Tu sāc ar 20 tēraudiem un 30 M€.",
+  "effects": [
+   "Katru reizi, kad izspēlē notikumu, iegūsti 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Kā pirmo darbību spēlē izvelc 3 kārtis. Sāc ar 45 M€.",
+  "effects": [
+   "Tavas temperatūras, skābekļa, okeānu un Venēras prasības ir +2 vai -2 soļi, katrā gadījumā pēc tavas izvēles."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Kalnraču ģilde",
+  "desc": "Tu sāc ar 30 M€, 5 tēraudiem un 1 tērauda ražošanu.",
+  "effects": [
+   "Katru reizi, kad novieto plāksnīti laukumā ar tērauda vai titāna novietošanas bonusu, palielini savu tērauda ražošanu par 1 soli"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Tu sāc ar 10 titāniem un 23 M€.",
+  "effects": [
+   "Katrs tavs titāns ir par 1 M€ vērtīgāks."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tarsisa republika",
+  "desc": "Tu sāc ar 40 M€. Kā pirmo darbību spēlē novieto pilsētas plāksnīti.",
+  "effects": [
+   "Kad jebkura pilsētas plāksnīte tiek novietota UZ MARSA, palielini savu M€ ražošanu par 1 soli. Kad tu novieto pilsētas plāksnīti, iegūsti 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Tu sāc ar 1 enerģijas ražošanu un 48 M€.",
+  "effects": [
+   "Izspēlējot enerģijas kārti VAI STANDARTPROJEKTU ELEKTROSTACIJA, maksā par to 3 M€ mazāk."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "ANO Marsa iniciatīva",
+  "desc": "Tu sāc ar 40 M€.",
+  "actions": [
+   "Ja tavs teraformēšanas reitings šajā paaudzē ir paaugstināts, vari samaksāt 3 M€, lai to paaugstinātu vēl par 1 soli."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Sabiedroto banka",
+  "desc": "Palielini savu M€ ražošanu par 4 soļiem. Iegūsti 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Biosfēras atbalsts",
+  "desc": "Palielini savu augu ražošanu par 2 soļiem. Samazini savu M€ ražošanu par 1 soli."
+ },
+ "Aquifer Turbines": {
+  "name": "Pazemes ūdens turbīnas",
+  "desc": "Novieto okeāna plāksnīti. Palielini savu enerģijas ražošanu par 2 soļiem. Samaksā 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Moholes rakšana",
+  "desc": "Palielini savu tērauda ražošanu par 1 soli un siltuma ražošanu par 2 soļiem. Iegūsti 2 siltumu."
+ },
+ "Early Settlement": {
+  "name": "Agrīna apmetne",
+  "desc": "Palielini savu augu ražošanu par 1 soli. Novieto pilsētas plāksnīti."
+ },
+ "Biofuels": {
+  "name": "Biodegviela",
+  "desc": "Palielini savu enerģijas un augu ražošanu par 1 soli. Iegūsti 2 augus."
+ },
+ "Power Generation": {
+  "name": "Enerģijas ražošana",
+  "desc": "Palielini savu enerģijas ražošanu par 3 soļiem."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Pašpietiekama apmetne",
+  "desc": "Palielini savu M€ ražošanu par 2 soļiem. Novieto pilsētas plāksnīti."
+ },
+ "Mining Operations": {
+  "name": "Ieguves darbi",
+  "desc": "Palielini savu tērauda ražošanu par 2 soļiem. Iegūsti 4 tēraudu."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI darbuzņēmējs",
+  "desc": "Paaugstini savu TR par 3 soļiem. Izvelc kārti."
+ },
+ "Dome Farming": {
+  "name": "Lauksaimniecība zem kupola",
+  "desc": "Palielini savu M€ ražošanu par 2 soļiem un augu ražošanu par 1 soli."
+ },
+ "Business Empire": {
+  "name": "Biznesa impērija",
+  "desc": "Palielini savu M€ ražošanu par 6 soļiem. Samaksā 6 M€."
+ },
+ "Donation": {
+  "name": "Ziedojums",
+  "desc": "Iegūsti 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Slāpekļa sūtījums",
+  "desc": "Palielini savu augu ražošanu par 1 soli. Paaugstini savu TR par 1 soli. Iegūsti 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Kausētava",
+  "desc": "Paaugstini skābekli par 2 soļiem. Iegūsti 5 tēraudu."
+ },
+ "Supplier": {
+  "name": "Piegādātājs",
+  "desc": "Palielini savu enerģijas ražošanu par 2 soļiem. Iegūsti 4 tēraudu."
+ },
+ "Supply Drop": {
+  "name": "Krājumu nomešana",
+  "desc": "Iegūsti 3 titānu, 8 tēraudu un 3 augus."
+ },
+ "Great Aquifer": {
+  "name": "Lielais ūdens nesējslānis",
+  "desc": "Novieto 2 okeāna plāksnītes."
+ },
+ "Biolab": {
+  "name": "Biolaboratorija",
+  "desc": "Palielini savu augu ražošanu par 1 soli. Izvelc 3 kārtis."
+ },
+ "Martian Industries": {
+  "name": "Marsa rūpniecība",
+  "desc": "Palielini savu enerģijas un tērauda ražošanu par 1 soli. Iegūsti 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Io pētniecības postenis",
+  "desc": "Palielini savu titāna ražošanu par 1 soli. Izvelc kārti."
+ },
+ "Polar Industries": {
+  "name": "Polārā rūpniecība",
+  "desc": "Palielini savu siltuma ražošanu par 2 soļiem. Novieto okeāna plāksnīti."
+ },
+ "Society Support": {
+  "name": "Sabiedrības atbalsts",
+  "desc": "Palielini savu augu, enerģijas un siltuma ražošanu par 1 soli. Samazini M€ ražošanu par 1 soli."
+ },
+ "Galilean Mining": {
+  "name": "Galileja pavadoņu ieguve",
+  "desc": "Palielini savu titāna ražošanu par 2 soļiem. Samaksā 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Milzīgs asteroīds",
+  "desc": "Paaugstini temperatūru par 3 soļiem. Samaksā 5 M€."
+ },
+ "Metals Company": {
+  "name": "Metālu uzņēmums",
+  "desc": "Palielini savu M€, tērauda un titāna ražošanu par 1 soli."
+ },
+ "Loan": {
+  "name": "Aizdevums",
+  "desc": "Iegūsti 30 M€. Samazini savu M€ ražošanu par 2 soļiem."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Palielini savu siltuma ražošanu par 3 soļiem. Iegūsti 3 siltumu."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metāliem bagāts asteroīds",
+  "desc": "Paaugstini temperatūru par 1 soli. Iegūsti 4 titānu un 4 tēraudu."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitālā būvētava",
+  "desc": "Palielini savu titāna ražošanu par 1 soli. Iegūsti 4 titānu."
+ },
+ "Acquired Space Agency": {
+  "name": "Iegādāta kosmosa aģentūra",
+  "desc": "Iegūsti 6 titānu. Atklāj kārtis, līdz atklāj divas kārtis ar kosmosa birkām. Paņem tās rokā, pārējās nomet."
+ },
+ "Research Network": {
+  "name": "Pētniecības tīkls",
+  "desc": "Palielini savu M€ ražošanu par 1 soli. Izvelc 3 kārtis. Pēc izspēlēšanas, kad veic darbību, džokera birka skaitās kā jebkura tevis izvēlēta birka."
+ },
+ "Eccentric Sponsor": {
+  "name": "Ekscentrisks sponsors",
+  "desc": "IZSPĒLĒ KĀRTI NO ROKAS AR 25 M€ ATLAIDI."
+ },
+ "Ecology Experts": {
+  "name": "Ekoloģijas eksperti",
+  "desc": "Palielini savu augu ražošanu par 1 soli. IZSPĒLĒ KĀRTI NO ROKAS, NEŅEMOT VĒRĀ GLOBĀLĀS PRASĪBAS."
+ },
+ "Experimental Forest": {
+  "name": "Eksperimentālais mežs",
+  "desc": "Novieto 1 zaļās zonas plāksnīti un paaugstini skābekli par 1 soli. Atklāj kārtis, līdz atklāj divas kārtis ar augu birkām. Paņem tās rokā, pārējās nomet."
+ }
+}

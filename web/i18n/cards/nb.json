@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Oppkjøpt selskap",
+  "desc": "Øk M€-produksjonen din 3 trinn."
+ },
+ "Advanced Alloys": {
+  "name": "Avanserte legeringer",
+  "effects": [
+   "Hvert titan du har, er verdt 1 M€ ekstra.",
+   "Hvert stål du har, er verdt 1 M€ ekstra."
+  ]
+ },
+ "AI Central": {
+  "name": "AI-sentral",
+  "desc": "Senk energiproduksjonen din 1 trinn.",
+  "actions": [
+   "Trekk 2 kort."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitasjonsteknologi",
+  "effects": [
+   "Når du spiller et kort, betaler du 2 M€ mindre for det."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroidegruvekonsortiet",
+  "desc": "Senk titanproduksjonen til en valgfri spiller 1 trinn, og øk din egen 1 trinn."
+ },
+ "Bribed Committee": {
+  "name": "Bestukket komité",
+  "desc": "Hev TR-en din 2 trinn."
+ },
+ "Building Industries": {
+  "name": "Byggeindustri",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk stålproduksjonen din 2 trinn."
+ },
+ "Business Contacts": {
+  "name": "Forretningskontakter",
+  "desc": "Se på de 4 øverste kortene i bunken. Ta 2 på hånden, og kast resten."
+ },
+ "Business Network": {
+  "name": "Forretningsnettverk",
+  "desc": "Senk M€-produksjonen din 1 trinn.",
+  "actions": [
+   "Se på det øverste kortet, og kjøp det eller kast det."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Callistos straffegruver",
+  "desc": "Øk M€-produksjonen din 3 trinn."
+ },
+ "Caretaker Contract": {
+  "name": "Forvalterkontrakt",
+  "actions": [
+   "Bruk 8 varme for å heve terraformrangeringen din 1 trinn."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartell",
+  "desc": "Øk M€-produksjonen din 1 trinn for hvert jordsymbol du har, inkludert dette."
+ },
+ "CEO's Favorite Project": {
+  "name": "Direktørens yndlingsprosjekt",
+  "desc": "Legg 1 ressurs på et av kortene dine som allerede har minst 1 ressurs."
+ },
+ "Commercial District": {
+  "name": "Handelsdistrikt",
+  "desc": "Legg ut denne brikken. Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 4 trinn.",
+  "vpText": [
+   "1 VP per tilstøtende bybrikke."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Selskapsfestning",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 3 trinn. Legg ut en bybrikke."
+ },
+ "Development Center": {
+  "name": "Utviklingssenter",
+  "actions": [
+   "Bruk 1 energi for å trekke et kort."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Jordkatapult",
+  "effects": [
+   "Når du spiller et kort, betaler du 2 M€ mindre for det."
+  ]
+ },
+ "Earth Office": {
+  "name": "Jordkontor",
+  "effects": [
+   "Når du spiller et jordsymbol, betaler du 3 M€ mindre for det."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrokatapult",
+  "desc": "Senk energiproduksjonen din 1 trinn.",
+  "actions": [
+   "Bruk 1 plante eller 1 stål for å få 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Energitapping",
+  "desc": "Senk energiproduksjonen til en valgfri spiller 1 trinn, og øk din egen 1 trinn."
+ },
+ "Fuel Factory": {
+  "name": "Drivstoffabrikk",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk titan- og M€-produksjonen din 1 trinn hver."
+ },
+ "Gene Repair": {
+  "name": "Genreparasjon",
+  "desc": "Øk M€-produksjonen din 2 trinn."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Storskrent-konsortiet",
+  "desc": "Senk stålproduksjonen til en valgfri spiller 1 trinn, og øk din egen 1 trinn."
+ },
+ "Hackers": {
+  "name": "Hackere",
+  "desc": "Senk energiproduksjonen din 1 trinn og M€-produksjonen til en valgfri spiller 2 trinn. Øk M€-produksjonen din 2 trinn."
+ },
+ "Hired Raiders": {
+  "name": "Leide plyndrere",
+  "desc": "Stjel opptil 2 stål eller 3 M€ fra en valgfri spiller."
+ },
+ "Indentured Workers": {
+  "name": "Kontraktarbeidere",
+  "desc": "Det neste kortet du spiller denne generasjonen, koster 8 M€ mindre."
+ },
+ "Industrial Center": {
+  "name": "Industrisenter",
+  "desc": "Legg ut denne brikken ved siden av en bybrikke.",
+  "actions": [
+   "Bruk 7 M€ for å øke stålproduksjonen din 1 trinn."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Interstellart koloniskip"
+ },
+ "Invention Contest": {
+  "name": "Oppfinnerkonkurranse",
+  "desc": "Se på de 3 øverste kortene i bunken. Ta 1 på hånden, og kast resten."
+ },
+ "Inventors' Guild": {
+  "name": "Oppfinnerlauget",
+  "actions": [
+   "Se på det øverste kortet, og kjøp det eller kast det."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investeringslån",
+  "desc": "Senk M€-produksjonen din 1 trinn. Få 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Gruveindustri på Io",
+  "desc": "Øk titanproduksjonen din 2 trinn og M€-produksjonen din 2 trinn.",
+  "vpText": [
+   "1 VP per Jupitersymbol du har."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrange-observatoriet",
+  "desc": "Trekk 1 kort."
+ },
+ "Land Claim": {
+  "name": "Landkrav",
+  "desc": "Reserver et ikke-reservert felt til deg selv: bare du kan legge ut en brikke der."
+ },
+ "Lightning Harvest": {
+  "name": "Lynhøsting",
+  "desc": "Øk energiproduksjonen og M€-produksjonen din ett trinn hver."
+ },
+ "Mars University": {
+  "name": "Mars-universitetet",
+  "effects": [
+   "Når du spiller et vitenskapssymbol, inkludert dette, kan du kaste et kort fra hånden for å trekke et kort."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Massekonverter",
+  "desc": "Øk energiproduksjonen din 6 trinn.",
+  "effects": [
+   "Når du spiller et romkort, betaler du 2 M€ mindre for det."
+  ]
+ },
+ "Media Archives": {
+  "name": "Mediearkiver",
+  "desc": "Få 1 M€ for hver hendelse som NOENSINNE ER SPILT av alle spillere."
+ },
+ "Media Group": {
+  "name": "Mediegruppe",
+  "effects": [
+   "Når du har spilt et hendelseskort, får du 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Medisinsk laboratorium",
+  "desc": "Øk M€-produksjonen din 1 trinn per 2 byggsymboler du har, inkludert dette."
+ },
+ "Mine": {
+  "name": "Gruve",
+  "desc": "Øk stålproduksjonen din 1 trinn."
+ },
+ "Mineral Deposit": {
+  "name": "Mineralforekomst",
+  "desc": "Få 5 stål."
+ },
+ "Mining Area": {
+  "name": "Gruveområde",
+  "desc": "Legg ut denne brikken på et felt med plasseringsbonus for stål eller titan, ved siden av en annen av brikkene dine. Øk produksjonen din av den ressursen 1 trinn."
+ },
+ "Miranda Resort": {
+  "name": "Feriestedet Miranda",
+  "desc": "Øk M€-produksjonen din 1 trinn for hvert jordsymbol du har."
+ },
+ "Olympus Conference": {
+  "name": "Olympus-konferansen",
+  "desc": "Når du spiller et vitenskapssymbol, inkludert dette, legger du enten en vitenskapsressurs på dette kortet, eller fjerner en vitenskapsressurs fra dette kortet for å trekke et kort."
+ },
+ "Physics Complex": {
+  "name": "Fysikkompleks",
+  "actions": [
+   "Bruk 6 energi for å legge en vitenskapsressurs på dette kortet."
+  ],
+  "vpText": [
+   "2 VP for hver vitenskapsressurs på dette kortet."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energiinfrastruktur",
+  "actions": [
+   "Bruk en valgfri mengde energi, og få like mange M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Kraftforsyningskonsortiet",
+  "desc": "Senk energiproduksjonen til en valgfri spiller 1 trinn, og øk din egen 1 trinn."
+ },
+ "Protected Habitats": {
+  "name": "Beskyttede habitater",
+  "effects": [
+   "Motstandere kan ikke fjerne plantene, dyrene eller mikrobene dine."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvanteutvinner",
+  "desc": "Øk energiproduksjonen din 4 trinn.",
+  "effects": [
+   "Når du spiller et romkort, betaler du 2 M€ mindre for det."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Strålingsdrakter",
+  "desc": "Øk M€-produksjonen din 1 trinn."
+ },
+ "Research": {
+  "name": "Forskning",
+  "desc": "Teller som å spille 2 vitenskapskort. Trekk 2 kort."
+ },
+ "Restricted Area": {
+  "name": "Sperret område",
+  "desc": "Legg ut denne brikken.",
+  "actions": [
+   "Bruk 2 M€ for å trekke et kort."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotarbeidskraft",
+  "desc": "Kopier bare produksjonsboksen på ett av byggkortene dine."
+ },
+ "Sabotage": {
+  "name": "Sabotasje",
+  "desc": "Fjern opptil 3 titan, eller 4 stål, eller 7 M€ fra en valgfri spiller."
+ },
+ "Satellites": {
+  "name": "Satellitter",
+  "desc": "Øk M€-produksjonen din 1 trinn for hvert romsymbol du har, inkludert dette."
+ },
+ "Security Fleet": {
+  "name": "Sikkerhetsflåte",
+  "actions": [
+   "Bruk 1 titan for å legge 1 jagerfly på dette kortet."
+  ],
+  "vpText": [
+   "1 VP for hvert jagerfly på dette kortet."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Romheis",
+  "desc": "Øk titanproduksjonen din 1 trinn.",
+  "actions": [
+   "Bruk 1 stål for å få 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Romstasjon",
+  "effects": [
+   "Når du spiller et romkort, betaler du 2 M€ mindre for det."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsorer",
+  "desc": "Øk M€-produksjonen din 2 trinn."
+ },
+ "Standard Technology": {
+  "name": "Standardteknologi",
+  "effects": [
+   "Når du har betalt for et standardprosjekt, unntatt Selg patenter, får du 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Bjørnedyr",
+  "actions": [
+   "Legg 1 mikrobe på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per 4 mikrober på dette kortet."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Teknologidemonstrasjon",
+  "desc": "Trekk to kort."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraforming av Ganymedes",
+  "desc": "Hev TR-en din 1 trinn for hvert Jupitersymbol du har, inkludert dette."
+ },
+ "Titanium Mine": {
+  "name": "Titangruve",
+  "desc": "Øk titanproduksjonen din 1 trinn."
+ },
+ "Toll Station": {
+  "name": "Tollstasjon",
+  "desc": "Øk M€-produksjonen din 1 trinn for hvert romsymbol MOTSTANDERNE dine har."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Trans-Neptun-sonde",
+  "desc": "En romsonde for det dype rommet: verdt 1 VP."
+ },
+ "Tropical Resort": {
+  "name": "Tropisk feriested",
+  "desc": "Senk varmeproduksjonen din 2 trinn, og øk M€-produksjonen din 3 trinn."
+ },
+ "Vesta Shipyard": {
+  "name": "Vesta-verftet",
+  "desc": "Øk titanproduksjonen din 1 trinn."
+ },
+ "Viral Enhancers": {
+  "name": "Virale forsterkere",
+  "effects": [
+   "Når du spiller et plante-, mikrobe- eller dyresymbol, inkludert dette, får du 1 plante eller legger 1 ressurs på DET KORTET."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Fjern opptil 2 dyr eller 5 planter fra en valgfri spiller."
+ },
+ "SF Memorial": {
+  "name": "SF-minnesmerket",
+  "desc": "Trekk 1 kort."
+ },
+ "House Printing": {
+  "name": "3D-printede hus",
+  "desc": "Øk stålproduksjonen din 1 trinn."
+ },
+ "Space Hotels": {
+  "name": "Romhoteller",
+  "desc": "Øk M€-produksjonen 4 trinn."
+ },
+ "Martian Survey": {
+  "name": "Marskartlegging",
+  "desc": "Trekk to kort."
+ },
+ "Research Coordination": {
+  "name": "Forskningskoordinering",
+  "desc": "Etter at kortet er spilt, teller jokersymbolet som et valgfritt symbol når du utfører en handling."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lavatunnelbosetning",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 2 trinn. Legg ut en bybrikke på et VULKANSK OMRÅDE uavhengig av tilstøtende byer."
+ },
+ "Psychrophiles": {
+  "name": "Psykrofiler",
+  "actions": [
+   "Legg 1 mikrobe på dette kortet."
+  ],
+  "effects": [
+   "Når du betaler for et plantekort, kan mikrober her brukes som 2 M€ hver."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Tilpasningsteknologi",
+  "effects": [
+   "De globale kravene dine er +2 eller -2 trinn, etter eget valg i hvert enkelt tilfelle."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Tilpasset lav",
+  "desc": "Øk planteproduksjonen din 1 trinn."
+ },
+ "Advanced Ecosystems": {
+  "name": "Avanserte økosystemer"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Luftbremset ammoniakkasteroide",
+  "desc": "Øk varmeproduksjonen din 3 trinn og planteproduksjonen din 1 trinn. Legg 2 mikrober på ET ANNET kort."
+ },
+ "Ants": {
+  "name": "Maur",
+  "actions": [
+   "Fjern 1 mikrobe fra et valgfritt kort for å legge 1 på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per 2 mikrober på dette kortet."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Akviferpumping",
+  "actions": [
+   "Bruk 8 M€ for å legge ut 1 havbrikke. STÅL KAN BRUKES som om du spilte et byggkort."
+  ]
+ },
+ "Algae": {
+  "name": "Alger",
+  "desc": "Få 1 plante, og øk planteproduksjonen din 2 trinn."
+ },
+ "ArchaeBacteria": {
+  "name": "Arkebakterier",
+  "desc": "Øk planteproduksjonen din 1 trinn."
+ },
+ "Arctic Algae": {
+  "name": "Arktiske alger",
+  "desc": "Få 1 plante.",
+  "effects": [
+   "Når noen legger ut en havbrikke, får du 2 planter."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Kunstig innsjø",
+  "desc": "Legg ut 1 havbrikke PÅ ET FELT SOM IKKE ER RESERVERT FOR HAV."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Kunstig fotosyntese",
+  "desc": "Øk planteproduksjonen din 1 trinn eller energiproduksjonen din 2 trinn.",
+  "orTitles": [
+   "Øk energiproduksjonen din 2 trinn",
+   "Øk planteproduksjonen din 1 trinn"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroide",
+  "desc": "Hev temperaturen 1 trinn, og få 2 titan. Fjern opptil 3 planter fra en valgfri spiller."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroidegruvedrift",
+  "desc": "Øk titanproduksjonen din 2 trinn."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Stråle fra en thoriumasteroide",
+  "desc": "Øk varmeproduksjonen og energiproduksjonen din 3 trinn hver."
+ },
+ "Big Asteroid": {
+  "name": "Stor asteroide",
+  "desc": "Hev temperaturen 2 trinn, og få 4 titan. Fjern opptil 4 planter fra en valgfri spiller."
+ },
+ "Biomass Combustors": {
+  "name": "Biomassebrennere",
+  "desc": "Senk planteproduksjonen til en valgfri spiller 1 trinn, og øk energiproduksjonen din 2 trinn."
+ },
+ "Birds": {
+  "name": "Fugler",
+  "desc": "Senk planteproduksjonen til en valgfri spiller 2 trinn. 1 VP per dyr på dette kortet.",
+  "actions": [
+   "Legg et dyr på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per dyr på dette kortet."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Svart polarstøv",
+  "desc": "Legg ut en havbrikke. Senk M€-produksjonen din 2 trinn, og øk varmeproduksjonen din 3 trinn."
+ },
+ "Breathing Filters": {
+  "name": "Pustefiltre"
+ },
+ "Bushes": {
+  "name": "Busker",
+  "desc": "Øk planteproduksjonen din 2 trinn. Få 2 planter."
+ },
+ "Capital": {
+  "name": "Hovedstad",
+  "desc": "Legg ut denne brikken. Senk energiproduksjonen din 2 trinn, og øk M€-produksjonen din 5 trinn.",
+  "vpText": [
+   "1 ekstra VP for hver havbrikke som grenser til denne bybrikken."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonatbehandling",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk varmeproduksjonen din 3 trinn."
+ },
+ "Cloud Seeding": {
+  "name": "Skysåing",
+  "desc": "Senk M€-produksjonen din 1 trinn og varmeproduksjonen til en valgfri spiller 1 trinn. Øk planteproduksjonen din 2 trinn."
+ },
+ "Colonizer Training Camp": {
+  "name": "Treningsleir for kolonister"
+ },
+ "Comet": {
+  "name": "Komet",
+  "desc": "Hev temperaturen 1 trinn, og legg ut en havbrikke. Fjern opptil 3 planter fra en valgfri spiller."
+ },
+ "Convoy From Europa": {
+  "name": "Konvoi fra Europa",
+  "desc": "Legg ut 1 havbrikke, og trekk 1 kort."
+ },
+ "Cupola City": {
+  "name": "Kuppelby",
+  "desc": "Legg ut en bybrikke. Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 3 trinn."
+ },
+ "Decomposers": {
+  "name": "Nedbrytere",
+  "effects": [
+   "Når du spiller et dyre-, plante- eller mikrobesymbol, inkludert dette, legger du en mikrobe på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per 3 mikrober på dette kortet."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Dypbrønnsoppvarming",
+  "desc": "Øk energiproduksjonen din 1 trinn. Hev temperaturen 1 trinn."
+ },
+ "Deimos Down": {
+  "name": "Deimos styrter",
+  "desc": "Hev temperaturen 3 trinn, og få 4 stål. Fjern opptil 8 planter fra en valgfri spiller."
+ },
+ "Designed Microorganisms": {
+  "name": "Designede mikroorganismer",
+  "desc": "Øk planteproduksjonen din 2 trinn."
+ },
+ "Domed Crater": {
+  "name": "Overbygd krater",
+  "desc": "Få 3 planter. Legg ut en bybrikke. Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 3 trinn."
+ },
+ "Dust Seals": {
+  "name": "Støvtetninger"
+ },
+ "Ecological Zone": {
+  "name": "Økologisk sone",
+  "desc": "Legg ut denne brikken ved siden av EN VALGFRI skog.",
+  "effects": [
+   "Når du spiller et dyre- eller plantesymbol, INKLUDERT DISSE, legger du et dyr på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per 2 dyr på dette kortet."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Energisparing",
+  "desc": "Øk energiproduksjonen din 1 trinn for hver bybrikke i spill."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos Chasma nasjonalpark",
+  "desc": "Legg 1 dyr PÅ ET VALGFRITT DYREKORT. Få 3 planter. Øk M€-produksjonen din 2 trinn."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Ekvatorial magnetiserer",
+  "actions": [
+   "Senk energiproduksjonen din 1 trinn for å heve terraformrangeringen din 1 trinn."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Ekstremkuldesopp",
+  "actions": [
+   "Få 1 plante.",
+   "Legg 2 mikrober på ET ANNET kort."
+  ]
+ },
+ "Farming": {
+  "name": "Jordbruk",
+  "desc": "Øk M€-produksjonen din 2 trinn og planteproduksjonen din 2 trinn. Få 2 planter."
+ },
+ "Fish": {
+  "name": "Fisk",
+  "desc": "Senk planteproduksjonen til en valgfri spiller 1 trinn.",
+  "actions": [
+   "Legg 1 dyr på dette kortet."
+  ],
+  "vpText": [
+   "1 VP for hvert dyr på dette kortet."
+  ]
+ },
+ "Flooding": {
+  "name": "Oversvømmelse",
+  "desc": "Legg ut en havbrikke. HVIS DET ER BRIKKER VED SIDEN AV DENNE HAVBRIKKEN, KAN DU FJERNE 4 M€ FRA EIEREN AV EN AV DISSE BRIKKENE."
+ },
+ "Food Factory": {
+  "name": "Matfabrikk",
+  "desc": "Senk planteproduksjonen din 1 trinn, og øk M€-produksjonen din 4 trinn."
+ },
+ "Fusion Power": {
+  "name": "Fusjonskraft",
+  "desc": "Øk energiproduksjonen din 3 trinn."
+ },
+ "Fueled Generators": {
+  "name": "Drivstoffdrevne generatorer",
+  "desc": "Senk M€-produksjonen din 1 trinn, og øk energiproduksjonen din 1 trinn."
+ },
+ "Ganymede Colony": {
+  "name": "Ganymedes-kolonien",
+  "desc": "Legg ut en bybrikke PÅ DET RESERVERTE FELTET.",
+  "vpText": [
+   "1 VP per Jupitersymbol du har."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geotermisk kraft",
+  "desc": "Øk energiproduksjonen din 2 trinn."
+ },
+ "GHG Factories": {
+  "name": "Drivhusgassfabrikker",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk varmeproduksjonen din 4 trinn."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Drivhusgassproduserende bakterier",
+  "actions": [
+   "Legg 1 mikrobe på dette kortet.",
+   "Fjern 2 mikrober for å heve temperaturen 1 trinn."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Gigantisk isasteroide",
+  "desc": "Hev temperaturen 2 trinn, og legg ut 2 havbrikker. Fjern opptil 6 planter fra en valgfri spiller."
+ },
+ "Giant Space Mirror": {
+  "name": "Gigantisk romspeil",
+  "desc": "Øk energiproduksjonen din 3 trinn."
+ },
+ "Grass": {
+  "name": "Gress",
+  "desc": "Øk planteproduksjonen din 1 trinn. Få 3 planter."
+ },
+ "Great Dam": {
+  "name": "Den store demningen",
+  "desc": "Øk energiproduksjonen din 2 trinn."
+ },
+ "Greenhouses": {
+  "name": "Drivhus",
+  "desc": "Få 1 plante for hver bybrikke i spill."
+ },
+ "Heather": {
+  "name": "Lyng",
+  "desc": "Øk planteproduksjonen din 1 trinn. Få 1 plante."
+ },
+ "Heat Trappers": {
+  "name": "Varmefeller",
+  "desc": "Senk varmeproduksjonen til en valgfri spiller 2 trinn, og øk energiproduksjonen din 1 trinn."
+ },
+ "Herbivores": {
+  "name": "Planteetere",
+  "desc": "+1 dyr på dette kortet. -1 i planteproduksjon for en valgfri spiller",
+  "effects": [
+   "Når du legger ut en skogbrikke, legger du et dyr på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per 2 dyr på dette kortet."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Isasteroide",
+  "desc": "Legg ut 2 havbrikker."
+ },
+ "Ice Cap Melting": {
+  "name": "Polarissmelting",
+  "desc": "Legg ut 1 havbrikke."
+ },
+ "Immigrant City": {
+  "name": "Innvandrerby",
+  "desc": "Senk energiproduksjonen din 1 trinn, og senk M€-produksjonen din 2 trinn. Legg ut en bybrikke.",
+  "effects": [
+   "Når en bybrikke legges ut, inkludert denne, øker du M€-produksjonen din 1 trinn."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Immigrasjonsferger",
+  "desc": "Øk M€-produksjonen din 5 trinn.",
+  "vpText": [
+   "1 VP for hver 3. by i spill."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Importert drivhusgass",
+  "desc": "Øk varmeproduksjonen din 1 trinn, og få 3 varme."
+ },
+ "Imported Hydrogen": {
+  "name": "Importert hydrogen",
+  "desc": "Få 3 planter, eller legg 3 mikrober eller 2 dyr på ET ANNET kort. Legg ut en havbrikke.",
+  "orTitles": [
+   "Få 3 planter",
+   "Legg 3 mikrober på ET ANNET kort",
+   "Legg 2 dyr på ET ANNET kort"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Importert nitrogen",
+  "desc": "Hev TR-en din 1 trinn, og få 4 planter. Legg 3 mikrober på ET ANNET kort og 2 dyr på ET ANNET kort."
+ },
+ "Import of Advanced GHG": {
+  "name": "Import av avansert drivhusgass",
+  "desc": "Øk varmeproduksjonen din 2 trinn."
+ },
+ "Industrial Microbes": {
+  "name": "Industrielle mikrober",
+  "desc": "Øk energiproduksjonen og stålproduksjonen din 1 trinn hver."
+ },
+ "Insects": {
+  "name": "Insekter",
+  "desc": "Øk planteproduksjonen din 1 trinn for hvert plantesymbol du har."
+ },
+ "Insulation": {
+  "name": "Isolasjon",
+  "desc": "Senk varmeproduksjonen din et valgfritt antall trinn, og øk M€-produksjonen din like mange trinn."
+ },
+ "Ironworks": {
+  "name": "Jernverk",
+  "actions": [
+   "Bruk 4 energi for å få 1 stål og heve oksygenet 1 trinn."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Tareoppdrett",
+  "desc": "Øk M€-produksjonen din 2 trinn og planteproduksjonen din 3 trinn. Få 2 planter."
+ },
+ "Lake Marineris": {
+  "name": "Marineris-sjøen",
+  "desc": "Legg ut 2 havbrikker."
+ },
+ "Large Convoy": {
+  "name": "Stor konvoi",
+  "desc": "Legg ut en havbrikke, og trekk 2 kort. Få 5 planter, eller legg 4 dyr på ET ANNET kort.",
+  "orTitles": [
+   "Få 5 planter",
+   "Legg 4 dyr på ET ANNET kort"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lavastrømmer",
+  "desc": "Hev temperaturen 2 trinn, og legg ut denne brikken PÅ ENTEN THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS ELLER ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Lav",
+  "desc": "Øk planteproduksjonen din 1 trinn."
+ },
+ "Livestock": {
+  "name": "Buskap",
+  "desc": "Senk planteproduksjonen din 1 trinn, og øk M€-produksjonen din 2 trinn",
+  "actions": [
+   "Legg 1 dyr på dette kortet."
+  ],
+  "vpText": [
+   "1 VP for hvert dyr på dette kortet."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Lokal varmefangst",
+  "desc": "Bruk 5 varme for enten å få 4 planter eller legge 2 dyr på ET ANNET kort.",
+  "orTitles": [
+   "Få 4 planter",
+   "Legg 2 dyr på ET ANNET kort"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Månestråle",
+  "desc": "Senk M€-produksjonen din 2 trinn, og øk varmeproduksjonen og energiproduksjonen din 2 trinn hver."
+ },
+ "Magnetic Field Dome": {
+  "name": "Magnetfeltkuppel",
+  "desc": "Senk energiproduksjonen din 2 trinn, og øk planteproduksjonen din 1 trinn. Hev TR-en din 1 trinn."
+ },
+ "Magnetic Field Generators": {
+  "name": "Magnetfeltgeneratorer",
+  "desc": "Senk energiproduksjonen din 4 trinn, og øk planteproduksjonen din 2 trinn. Hev TR-en din 3 trinn."
+ },
+ "Mangrove": {
+  "name": "Mangrove",
+  "desc": "Legg ut en skogbrikke PÅ ET FELT RESERVERT FOR HAV, og hev oksygenet 1 trinn. Se bort fra de vanlige plasseringsreglene for dette."
+ },
+ "Martian Rails": {
+  "name": "Mars-jernbanen",
+  "actions": [
+   "Bruk 1 energi for å få 1 M€ for hver bybrikke PÅ MARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metan fra Titan",
+  "desc": "Øk varmeproduksjonen din 2 trinn og planteproduksjonen din 2 trinn."
+ },
+ "Micro-Mills": {
+  "name": "Mikromøller",
+  "desc": "Øk varmeproduksjonen din 1 trinn."
+ },
+ "Mining Expedition": {
+  "name": "Gruveekspedisjon",
+  "desc": "Hev oksygenet 1 trinn. Fjern 2 planter fra en valgfri spiller. Få 2 stål."
+ },
+ "Mining Rights": {
+  "name": "Gruverettigheter",
+  "desc": "Legg ut denne brikken på et felt med plasseringsbonus for stål eller titan. Øk den produksjonen 1 trinn."
+ },
+ "Mohole Area": {
+  "name": "Moholeområde",
+  "desc": "Øk varmeproduksjonen din 4 trinn. Legg ut denne brikken PÅ ET FELT RESERVERT FOR HAV."
+ },
+ "Moss": {
+  "name": "Mose",
+  "desc": "Mist 1 plante. Øk planteproduksjonen din 1 trinn."
+ },
+ "Natural Preserve": {
+  "name": "Naturreservat",
+  "desc": "Legg ut denne brikken SLIK AT DEN IKKE GRENSER TIL NOEN ANNEN BRIKKE. Øk M€-produksjonen din 1 trinn."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitrittreduserende bakterier",
+  "desc": "Legg 3 mikrober på dette kortet.",
+  "actions": [
+   "Legg 1 mikrobe på dette kortet.",
+   "Fjern 3 mikrober for å heve TR-en din 1 trinn."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Nitrogenrik asteroide",
+  "desc": "Hev terraformrangeringen din 2 trinn og temperaturen 1 trinn. Øk planteproduksjonen din 1 trinn, eller 4 trinn hvis du har 3 plantesymboler."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofil mose",
+  "desc": "Mist 2 planter. Øk planteproduksjonen din 2 trinn."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 3 trinn. Legg ut en bybrikke PÅ DET RESERVERTE FELTET uten hensyn til de vanlige plasseringsreglene."
+ },
+ "Noctis Farming": {
+  "name": "Noctis-jordbruk",
+  "desc": "Øk M€-produksjonen din 1 trinn, og få 2 planter."
+ },
+ "Nuclear Power": {
+  "name": "Kjernekraft",
+  "desc": "Senk M€-produksjonen din 2 trinn, og øk energiproduksjonen din 3 trinn."
+ },
+ "Nuclear Zone": {
+  "name": "Atomsone",
+  "desc": "Legg ut denne brikken, og hev temperaturen 2 trinn."
+ },
+ "Open City": {
+  "name": "Åpen by",
+  "desc": "Få 2 planter. Legg ut en bybrikke. Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 4 trinn."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimal luftbremsing",
+  "effects": [
+   "Når du spiller en romhendelse, får du 3 M€ og 3 varme."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Malmprosessor",
+  "actions": [
+   "Bruk 4 energi for å få 1 titan og heve oksygenet 1 trinn."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Permafrostutvinning",
+  "desc": "Legg ut 1 havbrikke."
+ },
+ "Peroxide Power": {
+  "name": "Peroksidkraft",
+  "desc": "Senk M€-produksjonen din 1 trinn, og øk energiproduksjonen din 2 trinn."
+ },
+ "Pets": {
+  "name": "Kjæledyr",
+  "desc": "Legg 1 dyr på dette kortet.",
+  "effects": [
+   "Når en bybrikke legges ut, legger du et dyr på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per 2 dyr her."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Phobos romhavn",
+  "desc": "Øk titanproduksjonen din 1 trinn, og legg ut en bybrikke PÅ DET RESERVERTE FELTET."
+ },
+ "Plantation": {
+  "name": "Plantasje",
+  "desc": "Legg ut en skogbrikke, og hev oksygenet 1 trinn."
+ },
+ "Power Grid": {
+  "name": "Kraftnett",
+  "desc": "Øk energiproduksjonen din ett trinn for hvert energisymbol du har, inkludert dette."
+ },
+ "Power Plant": {
+  "name": "Kraftverk",
+  "desc": "Øk energiproduksjonen din 1 trinn."
+ },
+ "Predators": {
+  "name": "Rovdyr",
+  "actions": [
+   "Fjern 1 dyr fra et valgfritt kort, og legg det på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per dyr på dette kortet."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Beskyttet dal",
+  "desc": "Øk M€-produksjonen din 2 trinn. Legg ut en skogbrikke PÅ ET FELT RESERVERT FOR HAV uten hensyn til de vanlige plasseringsreglene, og hev oksygenet 1 trinn."
+ },
+ "Rad-Chem Factory": {
+  "name": "Strålingskjemisk fabrikk",
+  "desc": "Senk energiproduksjonen din 1 trinn. Hev TR-en din 2 trinn."
+ },
+ "Regolith Eaters": {
+  "name": "Regolittetere",
+  "actions": [
+   "Legg 1 mikrobe på dette kortet.",
+   "Fjern 2 mikrober fra dette kortet for å heve oksygennivået 1 trinn."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Utslipp av inerte gasser",
+  "desc": "Hev terraformrangeringen din 2 trinn."
+ },
+ "Research Outpost": {
+  "name": "Forskningsutpost",
+  "desc": "Legg ut en bybrikke SLIK AT DEN IKKE GRENSER TIL NOEN ANNEN BRIKKE.",
+  "effects": [
+   "Når du spiller et kort, betaler du 1 M€ mindre for det."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Roverbygging",
+  "effects": [
+   "Når en bybrikke legges ut, får du 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Jakten på liv",
+  "actions": [
+   "Bruk 1 M€ for å avsløre det øverste kortet i trekkbunken. Hvis kortet har et mikrobesymbol, legger du en vitenskapsressurs her."
+  ],
+  "vpText": [
+   "3 VP hvis du har én eller flere vitenskapsressurser her."
+  ]
+ },
+ "Shuttles": {
+  "name": "Romferger",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 2 trinn.",
+  "effects": [
+   "Når du spiller et romkort, betaler du 2 M€ mindre for det."
+  ]
+ },
+ "Small Animals": {
+  "name": "Smådyr",
+  "desc": "Senk planteproduksjonen til en valgfri spiller 1 trinn.",
+  "actions": [
+   "Legg 1 dyr på dette kortet."
+  ],
+  "vpText": [
+   "1 VP per 2 dyr på dette kortet."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Jordfabrikk",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk planteproduksjonen din 1 trinn."
+ },
+ "Solar Power": {
+  "name": "Solkraft",
+  "desc": "Øk energiproduksjonen din 1 trinn."
+ },
+ "Solar Wind Power": {
+  "name": "Solvindkraft",
+  "desc": "Øk energiproduksjonen din 1 trinn, og få 2 titan."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Øk varmeproduksjonen din 7 trinn."
+ },
+ "Space Mirrors": {
+  "name": "Romspeil",
+  "actions": [
+   "Bruk 7 M€ for å øke energiproduksjonen din 1 trinn."
+  ]
+ },
+ "Special Design": {
+  "name": "Spesialdesign",
+  "desc": "Det neste kortet du spiller denne generasjonen, har +2 eller -2 trinn i globale krav, etter eget valg."
+ },
+ "Steelworks": {
+  "name": "Stålverk",
+  "actions": [
+   "Bruk 4 energi for å få 2 stål og heve oksygenet 1 trinn."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Dagbrudd",
+  "desc": "Senk energiproduksjonen din 2 trinn. Øk stålproduksjonen din 2 trinn og titanproduksjonen din 1 trinn. Hev oksygenet 2 trinn."
+ },
+ "Subterranean Reservoir": {
+  "name": "Underjordisk reservoar",
+  "desc": "Legg ut 1 havbrikke."
+ },
+ "Symbiotic Fungus": {
+  "name": "Symbiotisk sopp",
+  "actions": [
+   "Legg en mikrobe på ET ANNET kort."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektonisk spenningskraft",
+  "desc": "Øk energiproduksjonen din 3 trinn."
+ },
+ "Towing A Comet": {
+  "name": "Slep av komet",
+  "desc": "Få 2 planter. Hev oksygennivået 1 trinn, og legg ut en havbrikke."
+ },
+ "Trees": {
+  "name": "Trær",
+  "desc": "Øk planteproduksjonen din 3 trinn. Få 1 plante."
+ },
+ "Tundra Farming": {
+  "name": "Tundrajordbruk",
+  "desc": "Øk planteproduksjonen din 1 trinn og M€-produksjonen din 2 trinn. Få 1 plante."
+ },
+ "Underground City": {
+  "name": "Underjordisk by",
+  "desc": "Legg ut en bybrikke. Senk energiproduksjonen din 2 trinn, og øk stålproduksjonen din 2 trinn."
+ },
+ "Underground Detonations": {
+  "name": "Underjordiske detonasjoner",
+  "actions": [
+   "Bruk 10 M€ for å øke varmeproduksjonen din 2 trinn."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanisert område",
+  "desc": "Senk energiproduksjonen din 1 trinn, og øk M€-produksjonen din 2 trinn. Legg ut en bybrikke VED SIDEN AV MINST 2 ANDRE BYBRIKKER."
+ },
+ "Water Import From Europa": {
+  "name": "Vannimport fra Europa",
+  "actions": [
+   "Betal 12 M€ for å legge ut en havbrikke. TITAN KAN BRUKES som om du spilte et romkort."
+  ],
+  "vpText": [
+   "1 VP for hvert Jupitersymbol du har."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Vannspaltingsanlegg",
+  "actions": [
+   "Bruk 3 energi for å heve oksygenet 1 trinn."
+  ]
+ },
+ "Wave Power": {
+  "name": "Bølgekraft",
+  "desc": "Øk energiproduksjonen din 1 trinn."
+ },
+ "Windmills": {
+  "name": "Vindmøller",
+  "desc": "Øk energiproduksjonen din 1 trinn."
+ },
+ "Worms": {
+  "name": "Meitemark",
+  "desc": "Øk planteproduksjonen din 1 trinn per 2 mikrobesymboler du har, inkludert dette."
+ },
+ "Zeppelins": {
+  "name": "Zeppelinere",
+  "desc": "Øk M€-produksjonen din 1 trinn for hver bybrikke PÅ MARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Du starter med 1 titanproduksjon og 42 M€.",
+  "effects": [
+   "Hver gang et Jupitersymbol kommer i spill, inkludert dette, øker du M€-produksjonen din 1 trinn."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Du starter med 60 M€.",
+  "effects": [
+   "Når du spiller et jordsymbol, betaler du 3 M€ mindre for det."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Du starter med 3 M€-produksjon og 44 M€.",
+  "effects": [
+   "Når du spiller et byggsymbol, betaler du 2 M€ mindre for det."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Du starter med 1 titanproduksjon og 38 M€.",
+  "effects": [
+   "Når du spiller et jordsymbol, inkludert dette, trekker du et kort."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Du starter med 47 M€.",
+  "actions": [
+   "Bruk 4 M€ for å øke (en av) din LAVESTE produksjon 1 trinn."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Du starter med 37 M€. Som din første handling trekker du 3 preludiekort og spiller ett av dem. Kast de to andre.",
+  "effects": [
+   "Når du spiller et vitenskapssymbol, betaler du 2 M€ mindre for det."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Du starter med 45 M€. Som din første handling finansierer du en utmerkelse gratis.",
+  "effects": [
+   "Når du spiller et kort med et VP-ikon som IKKE ER NEGATIVT, inkludert dette, får du 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Nybegynnerselskap",
+  "desc": "Du starter med 42 M€. I stedet for å velge blant 10 kort under oppsettet får du 10 kort gratis."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Du starter med 57 M€.",
+  "effects": [
+   "Når du har betalt for et kort eller et standardprosjekt med en grunnpris på 20 M€ eller mer, får du 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Du starter med 2 planteproduksjon, 3 planter og 36 M€.",
+  "effects": [
+   "Du kan alltid betale 7 planter i stedet for 8 for å legge ut en skog."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Du starter med 3 varmeproduksjon og 42 M€.",
+  "effects": [
+   "Du kan bruke varme som M€. Du kan ikke bruke M€ som varme."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Du starter med 20 stål og 30 M€.",
+  "effects": [
+   "Hver gang du spiller en hendelse, får du 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Som din første handling i spillet trekker du 3 kort. Du starter med 45 M€.",
+  "effects": [
+   "Kravene dine til temperatur, oksygen, hav og Venus er +2 eller -2 trinn, etter eget valg i hvert enkelt tilfelle."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Gruvelauget",
+  "desc": "Du starter med 30 M€, 5 stål og 1 stålproduksjon.",
+  "effects": [
+   "Hver gang du legger ut en brikke på et felt med plasseringsbonus for stål eller titan, øker du stålproduksjonen din 1 trinn"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Du starter med 10 titan og 23 M€.",
+  "effects": [
+   "Hvert titan du har, er verdt 1 M€ ekstra."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republikken Tharsis",
+  "desc": "Du starter med 40 M€. Som din første handling i spillet legger du ut en bybrikke.",
+  "effects": [
+   "Når en bybrikke legges ut PÅ MARS, øker du M€-produksjonen din 1 trinn. Når du legger ut en bybrikke, får du 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "ThorGate",
+  "desc": "Du starter med 1 energiproduksjon og 48 M€.",
+  "effects": [
+   "Når du spiller et energikort ELLER STANDARDPROSJEKTET KRAFTVERK, betaler du 3 M€ mindre for det."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "FNs Mars-initiativ",
+  "desc": "Du starter med 40 M€.",
+  "actions": [
+   "Hvis terraformrangeringen din er hevet denne generasjonen, kan du betale 3 M€ for å heve den 1 trinn til."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Alliert bank",
+  "desc": "Øk M€-produksjonen din 4 trinn. Få 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Biosfærestøtte",
+  "desc": "Øk planteproduksjonen din 2 trinn. Senk M€-produksjonen din 1 trinn."
+ },
+ "Aquifer Turbines": {
+  "name": "Akviferturbiner",
+  "desc": "Legg ut en havbrikke. Øk energiproduksjonen din 2 trinn. Betal 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Moholeutgraving",
+  "desc": "Øk stålproduksjonen din 1 trinn og varmeproduksjonen 2 trinn. Få 2 varme."
+ },
+ "Early Settlement": {
+  "name": "Tidlig bosetning",
+  "desc": "Øk planteproduksjonen din 1 trinn. Legg ut en bybrikke."
+ },
+ "Biofuels": {
+  "name": "Biodrivstoff",
+  "desc": "Øk energi- og planteproduksjonen din 1 trinn. Få 2 planter."
+ },
+ "Power Generation": {
+  "name": "Kraftproduksjon",
+  "desc": "Øk energiproduksjonen din 3 trinn."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Selvforsynt bosetning",
+  "desc": "Øk M€-produksjonen din 2 trinn. Legg ut en bybrikke."
+ },
+ "Mining Operations": {
+  "name": "Gruvedrift",
+  "desc": "Øk stålproduksjonen din 2 trinn. Få 4 stål."
+ },
+ "UNMI Contractor": {
+  "name": "FN-entreprenør",
+  "desc": "Hev TR-en din 3 trinn. Trekk et kort."
+ },
+ "Dome Farming": {
+  "name": "Kuppeljordbruk",
+  "desc": "Øk M€-produksjonen din 2 trinn og planteproduksjonen 1 trinn."
+ },
+ "Business Empire": {
+  "name": "Forretningsimperium",
+  "desc": "Øk M€-produksjonen din 6 trinn. Betal 6 M€."
+ },
+ "Donation": {
+  "name": "Donasjon",
+  "desc": "Få 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Nitrogenforsendelse",
+  "desc": "Øk planteproduksjonen din 1 trinn. Hev TR-en din 1 trinn. Få 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Smelteverk",
+  "desc": "Hev oksygenet 2 trinn. Få 5 stål."
+ },
+ "Supplier": {
+  "name": "Leverandør",
+  "desc": "Øk energiproduksjonen din 2 trinn. Få 4 stål."
+ },
+ "Supply Drop": {
+  "name": "Forsyningsslipp",
+  "desc": "Få 3 titan, 8 stål og 3 planter."
+ },
+ "Great Aquifer": {
+  "name": "Den store akviferen",
+  "desc": "Legg ut 2 havbrikker."
+ },
+ "Biolab": {
+  "name": "Biolab",
+  "desc": "Øk planteproduksjonen din 1 trinn. Trekk 3 kort."
+ },
+ "Martian Industries": {
+  "name": "Marsindustri",
+  "desc": "Øk energi- og stålproduksjonen din 1 trinn. Få 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Forskningsutpost på Io",
+  "desc": "Øk titanproduksjonen din 1 trinn. Trekk et kort."
+ },
+ "Polar Industries": {
+  "name": "Polarindustri",
+  "desc": "Øk varmeproduksjonen din 2 trinn. Legg ut en havbrikke."
+ },
+ "Society Support": {
+  "name": "Samfunnsstøtte",
+  "desc": "Øk plante-, energi- og varmeproduksjonen din 1 trinn. Senk M€-produksjonen 1 trinn."
+ },
+ "Galilean Mining": {
+  "name": "Galileisk gruvedrift",
+  "desc": "Øk titanproduksjonen din 2 trinn. Betal 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Enorm asteroide",
+  "desc": "Hev temperaturen 3 trinn. Betal 5 M€."
+ },
+ "Metals Company": {
+  "name": "Metallselskapet",
+  "desc": "Øk M€-, stål- og titanproduksjonen din 1 trinn."
+ },
+ "Loan": {
+  "name": "Lån",
+  "desc": "Få 30 M€. Senk M€-produksjonen din 2 trinn."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Øk varmeproduksjonen din 3 trinn. Få 3 varme."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metallrik asteroide",
+  "desc": "Hev temperaturen 1 trinn. Få 4 titan og 4 stål."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitalverft",
+  "desc": "Øk titanproduksjonen din 1 trinn. Få 4 titan."
+ },
+ "Acquired Space Agency": {
+  "name": "Oppkjøpt romorganisasjon",
+  "desc": "Få 6 titan. Avslør kort til du har avslørt to kort med romsymboler. Ta dem på hånden, og kast resten."
+ },
+ "Research Network": {
+  "name": "Forskningsnettverk",
+  "desc": "Øk M€-produksjonen din 1 trinn. Trekk 3 kort. Etter at kortet er spilt, teller jokersymbolet som et valgfritt symbol når du utfører en handling."
+ },
+ "Eccentric Sponsor": {
+  "name": "Eksentrisk sponsor",
+  "desc": "SPILL ET KORT FRA HÅNDEN MED 25 M€ RABATT."
+ },
+ "Ecology Experts": {
+  "name": "Økologieksperter",
+  "desc": "Øk planteproduksjonen din 1 trinn. SPILL ET KORT FRA HÅNDEN, OG SE BORT FRA GLOBALE KRAV."
+ },
+ "Experimental Forest": {
+  "name": "Forsøksskog",
+  "desc": "Legg ut 1 skogbrikke, og hev oksygenet 1 trinn. Avslør kort til du har avslørt to kort med plantesymboler. Ta dem på hånden, og kast resten."
+ }
+}

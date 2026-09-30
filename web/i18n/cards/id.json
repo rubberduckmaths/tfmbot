@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Perusahaan Akuisisi",
+  "desc": "Naikkan produksi M€ Anda 3 tingkat."
+ },
+ "Advanced Alloys": {
+  "name": "Paduan Canggih",
+  "effects": [
+   "Setiap titanium Anda bernilai 1 M€ lebih.",
+   "Setiap baja Anda bernilai 1 M€ lebih."
+  ]
+ },
+ "AI Central": {
+  "name": "Pusat AI",
+  "desc": "Turunkan produksi energi Anda 1 tingkat.",
+  "actions": [
+   "Ambil 2 kartu."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Teknologi Antigravitasi",
+  "effects": [
+   "Saat Anda memainkan kartu, Anda membayar 2 M€ lebih murah."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Konsorsium Tambang Asteroid",
+  "desc": "Turunkan produksi titanium pemain mana pun 1 tingkat dan naikkan milik Anda 1 tingkat."
+ },
+ "Bribed Committee": {
+  "name": "Komite Tersuap",
+  "desc": "Naikkan TR Anda 2 tingkat."
+ },
+ "Building Industries": {
+  "name": "Industri Konstruksi",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi baja Anda 2 tingkat."
+ },
+ "Business Contacts": {
+  "name": "Kontak Bisnis",
+  "desc": "Lihat 4 kartu teratas dek. Ambil 2 ke tangan Anda dan buang sisanya."
+ },
+ "Business Network": {
+  "name": "Jaringan Bisnis",
+  "desc": "Turunkan produksi M€ Anda 1 tingkat.",
+  "actions": [
+   "Lihat kartu teratas, lalu beli atau buang kartu itu."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Tambang Penjara Callisto",
+  "desc": "Naikkan produksi M€ Anda 3 tingkat."
+ },
+ "Caretaker Contract": {
+  "name": "Kontrak Perawatan",
+  "actions": [
+   "Belanjakan 8 panas untuk menaikkan Peringkat Terraform Anda 1 tingkat."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat untuk setiap tag Bumi yang Anda miliki, termasuk yang ini."
+ },
+ "CEO's Favorite Project": {
+  "name": "Proyek Favorit CEO",
+  "desc": "Tambahkan 1 sumber daya ke salah satu kartu Anda yang sudah memiliki setidaknya 1 sumber daya."
+ },
+ "Commercial District": {
+  "name": "Distrik Komersial",
+  "desc": "Letakkan petak ini. Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 4 tingkat.",
+  "vpText": [
+   "1 PK per petak kota yang bersebelahan."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Benteng Korporasi",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 3 tingkat. Letakkan petak kota."
+ },
+ "Development Center": {
+  "name": "Pusat Pengembangan",
+  "actions": [
+   "Belanjakan 1 energi untuk mengambil kartu."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Katapel Bumi",
+  "effects": [
+   "Saat Anda memainkan kartu, Anda membayar 2 M€ lebih murah."
+  ]
+ },
+ "Earth Office": {
+  "name": "Kantor Bumi",
+  "effects": [
+   "Saat Anda memainkan tag Bumi, Anda membayar 3 M€ lebih murah."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Katapel Elektro",
+  "desc": "Turunkan produksi energi Anda 1 tingkat.",
+  "actions": [
+   "Belanjakan 1 tanaman atau 1 baja untuk mendapatkan 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Penyadapan Energi",
+  "desc": "Turunkan produksi energi pemain mana pun 1 tingkat dan naikkan milik Anda 1 tingkat."
+ },
+ "Fuel Factory": {
+  "name": "Pabrik Bahan Bakar",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi titanium serta produksi M€ Anda masing-masing 1 tingkat."
+ },
+ "Gene Repair": {
+  "name": "Perbaikan Gen",
+  "desc": "Naikkan produksi M€ Anda 2 tingkat."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Konsorsium Tebing Besar",
+  "desc": "Turunkan produksi baja pemain mana pun 1 tingkat dan naikkan milik Anda 1 tingkat."
+ },
+ "Hackers": {
+  "name": "Peretas",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan produksi M€ pemain mana pun 2 tingkat. Naikkan produksi M€ Anda 2 tingkat."
+ },
+ "Hired Raiders": {
+  "name": "Perampok Bayaran",
+  "desc": "Curi hingga 2 baja, atau 3 M€ dari pemain mana pun."
+ },
+ "Indentured Workers": {
+  "name": "Pekerja Kontrak",
+  "desc": "Kartu berikutnya yang Anda mainkan generasi ini 8 M€ lebih murah."
+ },
+ "Industrial Center": {
+  "name": "Pusat Industri",
+  "desc": "Letakkan petak ini bersebelahan dengan petak kota.",
+  "actions": [
+   "Belanjakan 7 M€ untuk menaikkan produksi baja Anda 1 tingkat."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Kapal Koloni Antarbintang"
+ },
+ "Invention Contest": {
+  "name": "Kontes Penemuan",
+  "desc": "Lihat 3 kartu teratas dek. Ambil 1 ke tangan Anda dan buang sisanya."
+ },
+ "Inventors' Guild": {
+  "name": "Serikat Penemu",
+  "actions": [
+   "Lihat kartu teratas, lalu beli atau buang kartu itu."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Pinjaman Investasi",
+  "desc": "Turunkan produksi M€ Anda 1 tingkat. Dapatkan 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Industri Tambang Io",
+  "desc": "Naikkan produksi titanium Anda 2 tingkat dan produksi M€ Anda 2 tingkat.",
+  "vpText": [
+   "1 PK per tag Jovian yang Anda miliki."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Observatorium Lagrange",
+  "desc": "Ambil 1 kartu."
+ },
+ "Land Claim": {
+  "name": "Klaim Lahan",
+  "desc": "Cadangkan area yang belum dicadangkan untuk diri Anda: hanya Anda yang boleh meletakkan petak di sana."
+ },
+ "Lightning Harvest": {
+  "name": "Panen Petir",
+  "desc": "Naikkan produksi energi dan produksi M€ Anda masing-masing satu tingkat."
+ },
+ "Mars University": {
+  "name": "Universitas Mars",
+  "effects": [
+   "Saat Anda memainkan tag sains, termasuk yang ini, Anda boleh membuang satu kartu dari tangan untuk mengambil satu kartu."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Konverter Massa",
+  "desc": "Naikkan produksi energi Anda 6 tingkat.",
+  "effects": [
+   "Saat Anda memainkan kartu antariksa, Anda membayar 2 M€ lebih murah."
+  ]
+ },
+ "Media Archives": {
+  "name": "Arsip Media",
+  "desc": "Dapatkan 1 M€ untuk setiap peristiwa yang PERNAH DIMAINKAN oleh semua pemain."
+ },
+ "Media Group": {
+  "name": "Grup Media",
+  "effects": [
+   "Setelah Anda memainkan kartu peristiwa, Anda mendapat 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Lab Medis",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat untuk setiap 2 tag bangunan yang Anda miliki, termasuk yang ini."
+ },
+ "Mine": {
+  "name": "Tambang",
+  "desc": "Naikkan produksi baja Anda 1 tingkat."
+ },
+ "Mineral Deposit": {
+  "name": "Endapan Mineral",
+  "desc": "Dapatkan 5 baja."
+ },
+ "Mining Area": {
+  "name": "Area Tambang",
+  "desc": "Letakkan petak ini di area dengan bonus penempatan baja atau titanium, bersebelahan dengan petak Anda yang lain. Naikkan produksi sumber daya tersebut 1 tingkat."
+ },
+ "Miranda Resort": {
+  "name": "Resor Miranda",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat untuk setiap tag Bumi yang Anda miliki."
+ },
+ "Olympus Conference": {
+  "name": "Konferensi Olympus",
+  "desc": "Saat Anda memainkan tag sains, termasuk yang ini, tambahkan sumber daya sains ke kartu ini, atau singkirkan sumber daya sains dari kartu ini untuk mengambil kartu."
+ },
+ "Physics Complex": {
+  "name": "Kompleks Fisika",
+  "actions": [
+   "Belanjakan 6 energi untuk menambahkan sumber daya sains ke kartu ini."
+  ],
+  "vpText": [
+   "2 PK untuk setiap sumber daya sains di kartu ini."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Infrastruktur Listrik",
+  "actions": [
+   "Belanjakan energi berapa pun dan dapatkan M€ sejumlah itu."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Konsorsium Pemasok Listrik",
+  "desc": "Turunkan produksi energi pemain mana pun 1 tingkat dan naikkan milik Anda 1 tingkat."
+ },
+ "Protected Habitats": {
+  "name": "Habitat Terlindung",
+  "effects": [
+   "Lawan tidak boleh menyingkirkan tanaman, hewan, atau mikroba Anda."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Ekstraktor Kuantum",
+  "desc": "Naikkan produksi energi Anda 4 tingkat.",
+  "effects": [
+   "Saat Anda memainkan kartu antariksa, Anda membayar 2 M€ lebih murah."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Baju Anti-Radiasi",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat."
+ },
+ "Research": {
+  "name": "Riset",
+  "desc": "Dihitung sebagai memainkan 2 kartu sains. Ambil 2 kartu."
+ },
+ "Restricted Area": {
+  "name": "Area Terlarang",
+  "desc": "Letakkan petak ini.",
+  "actions": [
+   "Belanjakan 2 M€ untuk mengambil kartu."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Tenaga Kerja Robotik",
+  "desc": "Gandakan hanya kotak produksi dari salah satu kartu bangunan Anda."
+ },
+ "Sabotage": {
+  "name": "Sabotase",
+  "desc": "Singkirkan hingga 3 titanium dari pemain mana pun, atau 4 baja, atau 7 M€."
+ },
+ "Satellites": {
+  "name": "Satelit",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat untuk setiap tag antariksa yang Anda miliki, termasuk yang ini."
+ },
+ "Security Fleet": {
+  "name": "Armada Keamanan",
+  "actions": [
+   "Belanjakan 1 titanium untuk menambahkan 1 pesawat tempur ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK untuk setiap pesawat tempur di kartu ini."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Lift Antariksa",
+  "desc": "Naikkan produksi titanium Anda 1 tingkat.",
+  "actions": [
+   "Belanjakan 1 baja untuk mendapatkan 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Stasiun Antariksa",
+  "effects": [
+   "Saat Anda memainkan kartu antariksa, Anda membayar 2 M€ lebih murah."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsor",
+  "desc": "Naikkan produksi M€ Anda 2 tingkat."
+ },
+ "Standard Technology": {
+  "name": "Teknologi Standar",
+  "effects": [
+   "Setelah Anda membayar proyek standar, kecuali menjual paten, Anda mendapat 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigrada",
+  "actions": [
+   "Tambahkan 1 mikroba ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per 4 mikroba di kartu ini."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Demonstrasi Teknologi",
+  "desc": "Ambil dua kartu."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraforming Ganymede",
+  "desc": "Naikkan TR Anda 1 tingkat untuk setiap tag Jovian yang Anda miliki, termasuk yang ini."
+ },
+ "Titanium Mine": {
+  "name": "Tambang Titanium",
+  "desc": "Naikkan produksi titanium Anda 1 tingkat."
+ },
+ "Toll Station": {
+  "name": "Gerbang Tol",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat untuk setiap tag antariksa yang dimiliki LAWAN Anda."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Wahana Trans-Neptunus",
+  "desc": "Wahana antariksa jauh: bernilai 1 PK."
+ },
+ "Tropical Resort": {
+  "name": "Resor Tropis",
+  "desc": "Turunkan produksi panas Anda 2 tingkat dan naikkan produksi M€ Anda 3 tingkat."
+ },
+ "Vesta Shipyard": {
+  "name": "Galangan Kapal Vesta",
+  "desc": "Naikkan produksi titanium Anda 1 tingkat."
+ },
+ "Viral Enhancers": {
+  "name": "Penguat Viral",
+  "effects": [
+   "Saat Anda memainkan tag tanaman, mikroba, atau hewan, termasuk yang ini, dapatkan 1 tanaman atau tambahkan 1 sumber daya ke KARTU ITU."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Singkirkan hingga 2 hewan atau 5 tanaman dari pemain mana pun."
+ },
+ "SF Memorial": {
+  "name": "Monumen SF",
+  "desc": "Ambil 1 kartu."
+ },
+ "House Printing": {
+  "name": "Rumah Cetak",
+  "desc": "Naikkan produksi baja Anda 1 tingkat."
+ },
+ "Space Hotels": {
+  "name": "Hotel Antariksa",
+  "desc": "Naikkan produksi M€ 4 tingkat."
+ },
+ "Martian Survey": {
+  "name": "Survei Mars",
+  "desc": "Ambil dua kartu."
+ },
+ "Research Coordination": {
+  "name": "Koordinasi Riset",
+  "desc": "Setelah dimainkan, saat Anda melakukan aksi, tag bebas dihitung sebagai tag apa pun pilihan Anda."
+ },
+ "Lava Tube Settlement": {
+  "name": "Permukiman Tabung Lava",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 2 tingkat. Letakkan petak kota di AREA VULKANIK tanpa memedulikan kota di sebelahnya."
+ },
+ "Psychrophiles": {
+  "name": "Psikrofil",
+  "actions": [
+   "Tambahkan 1 mikroba ke kartu ini."
+  ],
+  "effects": [
+   "Saat membayar kartu tanaman, mikroba di sini dapat dipakai sebagai 2 M€ masing-masing."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Teknologi Adaptasi",
+  "effects": [
+   "Persyaratan global Anda +2 atau -2 tingkat, sesuai pilihan Anda di setiap kasus."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Lumut Kerak Adaptif",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ekosistem Maju"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroid Amonia Aerobraking",
+  "desc": "Naikkan produksi panas Anda 3 tingkat dan produksi tanaman Anda 1 tingkat. Tambahkan 2 mikroba ke kartu LAIN."
+ },
+ "Ants": {
+  "name": "Semut",
+  "actions": [
+   "Singkirkan 1 mikroba dari kartu mana pun untuk menambahkan 1 ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per 2 mikroba di kartu ini."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Pemompaan Akuifer",
+  "actions": [
+   "Belanjakan 8 M€ untuk meletakkan 1 petak samudra. BAJA BOLEH DIPAKAI seolah-olah Anda memainkan kartu bangunan."
+  ]
+ },
+ "Algae": {
+  "name": "Alga",
+  "desc": "Dapatkan 1 tanaman dan naikkan produksi tanaman Anda 2 tingkat."
+ },
+ "ArchaeBacteria": {
+  "name": "Arkebakteri",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat."
+ },
+ "Arctic Algae": {
+  "name": "Alga Arktik",
+  "desc": "Dapatkan 1 tanaman.",
+  "effects": [
+   "Saat siapa pun meletakkan petak samudra, dapatkan 2 tanaman."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Danau Buatan",
+  "desc": "Letakkan 1 petak samudra DI AREA YANG TIDAK DICADANGKAN UNTUK SAMUDRA."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Fotosintesis Buatan",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat atau produksi energi Anda 2 tingkat.",
+  "orTitles": [
+   "Naikkan produksi energi Anda 2 tingkat",
+   "Naikkan produksi tanaman Anda 1 tingkat"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Naikkan suhu 1 tingkat dan dapatkan 2 titanium. Singkirkan hingga 3 tanaman dari pemain mana pun."
+ },
+ "Asteroid Mining": {
+  "name": "Tambang Asteroid",
+  "desc": "Naikkan produksi titanium Anda 2 tingkat."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Sinar dari Asteroid Torium",
+  "desc": "Naikkan produksi panas dan produksi energi Anda masing-masing 3 tingkat."
+ },
+ "Big Asteroid": {
+  "name": "Asteroid Besar",
+  "desc": "Naikkan suhu 2 tingkat dan dapatkan 4 titanium. Singkirkan hingga 4 tanaman dari pemain mana pun."
+ },
+ "Biomass Combustors": {
+  "name": "Pembakar Biomassa",
+  "desc": "Turunkan produksi tanaman pemain mana pun 1 tingkat dan naikkan produksi energi Anda 2 tingkat."
+ },
+ "Birds": {
+  "name": "Burung",
+  "desc": "Turunkan produksi tanaman pemain mana pun 2 tingkat. 1 PK per hewan di kartu ini.",
+  "actions": [
+   "Tambahkan satu hewan ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per hewan di kartu ini."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Debu Kutub Hitam",
+  "desc": "Letakkan petak samudra. Turunkan produksi M€ Anda 2 tingkat dan naikkan produksi panas Anda 3 tingkat."
+ },
+ "Breathing Filters": {
+  "name": "Filter Napas"
+ },
+ "Bushes": {
+  "name": "Semak",
+  "desc": "Naikkan produksi tanaman Anda 2 tingkat. Dapatkan 2 tanaman."
+ },
+ "Capital": {
+  "name": "Ibu Kota",
+  "desc": "Letakkan petak ini. Turunkan produksi energi Anda 2 tingkat dan naikkan produksi M€ Anda 5 tingkat.",
+  "vpText": [
+   "1 PK tambahan untuk setiap petak samudra yang bersebelahan dengan petak kota ini."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Pengolahan Karbonat",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi panas Anda 3 tingkat."
+ },
+ "Cloud Seeding": {
+  "name": "Penyemaian Awan",
+  "desc": "Turunkan produksi M€ Anda 1 tingkat dan produksi panas pemain mana pun 1 tingkat. Naikkan produksi tanaman Anda 2 tingkat."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kamp Pelatihan Kolonis"
+ },
+ "Comet": {
+  "name": "Komet",
+  "desc": "Naikkan suhu 1 tingkat dan letakkan petak samudra. Singkirkan hingga 3 tanaman dari pemain mana pun."
+ },
+ "Convoy From Europa": {
+  "name": "Konvoi dari Europa",
+  "desc": "Letakkan 1 petak samudra dan ambil 1 kartu."
+ },
+ "Cupola City": {
+  "name": "Kota Kubah",
+  "desc": "Letakkan petak kota. Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 3 tingkat."
+ },
+ "Decomposers": {
+  "name": "Pengurai",
+  "effects": [
+   "Saat Anda memainkan tag hewan, tanaman, atau mikroba, termasuk yang ini, tambahkan satu mikroba ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per 3 mikroba di kartu ini."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Pemanasan Sumur Dalam",
+  "desc": "Naikkan produksi energi Anda 1 tingkat. Naikkan suhu 1 tingkat."
+ },
+ "Deimos Down": {
+  "name": "Deimos Jatuh",
+  "desc": "Naikkan suhu 3 tingkat dan dapatkan 4 baja. Singkirkan hingga 8 tanaman dari pemain mana pun."
+ },
+ "Designed Microorganisms": {
+  "name": "Mikroorganisme Rekayasa",
+  "desc": "Naikkan produksi tanaman Anda 2 tingkat."
+ },
+ "Domed Crater": {
+  "name": "Kawah Berkubah",
+  "desc": "Dapatkan 3 tanaman. Letakkan petak kota. Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 3 tingkat."
+ },
+ "Dust Seals": {
+  "name": "Segel Debu"
+ },
+ "Ecological Zone": {
+  "name": "Zona Ekologi",
+  "desc": "Letakkan petak ini bersebelahan dengan lahan hijau MANA PUN.",
+  "effects": [
+   "Saat Anda memainkan tag hewan atau tanaman, TERMASUK YANG INI, tambahkan satu hewan ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per 2 hewan di kartu ini."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Hemat Energi",
+  "desc": "Naikkan produksi energi Anda 1 tingkat untuk setiap petak kota dalam permainan."
+ },
+ "Eos Chasma National Park": {
+  "name": "Taman Nasional Eos Chasma",
+  "desc": "Tambahkan 1 hewan KE KARTU HEWAN MANA PUN. Dapatkan 3 tanaman. Naikkan produksi M€ Anda 2 tingkat."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Magnetiser Khatulistiwa",
+  "actions": [
+   "Turunkan produksi energi Anda 1 tingkat untuk menaikkan Peringkat Terraform Anda 1 tingkat."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Jamur Suhu Ekstrem",
+  "actions": [
+   "Dapatkan 1 tanaman.",
+   "Tambahkan 2 mikroba ke kartu LAIN."
+  ]
+ },
+ "Farming": {
+  "name": "Pertanian",
+  "desc": "Naikkan produksi M€ Anda 2 tingkat dan produksi tanaman Anda 2 tingkat. Dapatkan 2 tanaman."
+ },
+ "Fish": {
+  "name": "Ikan",
+  "desc": "Turunkan produksi tanaman pemain mana pun 1 tingkat.",
+  "actions": [
+   "Tambahkan 1 hewan ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK untuk setiap hewan di kartu ini."
+  ]
+ },
+ "Flooding": {
+  "name": "Banjir",
+  "desc": "Letakkan petak samudra. JIKA ADA PETAK YANG BERSEBELAHAN DENGAN PETAK SAMUDRA INI, ANDA BOLEH MENYINGKIRKAN 4 M€ DARI PEMILIK SALAH SATU PETAK TERSEBUT."
+ },
+ "Food Factory": {
+  "name": "Pabrik Makanan",
+  "desc": "Turunkan produksi tanaman Anda 1 tingkat dan naikkan produksi M€ Anda 4 tingkat."
+ },
+ "Fusion Power": {
+  "name": "Tenaga Fusi",
+  "desc": "Naikkan produksi energi Anda 3 tingkat."
+ },
+ "Fueled Generators": {
+  "name": "Generator Berbahan Bakar",
+  "desc": "Turunkan produksi M€ Anda 1 tingkat dan naikkan produksi energi Anda 1 tingkat."
+ },
+ "Ganymede Colony": {
+  "name": "Koloni Ganymede",
+  "desc": "Letakkan petak kota DI AREA YANG DICADANGKAN.",
+  "vpText": [
+   "1 PK per tag Jovian yang Anda miliki."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Tenaga Panas Bumi",
+  "desc": "Naikkan produksi energi Anda 2 tingkat."
+ },
+ "GHG Factories": {
+  "name": "Pabrik GRK",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi panas Anda 4 tingkat."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bakteri Penghasil GRK",
+  "actions": [
+   "Tambahkan 1 mikroba ke kartu ini.",
+   "Singkirkan 2 mikroba untuk menaikkan suhu 1 tingkat."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroid Es Raksasa",
+  "desc": "Naikkan suhu 2 tingkat dan letakkan 2 petak samudra. Singkirkan hingga 6 tanaman dari pemain mana pun."
+ },
+ "Giant Space Mirror": {
+  "name": "Cermin Antariksa Raksasa",
+  "desc": "Naikkan produksi energi Anda 3 tingkat."
+ },
+ "Grass": {
+  "name": "Rumput",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat. Dapatkan 3 tanaman."
+ },
+ "Great Dam": {
+  "name": "Bendungan Raksasa",
+  "desc": "Naikkan produksi energi Anda 2 tingkat."
+ },
+ "Greenhouses": {
+  "name": "Rumah Kaca",
+  "desc": "Dapatkan 1 tanaman untuk setiap petak kota dalam permainan."
+ },
+ "Heather": {
+  "name": "Semak Heather",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat. Dapatkan 1 tanaman."
+ },
+ "Heat Trappers": {
+  "name": "Perangkap Panas",
+  "desc": "Turunkan produksi panas pemain mana pun 2 tingkat dan naikkan produksi energi Anda 1 tingkat."
+ },
+ "Herbivores": {
+  "name": "Herbivora",
+  "desc": "+1 hewan ke kartu ini. -1 produksi tanaman pemain mana pun",
+  "effects": [
+   "Saat Anda meletakkan petak lahan hijau, tambahkan satu hewan ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per 2 hewan di kartu ini."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroid Es",
+  "desc": "Letakkan 2 petak samudra."
+ },
+ "Ice Cap Melting": {
+  "name": "Pencairan Tudung Es",
+  "desc": "Letakkan 1 petak samudra."
+ },
+ "Immigrant City": {
+  "name": "Kota Imigran",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan turunkan produksi M€ Anda 2 tingkat. Letakkan petak kota.",
+  "effects": [
+   "Saat petak kota diletakkan, termasuk yang ini, naikkan produksi M€ Anda 1 tingkat."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Ulang-alik Imigrasi",
+  "desc": "Naikkan produksi M€ Anda 5 tingkat.",
+  "vpText": [
+   "1 PK untuk setiap 3 kota dalam permainan."
+  ]
+ },
+ "Imported GHG": {
+  "name": "GRK Impor",
+  "desc": "Naikkan produksi panas Anda 1 tingkat dan dapatkan 3 panas."
+ },
+ "Imported Hydrogen": {
+  "name": "Hidrogen Impor",
+  "desc": "Dapatkan 3 tanaman, atau tambahkan 3 mikroba atau 2 hewan ke kartu LAIN. Letakkan petak samudra.",
+  "orTitles": [
+   "Dapatkan 3 tanaman",
+   "Tambahkan 3 mikroba ke kartu LAIN",
+   "Tambahkan 2 hewan ke kartu LAIN"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitrogen Impor",
+  "desc": "Naikkan TR Anda 1 tingkat dan dapatkan 4 tanaman. Tambahkan 3 mikroba ke kartu LAIN dan 2 hewan ke kartu LAIN."
+ },
+ "Import of Advanced GHG": {
+  "name": "Impor GRK Canggih",
+  "desc": "Naikkan produksi panas Anda 2 tingkat."
+ },
+ "Industrial Microbes": {
+  "name": "Mikroba Industri",
+  "desc": "Naikkan produksi energi dan produksi baja Anda masing-masing 1 tingkat."
+ },
+ "Insects": {
+  "name": "Serangga",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat untuk setiap tag tanaman yang Anda miliki."
+ },
+ "Insulation": {
+  "name": "Insulasi",
+  "desc": "Turunkan produksi panas Anda berapa pun tingkat dan naikkan produksi M€ Anda sebanyak tingkat yang sama."
+ },
+ "Ironworks": {
+  "name": "Pabrik Besi",
+  "actions": [
+   "Belanjakan 4 energi untuk mendapatkan 1 baja dan menaikkan oksigen 1 tingkat."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Budidaya Rumput Laut",
+  "desc": "Naikkan produksi M€ Anda 2 tingkat dan produksi tanaman Anda 3 tingkat. Dapatkan 2 tanaman."
+ },
+ "Lake Marineris": {
+  "name": "Danau Marineris",
+  "desc": "Letakkan 2 petak samudra."
+ },
+ "Large Convoy": {
+  "name": "Konvoi Besar",
+  "desc": "Letakkan petak samudra dan ambil 2 kartu. Dapatkan 5 tanaman atau tambahkan 4 hewan ke kartu LAIN.",
+  "orTitles": [
+   "Dapatkan 5 tanaman",
+   "Tambahkan 4 hewan ke kartu LAIN"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Aliran Lava",
+  "desc": "Naikkan suhu 2 tingkat dan letakkan petak ini DI THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS, ATAU ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Lumut Kerak",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat."
+ },
+ "Livestock": {
+  "name": "Ternak",
+  "desc": "Turunkan produksi tanaman Anda 1 tingkat dan naikkan produksi M€ Anda 2 tingkat",
+  "actions": [
+   "Tambahkan 1 hewan ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK untuk setiap hewan di kartu ini."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Perangkap Panas Lokal",
+  "desc": "Belanjakan 5 panas untuk mendapatkan 4 tanaman, atau untuk menambahkan 2 hewan ke kartu LAIN.",
+  "orTitles": [
+   "Dapatkan 4 tanaman",
+   "Tambahkan 2 hewan ke kartu LAIN"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Sinar Bulan",
+  "desc": "Turunkan produksi M€ Anda 2 tingkat dan naikkan produksi panas serta produksi energi Anda masing-masing 2 tingkat."
+ },
+ "Magnetic Field Dome": {
+  "name": "Kubah Medan Magnet",
+  "desc": "Turunkan produksi energi Anda 2 tingkat dan naikkan produksi tanaman Anda 1 tingkat. Naikkan TR Anda 1 tingkat."
+ },
+ "Magnetic Field Generators": {
+  "name": "Generator Medan Magnet",
+  "desc": "Turunkan produksi energi Anda 4 tingkat dan naikkan produksi tanaman Anda 2 tingkat. Naikkan TR Anda 3 tingkat."
+ },
+ "Mangrove": {
+  "name": "Bakau",
+  "desc": "Letakkan petak lahan hijau DI AREA YANG DICADANGKAN UNTUK SAMUDRA dan naikkan oksigen 1 tingkat. Abaikan batasan penempatan normal untuk ini."
+ },
+ "Martian Rails": {
+  "name": "Rel Mars",
+  "actions": [
+   "Belanjakan 1 energi untuk mendapatkan 1 M€ untuk setiap petak kota DI MARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metana dari Titan",
+  "desc": "Naikkan produksi panas Anda 2 tingkat dan produksi tanaman Anda 2 tingkat."
+ },
+ "Micro-Mills": {
+  "name": "Kincir Mikro",
+  "desc": "Naikkan produksi panas Anda 1 tingkat."
+ },
+ "Mining Expedition": {
+  "name": "Ekspedisi Tambang",
+  "desc": "Naikkan oksigen 1 tingkat. Singkirkan 2 tanaman dari pemain mana pun. Dapatkan 2 baja."
+ },
+ "Mining Rights": {
+  "name": "Hak Tambang",
+  "desc": "Letakkan petak ini di area dengan bonus penempatan baja atau titanium. Naikkan produksi tersebut 1 tingkat."
+ },
+ "Mohole Area": {
+  "name": "Area Mohole",
+  "desc": "Naikkan produksi panas Anda 4 tingkat. Letakkan petak ini DI AREA YANG DICADANGKAN UNTUK SAMUDRA."
+ },
+ "Moss": {
+  "name": "Lumut",
+  "desc": "Kehilangan 1 tanaman. Naikkan produksi tanaman Anda 1 tingkat."
+ },
+ "Natural Preserve": {
+  "name": "Cagar Alam",
+  "desc": "Letakkan petak ini TIDAK BERSEBELAHAN DENGAN PETAK LAIN MANA PUN. Naikkan produksi M€ Anda 1 tingkat."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bakteri Pereduksi Nitrit",
+  "desc": "Tambahkan 3 mikroba ke kartu ini.",
+  "actions": [
+   "Tambahkan 1 mikroba ke kartu ini.",
+   "Singkirkan 3 mikroba untuk menaikkan TR Anda 1 tingkat."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid Kaya Nitrogen",
+  "desc": "Naikkan Peringkat Terraform Anda 2 tingkat dan suhu 1 tingkat. Naikkan produksi tanaman Anda 1 tingkat, atau 4 tingkat jika Anda memiliki 3 tag tanaman."
+ },
+ "Nitrophilic Moss": {
+  "name": "Lumut Nitrofilik",
+  "desc": "Kehilangan 2 tanaman. Naikkan produksi tanaman Anda 2 tingkat."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 3 tingkat. Letakkan petak kota DI AREA YANG DICADANGKAN, tanpa memedulikan batasan penempatan normal."
+ },
+ "Noctis Farming": {
+  "name": "Pertanian Noctis",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat dan dapatkan 2 tanaman."
+ },
+ "Nuclear Power": {
+  "name": "Tenaga Nuklir",
+  "desc": "Turunkan produksi M€ Anda 2 tingkat dan naikkan produksi energi Anda 3 tingkat."
+ },
+ "Nuclear Zone": {
+  "name": "Zona Nuklir",
+  "desc": "Letakkan petak ini dan naikkan suhu 2 tingkat."
+ },
+ "Open City": {
+  "name": "Kota Terbuka",
+  "desc": "Dapatkan 2 tanaman. Letakkan petak kota. Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 4 tingkat."
+ },
+ "Optimal Aerobraking": {
+  "name": "Aerobraking Optimal",
+  "effects": [
+   "Saat Anda memainkan peristiwa antariksa, Anda mendapat 3 M€ dan 3 panas."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Pengolah Bijih",
+  "actions": [
+   "Belanjakan 4 energi untuk mendapatkan 1 titanium dan menaikkan oksigen 1 tingkat."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Ekstraksi Permafrost",
+  "desc": "Letakkan 1 petak samudra."
+ },
+ "Peroxide Power": {
+  "name": "Tenaga Peroksida",
+  "desc": "Turunkan produksi M€ Anda 1 tingkat dan naikkan produksi energi Anda 2 tingkat."
+ },
+ "Pets": {
+  "name": "Hewan Peliharaan",
+  "desc": "Tambahkan 1 hewan ke kartu ini.",
+  "effects": [
+   "Saat petak kota mana pun diletakkan, tambahkan satu hewan ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per 2 hewan di sini."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Pelabuhan Antariksa Phobos",
+  "desc": "Naikkan produksi titanium Anda 1 tingkat dan letakkan petak kota DI AREA YANG DICADANGKAN."
+ },
+ "Plantation": {
+  "name": "Perkebunan",
+  "desc": "Letakkan petak lahan hijau dan naikkan oksigen 1 tingkat."
+ },
+ "Power Grid": {
+  "name": "Jaringan Listrik",
+  "desc": "Naikkan produksi energi Anda satu tingkat untuk setiap tag energi yang Anda miliki, termasuk yang ini."
+ },
+ "Power Plant": {
+  "name": "Pembangkit Listrik",
+  "desc": "Naikkan produksi energi Anda 1 tingkat."
+ },
+ "Predators": {
+  "name": "Predator",
+  "actions": [
+   "Singkirkan 1 hewan dari kartu mana pun dan tambahkan ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per hewan di kartu ini."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Lembah Lindung",
+  "desc": "Naikkan produksi M€ Anda 2 tingkat. Letakkan petak lahan hijau DI AREA YANG DICADANGKAN UNTUK SAMUDRA, tanpa memedulikan batasan penempatan normal, dan naikkan oksigen 1 tingkat."
+ },
+ "Rad-Chem Factory": {
+  "name": "Pabrik Kimia Radiasi",
+  "desc": "Turunkan produksi energi Anda 1 tingkat. Naikkan TR Anda 2 tingkat."
+ },
+ "Regolith Eaters": {
+  "name": "Pemakan Regolit",
+  "actions": [
+   "Tambahkan 1 mikroba ke kartu ini.",
+   "Singkirkan 2 mikroba dari kartu ini untuk menaikkan kadar oksigen 1 tingkat."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Pelepasan Gas Inert",
+  "desc": "Naikkan Peringkat Terraform Anda 2 tingkat."
+ },
+ "Research Outpost": {
+  "name": "Pos Riset",
+  "desc": "Letakkan petak kota TIDAK BERSEBELAHAN DENGAN PETAK LAIN MANA PUN.",
+  "effects": [
+   "Saat Anda memainkan kartu, Anda membayar 1 M€ lebih murah."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Konstruksi Rover",
+  "effects": [
+   "Saat petak kota mana pun diletakkan, dapatkan 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Pencarian Kehidupan",
+  "actions": [
+   "Belanjakan 1 M€ untuk mengungkap kartu teratas dek. Jika kartu itu memiliki tag mikroba, tambahkan sumber daya sains di sini."
+  ],
+  "vpText": [
+   "3 PK jika Anda memiliki satu atau lebih sumber daya sains di sini."
+  ]
+ },
+ "Shuttles": {
+  "name": "Pesawat Ulang-alik",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 2 tingkat.",
+  "effects": [
+   "Saat Anda memainkan kartu antariksa, Anda membayar 2 M€ lebih murah."
+  ]
+ },
+ "Small Animals": {
+  "name": "Hewan Kecil",
+  "desc": "Turunkan produksi tanaman pemain mana pun 1 tingkat.",
+  "actions": [
+   "Tambahkan 1 hewan ke kartu ini."
+  ],
+  "vpText": [
+   "1 PK per 2 hewan di kartu ini."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Pabrik Tanah",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi tanaman Anda 1 tingkat."
+ },
+ "Solar Power": {
+  "name": "Tenaga Surya",
+  "desc": "Naikkan produksi energi Anda 1 tingkat."
+ },
+ "Solar Wind Power": {
+  "name": "Tenaga Angin Surya",
+  "desc": "Naikkan produksi energi Anda 1 tingkat dan dapatkan 2 titanium."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Naikkan produksi panas Anda 7 tingkat."
+ },
+ "Space Mirrors": {
+  "name": "Cermin Antariksa",
+  "actions": [
+   "Belanjakan 7 M€ untuk menaikkan produksi energi Anda 1 tingkat."
+  ]
+ },
+ "Special Design": {
+  "name": "Desain Khusus",
+  "desc": "Kartu berikutnya yang Anda mainkan generasi ini mendapat +2 atau -2 tingkat pada persyaratan global, sesuai pilihan Anda."
+ },
+ "Steelworks": {
+  "name": "Pabrik Baja",
+  "actions": [
+   "Belanjakan 4 energi untuk mendapatkan 2 baja dan menaikkan oksigen 1 tingkat."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Tambang Terbuka",
+  "desc": "Turunkan produksi energi Anda 2 tingkat. Naikkan produksi baja Anda 2 tingkat dan produksi titanium Anda 1 tingkat. Naikkan oksigen 2 tingkat."
+ },
+ "Subterranean Reservoir": {
+  "name": "Waduk Bawah Tanah",
+  "desc": "Letakkan 1 petak samudra."
+ },
+ "Symbiotic Fungus": {
+  "name": "Jamur Simbiotik",
+  "actions": [
+   "Tambahkan satu mikroba ke kartu LAIN."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tenaga Tekanan Tektonik",
+  "desc": "Naikkan produksi energi Anda 3 tingkat."
+ },
+ "Towing A Comet": {
+  "name": "Menarik Komet",
+  "desc": "Dapatkan 2 tanaman. Naikkan kadar oksigen 1 tingkat dan letakkan petak samudra."
+ },
+ "Trees": {
+  "name": "Pepohonan",
+  "desc": "Naikkan produksi tanaman Anda 3 tingkat. Dapatkan 1 tanaman."
+ },
+ "Tundra Farming": {
+  "name": "Pertanian Tundra",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat dan produksi M€ Anda 2 tingkat. Dapatkan 1 tanaman."
+ },
+ "Underground City": {
+  "name": "Kota Bawah Tanah",
+  "desc": "Letakkan petak kota. Turunkan produksi energi Anda 2 tingkat dan naikkan produksi baja Anda 2 tingkat."
+ },
+ "Underground Detonations": {
+  "name": "Ledakan Bawah Tanah",
+  "actions": [
+   "Belanjakan 10 M€ untuk menaikkan produksi panas Anda 2 tingkat."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Kawasan Urban",
+  "desc": "Turunkan produksi energi Anda 1 tingkat dan naikkan produksi M€ Anda 2 tingkat. Letakkan petak kota BERSEBELAHAN DENGAN SETIDAKNYA 2 PETAK KOTA LAIN."
+ },
+ "Water Import From Europa": {
+  "name": "Impor Air dari Europa",
+  "actions": [
+   "Bayar 12 M€ untuk meletakkan petak samudra. TITANIUM BOLEH DIPAKAI seolah-olah memainkan kartu antariksa."
+  ],
+  "vpText": [
+   "1 PK untuk setiap tag Jovian yang Anda miliki."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Instalasi Pemecah Air",
+  "actions": [
+   "Belanjakan 3 energi untuk menaikkan oksigen 1 tingkat."
+  ]
+ },
+ "Wave Power": {
+  "name": "Tenaga Ombak",
+  "desc": "Naikkan produksi energi Anda 1 tingkat."
+ },
+ "Windmills": {
+  "name": "Kincir Angin",
+  "desc": "Naikkan produksi energi Anda 1 tingkat."
+ },
+ "Worms": {
+  "name": "Cacing",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat untuk setiap 2 tag mikroba yang Anda miliki, termasuk yang ini."
+ },
+ "Zeppelins": {
+  "name": "Zeppelin",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat untuk setiap petak kota DI MARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Anda mulai dengan 1 produksi titanium dan 42 M€.",
+  "effects": [
+   "Setiap kali tag Jovian mana pun dimainkan, termasuk yang ini, naikkan produksi M€ Anda 1 tingkat."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Anda mulai dengan 60 M€.",
+  "effects": [
+   "Saat Anda memainkan tag Bumi, Anda membayar 3 M€ lebih murah."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Anda mulai dengan 3 produksi M€ dan 44 M€.",
+  "effects": [
+   "Saat Anda memainkan tag bangunan, Anda membayar 2 M€ lebih murah."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Anda mulai dengan 1 produksi titanium dan 38 M€.",
+  "effects": [
+   "Saat Anda memainkan tag Bumi, termasuk yang ini, ambil satu kartu."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Anda mulai dengan 47 M€.",
+  "actions": [
+   "Belanjakan 4 M€ untuk menaikkan (salah satu) produksi TERENDAH Anda 1 tingkat."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Anda mulai dengan 37 M€. Sebagai aksi pertama Anda, ambil 3 kartu Prelude dan mainkan salah satunya. Buang dua lainnya.",
+  "effects": [
+   "Saat Anda memainkan tag sains, Anda membayar 2 M€ lebih murah."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Anda mulai dengan 45 M€. Sebagai aksi pertama Anda, danai satu penghargaan secara gratis.",
+  "effects": [
+   "Saat Anda memainkan kartu dengan ikon PK yang TIDAK NEGATIF, termasuk yang ini, dapatkan 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Korporasi Pemula",
+  "desc": "Anda mulai dengan 42 M€. Alih-alih memilih dari 10 kartu saat persiapan, Anda mendapat 10 kartu secara gratis."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Anda mulai dengan 57 M€.",
+  "effects": [
+   "Setelah Anda membayar kartu atau proyek standar dengan biaya dasar 20 M€ atau lebih, Anda mendapat 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Anda mulai dengan 2 produksi tanaman, 3 tanaman, dan 36 M€.",
+  "effects": [
+   "Anda selalu boleh membayar 7 tanaman, bukan 8, untuk meletakkan lahan hijau."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Anda mulai dengan 3 produksi panas dan 42 M€.",
+  "effects": [
+   "Anda boleh memakai panas sebagai M€. Anda tidak boleh memakai M€ sebagai panas."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Anda mulai dengan 20 baja dan 30 M€.",
+  "effects": [
+   "Setiap kali Anda memainkan peristiwa, Anda mendapat 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Sebagai aksi pertama Anda dalam permainan, ambil 3 kartu. Mulai dengan 45 M€.",
+  "effects": [
+   "Persyaratan suhu, oksigen, samudra, dan Venus Anda +2 atau -2 tingkat, sesuai pilihan Anda di setiap kasus."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Serikat Penambang",
+  "desc": "Anda mulai dengan 30 M€, 5 baja, dan 1 produksi baja.",
+  "effects": [
+   "Setiap kali Anda meletakkan petak di area dengan bonus penempatan baja atau titanium, naikkan produksi baja Anda 1 tingkat"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Anda mulai dengan 10 titanium dan 23 M€.",
+  "effects": [
+   "Setiap titanium Anda bernilai 1 M€ lebih."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republik Tharsis",
+  "desc": "Anda mulai dengan 40 M€. Sebagai aksi pertama Anda dalam permainan, letakkan petak kota.",
+  "effects": [
+   "Saat petak kota mana pun diletakkan DI MARS, naikkan produksi M€ Anda 1 tingkat. Saat Anda meletakkan petak kota, dapatkan 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Anda mulai dengan 1 produksi energi dan 48 M€.",
+  "effects": [
+   "Saat memainkan kartu energi ATAU PROYEK STANDAR PEMBANGKIT LISTRIK, Anda membayar 3 M€ lebih murah."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Inisiatif Mars PBB",
+  "desc": "Anda mulai dengan 40 M€.",
+  "actions": [
+   "Jika Peringkat Terraform Anda naik generasi ini, Anda boleh membayar 3 M€ untuk menaikkannya 1 tingkat lagi."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Bank Sekutu",
+  "desc": "Naikkan produksi M€ Anda 4 tingkat. Dapatkan 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Dukungan Biosfer",
+  "desc": "Naikkan produksi tanaman Anda 2 tingkat. Turunkan produksi M€ Anda 1 tingkat."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbin Akuifer",
+  "desc": "Letakkan petak samudra. Naikkan produksi energi Anda 2 tingkat. Bayar 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Penggalian Mohole",
+  "desc": "Naikkan produksi baja Anda 1 tingkat dan produksi panas 2 tingkat. Dapatkan 2 panas."
+ },
+ "Early Settlement": {
+  "name": "Permukiman Awal",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat. Letakkan petak kota."
+ },
+ "Biofuels": {
+  "name": "Bahan Bakar Nabati",
+  "desc": "Naikkan produksi energi dan tanaman Anda 1 tingkat. Dapatkan 2 tanaman."
+ },
+ "Power Generation": {
+  "name": "Pembangkitan Listrik",
+  "desc": "Naikkan produksi energi Anda 3 tingkat."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Permukiman Mandiri",
+  "desc": "Naikkan produksi M€ Anda 2 tingkat. Letakkan petak kota."
+ },
+ "Mining Operations": {
+  "name": "Operasi Tambang",
+  "desc": "Naikkan produksi baja Anda 2 tingkat. Dapatkan 4 baja."
+ },
+ "UNMI Contractor": {
+  "name": "Kontraktor UNMI",
+  "desc": "Naikkan TR Anda 3 tingkat. Ambil satu kartu."
+ },
+ "Dome Farming": {
+  "name": "Pertanian Kubah",
+  "desc": "Naikkan produksi M€ Anda 2 tingkat dan produksi tanaman 1 tingkat."
+ },
+ "Business Empire": {
+  "name": "Kerajaan Bisnis",
+  "desc": "Naikkan produksi M€ Anda 6 tingkat. Bayar 6 M€."
+ },
+ "Donation": {
+  "name": "Donasi",
+  "desc": "Dapatkan 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Kiriman Nitrogen",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat. Naikkan TR Anda 1 tingkat. Dapatkan 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Pabrik Peleburan",
+  "desc": "Naikkan oksigen 2 tingkat. Dapatkan 5 baja."
+ },
+ "Supplier": {
+  "name": "Pemasok",
+  "desc": "Naikkan produksi energi Anda 2 tingkat. Dapatkan 4 baja."
+ },
+ "Supply Drop": {
+  "name": "Kiriman Pasokan",
+  "desc": "Dapatkan 3 titanium, 8 baja, dan 3 tanaman."
+ },
+ "Great Aquifer": {
+  "name": "Akuifer Raksasa",
+  "desc": "Letakkan 2 petak samudra."
+ },
+ "Biolab": {
+  "name": "Biolab",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat. Ambil 3 kartu."
+ },
+ "Martian Industries": {
+  "name": "Industri Mars",
+  "desc": "Naikkan produksi energi dan baja Anda 1 tingkat. Dapatkan 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Pos Riset Io",
+  "desc": "Naikkan produksi titanium Anda 1 tingkat. Ambil satu kartu."
+ },
+ "Polar Industries": {
+  "name": "Industri Kutub",
+  "desc": "Naikkan produksi panas Anda 2 tingkat. Letakkan petak samudra."
+ },
+ "Society Support": {
+  "name": "Dukungan Masyarakat",
+  "desc": "Naikkan produksi tanaman, energi, dan panas Anda 1 tingkat. Turunkan produksi M€ 1 tingkat."
+ },
+ "Galilean Mining": {
+  "name": "Tambang Galilean",
+  "desc": "Naikkan produksi titanium Anda 2 tingkat. Bayar 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroid Mahabesar",
+  "desc": "Naikkan suhu 3 tingkat. Bayar 5 M€."
+ },
+ "Metals Company": {
+  "name": "Perusahaan Logam",
+  "desc": "Naikkan produksi M€, baja, dan titanium Anda 1 tingkat."
+ },
+ "Loan": {
+  "name": "Pinjaman",
+  "desc": "Dapatkan 30 M€. Turunkan produksi M€ Anda 2 tingkat."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Naikkan produksi panas Anda 3 tingkat. Dapatkan 3 panas."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid Kaya Logam",
+  "desc": "Naikkan suhu 1 tingkat. Dapatkan 4 titanium dan 4 baja."
+ },
+ "Orbital Construction Yard": {
+  "name": "Galangan Konstruksi Orbit",
+  "desc": "Naikkan produksi titanium Anda 1 tingkat. Dapatkan 4 titanium."
+ },
+ "Acquired Space Agency": {
+  "name": "Badan Antariksa Akuisisi",
+  "desc": "Dapatkan 6 titanium. Ungkap kartu sampai Anda mengungkap dua kartu dengan tag antariksa. Ambil keduanya ke tangan Anda, buang sisanya."
+ },
+ "Research Network": {
+  "name": "Jaringan Riset",
+  "desc": "Naikkan produksi M€ Anda 1 tingkat. Ambil 3 kartu. Setelah dimainkan, saat Anda melakukan aksi, tag bebas dihitung sebagai tag apa pun pilihan Anda."
+ },
+ "Eccentric Sponsor": {
+  "name": "Sponsor Eksentrik",
+  "desc": "MAINKAN SATU KARTU DARI TANGAN DENGAN DISKON 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Pakar Ekologi",
+  "desc": "Naikkan produksi tanaman Anda 1 tingkat. MAINKAN SATU KARTU DARI TANGAN, DENGAN MENGABAIKAN PERSYARATAN GLOBAL."
+ },
+ "Experimental Forest": {
+  "name": "Hutan Eksperimental",
+  "desc": "Letakkan 1 petak lahan hijau dan naikkan oksigen 1 tingkat. Ungkap kartu sampai Anda mengungkap dua kartu bertag tanaman. Ambil keduanya ke tangan Anda dan buang sisanya."
+ }
+}

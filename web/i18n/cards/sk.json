@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Získaná spoločnosť",
+  "desc": "Zvýšte svoju produkciu M€ o 3."
+ },
+ "Advanced Alloys": {
+  "name": "Pokročilé zliatiny",
+  "effects": [
+   "Každá J titánu má pre vás hodnotu o 1 M€ vyššiu.",
+   "Každá J ocele má pre vás hodnotu o 1 M€ vyššiu."
+  ]
+ },
+ "AI Central": {
+  "name": "Centrála UI",
+  "desc": "Znížte svoju produkciu energie o 1.",
+  "actions": [
+   "Potiahnite 2 karty."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitačná technológia",
+  "effects": [
+   "Ak zahráte kartu, máte zľavu 2 M€."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Konzorcium ťažby na asteroidoch",
+  "desc": "Znížte produkciu titánu ľubovoľného hráča o 1 a zvýšte svoju o 1."
+ },
+ "Bribed Committee": {
+  "name": "Podplatený výbor",
+  "desc": "Zvýšte svoj TR o 2."
+ },
+ "Building Industries": {
+  "name": "Stavebný priemysel",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu ocele o 2."
+ },
+ "Business Contacts": {
+  "name": "Obchodné kontakty",
+  "desc": "Pozrite si 4 vrchné karty balíčka. 2 si vezmite do ruky a zvyšok odhoďte."
+ },
+ "Business Network": {
+  "name": "Obchodná sieť",
+  "desc": "Znížte svoju produkciu M€ o 1.",
+  "actions": [
+   "Pozrite si vrchnú kartu a buď ju kúpte, alebo ju odhoďte."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Trestanecké bane na Callisto",
+  "desc": "Zvýšte svoju produkciu M€ o 3."
+ },
+ "Caretaker Contract": {
+  "name": "Správcovská zmluva",
+  "actions": [
+   "Za 8 J tepla zvýšte svoj terraformačný rating o 1."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Zvýšte svoju produkciu M€ o 1 za každý váš symbol Zeme, vrátane tohto."
+ },
+ "CEO's Favorite Project": {
+  "name": "Obľúbený projekt riaditeľa",
+  "desc": "Položte 1 zdroj na ľubovoľnú vašu kartu, na ktorej už je aspoň 1 zdroj."
+ },
+ "Commercial District": {
+  "name": "Obchodná štvrť",
+  "desc": "Umiestnite túto doštičku. Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 4.",
+  "vpText": [
+   "1 VB za každú susednú doštičku mesta."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Pevnosť korporácie",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 3. Umiestnite doštičku mesta."
+ },
+ "Development Center": {
+  "name": "Vývojové centrum",
+  "actions": [
+   "Za 1 J energie potiahnite kartu."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Pozemský katapult",
+  "effects": [
+   "Ak zahráte kartu, máte zľavu 2 M€."
+  ]
+ },
+ "Earth Office": {
+  "name": "Pozemská kancelária",
+  "effects": [
+   "Ak zahráte symbol Zeme, máte zľavu 3 M€."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektromagnetický katapult",
+  "desc": "Znížte svoju produkciu energie o 1.",
+  "actions": [
+   "Za 1 J rastlín alebo 1 J ocele získate 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Odčerpávanie energie",
+  "desc": "Znížte produkciu energie ľubovoľného hráča o 1 a zvýšte svoju o 1."
+ },
+ "Fuel Factory": {
+  "name": "Továreň na palivo",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu titánu a svoju produkciu M€, obe o 1."
+ },
+ "Gene Repair": {
+  "name": "Oprava génov",
+  "desc": "Zvýšte svoju produkciu M€ o 2."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Konzorcium Veľkého zrázu",
+  "desc": "Znížte produkciu ocele ľubovoľného hráča o 1 a zvýšte svoju o 1."
+ },
+ "Hackers": {
+  "name": "Hackeri",
+  "desc": "Znížte svoju produkciu energie o 1 a produkciu M€ ľubovoľného hráča o 2. Zvýšte svoju produkciu M€ o 2."
+ },
+ "Hired Raiders": {
+  "name": "Najatí nájazdníci",
+  "desc": "Ukradnite ľubovoľnému hráčovi až 2 J ocele, alebo 3 M€."
+ },
+ "Indentured Workers": {
+  "name": "Robotníci na zmluvu",
+  "desc": "Ďalšia karta, ktorú v tejto generácii zahráte, stojí o 8 M€ menej."
+ },
+ "Industrial Center": {
+  "name": "Priemyselné centrum",
+  "desc": "Umiestnite túto doštičku vedľa doštičky mesta.",
+  "actions": [
+   "Za 7 M€ zvýšte svoju produkciu ocele o 1."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Medzihviezdna kolonizačná loď"
+ },
+ "Invention Contest": {
+  "name": "Súťaž vynálezcov",
+  "desc": "Pozrite si 3 vrchné karty balíčka. 1 si vezmite do ruky a zvyšok odhoďte."
+ },
+ "Inventors' Guild": {
+  "name": "Cech vynálezcov",
+  "actions": [
+   "Pozrite si vrchnú kartu a buď ju kúpte, alebo ju odhoďte."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investičný úver",
+  "desc": "Znížte svoju produkciu M€ o 1. Získate 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Ťažobný priemysel na Io",
+  "desc": "Zvýšte svoju produkciu titánu o 2 a svoju produkciu M€ o 2.",
+  "vpText": [
+   "1 VB za každý váš symbol Jupitera."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrangeovo observatórium",
+  "desc": "Potiahnite 1 kartu."
+ },
+ "Land Claim": {
+  "name": "Nárok na pozemok",
+  "desc": "Vyhraďte si doteraz nevyhradené pole: doštičku tam smiete umiestniť iba vy."
+ },
+ "Lightning Harvest": {
+  "name": "Žatva bleskov",
+  "desc": "Zvýšte svoju produkciu energie a svoju produkciu M€, obe o jeden stupeň."
+ },
+ "Mars University": {
+  "name": "Marťanská univerzita",
+  "effects": [
+   "Ak zahráte symbol vedy, vrátane tohto, môžete odhodiť kartu z ruky a potiahnuť kartu."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Konvertor hmoty",
+  "desc": "Zvýšte svoju produkciu energie o 6.",
+  "effects": [
+   "Ak zahráte kartu so symbolom vesmíru, máte zľavu 2 M€."
+  ]
+ },
+ "Media Archives": {
+  "name": "Mediálne archívy",
+  "desc": "Získate 1 M€ za každú udalosť, ktorú KEDY zahrali všetci hráči."
+ },
+ "Media Group": {
+  "name": "Mediálna skupina",
+  "effects": [
+   "Ak zahráte kartu udalosti, získate 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Lekárske laboratórium",
+  "desc": "Zvýšte svoju produkciu M€ o 1 za každé 2 vaše symboly stavby, vrátane tohto."
+ },
+ "Mine": {
+  "name": "Baňa",
+  "desc": "Zvýšte svoju produkciu ocele o 1."
+ },
+ "Mineral Deposit": {
+  "name": "Ložisko nerastov",
+  "desc": "Získate 5 J ocele."
+ },
+ "Mining Area": {
+  "name": "Ťažobná oblasť",
+  "desc": "Umiestnite túto doštičku na pole s bonusom ocele alebo titánu, vedľa inej vašej doštičky. Zvýšte svoju produkciu daného zdroja o 1."
+ },
+ "Miranda Resort": {
+  "name": "Letovisko na Mirande",
+  "desc": "Zvýšte svoju produkciu M€ o 1 za každý váš symbol Zeme."
+ },
+ "Olympus Conference": {
+  "name": "Konferencia na Olympe",
+  "desc": "Ak zahráte symbol vedy, vrátane tohto, buď položte zdroj vedy na túto kartu, alebo z nej zdroj vedy odoberte a potiahnite kartu."
+ },
+ "Physics Complex": {
+  "name": "Fyzikálny komplex",
+  "actions": [
+   "Za 6 J energie položte na túto kartu zdroj vedy."
+  ],
+  "vpText": [
+   "2 VB za každý zdroj vedy na tejto karte."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energetická infraštruktúra",
+  "actions": [
+   "Minte ľubovoľné množstvo energie a získate rovnaký počet M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Konzorcium dodávateľov energie",
+  "desc": "Znížte produkciu energie ľubovoľného hráča o 1 a zvýšte svoju o 1."
+ },
+ "Protected Habitats": {
+  "name": "Chránené biotopy",
+  "effects": [
+   "Súperi vám nesmú odoberať rastliny, zvieratá ani mikróby."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvantový extraktor",
+  "desc": "Zvýšte svoju produkciu energie o 4.",
+  "effects": [
+   "Ak zahráte kartu so symbolom vesmíru, máte zľavu 2 M€."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Antiradiačné obleky",
+  "desc": "Zvýšte svoju produkciu M€ o 1."
+ },
+ "Research": {
+  "name": "Výskum",
+  "desc": "Počíta sa ako zahranie 2 kariet vedy. Potiahnite 2 karty."
+ },
+ "Restricted Area": {
+  "name": "Zakázaná oblasť",
+  "desc": "Umiestnite túto doštičku.",
+  "actions": [
+   "Za 2 M€ potiahnite kartu."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotickí pracovníci",
+  "desc": "Skopírujte iba pole produkcie jednej vašej karty so symbolom stavby."
+ },
+ "Sabotage": {
+  "name": "Sabotáž",
+  "desc": "Odhoďte ľubovoľnému hráčovi až 3 J titánu, alebo 4 J ocele, alebo 7 M€."
+ },
+ "Satellites": {
+  "name": "Satelity",
+  "desc": "Zvýšte svoju produkciu M€ o 1 za každý váš symbol vesmíru, vrátane tohto."
+ },
+ "Security Fleet": {
+  "name": "Bezpečnostná flotila",
+  "actions": [
+   "Za 1 J titánu položte na túto kartu 1 stíhačku."
+  ],
+  "vpText": [
+   "1 VB za každú stíhačku na tejto karte."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Vesmírny výťah",
+  "desc": "Zvýšte svoju produkciu titánu o 1.",
+  "actions": [
+   "Za 1 J ocele získate 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Vesmírna stanica",
+  "effects": [
+   "Ak zahráte kartu so symbolom vesmíru, máte zľavu 2 M€."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponzori",
+  "desc": "Zvýšte svoju produkciu M€ o 2."
+ },
+ "Standard Technology": {
+  "name": "Štandardná technológia",
+  "effects": [
+   "Ak zaplatíte za štandardný projekt (okrem predaja patentov), získate 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Pomalky",
+  "actions": [
+   "Položte na túto kartu 1 mikrób."
+  ],
+  "vpText": [
+   "1 VB za každé 4 mikróby na tejto karte."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Predvedenie technológie",
+  "desc": "Potiahnite dve karty."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraformácia Ganymedu",
+  "desc": "Zvýšte svoj TR o 1 za každý váš symbol Jupitera, vrátane tohto."
+ },
+ "Titanium Mine": {
+  "name": "Titánová baňa",
+  "desc": "Zvýšte svoju produkciu titánu o 1."
+ },
+ "Toll Station": {
+  "name": "Mýtna stanica",
+  "desc": "Zvýšte svoju produkciu M€ o 1 za každý symbol vesmíru, ktorý majú vaši SÚPERI."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Transneptúnska sonda",
+  "desc": "Sonda do hlbokého vesmíru: má hodnotu 1 VB."
+ },
+ "Tropical Resort": {
+  "name": "Tropické letovisko",
+  "desc": "Znížte svoju produkciu tepla o 2 a zvýšte svoju produkciu M€ o 3."
+ },
+ "Vesta Shipyard": {
+  "name": "Lodenica na Veste",
+  "desc": "Zvýšte svoju produkciu titánu o 1."
+ },
+ "Viral Enhancers": {
+  "name": "Vírusové zosilňovače",
+  "effects": [
+   "Ak zahráte symbol rastliny, mikróba alebo zvieraťa, vrátane tohto, získate 1 J rastlín, alebo položte 1 zdroj na TÚTO KARTU."
+  ]
+ },
+ "Virus": {
+  "name": "Vírus",
+  "desc": "Odhoďte ľubovoľnému hráčovi až 2 zvieratá alebo 5 J rastlín."
+ },
+ "SF Memorial": {
+  "name": "Pamätník sci-fi",
+  "desc": "Potiahnite 1 kartu."
+ },
+ "House Printing": {
+  "name": "Tlač domov",
+  "desc": "Zvýšte svoju produkciu ocele o 1."
+ },
+ "Space Hotels": {
+  "name": "Vesmírne hotely",
+  "desc": "Zvýšte produkciu M€ o 4."
+ },
+ "Martian Survey": {
+  "name": "Prieskum Marsu",
+  "desc": "Potiahnite dve karty."
+ },
+ "Research Coordination": {
+  "name": "Koordinácia výskumu",
+  "desc": "Po zahraní platí: ak vykonávate akciu, počíta sa symbol žolíka ako ľubovoľný symbol podľa vašej voľby."
+ },
+ "Lava Tube Settlement": {
+  "name": "Osada v lávovom tuneli",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 2. Umiestnite doštičku mesta na SOPEČNÉ POLE bez ohľadu na susedné mestá."
+ },
+ "Psychrophiles": {
+  "name": "Psychrofily",
+  "actions": [
+   "Položte na túto kartu 1 mikrób."
+  ],
+  "effects": [
+   "Pri platení za kartu so symbolom rastliny môžete použiť mikróby odtiaľto, každý v hodnote 2 M€."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Adaptačná technológia",
+  "effects": [
+   "Vaše globálne podmienky sú +2 alebo −2, vždy podľa vašej voľby."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Prispôsobený lišajník",
+  "desc": "Zvýšte svoju produkciu rastlín o 1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Pokročilé ekosystémy"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Čpavkový asteroid brzdený atmosférou",
+  "desc": "Zvýšte svoju produkciu tepla o 3 a svoju produkciu rastlín o 1. Položte 2 mikróby na INÚ kartu."
+ },
+ "Ants": {
+  "name": "Mravce",
+  "actions": [
+   "Odoberte 1 mikrób z ľubovoľnej karty a položte 1 na túto kartu."
+  ],
+  "vpText": [
+   "1 VB za každé 2 mikróby na tejto karte."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Čerpanie zvodne",
+  "actions": [
+   "Za 8 M€ umiestnite 1 doštičku oceánu. MÔŽETE PLATIŤ AJ OCEĽOU, ako keby ste hrali kartu so symbolom stavby."
+  ]
+ },
+ "Algae": {
+  "name": "Riasy",
+  "desc": "Získate 1 J rastlín a zvýšte svoju produkciu rastlín o 2."
+ },
+ "ArchaeBacteria": {
+  "name": "Archebaktérie",
+  "desc": "Zvýšte svoju produkciu rastlín o 1."
+ },
+ "Arctic Algae": {
+  "name": "Arktické riasy",
+  "desc": "Získate 1 J rastlín.",
+  "effects": [
+   "Ak ktokoľvek umiestni doštičku oceánu, získate 2 J rastlín."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Umelé jazero",
+  "desc": "Umiestnite 1 doštičku oceánu NA POLE, KTORÉ NIE JE VYHRADENÉ PRE OCEÁN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Umelá fotosyntéza",
+  "desc": "Zvýšte svoju produkciu rastlín o 1, alebo svoju produkciu energie o 2.",
+  "orTitles": [
+   "Zvýšte svoju produkciu energie o 2",
+   "Zvýšte svoju produkciu rastlín o 1"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Zvýšte teplotu o 1 a získate 2 J titánu. Odhoďte ľubovoľnému hráčovi až 3 J rastlín."
+ },
+ "Asteroid Mining": {
+  "name": "Ťažba na asteroide",
+  "desc": "Zvýšte svoju produkciu titánu o 2."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Lúč z tóriového asteroidu",
+  "desc": "Zvýšte svoju produkciu tepla a produkciu energie, obe o 3."
+ },
+ "Big Asteroid": {
+  "name": "Veľký asteroid",
+  "desc": "Zvýšte teplotu o 2 a získate 4 J titánu. Odhoďte ľubovoľnému hráčovi až 4 J rastlín."
+ },
+ "Biomass Combustors": {
+  "name": "Spaľovne biomasy",
+  "desc": "Znížte produkciu rastlín ľubovoľného hráča o 1 a zvýšte svoju produkciu energie o 2."
+ },
+ "Birds": {
+  "name": "Vtáky",
+  "desc": "Znížte produkciu rastlín ľubovoľného hráča o 2. 1 VB za každé zviera na tejto karte.",
+  "actions": [
+   "Položte na túto kartu zviera."
+  ],
+  "vpText": [
+   "1 VB za každé zviera na tejto karte."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Čierny polárny prach",
+  "desc": "Umiestnite doštičku oceánu. Znížte svoju produkciu M€ o 2 a zvýšte svoju produkciu tepla o 3."
+ },
+ "Breathing Filters": {
+  "name": "Dýchacie filtre"
+ },
+ "Bushes": {
+  "name": "Kríky",
+  "desc": "Zvýšte svoju produkciu rastlín o 2. Získate 2 J rastlín."
+ },
+ "Capital": {
+  "name": "Hlavné mesto",
+  "desc": "Umiestnite túto doštičku. Znížte svoju produkciu energie o 2 a zvýšte svoju produkciu M€ o 5.",
+  "vpText": [
+   "1 VB navyše za každú doštičku oceánu susediacu s touto doštičkou mesta."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Spracovanie uhličitanov",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu tepla o 3."
+ },
+ "Cloud Seeding": {
+  "name": "Očkovanie mrakov",
+  "desc": "Znížte svoju produkciu M€ o 1 a produkciu tepla ľubovoľného hráča o 1. Zvýšte svoju produkciu rastlín o 2."
+ },
+ "Colonizer Training Camp": {
+  "name": "Výcvikový tábor kolonistov"
+ },
+ "Comet": {
+  "name": "Kométa",
+  "desc": "Zvýšte teplotu o 1 a umiestnite doštičku oceánu. Odhoďte ľubovoľnému hráčovi až 3 J rastlín."
+ },
+ "Convoy From Europa": {
+  "name": "Konvoj z Európy",
+  "desc": "Umiestnite 1 doštičku oceánu a potiahnite 1 kartu."
+ },
+ "Cupola City": {
+  "name": "Kupolové mesto",
+  "desc": "Umiestnite doštičku mesta. Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 3."
+ },
+ "Decomposers": {
+  "name": "Rozkladače",
+  "effects": [
+   "Ak zahráte symbol zvieraťa, rastliny alebo mikróba, vrátane tohto, položte na túto kartu mikrób."
+  ],
+  "vpText": [
+   "1 VB za každé 3 mikróby na tejto karte."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Ohrev hlbinnými vrtmi",
+  "desc": "Zvýšte svoju produkciu energie o 1. Zvýšte teplotu o 1."
+ },
+ "Deimos Down": {
+  "name": "Zrútenie Deimosu",
+  "desc": "Zvýšte teplotu o 3 a získate 4 J ocele. Odhoďte ľubovoľnému hráčovi až 8 J rastlín."
+ },
+ "Designed Microorganisms": {
+  "name": "Navrhnuté mikroorganizmy",
+  "desc": "Zvýšte svoju produkciu rastlín o 2."
+ },
+ "Domed Crater": {
+  "name": "Mesto pod kupolou",
+  "desc": "Získate 3 J rastlín. Umiestnite doštičku mesta. Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 3."
+ },
+ "Dust Seals": {
+  "name": "Protiprachové tesnenia"
+ },
+ "Ecological Zone": {
+  "name": "Ekologická zóna",
+  "desc": "Umiestnite túto doštičku vedľa ĽUBOVOĽNEJ doštičky zelene.",
+  "effects": [
+   "Ak zahráte symbol zvieraťa alebo rastliny, VRÁTANE TÝCHTO, položte na túto kartu zviera."
+  ],
+  "vpText": [
+   "1 VB za každé 2 zvieratá na tejto karte."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Úspora energie",
+  "desc": "Zvýšte svoju produkciu energie o 1 za každú doštičku mesta v hre."
+ },
+ "Eos Chasma National Park": {
+  "name": "Národný park Eos Chasma",
+  "desc": "Položte 1 zviera NA ĽUBOVOĽNÚ KARTU SO ZVIERATAMI. Získate 3 J rastlín. Zvýšte svoju produkciu M€ o 2."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Rovníkový magnetizér",
+  "actions": [
+   "Znížte svoju produkciu energie o 1 a zvýšte svoj terraformačný rating o 1."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Huba odolná mrazu",
+  "actions": [
+   "Získate 1 J rastlín.",
+   "Položte 2 mikróby na INÚ kartu."
+  ]
+ },
+ "Farming": {
+  "name": "Poľnohospodárstvo",
+  "desc": "Zvýšte svoju produkciu M€ o 2 a svoju produkciu rastlín o 2. Získate 2 J rastlín."
+ },
+ "Fish": {
+  "name": "Ryby",
+  "desc": "Znížte produkciu rastlín ľubovoľného hráča o 1.",
+  "actions": [
+   "Položte na túto kartu 1 zviera."
+  ],
+  "vpText": [
+   "1 VB za každé zviera na tejto karte."
+  ]
+ },
+ "Flooding": {
+  "name": "Záplava",
+  "desc": "Umiestnite doštičku oceánu. AK S ŇOU SUSEDIA INÉ DOŠTIČKY, MÔŽETE MAJITEĽOVI JEDNEJ Z NICH ODOBRAŤ 4 M€."
+ },
+ "Food Factory": {
+  "name": "Továreň na potraviny",
+  "desc": "Znížte svoju produkciu rastlín o 1 a zvýšte svoju produkciu M€ o 4."
+ },
+ "Fusion Power": {
+  "name": "Fúzna energia",
+  "desc": "Zvýšte svoju produkciu energie o 3."
+ },
+ "Fueled Generators": {
+  "name": "Palivové generátory",
+  "desc": "Znížte svoju produkciu M€ o 1 a zvýšte svoju produkciu energie o 1."
+ },
+ "Ganymede Colony": {
+  "name": "Kolónia na Ganymede",
+  "desc": "Umiestnite doštičku mesta NA VYHRADENÉ POLE.",
+  "vpText": [
+   "1 VB za každý váš symbol Jupitera."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geotermálna energia",
+  "desc": "Zvýšte svoju produkciu energie o 2."
+ },
+ "GHG Factories": {
+  "name": "Továreň na skleníkové plyny",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu tepla o 4."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Baktérie produkujúce skleníkové plyny",
+  "actions": [
+   "Položte na túto kartu 1 mikrób.",
+   "Odoberte 2 mikróby a zvýšte teplotu o 1."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Obrovský ľadový asteroid",
+  "desc": "Zvýšte teplotu o 2 a umiestnite 2 doštičky oceánu. Odhoďte ľubovoľnému hráčovi až 6 J rastlín."
+ },
+ "Giant Space Mirror": {
+  "name": "Obrovské vesmírne zrkadlo",
+  "desc": "Zvýšte svoju produkciu energie o 3."
+ },
+ "Grass": {
+  "name": "Tráva",
+  "desc": "Zvýšte svoju produkciu rastlín o 1. Získate 3 J rastlín."
+ },
+ "Great Dam": {
+  "name": "Veľká priehrada",
+  "desc": "Zvýšte svoju produkciu energie o 2."
+ },
+ "Greenhouses": {
+  "name": "Skleníky",
+  "desc": "Získate 1 J rastlín za každú doštičku mesta v hre."
+ },
+ "Heather": {
+  "name": "Vres",
+  "desc": "Zvýšte svoju produkciu rastlín o 1. Získate 1 J rastlín."
+ },
+ "Heat Trappers": {
+  "name": "Lapače tepla",
+  "desc": "Znížte produkciu tepla ľubovoľného hráča o 2 a zvýšte svoju produkciu energie o 1."
+ },
+ "Herbivores": {
+  "name": "Bylinožravce",
+  "desc": "+1 zviera na túto kartu. −1 produkcia rastlín ľubovoľného hráča",
+  "effects": [
+   "Ak umiestnite doštičku zelene, položte na túto kartu zviera."
+  ],
+  "vpText": [
+   "1 VB za každé 2 zvieratá na tejto karte."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Ľadový asteroid",
+  "desc": "Umiestnite 2 doštičky oceánu."
+ },
+ "Ice Cap Melting": {
+  "name": "Topenie polárnej čiapočky",
+  "desc": "Umiestnite 1 doštičku oceánu."
+ },
+ "Immigrant City": {
+  "name": "Mesto prisťahovalcov",
+  "desc": "Znížte svoju produkciu energie o 1 a svoju produkciu M€ o 2. Umiestnite doštičku mesta.",
+  "effects": [
+   "Ak je umiestnená doštička mesta, vrátane tejto, zvýšte svoju produkciu M€ o 1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Raketoplány pre prisťahovalcov",
+  "desc": "Zvýšte svoju produkciu M€ o 5.",
+  "vpText": [
+   "1 VB za každé 3. mesto v hre."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Dovezené skleníkové plyny",
+  "desc": "Zvýšte svoju produkciu tepla o 1 a získate 3 J tepla."
+ },
+ "Imported Hydrogen": {
+  "name": "Dovezený vodík",
+  "desc": "Získate 3 J rastlín, alebo položte 3 mikróby či 2 zvieratá na INÚ kartu. Umiestnite doštičku oceánu.",
+  "orTitles": [
+   "Získate 3 J rastlín",
+   "Položte 3 mikróby na INÚ kartu",
+   "Položte 2 zvieratá na INÚ kartu"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Dovezený dusík",
+  "desc": "Zvýšte svoj TR o 1 a získate 4 J rastlín. Položte 3 mikróby na INÚ kartu a 2 zvieratá na INÚ kartu."
+ },
+ "Import of Advanced GHG": {
+  "name": "Dovoz pokročilých skleníkových plynov",
+  "desc": "Zvýšte svoju produkciu tepla o 2."
+ },
+ "Industrial Microbes": {
+  "name": "Priemyselné mikróby",
+  "desc": "Zvýšte svoju produkciu energie a svoju produkciu ocele, obe o 1."
+ },
+ "Insects": {
+  "name": "Hmyz",
+  "desc": "Zvýšte svoju produkciu rastlín o 1 za každý váš symbol rastliny."
+ },
+ "Insulation": {
+  "name": "Izolácia",
+  "desc": "Znížte svoju produkciu tepla o ľubovoľný počet stupňov a zvýšte svoju produkciu M€ o rovnaký počet."
+ },
+ "Ironworks": {
+  "name": "Železiarne",
+  "actions": [
+   "Za 4 J energie získate 1 J ocele a zvýšte obsah kyslíka o 1."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Farma na chaluhy",
+  "desc": "Zvýšte svoju produkciu M€ o 2 a svoju produkciu rastlín o 3. Získate 2 J rastlín."
+ },
+ "Lake Marineris": {
+  "name": "Jazero Marineris",
+  "desc": "Umiestnite 2 doštičky oceánu."
+ },
+ "Large Convoy": {
+  "name": "Veľký konvoj",
+  "desc": "Umiestnite doštičku oceánu a potiahnite 2 karty. Získate 5 J rastlín, alebo položte 4 zvieratá na INÚ kartu.",
+  "orTitles": [
+   "Získate 5 J rastlín",
+   "Položte 4 zvieratá na INÚ kartu"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lávové prúdy",
+  "desc": "Zvýšte teplotu o 2 a umiestnite túto doštičku NA THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS ALEBO ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Lišajník",
+  "desc": "Zvýšte svoju produkciu rastlín o 1."
+ },
+ "Livestock": {
+  "name": "Dobytok",
+  "desc": "Znížte svoju produkciu rastlín o 1 a zvýšte svoju produkciu M€ o 2.",
+  "actions": [
+   "Položte na túto kartu 1 zviera."
+  ],
+  "vpText": [
+   "1 VB za každé zviera na tejto karte."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Miestne zachytávanie tepla",
+  "desc": "Minte 5 J tepla a buď získate 4 J rastlín, alebo položte 2 zvieratá na INÚ kartu.",
+  "orTitles": [
+   "Získate 4 J rastlín",
+   "Položte 2 zvieratá na INÚ kartu"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Mesačný lúč",
+  "desc": "Znížte svoju produkciu M€ o 2 a zvýšte svoju produkciu tepla a produkciu energie, obe o 2."
+ },
+ "Magnetic Field Dome": {
+  "name": "Kupola magnetického poľa",
+  "desc": "Znížte svoju produkciu energie o 2 a zvýšte svoju produkciu rastlín o 1. Zvýšte svoj TR o 1."
+ },
+ "Magnetic Field Generators": {
+  "name": "Generátor magnetického poľa",
+  "desc": "Znížte svoju produkciu energie o 4 a zvýšte svoju produkciu rastlín o 2. Zvýšte svoj TR o 3."
+ },
+ "Mangrove": {
+  "name": "Mangrovy",
+  "desc": "Umiestnite doštičku zelene NA POLE VYHRADENÉ PRE OCEÁN a zvýšte obsah kyslíka o 1. Bežné obmedzenia pre umiestnenie pritom neplatia."
+ },
+ "Martian Rails": {
+  "name": "Marťanská železnica",
+  "actions": [
+   "Za 1 J energie získate 1 M€ za každú doštičku mesta NA MARSE."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metán z Titanu",
+  "desc": "Zvýšte svoju produkciu tepla o 2 a svoju produkciu rastlín o 2."
+ },
+ "Micro-Mills": {
+  "name": "Mikromlyny",
+  "desc": "Zvýšte svoju produkciu tepla o 1."
+ },
+ "Mining Expedition": {
+  "name": "Ťažobná výprava",
+  "desc": "Zvýšte obsah kyslíka o 1. Odhoďte ľubovoľnému hráčovi 2 J rastlín. Získate 2 J ocele."
+ },
+ "Mining Rights": {
+  "name": "Ťažobné práva",
+  "desc": "Umiestnite túto doštičku na pole s bonusom ocele alebo titánu. Zvýšte príslušnú produkciu o 1."
+ },
+ "Mohole Area": {
+  "name": "Oblasť Mohole",
+  "desc": "Zvýšte svoju produkciu tepla o 4. Umiestnite túto doštičku NA POLE VYHRADENÉ PRE OCEÁN."
+ },
+ "Moss": {
+  "name": "Mach",
+  "desc": "Stratíte 1 J rastlín. Zvýšte svoju produkciu rastlín o 1."
+ },
+ "Natural Preserve": {
+  "name": "Prírodná rezervácia",
+  "desc": "Umiestnite túto doštičku TAK, ABY NESUSEDILA SO ŽIADNOU INOU. Zvýšte svoju produkciu M€ o 1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Baktérie redukujúce dusitany",
+  "desc": "Položte na túto kartu 3 mikróby.",
+  "actions": [
+   "Položte na túto kartu 1 mikrób.",
+   "Odoberte 3 mikróby a zvýšte svoj TR o 1."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid bohatý na dusík",
+  "desc": "Zvýšte svoj terraformačný rating o 2 a teplotu o 1. Zvýšte svoju produkciu rastlín o 1, alebo o 4, ak máte 3 symboly rastliny."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofilný mach",
+  "desc": "Stratíte 2 J rastlín. Zvýšte svoju produkciu rastlín o 2."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 3. Umiestnite doštičku mesta NA VYHRADENÉ POLE bez ohľadu na bežné obmedzenia pre umiestnenie."
+ },
+ "Noctis Farming": {
+  "name": "Farmy v Noctis",
+  "desc": "Zvýšte svoju produkciu M€ o 1 a získate 2 J rastlín."
+ },
+ "Nuclear Power": {
+  "name": "Jadrová energia",
+  "desc": "Znížte svoju produkciu M€ o 2 a zvýšte svoju produkciu energie o 3."
+ },
+ "Nuclear Zone": {
+  "name": "Jadrová zóna",
+  "desc": "Umiestnite túto doštičku a zvýšte teplotu o 2."
+ },
+ "Open City": {
+  "name": "Otvorené mesto",
+  "desc": "Získate 2 J rastlín. Umiestnite doštičku mesta. Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 4."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimálne aerobrzdenie",
+  "effects": [
+   "Ak zahráte udalosť so symbolom vesmíru, získate 3 M€ a 3 J tepla."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Spracovanie rudy",
+  "actions": [
+   "Za 4 J energie získate 1 J titánu a zvýšte obsah kyslíka o 1."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Ťažba permafrostu",
+  "desc": "Umiestnite 1 doštičku oceánu."
+ },
+ "Peroxide Power": {
+  "name": "Peroxidová energia",
+  "desc": "Znížte svoju produkciu M€ o 1 a zvýšte svoju produkciu energie o 2."
+ },
+ "Pets": {
+  "name": "Domáci miláčikovia",
+  "desc": "Položte na túto kartu 1 zviera.",
+  "effects": [
+   "Ak je umiestnená akákoľvek doštička mesta, položte na túto kartu zviera."
+  ],
+  "vpText": [
+   "1 VB za každé 2 zvieratá tu."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Vesmírny prístav Phobos",
+  "desc": "Zvýšte svoju produkciu titánu o 1 a umiestnite doštičku mesta NA VYHRADENÉ POLE."
+ },
+ "Plantation": {
+  "name": "Plantáž",
+  "desc": "Umiestnite doštičku zelene a zvýšte obsah kyslíka o 1."
+ },
+ "Power Grid": {
+  "name": "Rozvodná sieť",
+  "desc": "Zvýšte svoju produkciu energie o 1 za každý váš symbol energie, vrátane tohto."
+ },
+ "Power Plant": {
+  "name": "Elektráreň",
+  "desc": "Zvýšte svoju produkciu energie o 1."
+ },
+ "Predators": {
+  "name": "Predátori",
+  "actions": [
+   "Odoberte 1 zviera z ľubovoľnej karty a položte ho na túto kartu."
+  ],
+  "vpText": [
+   "1 VB za každé zviera na tejto karte."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Chránené údolie",
+  "desc": "Zvýšte svoju produkciu M€ o 2. Umiestnite doštičku zelene NA POLE VYHRADENÉ PRE OCEÁN bez ohľadu na bežné obmedzenia pre umiestnenie a zvýšte obsah kyslíka o 1."
+ },
+ "Rad-Chem Factory": {
+  "name": "Rádiochemická továreň",
+  "desc": "Znížte svoju produkciu energie o 1. Zvýšte svoj TR o 2."
+ },
+ "Regolith Eaters": {
+  "name": "Požierači regolitu",
+  "actions": [
+   "Položte na túto kartu 1 mikrób.",
+   "Odoberte z tejto karty 2 mikróby a zvýšte obsah kyslíka o 1."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Vypustenie inertných plynov",
+  "desc": "Zvýšte svoj terraformačný rating o 2."
+ },
+ "Research Outpost": {
+  "name": "Výskumná základňa",
+  "desc": "Umiestnite doštičku mesta TAK, ABY NESUSEDILA SO ŽIADNOU INOU DOŠTIČKOU.",
+  "effects": [
+   "Ak zahráte kartu, máte zľavu 1 M€."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Výroba roverov",
+  "effects": [
+   "Ak je umiestnená akákoľvek doštička mesta, získate 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Hľadanie života",
+  "actions": [
+   "Za 1 M€ odhaľte vrchnú kartu balíčka. Ak má symbol mikróba, položte sem zdroj vedy."
+  ],
+  "vpText": [
+   "3 VB, ak tu máte aspoň jeden zdroj vedy."
+  ]
+ },
+ "Shuttles": {
+  "name": "Raketoplány",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 2.",
+  "effects": [
+   "Ak zahráte kartu so symbolom vesmíru, máte zľavu 2 M€."
+  ]
+ },
+ "Small Animals": {
+  "name": "Malé zvieratá",
+  "desc": "Znížte produkciu rastlín ľubovoľného hráča o 1.",
+  "actions": [
+   "Položte na túto kartu 1 zviera."
+  ],
+  "vpText": [
+   "1 VB za každé 2 zvieratá na tejto karte."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Továreň na pôdu",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu rastlín o 1."
+ },
+ "Solar Power": {
+  "name": "Solárna energia",
+  "desc": "Zvýšte svoju produkciu energie o 1."
+ },
+ "Solar Wind Power": {
+  "name": "Energia slnečného vetra",
+  "desc": "Zvýšte svoju produkciu energie o 1 a získate 2 J titánu."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Zvýšte svoju produkciu tepla o 7."
+ },
+ "Space Mirrors": {
+  "name": "Vesmírne zrkadlá",
+  "actions": [
+   "Za 7 M€ zvýšte svoju produkciu energie o 1."
+  ]
+ },
+ "Special Design": {
+  "name": "Špeciálny návrh",
+  "desc": "Ďalšia karta, ktorú v tejto generácii zahráte, má globálne podmienky +2 alebo −2, podľa vašej voľby."
+ },
+ "Steelworks": {
+  "name": "Oceliareň",
+  "actions": [
+   "Za 4 J energie získate 2 J ocele a zvýšte obsah kyslíka o 1."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Povrchová baňa",
+  "desc": "Znížte svoju produkciu energie o 2. Zvýšte svoju produkciu ocele o 2 a svoju produkciu titánu o 1. Zvýšte obsah kyslíka o 2."
+ },
+ "Subterranean Reservoir": {
+  "name": "Podzemná nádrž",
+  "desc": "Umiestnite 1 doštičku oceánu."
+ },
+ "Symbiotic Fungus": {
+  "name": "Symbiotická huba",
+  "actions": [
+   "Položte mikrób na INÚ kartu."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Energia tektonického napätia",
+  "desc": "Zvýšte svoju produkciu energie o 3."
+ },
+ "Towing A Comet": {
+  "name": "Odtiahnutie kométy",
+  "desc": "Získate 2 J rastlín. Zvýšte obsah kyslíka o 1 a umiestnite doštičku oceánu."
+ },
+ "Trees": {
+  "name": "Stromy",
+  "desc": "Zvýšte svoju produkciu rastlín o 3. Získate 1 J rastlín."
+ },
+ "Tundra Farming": {
+  "name": "Poľnohospodárstvo v tundre",
+  "desc": "Zvýšte svoju produkciu rastlín o 1 a svoju produkciu M€ o 2. Získate 1 J rastlín."
+ },
+ "Underground City": {
+  "name": "Podzemné mesto",
+  "desc": "Umiestnite doštičku mesta. Znížte svoju produkciu energie o 2 a zvýšte svoju produkciu ocele o 2."
+ },
+ "Underground Detonations": {
+  "name": "Podzemné výbuchy",
+  "actions": [
+   "Za 10 M€ zvýšte svoju produkciu tepla o 2."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanizovaná oblasť",
+  "desc": "Znížte svoju produkciu energie o 1 a zvýšte svoju produkciu M€ o 2. Umiestnite doštičku mesta VEDĽA ASPOŇ 2 INÝCH DOŠTIČIEK MIEST."
+ },
+ "Water Import From Europa": {
+  "name": "Dovoz vody z Európy",
+  "actions": [
+   "Za 12 M€ umiestnite doštičku oceánu. MÔŽETE PLATIŤ AJ TITÁNOM, ako keby ste hrali kartu so symbolom vesmíru."
+  ],
+  "vpText": [
+   "1 VB za každý váš symbol Jupitera."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Závod na štiepenie vody",
+  "actions": [
+   "Za 3 J energie zvýšte obsah kyslíka o 1."
+  ]
+ },
+ "Wave Power": {
+  "name": "Energia vĺn",
+  "desc": "Zvýšte svoju produkciu energie o 1."
+ },
+ "Windmills": {
+  "name": "Veterné elektrárne",
+  "desc": "Zvýšte svoju produkciu energie o 1."
+ },
+ "Worms": {
+  "name": "Červy",
+  "desc": "Zvýšte svoju produkciu rastlín o 1 za každé 2 vaše symboly mikróba, vrátane tohto."
+ },
+ "Zeppelins": {
+  "name": "Zepelíny",
+  "desc": "Zvýšte svoju produkciu M€ o 1 za každú doštičku mesta NA MARSE."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Začínate s produkciou titánu 1 a 42 M€.",
+  "effects": [
+   "Zakaždým, keď ktokoľvek vyloží symbol Jupitera, vrátane tohto, zvýšte svoju produkciu M€ o 1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Začínate so 60 M€.",
+  "effects": [
+   "Ak zahráte symbol Zeme, máte zľavu 3 M€."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Začínate s produkciou M€ 3 a 44 M€.",
+  "effects": [
+   "Ak zahráte symbol stavby, máte zľavu 2 M€."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Začínate s produkciou titánu 1 a 38 M€.",
+  "effects": [
+   "Ak zahráte symbol Zeme, vrátane tohto, potiahnite kartu."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Začínate so 47 M€.",
+  "actions": [
+   "Za 4 M€ zvýšte svoju NAJNIŽŠIU produkciu (jednu z nich) o 1."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Začínate so 37 M€. Ako prvú akciu potiahnite 3 karty predohry a jednu z nich zahrajte. Zvyšné dve odhoďte.",
+  "effects": [
+   "Ak zahráte symbol vedy, máte zľavu 2 M€."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Začínate so 45 M€. Ako prvú akciu sponzorujte zadarmo jednu súťaž.",
+  "effects": [
+   "Ak zahráte kartu s NEZÁPORNOU hodnotou VB, vrátane tejto, získate 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Základná korporácia",
+  "desc": "Začínate so 42 M€. Namiesto výberu z 10 kariet pri príprave dostanete 10 kariet zadarmo."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Začínate s 57 M€.",
+  "effects": [
+   "Ak zaplatíte za kartu alebo štandardný projekt so základnou cenou 20 M€ alebo viac, získate 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Začínate s produkciou rastlín 2, 3 J rastlín a 36 M€.",
+  "effects": [
+   "Za doštičku zelene vždy platíte iba 7 J rastlín namiesto 8."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Začínate s produkciou tepla 3 a 42 M€.",
+  "effects": [
+   "Teplo môžete používať ako M€. M€ nemôžete používať ako teplo."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Začínate s 20 J ocele a 30 M€.",
+  "effects": [
+   "Zakaždým, keď zahráte udalosť, získate 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Ako prvú akciu v hre potiahnite 3 karty. Začínate so 45 M€.",
+  "effects": [
+   "Vaše podmienky na teplotu, kyslík, oceány a Venušu sú +2 alebo −2, vždy podľa vašej voľby."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Mining Guild",
+  "desc": "Začínate s 30 M€, 5 J ocele a produkciou ocele 1.",
+  "effects": [
+   "Zakaždým, keď umiestnite doštičku na pole s bonusom ocele alebo titánu, zvýšte svoju produkciu ocele o 1."
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Začínate s 10 J titánu a 23 M€.",
+  "effects": [
+   "Každá vaša J titánu má hodnotu o 1 M€ vyššiu."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republika Tharsis",
+  "desc": "Začínate so 40 M€. Ako prvú akciu v hre umiestnite doštičku mesta.",
+  "effects": [
+   "Ak je NA MARSE umiestnená akákoľvek doštička mesta, zvýšte svoju produkciu M€ o 1. Ak umiestnite doštičku mesta vy, získate 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "ThorGate",
+  "desc": "Začínate s produkciou energie 1 a 48 M€.",
+  "effects": [
+   "Ak hráte kartu so symbolom energie ALEBO ŠTANDARDNÝ PROJEKT ELEKTRÁREŇ, máte zľavu 3 M€."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "United Nations Mars Initiative",
+  "desc": "Začínate so 40 M€.",
+  "actions": [
+   "Ak sa váš terraformačný rating v tejto generácii zvýšil, môžete zaplatiť 3 M€ a zvýšiť ho o ďalší 1."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Spojenecká banka",
+  "desc": "Zvýšte svoju produkciu M€ o 4. Získate 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Podpora biosféry",
+  "desc": "Zvýšte svoju produkciu rastlín o 2. Znížte svoju produkciu M€ o 1."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbíny vo zvodni",
+  "desc": "Umiestnite doštičku oceánu. Zvýšte svoju produkciu energie o 2. Zaplaťte 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Hĺbenie Mohole",
+  "desc": "Zvýšte svoju produkciu ocele o 1 a produkciu tepla o 2. Získate 2 J tepla."
+ },
+ "Early Settlement": {
+  "name": "Raná osada",
+  "desc": "Zvýšte svoju produkciu rastlín o 1. Umiestnite doštičku mesta."
+ },
+ "Biofuels": {
+  "name": "Biopalivá",
+  "desc": "Zvýšte svoju produkciu energie a rastlín o 1. Získate 2 J rastlín."
+ },
+ "Power Generation": {
+  "name": "Výroba energie",
+  "desc": "Zvýšte svoju produkciu energie o 3."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Sebestačná osada",
+  "desc": "Zvýšte svoju produkciu M€ o 2. Umiestnite doštičku mesta."
+ },
+ "Mining Operations": {
+  "name": "Ťažobná prevádzka",
+  "desc": "Zvýšte svoju produkciu ocele o 2. Získate 4 J ocele."
+ },
+ "UNMI Contractor": {
+  "name": "Dodávateľ UNMI",
+  "desc": "Zvýšte svoj TR o 3. Potiahnite kartu."
+ },
+ "Dome Farming": {
+  "name": "Farmy pod kupolou",
+  "desc": "Zvýšte svoju produkciu M€ o 2 a produkciu rastlín o 1."
+ },
+ "Business Empire": {
+  "name": "Obchodné impérium",
+  "desc": "Zvýšte svoju produkciu M€ o 6. Zaplaťte 6 M€."
+ },
+ "Donation": {
+  "name": "Dar",
+  "desc": "Získate 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Zásielka dusíka",
+  "desc": "Zvýšte svoju produkciu rastlín o 1. Zvýšte svoj TR o 1. Získate 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Taviareň",
+  "desc": "Zvýšte obsah kyslíka o 2. Získate 5 J ocele."
+ },
+ "Supplier": {
+  "name": "Dodávateľ",
+  "desc": "Zvýšte svoju produkciu energie o 2. Získate 4 J ocele."
+ },
+ "Supply Drop": {
+  "name": "Zhoz zásob",
+  "desc": "Získate 3 J titánu, 8 J ocele a 3 J rastlín."
+ },
+ "Great Aquifer": {
+  "name": "Veľká zvodeň",
+  "desc": "Umiestnite 2 doštičky oceánu."
+ },
+ "Biolab": {
+  "name": "Biolaboratórium",
+  "desc": "Zvýšte svoju produkciu rastlín o 1. Potiahnite 3 karty."
+ },
+ "Martian Industries": {
+  "name": "Marťanský priemysel",
+  "desc": "Zvýšte svoju produkciu energie a ocele o 1. Získate 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Výskumná základňa na Io",
+  "desc": "Zvýšte svoju produkciu titánu o 1. Potiahnite kartu."
+ },
+ "Polar Industries": {
+  "name": "Polárny priemysel",
+  "desc": "Zvýšte svoju produkciu tepla o 2. Umiestnite doštičku oceánu."
+ },
+ "Society Support": {
+  "name": "Podpora spoločnosti",
+  "desc": "Zvýšte svoju produkciu rastlín, energie a tepla o 1. Znížte svoju produkciu M€ o 1."
+ },
+ "Galilean Mining": {
+  "name": "Ťažba na Galileiho mesiacoch",
+  "desc": "Zvýšte svoju produkciu titánu o 2. Zaplaťte 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Obrovský asteroid",
+  "desc": "Zvýšte teplotu o 3. Zaplaťte 5 M€."
+ },
+ "Metals Company": {
+  "name": "Kovospoločnosť",
+  "desc": "Zvýšte svoju produkciu M€, ocele a titánu o 1."
+ },
+ "Loan": {
+  "name": "Pôžička",
+  "desc": "Získate 30 M€. Znížte svoju produkciu M€ o 2."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Zvýšte svoju produkciu tepla o 3. Získate 3 J tepla."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid bohatý na kovy",
+  "desc": "Zvýšte teplotu o 1. Získate 4 J titánu a 4 J ocele."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitálna lodenica",
+  "desc": "Zvýšte svoju produkciu titánu o 1. Získate 4 J titánu."
+ },
+ "Acquired Space Agency": {
+  "name": "Získaná vesmírna agentúra",
+  "desc": "Získate 6 J titánu. Odhaľujte karty, kým neodhalíte dve karty so symbolom vesmíru. Tie si vezmite do ruky, zvyšok odhoďte."
+ },
+ "Research Network": {
+  "name": "Výskumná sieť",
+  "desc": "Zvýšte svoju produkciu M€ o 1. Potiahnite 3 karty. Po zahraní platí: ak vykonávate akciu, počíta sa symbol žolíka ako ľubovoľný symbol podľa vašej voľby."
+ },
+ "Eccentric Sponsor": {
+  "name": "Výstredný sponzor",
+  "desc": "ZAHRAJTE KARTU Z RUKY SO ZĽAVOU 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Ekologickí experti",
+  "desc": "Zvýšte svoju produkciu rastlín o 1. ZAHRAJTE KARTU Z RUKY BEZ OHĽADU NA GLOBÁLNE PODMIENKY."
+ },
+ "Experimental Forest": {
+  "name": "Pokusný les",
+  "desc": "Umiestnite 1 doštičku zelene a zvýšte obsah kyslíka o 1. Odhaľujte karty, kým neodhalíte dve karty so symbolom rastliny. Tie si vezmite do ruky a zvyšok odhoďte."
+ }
+}

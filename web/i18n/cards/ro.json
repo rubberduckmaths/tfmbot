@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Companie achiziționată",
+  "desc": "Crește-ți producția de M€ cu 3 trepte."
+ },
+ "Advanced Alloys": {
+  "name": "Aliaje avansate",
+  "effects": [
+   "Fiecare unitate de titan pe care o ai valorează cu 1 M€ în plus.",
+   "Fiecare unitate de oțel pe care o ai valorează cu 1 M€ în plus."
+  ]
+ },
+ "AI Central": {
+  "name": "Centrală IA",
+  "desc": "Scade-ți producția de energie cu 1 treaptă.",
+  "actions": [
+   "Trage 2 cărți."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Tehnologie antigravitațională",
+  "effects": [
+   "Când joci o carte, plătești cu 2 M€ mai puțin pentru ea."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Consorțiul minier de asteroizi",
+  "desc": "Scade cu 1 treaptă producția de titan a oricărui jucător și crește-o pe a ta cu 1 treaptă."
+ },
+ "Bribed Committee": {
+  "name": "Comitet mituit",
+  "desc": "Crește-ți RT-ul cu 2 trepte."
+ },
+ "Building Industries": {
+  "name": "Industria construcțiilor",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de oțel cu 2 trepte."
+ },
+ "Business Contacts": {
+  "name": "Contacte de afaceri",
+  "desc": "Uită-te la primele 4 cărți din pachet. Ia 2 în mână și aruncă-le pe celelalte."
+ },
+ "Business Network": {
+  "name": "Rețea de afaceri",
+  "desc": "Scade-ți producția de M€ cu 1 treaptă.",
+  "actions": [
+   "Uită-te la cartea de deasupra și fie o cumperi, fie o arunci."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Minele penitenciare de pe Callisto",
+  "desc": "Crește-ți producția de M€ cu 3 trepte."
+ },
+ "Caretaker Contract": {
+  "name": "Contract de întreținere",
+  "actions": [
+   "Cheltuie 8 căldură ca să-ți crești ratingul de terraformare cu 1 treaptă."
+  ]
+ },
+ "Cartel": {
+  "name": "Cartel",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă pentru fiecare simbol Pământ pe care îl ai, inclusiv acesta."
+ },
+ "CEO's Favorite Project": {
+  "name": "Proiectul preferat al CEO-ului",
+  "desc": "Adaugă 1 resursă pe oricare dintre cărțile tale care are deja cel puțin 1 resursă."
+ },
+ "Commercial District": {
+  "name": "Cartier comercial",
+  "desc": "Plasează această plăcuță. Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 4 trepte.",
+  "vpText": [
+   "1 PV pentru fiecare plăcuță de oraș adiacentă."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Fortăreața corporației",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 3 trepte. Plasează o plăcuță de oraș."
+ },
+ "Development Center": {
+  "name": "Centru de dezvoltare",
+  "actions": [
+   "Cheltuie 1 energie ca să tragi o carte."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Catapulta terestră",
+  "effects": [
+   "Când joci o carte, plătești cu 2 M€ mai puțin pentru ea."
+  ]
+ },
+ "Earth Office": {
+  "name": "Biroul Pământului",
+  "effects": [
+   "Când joci un simbol Pământ, plătești cu 3 M€ mai puțin pentru el."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Electrocatapulta",
+  "desc": "Scade-ți producția de energie cu 1 treaptă.",
+  "actions": [
+   "Cheltuie 1 plantă sau 1 oțel ca să primești 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Deturnare de energie",
+  "desc": "Scade cu 1 treaptă producția de energie a oricărui jucător și crește-o pe a ta cu 1 treaptă."
+ },
+ "Fuel Factory": {
+  "name": "Fabrică de combustibil",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de titan și de M€ cu câte 1 treaptă."
+ },
+ "Gene Repair": {
+  "name": "Repararea genelor",
+  "desc": "Crește-ți producția de M€ cu 2 trepte."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Consorțiul Marelui Abrupt",
+  "desc": "Scade cu 1 treaptă producția de oțel a oricărui jucător și crește-o pe a ta cu 1 treaptă."
+ },
+ "Hackers": {
+  "name": "Hackeri",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și producția de M€ a oricărui jucător cu 2 trepte. Crește-ți producția de M€ cu 2 trepte."
+ },
+ "Hired Raiders": {
+  "name": "Jefuitori angajați",
+  "desc": "Fură de la orice jucător până la 2 oțel sau 3 M€."
+ },
+ "Indentured Workers": {
+  "name": "Muncitori sub contract",
+  "desc": "Următoarea carte pe care o joci în această generație costă cu 8 M€ mai puțin."
+ },
+ "Industrial Center": {
+  "name": "Centru industrial",
+  "desc": "Plasează această plăcuță adiacent unei plăcuțe de oraș.",
+  "actions": [
+   "Cheltuie 7 M€ ca să-ți crești producția de oțel cu 1 treaptă."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Navă-colonie interstelară"
+ },
+ "Invention Contest": {
+  "name": "Concurs de invenții",
+  "desc": "Uită-te la primele 3 cărți din pachet. Ia 1 în mână și aruncă-le pe celelalte."
+ },
+ "Inventors' Guild": {
+  "name": "Breasla inventatorilor",
+  "actions": [
+   "Uită-te la cartea de deasupra și fie o cumperi, fie o arunci."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Împrumut de investiții",
+  "desc": "Scade-ți producția de M€ cu 1 treaptă. Primești 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Industria minieră de pe Io",
+  "desc": "Crește-ți producția de titan cu 2 trepte și producția de M€ cu 2 trepte.",
+  "vpText": [
+   "1 PV pentru fiecare simbol Jupiter pe care îl ai."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Observatorul Lagrange",
+  "desc": "Trage 1 carte."
+ },
+ "Land Claim": {
+  "name": "Revendicare de teren",
+  "desc": "Rezervă pentru tine o zonă nerezervată: doar tu poți plasa o plăcuță acolo."
+ },
+ "Lightning Harvest": {
+  "name": "Recolta fulgerelor",
+  "desc": "Crește-ți producția de energie și producția de M€ cu câte o treaptă."
+ },
+ "Mars University": {
+  "name": "Universitatea Marte",
+  "effects": [
+   "Când joci un simbol Știință, inclusiv acesta, poți arunca o carte din mână ca să tragi o carte."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Convertor de masă",
+  "desc": "Crește-ți producția de energie cu 6 trepte.",
+  "effects": [
+   "Când joci o carte Spațiu, plătești cu 2 M€ mai puțin pentru ea."
+  ]
+ },
+ "Media Archives": {
+  "name": "Arhive media",
+  "desc": "Primești 1 M€ pentru fiecare eveniment jucat VREODATĂ de toți jucătorii."
+ },
+ "Media Group": {
+  "name": "Grup media",
+  "effects": [
+   "După ce joci o carte de eveniment, primești 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Laborator medical",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă pentru fiecare 2 simboluri Clădire pe care le ai, inclusiv acesta."
+ },
+ "Mine": {
+  "name": "Mină",
+  "desc": "Crește-ți producția de oțel cu 1 treaptă."
+ },
+ "Mineral Deposit": {
+  "name": "Zăcământ mineral",
+  "desc": "Primești 5 oțel."
+ },
+ "Mining Area": {
+  "name": "Zonă minieră",
+  "desc": "Plasează această plăcuță pe o zonă cu bonus de plasare oțel sau titan, adiacent unei alte plăcuțe a ta. Crește-ți cu 1 treaptă producția acelei resurse."
+ },
+ "Miranda Resort": {
+  "name": "Stațiunea Miranda",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă pentru fiecare simbol Pământ pe care îl ai."
+ },
+ "Olympus Conference": {
+  "name": "Conferința Olympus",
+  "desc": "Când joci un simbol Știință, inclusiv acesta, fie adaugi o resursă de știință pe această carte, fie înlături o resursă de știință de pe această carte ca să tragi o carte."
+ },
+ "Physics Complex": {
+  "name": "Complex de fizică",
+  "actions": [
+   "Cheltuie 6 energie ca să adaugi o resursă de știință pe această carte."
+  ],
+  "vpText": [
+   "2 PV pentru fiecare resursă de știință de pe această carte."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Infrastructură energetică",
+  "actions": [
+   "Cheltuie oricâtă energie și primești tot atâția M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Consorțiul de alimentare cu energie",
+  "desc": "Scade cu 1 treaptă producția de energie a oricărui jucător și crește-o pe a ta cu 1 treaptă."
+ },
+ "Protected Habitats": {
+  "name": "Habitate protejate",
+  "effects": [
+   "Adversarii nu îți pot înlătura plantele, animalele sau microbii."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Extractor cuantic",
+  "desc": "Crește-ți producția de energie cu 4 trepte.",
+  "effects": [
+   "Când joci o carte Spațiu, plătești cu 2 M€ mai puțin pentru ea."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Costume antiradiații",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă."
+ },
+ "Research": {
+  "name": "Cercetare",
+  "desc": "Contează ca și cum ai juca 2 cărți Știință. Trage 2 cărți."
+ },
+ "Restricted Area": {
+  "name": "Zonă restricționată",
+  "desc": "Plasează această plăcuță.",
+  "actions": [
+   "Cheltuie 2 M€ ca să tragi o carte."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Forță de muncă robotică",
+  "desc": "Dublează doar caseta de producție a uneia dintre cărțile tale Clădire."
+ },
+ "Sabotage": {
+  "name": "Sabotaj",
+  "desc": "Înlătură de la orice jucător până la 3 titan, sau 4 oțel, sau 7 M€."
+ },
+ "Satellites": {
+  "name": "Sateliți",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă pentru fiecare simbol Spațiu pe care îl ai, inclusiv acesta."
+ },
+ "Security Fleet": {
+  "name": "Flotă de securitate",
+  "actions": [
+   "Cheltuie 1 titan ca să adaugi 1 navă de luptă pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare navă de luptă de pe această carte."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Lift spațial",
+  "desc": "Crește-ți producția de titan cu 1 treaptă.",
+  "actions": [
+   "Cheltuie 1 oțel ca să primești 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Stație spațială",
+  "effects": [
+   "Când joci o carte Spațiu, plătești cu 2 M€ mai puțin pentru ea."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsori",
+  "desc": "Crește-ți producția de M€ cu 2 trepte."
+ },
+ "Standard Technology": {
+  "name": "Tehnologie standard",
+  "effects": [
+   "După ce plătești un proiect standard, cu excepția vânzării de brevete, primești 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigrade",
+  "actions": [
+   "Adaugă 1 microb pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare 4 microbi de pe această carte."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Demonstrație tehnologică",
+  "desc": "Trage două cărți."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraformarea lui Ganymede",
+  "desc": "Crește-ți RT-ul cu 1 treaptă pentru fiecare simbol Jupiter pe care îl ai, inclusiv acesta."
+ },
+ "Titanium Mine": {
+  "name": "Mină de titan",
+  "desc": "Crește-ți producția de titan cu 1 treaptă."
+ },
+ "Toll Station": {
+  "name": "Stație de taxare",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă pentru fiecare simbol Spațiu pe care îl au ADVERSARII tăi."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Sondă transneptuniană",
+  "desc": "O sondă pentru spațiul îndepărtat: valorează 1 PV."
+ },
+ "Tropical Resort": {
+  "name": "Stațiune tropicală",
+  "desc": "Scade-ți producția de căldură cu 2 trepte și crește-ți producția de M€ cu 3 trepte."
+ },
+ "Vesta Shipyard": {
+  "name": "Șantierul naval Vesta",
+  "desc": "Crește-ți producția de titan cu 1 treaptă."
+ },
+ "Viral Enhancers": {
+  "name": "Amplificatori virali",
+  "effects": [
+   "Când joci un simbol Plantă, Microb sau Animal, inclusiv acesta, primești 1 plantă sau adaugi 1 resursă pe ACEA CARTE."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Înlătură de la orice jucător până la 2 animale sau 5 plante."
+ },
+ "SF Memorial": {
+  "name": "Memorialul SF",
+  "desc": "Trage 1 carte."
+ },
+ "House Printing": {
+  "name": "Case imprimate 3D",
+  "desc": "Crește-ți producția de oțel cu 1 treaptă."
+ },
+ "Space Hotels": {
+  "name": "Hoteluri spațiale",
+  "desc": "Crește producția de M€ cu 4 trepte."
+ },
+ "Martian Survey": {
+  "name": "Studiu marțian",
+  "desc": "Trage două cărți."
+ },
+ "Research Coordination": {
+  "name": "Coordonarea cercetării",
+  "desc": "După ce a fost jucat, când efectuezi o acțiune, simbolul Joker contează ca orice simbol dorești."
+ },
+ "Lava Tube Settlement": {
+  "name": "Așezare în tunel de lavă",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 2 trepte. Plasează o plăcuță de oraș pe o ZONĂ VULCANICĂ, indiferent de orașele adiacente."
+ },
+ "Psychrophiles": {
+  "name": "Psihrofile",
+  "actions": [
+   "Adaugă 1 microb pe această carte."
+  ],
+  "effects": [
+   "Când plătești o carte Plantă, microbii de aici pot fi folosiți ca 2 M€ fiecare."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Tehnologie de adaptare",
+  "effects": [
+   "Cerințele tale globale sunt +2 sau -2 trepte, la alegere în fiecare caz."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Licheni adaptați",
+  "desc": "Crește-ți producția de plante cu 1 treaptă."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ecosisteme avansate"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroid de amoniac frânat aerodinamic",
+  "desc": "Crește-ți producția de căldură cu 3 trepte și producția de plante cu 1 treaptă. Adaugă 2 microbi pe O ALTĂ carte."
+ },
+ "Ants": {
+  "name": "Furnici",
+  "actions": [
+   "Înlătură 1 microb de pe orice carte ca să adaugi 1 pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare 2 microbi de pe această carte."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Pomparea acviferului",
+  "actions": [
+   "Cheltuie 8 M€ ca să plasezi 1 plăcuță de ocean. POȚI FOLOSI OȚEL ca și cum ai juca o carte Clădire."
+  ]
+ },
+ "Algae": {
+  "name": "Alge",
+  "desc": "Primești 1 plantă și crește-ți producția de plante cu 2 trepte."
+ },
+ "ArchaeBacteria": {
+  "name": "Arhebacterii",
+  "desc": "Crește-ți producția de plante cu 1 treaptă."
+ },
+ "Arctic Algae": {
+  "name": "Alge arctice",
+  "desc": "Primești 1 plantă.",
+  "effects": [
+   "Când oricine plasează o plăcuță de ocean, primești 2 plante."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Lac artificial",
+  "desc": "Plasează 1 plăcuță de ocean PE O ZONĂ CARE NU E REZERVATĂ PENTRU OCEAN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Fotosinteză artificială",
+  "desc": "Crește-ți producția de plante cu 1 treaptă sau producția de energie cu 2 trepte.",
+  "orTitles": [
+   "Crește-ți producția de energie cu 2 trepte",
+   "Crește-ți producția de plante cu 1 treaptă"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Crește temperatura cu 1 pas și primești 2 titan. Înlătură de la orice jucător până la 3 plante."
+ },
+ "Asteroid Mining": {
+  "name": "Minerit pe asteroizi",
+  "desc": "Crește-ți producția de titan cu 2 trepte."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Fascicul de pe un asteroid de toriu",
+  "desc": "Crește-ți producția de căldură și producția de energie cu câte 3 trepte."
+ },
+ "Big Asteroid": {
+  "name": "Asteroid mare",
+  "desc": "Crește temperatura cu 2 pași și primești 4 titan. Înlătură de la orice jucător până la 4 plante."
+ },
+ "Biomass Combustors": {
+  "name": "Arzătoare de biomasă",
+  "desc": "Scade cu 1 treaptă producția de plante a oricărui jucător și crește-ți producția de energie cu 2 trepte."
+ },
+ "Birds": {
+  "name": "Păsări",
+  "desc": "Scade cu 2 trepte producția de plante a oricărui jucător. 1 PV pentru fiecare animal de pe această carte.",
+  "actions": [
+   "Adaugă un animal pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare animal de pe această carte."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Praf polar negru",
+  "desc": "Plasează o plăcuță de ocean. Scade-ți producția de M€ cu 2 trepte și crește-ți producția de căldură cu 3 trepte."
+ },
+ "Breathing Filters": {
+  "name": "Filtre respiratorii"
+ },
+ "Bushes": {
+  "name": "Tufișuri",
+  "desc": "Crește-ți producția de plante cu 2 trepte. Primești 2 plante."
+ },
+ "Capital": {
+  "name": "Capitală",
+  "desc": "Plasează această plăcuță. Scade-ți producția de energie cu 2 trepte și crește-ți producția de M€ cu 5 trepte.",
+  "vpText": [
+   "1 PV suplimentar pentru fiecare plăcuță de ocean adiacentă acestei plăcuțe de oraș."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Procesarea carbonaților",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de căldură cu 3 trepte."
+ },
+ "Cloud Seeding": {
+  "name": "Însămânțarea norilor",
+  "desc": "Scade-ți producția de M€ cu 1 treaptă și producția de căldură a oricărui jucător cu 1 treaptă. Crește-ți producția de plante cu 2 trepte."
+ },
+ "Colonizer Training Camp": {
+  "name": "Tabără de pregătire a coloniștilor"
+ },
+ "Comet": {
+  "name": "Cometă",
+  "desc": "Crește temperatura cu 1 pas și plasează o plăcuță de ocean. Înlătură de la orice jucător până la 3 plante."
+ },
+ "Convoy From Europa": {
+  "name": "Convoi de pe Europa",
+  "desc": "Plasează 1 plăcuță de ocean și trage 1 carte."
+ },
+ "Cupola City": {
+  "name": "Oraș sub cupolă",
+  "desc": "Plasează o plăcuță de oraș. Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 3 trepte."
+ },
+ "Decomposers": {
+  "name": "Descompunători",
+  "effects": [
+   "Când joci un simbol Animal, Plantă sau Microb, inclusiv acesta, adaugă un microb pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare 3 microbi de pe această carte."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Încălzire prin puțuri adânci",
+  "desc": "Crește-ți producția de energie cu 1 treaptă. Crește temperatura cu 1 pas."
+ },
+ "Deimos Down": {
+  "name": "Prăbușirea lui Deimos",
+  "desc": "Crește temperatura cu 3 pași și primești 4 oțel. Înlătură de la orice jucător până la 8 plante."
+ },
+ "Designed Microorganisms": {
+  "name": "Microorganisme proiectate",
+  "desc": "Crește-ți producția de plante cu 2 trepte."
+ },
+ "Domed Crater": {
+  "name": "Crater sub cupolă",
+  "desc": "Primești 3 plante. Plasează o plăcuță de oraș. Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 3 trepte."
+ },
+ "Dust Seals": {
+  "name": "Etanșări contra prafului"
+ },
+ "Ecological Zone": {
+  "name": "Zonă ecologică",
+  "desc": "Plasează această plăcuță adiacent ORICĂREI vegetații.",
+  "effects": [
+   "Când joci un simbol Animal sau Plantă, INCLUSIV ACESTEA, adaugă un animal pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare 2 animale de pe această carte."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Economie de energie",
+  "desc": "Crește-ți producția de energie cu 1 treaptă pentru fiecare plăcuță de oraș aflată în joc."
+ },
+ "Eos Chasma National Park": {
+  "name": "Parcul Național Eos Chasma",
+  "desc": "Adaugă 1 animal PE ORICE CARTE CU ANIMALE. Primești 3 plante. Crește-ți producția de M€ cu 2 trepte."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Magnetizator ecuatorial",
+  "actions": [
+   "Scade-ți producția de energie cu 1 treaptă ca să-ți crești ratingul de terraformare cu 1 treaptă."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Ciupercă de frig extrem",
+  "actions": [
+   "Primești 1 plantă.",
+   "Adaugă 2 microbi pe O ALTĂ carte."
+  ]
+ },
+ "Farming": {
+  "name": "Agricultură",
+  "desc": "Crește-ți producția de M€ cu 2 trepte și producția de plante cu 2 trepte. Primești 2 plante."
+ },
+ "Fish": {
+  "name": "Pești",
+  "desc": "Scade cu 1 treaptă producția de plante a oricărui jucător.",
+  "actions": [
+   "Adaugă 1 animal pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare animal de pe această carte."
+  ]
+ },
+ "Flooding": {
+  "name": "Inundație",
+  "desc": "Plasează o plăcuță de ocean. DACĂ EXISTĂ PLĂCUȚE ADIACENTE ACESTUI OCEAN, POȚI LUA 4 M€ DE LA PROPRIETARUL UNEIA DINTRE ELE."
+ },
+ "Food Factory": {
+  "name": "Fabrică de alimente",
+  "desc": "Scade-ți producția de plante cu 1 treaptă și crește-ți producția de M€ cu 4 trepte."
+ },
+ "Fusion Power": {
+  "name": "Energie de fuziune",
+  "desc": "Crește-ți producția de energie cu 3 trepte."
+ },
+ "Fueled Generators": {
+  "name": "Generatoare pe combustibil",
+  "desc": "Scade-ți producția de M€ cu 1 treaptă și crește-ți producția de energie cu 1 treaptă."
+ },
+ "Ganymede Colony": {
+  "name": "Colonia Ganymede",
+  "desc": "Plasează o plăcuță de oraș PE ZONA REZERVATĂ.",
+  "vpText": [
+   "1 PV pentru fiecare simbol Jupiter pe care îl ai."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Energie geotermală",
+  "desc": "Crește-ți producția de energie cu 2 trepte."
+ },
+ "GHG Factories": {
+  "name": "Fabrici de gaze cu efect de seră",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de căldură cu 4 trepte."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bacterii producătoare de gaze cu efect de seră",
+  "actions": [
+   "Adaugă 1 microb pe această carte.",
+   "Înlătură 2 microbi ca să crești temperatura cu 1 pas."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroid gigant de gheață",
+  "desc": "Crește temperatura cu 2 pași și plasează 2 plăcuțe de ocean. Înlătură de la orice jucător până la 6 plante."
+ },
+ "Giant Space Mirror": {
+  "name": "Oglindă spațială gigantică",
+  "desc": "Crește-ți producția de energie cu 3 trepte."
+ },
+ "Grass": {
+  "name": "Iarbă",
+  "desc": "Crește-ți producția de plante cu 1 treaptă. Primești 3 plante."
+ },
+ "Great Dam": {
+  "name": "Marele baraj",
+  "desc": "Crește-ți producția de energie cu 2 trepte."
+ },
+ "Greenhouses": {
+  "name": "Sere",
+  "desc": "Primești 1 plantă pentru fiecare plăcuță de oraș aflată în joc."
+ },
+ "Heather": {
+  "name": "Iarbă neagră",
+  "desc": "Crește-ți producția de plante cu 1 treaptă. Primești 1 plantă."
+ },
+ "Heat Trappers": {
+  "name": "Captatori de căldură",
+  "desc": "Scade cu 2 trepte producția de căldură a oricărui jucător și crește-ți producția de energie cu 1 treaptă."
+ },
+ "Herbivores": {
+  "name": "Erbivore",
+  "desc": "+1 animal pe această carte. -1 producție de plante a oricărui jucător",
+  "effects": [
+   "Când plasezi o plăcuță de vegetație, adaugă un animal pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare 2 animale de pe această carte."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroid de gheață",
+  "desc": "Plasează 2 plăcuțe de ocean."
+ },
+ "Ice Cap Melting": {
+  "name": "Topirea calotei glaciare",
+  "desc": "Plasează 1 plăcuță de ocean."
+ },
+ "Immigrant City": {
+  "name": "Oraș de imigranți",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și producția de M€ cu 2 trepte. Plasează o plăcuță de oraș.",
+  "effects": [
+   "Când se plasează o plăcuță de oraș, inclusiv aceasta, crește-ți producția de M€ cu 1 treaptă."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Navete de imigrare",
+  "desc": "Crește-ți producția de M€ cu 5 trepte.",
+  "vpText": [
+   "1 PV pentru fiecare al 3-lea oraș aflat în joc."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Gaze cu efect de seră importate",
+  "desc": "Crește-ți producția de căldură cu 1 treaptă și primești 3 căldură."
+ },
+ "Imported Hydrogen": {
+  "name": "Hidrogen importat",
+  "desc": "Primești 3 plante sau adaugă 3 microbi ori 2 animale pe O ALTĂ carte. Plasează o plăcuță de ocean.",
+  "orTitles": [
+   "Primești 3 plante",
+   "Adaugă 3 microbi pe O ALTĂ carte",
+   "Adaugă 2 animale pe O ALTĂ carte"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Azot importat",
+  "desc": "Crește-ți RT-ul cu 1 treaptă și primești 4 plante. Adaugă 3 microbi pe O ALTĂ carte și 2 animale pe O ALTĂ carte."
+ },
+ "Import of Advanced GHG": {
+  "name": "Import de gaze avansate cu efect de seră",
+  "desc": "Crește-ți producția de căldură cu 2 trepte."
+ },
+ "Industrial Microbes": {
+  "name": "Microbi industriali",
+  "desc": "Crește-ți producția de energie și producția de oțel cu câte 1 treaptă."
+ },
+ "Insects": {
+  "name": "Insecte",
+  "desc": "Crește-ți producția de plante cu 1 treaptă pentru fiecare simbol Plantă pe care îl ai."
+ },
+ "Insulation": {
+  "name": "Izolație",
+  "desc": "Scade-ți producția de căldură cu oricâte trepte și crește-ți producția de M€ cu același număr de trepte."
+ },
+ "Ironworks": {
+  "name": "Uzină siderurgică",
+  "actions": [
+   "Cheltuie 4 energie ca să primești 1 oțel și să crești oxigenul cu 1 pas."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Cultură de alge marine",
+  "desc": "Crește-ți producția de M€ cu 2 trepte și producția de plante cu 3 trepte. Primești 2 plante."
+ },
+ "Lake Marineris": {
+  "name": "Lacul Marineris",
+  "desc": "Plasează 2 plăcuțe de ocean."
+ },
+ "Large Convoy": {
+  "name": "Convoi mare",
+  "desc": "Plasează o plăcuță de ocean și trage 2 cărți. Primești 5 plante sau adaugă 4 animale pe O ALTĂ carte.",
+  "orTitles": [
+   "Primești 5 plante",
+   "Adaugă 4 animale pe O ALTĂ carte"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Curgeri de lavă",
+  "desc": "Crește temperatura cu 2 pași și plasează această plăcuță PE THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS SAU ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Licheni",
+  "desc": "Crește-ți producția de plante cu 1 treaptă."
+ },
+ "Livestock": {
+  "name": "Animale de fermă",
+  "desc": "Scade-ți producția de plante cu 1 treaptă și crește-ți producția de M€ cu 2 trepte",
+  "actions": [
+   "Adaugă 1 animal pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare animal de pe această carte."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Captarea locală a căldurii",
+  "desc": "Cheltuie 5 căldură ca să primești 4 plante sau ca să adaugi 2 animale pe O ALTĂ carte.",
+  "orTitles": [
+   "Primești 4 plante",
+   "Adaugă 2 animale pe O ALTĂ carte"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Fascicul lunar",
+  "desc": "Scade-ți producția de M€ cu 2 trepte și crește-ți producția de căldură și producția de energie cu câte 2 trepte."
+ },
+ "Magnetic Field Dome": {
+  "name": "Cupolă cu câmp magnetic",
+  "desc": "Scade-ți producția de energie cu 2 trepte și crește-ți producția de plante cu 1 treaptă. Crește-ți RT-ul cu 1 treaptă."
+ },
+ "Magnetic Field Generators": {
+  "name": "Generatoare de câmp magnetic",
+  "desc": "Scade-ți producția de energie cu 4 trepte și crește-ți producția de plante cu 2 trepte. Crește-ți RT-ul cu 3 trepte."
+ },
+ "Mangrove": {
+  "name": "Mangrove",
+  "desc": "Plasează o plăcuță de vegetație PE O ZONĂ REZERVATĂ PENTRU OCEAN și crește oxigenul cu 1 pas. Ignoră pentru aceasta restricțiile normale de plasare."
+ },
+ "Martian Rails": {
+  "name": "Căile ferate marțiene",
+  "actions": [
+   "Cheltuie 1 energie ca să primești 1 M€ pentru fiecare plăcuță de oraș PE MARTE."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metan de pe Titan",
+  "desc": "Crește-ți producția de căldură cu 2 trepte și producția de plante cu 2 trepte."
+ },
+ "Micro-Mills": {
+  "name": "Micromori",
+  "desc": "Crește-ți producția de căldură cu 1 treaptă."
+ },
+ "Mining Expedition": {
+  "name": "Expediție minieră",
+  "desc": "Crește oxigenul cu 1 pas. Înlătură 2 plante de la orice jucător. Primești 2 oțel."
+ },
+ "Mining Rights": {
+  "name": "Drepturi miniere",
+  "desc": "Plasează această plăcuță pe o zonă cu bonus de plasare oțel sau titan. Crește cu 1 treaptă producția respectivă."
+ },
+ "Mohole Area": {
+  "name": "Zona Mohole",
+  "desc": "Crește-ți producția de căldură cu 4 trepte. Plasează această plăcuță PE O ZONĂ REZERVATĂ PENTRU OCEAN."
+ },
+ "Moss": {
+  "name": "Mușchi",
+  "desc": "Pierzi 1 plantă. Crește-ți producția de plante cu 1 treaptă."
+ },
+ "Natural Preserve": {
+  "name": "Rezervație naturală",
+  "desc": "Plasează această plăcuță NEADIACENT ORICĂREI ALTE PLĂCUȚE. Crește-ți producția de M€ cu 1 treaptă."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bacterii reducătoare de nitriți",
+  "desc": "Adaugă 3 microbi pe această carte.",
+  "actions": [
+   "Adaugă 1 microb pe această carte.",
+   "Înlătură 3 microbi ca să-ți crești RT-ul cu 1 treaptă."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid bogat în azot",
+  "desc": "Crește-ți ratingul de terraformare cu 2 trepte și temperatura cu 1 pas. Crește-ți producția de plante cu 1 treaptă sau cu 4 trepte dacă ai 3 simboluri Plantă."
+ },
+ "Nitrophilic Moss": {
+  "name": "Mușchi nitrofil",
+  "desc": "Pierzi 2 plante. Crește-ți producția de plante cu 2 trepte."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 3 trepte. Plasează o plăcuță de oraș PE ZONA REZERVATĂ, ignorând restricțiile normale de plasare."
+ },
+ "Noctis Farming": {
+  "name": "Agricultura din Noctis",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă și primești 2 plante."
+ },
+ "Nuclear Power": {
+  "name": "Energie nucleară",
+  "desc": "Scade-ți producția de M€ cu 2 trepte și crește-ți producția de energie cu 3 trepte."
+ },
+ "Nuclear Zone": {
+  "name": "Zonă nucleară",
+  "desc": "Plasează această plăcuță și crește temperatura cu 2 pași."
+ },
+ "Open City": {
+  "name": "Oraș deschis",
+  "desc": "Primești 2 plante. Plasează o plăcuță de oraș. Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 4 trepte."
+ },
+ "Optimal Aerobraking": {
+  "name": "Frânare aerodinamică optimă",
+  "effects": [
+   "Când joci un eveniment Spațiu, primești 3 M€ și 3 căldură."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Procesor de minereu",
+  "actions": [
+   "Cheltuie 4 energie ca să primești 1 titan și să crești oxigenul cu 1 pas."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Extracție din permafrost",
+  "desc": "Plasează 1 plăcuță de ocean."
+ },
+ "Peroxide Power": {
+  "name": "Energie din peroxid",
+  "desc": "Scade-ți producția de M€ cu 1 treaptă și crește-ți producția de energie cu 2 trepte."
+ },
+ "Pets": {
+  "name": "Animale de companie",
+  "desc": "Adaugă 1 animal pe această carte.",
+  "effects": [
+   "Când se plasează orice plăcuță de oraș, adaugă un animal pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare 2 animale de aici."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Portul spațial Phobos",
+  "desc": "Crește-ți producția de titan cu 1 treaptă și plasează o plăcuță de oraș PE ZONA REZERVATĂ."
+ },
+ "Plantation": {
+  "name": "Plantație",
+  "desc": "Plasează o plăcuță de vegetație și crește oxigenul cu 1 pas."
+ },
+ "Power Grid": {
+  "name": "Rețea electrică",
+  "desc": "Crește-ți producția de energie cu o treaptă pentru fiecare simbol Energie pe care îl ai, inclusiv acesta."
+ },
+ "Power Plant": {
+  "name": "Centrală electrică",
+  "desc": "Crește-ți producția de energie cu 1 treaptă."
+ },
+ "Predators": {
+  "name": "Prădători",
+  "actions": [
+   "Înlătură 1 animal de pe orice carte și adaugă-l pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare animal de pe această carte."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Vale protejată",
+  "desc": "Crește-ți producția de M€ cu 2 trepte. Plasează o plăcuță de vegetație PE O ZONĂ REZERVATĂ PENTRU OCEAN, ignorând restricțiile normale de plasare, și crește oxigenul cu 1 pas."
+ },
+ "Rad-Chem Factory": {
+  "name": "Fabrică radiochimică",
+  "desc": "Scade-ți producția de energie cu 1 treaptă. Crește-ți RT-ul cu 2 trepte."
+ },
+ "Regolith Eaters": {
+  "name": "Mâncători de regolit",
+  "actions": [
+   "Adaugă 1 microb pe această carte.",
+   "Înlătură 2 microbi de pe această carte ca să crești nivelul oxigenului cu 1 pas."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Eliberarea gazelor inerte",
+  "desc": "Crește-ți ratingul de terraformare cu 2 trepte."
+ },
+ "Research Outpost": {
+  "name": "Avanpost de cercetare",
+  "desc": "Plasează o plăcuță de oraș NEADIACENT ORICĂREI ALTE PLĂCUȚE.",
+  "effects": [
+   "Când joci o carte, plătești cu 1 M€ mai puțin pentru ea."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Construcția de rovere",
+  "effects": [
+   "Când se plasează orice plăcuță de oraș, primești 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "În căutarea vieții",
+  "actions": [
+   "Cheltuie 1 M€ ca să dezvălui cartea de deasupra pachetului de tras. Dacă are simbol Microb, adaugă aici o resursă de știință."
+  ],
+  "vpText": [
+   "3 PV dacă ai aici una sau mai multe resurse de știință."
+  ]
+ },
+ "Shuttles": {
+  "name": "Navete",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 2 trepte.",
+  "effects": [
+   "Când joci o carte Spațiu, plătești cu 2 M€ mai puțin pentru ea."
+  ]
+ },
+ "Small Animals": {
+  "name": "Animale mici",
+  "desc": "Scade cu 1 treaptă producția de plante a oricărui jucător.",
+  "actions": [
+   "Adaugă 1 animal pe această carte."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare 2 animale de pe această carte."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Fabrică de sol",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de plante cu 1 treaptă."
+ },
+ "Solar Power": {
+  "name": "Energie solară",
+  "desc": "Crește-ți producția de energie cu 1 treaptă."
+ },
+ "Solar Wind Power": {
+  "name": "Energia vântului solar",
+  "desc": "Crește-ți producția de energie cu 1 treaptă și primești 2 titan."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Crește-ți producția de căldură cu 7 trepte."
+ },
+ "Space Mirrors": {
+  "name": "Oglinzi spațiale",
+  "actions": [
+   "Cheltuie 7 M€ ca să-ți crești producția de energie cu 1 treaptă."
+  ]
+ },
+ "Special Design": {
+  "name": "Design special",
+  "desc": "Următoarea carte pe care o joci în această generație are cerințele globale +2 sau -2 trepte, la alegere."
+ },
+ "Steelworks": {
+  "name": "Oțelărie",
+  "actions": [
+   "Cheltuie 4 energie ca să primești 2 oțel și să crești oxigenul cu 1 pas."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Exploatare la suprafață",
+  "desc": "Scade-ți producția de energie cu 2 trepte. Crește-ți producția de oțel cu 2 trepte și producția de titan cu 1 treaptă. Crește oxigenul cu 2 pași."
+ },
+ "Subterranean Reservoir": {
+  "name": "Rezervor subteran",
+  "desc": "Plasează 1 plăcuță de ocean."
+ },
+ "Symbiotic Fungus": {
+  "name": "Ciupercă simbiotică",
+  "actions": [
+   "Adaugă un microb pe O ALTĂ carte."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Energie din tensiuni tectonice",
+  "desc": "Crește-ți producția de energie cu 3 trepte."
+ },
+ "Towing A Comet": {
+  "name": "Remorcarea unei comete",
+  "desc": "Primești 2 plante. Crește nivelul oxigenului cu 1 pas și plasează o plăcuță de ocean."
+ },
+ "Trees": {
+  "name": "Copaci",
+  "desc": "Crește-ți producția de plante cu 3 trepte. Primești 1 plantă."
+ },
+ "Tundra Farming": {
+  "name": "Agricultură în tundră",
+  "desc": "Crește-ți producția de plante cu 1 treaptă și producția de M€ cu 2 trepte. Primești 1 plantă."
+ },
+ "Underground City": {
+  "name": "Oraș subteran",
+  "desc": "Plasează o plăcuță de oraș. Scade-ți producția de energie cu 2 trepte și crește-ți producția de oțel cu 2 trepte."
+ },
+ "Underground Detonations": {
+  "name": "Detonări subterane",
+  "actions": [
+   "Cheltuie 10 M€ ca să-ți crești producția de căldură cu 2 trepte."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Zonă urbanizată",
+  "desc": "Scade-ți producția de energie cu 1 treaptă și crește-ți producția de M€ cu 2 trepte. Plasează o plăcuță de oraș ADIACENT CU CEL PUȚIN 2 ALTE PLĂCUȚE DE ORAȘ."
+ },
+ "Water Import From Europa": {
+  "name": "Import de apă de pe Europa",
+  "actions": [
+   "Plătește 12 M€ ca să plasezi o plăcuță de ocean. POȚI FOLOSI TITAN ca și cum ai juca o carte Spațiu."
+  ],
+  "vpText": [
+   "1 PV pentru fiecare simbol Jupiter pe care îl ai."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Instalație de electroliză a apei",
+  "actions": [
+   "Cheltuie 3 energie ca să crești oxigenul cu 1 pas."
+  ]
+ },
+ "Wave Power": {
+  "name": "Energia valurilor",
+  "desc": "Crește-ți producția de energie cu 1 treaptă."
+ },
+ "Windmills": {
+  "name": "Mori de vânt",
+  "desc": "Crește-ți producția de energie cu 1 treaptă."
+ },
+ "Worms": {
+  "name": "Viermi",
+  "desc": "Crește-ți producția de plante cu 1 treaptă pentru fiecare 2 simboluri Microb pe care le ai, inclusiv acesta."
+ },
+ "Zeppelins": {
+  "name": "Zepeline",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă pentru fiecare plăcuță de oraș PE MARTE."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Începi cu 1 producție de titan și 42 M€.",
+  "effects": [
+   "De fiecare dată când orice simbol Jupiter intră în joc, inclusiv acesta, crește-ți producția de M€ cu 1 treaptă."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Începi cu 60 M€.",
+  "effects": [
+   "Când joci un simbol Pământ, plătești cu 3 M€ mai puțin pentru el."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Începi cu 3 producție de M€ și 44 M€.",
+  "effects": [
+   "Când joci un simbol Clădire, plătești cu 2 M€ mai puțin pentru el."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Începi cu 1 producție de titan și 38 M€.",
+  "effects": [
+   "Când joci un simbol Pământ, inclusiv acesta, trage o carte."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Începi cu 47 M€.",
+  "actions": [
+   "Cheltuie 4 M€ ca să crești cu 1 treaptă (una dintre) producțiile tale CELE MAI MICI."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Începi cu 37 M€. Ca primă acțiune, trage 3 cărți Preludiu și joacă una dintre ele. Aruncă-le pe celelalte două.",
+  "effects": [
+   "Când joci un simbol Știință, plătești cu 2 M€ mai puțin pentru el."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Începi cu 45 M€. Ca primă acțiune, finanțează gratuit un premiu.",
+  "effects": [
+   "Când joci o carte cu o pictogramă de PV NENEGATIVĂ, inclusiv aceasta, primești 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Corporație pentru începători",
+  "desc": "Începi cu 42 M€. În loc să alegi dintre 10 cărți la pregătire, primești gratuit 10 cărți."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Începi cu 57 M€.",
+  "effects": [
+   "După ce plătești o carte sau un proiect standard cu un cost de bază de 20 M€ sau mai mult, primești 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Începi cu 2 producție de plante, 3 plante și 36 M€.",
+  "effects": [
+   "Poți plăti oricând 7 plante în loc de 8 ca să plasezi vegetație."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Începi cu 3 producție de căldură și 42 M€.",
+  "effects": [
+   "Poți folosi căldura ca M€. Nu poți folosi M€ ca și căldură."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Începi cu 20 oțel și 30 M€.",
+  "effects": [
+   "De fiecare dată când joci un eveniment, primești 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Ca primă acțiune în joc, trage 3 cărți. Începi cu 45 M€.",
+  "effects": [
+   "Cerințele tale de temperatură, oxigen, oceane și Venus sunt +2 sau -2 trepte, la alegere în fiecare caz."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Breasla Minerilor",
+  "desc": "Începi cu 30 M€, 5 oțel și 1 producție de oțel.",
+  "effects": [
+   "De fiecare dată când plasezi o plăcuță pe o zonă cu bonus de plasare oțel sau titan, crește-ți producția de oțel cu 1 treaptă"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Începi cu 10 titan și 23 M€.",
+  "effects": [
+   "Fiecare unitate de titan valorează cu 1 M€ în plus."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republica Tharsis",
+  "desc": "Începi cu 40 M€. Ca primă acțiune în joc, plasează o plăcuță de oraș.",
+  "effects": [
+   "Când se plasează orice plăcuță de oraș PE MARTE, crește-ți producția de M€ cu 1 treaptă. Când plasezi tu o plăcuță de oraș, primești 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Începi cu 1 producție de energie și 48 M€.",
+  "effects": [
+   "Când joci o carte Energie SAU PROIECTUL STANDARD CENTRALĂ ELECTRICĂ, plătești cu 3 M€ mai puțin pentru el."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Inițiativa ONU pentru Marte",
+  "desc": "Începi cu 40 M€.",
+  "actions": [
+   "Dacă ratingul tău de terraformare a crescut în această generație, poți plăti 3 M€ ca să-l mai crești cu 1 treaptă."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Bancă aliată",
+  "desc": "Crește-ți producția de M€ cu 4 trepte. Primești 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Sprijin pentru biosferă",
+  "desc": "Crește-ți producția de plante cu 2 trepte. Scade-ți producția de M€ cu 1 treaptă."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbine în acvifer",
+  "desc": "Plasează o plăcuță de ocean. Crește-ți producția de energie cu 2 trepte. Plătești 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Excavarea Mohole",
+  "desc": "Crește-ți producția de oțel cu 1 treaptă și producția de căldură cu 2 trepte. Primești 2 căldură."
+ },
+ "Early Settlement": {
+  "name": "Așezare timpurie",
+  "desc": "Crește-ți producția de plante cu 1 treaptă. Plasează o plăcuță de oraș."
+ },
+ "Biofuels": {
+  "name": "Biocombustibili",
+  "desc": "Crește-ți producția de energie și de plante cu 1 treaptă. Primești 2 plante."
+ },
+ "Power Generation": {
+  "name": "Generare de energie",
+  "desc": "Crește-ți producția de energie cu 3 trepte."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Așezare autosuficientă",
+  "desc": "Crește-ți producția de M€ cu 2 trepte. Plasează o plăcuță de oraș."
+ },
+ "Mining Operations": {
+  "name": "Operațiuni miniere",
+  "desc": "Crește-ți producția de oțel cu 2 trepte. Primești 4 oțel."
+ },
+ "UNMI Contractor": {
+  "name": "Contractor UNMI",
+  "desc": "Crește-ți RT-ul cu 3 trepte. Trage o carte."
+ },
+ "Dome Farming": {
+  "name": "Agricultură sub cupolă",
+  "desc": "Crește-ți producția de M€ cu 2 trepte și producția de plante cu 1 treaptă."
+ },
+ "Business Empire": {
+  "name": "Imperiu de afaceri",
+  "desc": "Crește-ți producția de M€ cu 6 trepte. Plătești 6 M€."
+ },
+ "Donation": {
+  "name": "Donație",
+  "desc": "Primești 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Transport de azot",
+  "desc": "Crește-ți producția de plante cu 1 treaptă. Crește-ți RT-ul cu 1 treaptă. Primești 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Topitorie",
+  "desc": "Crește oxigenul cu 2 pași. Primești 5 oțel."
+ },
+ "Supplier": {
+  "name": "Furnizor",
+  "desc": "Crește-ți producția de energie cu 2 trepte. Primești 4 oțel."
+ },
+ "Supply Drop": {
+  "name": "Transport de provizii",
+  "desc": "Primești 3 titan, 8 oțel și 3 plante."
+ },
+ "Great Aquifer": {
+  "name": "Marele acvifer",
+  "desc": "Plasează 2 plăcuțe de ocean."
+ },
+ "Biolab": {
+  "name": "Laborator biologic",
+  "desc": "Crește-ți producția de plante cu 1 treaptă. Trage 3 cărți."
+ },
+ "Martian Industries": {
+  "name": "Industriile marțiene",
+  "desc": "Crește-ți producția de energie și de oțel cu 1 treaptă. Primești 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Avanpostul de cercetare de pe Io",
+  "desc": "Crește-ți producția de titan cu 1 treaptă. Trage o carte."
+ },
+ "Polar Industries": {
+  "name": "Industrii polare",
+  "desc": "Crește-ți producția de căldură cu 2 trepte. Plasează o plăcuță de ocean."
+ },
+ "Society Support": {
+  "name": "Sprijinul societății",
+  "desc": "Crește-ți producția de plante, energie și căldură cu 1 treaptă. Scade producția de M€ cu 1 treaptă."
+ },
+ "Galilean Mining": {
+  "name": "Minerit galileean",
+  "desc": "Crește-ți producția de titan cu 2 trepte. Plătești 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroid uriaș",
+  "desc": "Crește temperatura cu 3 pași. Plătești 5 M€."
+ },
+ "Metals Company": {
+  "name": "Companie de metale",
+  "desc": "Crește-ți producția de M€, oțel și titan cu 1 treaptă."
+ },
+ "Loan": {
+  "name": "Împrumut",
+  "desc": "Primești 30 M€. Scade-ți producția de M€ cu 2 trepte."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Crește-ți producția de căldură cu 3 trepte. Primești 3 căldură."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid bogat în metale",
+  "desc": "Crește temperatura cu 1 pas. Primești 4 titan și 4 oțel."
+ },
+ "Orbital Construction Yard": {
+  "name": "Șantier de construcții orbital",
+  "desc": "Crește-ți producția de titan cu 1 treaptă. Primești 4 titan."
+ },
+ "Acquired Space Agency": {
+  "name": "Agenție spațială achiziționată",
+  "desc": "Primești 6 titan. Dezvăluie cărți până dezvălui două cărți cu simbol Spațiu. Ia-le în mână, aruncă-le pe celelalte."
+ },
+ "Research Network": {
+  "name": "Rețea de cercetare",
+  "desc": "Crește-ți producția de M€ cu 1 treaptă. Trage 3 cărți. După ce a fost jucat, când efectuezi o acțiune, simbolul Joker contează ca orice simbol dorești."
+ },
+ "Eccentric Sponsor": {
+  "name": "Sponsor excentric",
+  "desc": "JOACĂ O CARTE DIN MÂNĂ CU O REDUCERE DE 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Experți în ecologie",
+  "desc": "Crește-ți producția de plante cu 1 treaptă. JOACĂ O CARTE DIN MÂNĂ, IGNORÂND CERINȚELE GLOBALE."
+ },
+ "Experimental Forest": {
+  "name": "Pădure experimentală",
+  "desc": "Plasează 1 plăcuță de vegetație și crește oxigenul cu 1 pas. Dezvăluie cărți până dezvălui două cărți cu simbol Plantă. Ia-le în mână și aruncă-le pe celelalte."
+ }
+}

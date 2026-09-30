@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Công ty thâu tóm",
+  "desc": "Tăng sản lượng M€ của bạn 3 bậc."
+ },
+ "Advanced Alloys": {
+  "name": "Hợp kim tiên tiến",
+  "effects": [
+   "Mỗi titan bạn có trị giá thêm 1 M€.",
+   "Mỗi thép bạn có trị giá thêm 1 M€."
+  ]
+ },
+ "AI Central": {
+  "name": "Trung tâm AI",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc.",
+  "actions": [
+   "Rút 2 thẻ."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Công nghệ phản trọng lực",
+  "effects": [
+   "Khi bạn chơi một thẻ, bạn trả ít hơn 2 M€."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Liên doanh khai mỏ tiểu hành tinh",
+  "desc": "Giảm sản lượng titan của bất kỳ người chơi nào 1 bậc và tăng sản lượng titan của bạn 1 bậc."
+ },
+ "Bribed Committee": {
+  "name": "Ủy ban bị mua chuộc",
+  "desc": "Tăng TR của bạn 2 bậc."
+ },
+ "Building Industries": {
+  "name": "Công nghiệp xây dựng",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng thép của bạn 2 bậc."
+ },
+ "Business Contacts": {
+  "name": "Quan hệ kinh doanh",
+  "desc": "Xem 4 thẻ trên cùng của chồng bài. Lấy 2 thẻ lên tay và bỏ phần còn lại."
+ },
+ "Business Network": {
+  "name": "Mạng lưới kinh doanh",
+  "desc": "Giảm sản lượng M€ của bạn 1 bậc.",
+  "actions": [
+   "Xem thẻ trên cùng và mua hoặc bỏ nó."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Trại mỏ khổ sai Callisto",
+  "desc": "Tăng sản lượng M€ của bạn 3 bậc."
+ },
+ "Caretaker Contract": {
+  "name": "Hợp đồng chăm sóc",
+  "actions": [
+   "Chi 8 nhiệt để tăng Chỉ số Cải tạo của bạn 1 bậc."
+  ]
+ },
+ "Cartel": {
+  "name": "Các-ten",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc cho mỗi biểu tượng Trái Đất bạn có, tính cả thẻ này."
+ },
+ "CEO's Favorite Project": {
+  "name": "Dự án ưa thích của CEO",
+  "desc": "Thêm 1 tài nguyên vào một thẻ bất kỳ của bạn đã có ít nhất 1 tài nguyên."
+ },
+ "Commercial District": {
+  "name": "Khu thương mại",
+  "desc": "Đặt ô này. Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 4 bậc.",
+  "vpText": [
+   "1 điểm cho mỗi ô thành phố kề bên."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Pháo đài tập đoàn",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 3 bậc. Đặt một ô thành phố."
+ },
+ "Development Center": {
+  "name": "Trung tâm phát triển",
+  "actions": [
+   "Chi 1 năng lượng để rút một thẻ."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Máy phóng Trái Đất",
+  "effects": [
+   "Khi bạn chơi một thẻ, bạn trả ít hơn 2 M€."
+  ]
+ },
+ "Earth Office": {
+  "name": "Văn phòng Trái Đất",
+  "effects": [
+   "Khi bạn chơi một biểu tượng Trái Đất, bạn trả ít hơn 3 M€."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Máy phóng điện từ",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc.",
+  "actions": [
+   "Chi 1 thực vật hoặc 1 thép để nhận 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Rút trộm năng lượng",
+  "desc": "Giảm sản lượng năng lượng của bất kỳ người chơi nào 1 bậc và tăng sản lượng năng lượng của bạn 1 bậc."
+ },
+ "Fuel Factory": {
+  "name": "Nhà máy nhiên liệu",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng titan và sản lượng M€ của bạn mỗi loại 1 bậc."
+ },
+ "Gene Repair": {
+  "name": "Sửa chữa gen",
+  "desc": "Tăng sản lượng M€ của bạn 2 bậc."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Liên doanh Đại Vách Đá",
+  "desc": "Giảm sản lượng thép của bất kỳ người chơi nào 1 bậc và tăng sản lượng thép của bạn 1 bậc."
+ },
+ "Hackers": {
+  "name": "Tin tặc",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và sản lượng M€ của bất kỳ người chơi nào 2 bậc. Tăng sản lượng M€ của bạn 2 bậc."
+ },
+ "Hired Raiders": {
+  "name": "Toán cướp đánh thuê",
+  "desc": "Cướp tối đa 2 thép, hoặc 3 M€ của bất kỳ người chơi nào."
+ },
+ "Indentured Workers": {
+  "name": "Lao động khế ước",
+  "desc": "Thẻ tiếp theo bạn chơi trong thế hệ này rẻ hơn 8 M€."
+ },
+ "Industrial Center": {
+  "name": "Trung tâm công nghiệp",
+  "desc": "Đặt ô này kề một ô thành phố.",
+  "actions": [
+   "Chi 7 M€ để tăng sản lượng thép của bạn 1 bậc."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Tàu thuộc địa liên sao"
+ },
+ "Invention Contest": {
+  "name": "Cuộc thi sáng chế",
+  "desc": "Xem 3 thẻ trên cùng của chồng bài. Lấy 1 thẻ lên tay và bỏ phần còn lại."
+ },
+ "Inventors' Guild": {
+  "name": "Hội nhà phát minh",
+  "actions": [
+   "Xem thẻ trên cùng và mua hoặc bỏ nó."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Khoản vay đầu tư",
+  "desc": "Giảm sản lượng M€ của bạn 1 bậc. Nhận 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Công nghiệp khai mỏ Io",
+  "desc": "Tăng sản lượng titan của bạn 2 bậc và sản lượng M€ của bạn 2 bậc.",
+  "vpText": [
+   "1 điểm cho mỗi biểu tượng Sao Mộc bạn có."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Đài quan sát Lagrange",
+  "desc": "Rút 1 thẻ."
+ },
+ "Land Claim": {
+  "name": "Chiếm đất",
+  "desc": "Giữ riêng một vùng chưa được giữ cho bạn: chỉ bạn được đặt ô ở đó."
+ },
+ "Lightning Harvest": {
+  "name": "Thu hoạch sét",
+  "desc": "Tăng sản lượng năng lượng và sản lượng M€ của bạn mỗi loại một bậc."
+ },
+ "Mars University": {
+  "name": "Đại học Sao Hỏa",
+  "effects": [
+   "Khi bạn chơi một biểu tượng khoa học, tính cả thẻ này, bạn có thể bỏ một thẻ trên tay để rút một thẻ."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Máy chuyển hóa khối lượng",
+  "desc": "Tăng sản lượng năng lượng của bạn 6 bậc.",
+  "effects": [
+   "Khi bạn chơi một thẻ không gian, bạn trả ít hơn 2 M€."
+  ]
+ },
+ "Media Archives": {
+  "name": "Kho lưu trữ truyền thông",
+  "desc": "Nhận 1 M€ cho mỗi sự kiện TỪNG ĐƯỢC CHƠI bởi mọi người chơi."
+ },
+ "Media Group": {
+  "name": "Tập đoàn truyền thông",
+  "effects": [
+   "Sau khi bạn chơi một thẻ sự kiện, bạn nhận 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Phòng thí nghiệm y khoa",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc cho mỗi 2 biểu tượng xây dựng bạn có, tính cả thẻ này."
+ },
+ "Mine": {
+  "name": "Mỏ",
+  "desc": "Tăng sản lượng thép của bạn 1 bậc."
+ },
+ "Mineral Deposit": {
+  "name": "Mỏ khoáng sản",
+  "desc": "Nhận 5 thép."
+ },
+ "Mining Area": {
+  "name": "Khu khai khoáng",
+  "desc": "Đặt ô này lên một vùng có thưởng đặt ô là thép hoặc titan, kề một ô khác của bạn. Tăng sản lượng tài nguyên đó của bạn 1 bậc."
+ },
+ "Miranda Resort": {
+  "name": "Khu nghỉ dưỡng Miranda",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc cho mỗi biểu tượng Trái Đất bạn có."
+ },
+ "Olympus Conference": {
+  "name": "Hội nghị Olympus",
+  "desc": "Khi bạn chơi một biểu tượng khoa học, tính cả thẻ này, hãy thêm một tài nguyên khoa học vào thẻ này, hoặc lấy một tài nguyên khoa học khỏi thẻ này để rút một thẻ."
+ },
+ "Physics Complex": {
+  "name": "Tổ hợp vật lý",
+  "actions": [
+   "Chi 6 năng lượng để thêm một tài nguyên khoa học vào thẻ này."
+  ],
+  "vpText": [
+   "2 điểm cho mỗi tài nguyên khoa học trên thẻ này."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Hạ tầng điện",
+  "actions": [
+   "Chi bao nhiêu năng lượng tùy ý và nhận bấy nhiêu M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Liên doanh cấp điện",
+  "desc": "Giảm sản lượng năng lượng của bất kỳ người chơi nào 1 bậc và tăng sản lượng năng lượng của bạn 1 bậc."
+ },
+ "Protected Habitats": {
+  "name": "Môi trường sống được bảo vệ",
+  "effects": [
+   "Đối thủ không được loại bỏ thực vật, động vật hay vi sinh vật của bạn."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Máy chiết lượng tử",
+  "desc": "Tăng sản lượng năng lượng của bạn 4 bậc.",
+  "effects": [
+   "Khi bạn chơi một thẻ không gian, bạn trả ít hơn 2 M€."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Đồ chống phóng xạ",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc."
+ },
+ "Research": {
+  "name": "Nghiên cứu",
+  "desc": "Tính như chơi 2 thẻ khoa học. Rút 2 thẻ."
+ },
+ "Restricted Area": {
+  "name": "Khu vực hạn chế",
+  "desc": "Đặt ô này.",
+  "actions": [
+   "Chi 2 M€ để rút một thẻ."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Lực lượng robot",
+  "desc": "Sao chép chỉ riêng ô sản lượng của một thẻ xây dựng của bạn."
+ },
+ "Sabotage": {
+  "name": "Phá hoại",
+  "desc": "Loại bỏ tối đa 3 titan của bất kỳ người chơi nào, hoặc 4 thép, hoặc 7 M€."
+ },
+ "Satellites": {
+  "name": "Vệ tinh",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc cho mỗi biểu tượng không gian bạn có, tính cả thẻ này."
+ },
+ "Security Fleet": {
+  "name": "Hạm đội an ninh",
+  "actions": [
+   "Chi 1 titan để thêm 1 chiến hạm vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi chiến hạm trên thẻ này."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Thang máy không gian",
+  "desc": "Tăng sản lượng titan của bạn 1 bậc.",
+  "actions": [
+   "Chi 1 thép để nhận 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Trạm không gian",
+  "effects": [
+   "Khi bạn chơi một thẻ không gian, bạn trả ít hơn 2 M€."
+  ]
+ },
+ "Sponsors": {
+  "name": "Nhà tài trợ",
+  "desc": "Tăng sản lượng M€ của bạn 2 bậc."
+ },
+ "Standard Technology": {
+  "name": "Công nghệ tiêu chuẩn",
+  "effects": [
+   "Sau khi bạn trả tiền cho một dự án tiêu chuẩn, trừ bán bằng sáng chế, bạn nhận 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Gấu nước",
+  "actions": [
+   "Thêm 1 vi sinh vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi 4 vi sinh vật trên thẻ này."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Trình diễn công nghệ",
+  "desc": "Rút 2 thẻ."
+ },
+ "Terraforming Ganymede": {
+  "name": "Cải tạo Ganymede",
+  "desc": "Tăng TR của bạn 1 bậc cho mỗi biểu tượng Sao Mộc bạn có, tính cả thẻ này."
+ },
+ "Titanium Mine": {
+  "name": "Mỏ titan",
+  "desc": "Tăng sản lượng titan của bạn 1 bậc."
+ },
+ "Toll Station": {
+  "name": "Trạm thu phí",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc cho mỗi biểu tượng không gian mà ĐỐI THỦ có."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Tàu thăm dò ngoài Sao Hải Vương",
+  "desc": "Một tàu thăm dò không gian sâu: trị giá 1 điểm."
+ },
+ "Tropical Resort": {
+  "name": "Khu nghỉ dưỡng nhiệt đới",
+  "desc": "Giảm sản lượng nhiệt của bạn 2 bậc và tăng sản lượng M€ của bạn 3 bậc."
+ },
+ "Vesta Shipyard": {
+  "name": "Xưởng đóng tàu Vesta",
+  "desc": "Tăng sản lượng titan của bạn 1 bậc."
+ },
+ "Viral Enhancers": {
+  "name": "Chất tăng cường virus",
+  "effects": [
+   "Khi bạn chơi một biểu tượng thực vật, vi sinh vật hoặc động vật, tính cả thẻ này, hãy nhận 1 thực vật hoặc thêm 1 tài nguyên vào CHÍNH THẺ ĐÓ."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Loại bỏ tối đa 2 động vật hoặc 5 thực vật của bất kỳ người chơi nào."
+ },
+ "SF Memorial": {
+  "name": "Đài tưởng niệm SF",
+  "desc": "Rút 1 thẻ."
+ },
+ "House Printing": {
+  "name": "In nhà 3D",
+  "desc": "Tăng sản lượng thép của bạn 1 bậc."
+ },
+ "Space Hotels": {
+  "name": "Khách sạn không gian",
+  "desc": "Tăng sản lượng M€ 4 bậc."
+ },
+ "Martian Survey": {
+  "name": "Khảo sát Sao Hỏa",
+  "desc": "Rút 2 thẻ."
+ },
+ "Research Coordination": {
+  "name": "Điều phối nghiên cứu",
+  "desc": "Sau khi được chơi, khi bạn thực hiện một hành động, biểu tượng đa năng được tính là bất kỳ biểu tượng nào bạn chọn."
+ },
+ "Lava Tube Settlement": {
+  "name": "Khu định cư ống dung nham",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 2 bậc. Đặt một ô thành phố lên một VÙNG NÚI LỬA bất kể các thành phố kề bên."
+ },
+ "Psychrophiles": {
+  "name": "Vi khuẩn ưa lạnh",
+  "actions": [
+   "Thêm 1 vi sinh vật vào thẻ này."
+  ],
+  "effects": [
+   "Khi trả tiền cho một thẻ thực vật, vi sinh vật ở đây có thể dùng như 2 M€ mỗi con."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Công nghệ thích nghi",
+  "effects": [
+   "Yêu cầu toàn cầu của bạn được +2 hoặc -2 bậc, tùy bạn chọn trong mỗi trường hợp."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Địa y thích nghi",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc."
+ },
+ "Advanced Ecosystems": {
+  "name": "Hệ sinh thái tiên tiến"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Tiểu hành tinh amoniac hãm khí quyển",
+  "desc": "Tăng sản lượng nhiệt của bạn 3 bậc và sản lượng thực vật của bạn 1 bậc. Thêm 2 vi sinh vật vào một thẻ KHÁC."
+ },
+ "Ants": {
+  "name": "Kiến",
+  "actions": [
+   "Lấy 1 vi sinh vật từ một thẻ bất kỳ để thêm 1 vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi 2 vi sinh vật trên thẻ này."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Bơm tầng ngậm nước",
+  "actions": [
+   "Chi 8 M€ để đặt 1 ô đại dương. CÓ THỂ DÙNG THÉP như khi chơi một thẻ xây dựng."
+  ]
+ },
+ "Algae": {
+  "name": "Tảo",
+  "desc": "Nhận 1 thực vật và tăng sản lượng thực vật của bạn 2 bậc."
+ },
+ "ArchaeBacteria": {
+  "name": "Vi khuẩn cổ",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc."
+ },
+ "Arctic Algae": {
+  "name": "Tảo Bắc Cực",
+  "desc": "Nhận 1 thực vật.",
+  "effects": [
+   "Khi bất kỳ ai đặt một ô đại dương, nhận 2 thực vật."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Hồ nhân tạo",
+  "desc": "Đặt 1 ô đại dương LÊN MỘT VÙNG KHÔNG DÀNH CHO ĐẠI DƯƠNG."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Quang hợp nhân tạo",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc hoặc sản lượng năng lượng của bạn 2 bậc.",
+  "orTitles": [
+   "Tăng sản lượng năng lượng của bạn 2 bậc",
+   "Tăng sản lượng thực vật của bạn 1 bậc"
+  ]
+ },
+ "Asteroid": {
+  "name": "Tiểu hành tinh",
+  "desc": "Tăng nhiệt độ 1 bậc và nhận 2 titan. Loại bỏ tối đa 3 thực vật của bất kỳ người chơi nào."
+ },
+ "Asteroid Mining": {
+  "name": "Khai mỏ tiểu hành tinh",
+  "desc": "Tăng sản lượng titan của bạn 2 bậc."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Chùm tia từ tiểu hành tinh thori",
+  "desc": "Tăng sản lượng nhiệt và sản lượng năng lượng của bạn mỗi loại 3 bậc."
+ },
+ "Big Asteroid": {
+  "name": "Tiểu hành tinh lớn",
+  "desc": "Tăng nhiệt độ 2 bậc và nhận 4 titan. Loại bỏ tối đa 4 thực vật của bất kỳ người chơi nào."
+ },
+ "Biomass Combustors": {
+  "name": "Lò đốt sinh khối",
+  "desc": "Giảm sản lượng thực vật của bất kỳ người chơi nào 1 bậc và tăng sản lượng năng lượng của bạn 2 bậc."
+ },
+ "Birds": {
+  "name": "Chim",
+  "desc": "Giảm sản lượng thực vật của bất kỳ người chơi nào 2 bậc. 1 điểm cho mỗi động vật trên thẻ này.",
+  "actions": [
+   "Thêm một động vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi động vật trên thẻ này."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Bụi đen vùng cực",
+  "desc": "Đặt một ô đại dương. Giảm sản lượng M€ của bạn 2 bậc và tăng sản lượng nhiệt của bạn 3 bậc."
+ },
+ "Breathing Filters": {
+  "name": "Bộ lọc hô hấp"
+ },
+ "Bushes": {
+  "name": "Bụi cây",
+  "desc": "Tăng sản lượng thực vật của bạn 2 bậc. Nhận 2 thực vật."
+ },
+ "Capital": {
+  "name": "Thủ đô",
+  "desc": "Đặt ô này. Giảm sản lượng năng lượng của bạn 2 bậc và tăng sản lượng M€ của bạn 5 bậc.",
+  "vpText": [
+   "Thêm 1 điểm cho mỗi ô đại dương kề ô thành phố này."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Xử lý cacbonat",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng nhiệt của bạn 3 bậc."
+ },
+ "Cloud Seeding": {
+  "name": "Gieo mây",
+  "desc": "Giảm sản lượng M€ của bạn 1 bậc và sản lượng nhiệt của bất kỳ người chơi nào 1 bậc. Tăng sản lượng thực vật của bạn 2 bậc."
+ },
+ "Colonizer Training Camp": {
+  "name": "Trại huấn luyện di dân"
+ },
+ "Comet": {
+  "name": "Sao chổi",
+  "desc": "Tăng nhiệt độ 1 bậc và đặt một ô đại dương. Loại bỏ tối đa 3 thực vật của bất kỳ người chơi nào."
+ },
+ "Convoy From Europa": {
+  "name": "Đoàn tàu từ Europa",
+  "desc": "Đặt 1 ô đại dương và rút 1 thẻ."
+ },
+ "Cupola City": {
+  "name": "Thành phố mái vòm",
+  "desc": "Đặt một ô thành phố. Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 3 bậc."
+ },
+ "Decomposers": {
+  "name": "Sinh vật phân hủy",
+  "effects": [
+   "Khi bạn chơi một biểu tượng động vật, thực vật hoặc vi sinh vật, tính cả thẻ này, thêm một vi sinh vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi 3 vi sinh vật trên thẻ này."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Sưởi bằng giếng sâu",
+  "desc": "Tăng sản lượng năng lượng của bạn 1 bậc. Tăng nhiệt độ 1 bậc."
+ },
+ "Deimos Down": {
+  "name": "Deimos rơi",
+  "desc": "Tăng nhiệt độ 3 bậc và nhận 4 thép. Loại bỏ tối đa 8 thực vật của bất kỳ người chơi nào."
+ },
+ "Designed Microorganisms": {
+  "name": "Vi sinh vật thiết kế",
+  "desc": "Tăng sản lượng thực vật của bạn 2 bậc."
+ },
+ "Domed Crater": {
+  "name": "Miệng hố có mái vòm",
+  "desc": "Nhận 3 thực vật. Đặt một ô thành phố. Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 3 bậc."
+ },
+ "Dust Seals": {
+  "name": "Gioăng chắn bụi"
+ },
+ "Ecological Zone": {
+  "name": "Vùng sinh thái",
+  "desc": "Đặt ô này kề BẤT KỲ mảng xanh nào.",
+  "effects": [
+   "Khi bạn chơi một biểu tượng động vật hoặc thực vật, TÍNH CẢ CÁC BIỂU TƯỢNG TRÊN THẺ NÀY, thêm một động vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi 2 động vật trên thẻ này."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Tiết kiệm năng lượng",
+  "desc": "Tăng sản lượng năng lượng của bạn 1 bậc cho mỗi ô thành phố đang có trên bàn."
+ },
+ "Eos Chasma National Park": {
+  "name": "Vườn quốc gia Eos Chasma",
+  "desc": "Thêm 1 động vật VÀO MỘT THẺ ĐỘNG VẬT BẤT KỲ. Nhận 3 thực vật. Tăng sản lượng M€ của bạn 2 bậc."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Máy từ hóa xích đạo",
+  "actions": [
+   "Giảm sản lượng năng lượng của bạn 1 bậc để tăng Chỉ số Cải tạo của bạn 1 bậc."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Nấm chịu lạnh cực độ",
+  "actions": [
+   "Nhận 1 thực vật.",
+   "Thêm 2 vi sinh vật vào một thẻ KHÁC."
+  ]
+ },
+ "Farming": {
+  "name": "Canh tác",
+  "desc": "Tăng sản lượng M€ của bạn 2 bậc và sản lượng thực vật của bạn 2 bậc. Nhận 2 thực vật."
+ },
+ "Fish": {
+  "name": "Cá",
+  "desc": "Giảm sản lượng thực vật của bất kỳ người chơi nào 1 bậc.",
+  "actions": [
+   "Thêm 1 động vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi động vật trên thẻ này."
+  ]
+ },
+ "Flooding": {
+  "name": "Lũ lụt",
+  "desc": "Đặt một ô đại dương. NẾU CÓ Ô KỀ Ô ĐẠI DƯƠNG NÀY, BẠN CÓ THỂ LẤY ĐI 4 M€ CỦA CHỦ MỘT TRONG CÁC Ô ĐÓ."
+ },
+ "Food Factory": {
+  "name": "Nhà máy thực phẩm",
+  "desc": "Giảm sản lượng thực vật của bạn 1 bậc và tăng sản lượng M€ của bạn 4 bậc."
+ },
+ "Fusion Power": {
+  "name": "Điện nhiệt hạch",
+  "desc": "Tăng sản lượng năng lượng của bạn 3 bậc."
+ },
+ "Fueled Generators": {
+  "name": "Máy phát chạy nhiên liệu",
+  "desc": "Giảm sản lượng M€ của bạn 1 bậc và tăng sản lượng năng lượng của bạn 1 bậc."
+ },
+ "Ganymede Colony": {
+  "name": "Thuộc địa Ganymede",
+  "desc": "Đặt một ô thành phố LÊN VÙNG ĐÃ DÀNH SẴN.",
+  "vpText": [
+   "1 điểm cho mỗi biểu tượng Sao Mộc bạn có."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Điện địa nhiệt",
+  "desc": "Tăng sản lượng năng lượng của bạn 2 bậc."
+ },
+ "GHG Factories": {
+  "name": "Nhà máy khí nhà kính",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng nhiệt của bạn 4 bậc."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Vi khuẩn tạo khí nhà kính",
+  "actions": [
+   "Thêm 1 vi sinh vật vào thẻ này.",
+   "Lấy đi 2 vi sinh vật để tăng nhiệt độ 1 bậc."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Tiểu hành tinh băng khổng lồ",
+  "desc": "Tăng nhiệt độ 2 bậc và đặt 2 ô đại dương. Loại bỏ tối đa 6 thực vật của bất kỳ người chơi nào."
+ },
+ "Giant Space Mirror": {
+  "name": "Gương không gian khổng lồ",
+  "desc": "Tăng sản lượng năng lượng của bạn 3 bậc."
+ },
+ "Grass": {
+  "name": "Cỏ",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc. Nhận 3 thực vật."
+ },
+ "Great Dam": {
+  "name": "Đại đập",
+  "desc": "Tăng sản lượng năng lượng của bạn 2 bậc."
+ },
+ "Greenhouses": {
+  "name": "Nhà kính",
+  "desc": "Nhận 1 thực vật cho mỗi ô thành phố đang có trên bàn."
+ },
+ "Heather": {
+  "name": "Thạch nam",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc. Nhận 1 thực vật."
+ },
+ "Heat Trappers": {
+  "name": "Bẫy nhiệt",
+  "desc": "Giảm sản lượng nhiệt của bất kỳ người chơi nào 2 bậc và tăng sản lượng năng lượng của bạn 1 bậc."
+ },
+ "Herbivores": {
+  "name": "Động vật ăn cỏ",
+  "desc": "+1 động vật vào thẻ này. -1 sản lượng thực vật của bất kỳ người chơi nào",
+  "effects": [
+   "Khi bạn đặt một ô mảng xanh, thêm một động vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi 2 động vật trên thẻ này."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Tiểu hành tinh băng",
+  "desc": "Đặt 2 ô đại dương."
+ },
+ "Ice Cap Melting": {
+  "name": "Tan chỏm băng",
+  "desc": "Đặt 1 ô đại dương."
+ },
+ "Immigrant City": {
+  "name": "Thành phố di dân",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và giảm sản lượng M€ của bạn 2 bậc. Đặt một ô thành phố.",
+  "effects": [
+   "Khi một ô thành phố được đặt, tính cả thẻ này, tăng sản lượng M€ của bạn 1 bậc."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Tàu con thoi di dân",
+  "desc": "Tăng sản lượng M€ của bạn 5 bậc.",
+  "vpText": [
+   "1 điểm cho mỗi 3 thành phố trên bàn."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Khí nhà kính nhập khẩu",
+  "desc": "Tăng sản lượng nhiệt của bạn 1 bậc và nhận 3 nhiệt."
+ },
+ "Imported Hydrogen": {
+  "name": "Hydro nhập khẩu",
+  "desc": "Nhận 3 thực vật, hoặc thêm 3 vi sinh vật hoặc 2 động vật vào một thẻ KHÁC. Đặt một ô đại dương.",
+  "orTitles": [
+   "Nhận 3 thực vật",
+   "Thêm 3 vi sinh vật vào một thẻ KHÁC",
+   "Thêm 2 động vật vào một thẻ KHÁC"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitơ nhập khẩu",
+  "desc": "Tăng TR của bạn 1 bậc và nhận 4 thực vật. Thêm 3 vi sinh vật vào một thẻ KHÁC và 2 động vật vào một thẻ KHÁC."
+ },
+ "Import of Advanced GHG": {
+  "name": "Nhập khẩu khí nhà kính cao cấp",
+  "desc": "Tăng sản lượng nhiệt của bạn 2 bậc."
+ },
+ "Industrial Microbes": {
+  "name": "Vi sinh vật công nghiệp",
+  "desc": "Tăng sản lượng năng lượng và sản lượng thép của bạn mỗi loại 1 bậc."
+ },
+ "Insects": {
+  "name": "Côn trùng",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc cho mỗi biểu tượng thực vật bạn có."
+ },
+ "Insulation": {
+  "name": "Cách nhiệt",
+  "desc": "Giảm sản lượng nhiệt của bạn số bậc tùy ý và tăng sản lượng M€ của bạn đúng bấy nhiêu bậc."
+ },
+ "Ironworks": {
+  "name": "Xưởng luyện sắt",
+  "actions": [
+   "Chi 4 năng lượng để nhận 1 thép và tăng ôxy 1 bậc."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Trang trại tảo bẹ",
+  "desc": "Tăng sản lượng M€ của bạn 2 bậc và sản lượng thực vật của bạn 3 bậc. Nhận 2 thực vật."
+ },
+ "Lake Marineris": {
+  "name": "Hồ Marineris",
+  "desc": "Đặt 2 ô đại dương."
+ },
+ "Large Convoy": {
+  "name": "Đoàn tàu lớn",
+  "desc": "Đặt một ô đại dương và rút 2 thẻ. Nhận 5 thực vật hoặc thêm 4 động vật vào một thẻ KHÁC.",
+  "orTitles": [
+   "Nhận 5 thực vật",
+   "Thêm 4 động vật vào một thẻ KHÁC"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Dòng dung nham",
+  "desc": "Tăng nhiệt độ 2 bậc và đặt ô này LÊN THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS HOẶC ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Địa y",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc."
+ },
+ "Livestock": {
+  "name": "Gia súc",
+  "desc": "Giảm sản lượng thực vật của bạn 1 bậc và tăng sản lượng M€ của bạn 2 bậc",
+  "actions": [
+   "Thêm 1 động vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi động vật trên thẻ này."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Giữ nhiệt tại chỗ",
+  "desc": "Chi 5 nhiệt để nhận 4 thực vật, hoặc để thêm 2 động vật vào một thẻ KHÁC.",
+  "orTitles": [
+   "Nhận 4 thực vật",
+   "Thêm 2 động vật vào một thẻ KHÁC"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Chùm tia Mặt Trăng",
+  "desc": "Giảm sản lượng M€ của bạn 2 bậc và tăng sản lượng nhiệt và sản lượng năng lượng của bạn mỗi loại 2 bậc."
+ },
+ "Magnetic Field Dome": {
+  "name": "Vòm từ trường",
+  "desc": "Giảm sản lượng năng lượng của bạn 2 bậc và tăng sản lượng thực vật của bạn 1 bậc. Tăng TR của bạn 1 bậc."
+ },
+ "Magnetic Field Generators": {
+  "name": "Máy phát từ trường",
+  "desc": "Giảm sản lượng năng lượng của bạn 4 bậc và tăng sản lượng thực vật của bạn 2 bậc. Tăng TR của bạn 3 bậc."
+ },
+ "Mangrove": {
+  "name": "Rừng ngập mặn",
+  "desc": "Đặt một ô mảng xanh LÊN MỘT VÙNG DÀNH CHO ĐẠI DƯƠNG và tăng ôxy 1 bậc. Bỏ qua các hạn chế đặt ô thông thường khi làm vậy."
+ },
+ "Martian Rails": {
+  "name": "Đường sắt Sao Hỏa",
+  "actions": [
+   "Chi 1 năng lượng để nhận 1 M€ cho mỗi ô thành phố TRÊN SAO HỎA."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Mêtan từ Titan",
+  "desc": "Tăng sản lượng nhiệt của bạn 2 bậc và sản lượng thực vật của bạn 2 bậc."
+ },
+ "Micro-Mills": {
+  "name": "Xưởng vi mô",
+  "desc": "Tăng sản lượng nhiệt của bạn 1 bậc."
+ },
+ "Mining Expedition": {
+  "name": "Đoàn thám hiểm khai khoáng",
+  "desc": "Tăng ôxy 1 bậc. Loại bỏ 2 thực vật của bất kỳ người chơi nào. Nhận 2 thép."
+ },
+ "Mining Rights": {
+  "name": "Quyền khai khoáng",
+  "desc": "Đặt ô này lên một vùng có thưởng đặt ô là thép hoặc titan. Tăng sản lượng đó 1 bậc."
+ },
+ "Mohole Area": {
+  "name": "Khu giếng Mohole",
+  "desc": "Tăng sản lượng nhiệt của bạn 4 bậc. Đặt ô này LÊN MỘT VÙNG DÀNH CHO ĐẠI DƯƠNG."
+ },
+ "Moss": {
+  "name": "Rêu",
+  "desc": "Mất 1 thực vật. Tăng sản lượng thực vật của bạn 1 bậc."
+ },
+ "Natural Preserve": {
+  "name": "Khu bảo tồn thiên nhiên",
+  "desc": "Đặt ô này KHÔNG KỀ Ô NÀO KHÁC. Tăng sản lượng M€ của bạn 1 bậc."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Vi khuẩn khử nitrit",
+  "desc": "Thêm 3 vi sinh vật vào thẻ này.",
+  "actions": [
+   "Thêm 1 vi sinh vật vào thẻ này.",
+   "Lấy đi 3 vi sinh vật để tăng TR của bạn 1 bậc."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Tiểu hành tinh giàu nitơ",
+  "desc": "Tăng Chỉ số Cải tạo của bạn 2 bậc và nhiệt độ 1 bậc. Tăng sản lượng thực vật của bạn 1 bậc, hoặc 4 bậc nếu bạn có 3 biểu tượng thực vật."
+ },
+ "Nitrophilic Moss": {
+  "name": "Rêu ưa nitơ",
+  "desc": "Mất 2 thực vật. Tăng sản lượng thực vật của bạn 2 bậc."
+ },
+ "Noctis City": {
+  "name": "Thành phố Noctis",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 3 bậc. Đặt một ô thành phố LÊN VÙNG ĐÃ DÀNH SẴN, bỏ qua các hạn chế đặt ô thông thường."
+ },
+ "Noctis Farming": {
+  "name": "Nông trại Noctis",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc và nhận 2 thực vật."
+ },
+ "Nuclear Power": {
+  "name": "Điện hạt nhân",
+  "desc": "Giảm sản lượng M€ của bạn 2 bậc và tăng sản lượng năng lượng của bạn 3 bậc."
+ },
+ "Nuclear Zone": {
+  "name": "Vùng hạt nhân",
+  "desc": "Đặt ô này và tăng nhiệt độ 2 bậc."
+ },
+ "Open City": {
+  "name": "Thành phố mở",
+  "desc": "Nhận 2 thực vật. Đặt một ô thành phố. Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 4 bậc."
+ },
+ "Optimal Aerobraking": {
+  "name": "Hãm khí quyển tối ưu",
+  "effects": [
+   "Khi bạn chơi một sự kiện không gian, bạn nhận 3 M€ và 3 nhiệt."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Máy xử lý quặng",
+  "actions": [
+   "Chi 4 năng lượng để nhận 1 titan và tăng ôxy 1 bậc."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Khai thác băng vĩnh cửu",
+  "desc": "Đặt 1 ô đại dương."
+ },
+ "Peroxide Power": {
+  "name": "Điện peroxit",
+  "desc": "Giảm sản lượng M€ của bạn 1 bậc và tăng sản lượng năng lượng của bạn 2 bậc."
+ },
+ "Pets": {
+  "name": "Thú cưng",
+  "desc": "Thêm 1 động vật vào thẻ này.",
+  "effects": [
+   "Khi bất kỳ ô thành phố nào được đặt, thêm một động vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi 2 động vật ở đây."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Cảng không gian Phobos",
+  "desc": "Tăng sản lượng titan của bạn 1 bậc và đặt một ô thành phố LÊN VÙNG ĐÃ DÀNH SẴN."
+ },
+ "Plantation": {
+  "name": "Đồn điền",
+  "desc": "Đặt một ô mảng xanh và tăng ôxy 1 bậc."
+ },
+ "Power Grid": {
+  "name": "Lưới điện",
+  "desc": "Tăng sản lượng năng lượng của bạn 1 bậc cho mỗi biểu tượng năng lượng bạn có, tính cả thẻ này."
+ },
+ "Power Plant": {
+  "name": "Nhà máy điện",
+  "desc": "Tăng sản lượng năng lượng của bạn 1 bậc."
+ },
+ "Predators": {
+  "name": "Thú săn mồi",
+  "actions": [
+   "Lấy 1 động vật từ một thẻ bất kỳ và thêm nó vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi động vật trên thẻ này."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Thung lũng được bảo vệ",
+  "desc": "Tăng sản lượng M€ của bạn 2 bậc. Đặt một ô mảng xanh LÊN MỘT VÙNG DÀNH CHO ĐẠI DƯƠNG, bỏ qua các hạn chế đặt ô thông thường, và tăng ôxy 1 bậc."
+ },
+ "Rad-Chem Factory": {
+  "name": "Nhà máy hóa phóng xạ",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc. Tăng TR của bạn 2 bậc."
+ },
+ "Regolith Eaters": {
+  "name": "Sinh vật ăn regolith",
+  "actions": [
+   "Thêm 1 vi sinh vật vào thẻ này.",
+   "Lấy đi 2 vi sinh vật khỏi thẻ này để tăng ôxy 1 bậc."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Giải phóng khí trơ",
+  "desc": "Tăng Chỉ số Cải tạo của bạn 2 bậc."
+ },
+ "Research Outpost": {
+  "name": "Tiền đồn nghiên cứu",
+  "desc": "Đặt một ô thành phố KHÔNG KỀ Ô NÀO KHÁC.",
+  "effects": [
+   "Khi bạn chơi một thẻ, bạn trả ít hơn 1 M€."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Chế tạo xe tự hành",
+  "effects": [
+   "Khi bất kỳ ô thành phố nào được đặt, nhận 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Tìm kiếm sự sống",
+  "actions": [
+   "Chi 1 M€ để lật thẻ trên cùng của chồng rút. Nếu thẻ đó có biểu tượng vi sinh vật, thêm một tài nguyên khoa học vào đây."
+  ],
+  "vpText": [
+   "3 điểm nếu bạn có một tài nguyên khoa học trở lên ở đây."
+  ]
+ },
+ "Shuttles": {
+  "name": "Tàu con thoi",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 2 bậc.",
+  "effects": [
+   "Khi bạn chơi một thẻ không gian, bạn trả ít hơn 2 M€."
+  ]
+ },
+ "Small Animals": {
+  "name": "Động vật nhỏ",
+  "desc": "Giảm sản lượng thực vật của bất kỳ người chơi nào 1 bậc.",
+  "actions": [
+   "Thêm 1 động vật vào thẻ này."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi 2 động vật trên thẻ này."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Nhà máy đất trồng",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng thực vật của bạn 1 bậc."
+ },
+ "Solar Power": {
+  "name": "Điện mặt trời",
+  "desc": "Tăng sản lượng năng lượng của bạn 1 bậc."
+ },
+ "Solar Wind Power": {
+  "name": "Điện gió mặt trời",
+  "desc": "Tăng sản lượng năng lượng của bạn 1 bậc và nhận 2 titan."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Tăng sản lượng nhiệt của bạn 7 bậc."
+ },
+ "Space Mirrors": {
+  "name": "Gương không gian",
+  "actions": [
+   "Chi 7 M€ để tăng sản lượng năng lượng của bạn 1 bậc."
+  ]
+ },
+ "Special Design": {
+  "name": "Thiết kế đặc biệt",
+  "desc": "Thẻ tiếp theo bạn chơi trong thế hệ này được +2 hoặc -2 bậc yêu cầu toàn cầu, tùy bạn chọn."
+ },
+ "Steelworks": {
+  "name": "Xưởng luyện thép",
+  "actions": [
+   "Chi 4 năng lượng để nhận 2 thép và tăng ôxy 1 bậc."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Mỏ lộ thiên",
+  "desc": "Giảm sản lượng năng lượng của bạn 2 bậc. Tăng sản lượng thép của bạn 2 bậc và sản lượng titan của bạn 1 bậc. Tăng ôxy 2 bậc."
+ },
+ "Subterranean Reservoir": {
+  "name": "Hồ chứa ngầm",
+  "desc": "Đặt 1 ô đại dương."
+ },
+ "Symbiotic Fungus": {
+  "name": "Nấm cộng sinh",
+  "actions": [
+   "Thêm một vi sinh vật vào một thẻ KHÁC."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Điện ứng suất kiến tạo",
+  "desc": "Tăng sản lượng năng lượng của bạn 3 bậc."
+ },
+ "Towing A Comet": {
+  "name": "Kéo sao chổi",
+  "desc": "Nhận 2 thực vật. Tăng ôxy 1 bậc và đặt một ô đại dương."
+ },
+ "Trees": {
+  "name": "Cây cối",
+  "desc": "Tăng sản lượng thực vật của bạn 3 bậc. Nhận 1 thực vật."
+ },
+ "Tundra Farming": {
+  "name": "Canh tác đài nguyên",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc và sản lượng M€ của bạn 2 bậc. Nhận 1 thực vật."
+ },
+ "Underground City": {
+  "name": "Thành phố ngầm",
+  "desc": "Đặt một ô thành phố. Giảm sản lượng năng lượng của bạn 2 bậc và tăng sản lượng thép của bạn 2 bậc."
+ },
+ "Underground Detonations": {
+  "name": "Kích nổ ngầm",
+  "actions": [
+   "Chi 10 M€ để tăng sản lượng nhiệt của bạn 2 bậc."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Khu đô thị hóa",
+  "desc": "Giảm sản lượng năng lượng của bạn 1 bậc và tăng sản lượng M€ của bạn 2 bậc. Đặt một ô thành phố KỀ ÍT NHẤT 2 Ô THÀNH PHỐ KHÁC."
+ },
+ "Water Import From Europa": {
+  "name": "Nhập nước từ Europa",
+  "actions": [
+   "Trả 12 M€ để đặt một ô đại dương. CÓ THỂ DÙNG TITAN như khi chơi một thẻ không gian."
+  ],
+  "vpText": [
+   "1 điểm cho mỗi biểu tượng Sao Mộc bạn có."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Nhà máy tách nước",
+  "actions": [
+   "Chi 3 năng lượng để tăng ôxy 1 bậc."
+  ]
+ },
+ "Wave Power": {
+  "name": "Điện sóng biển",
+  "desc": "Tăng sản lượng năng lượng của bạn 1 bậc."
+ },
+ "Windmills": {
+  "name": "Cối xay gió",
+  "desc": "Tăng sản lượng năng lượng của bạn 1 bậc."
+ },
+ "Worms": {
+  "name": "Giun",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc cho mỗi 2 biểu tượng vi sinh vật bạn có, tính cả thẻ này."
+ },
+ "Zeppelins": {
+  "name": "Khí cầu Zeppelin",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc cho mỗi ô thành phố TRÊN SAO HỎA."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Bạn bắt đầu với 1 sản lượng titan và 42 M€.",
+  "effects": [
+   "Mỗi khi bất kỳ biểu tượng Sao Mộc nào được đưa vào cuộc chơi, tính cả thẻ này, tăng sản lượng M€ của bạn 1 bậc."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Bạn bắt đầu với 60 M€.",
+  "effects": [
+   "Khi bạn chơi một biểu tượng Trái Đất, bạn trả ít hơn 3 M€."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Bạn bắt đầu với 3 sản lượng M€ và 44 M€.",
+  "effects": [
+   "Khi bạn chơi một biểu tượng xây dựng, bạn trả ít hơn 2 M€."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Bạn bắt đầu với 1 sản lượng titan và 38 M€.",
+  "effects": [
+   "Khi bạn chơi một biểu tượng Trái Đất, tính cả thẻ này, rút một thẻ."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Bạn bắt đầu với 47 M€.",
+  "actions": [
+   "Chi 4 M€ để tăng (một trong các) sản lượng THẤP NHẤT của bạn 1 bậc."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Bạn bắt đầu với 37 M€. Ở hành động đầu tiên, rút 3 thẻ Mở màn và chơi một trong số đó. Bỏ hai thẻ còn lại.",
+  "effects": [
+   "Khi bạn chơi một biểu tượng khoa học, bạn trả ít hơn 2 M€."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Bạn bắt đầu với 45 M€. Ở hành động đầu tiên, tài trợ miễn phí một giải thưởng.",
+  "effects": [
+   "Khi bạn chơi một thẻ có biểu tượng điểm KHÔNG ÂM, tính cả thẻ này, nhận 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Tập đoàn cho người mới",
+  "desc": "Bạn bắt đầu với 42 M€. Thay vì chọn từ 10 thẻ khi chuẩn bị, bạn nhận miễn phí cả 10 thẻ."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Bạn bắt đầu với 57 M€.",
+  "effects": [
+   "Sau khi bạn trả tiền cho một thẻ hoặc dự án tiêu chuẩn có giá gốc từ 20 M€ trở lên, bạn nhận 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Bạn bắt đầu với 2 sản lượng thực vật, 3 thực vật và 36 M€.",
+  "effects": [
+   "Bạn luôn có thể trả 7 thực vật thay vì 8 để đặt mảng xanh."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Bạn bắt đầu với 3 sản lượng nhiệt và 42 M€.",
+  "effects": [
+   "Bạn có thể dùng nhiệt như M€. Bạn không được dùng M€ như nhiệt."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Bạn bắt đầu với 20 thép và 30 M€.",
+  "effects": [
+   "Mỗi khi bạn chơi một sự kiện, bạn nhận 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Ở hành động đầu tiên trong ván, rút 3 thẻ. Bắt đầu với 45 M€.",
+  "effects": [
+   "Yêu cầu về nhiệt độ, ôxy, đại dương và Sao Kim của bạn được +2 hoặc -2 bậc, tùy bạn chọn trong mỗi trường hợp."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Mining Guild",
+  "desc": "Bạn bắt đầu với 30 M€, 5 thép và 1 sản lượng thép.",
+  "effects": [
+   "Mỗi khi bạn đặt một ô lên vùng có thưởng đặt ô là thép hoặc titan, tăng sản lượng thép của bạn 1 bậc"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Bạn bắt đầu với 10 titan và 23 M€.",
+  "effects": [
+   "Mỗi titan của bạn trị giá thêm 1 M€."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Cộng hòa Tharsis",
+  "desc": "Bạn bắt đầu với 40 M€. Ở hành động đầu tiên trong ván, đặt một ô thành phố.",
+  "effects": [
+   "Khi bất kỳ ô thành phố nào được đặt TRÊN SAO HỎA, tăng sản lượng M€ của bạn 1 bậc. Khi bạn đặt một ô thành phố, nhận 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Bạn bắt đầu với 1 sản lượng năng lượng và 48 M€.",
+  "effects": [
+   "Khi chơi một thẻ năng lượng HOẶC DỰ ÁN TIÊU CHUẨN NHÀ MÁY ĐIỆN, bạn trả ít hơn 3 M€."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Sáng kiến Sao Hỏa Liên Hợp Quốc",
+  "desc": "Bạn bắt đầu với 40 M€.",
+  "actions": [
+   "Nếu Chỉ số Cải tạo của bạn đã tăng trong thế hệ này, bạn có thể trả 3 M€ để tăng thêm 1 bậc."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Ngân hàng đồng minh",
+  "desc": "Tăng sản lượng M€ của bạn 4 bậc. Nhận 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Hỗ trợ sinh quyển",
+  "desc": "Tăng sản lượng thực vật của bạn 2 bậc. Giảm sản lượng M€ của bạn 1 bậc."
+ },
+ "Aquifer Turbines": {
+  "name": "Tua-bin tầng ngậm nước",
+  "desc": "Đặt một ô đại dương. Tăng sản lượng năng lượng của bạn 2 bậc. Trả 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Đào giếng Mohole",
+  "desc": "Tăng sản lượng thép của bạn 1 bậc và sản lượng nhiệt 2 bậc. Nhận 2 nhiệt."
+ },
+ "Early Settlement": {
+  "name": "Khu định cư sớm",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc. Đặt một ô thành phố."
+ },
+ "Biofuels": {
+  "name": "Nhiên liệu sinh học",
+  "desc": "Tăng sản lượng năng lượng và thực vật của bạn 1 bậc. Nhận 2 thực vật."
+ },
+ "Power Generation": {
+  "name": "Phát điện",
+  "desc": "Tăng sản lượng năng lượng của bạn 3 bậc."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Khu định cư tự cung",
+  "desc": "Tăng sản lượng M€ của bạn 2 bậc. Đặt một ô thành phố."
+ },
+ "Mining Operations": {
+  "name": "Hoạt động khai mỏ",
+  "desc": "Tăng sản lượng thép của bạn 2 bậc. Nhận 4 thép."
+ },
+ "UNMI Contractor": {
+  "name": "Nhà thầu UNMI",
+  "desc": "Tăng TR của bạn 3 bậc. Rút một thẻ."
+ },
+ "Dome Farming": {
+  "name": "Nông trại mái vòm",
+  "desc": "Tăng sản lượng M€ của bạn 2 bậc và sản lượng thực vật 1 bậc."
+ },
+ "Business Empire": {
+  "name": "Đế chế kinh doanh",
+  "desc": "Tăng sản lượng M€ của bạn 6 bậc. Trả 6 M€."
+ },
+ "Donation": {
+  "name": "Quyên góp",
+  "desc": "Nhận 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Chuyến hàng nitơ",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc. Tăng TR của bạn 1 bậc. Nhận 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Nhà máy luyện kim",
+  "desc": "Tăng ôxy 2 bậc. Nhận 5 thép."
+ },
+ "Supplier": {
+  "name": "Nhà cung cấp",
+  "desc": "Tăng sản lượng năng lượng của bạn 2 bậc. Nhận 4 thép."
+ },
+ "Supply Drop": {
+  "name": "Thả hàng tiếp tế",
+  "desc": "Nhận 3 titan, 8 thép và 3 thực vật."
+ },
+ "Great Aquifer": {
+  "name": "Tầng ngậm nước lớn",
+  "desc": "Đặt 2 ô đại dương."
+ },
+ "Biolab": {
+  "name": "Phòng thí nghiệm sinh học",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc. Rút 3 thẻ."
+ },
+ "Martian Industries": {
+  "name": "Công nghiệp Sao Hỏa",
+  "desc": "Tăng sản lượng năng lượng và thép của bạn 1 bậc. Nhận 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Tiền đồn nghiên cứu Io",
+  "desc": "Tăng sản lượng titan của bạn 1 bậc. Rút một thẻ."
+ },
+ "Polar Industries": {
+  "name": "Công nghiệp vùng cực",
+  "desc": "Tăng sản lượng nhiệt của bạn 2 bậc. Đặt một ô đại dương."
+ },
+ "Society Support": {
+  "name": "Hỗ trợ xã hội",
+  "desc": "Tăng sản lượng thực vật, năng lượng và nhiệt của bạn 1 bậc. Giảm sản lượng M€ 1 bậc."
+ },
+ "Galilean Mining": {
+  "name": "Khai mỏ Galileo",
+  "desc": "Tăng sản lượng titan của bạn 2 bậc. Trả 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Tiểu hành tinh khổng lồ",
+  "desc": "Tăng nhiệt độ 3 bậc. Trả 5 M€."
+ },
+ "Metals Company": {
+  "name": "Công ty kim loại",
+  "desc": "Tăng sản lượng M€, thép và titan của bạn 1 bậc."
+ },
+ "Loan": {
+  "name": "Khoản vay",
+  "desc": "Nhận 30 M€. Giảm sản lượng M€ của bạn 2 bậc."
+ },
+ "Mohole": {
+  "name": "Giếng Mohole",
+  "desc": "Tăng sản lượng nhiệt của bạn 3 bậc. Nhận 3 nhiệt."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Tiểu hành tinh giàu kim loại",
+  "desc": "Tăng nhiệt độ 1 bậc. Nhận 4 titan và 4 thép."
+ },
+ "Orbital Construction Yard": {
+  "name": "Xưởng xây dựng quỹ đạo",
+  "desc": "Tăng sản lượng titan của bạn 1 bậc. Nhận 4 titan."
+ },
+ "Acquired Space Agency": {
+  "name": "Cơ quan vũ trụ thâu tóm",
+  "desc": "Nhận 6 titan. Lật thẻ cho đến khi lật được hai thẻ có biểu tượng không gian. Lấy chúng lên tay, bỏ phần còn lại."
+ },
+ "Research Network": {
+  "name": "Mạng lưới nghiên cứu",
+  "desc": "Tăng sản lượng M€ của bạn 1 bậc. Rút 3 thẻ. Sau khi được chơi, khi bạn thực hiện một hành động, biểu tượng đa năng được tính là bất kỳ biểu tượng nào bạn chọn."
+ },
+ "Eccentric Sponsor": {
+  "name": "Nhà tài trợ lập dị",
+  "desc": "CHƠI MỘT THẺ TỪ TAY VỚI MỨC GIẢM 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Chuyên gia sinh thái",
+  "desc": "Tăng sản lượng thực vật của bạn 1 bậc. CHƠI MỘT THẺ TỪ TAY, BỎ QUA YÊU CẦU TOÀN CẦU."
+ },
+ "Experimental Forest": {
+  "name": "Rừng thực nghiệm",
+  "desc": "Đặt 1 ô mảng xanh và tăng ôxy 1 bậc. Lật thẻ cho đến khi lật được hai thẻ có biểu tượng thực vật. Lấy chúng lên tay và bỏ phần còn lại."
+ }
+}

@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Cwmni a gaffaelwyd",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 3 cham."
+ },
+ "Advanced Alloys": {
+  "name": "Aloion uwch",
+  "effects": [
+   "Mae pob titaniwm sydd gennych werth 1 M€ yn ychwanegol.",
+   "Mae pob dur sydd gennych werth 1 M€ yn ychwanegol."
+  ]
+ },
+ "AI Central": {
+  "name": "Canolfan DA",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam.",
+  "actions": [
+   "Tynnwch 2 gerdyn."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Technoleg gwrth-ddisgyrchiant",
+  "effects": [
+   "Pan fyddwch chi'n chwarae cerdyn, rydych chi'n talu 2 M€ yn llai amdano."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Consortiwm mwyngloddio asteroidau",
+  "desc": "Lleihewch gynhyrchiant titaniwm unrhyw chwaraewr 1 cam a chynyddwch eich un chi 1 cam."
+ },
+ "Bribed Committee": {
+  "name": "Pwyllgor llwgr",
+  "desc": "Codwch eich ST 2 gam."
+ },
+ "Building Industries": {
+  "name": "Diwydiannau adeiladu",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant dur 2 gam."
+ },
+ "Business Contacts": {
+  "name": "Cysylltiadau busnes",
+  "desc": "Edrychwch ar 4 cerdyn uchaf y pac. Cymerwch 2 i'ch llaw a thaflwch y gweddill."
+ },
+ "Business Network": {
+  "name": "Rhwydwaith busnes",
+  "desc": "Lleihewch eich cynhyrchiant M€ 1 cam.",
+  "actions": [
+   "Edrychwch ar y cerdyn uchaf a naill ai ei brynu neu ei daflu."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Mwyngloddiau cosb Callisto",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 3 cham."
+ },
+ "Caretaker Contract": {
+  "name": "Contract gofalwr",
+  "actions": [
+   "Gwariwch 8 gwres i godi eich sgôr terraffurfio 1 cam."
+  ]
+ },
+ "Cartel": {
+  "name": "Cartél",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam am bob tag Daear sydd gennych, gan gynnwys hwn."
+ },
+ "CEO's Favorite Project": {
+  "name": "Hoff brosiect y prif weithredwr",
+  "desc": "Ychwanegwch 1 adnodd at unrhyw un o'ch cardiau sydd eisoes ag o leiaf 1 adnodd."
+ },
+ "Commercial District": {
+  "name": "Ardal fasnachol",
+  "desc": "Gosodwch y deilsen hon. Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 4 cam.",
+  "vpText": [
+   "1 PB am bob teilsen dinas gyfagos."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Cadarnle corfforaethol",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 3 cham. Gosodwch deilsen dinas."
+ },
+ "Development Center": {
+  "name": "Canolfan ddatblygu",
+  "actions": [
+   "Gwariwch 1 ynni i dynnu cerdyn."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Catapwlt y Ddaear",
+  "effects": [
+   "Pan fyddwch chi'n chwarae cerdyn, rydych chi'n talu 2 M€ yn llai amdano."
+  ]
+ },
+ "Earth Office": {
+  "name": "Swyddfa ar y Ddaear",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag Daear, rydych chi'n talu 3 M€ yn llai amdano."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Catapwlt trydan",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam.",
+  "actions": [
+   "Gwariwch 1 planhigyn neu 1 dur i ennill 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Dwyn ynni",
+  "desc": "Lleihewch gynhyrchiant ynni unrhyw chwaraewr 1 cam a chynyddwch eich un chi 1 cam."
+ },
+ "Fuel Factory": {
+  "name": "Ffatri danwydd",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant titaniwm a M€ 1 cam yr un."
+ },
+ "Gene Repair": {
+  "name": "Trwsio genynnau",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 2 gam."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Consortiwm y Sgarp Mawr",
+  "desc": "Lleihewch gynhyrchiant dur unrhyw chwaraewr 1 cam a chynyddwch eich un chi 1 cam."
+ },
+ "Hackers": {
+  "name": "Hacwyr",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynhyrchiant M€ unrhyw chwaraewr 2 gam. Cynyddwch eich cynhyrchiant M€ 2 gam."
+ },
+ "Hired Raiders": {
+  "name": "Ysbeilwyr cyflogedig",
+  "desc": "Dygwch hyd at 2 ddur, neu 3 M€, gan unrhyw chwaraewr."
+ },
+ "Indentured Workers": {
+  "name": "Gweithwyr dan gytundeb",
+  "desc": "Mae'r cerdyn nesaf y byddwch chi'n ei chwarae yn y genhedlaeth hon yn costio 8 M€ yn llai."
+ },
+ "Industrial Center": {
+  "name": "Canolfan ddiwydiannol",
+  "desc": "Gosodwch y deilsen hon wrth ymyl teilsen dinas.",
+  "actions": [
+   "Gwariwch 7 M€ i gynyddu eich cynhyrchiant dur 1 cam."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Llong drefedigaeth ryngserol"
+ },
+ "Invention Contest": {
+  "name": "Cystadleuaeth ddyfeisio",
+  "desc": "Edrychwch ar 3 cherdyn uchaf y pac. Cymerwch 1 i'ch llaw a thaflwch y gweddill."
+ },
+ "Inventors' Guild": {
+  "name": "Urdd y dyfeiswyr",
+  "actions": [
+   "Edrychwch ar y cerdyn uchaf a naill ai ei brynu neu ei daflu."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Benthyciad buddsoddi",
+  "desc": "Lleihewch eich cynhyrchiant M€ 1 cam. Enillwch 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Diwydiannau mwyngloddio Io",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 2 gam a'ch cynhyrchiant M€ 2 gam.",
+  "vpText": [
+   "1 PB am bob tag Iau sydd gennych."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Arsyllfa Lagrange",
+  "desc": "Tynnwch 1 cerdyn."
+ },
+ "Land Claim": {
+  "name": "Hawlio tir",
+  "desc": "Cadwch fan heb ei gadw i chi eich hun: dim ond chi sy'n cael gosod teilsen yno."
+ },
+ "Lightning Harvest": {
+  "name": "Cynhaeaf mellt",
+  "desc": "Cynyddwch eich cynhyrchiant ynni a'ch cynhyrchiant M€ un cam yr un."
+ },
+ "Mars University": {
+  "name": "Prifysgol Mawrth",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag gwyddoniaeth, gan gynnwys hwn, gallwch daflu cerdyn o'ch llaw i dynnu cerdyn."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Trawsnewidydd màs",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 6 cham.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae cerdyn gofod, rydych chi'n talu 2 M€ yn llai amdano."
+  ]
+ },
+ "Media Archives": {
+  "name": "Archifau'r cyfryngau",
+  "desc": "Enillwch 1 M€ am bob digwyddiad A CHWARAEWYD ERIOED gan bob chwaraewr."
+ },
+ "Media Group": {
+  "name": "Grŵp cyfryngau",
+  "effects": [
+   "Ar ôl i chi chwarae cerdyn digwyddiad, rydych chi'n ennill 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Labordy meddygol",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam am bob 2 dag adeiladu sydd gennych, gan gynnwys hwn."
+ },
+ "Mine": {
+  "name": "Mwynglawdd",
+  "desc": "Cynyddwch eich cynhyrchiant dur 1 cam."
+ },
+ "Mineral Deposit": {
+  "name": "Dyddodyn mwynau",
+  "desc": "Enillwch 5 dur."
+ },
+ "Mining Area": {
+  "name": "Ardal fwyngloddio",
+  "desc": "Gosodwch y deilsen hon ar fan sydd â bonws gosod dur neu ditaniwm, wrth ymyl un arall o'ch teils. Cynyddwch eich cynhyrchiant o'r adnodd hwnnw 1 cam."
+ },
+ "Miranda Resort": {
+  "name": "Cyrchfan Miranda",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam am bob tag Daear sydd gennych."
+ },
+ "Olympus Conference": {
+  "name": "Cynhadledd Olympus",
+  "desc": "Pan fyddwch chi'n chwarae tag gwyddoniaeth, gan gynnwys hwn, naill ai ychwanegwch adnodd gwyddoniaeth at y cerdyn hwn, neu tynnwch adnodd gwyddoniaeth oddi ar y cerdyn hwn i dynnu cerdyn."
+ },
+ "Physics Complex": {
+  "name": "Cyfadeilad ffiseg",
+  "actions": [
+   "Gwariwch 6 ynni i ychwanegu adnodd gwyddoniaeth at y cerdyn hwn."
+  ],
+  "vpText": [
+   "2 PB am bob adnodd gwyddoniaeth ar y cerdyn hwn."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Seilwaith ynni",
+  "actions": [
+   "Gwariwch unrhyw faint o ynni ac ennill yr un faint o M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Consortiwm cyflenwi ynni",
+  "desc": "Lleihewch gynhyrchiant ynni unrhyw chwaraewr 1 cam a chynyddwch eich un chi 1 cam."
+ },
+ "Protected Habitats": {
+  "name": "Cynefinoedd gwarchodedig",
+  "effects": [
+   "Ni chaiff gwrthwynebwyr dynnu eich planhigion, anifeiliaid na microbau."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Echdynnwr cwantwm",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 4 cam.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae cerdyn gofod, rydych chi'n talu 2 M€ yn llai amdano."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Siwtiau ymbelydredd",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam."
+ },
+ "Research": {
+  "name": "Ymchwil",
+  "desc": "Yn cyfrif fel chwarae 2 gerdyn gwyddoniaeth. Tynnwch 2 gerdyn."
+ },
+ "Restricted Area": {
+  "name": "Ardal gyfyngedig",
+  "desc": "Gosodwch y deilsen hon.",
+  "actions": [
+   "Gwariwch 2 M€ i dynnu cerdyn."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Gweithlu robotig",
+  "desc": "Dyblygwch flwch cynhyrchiant un o'ch cardiau adeiladu yn unig."
+ },
+ "Sabotage": {
+  "name": "Sabotâj",
+  "desc": "Tynnwch hyd at 3 thitaniwm oddi ar unrhyw chwaraewr, neu 4 dur, neu 7 M€."
+ },
+ "Satellites": {
+  "name": "Lloerennau",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam am bob tag gofod sydd gennych, gan gynnwys hwn."
+ },
+ "Security Fleet": {
+  "name": "Fflyd ddiogelwch",
+  "actions": [
+   "Gwariwch 1 titaniwm i ychwanegu 1 ymladdwr at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob ymladdwr ar y cerdyn hwn."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Elevator gofod",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 1 cam.",
+  "actions": [
+   "Gwariwch 1 dur i ennill 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Gorsaf ofod",
+  "effects": [
+   "Pan fyddwch chi'n chwarae cerdyn gofod, rydych chi'n talu 2 M€ yn llai amdano."
+  ]
+ },
+ "Sponsors": {
+  "name": "Noddwyr",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 2 gam."
+ },
+ "Standard Technology": {
+  "name": "Technoleg safonol",
+  "effects": [
+   "Ar ôl i chi dalu am brosiect safonol, ac eithrio gwerthu patentau, rydych chi'n ennill 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Arth-ddŵr",
+  "actions": [
+   "Ychwanegwch 1 microb at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob 4 microb ar y cerdyn hwn."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Arddangosiad technoleg",
+  "desc": "Tynnwch ddau gerdyn."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraffurfio Ganymede",
+  "desc": "Codwch eich ST 1 cam am bob tag Iau sydd gennych, gan gynnwys hwn."
+ },
+ "Titanium Mine": {
+  "name": "Mwynglawdd titaniwm",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 1 cam."
+ },
+ "Toll Station": {
+  "name": "Tollborth",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam am bob tag gofod sydd gan eich GWRTHWYNEBWYR."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Chwiliedydd traws-Neifion",
+  "desc": "Chwiliedydd gofod dwfn: gwerth 1 PB."
+ },
+ "Tropical Resort": {
+  "name": "Cyrchfan drofannol",
+  "desc": "Lleihewch eich cynhyrchiant gwres 2 gam a chynyddwch eich cynhyrchiant M€ 3 cham."
+ },
+ "Vesta Shipyard": {
+  "name": "Iard longau Vesta",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 1 cam."
+ },
+ "Viral Enhancers": {
+  "name": "Cyfnerthwyr firaol",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag planhigyn, microb neu anifail, gan gynnwys hwn, enillwch 1 planhigyn neu ychwanegwch 1 adnodd at Y CERDYN HWNNW."
+  ]
+ },
+ "Virus": {
+  "name": "Feirws",
+  "desc": "Tynnwch hyd at 2 anifail neu 5 planhigyn oddi ar unrhyw chwaraewr."
+ },
+ "SF Memorial": {
+  "name": "Cofeb ffuglen wyddonol",
+  "desc": "Tynnwch 1 cerdyn."
+ },
+ "House Printing": {
+  "name": "Argraffu tai",
+  "desc": "Cynyddwch eich cynhyrchiant dur 1 cam."
+ },
+ "Space Hotels": {
+  "name": "Gwestai gofod",
+  "desc": "Cynyddwch gynhyrchiant M€ 4 cam."
+ },
+ "Martian Survey": {
+  "name": "Arolwg o'r blaned Mawrth",
+  "desc": "Tynnwch ddau gerdyn."
+ },
+ "Research Coordination": {
+  "name": "Cydlynu ymchwil",
+  "desc": "Ar ôl ei chwarae, pan fyddwch chi'n cyflawni gweithred, mae'r tag gwyllt yn cyfrif fel unrhyw dag o'ch dewis."
+ },
+ "Lava Tube Settlement": {
+  "name": "Anheddiad tiwb lafa",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 2 gam. Gosodwch deilsen dinas ar ARDAL FOLCANIG beth bynnag am ddinasoedd cyfagos."
+ },
+ "Psychrophiles": {
+  "name": "Seicroffiliau",
+  "actions": [
+   "Ychwanegwch 1 microb at y cerdyn hwn."
+  ],
+  "effects": [
+   "Wrth dalu am gerdyn planhigyn, gellir defnyddio'r microbau yma fel 2 M€ yr un."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Technoleg addasu",
+  "effects": [
+   "Mae eich amodau byd-eang +2 neu -2 gam, o'ch dewis ym mhob achos."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Cen wedi'i addasu",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ecosystemau uwch"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroid amonia wedi'i aerobrecio",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 3 cham a'ch cynhyrchiant planhigion 1 cam. Ychwanegwch 2 ficrob at gerdyn ARALL."
+ },
+ "Ants": {
+  "name": "Morgrug",
+  "actions": [
+   "Tynnwch 1 microb oddi ar unrhyw gerdyn i ychwanegu 1 at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob 2 ficrob ar y cerdyn hwn."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Pwmpio dyfrhaen",
+  "actions": [
+   "Gwariwch 8 M€ i osod 1 deilsen cefnfor. GELLIR DEFNYDDIO DUR fel pe baech chi'n chwarae cerdyn adeiladu."
+  ]
+ },
+ "Algae": {
+  "name": "Algâu",
+  "desc": "Enillwch 1 planhigyn a chynyddwch eich cynhyrchiant planhigion 2 gam."
+ },
+ "ArchaeBacteria": {
+  "name": "Archaebacteria",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam."
+ },
+ "Arctic Algae": {
+  "name": "Algâu arctig",
+  "desc": "Enillwch 1 planhigyn.",
+  "effects": [
+   "Pan fydd unrhyw un yn gosod teilsen cefnfor, enillwch 2 blanhigyn."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Llyn artiffisial",
+  "desc": "Gosodwch 1 deilsen cefnfor AR FAN NAD YW WEDI'I GADW AR GYFER CEFNFOR."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Ffotosynthesis artiffisial",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam neu eich cynhyrchiant ynni 2 gam.",
+  "orTitles": [
+   "Cynyddwch eich cynhyrchiant ynni 2 gam",
+   "Cynyddwch eich cynhyrchiant planhigion 1 cam"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Codwch y tymheredd 1 cam ac enillwch 2 ditaniwm. Tynnwch hyd at 3 phlanhigyn oddi ar unrhyw chwaraewr."
+ },
+ "Asteroid Mining": {
+  "name": "Mwyngloddio asteroidau",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 2 gam."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Pelydryn o asteroid thoriwm",
+  "desc": "Cynyddwch eich cynhyrchiant gwres a'ch cynhyrchiant ynni 3 cham yr un."
+ },
+ "Big Asteroid": {
+  "name": "Asteroid mawr",
+  "desc": "Codwch y tymheredd 2 gam ac enillwch 4 titaniwm. Tynnwch hyd at 4 planhigyn oddi ar unrhyw chwaraewr."
+ },
+ "Biomass Combustors": {
+  "name": "Llosgyddion biomas",
+  "desc": "Lleihewch gynhyrchiant planhigion unrhyw chwaraewr 1 cam a chynyddwch eich cynhyrchiant ynni 2 gam."
+ },
+ "Birds": {
+  "name": "Adar",
+  "desc": "Lleihewch gynhyrchiant planhigion unrhyw chwaraewr 2 gam. 1 PB am bob anifail ar y cerdyn hwn.",
+  "actions": [
+   "Ychwanegwch anifail at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob anifail ar y cerdyn hwn."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Llwch pegynol du",
+  "desc": "Gosodwch deilsen cefnfor. Lleihewch eich cynhyrchiant M€ 2 gam a chynyddwch eich cynhyrchiant gwres 3 cham."
+ },
+ "Breathing Filters": {
+  "name": "Hidlyddion anadlu"
+ },
+ "Bushes": {
+  "name": "Llwyni",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 2 gam. Enillwch 2 blanhigyn."
+ },
+ "Capital": {
+  "name": "Prifddinas",
+  "desc": "Gosodwch y deilsen hon. Lleihewch eich cynhyrchiant ynni 2 gam a chynyddwch eich cynhyrchiant M€ 5 cam.",
+  "vpText": [
+   "1 PB ychwanegol am bob teilsen cefnfor wrth ymyl y deilsen dinas hon."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Prosesu carbonadau",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant gwres 3 cham."
+ },
+ "Cloud Seeding": {
+  "name": "Hadu cymylau",
+  "desc": "Lleihewch eich cynhyrchiant M€ 1 cam a chynhyrchiant gwres unrhyw chwaraewr 1 cam. Cynyddwch eich cynhyrchiant planhigion 2 gam."
+ },
+ "Colonizer Training Camp": {
+  "name": "Gwersyll hyfforddi gwladychwyr"
+ },
+ "Comet": {
+  "name": "Comed",
+  "desc": "Codwch y tymheredd 1 cam a gosodwch deilsen cefnfor. Tynnwch hyd at 3 phlanhigyn oddi ar unrhyw chwaraewr."
+ },
+ "Convoy From Europa": {
+  "name": "Confoi o Europa",
+  "desc": "Gosodwch 1 deilsen cefnfor a thynnwch 1 cerdyn."
+ },
+ "Cupola City": {
+  "name": "Dinas gromen",
+  "desc": "Gosodwch deilsen dinas. Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 3 cham."
+ },
+ "Decomposers": {
+  "name": "Dadelfenwyr",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag anifail, planhigyn neu ficrob, gan gynnwys hwn, ychwanegwch ficrob at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob 3 microb ar y cerdyn hwn."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Gwresogi o ffynnon ddofn",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 1 cam. Codwch y tymheredd 1 cam."
+ },
+ "Deimos Down": {
+  "name": "Cwymp Deimos",
+  "desc": "Codwch y tymheredd 3 cham ac enillwch 4 dur. Tynnwch hyd at 8 planhigyn oddi ar unrhyw chwaraewr."
+ },
+ "Designed Microorganisms": {
+  "name": "Micro-organebau wedi'u dylunio",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 2 gam."
+ },
+ "Domed Crater": {
+  "name": "Crater dan gromen",
+  "desc": "Enillwch 3 phlanhigyn. Gosodwch deilsen dinas. Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 3 cham."
+ },
+ "Dust Seals": {
+  "name": "Seliau llwch"
+ },
+ "Ecological Zone": {
+  "name": "Parth ecolegol",
+  "desc": "Gosodwch y deilsen hon wrth ymyl UNRHYW wyrddni.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag anifail neu blanhigyn, GAN GYNNWYS Y RHAIN, ychwanegwch anifail at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob 2 anifail ar y cerdyn hwn."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Arbed ynni",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 1 cam am bob teilsen dinas ar y bwrdd."
+ },
+ "Eos Chasma National Park": {
+  "name": "Parc Cenedlaethol Eos Chasma",
+  "desc": "Ychwanegwch 1 anifail AT UNRHYW GERDYN ANIFEILIAID. Enillwch 3 phlanhigyn. Cynyddwch eich cynhyrchiant M€ 2 gam."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Magneteiddiwr cyhydeddol",
+  "actions": [
+   "Lleihewch eich cynhyrchiant ynni 1 cam i godi eich sgôr terraffurfio 1 cam."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Ffwng oerfel eithafol",
+  "actions": [
+   "Enillwch 1 planhigyn.",
+   "Ychwanegwch 2 ficrob at gerdyn ARALL."
+  ]
+ },
+ "Farming": {
+  "name": "Ffermio",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 2 gam a'ch cynhyrchiant planhigion 2 gam. Enillwch 2 blanhigyn."
+ },
+ "Fish": {
+  "name": "Pysgod",
+  "desc": "Lleihewch gynhyrchiant planhigion unrhyw chwaraewr 1 cam.",
+  "actions": [
+   "Ychwanegwch 1 anifail at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob anifail ar y cerdyn hwn."
+  ]
+ },
+ "Flooding": {
+  "name": "Llifogydd",
+  "desc": "Gosodwch deilsen cefnfor. OS OES TEILS WRTH YMYL Y DEILSEN CEFNFOR HON, GALLWCH DYNNU 4 M€ ODDI AR BERCHENNOG UN O'R TEILS HYNNY."
+ },
+ "Food Factory": {
+  "name": "Ffatri fwyd",
+  "desc": "Lleihewch eich cynhyrchiant planhigion 1 cam a chynyddwch eich cynhyrchiant M€ 4 cam."
+ },
+ "Fusion Power": {
+  "name": "Ynni ymasiad",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 3 cham."
+ },
+ "Fueled Generators": {
+  "name": "Generaduron tanwydd",
+  "desc": "Lleihewch eich cynhyrchiant M€ 1 cam a chynyddwch eich cynhyrchiant ynni 1 cam."
+ },
+ "Ganymede Colony": {
+  "name": "Trefedigaeth Ganymede",
+  "desc": "Gosodwch deilsen dinas AR Y MAN A GADWYD.",
+  "vpText": [
+   "1 PB am bob tag Iau sydd gennych."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Ynni geothermol",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 2 gam."
+ },
+ "GHG Factories": {
+  "name": "Ffatrïoedd nwyon tŷ gwydr",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant gwres 4 cam."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bacteria cynhyrchu nwyon tŷ gwydr",
+  "actions": [
+   "Ychwanegwch 1 microb at y cerdyn hwn.",
+   "Tynnwch 2 ficrob i godi'r tymheredd 1 cam."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroid iâ enfawr",
+  "desc": "Codwch y tymheredd 2 gam a gosodwch 2 deilsen cefnfor. Tynnwch hyd at 6 phlanhigyn oddi ar unrhyw chwaraewr."
+ },
+ "Giant Space Mirror": {
+  "name": "Drych gofod enfawr",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 3 cham."
+ },
+ "Grass": {
+  "name": "Glaswellt",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam. Enillwch 3 phlanhigyn."
+ },
+ "Great Dam": {
+  "name": "Yr argae mawr",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 2 gam."
+ },
+ "Greenhouses": {
+  "name": "Tai gwydr",
+  "desc": "Enillwch 1 planhigyn am bob teilsen dinas ar y bwrdd."
+ },
+ "Heather": {
+  "name": "Grug",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam. Enillwch 1 planhigyn."
+ },
+ "Heat Trappers": {
+  "name": "Trapiau gwres",
+  "desc": "Lleihewch gynhyrchiant gwres unrhyw chwaraewr 2 gam a chynyddwch eich cynhyrchiant ynni 1 cam."
+ },
+ "Herbivores": {
+  "name": "Llysysyddion",
+  "desc": "+1 anifail at y cerdyn hwn. -1 cynhyrchiant planhigion unrhyw chwaraewr",
+  "effects": [
+   "Pan fyddwch chi'n gosod teilsen gwyrddni, ychwanegwch anifail at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob 2 anifail ar y cerdyn hwn."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroid iâ",
+  "desc": "Gosodwch 2 deilsen cefnfor."
+ },
+ "Ice Cap Melting": {
+  "name": "Toddi'r cap iâ",
+  "desc": "Gosodwch 1 deilsen cefnfor."
+ },
+ "Immigrant City": {
+  "name": "Dinas mewnfudwyr",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a'ch cynhyrchiant M€ 2 gam. Gosodwch deilsen dinas.",
+  "effects": [
+   "Pan osodir teilsen dinas, gan gynnwys hon, cynyddwch eich cynhyrchiant M€ 1 cam."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Gwennoliaid mewnfudo",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 5 cam.",
+  "vpText": [
+   "1 PB am bob 3edd ddinas ar y bwrdd."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Nwyon tŷ gwydr wedi'u mewnforio",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 1 cam ac enillwch 3 gwres."
+ },
+ "Imported Hydrogen": {
+  "name": "Hydrogen wedi'i fewnforio",
+  "desc": "Enillwch 3 phlanhigyn, neu ychwanegwch 3 microb neu 2 anifail at gerdyn ARALL. Gosodwch deilsen cefnfor.",
+  "orTitles": [
+   "Enillwch 3 phlanhigyn",
+   "Ychwanegwch 3 microb at gerdyn ARALL",
+   "Ychwanegwch 2 anifail at gerdyn ARALL"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitrogen wedi'i fewnforio",
+  "desc": "Codwch eich ST 1 cam ac enillwch 4 planhigyn. Ychwanegwch 3 microb at gerdyn ARALL a 2 anifail at gerdyn ARALL."
+ },
+ "Import of Advanced GHG": {
+  "name": "Mewnforio nwyon tŷ gwydr uwch",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 2 gam."
+ },
+ "Industrial Microbes": {
+  "name": "Microbau diwydiannol",
+  "desc": "Cynyddwch eich cynhyrchiant ynni a'ch cynhyrchiant dur 1 cam yr un."
+ },
+ "Insects": {
+  "name": "Pryfed",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam am bob tag planhigyn sydd gennych."
+ },
+ "Insulation": {
+  "name": "Inswleiddio",
+  "desc": "Lleihewch eich cynhyrchiant gwres unrhyw nifer o gamau a chynyddwch eich cynhyrchiant M€ yr un nifer o gamau."
+ },
+ "Ironworks": {
+  "name": "Gwaith haearn",
+  "actions": [
+   "Gwariwch 4 ynni i ennill 1 dur a chodi'r ocsigen 1 cam."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Ffermio gwymon",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 2 gam a'ch cynhyrchiant planhigion 3 cham. Enillwch 2 blanhigyn."
+ },
+ "Lake Marineris": {
+  "name": "Llyn Marineris",
+  "desc": "Gosodwch 2 deilsen cefnfor."
+ },
+ "Large Convoy": {
+  "name": "Confoi mawr",
+  "desc": "Gosodwch deilsen cefnfor a thynnwch 2 gerdyn. Enillwch 5 planhigyn neu ychwanegwch 4 anifail at gerdyn ARALL.",
+  "orTitles": [
+   "Enillwch 5 planhigyn",
+   "Ychwanegwch 4 anifail at gerdyn ARALL"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Llifoedd lafa",
+  "desc": "Codwch y tymheredd 2 gam a gosodwch y deilsen hon AR THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS NEU ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Cen",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam."
+ },
+ "Livestock": {
+  "name": "Da byw",
+  "desc": "Lleihewch eich cynhyrchiant planhigion 1 cam a chynyddwch eich cynhyrchiant M€ 2 gam",
+  "actions": [
+   "Ychwanegwch 1 anifail at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob anifail ar y cerdyn hwn."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Dal gwres lleol",
+  "desc": "Gwariwch 5 gwres naill ai i ennill 4 planhigyn, neu i ychwanegu 2 anifail at gerdyn ARALL.",
+  "orTitles": [
+   "Enillwch 4 planhigyn",
+   "Ychwanegwch 2 anifail at gerdyn ARALL"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Pelydryn lleuad",
+  "desc": "Lleihewch eich cynhyrchiant M€ 2 gam a chynyddwch eich cynhyrchiant gwres a'ch cynhyrchiant ynni 2 gam yr un."
+ },
+ "Magnetic Field Dome": {
+  "name": "Cromen maes magnetig",
+  "desc": "Lleihewch eich cynhyrchiant ynni 2 gam a chynyddwch eich cynhyrchiant planhigion 1 cam. Codwch eich ST 1 cam."
+ },
+ "Magnetic Field Generators": {
+  "name": "Generaduron maes magnetig",
+  "desc": "Lleihewch eich cynhyrchiant ynni 4 cam a chynyddwch eich cynhyrchiant planhigion 2 gam. Codwch eich ST 3 cham."
+ },
+ "Mangrove": {
+  "name": "Mangrof",
+  "desc": "Gosodwch deilsen gwyrddni AR FAN A GADWYD AR GYFER CEFNFOR a chodwch yr ocsigen 1 cam. Anwybyddwch y cyfyngiadau gosod arferol ar gyfer hyn."
+ },
+ "Martian Rails": {
+  "name": "Rheilffyrdd Mawrth",
+  "actions": [
+   "Gwariwch 1 ynni i ennill 1 M€ am bob teilsen dinas AR Y BLANED MAWRTH."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Methan o Titan",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 2 gam a'ch cynhyrchiant planhigion 2 gam."
+ },
+ "Micro-Mills": {
+  "name": "Micro-felinau",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 1 cam."
+ },
+ "Mining Expedition": {
+  "name": "Alldaith fwyngloddio",
+  "desc": "Codwch yr ocsigen 1 cam. Tynnwch 2 blanhigyn oddi ar unrhyw chwaraewr. Enillwch 2 ddur."
+ },
+ "Mining Rights": {
+  "name": "Hawliau mwyngloddio",
+  "desc": "Gosodwch y deilsen hon ar fan sydd â bonws gosod dur neu ditaniwm. Cynyddwch y cynhyrchiant hwnnw 1 cam."
+ },
+ "Mohole Area": {
+  "name": "Ardal Mohole",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 4 cam. Gosodwch y deilsen hon AR FAN A GADWYD AR GYFER CEFNFOR."
+ },
+ "Moss": {
+  "name": "Mwsogl",
+  "desc": "Collwch 1 planhigyn. Cynyddwch eich cynhyrchiant planhigion 1 cam."
+ },
+ "Natural Preserve": {
+  "name": "Gwarchodfa natur",
+  "desc": "Gosodwch y deilsen hon HEB FOD WRTH YMYL UNRHYW DEILSEN ARALL. Cynyddwch eich cynhyrchiant M€ 1 cam."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bacteria lleihau nitraid",
+  "desc": "Ychwanegwch 3 microb at y cerdyn hwn.",
+  "actions": [
+   "Ychwanegwch 1 microb at y cerdyn hwn.",
+   "Tynnwch 3 microb i godi eich ST 1 cam."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid llawn nitrogen",
+  "desc": "Codwch eich sgôr terraffurfio 2 gam a'r tymheredd 1 cam. Cynyddwch eich cynhyrchiant planhigion 1 cam, neu 4 cam os oes gennych 3 thag planhigyn."
+ },
+ "Nitrophilic Moss": {
+  "name": "Mwsogl nitroffilig",
+  "desc": "Collwch 2 blanhigyn. Cynyddwch eich cynhyrchiant planhigion 2 gam."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 3 cham. Gosodwch deilsen dinas AR Y MAN A GADWYD, gan anwybyddu'r cyfyngiadau gosod arferol."
+ },
+ "Noctis Farming": {
+  "name": "Ffermio Noctis",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam ac enillwch 2 blanhigyn."
+ },
+ "Nuclear Power": {
+  "name": "Ynni niwclear",
+  "desc": "Lleihewch eich cynhyrchiant M€ 2 gam a chynyddwch eich cynhyrchiant ynni 3 cham."
+ },
+ "Nuclear Zone": {
+  "name": "Parth niwclear",
+  "desc": "Gosodwch y deilsen hon a chodwch y tymheredd 2 gam."
+ },
+ "Open City": {
+  "name": "Dinas agored",
+  "desc": "Enillwch 2 blanhigyn. Gosodwch deilsen dinas. Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 4 cam."
+ },
+ "Optimal Aerobraking": {
+  "name": "Aerobrecio gorau",
+  "effects": [
+   "Pan fyddwch chi'n chwarae digwyddiad gofod, rydych chi'n ennill 3 M€ a 3 gwres."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Prosesydd mwyn",
+  "actions": [
+   "Gwariwch 4 ynni i ennill 1 titaniwm a chynyddu'r ocsigen 1 cam."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Echdynnu rhew parhaol",
+  "desc": "Gosodwch 1 deilsen cefnfor."
+ },
+ "Peroxide Power": {
+  "name": "Ynni perocsid",
+  "desc": "Lleihewch eich cynhyrchiant M€ 1 cam a chynyddwch eich cynhyrchiant ynni 2 gam."
+ },
+ "Pets": {
+  "name": "Anifeiliaid anwes",
+  "desc": "Ychwanegwch 1 anifail at y cerdyn hwn.",
+  "effects": [
+   "Pan osodir unrhyw deilsen dinas, ychwanegwch anifail at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob 2 anifail yma."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Hafan ofod Phobos",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 1 cam a gosodwch deilsen dinas AR Y MAN A GADWYD."
+ },
+ "Plantation": {
+  "name": "Planhigfa",
+  "desc": "Gosodwch deilsen gwyrddni a chodwch yr ocsigen 1 cam."
+ },
+ "Power Grid": {
+  "name": "Grid pŵer",
+  "desc": "Cynyddwch eich cynhyrchiant ynni un cam am bob tag ynni sydd gennych, gan gynnwys hwn."
+ },
+ "Power Plant": {
+  "name": "Gorsaf bŵer",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 1 cam."
+ },
+ "Predators": {
+  "name": "Ysglyfaethwyr",
+  "actions": [
+   "Tynnwch 1 anifail oddi ar unrhyw gerdyn a'i ychwanegu at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob anifail ar y cerdyn hwn."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Dyffryn gwarchodedig",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 2 gam. Gosodwch deilsen gwyrddni AR FAN A GADWYD AR GYFER CEFNFOR, gan anwybyddu'r cyfyngiadau gosod arferol, a chynyddwch yr ocsigen 1 cam."
+ },
+ "Rad-Chem Factory": {
+  "name": "Ffatri radiocemegol",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam. Codwch eich ST 2 gam."
+ },
+ "Regolith Eaters": {
+  "name": "Bwytawyr regolith",
+  "actions": [
+   "Ychwanegwch 1 microb at y cerdyn hwn.",
+   "Tynnwch 2 ficrob oddi ar y cerdyn hwn i godi lefel yr ocsigen 1 cam."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Rhyddhau nwyon anadweithiol",
+  "desc": "Codwch eich sgôr terraffurfio 2 gam."
+ },
+ "Research Outpost": {
+  "name": "Allbost ymchwil",
+  "desc": "Gosodwch deilsen dinas HEB FOD WRTH YMYL UNRHYW DEILSEN ARALL.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae cerdyn, rydych chi'n talu 1 M€ yn llai amdano."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Adeiladu crwydrwyr",
+  "effects": [
+   "Pan osodir unrhyw deilsen dinas, enillwch 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Chwilio am fywyd",
+  "actions": [
+   "Gwariwch 1 M€ i ddatgelu cerdyn uchaf y pentwr tynnu. Os oes gan y cerdyn hwnnw dag microb, ychwanegwch adnodd gwyddoniaeth yma."
+  ],
+  "vpText": [
+   "3 PB os oes gennych un adnodd gwyddoniaeth neu fwy yma."
+  ]
+ },
+ "Shuttles": {
+  "name": "Gwennoliaid",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 2 gam.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae cerdyn gofod, rydych chi'n talu 2 M€ yn llai amdano."
+  ]
+ },
+ "Small Animals": {
+  "name": "Anifeiliaid bach",
+  "desc": "Lleihewch gynhyrchiant planhigion unrhyw chwaraewr 1 cam.",
+  "actions": [
+   "Ychwanegwch 1 anifail at y cerdyn hwn."
+  ],
+  "vpText": [
+   "1 PB am bob 2 anifail ar y cerdyn hwn."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Ffatri bridd",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant planhigion 1 cam."
+ },
+ "Solar Power": {
+  "name": "Ynni solar",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 1 cam."
+ },
+ "Solar Wind Power": {
+  "name": "Ynni gwynt solar",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 1 cam ac enillwch 2 ditaniwm."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 7 cam."
+ },
+ "Space Mirrors": {
+  "name": "Drychau gofod",
+  "actions": [
+   "Gwariwch 7 M€ i gynyddu eich cynhyrchiant ynni 1 cam."
+  ]
+ },
+ "Special Design": {
+  "name": "Dyluniad arbennig",
+  "desc": "Mae gan y cerdyn nesaf y byddwch chi'n ei chwarae yn y genhedlaeth hon +2 neu -2 gam yn yr amodau byd-eang, o'ch dewis."
+ },
+ "Steelworks": {
+  "name": "Gwaith dur",
+  "actions": [
+   "Gwariwch 4 ynni i ennill 2 ddur a chynyddu'r ocsigen 1 cam."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Cloddfa brig",
+  "desc": "Lleihewch eich cynhyrchiant ynni 2 gam. Cynyddwch eich cynhyrchiant dur 2 gam a'ch cynhyrchiant titaniwm 1 cam. Codwch yr ocsigen 2 gam."
+ },
+ "Subterranean Reservoir": {
+  "name": "Cronfa danddaearol",
+  "desc": "Gosodwch 1 deilsen cefnfor."
+ },
+ "Symbiotic Fungus": {
+  "name": "Ffwng symbiotig",
+  "actions": [
+   "Ychwanegwch ficrob at gerdyn ARALL."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Ynni straen tectonig",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 3 cham."
+ },
+ "Towing A Comet": {
+  "name": "Tynnu comed",
+  "desc": "Enillwch 2 blanhigyn. Codwch lefel yr ocsigen 1 cam a gosodwch deilsen cefnfor."
+ },
+ "Trees": {
+  "name": "Coed",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 3 cham. Enillwch 1 planhigyn."
+ },
+ "Tundra Farming": {
+  "name": "Ffermio twndra",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam a'ch cynhyrchiant M€ 2 gam. Enillwch 1 planhigyn."
+ },
+ "Underground City": {
+  "name": "Dinas danddaearol",
+  "desc": "Gosodwch deilsen dinas. Lleihewch eich cynhyrchiant ynni 2 gam a chynyddwch eich cynhyrchiant dur 2 gam."
+ },
+ "Underground Detonations": {
+  "name": "Ffrwydradau tanddaearol",
+  "actions": [
+   "Gwariwch 10 M€ i gynyddu eich cynhyrchiant gwres 2 gam."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Ardal drefol",
+  "desc": "Lleihewch eich cynhyrchiant ynni 1 cam a chynyddwch eich cynhyrchiant M€ 2 gam. Gosodwch deilsen dinas WRTH YMYL O LEIAF 2 DEILSEN DINAS ARALL."
+ },
+ "Water Import From Europa": {
+  "name": "Mewnforio dŵr o Europa",
+  "actions": [
+   "Talwch 12 M€ i osod teilsen cefnfor. GELLIR DEFNYDDIO TITANIWM fel pe baech chi'n chwarae cerdyn gofod."
+  ],
+  "vpText": [
+   "1 PB am bob tag Iau sydd gennych."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Gwaith hollti dŵr",
+  "actions": [
+   "Gwariwch 3 ynni i godi'r ocsigen 1 cam."
+  ]
+ },
+ "Wave Power": {
+  "name": "Ynni tonnau",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 1 cam."
+ },
+ "Windmills": {
+  "name": "Melinau gwynt",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 1 cam."
+ },
+ "Worms": {
+  "name": "Mwydod",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam am bob 2 dag microb sydd gennych, gan gynnwys hwn."
+ },
+ "Zeppelins": {
+  "name": "Zeppelinau",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam am bob teilsen dinas AR Y BLANED MAWRTH."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Rydych chi'n dechrau gydag 1 cynhyrchiant titaniwm a 42 M€.",
+  "effects": [
+   "Bob tro y daw unrhyw dag Iau i chwarae, gan gynnwys hwn, cynyddwch eich cynhyrchiant M€ 1 cam."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Rydych chi'n dechrau gyda 60 M€.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag Daear, rydych chi'n talu 3 M€ yn llai amdano."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Rydych chi'n dechrau gyda 3 chynhyrchiant M€ a 44 M€.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag adeiladu, rydych chi'n talu 2 M€ yn llai amdano."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Rydych chi'n dechrau gydag 1 cynhyrchiant titaniwm a 38 M€.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag Daear, gan gynnwys hwn, tynnwch gerdyn."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Rydych chi'n dechrau gyda 47 M€.",
+  "actions": [
+   "Gwariwch 4 M€ i gynyddu (un o'ch) cynhyrchiant ISAF 1 cam."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Rydych chi'n dechrau gyda 37 M€. Fel eich gweithred gyntaf, tynnwch 3 cherdyn Preliwd, a chwaraewch un ohonynt. Taflwch y ddau arall.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae tag gwyddoniaeth, rydych chi'n talu 2 M€ yn llai amdano."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Rydych chi'n dechrau gyda 45 M€. Fel eich gweithred gyntaf, ariannwch wobr am ddim.",
+  "effects": [
+   "Pan fyddwch chi'n chwarae cerdyn ag eicon PB NAD YW'N NEGYDDOL, gan gynnwys hwn, enillwch 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Corfforaeth dechreuwyr",
+  "desc": "Rydych chi'n dechrau gyda 42 M€. Yn lle dewis o blith 10 cerdyn wrth baratoi, rydych chi'n cael y 10 cerdyn am ddim."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Rydych chi'n dechrau gyda 57 M€.",
+  "effects": [
+   "Ar ôl i chi dalu am gerdyn neu brosiect safonol â chost sylfaenol o 20 M€ neu fwy, rydych chi'n ennill 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Rydych chi'n dechrau gyda 2 gynhyrchiant planhigion, 3 phlanhigyn, a 36 M€.",
+  "effects": [
+   "Gallwch bob amser dalu 7 planhigyn, yn lle 8, i osod gwyrddni."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Rydych chi'n dechrau gyda 3 chynhyrchiant gwres a 42 M€.",
+  "effects": [
+   "Gallwch ddefnyddio gwres fel M€. Ni chewch ddefnyddio M€ fel gwres."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Rydych chi'n dechrau gyda 20 dur a 30 M€.",
+  "effects": [
+   "Bob tro y byddwch chi'n chwarae digwyddiad, rydych chi'n ennill 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Fel eich gweithred gyntaf yn y gêm, tynnwch 3 cherdyn. Rydych chi'n dechrau gyda 45 M€.",
+  "effects": [
+   "Mae eich amodau tymheredd, ocsigen, cefnfor a Gwener +2 neu -2 gam, o'ch dewis ym mhob achos."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Urdd y glowyr",
+  "desc": "Rydych chi'n dechrau gyda 30 M€, 5 dur ac 1 cynhyrchiant dur.",
+  "effects": [
+   "Bob tro y byddwch chi'n gosod teilsen ar fan sydd â bonws gosod dur neu ditaniwm, cynyddwch eich cynhyrchiant dur 1 cam"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Rydych chi'n dechrau gyda 10 titaniwm a 23 M€.",
+  "effects": [
+   "Mae pob un o'ch adnoddau titaniwm werth 1 M€ yn ychwanegol."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Gweriniaeth Tharsis",
+  "desc": "Rydych chi'n dechrau gyda 40 M€. Fel eich gweithred gyntaf yn y gêm, gosodwch deilsen dinas.",
+  "effects": [
+   "Pan osodir unrhyw deilsen dinas AR Y BLANED MAWRTH, cynyddwch eich cynhyrchiant M€ 1 cam. Pan fyddwch chi'n gosod teilsen dinas, enillwch 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Rydych chi'n dechrau gydag 1 cynhyrchiant ynni a 48 M€.",
+  "effects": [
+   "Wrth chwarae cerdyn ynni NEU'R PROSIECT SAFONOL GORSAF BŴER, rydych chi'n talu 3 M€ yn llai amdano."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Menter Mawrth y Cenhedloedd Unedig",
+  "desc": "Rydych chi'n dechrau gyda 40 M€.",
+  "actions": [
+   "Os cafodd eich Sgôr Terraffurfio ei godi yn y genhedlaeth hon, gallwch dalu 3 M€ i'w godi 1 cam arall."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Banc y cynghreiriaid",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 4 cam. Enillwch 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Cymorth i'r biosffer",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 2 gam. Lleihewch eich cynhyrchiant M€ 1 cam."
+ },
+ "Aquifer Turbines": {
+  "name": "Tyrbinau dyfrhaen",
+  "desc": "Gosodwch deilsen cefnfor. Cynyddwch eich cynhyrchiant ynni 2 gam. Talwch 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Cloddio Mohole",
+  "desc": "Cynyddwch eich cynhyrchiant dur 1 cam a'ch cynhyrchiant gwres 2 gam. Enillwch 2 wres."
+ },
+ "Early Settlement": {
+  "name": "Anheddiad cynnar",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam. Gosodwch deilsen dinas."
+ },
+ "Biofuels": {
+  "name": "Biodanwyddau",
+  "desc": "Cynyddwch eich cynhyrchiant ynni a phlanhigion 1 cam. Enillwch 2 blanhigyn."
+ },
+ "Power Generation": {
+  "name": "Cynhyrchu pŵer",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 3 cham."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Anheddiad hunangynhaliol",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 2 gam. Gosodwch deilsen dinas."
+ },
+ "Mining Operations": {
+  "name": "Gweithrediadau mwyngloddio",
+  "desc": "Cynyddwch eich cynhyrchiant dur 2 gam. Enillwch 4 dur."
+ },
+ "UNMI Contractor": {
+  "name": "Contractwr UNMI",
+  "desc": "Cynyddwch eich ST 3 cham. Tynnwch gerdyn."
+ },
+ "Dome Farming": {
+  "name": "Ffermio dan gromen",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 2 gam a'ch cynhyrchiant planhigion 1 cam."
+ },
+ "Business Empire": {
+  "name": "Ymerodraeth fusnes",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 6 cham. Talwch 6 M€."
+ },
+ "Donation": {
+  "name": "Rhodd",
+  "desc": "Enillwch 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Llwyth nitrogen",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam. Cynyddwch eich ST 1 cam. Enillwch 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Gwaith mwyndoddi",
+  "desc": "Codwch yr ocsigen 2 gam. Enillwch 5 dur."
+ },
+ "Supplier": {
+  "name": "Cyflenwr",
+  "desc": "Cynyddwch eich cynhyrchiant ynni 2 gam. Enillwch 4 dur."
+ },
+ "Supply Drop": {
+  "name": "Gollwng cyflenwadau",
+  "desc": "Enillwch 3 thitaniwm, 8 dur a 3 phlanhigyn."
+ },
+ "Great Aquifer": {
+  "name": "Y ddyfrhaen fawr",
+  "desc": "Gosodwch 2 deilsen cefnfor."
+ },
+ "Biolab": {
+  "name": "Biolabordy",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam. Tynnwch 3 cherdyn."
+ },
+ "Martian Industries": {
+  "name": "Diwydiannau Mawrth",
+  "desc": "Cynyddwch eich cynhyrchiant ynni a dur 1 cam. Enillwch 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Allbost ymchwil Io",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 1 cam. Tynnwch gerdyn."
+ },
+ "Polar Industries": {
+  "name": "Diwydiannau pegynol",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 2 gam. Gosodwch deilsen cefnfor."
+ },
+ "Society Support": {
+  "name": "Cymorth cymdeithasol",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion, ynni a gwres 1 cam. Lleihewch gynhyrchiant M€ 1 cam."
+ },
+ "Galilean Mining": {
+  "name": "Mwyngloddio Galileaidd",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 2 gam. Talwch 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroid anferth",
+  "desc": "Codwch y tymheredd 3 cham. Talwch 5 M€."
+ },
+ "Metals Company": {
+  "name": "Cwmni metelau",
+  "desc": "Cynyddwch eich cynhyrchiant M€, dur a thitaniwm 1 cam."
+ },
+ "Loan": {
+  "name": "Benthyciad",
+  "desc": "Enillwch 30 M€. Lleihewch eich cynhyrchiant M€ 2 gam."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Cynyddwch eich cynhyrchiant gwres 3 cham. Enillwch 3 gwres."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid llawn metel",
+  "desc": "Codwch y tymheredd 1 cam. Enillwch 4 titaniwm a 4 dur."
+ },
+ "Orbital Construction Yard": {
+  "name": "Iard adeiladu orbitol",
+  "desc": "Cynyddwch eich cynhyrchiant titaniwm 1 cam. Enillwch 4 titaniwm."
+ },
+ "Acquired Space Agency": {
+  "name": "Asiantaeth ofod a gaffaelwyd",
+  "desc": "Enillwch 6 thitaniwm. Datgelwch gardiau nes i chi ddatgelu dau gerdyn â thagiau gofod. Cymerwch nhw i'ch llaw, a thaflwch y gweddill."
+ },
+ "Research Network": {
+  "name": "Rhwydwaith ymchwil",
+  "desc": "Cynyddwch eich cynhyrchiant M€ 1 cam. Tynnwch 3 cherdyn. Ar ôl ei chwarae, pan fyddwch chi'n cyflawni gweithred, mae'r tag gwyllt yn cyfrif fel unrhyw dag o'ch dewis."
+ },
+ "Eccentric Sponsor": {
+  "name": "Noddwr ecsentrig",
+  "desc": "CHWARAEWCH GERDYN O'CH LLAW GYDA GOSTYNGIAD O 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Arbenigwyr ecoleg",
+  "desc": "Cynyddwch eich cynhyrchiant planhigion 1 cam. CHWARAEWCH GERDYN O'CH LLAW, GAN ANWYBYDDU AMODAU BYD-EANG."
+ },
+ "Experimental Forest": {
+  "name": "Coedwig arbrofol",
+  "desc": "Gosodwch 1 deilsen gwyrddni a chodwch yr ocsigen 1 cam. Datgelwch gardiau nes i chi ddatgelu dau gerdyn â thagiau planhigyn arnynt. Cymerwch nhw i'ch llaw a thaflwch y gweddill."
+ }
+}

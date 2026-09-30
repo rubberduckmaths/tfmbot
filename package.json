@@ -1,0 +1,20 @@
+{
+  "name": "tfmbot",
+  "description": "The tfmbot.com client: Terraforming Mars against TFMBot on a 3D Mars",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "check": "node tools/check.mjs",
+    "e2e": "node tools/e2e.mjs"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.63.0"
+  }
+}

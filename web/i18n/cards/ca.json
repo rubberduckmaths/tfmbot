@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Empresa Adquirida",
+  "desc": "Augmenta la teva producció de M€ en 3."
+ },
+ "Advanced Alloys": {
+  "name": "Aliatges Avançats",
+  "effects": [
+   "Cada titani que tens val 1 M€ més.",
+   "Cada acer que tens val 1 M€ més."
+  ]
+ },
+ "AI Central": {
+  "name": "Central d'IA",
+  "desc": "Redueix la teva producció d'energia en 1.",
+  "actions": [
+   "Roba 2 cartes."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Tecnologia Antigravetat",
+  "effects": [
+   "Quan jugues una carta, pagues 2 M€ menys per ella."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Consorci Miner d'Asteroides",
+  "desc": "Redueix en 1 la producció de titani de qualsevol jugador i augmenta la teva en 1."
+ },
+ "Bribed Committee": {
+  "name": "Comitè Subornat",
+  "desc": "Puja el teu IT 2 nivells."
+ },
+ "Building Industries": {
+  "name": "Indústries de la Construcció",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció d'acer en 2."
+ },
+ "Business Contacts": {
+  "name": "Contactes Comercials",
+  "desc": "Mira les 4 cartes de dalt del mall. Queda't-ne 2 a la mà i descarta la resta."
+ },
+ "Business Network": {
+  "name": "Xarxa Empresarial",
+  "desc": "Redueix la teva producció de M€ en 1.",
+  "actions": [
+   "Mira la carta de dalt i compra-la o descarta-la."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Mines Penals de Cal·listo",
+  "desc": "Augmenta la teva producció de M€ en 3."
+ },
+ "Caretaker Contract": {
+  "name": "Contracte de Manteniment",
+  "actions": [
+   "Gasta 8 de calor per pujar el teu índex de terraformació 1 nivell."
+  ]
+ },
+ "Cartel": {
+  "name": "Càrtel",
+  "desc": "Augmenta la teva producció de M€ en 1 per cada etiqueta de Terra que tinguis, inclosa aquesta."
+ },
+ "CEO's Favorite Project": {
+  "name": "Projecte Preferit del CEO",
+  "desc": "Afegeix 1 recurs a qualsevol de les teves cartes que ja tingui almenys 1 recurs."
+ },
+ "Commercial District": {
+  "name": "Districte Comercial",
+  "desc": "Col·loca aquesta fitxa. Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 4.",
+  "vpText": [
+   "1 PV per cada fitxa de ciutat adjacent."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Fortalesa Corporativa",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 3. Col·loca una fitxa de ciutat."
+ },
+ "Development Center": {
+  "name": "Centre de Desenvolupament",
+  "actions": [
+   "Gasta 1 d'energia per robar una carta."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Catapulta Terrestre",
+  "effects": [
+   "Quan jugues una carta, pagues 2 M€ menys per ella."
+  ]
+ },
+ "Earth Office": {
+  "name": "Oficina a la Terra",
+  "effects": [
+   "Quan jugues una etiqueta de Terra, pagues 3 M€ menys per ella."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Electrocatapulta",
+  "desc": "Redueix la teva producció d'energia en 1.",
+  "actions": [
+   "Gasta 1 planta o 1 d'acer per obtenir 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Desviament d'Energia",
+  "desc": "Redueix en 1 la producció d'energia de qualsevol jugador i augmenta la teva en 1."
+ },
+ "Fuel Factory": {
+  "name": "Fàbrica de Combustible",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta en 1 la teva producció de titani i la de M€."
+ },
+ "Gene Repair": {
+  "name": "Reparació Genètica",
+  "desc": "Augmenta la teva producció de M€ en 2."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Consorci del Gran Escarpament",
+  "desc": "Redueix en 1 la producció d'acer de qualsevol jugador i augmenta la teva en 1."
+ },
+ "Hackers": {
+  "name": "Pirates Informàtics",
+  "desc": "Redueix la teva producció d'energia en 1 i la producció de M€ de qualsevol jugador en 2. Augmenta la teva producció de M€ en 2."
+ },
+ "Hired Raiders": {
+  "name": "Assaltants a Sou",
+  "desc": "Roba fins a 2 d'acer, o 3 M€, a qualsevol jugador."
+ },
+ "Indentured Workers": {
+  "name": "Treballadors Servils",
+  "desc": "La següent carta que juguis aquesta generació costa 8 M€ menys."
+ },
+ "Industrial Center": {
+  "name": "Centre Industrial",
+  "desc": "Col·loca aquesta fitxa adjacent a una fitxa de ciutat.",
+  "actions": [
+   "Gasta 7 M€ per augmentar la teva producció d'acer en 1."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Nau Colonial Interestel·lar"
+ },
+ "Invention Contest": {
+  "name": "Concurs d'Invents",
+  "desc": "Mira les 3 cartes de dalt del mall. Queda't-ne 1 a la mà i descarta la resta."
+ },
+ "Inventors' Guild": {
+  "name": "Gremi d'Inventors",
+  "actions": [
+   "Mira la carta de dalt i compra-la o descarta-la."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Préstec d'Inversió",
+  "desc": "Redueix la teva producció de M€ en 1. Obtén 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Indústries Mineres d'Io",
+  "desc": "Augmenta la teva producció de titani en 2 i la teva producció de M€ en 2.",
+  "vpText": [
+   "1 PV per cada etiqueta de Júpiter que tinguis."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Observatori de Lagrange",
+  "desc": "Roba 1 carta."
+ },
+ "Land Claim": {
+  "name": "Reclamació de Terres",
+  "desc": "Reserva per a tu una àrea no reservada: només tu hi pots col·locar una fitxa."
+ },
+ "Lightning Harvest": {
+  "name": "Collita de Llamps",
+  "desc": "Augmenta la teva producció d'energia i la teva producció de M€ en un nivell cadascuna."
+ },
+ "Mars University": {
+  "name": "Universitat de Mart",
+  "effects": [
+   "Quan jugues una etiqueta de ciència, inclosa aquesta, pots descartar una carta de la mà per robar una carta."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Convertidor de Massa",
+  "desc": "Augmenta la teva producció d'energia en 6.",
+  "effects": [
+   "Quan jugues una carta d'espai, pagues 2 M€ menys per ella."
+  ]
+ },
+ "Media Archives": {
+  "name": "Arxius Mediàtics",
+  "desc": "Obtén 1 M€ per cada esdeveniment QUE HAGIN JUGAT MAI tots els jugadors."
+ },
+ "Media Group": {
+  "name": "Grup Mediàtic",
+  "effects": [
+   "Després de jugar una carta d'esdeveniment, obtens 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Laboratori Mèdic",
+  "desc": "Augmenta la teva producció de M€ en 1 per cada 2 etiquetes d'edifici que tinguis, inclosa aquesta."
+ },
+ "Mine": {
+  "name": "Mina",
+  "desc": "Augmenta la teva producció d'acer en 1."
+ },
+ "Mineral Deposit": {
+  "name": "Jaciment Mineral",
+  "desc": "Obtén 5 d'acer."
+ },
+ "Mining Area": {
+  "name": "Zona Minera",
+  "desc": "Col·loca aquesta fitxa en una àrea amb bonificació de col·locació d'acer o titani, adjacent a una altra fitxa teva. Augmenta en 1 la teva producció d'aquest recurs."
+ },
+ "Miranda Resort": {
+  "name": "Complex Turístic de Miranda",
+  "desc": "Augmenta la teva producció de M€ en 1 per cada etiqueta de Terra que tinguis."
+ },
+ "Olympus Conference": {
+  "name": "Conferència d'Olympus",
+  "desc": "Quan jugues una etiqueta de ciència, inclosa aquesta, afegeix un recurs de ciència a aquesta carta, o bé treu-ne un per robar una carta."
+ },
+ "Physics Complex": {
+  "name": "Complex de Física",
+  "actions": [
+   "Gasta 6 d'energia per afegir un recurs de ciència a aquesta carta."
+  ],
+  "vpText": [
+   "2 PV per cada recurs de ciència en aquesta carta."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Infraestructura Elèctrica",
+  "actions": [
+   "Gasta la quantitat d'energia que vulguis i obtén la mateixa quantitat de M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Consorci de Subministrament Elèctric",
+  "desc": "Redueix en 1 la producció d'energia de qualsevol jugador i augmenta la teva en 1."
+ },
+ "Protected Habitats": {
+  "name": "Hàbitats Protegits",
+  "effects": [
+   "Els rivals no poden treure les teves plantes, animals ni microbis."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Extractor Quàntic",
+  "desc": "Augmenta la teva producció d'energia en 4.",
+  "effects": [
+   "Quan jugues una carta d'espai, pagues 2 M€ menys per ella."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Vestits Antiradiació",
+  "desc": "Augmenta la teva producció de M€ en 1."
+ },
+ "Research": {
+  "name": "Recerca",
+  "desc": "Compta com si juguessis 2 cartes de ciència. Roba 2 cartes."
+ },
+ "Restricted Area": {
+  "name": "Àrea Restringida",
+  "desc": "Col·loca aquesta fitxa.",
+  "actions": [
+   "Gasta 2 M€ per robar una carta."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Mà d'Obra Robòtica",
+  "desc": "Duplica només el requadre de producció d'una de les teves cartes d'edifici."
+ },
+ "Sabotage": {
+  "name": "Sabotatge",
+  "desc": "Treu fins a 3 de titani, o 4 d'acer, o 7 M€ a qualsevol jugador."
+ },
+ "Satellites": {
+  "name": "Satèl·lits",
+  "desc": "Augmenta la teva producció de M€ en 1 per cada etiqueta d'espai que tinguis, inclosa aquesta."
+ },
+ "Security Fleet": {
+  "name": "Flota de Seguretat",
+  "actions": [
+   "Gasta 1 de titani per afegir 1 recurs de caça a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada recurs de caça en aquesta carta."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Ascensor Espacial",
+  "desc": "Augmenta la teva producció de titani en 1.",
+  "actions": [
+   "Gasta 1 d'acer per obtenir 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Estació Espacial",
+  "effects": [
+   "Quan jugues una carta d'espai, pagues 2 M€ menys per ella."
+  ]
+ },
+ "Sponsors": {
+  "name": "Patrocinadors",
+  "desc": "Augmenta la teva producció de M€ en 2."
+ },
+ "Standard Technology": {
+  "name": "Tecnologia Estàndard",
+  "effects": [
+   "Després de pagar un projecte estàndard, excepte vendre patents, obtens 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardígrads",
+  "actions": [
+   "Afegeix 1 microbi a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada 4 microbis en aquesta carta."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Demostració Tecnològica",
+  "desc": "Roba dues cartes."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraformació de Ganimedes",
+  "desc": "Puja el teu IT 1 nivell per cada etiqueta de Júpiter que tinguis, inclosa aquesta."
+ },
+ "Titanium Mine": {
+  "name": "Mina de Titani",
+  "desc": "Augmenta la teva producció de titani en 1."
+ },
+ "Toll Station": {
+  "name": "Estació de Peatge",
+  "desc": "Augmenta la teva producció de M€ en 1 per cada etiqueta d'espai que tinguin els teus RIVALS."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Sonda Transneptuniana",
+  "desc": "Una sonda d'espai profund: val 1 PV."
+ },
+ "Tropical Resort": {
+  "name": "Complex Turístic Tropical",
+  "desc": "Redueix la teva producció de calor en 2 i augmenta la teva producció de M€ en 3."
+ },
+ "Vesta Shipyard": {
+  "name": "Drassana de Vesta",
+  "desc": "Augmenta la teva producció de titani en 1."
+ },
+ "Viral Enhancers": {
+  "name": "Potenciadors Virals",
+  "effects": [
+   "Quan jugues una etiqueta de planta, microbi o animal, inclosa aquesta, obtén 1 planta o afegeix 1 recurs A AQUESTA CARTA."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Treu fins a 2 animals o 5 plantes a qualsevol jugador."
+ },
+ "SF Memorial": {
+  "name": "Memorial de la Ciència-ficció",
+  "desc": "Roba 1 carta."
+ },
+ "House Printing": {
+  "name": "Impressió de Cases",
+  "desc": "Augmenta la teva producció d'acer en 1."
+ },
+ "Space Hotels": {
+  "name": "Hotels Espacials",
+  "desc": "Augmenta la producció de M€ en 4."
+ },
+ "Martian Survey": {
+  "name": "Prospecció Marciana",
+  "desc": "Roba dues cartes."
+ },
+ "Research Coordination": {
+  "name": "Coordinació de Recerca",
+  "desc": "Un cop jugada, quan facis una acció, l'etiqueta comodí compta com qualsevol etiqueta que triïs."
+ },
+ "Lava Tube Settlement": {
+  "name": "Assentament en Tubs de Lava",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 2. Col·loca una fitxa de ciutat en una ÀREA VOLCÀNICA, sense tenir en compte les ciutats adjacents."
+ },
+ "Psychrophiles": {
+  "name": "Psicròfils",
+  "actions": [
+   "Afegeix 1 microbi a aquesta carta."
+  ],
+  "effects": [
+   "Quan paguis una carta de planta, pots fer servir els microbis d'aquí com a 2 M€ cadascun."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Tecnologia d'Adaptació",
+  "effects": [
+   "Els teus requisits globals són +2 o -2 nivells, a la teva elecció en cada cas."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Líquens Adaptats",
+  "desc": "Augmenta la teva producció de plantes en 1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ecosistemes Avançats"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroide d'Amoníac Aerofrenat",
+  "desc": "Augmenta la teva producció de calor en 3 i la teva producció de plantes en 1. Afegeix 2 microbis a UNA ALTRA carta."
+ },
+ "Ants": {
+  "name": "Formigues",
+  "actions": [
+   "Treu 1 microbi de qualsevol carta per afegir-ne 1 a aquesta."
+  ],
+  "vpText": [
+   "1 PV per cada 2 microbis en aquesta carta."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Bombament d'Aqüífers",
+  "actions": [
+   "Gasta 8 M€ per col·locar 1 fitxa d'oceà. ES POT FER SERVIR ACER com si juguessis una carta d'edifici."
+  ]
+ },
+ "Algae": {
+  "name": "Algues",
+  "desc": "Obtén 1 planta i augmenta la teva producció de plantes en 2."
+ },
+ "ArchaeBacteria": {
+  "name": "Arqueobacteris",
+  "desc": "Augmenta la teva producció de plantes en 1."
+ },
+ "Arctic Algae": {
+  "name": "Algues Àrtiques",
+  "desc": "Obtén 1 planta.",
+  "effects": [
+   "Quan qualsevol jugador col·loca una fitxa d'oceà, obtens 2 plantes."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Llac Artificial",
+  "desc": "Col·loca 1 fitxa d'oceà EN UNA ÀREA NO RESERVADA PER A OCEANS."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Fotosíntesi Artificial",
+  "desc": "Augmenta la teva producció de plantes en 1 o la teva producció d'energia en 2.",
+  "orTitles": [
+   "Augmenta la teva producció d'energia en 2",
+   "Augmenta la teva producció de plantes en 1"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroide",
+  "desc": "Puja la temperatura 1 nivell i obtén 2 de titani. Treu fins a 3 plantes a qualsevol jugador."
+ },
+ "Asteroid Mining": {
+  "name": "Mineria d'Asteroides",
+  "desc": "Augmenta la teva producció de titani en 2."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Raig des d'un Asteroide de Tori",
+  "desc": "Augmenta la teva producció de calor i la teva producció d'energia en 3 cadascuna."
+ },
+ "Big Asteroid": {
+  "name": "Gran Asteroide",
+  "desc": "Puja la temperatura 2 nivells i obtén 4 de titani. Treu fins a 4 plantes a qualsevol jugador."
+ },
+ "Biomass Combustors": {
+  "name": "Cremadors de Biomassa",
+  "desc": "Redueix en 1 la producció de plantes de qualsevol jugador i augmenta la teva producció d'energia en 2."
+ },
+ "Birds": {
+  "name": "Ocells",
+  "desc": "Redueix en 2 la producció de plantes de qualsevol jugador. 1 PV per cada animal en aquesta carta.",
+  "actions": [
+   "Afegeix un animal a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada animal en aquesta carta."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Pols Polar Negra",
+  "desc": "Col·loca una fitxa d'oceà. Redueix la teva producció de M€ en 2 i augmenta la teva producció de calor en 3."
+ },
+ "Breathing Filters": {
+  "name": "Filtres Respiratoris"
+ },
+ "Bushes": {
+  "name": "Arbustos",
+  "desc": "Augmenta la teva producció de plantes en 2. Obtén 2 plantes."
+ },
+ "Capital": {
+  "name": "Capital",
+  "desc": "Col·loca aquesta fitxa. Redueix la teva producció d'energia en 2 i augmenta la teva producció de M€ en 5.",
+  "vpText": [
+   "1 PV addicional per cada fitxa d'oceà adjacent a aquesta fitxa de ciutat."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Processament de Carbonats",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció de calor en 3."
+ },
+ "Cloud Seeding": {
+  "name": "Sembra de Núvols",
+  "desc": "Redueix la teva producció de M€ en 1 i la producció de calor de qualsevol jugador en 1. Augmenta la teva producció de plantes en 2."
+ },
+ "Colonizer Training Camp": {
+  "name": "Camp d'Entrenament de Colons"
+ },
+ "Comet": {
+  "name": "Cometa",
+  "desc": "Puja la temperatura 1 nivell i col·loca una fitxa d'oceà. Treu fins a 3 plantes a qualsevol jugador."
+ },
+ "Convoy From Europa": {
+  "name": "Comboi des d'Europa",
+  "desc": "Col·loca 1 fitxa d'oceà i roba 1 carta."
+ },
+ "Cupola City": {
+  "name": "Ciutat Cúpula",
+  "desc": "Col·loca una fitxa de ciutat. Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 3."
+ },
+ "Decomposers": {
+  "name": "Descomponedors",
+  "effects": [
+   "Quan jugues una etiqueta d'animal, planta o microbi, inclosa aquesta, afegeix un microbi a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada 3 microbis en aquesta carta."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Escalfament per Pous Profunds",
+  "desc": "Augmenta la teva producció d'energia en 1. Puja la temperatura 1 nivell."
+ },
+ "Deimos Down": {
+  "name": "Caiguda de Deimos",
+  "desc": "Puja la temperatura 3 nivells i obtén 4 d'acer. Treu fins a 8 plantes a qualsevol jugador."
+ },
+ "Designed Microorganisms": {
+  "name": "Microorganismes Dissenyats",
+  "desc": "Augmenta la teva producció de plantes en 2."
+ },
+ "Domed Crater": {
+  "name": "Cràter amb Cúpula",
+  "desc": "Obtén 3 plantes. Col·loca una fitxa de ciutat. Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 3."
+ },
+ "Dust Seals": {
+  "name": "Segells contra la Pols"
+ },
+ "Ecological Zone": {
+  "name": "Zona Ecològica",
+  "desc": "Col·loca aquesta fitxa adjacent a QUALSEVOL vegetació.",
+  "effects": [
+   "Quan jugues una etiqueta d'animal o de planta, INCLOSES AQUESTES, afegeix un animal a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada 2 animals en aquesta carta."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Estalvi Energètic",
+  "desc": "Augmenta la teva producció d'energia en 1 per cada fitxa de ciutat en joc."
+ },
+ "Eos Chasma National Park": {
+  "name": "Parc Nacional d'Eos Chasma",
+  "desc": "Afegeix 1 animal A QUALSEVOL CARTA D'ANIMALS. Obtén 3 plantes. Augmenta la teva producció de M€ en 2."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Magnetitzador Equatorial",
+  "actions": [
+   "Redueix la teva producció d'energia en 1 per pujar el teu índex de terraformació 1 nivell."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Fong del Fred Extrem",
+  "actions": [
+   "Obtén 1 planta.",
+   "Afegeix 2 microbis a UNA ALTRA carta."
+  ]
+ },
+ "Farming": {
+  "name": "Agricultura",
+  "desc": "Augmenta la teva producció de M€ en 2 i la teva producció de plantes en 2. Obtén 2 plantes."
+ },
+ "Fish": {
+  "name": "Peixos",
+  "desc": "Redueix en 1 la producció de plantes de qualsevol jugador.",
+  "actions": [
+   "Afegeix 1 animal a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada animal en aquesta carta."
+  ]
+ },
+ "Flooding": {
+  "name": "Inundació",
+  "desc": "Col·loca una fitxa d'oceà. SI HI HA FITXES ADJACENTS A AQUESTA FITXA D'OCEÀ, POTS TREURE 4 M€ AL PROPIETARI D'UNA D'AQUESTES FITXES."
+ },
+ "Food Factory": {
+  "name": "Fàbrica d'Aliments",
+  "desc": "Redueix la teva producció de plantes en 1 i augmenta la teva producció de M€ en 4."
+ },
+ "Fusion Power": {
+  "name": "Energia de Fusió",
+  "desc": "Augmenta la teva producció d'energia en 3."
+ },
+ "Fueled Generators": {
+  "name": "Generadors de Combustible",
+  "desc": "Redueix la teva producció de M€ en 1 i augmenta la teva producció d'energia en 1."
+ },
+ "Ganymede Colony": {
+  "name": "Colònia de Ganimedes",
+  "desc": "Col·loca una fitxa de ciutat A L'ÀREA RESERVADA.",
+  "vpText": [
+   "1 PV per cada etiqueta de Júpiter que tinguis."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Energia Geotèrmica",
+  "desc": "Augmenta la teva producció d'energia en 2."
+ },
+ "GHG Factories": {
+  "name": "Fàbriques de GEH",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció de calor en 4."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bacteris Productors de GEH",
+  "actions": [
+   "Afegeix 1 microbi a aquesta carta.",
+   "Treu 2 microbis per pujar la temperatura 1 nivell."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroide de Gel Gegant",
+  "desc": "Puja la temperatura 2 nivells i col·loca 2 fitxes d'oceà. Treu fins a 6 plantes a qualsevol jugador."
+ },
+ "Giant Space Mirror": {
+  "name": "Mirall Espacial Gegant",
+  "desc": "Augmenta la teva producció d'energia en 3."
+ },
+ "Grass": {
+  "name": "Herba",
+  "desc": "Augmenta la teva producció de plantes en 1. Obtén 3 plantes."
+ },
+ "Great Dam": {
+  "name": "Gran Presa",
+  "desc": "Augmenta la teva producció d'energia en 2."
+ },
+ "Greenhouses": {
+  "name": "Hivernacles",
+  "desc": "Obtén 1 planta per cada fitxa de ciutat en joc."
+ },
+ "Heather": {
+  "name": "Bruc",
+  "desc": "Augmenta la teva producció de plantes en 1. Obtén 1 planta."
+ },
+ "Heat Trappers": {
+  "name": "Captadors de Calor",
+  "desc": "Redueix en 2 la producció de calor de qualsevol jugador i augmenta la teva producció d'energia en 1."
+ },
+ "Herbivores": {
+  "name": "Herbívors",
+  "desc": "+1 animal a aquesta carta. -1 a la producció de plantes de qualsevol jugador",
+  "effects": [
+   "Quan col·loques una fitxa de vegetació, afegeix un animal a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada 2 animals en aquesta carta."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroide de Gel",
+  "desc": "Col·loca 2 fitxes d'oceà."
+ },
+ "Ice Cap Melting": {
+  "name": "Fusió del Casquet Polar",
+  "desc": "Col·loca 1 fitxa d'oceà."
+ },
+ "Immigrant City": {
+  "name": "Ciutat d'Immigrants",
+  "desc": "Redueix la teva producció d'energia en 1 i redueix la teva producció de M€ en 2. Col·loca una fitxa de ciutat.",
+  "effects": [
+   "Quan es col·loca una fitxa de ciutat, inclosa aquesta, augmenta la teva producció de M€ en 1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Llançadores d'Immigració",
+  "desc": "Augmenta la teva producció de M€ en 5.",
+  "vpText": [
+   "1 PV per cada 3 ciutats en joc."
+  ]
+ },
+ "Imported GHG": {
+  "name": "GEH Importats",
+  "desc": "Augmenta la teva producció de calor en 1 i obtén 3 de calor."
+ },
+ "Imported Hydrogen": {
+  "name": "Hidrogen Importat",
+  "desc": "Obtén 3 plantes, o afegeix 3 microbis o 2 animals a UNA ALTRA carta. Col·loca una fitxa d'oceà.",
+  "orTitles": [
+   "Obtén 3 plantes",
+   "Afegeix 3 microbis a UNA ALTRA carta",
+   "Afegeix 2 animals a UNA ALTRA carta"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitrogen Importat",
+  "desc": "Puja el teu IT 1 nivell i obtén 4 plantes. Afegeix 3 microbis a UNA ALTRA carta i 2 animals a UNA ALTRA carta."
+ },
+ "Import of Advanced GHG": {
+  "name": "Importació de GEH Avançats",
+  "desc": "Augmenta la teva producció de calor en 2."
+ },
+ "Industrial Microbes": {
+  "name": "Microbis Industrials",
+  "desc": "Augmenta la teva producció d'energia i la teva producció d'acer en 1 cadascuna."
+ },
+ "Insects": {
+  "name": "Insectes",
+  "desc": "Augmenta la teva producció de plantes en 1 per cada etiqueta de planta que tinguis."
+ },
+ "Insulation": {
+  "name": "Aïllament",
+  "desc": "Redueix la teva producció de calor tants nivells com vulguis i augmenta la teva producció de M€ el mateix nombre de nivells."
+ },
+ "Ironworks": {
+  "name": "Foneria",
+  "actions": [
+   "Gasta 4 d'energia per obtenir 1 d'acer i pujar l'oxigen 1 nivell."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Cultiu de Quelp",
+  "desc": "Augmenta la teva producció de M€ en 2 i la teva producció de plantes en 3. Obtén 2 plantes."
+ },
+ "Lake Marineris": {
+  "name": "Llac Marineris",
+  "desc": "Col·loca 2 fitxes d'oceà."
+ },
+ "Large Convoy": {
+  "name": "Gran Comboi",
+  "desc": "Col·loca una fitxa d'oceà i roba 2 cartes. Obtén 5 plantes o afegeix 4 animals a UNA ALTRA carta.",
+  "orTitles": [
+   "Obtén 5 plantes",
+   "Afegeix 4 animals a UNA ALTRA carta"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Colades de Lava",
+  "desc": "Puja la temperatura 2 nivells i col·loca aquesta fitxa A THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS O ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Líquens",
+  "desc": "Augmenta la teva producció de plantes en 1."
+ },
+ "Livestock": {
+  "name": "Bestiar",
+  "desc": "Redueix la teva producció de plantes en 1 i augmenta la teva producció de M€ en 2",
+  "actions": [
+   "Afegeix 1 animal a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada animal en aquesta carta."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Captació Local de Calor",
+  "desc": "Gasta 5 de calor per obtenir 4 plantes o per afegir 2 animals a UNA ALTRA carta.",
+  "orTitles": [
+   "Obtén 4 plantes",
+   "Afegeix 2 animals a UNA ALTRA carta"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Raig Lunar",
+  "desc": "Redueix la teva producció de M€ en 2 i augmenta la teva producció de calor i la teva producció d'energia en 2 cadascuna."
+ },
+ "Magnetic Field Dome": {
+  "name": "Cúpula de Camp Magnètic",
+  "desc": "Redueix la teva producció d'energia en 2 i augmenta la teva producció de plantes en 1. Puja el teu IT 1 nivell."
+ },
+ "Magnetic Field Generators": {
+  "name": "Generadors de Camp Magnètic",
+  "desc": "Redueix la teva producció d'energia en 4 i augmenta la teva producció de plantes en 2. Puja el teu IT 3 nivells."
+ },
+ "Mangrove": {
+  "name": "Manglar",
+  "desc": "Col·loca una fitxa de vegetació EN UNA ÀREA RESERVADA PER A OCEANS i puja l'oxigen 1 nivell. Per fer-ho, ignora les restriccions normals de col·locació."
+ },
+ "Martian Rails": {
+  "name": "Ferrocarrils Marcians",
+  "actions": [
+   "Gasta 1 d'energia per obtenir 1 M€ per cada fitxa de ciutat A MART."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metà de Tità",
+  "desc": "Augmenta la teva producció de calor en 2 i la teva producció de plantes en 2."
+ },
+ "Micro-Mills": {
+  "name": "Microfàbriques",
+  "desc": "Augmenta la teva producció de calor en 1."
+ },
+ "Mining Expedition": {
+  "name": "Expedició Minera",
+  "desc": "Puja l'oxigen 1 nivell. Treu 2 plantes a qualsevol jugador. Obtén 2 d'acer."
+ },
+ "Mining Rights": {
+  "name": "Drets Miners",
+  "desc": "Col·loca aquesta fitxa en una àrea amb bonificació de col·locació d'acer o titani. Augmenta aquesta producció en 1."
+ },
+ "Mohole Area": {
+  "name": "Àrea Mohole",
+  "desc": "Augmenta la teva producció de calor en 4. Col·loca aquesta fitxa EN UNA ÀREA RESERVADA PER A OCEANS."
+ },
+ "Moss": {
+  "name": "Molsa",
+  "desc": "Perd 1 planta. Augmenta la teva producció de plantes en 1."
+ },
+ "Natural Preserve": {
+  "name": "Reserva Natural",
+  "desc": "Col·loca aquesta fitxa SENSE CAP ALTRA FITXA ADJACENT. Augmenta la teva producció de M€ en 1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bacteris Reductors de Nitrits",
+  "desc": "Afegeix 3 microbis a aquesta carta.",
+  "actions": [
+   "Afegeix 1 microbi a aquesta carta.",
+   "Treu 3 microbis per pujar el teu IT 1 nivell."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroide Ric en Nitrogen",
+  "desc": "Puja el teu índex de terraformació 2 nivells i la temperatura 1 nivell. Augmenta la teva producció de plantes en 1, o en 4 si tens 3 etiquetes de planta."
+ },
+ "Nitrophilic Moss": {
+  "name": "Molsa Nitròfila",
+  "desc": "Perd 2 plantes. Augmenta la teva producció de plantes en 2."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 3. Col·loca una fitxa de ciutat A L'ÀREA RESERVADA, ignorant les restriccions normals de col·locació."
+ },
+ "Noctis Farming": {
+  "name": "Agricultura de Noctis",
+  "desc": "Augmenta la teva producció de M€ en 1 i obtén 2 plantes."
+ },
+ "Nuclear Power": {
+  "name": "Energia Nuclear",
+  "desc": "Redueix la teva producció de M€ en 2 i augmenta la teva producció d'energia en 3."
+ },
+ "Nuclear Zone": {
+  "name": "Zona Nuclear",
+  "desc": "Col·loca aquesta fitxa i puja la temperatura 2 nivells."
+ },
+ "Open City": {
+  "name": "Ciutat Oberta",
+  "desc": "Obtén 2 plantes. Col·loca una fitxa de ciutat. Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 4."
+ },
+ "Optimal Aerobraking": {
+  "name": "Aerofrenada Òptima",
+  "effects": [
+   "Quan jugues un esdeveniment d'espai, obtens 3 M€ i 3 de calor."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Processador de Mineral",
+  "actions": [
+   "Gasta 4 d'energia per obtenir 1 de titani i pujar l'oxigen 1 nivell."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Extracció de Permagel",
+  "desc": "Col·loca 1 fitxa d'oceà."
+ },
+ "Peroxide Power": {
+  "name": "Energia de Peròxid",
+  "desc": "Redueix la teva producció de M€ en 1 i augmenta la teva producció d'energia en 2."
+ },
+ "Pets": {
+  "name": "Mascotes",
+  "desc": "Afegeix 1 animal a aquesta carta.",
+  "effects": [
+   "Quan es col·loca qualsevol fitxa de ciutat, afegeix un animal a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada 2 animals d'aquí."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Port Espacial de Fobos",
+  "desc": "Augmenta la teva producció de titani en 1 i col·loca una fitxa de ciutat A L'ÀREA RESERVADA."
+ },
+ "Plantation": {
+  "name": "Plantació",
+  "desc": "Col·loca una fitxa de vegetació i puja l'oxigen 1 nivell."
+ },
+ "Power Grid": {
+  "name": "Xarxa Elèctrica",
+  "desc": "Augmenta la teva producció d'energia un nivell per cada etiqueta d'energia que tinguis, inclosa aquesta."
+ },
+ "Power Plant": {
+  "name": "Planta d'Energia",
+  "desc": "Augmenta la teva producció d'energia en 1."
+ },
+ "Predators": {
+  "name": "Depredadors",
+  "actions": [
+   "Treu 1 animal de qualsevol carta i afegeix-lo a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada animal en aquesta carta."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Vall Protegida",
+  "desc": "Augmenta la teva producció de M€ en 2. Col·loca una fitxa de vegetació EN UNA ÀREA RESERVADA PER A OCEANS, ignorant les restriccions normals de col·locació, i puja l'oxigen 1 nivell."
+ },
+ "Rad-Chem Factory": {
+  "name": "Fàbrica Radioquímica",
+  "desc": "Redueix la teva producció d'energia en 1. Puja el teu IT 2 nivells."
+ },
+ "Regolith Eaters": {
+  "name": "Menjadors de Regolit",
+  "actions": [
+   "Afegeix 1 microbi a aquesta carta.",
+   "Treu 2 microbis d'aquesta carta per pujar l'oxigen 1 nivell."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Alliberament de Gasos Inerts",
+  "desc": "Puja el teu índex de terraformació 2 nivells."
+ },
+ "Research Outpost": {
+  "name": "Avançada de Recerca",
+  "desc": "Col·loca una fitxa de ciutat SENSE CAP ALTRA FITXA ADJACENT.",
+  "effects": [
+   "Quan jugues una carta, pagues 1 M€ menys per ella."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Construcció de Vehicles",
+  "effects": [
+   "Quan es col·loca qualsevol fitxa de ciutat, obtens 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Cerca de Vida",
+  "actions": [
+   "Gasta 1 M€ per revelar la carta de dalt del mall. Si té una etiqueta de microbi, afegeix un recurs de ciència aquí."
+  ],
+  "vpText": [
+   "3 PV si tens un o més recursos de ciència aquí."
+  ]
+ },
+ "Shuttles": {
+  "name": "Llançadores",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 2.",
+  "effects": [
+   "Quan jugues una carta d'espai, pagues 2 M€ menys per ella."
+  ]
+ },
+ "Small Animals": {
+  "name": "Animals Petits",
+  "desc": "Redueix en 1 la producció de plantes de qualsevol jugador.",
+  "actions": [
+   "Afegeix 1 animal a aquesta carta."
+  ],
+  "vpText": [
+   "1 PV per cada 2 animals en aquesta carta."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Fàbrica de Sòl",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció de plantes en 1."
+ },
+ "Solar Power": {
+  "name": "Energia Solar",
+  "desc": "Augmenta la teva producció d'energia en 1."
+ },
+ "Solar Wind Power": {
+  "name": "Energia del Vent Solar",
+  "desc": "Augmenta la teva producció d'energia en 1 i obtén 2 de titani."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Augmenta la teva producció de calor en 7."
+ },
+ "Space Mirrors": {
+  "name": "Miralls Espacials",
+  "actions": [
+   "Gasta 7 M€ per augmentar la teva producció d'energia en 1."
+  ]
+ },
+ "Special Design": {
+  "name": "Disseny Especial",
+  "desc": "La següent carta que juguis aquesta generació té els requisits globals a +2 o -2 nivells, a la teva elecció."
+ },
+ "Steelworks": {
+  "name": "Acereria",
+  "actions": [
+   "Gasta 4 d'energia per obtenir 2 d'acer i pujar l'oxigen 1 nivell."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Mina a Cel Obert",
+  "desc": "Redueix la teva producció d'energia en 2. Augmenta la teva producció d'acer en 2 i la teva producció de titani en 1. Puja l'oxigen 2 nivells."
+ },
+ "Subterranean Reservoir": {
+  "name": "Embassament Subterrani",
+  "desc": "Col·loca 1 fitxa d'oceà."
+ },
+ "Symbiotic Fungus": {
+  "name": "Fong Simbiòtic",
+  "actions": [
+   "Afegeix un microbi a UNA ALTRA carta."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Energia de Tensió Tectònica",
+  "desc": "Augmenta la teva producció d'energia en 3."
+ },
+ "Towing A Comet": {
+  "name": "Remolcar un Cometa",
+  "desc": "Obtén 2 plantes. Puja l'oxigen 1 nivell i col·loca una fitxa d'oceà."
+ },
+ "Trees": {
+  "name": "Arbres",
+  "desc": "Augmenta la teva producció de plantes en 3. Obtén 1 planta."
+ },
+ "Tundra Farming": {
+  "name": "Agricultura de Tundra",
+  "desc": "Augmenta la teva producció de plantes en 1 i la teva producció de M€ en 2. Obtén 1 planta."
+ },
+ "Underground City": {
+  "name": "Ciutat Subterrània",
+  "desc": "Col·loca una fitxa de ciutat. Redueix la teva producció d'energia en 2 i augmenta la teva producció d'acer en 2."
+ },
+ "Underground Detonations": {
+  "name": "Detonacions Subterrànies",
+  "actions": [
+   "Gasta 10 M€ per augmentar la teva producció de calor en 2."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Àrea Urbanitzada",
+  "desc": "Redueix la teva producció d'energia en 1 i augmenta la teva producció de M€ en 2. Col·loca una fitxa de ciutat ADJACENT A ALMENYS 2 ALTRES FITXES DE CIUTAT."
+ },
+ "Water Import From Europa": {
+  "name": "Importació d'Aigua d'Europa",
+  "actions": [
+   "Paga 12 M€ per col·locar una fitxa d'oceà. ES POT FER SERVIR TITANI com si juguessis una carta d'espai."
+  ],
+  "vpText": [
+   "1 PV per cada etiqueta de Júpiter que tinguis."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Planta d'Electròlisi de l'Aigua",
+  "actions": [
+   "Gasta 3 d'energia per pujar l'oxigen 1 nivell."
+  ]
+ },
+ "Wave Power": {
+  "name": "Energia de les Onades",
+  "desc": "Augmenta la teva producció d'energia en 1."
+ },
+ "Windmills": {
+  "name": "Molins de Vent",
+  "desc": "Augmenta la teva producció d'energia en 1."
+ },
+ "Worms": {
+  "name": "Cucs",
+  "desc": "Augmenta la teva producció de plantes en 1 per cada 2 etiquetes de microbi que tinguis, inclosa aquesta."
+ },
+ "Zeppelins": {
+  "name": "Zepelins",
+  "desc": "Augmenta la teva producció de M€ en 1 per cada fitxa de ciutat A MART."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Comences amb 1 de producció de titani i 42 M€.",
+  "effects": [
+   "Cada cop que entra en joc qualsevol etiqueta de Júpiter, inclosa aquesta, augmenta la teva producció de M€ en 1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Comences amb 60 M€.",
+  "effects": [
+   "Quan jugues una etiqueta de Terra, pagues 3 M€ menys per ella."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Comences amb 3 de producció de M€ i 44 M€.",
+  "effects": [
+   "Quan jugues una etiqueta d'edifici, pagues 2 M€ menys per ella."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Comences amb 1 de producció de titani i 38 M€.",
+  "effects": [
+   "Quan jugues una etiqueta de Terra, inclosa aquesta, roba una carta."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Comences amb 47 M€.",
+  "actions": [
+   "Gasta 4 M€ per augmentar en 1 (una de) la teva producció MÉS BAIXA."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Comences amb 37 M€. Com a primera acció, roba 3 cartes de Preludi i juga'n una. Descarta les altres dues.",
+  "effects": [
+   "Quan jugues una etiqueta de ciència, pagues 2 M€ menys per ella."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Comences amb 45 M€. Com a primera acció, finança una recompensa de franc.",
+  "effects": [
+   "Quan jugues una carta amb una icona de PV NO NEGATIVA, inclosa aquesta, obtén 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Corporació Principiant",
+  "desc": "Comences amb 42 M€. En lloc de triar entre 10 cartes durant la preparació, obtens les 10 cartes de franc."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Comences amb 57 M€.",
+  "effects": [
+   "Després de pagar una carta o un projecte estàndard amb un cost base de 20 M€ o més, obtens 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Comences amb 2 de producció de plantes, 3 plantes i 36 M€.",
+  "effects": [
+   "Sempre pots pagar 7 plantes, en lloc de 8, per col·locar vegetació."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Comences amb 3 de producció de calor i 42 M€.",
+  "effects": [
+   "Pots fer servir la calor com a M€. No pots fer servir M€ com a calor."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Comences amb 20 d'acer i 30 M€.",
+  "effects": [
+   "Cada cop que jugues un esdeveniment, obtens 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Com a primera acció de la partida, roba 3 cartes. Comences amb 45 M€.",
+  "effects": [
+   "Els teus requisits de temperatura, oxigen, oceans i Venus són +2 o -2 nivells, a la teva elecció en cada cas."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Mining Guild",
+  "desc": "Comences amb 30 M€, 5 d'acer i 1 de producció d'acer.",
+  "effects": [
+   "Cada cop que col·loques una fitxa en una àrea amb bonificació de col·locació d'acer o titani, augmenta la teva producció d'acer en 1"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Comences amb 10 de titani i 23 M€.",
+  "effects": [
+   "Cada un dels teus recursos de titani val 1 M€ més."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tharsis Republic",
+  "desc": "Comences amb 40 M€. Com a primera acció de la partida, col·loca una fitxa de ciutat.",
+  "effects": [
+   "Quan es col·loca qualsevol fitxa de ciutat A MART, augmenta la teva producció de M€ en 1. Quan col·loques una fitxa de ciutat, obtens 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Comences amb 1 de producció d'energia i 48 M€.",
+  "effects": [
+   "Quan jugues una carta d'energia O EL PROJECTE ESTÀNDARD CENTRAL ELÈCTRICA, pagues 3 M€ menys per ell."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "United Nations Mars Initiative",
+  "desc": "Comences amb 40 M€.",
+  "actions": [
+   "Si el teu índex de terraformació ha pujat aquesta generació, pots pagar 3 M€ per pujar-lo 1 nivell més."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Banc Aliat",
+  "desc": "Augmenta la teva producció de M€ en 4. Obtén 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Suport a la Biosfera",
+  "desc": "Augmenta la teva producció de plantes en 2. Redueix la teva producció de M€ en 1."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbines d'Aqüífer",
+  "desc": "Col·loca una fitxa d'oceà. Augmenta la teva producció d'energia en 2. Paga 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Excavació Mohole",
+  "desc": "Augmenta la teva producció d'acer en 1 i la de calor en 2. Obtén 2 de calor."
+ },
+ "Early Settlement": {
+  "name": "Assentament Primerenc",
+  "desc": "Augmenta la teva producció de plantes en 1. Col·loca una fitxa de ciutat."
+ },
+ "Biofuels": {
+  "name": "Biocombustibles",
+  "desc": "Augmenta la teva producció d'energia i de plantes en 1. Obtén 2 plantes."
+ },
+ "Power Generation": {
+  "name": "Generació d'Energia",
+  "desc": "Augmenta la teva producció d'energia en 3."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Assentament Autosuficient",
+  "desc": "Augmenta la teva producció de M€ en 2. Col·loca una fitxa de ciutat."
+ },
+ "Mining Operations": {
+  "name": "Operacions Mineres",
+  "desc": "Augmenta la teva producció d'acer en 2. Obtén 4 d'acer."
+ },
+ "UNMI Contractor": {
+  "name": "Contractista de l'UNMI",
+  "desc": "Puja el teu IT 3 nivells. Roba una carta."
+ },
+ "Dome Farming": {
+  "name": "Agricultura en Cúpules",
+  "desc": "Augmenta la teva producció de M€ en 2 i la de plantes en 1."
+ },
+ "Business Empire": {
+  "name": "Imperi Empresarial",
+  "desc": "Augmenta la teva producció de M€ en 6. Paga 6 M€."
+ },
+ "Donation": {
+  "name": "Donació",
+  "desc": "Obtén 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Carregament de Nitrogen",
+  "desc": "Augmenta la teva producció de plantes en 1. Puja el teu IT 1 nivell. Obtén 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Planta de Fosa",
+  "desc": "Puja l'oxigen 2 nivells. Obtén 5 d'acer."
+ },
+ "Supplier": {
+  "name": "Proveïdor",
+  "desc": "Augmenta la teva producció d'energia en 2. Obtén 4 d'acer."
+ },
+ "Supply Drop": {
+  "name": "Llançament de Subministraments",
+  "desc": "Obtén 3 de titani, 8 d'acer i 3 plantes."
+ },
+ "Great Aquifer": {
+  "name": "Gran Aqüífer",
+  "desc": "Col·loca 2 fitxes d'oceà."
+ },
+ "Biolab": {
+  "name": "Biolaboratori",
+  "desc": "Augmenta la teva producció de plantes en 1. Roba 3 cartes."
+ },
+ "Martian Industries": {
+  "name": "Indústries Marcianes",
+  "desc": "Augmenta la teva producció d'energia i d'acer en 1. Obtén 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Avançada de Recerca d'Io",
+  "desc": "Augmenta la teva producció de titani en 1. Roba una carta."
+ },
+ "Polar Industries": {
+  "name": "Indústries Polars",
+  "desc": "Augmenta la teva producció de calor en 2. Col·loca una fitxa d'oceà."
+ },
+ "Society Support": {
+  "name": "Suport Social",
+  "desc": "Augmenta la teva producció de plantes, d'energia i de calor en 1. Redueix la producció de M€ en 1."
+ },
+ "Galilean Mining": {
+  "name": "Mineria Galileana",
+  "desc": "Augmenta la teva producció de titani en 2. Paga 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroide Enorme",
+  "desc": "Puja la temperatura 3 nivells. Paga 5 M€."
+ },
+ "Metals Company": {
+  "name": "Companyia de Metalls",
+  "desc": "Augmenta la teva producció de M€, d'acer i de titani en 1."
+ },
+ "Loan": {
+  "name": "Préstec",
+  "desc": "Obtén 30 M€. Redueix la teva producció de M€ en 2."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Augmenta la teva producció de calor en 3. Obtén 3 de calor."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroide Ric en Metalls",
+  "desc": "Puja la temperatura 1 nivell. Obtén 4 de titani i 4 d'acer."
+ },
+ "Orbital Construction Yard": {
+  "name": "Drassana Orbital",
+  "desc": "Augmenta la teva producció de titani en 1. Obtén 4 de titani."
+ },
+ "Acquired Space Agency": {
+  "name": "Agència Espacial Adquirida",
+  "desc": "Obtén 6 de titani. Revela cartes fins que en revelis dues amb etiqueta d'espai. Queda-te-les a la mà i descarta la resta."
+ },
+ "Research Network": {
+  "name": "Xarxa de Recerca",
+  "desc": "Augmenta la teva producció de M€ en 1. Roba 3 cartes. Un cop jugada, quan facis una acció, l'etiqueta comodí compta com qualsevol etiqueta que triïs."
+ },
+ "Eccentric Sponsor": {
+  "name": "Patrocinador Excèntric",
+  "desc": "JUGA UNA CARTA DE LA MÀ AMB UN DESCOMPTE DE 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Experts en Ecologia",
+  "desc": "Augmenta la teva producció de plantes en 1. JUGA UNA CARTA DE LA MÀ IGNORANT ELS REQUISITS GLOBALS."
+ },
+ "Experimental Forest": {
+  "name": "Bosc Experimental",
+  "desc": "Col·loca 1 fitxa de vegetació i puja l'oxigen 1 nivell. Revela cartes fins que en revelis dues amb etiqueta de planta. Queda-te-les a la mà i descarta la resta."
+ }
+}

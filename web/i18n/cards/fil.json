@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Nabiling Kompanya",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 3 antas."
+ },
+ "Advanced Alloys": {
+  "name": "Makabagong Haluang-metal",
+  "effects": [
+   "Ang bawat titanium mo ay may dagdag na halagang 1 M€.",
+   "Ang bawat bakal mo ay may dagdag na halagang 1 M€."
+  ]
+ },
+ "AI Central": {
+  "name": "Sentral ng AI",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas.",
+  "actions": [
+   "Bumunot ng 2 baraha."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Teknolohiyang Anti-Grabidad",
+  "effects": [
+   "Kapag naglaro ka ng baraha, bawas 2 M€ ang babayaran mo rito."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Konsorsyo sa Pagmimina ng Asteroid",
+  "desc": "Bawasan ang produksyon ng titanium ng kahit sinong manlalaro nang 1 antas at taasan ang sa iyo nang 1 antas."
+ },
+ "Bribed Committee": {
+  "name": "Nasuhulang Komite",
+  "desc": "Itaas ang iyong TR nang 2 antas."
+ },
+ "Building Industries": {
+  "name": "Industriya ng Konstruksyon",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng bakal nang 2 antas."
+ },
+ "Business Contacts": {
+  "name": "Mga Kontak sa Negosyo",
+  "desc": "Tingnan ang 4 na baraha sa itaas ng deck. Kunin ang 2 sa iyong kamay at itapon ang iba."
+ },
+ "Business Network": {
+  "name": "Network ng Negosyo",
+  "desc": "Bawasan ang iyong produksyon ng M€ nang 1 antas.",
+  "actions": [
+   "Tingnan ang baraha sa itaas at bilhin ito o itapon."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Minahang Bilangguan ng Callisto",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 3 antas."
+ },
+ "Caretaker Contract": {
+  "name": "Kontrata ng Tagapag-alaga",
+  "actions": [
+   "Gumastos ng 8 init para itaas ang iyong antas ng terraform nang 1 antas."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas para sa bawat tag ng Daigdig na mayroon ka, kasama ang isang ito."
+ },
+ "CEO's Favorite Project": {
+  "name": "Paboritong Proyekto ng CEO",
+  "desc": "Magdagdag ng 1 yaman sa alinman sa iyong mga baraha na mayroon nang kahit 1 yaman."
+ },
+ "Commercial District": {
+  "name": "Distritong Pangkomersyo",
+  "desc": "Ilagay ang tile na ito. Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 4 na antas.",
+  "vpText": [
+   "1 VP bawat katabing tile ng lungsod."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Muog ng Korporasyon",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 3 antas. Maglagay ng tile ng lungsod."
+ },
+ "Development Center": {
+  "name": "Sentro ng Pagpapaunlad",
+  "actions": [
+   "Gumastos ng 1 enerhiya para bumunot ng baraha."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Tirador ng Daigdig",
+  "effects": [
+   "Kapag naglaro ka ng baraha, bawas 2 M€ ang babayaran mo rito."
+  ]
+ },
+ "Earth Office": {
+  "name": "Tanggapan sa Daigdig",
+  "effects": [
+   "Kapag naglaro ka ng tag ng Daigdig, bawas 3 M€ ang babayaran mo rito."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrikong Tirador",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas.",
+  "actions": [
+   "Gumastos ng 1 halaman o 1 bakal para makakuha ng 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Pagsipsip ng Enerhiya",
+  "desc": "Bawasan ang produksyon ng enerhiya ng kahit sinong manlalaro nang 1 antas at taasan ang sa iyo nang 1 antas."
+ },
+ "Fuel Factory": {
+  "name": "Pabrika ng Gasolina",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng titanium at ng M€ nang tig-1 antas."
+ },
+ "Gene Repair": {
+  "name": "Pagkumpuni ng Gene",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 2 antas."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Konsorsyo ng Dakilang Bangin",
+  "desc": "Bawasan ang produksyon ng bakal ng kahit sinong manlalaro nang 1 antas at taasan ang sa iyo nang 1 antas."
+ },
+ "Hackers": {
+  "name": "Mga Hacker",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at ang produksyon ng M€ ng kahit sinong manlalaro nang 2 antas. Taasan ang iyong produksyon ng M€ nang 2 antas."
+ },
+ "Hired Raiders": {
+  "name": "Upahang Mandarambong",
+  "desc": "Magnakaw ng hanggang 2 bakal, o 3 M€ mula sa kahit sinong manlalaro."
+ },
+ "Indentured Workers": {
+  "name": "Mga Manggagawang Nakakontrata",
+  "desc": "Bawas 8 M€ ang susunod na barahang lalaruin mo sa henerasyong ito."
+ },
+ "Industrial Center": {
+  "name": "Sentrong Industriyal",
+  "desc": "Ilagay ang tile na ito katabi ng tile ng lungsod.",
+  "actions": [
+   "Gumastos ng 7 M€ para taasan ang iyong produksyon ng bakal nang 1 antas."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Barkong Pangkolonya sa Pagitan ng mga Bituin"
+ },
+ "Invention Contest": {
+  "name": "Paligsahan sa Imbensyon",
+  "desc": "Tingnan ang 3 baraha sa itaas ng deck. Kunin ang 1 sa iyong kamay at itapon ang iba."
+ },
+ "Inventors' Guild": {
+  "name": "Samahan ng mga Imbentor",
+  "actions": [
+   "Tingnan ang baraha sa itaas at bilhin ito o itapon."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Pautang sa Pamumuhunan",
+  "desc": "Bawasan ang iyong produksyon ng M€ nang 1 antas. Kumuha ng 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Industriya ng Pagmimina sa Io",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 2 antas at ang iyong produksyon ng M€ nang 2 antas.",
+  "vpText": [
+   "1 VP bawat tag ng Jovian na mayroon ka."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Obserbatoryo ng Lagrange",
+  "desc": "Bumunot ng 1 baraha."
+ },
+ "Land Claim": {
+  "name": "Pag-angkin ng Lupa",
+  "desc": "Magreserba ng lugar na hindi pa nakareserba para sa iyo: ikaw lang ang puwedeng maglagay ng tile doon."
+ },
+ "Lightning Harvest": {
+  "name": "Ani ng Kidlat",
+  "desc": "Taasan ang iyong produksyon ng enerhiya at ng M€ nang tig-isang antas."
+ },
+ "Mars University": {
+  "name": "Unibersidad ng Marte",
+  "effects": [
+   "Kapag naglaro ka ng tag ng agham, kasama ang isang ito, puwede kang magtapon ng baraha mula sa kamay para bumunot ng baraha."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Converter ng Masa",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 6 na antas.",
+  "effects": [
+   "Kapag naglaro ka ng baraha ng kalawakan, bawas 2 M€ ang babayaran mo rito."
+  ]
+ },
+ "Media Archives": {
+  "name": "Arkibo ng Media",
+  "desc": "Kumuha ng 1 M€ para sa bawat pangyayaring NILARO KAHIT KAILAN ng lahat ng manlalaro."
+ },
+ "Media Group": {
+  "name": "Grupo ng Media",
+  "effects": [
+   "Pagkatapos mong maglaro ng baraha ng pangyayari, makakakuha ka ng 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Laboratoryong Medikal",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas para sa bawat 2 tag ng gusali na mayroon ka, kasama ang isang ito."
+ },
+ "Mine": {
+  "name": "Minahan",
+  "desc": "Taasan ang iyong produksyon ng bakal nang 1 antas."
+ },
+ "Mineral Deposit": {
+  "name": "Deposito ng Mineral",
+  "desc": "Kumuha ng 5 bakal."
+ },
+ "Mining Area": {
+  "name": "Lugar ng Minahan",
+  "desc": "Ilagay ang tile na ito sa lugar na may bonus na bakal o titanium, katabi ng isa pa sa iyong mga tile. Taasan ang iyong produksyon ng yamang iyon nang 1 antas."
+ },
+ "Miranda Resort": {
+  "name": "Resort sa Miranda",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas para sa bawat tag ng Daigdig na mayroon ka."
+ },
+ "Olympus Conference": {
+  "name": "Kumperensya sa Olympus",
+  "desc": "Kapag naglaro ka ng tag ng agham, kasama ang isang ito, magdagdag ng yamang agham sa barahang ito, o mag-alis ng yamang agham mula sa barahang ito para bumunot ng baraha."
+ },
+ "Physics Complex": {
+  "name": "Kompleks ng Pisika",
+  "actions": [
+   "Gumastos ng 6 na enerhiya para magdagdag ng yamang agham sa barahang ito."
+  ],
+  "vpText": [
+   "2 VP para sa bawat yamang agham sa barahang ito."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Imprastraktura ng Kuryente",
+  "actions": [
+   "Gumastos ng kahit anong dami ng enerhiya at kumuha ng M€ na kasindami nito."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Konsorsyo ng Suplay ng Kuryente",
+  "desc": "Bawasan ang produksyon ng enerhiya ng kahit sinong manlalaro nang 1 antas at taasan ang sa iyo nang 1 antas."
+ },
+ "Protected Habitats": {
+  "name": "Protektadong Tirahan",
+  "effects": [
+   "Hindi puwedeng alisin ng mga kalaban ang iyong mga halaman, hayop o mikrobyo."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Quantum Extractor",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 4 na antas.",
+  "effects": [
+   "Kapag naglaro ka ng baraha ng kalawakan, bawas 2 M€ ang babayaran mo rito."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Kasuotang Pang-radyasyon",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas."
+ },
+ "Research": {
+  "name": "Pananaliksik",
+  "desc": "Itinuturing na paglalaro ng 2 baraha ng agham. Bumunot ng 2 baraha."
+ },
+ "Restricted Area": {
+  "name": "Bawal na Lugar",
+  "desc": "Ilagay ang tile na ito.",
+  "actions": [
+   "Gumastos ng 2 M€ para bumunot ng baraha."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotikong Manggagawa",
+  "desc": "Kopyahin lamang ang kahon ng produksyon ng isa sa iyong mga baraha ng gusali."
+ },
+ "Sabotage": {
+  "name": "Sabotahe",
+  "desc": "Mag-alis ng hanggang 3 titanium mula sa kahit sinong manlalaro, o 4 na bakal, o 7 M€."
+ },
+ "Satellites": {
+  "name": "Mga Satellite",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas para sa bawat tag ng kalawakan na mayroon ka, kasama ang isang ito."
+ },
+ "Security Fleet": {
+  "name": "Plota ng Seguridad",
+  "actions": [
+   "Gumastos ng 1 titanium para magdagdag ng 1 mandirigma sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP para sa bawat mandirigma sa barahang ito."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Space Elevator",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 1 antas.",
+  "actions": [
+   "Gumastos ng 1 bakal para makakuha ng 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Istasyong Pangkalawakan",
+  "effects": [
+   "Kapag naglaro ka ng baraha ng kalawakan, bawas 2 M€ ang babayaran mo rito."
+  ]
+ },
+ "Sponsors": {
+  "name": "Mga Isponsor",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 2 antas."
+ },
+ "Standard Technology": {
+  "name": "Karaniwang Teknolohiya",
+  "effects": [
+   "Pagkatapos mong magbayad para sa karaniwang proyekto, maliban sa pagbebenta ng patent, makakakuha ka ng 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigrade",
+  "actions": [
+   "Magdagdag ng 1 mikrobyo sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat 4 na mikrobyo sa barahang ito."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Demonstrasyon ng Teknolohiya",
+  "desc": "Bumunot ng dalawang baraha."
+ },
+ "Terraforming Ganymede": {
+  "name": "Pag-terraform sa Ganymede",
+  "desc": "Itaas ang iyong TR nang 1 antas para sa bawat tag ng Jovian na mayroon ka, kasama ang isang ito."
+ },
+ "Titanium Mine": {
+  "name": "Minahan ng Titanium",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 1 antas."
+ },
+ "Toll Station": {
+  "name": "Tollgate",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas para sa bawat tag ng kalawakan na mayroon ang iyong mga KALABAN."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Probe Lampas sa Neptune",
+  "desc": "Isang probe sa malalim na kalawakan: may halagang 1 VP."
+ },
+ "Tropical Resort": {
+  "name": "Tropikal na Resort",
+  "desc": "Bawasan ang iyong produksyon ng init nang 2 antas at taasan ang iyong produksyon ng M€ nang 3 antas."
+ },
+ "Vesta Shipyard": {
+  "name": "Barkuhan ng Vesta",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 1 antas."
+ },
+ "Viral Enhancers": {
+  "name": "Pampalakas na Birus",
+  "effects": [
+   "Kapag naglaro ka ng tag ng halaman, mikrobyo, o hayop, kasama ang isang ito, kumuha ng 1 halaman o magdagdag ng 1 yaman sa BARAHANG IYON."
+  ]
+ },
+ "Virus": {
+  "name": "Birus",
+  "desc": "Mag-alis ng hanggang 2 hayop o 5 halaman mula sa kahit sinong manlalaro."
+ },
+ "SF Memorial": {
+  "name": "Alaala ng SF",
+  "desc": "Bumunot ng 1 baraha."
+ },
+ "House Printing": {
+  "name": "Pag-imprenta ng Bahay",
+  "desc": "Taasan ang iyong produksyon ng bakal nang 1 antas."
+ },
+ "Space Hotels": {
+  "name": "Mga Hotel sa Kalawakan",
+  "desc": "Taasan ang produksyon ng M€ nang 4 na antas."
+ },
+ "Martian Survey": {
+  "name": "Pagsisiyasat sa Marte",
+  "desc": "Bumunot ng dalawang baraha."
+ },
+ "Research Coordination": {
+  "name": "Koordinasyon ng Pananaliksik",
+  "desc": "Pagkatapos itong laruin, kapag gumawa ka ng aksyon, itinuturing ang tag na anuman bilang kahit anong tag na pipiliin mo."
+ },
+ "Lava Tube Settlement": {
+  "name": "Pamayanan sa Tubo ng Lava",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 2 antas. Maglagay ng tile ng lungsod sa BULKANIKONG LUGAR kahit may katabing lungsod."
+ },
+ "Psychrophiles": {
+  "name": "Psychrophile",
+  "actions": [
+   "Magdagdag ng 1 mikrobyo sa barahang ito."
+  ],
+  "effects": [
+   "Kapag nagbabayad para sa baraha ng halaman, puwedeng gamitin ang mga mikrobyo rito bilang tig-2 M€."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Teknolohiya ng Pag-angkop",
+  "effects": [
+   "Ang iyong mga pandaigdigang kailangan ay +2 o -2 antas, ikaw ang pipili sa bawat pagkakataon."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Umangkop na Liken",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas."
+ },
+ "Advanced Ecosystems": {
+  "name": "Makabagong Ekosistema"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aerobraked na Asteroid ng Ammonia",
+  "desc": "Taasan ang iyong produksyon ng init nang 3 antas at ang iyong produksyon ng halaman nang 1 antas. Magdagdag ng 2 mikrobyo sa IBANG baraha."
+ },
+ "Ants": {
+  "name": "Langgam",
+  "actions": [
+   "Mag-alis ng 1 mikrobyo mula sa kahit anong baraha para magdagdag ng 1 sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat 2 mikrobyo sa barahang ito."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Pagbomba ng Aquifer",
+  "actions": [
+   "Gumastos ng 8 M€ para maglagay ng 1 tile ng karagatan. PUWEDENG GUMAMIT NG BAKAL na parang naglalaro ka ng baraha ng gusali."
+  ]
+ },
+ "Algae": {
+  "name": "Alga",
+  "desc": "Kumuha ng 1 halaman at taasan ang iyong produksyon ng halaman nang 2 antas."
+ },
+ "ArchaeBacteria": {
+  "name": "Arkeobakterya",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas."
+ },
+ "Arctic Algae": {
+  "name": "Arktikong Alga",
+  "desc": "Kumuha ng 1 halaman.",
+  "effects": [
+   "Kapag may naglagay ng tile ng karagatan, kumuha ng 2 halaman."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Artipisyal na Lawa",
+  "desc": "Maglagay ng 1 tile ng karagatan SA LUGAR NA HINDI NAKARESERBA PARA SA KARAGATAN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Artipisyal na Potosintesis",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas o ang iyong produksyon ng enerhiya nang 2 antas.",
+  "orTitles": [
+   "Taasan ang iyong produksyon ng enerhiya nang 2 antas",
+   "Taasan ang iyong produksyon ng halaman nang 1 antas"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Itaas ang temperatura nang 1 antas at kumuha ng 2 titanium. Mag-alis ng hanggang 3 halaman mula sa kahit sinong manlalaro."
+ },
+ "Asteroid Mining": {
+  "name": "Pagmimina ng Asteroid",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 2 antas."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Sinag mula sa Asteroid ng Thorium",
+  "desc": "Taasan ang iyong produksyon ng init at ng enerhiya nang tig-3 antas."
+ },
+ "Big Asteroid": {
+  "name": "Malaking Asteroid",
+  "desc": "Itaas ang temperatura nang 2 antas at kumuha ng 4 na titanium. Mag-alis ng hanggang 4 na halaman mula sa kahit sinong manlalaro."
+ },
+ "Biomass Combustors": {
+  "name": "Panunog ng Biomass",
+  "desc": "Bawasan ang produksyon ng halaman ng kahit sinong manlalaro nang 1 antas at taasan ang iyong produksyon ng enerhiya nang 2 antas."
+ },
+ "Birds": {
+  "name": "Ibon",
+  "desc": "Bawasan ang produksyon ng halaman ng kahit sinong manlalaro nang 2 antas. 1 VP bawat hayop sa barahang ito.",
+  "actions": [
+   "Magdagdag ng hayop sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat hayop sa barahang ito."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Itim na Alikabok ng Polo",
+  "desc": "Maglagay ng tile ng karagatan. Bawasan ang iyong produksyon ng M€ nang 2 antas at taasan ang iyong produksyon ng init nang 3 antas."
+ },
+ "Breathing Filters": {
+  "name": "Pansala sa Paghinga"
+ },
+ "Bushes": {
+  "name": "Palumpong",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 2 antas. Kumuha ng 2 halaman."
+ },
+ "Capital": {
+  "name": "Kabisera",
+  "desc": "Ilagay ang tile na ito. Bawasan ang iyong produksyon ng enerhiya nang 2 antas at taasan ang iyong produksyon ng M€ nang 5 antas.",
+  "vpText": [
+   "1 dagdag na VP para sa bawat tile ng karagatan na katabi ng tile ng lungsod na ito."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Pagproseso ng Carbonate",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng init nang 3 antas."
+ },
+ "Cloud Seeding": {
+  "name": "Pagpupunla ng Ulap",
+  "desc": "Bawasan ang iyong produksyon ng M€ nang 1 antas at ang produksyon ng init ng kahit sinong manlalaro nang 1 antas. Taasan ang iyong produksyon ng halaman nang 2 antas."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kampo ng Pagsasanay ng Kolonista"
+ },
+ "Comet": {
+  "name": "Kometa",
+  "desc": "Itaas ang temperatura nang 1 antas at maglagay ng tile ng karagatan. Mag-alis ng hanggang 3 halaman mula sa kahit sinong manlalaro."
+ },
+ "Convoy From Europa": {
+  "name": "Konboy mula sa Europa",
+  "desc": "Maglagay ng 1 tile ng karagatan at bumunot ng 1 baraha."
+ },
+ "Cupola City": {
+  "name": "Lungsod sa Simboryo",
+  "desc": "Maglagay ng tile ng lungsod. Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 3 antas."
+ },
+ "Decomposers": {
+  "name": "Tagabulok",
+  "effects": [
+   "Kapag naglaro ka ng tag ng hayop, halaman, o mikrobyo, kasama ang isang ito, magdagdag ng mikrobyo sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat 3 mikrobyo sa barahang ito."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Pag-init sa Malalim na Balon",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 1 antas. Itaas ang temperatura nang 1 antas."
+ },
+ "Deimos Down": {
+  "name": "Pagbagsak ng Deimos",
+  "desc": "Itaas ang temperatura nang 3 antas at kumuha ng 4 na bakal. Mag-alis ng hanggang 8 halaman mula sa kahit sinong manlalaro."
+ },
+ "Designed Microorganisms": {
+  "name": "Dinisenyong Mikroorganismo",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 2 antas."
+ },
+ "Domed Crater": {
+  "name": "Crater na may Simboryo",
+  "desc": "Kumuha ng 3 halaman. Maglagay ng tile ng lungsod. Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 3 antas."
+ },
+ "Dust Seals": {
+  "name": "Selyo Laban sa Alikabok"
+ },
+ "Ecological Zone": {
+  "name": "Ekolohikal na Sona",
+  "desc": "Ilagay ang tile na ito katabi ng KAHIT ANONG luntian.",
+  "effects": [
+   "Kapag naglaro ka ng tag ng hayop o halaman, KASAMA ANG MGA ITO, magdagdag ng hayop sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat 2 hayop sa barahang ito."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Pagtitipid ng Enerhiya",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 1 antas para sa bawat tile ng lungsod sa laro."
+ },
+ "Eos Chasma National Park": {
+  "name": "Pambansang Liwasan ng Eos Chasma",
+  "desc": "Magdagdag ng 1 hayop SA KAHIT ANONG BARAHA NG HAYOP. Kumuha ng 3 halaman. Taasan ang iyong produksyon ng M€ nang 2 antas."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Magnetizer sa Ekwador",
+  "actions": [
+   "Bawasan ang iyong produksyon ng enerhiya nang 1 antas para itaas ang iyong antas ng terraform nang 1 antas."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Halamang-singaw ng Matinding Lamig",
+  "actions": [
+   "Kumuha ng 1 halaman.",
+   "Magdagdag ng 2 mikrobyo sa IBANG baraha."
+  ]
+ },
+ "Farming": {
+  "name": "Pagsasaka",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 2 antas at ang iyong produksyon ng halaman nang 2 antas. Kumuha ng 2 halaman."
+ },
+ "Fish": {
+  "name": "Isda",
+  "desc": "Bawasan ang produksyon ng halaman ng kahit sinong manlalaro nang 1 antas.",
+  "actions": [
+   "Magdagdag ng 1 hayop sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP para sa bawat hayop sa barahang ito."
+  ]
+ },
+ "Flooding": {
+  "name": "Pagbaha",
+  "desc": "Maglagay ng tile ng karagatan. KUNG MAY MGA TILE NA KATABI NG TILE NG KARAGATANG ITO, PUWEDE KANG MAG-ALIS NG 4 M€ MULA SA MAY-ARI NG ISA SA MGA TILE NA IYON."
+ },
+ "Food Factory": {
+  "name": "Pabrika ng Pagkain",
+  "desc": "Bawasan ang iyong produksyon ng halaman nang 1 antas at taasan ang iyong produksyon ng M€ nang 4 na antas."
+ },
+ "Fusion Power": {
+  "name": "Kuryenteng Fusion",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 3 antas."
+ },
+ "Fueled Generators": {
+  "name": "Generator na de-Gasolina",
+  "desc": "Bawasan ang iyong produksyon ng M€ nang 1 antas at taasan ang iyong produksyon ng enerhiya nang 1 antas."
+ },
+ "Ganymede Colony": {
+  "name": "Kolonya sa Ganymede",
+  "desc": "Maglagay ng tile ng lungsod SA NAKARESERBANG LUGAR.",
+  "vpText": [
+   "1 VP bawat tag ng Jovian na mayroon ka."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Kuryenteng Geothermal",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 2 antas."
+ },
+ "GHG Factories": {
+  "name": "Pabrika ng GHG",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng init nang 4 na antas."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bakteryang Gumagawa ng GHG",
+  "actions": [
+   "Magdagdag ng 1 mikrobyo sa barahang ito.",
+   "Mag-alis ng 2 mikrobyo para itaas ang temperatura nang 1 antas."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Higanteng Asteroid na Yelo",
+  "desc": "Itaas ang temperatura nang 2 antas at maglagay ng 2 tile ng karagatan. Mag-alis ng hanggang 6 na halaman mula sa kahit sinong manlalaro."
+ },
+ "Giant Space Mirror": {
+  "name": "Higanteng Salamin sa Kalawakan",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 3 antas."
+ },
+ "Grass": {
+  "name": "Damo",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas. Kumuha ng 3 halaman."
+ },
+ "Great Dam": {
+  "name": "Dakilang Dam",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 2 antas."
+ },
+ "Greenhouses": {
+  "name": "Mga Greenhouse",
+  "desc": "Kumuha ng 1 halaman para sa bawat tile ng lungsod sa laro."
+ },
+ "Heather": {
+  "name": "Heather",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas. Kumuha ng 1 halaman."
+ },
+ "Heat Trappers": {
+  "name": "Bitag ng Init",
+  "desc": "Bawasan ang produksyon ng init ng kahit sinong manlalaro nang 2 antas at taasan ang iyong produksyon ng enerhiya nang 1 antas."
+ },
+ "Herbivores": {
+  "name": "Herbivoro",
+  "desc": "+1 hayop sa barahang ito. -1 produksyon ng halaman ng kahit sino",
+  "effects": [
+   "Kapag naglagay ka ng tile ng luntian, magdagdag ng hayop sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat 2 hayop sa barahang ito."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroid na Yelo",
+  "desc": "Maglagay ng 2 tile ng karagatan."
+ },
+ "Ice Cap Melting": {
+  "name": "Pagkatunaw ng Ice Cap",
+  "desc": "Maglagay ng 1 tile ng karagatan."
+ },
+ "Immigrant City": {
+  "name": "Lungsod ng mga Imigrante",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at bawasan ang iyong produksyon ng M€ nang 2 antas. Maglagay ng tile ng lungsod.",
+  "effects": [
+   "Kapag may nailagay na tile ng lungsod, kasama ang isang ito, taasan ang iyong produksyon ng M€ nang 1 antas."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Shuttle ng Imigrasyon",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 5 antas.",
+  "vpText": [
+   "1 VP para sa bawat 3 lungsod sa laro."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Inangkat na GHG",
+  "desc": "Taasan ang iyong produksyon ng init nang 1 antas at kumuha ng 3 init."
+ },
+ "Imported Hydrogen": {
+  "name": "Inangkat na Hydrogen",
+  "desc": "Kumuha ng 3 halaman, o magdagdag ng 3 mikrobyo o 2 hayop sa IBANG baraha. Maglagay ng tile ng karagatan.",
+  "orTitles": [
+   "Kumuha ng 3 halaman",
+   "Magdagdag ng 3 mikrobyo sa IBANG baraha",
+   "Magdagdag ng 2 hayop sa IBANG baraha"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Inangkat na Nitrogen",
+  "desc": "Itaas ang iyong TR nang 1 antas at kumuha ng 4 na halaman. Magdagdag ng 3 mikrobyo sa IBANG baraha at 2 hayop sa IBANG baraha."
+ },
+ "Import of Advanced GHG": {
+  "name": "Pag-angkat ng Makabagong GHG",
+  "desc": "Taasan ang iyong produksyon ng init nang 2 antas."
+ },
+ "Industrial Microbes": {
+  "name": "Industriyal na Mikrobyo",
+  "desc": "Taasan ang iyong produksyon ng enerhiya at ng bakal nang tig-1 antas."
+ },
+ "Insects": {
+  "name": "Insekto",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas para sa bawat tag ng halaman na mayroon ka."
+ },
+ "Insulation": {
+  "name": "Insulasyon",
+  "desc": "Bawasan ang iyong produksyon ng init nang kahit ilang antas at taasan ang iyong produksyon ng M€ nang parehong bilang ng antas."
+ },
+ "Ironworks": {
+  "name": "Pandayan ng Bakal",
+  "actions": [
+   "Gumastos ng 4 na enerhiya para kumuha ng 1 bakal at itaas ang oksiheno nang 1 antas."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Pagsasaka ng Kelp",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 2 antas at ang iyong produksyon ng halaman nang 3 antas. Kumuha ng 2 halaman."
+ },
+ "Lake Marineris": {
+  "name": "Lawa ng Marineris",
+  "desc": "Maglagay ng 2 tile ng karagatan."
+ },
+ "Large Convoy": {
+  "name": "Malaking Konboy",
+  "desc": "Maglagay ng tile ng karagatan at bumunot ng 2 baraha. Kumuha ng 5 halaman o magdagdag ng 4 na hayop sa IBANG baraha.",
+  "orTitles": [
+   "Kumuha ng 5 halaman",
+   "Magdagdag ng 4 na hayop sa IBANG baraha"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Daloy ng Lava",
+  "desc": "Itaas ang temperatura nang 2 antas at ilagay ang tile na ito SA THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS O ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Liken",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas."
+ },
+ "Livestock": {
+  "name": "Hayupan",
+  "desc": "Bawasan ang iyong produksyon ng halaman nang 1 antas at taasan ang iyong produksyon ng M€ nang 2 antas",
+  "actions": [
+   "Magdagdag ng 1 hayop sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP para sa bawat hayop sa barahang ito."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Lokal na Pagbitag ng Init",
+  "desc": "Gumastos ng 5 init para kumuha ng 4 na halaman, o para magdagdag ng 2 hayop sa IBANG baraha.",
+  "orTitles": [
+   "Kumuha ng 4 na halaman",
+   "Magdagdag ng 2 hayop sa IBANG baraha"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Sinag ng Buwan",
+  "desc": "Bawasan ang iyong produksyon ng M€ nang 2 antas at taasan ang iyong produksyon ng init at ng enerhiya nang tig-2 antas."
+ },
+ "Magnetic Field Dome": {
+  "name": "Simboryo ng Magnetic Field",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 2 antas at taasan ang iyong produksyon ng halaman nang 1 antas. Itaas ang iyong TR nang 1 antas."
+ },
+ "Magnetic Field Generators": {
+  "name": "Generator ng Magnetic Field",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 4 na antas at taasan ang iyong produksyon ng halaman nang 2 antas. Itaas ang iyong TR nang 3 antas."
+ },
+ "Mangrove": {
+  "name": "Bakawan",
+  "desc": "Maglagay ng tile ng luntian SA LUGAR NA NAKARESERBA PARA SA KARAGATAN at itaas ang oksiheno nang 1 antas. Huwag pansinin ang karaniwang patakaran sa paglalagay para rito."
+ },
+ "Martian Rails": {
+  "name": "Riles ng Marte",
+  "actions": [
+   "Gumastos ng 1 enerhiya para kumuha ng 1 M€ para sa bawat tile ng lungsod SA MARTE."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Methane mula sa Titan",
+  "desc": "Taasan ang iyong produksyon ng init nang 2 antas at ang iyong produksyon ng halaman nang 2 antas."
+ },
+ "Micro-Mills": {
+  "name": "Maliliit na Gilingan",
+  "desc": "Taasan ang iyong produksyon ng init nang 1 antas."
+ },
+ "Mining Expedition": {
+  "name": "Ekspedisyon sa Pagmimina",
+  "desc": "Itaas ang oksiheno nang 1 antas. Mag-alis ng 2 halaman mula sa kahit sinong manlalaro. Kumuha ng 2 bakal."
+ },
+ "Mining Rights": {
+  "name": "Karapatan sa Pagmimina",
+  "desc": "Ilagay ang tile na ito sa lugar na may bonus na bakal o titanium. Taasan ang produksyong iyon nang 1 antas."
+ },
+ "Mohole Area": {
+  "name": "Lugar ng Mohole",
+  "desc": "Taasan ang iyong produksyon ng init nang 4 na antas. Ilagay ang tile na ito SA LUGAR NA NAKARESERBA PARA SA KARAGATAN."
+ },
+ "Moss": {
+  "name": "Lumot",
+  "desc": "Mawalan ng 1 halaman. Taasan ang iyong produksyon ng halaman nang 1 antas."
+ },
+ "Natural Preserve": {
+  "name": "Likas na Reserba",
+  "desc": "Ilagay ang tile na ito nang HINDI KATABI NG ANUMANG IBANG TILE. Taasan ang iyong produksyon ng M€ nang 1 antas."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bakteryang Nagbabawas ng Nitrite",
+  "desc": "Magdagdag ng 3 mikrobyo sa barahang ito.",
+  "actions": [
+   "Magdagdag ng 1 mikrobyo sa barahang ito.",
+   "Mag-alis ng 3 mikrobyo para itaas ang iyong TR nang 1 antas."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid na Mayaman sa Nitrogen",
+  "desc": "Itaas ang iyong antas ng terraform nang 2 antas at ang temperatura nang 1 antas. Taasan ang iyong produksyon ng halaman nang 1 antas, o 4 na antas kung mayroon kang 3 tag ng halaman."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrophilic na Lumot",
+  "desc": "Mawalan ng 2 halaman. Taasan ang iyong produksyon ng halaman nang 2 antas."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 3 antas. Maglagay ng tile ng lungsod SA NAKARESERBANG LUGAR, nang hindi pinapansin ang karaniwang patakaran sa paglalagay."
+ },
+ "Noctis Farming": {
+  "name": "Pagsasaka sa Noctis",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas at kumuha ng 2 halaman."
+ },
+ "Nuclear Power": {
+  "name": "Kuryenteng Nukleyar",
+  "desc": "Bawasan ang iyong produksyon ng M€ nang 2 antas at taasan ang iyong produksyon ng enerhiya nang 3 antas."
+ },
+ "Nuclear Zone": {
+  "name": "Nukleyar na Sona",
+  "desc": "Ilagay ang tile na ito at itaas ang temperatura nang 2 antas."
+ },
+ "Open City": {
+  "name": "Bukas na Lungsod",
+  "desc": "Kumuha ng 2 halaman. Maglagay ng tile ng lungsod. Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 4 na antas."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimal na Aerobraking",
+  "effects": [
+   "Kapag naglaro ka ng pangyayari ng kalawakan, makakakuha ka ng 3 M€ at 3 init."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Tagaproseso ng Mineral",
+  "actions": [
+   "Gumastos ng 4 na enerhiya para kumuha ng 1 titanium at itaas ang oksiheno nang 1 antas."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Paghango sa Permafrost",
+  "desc": "Maglagay ng 1 tile ng karagatan."
+ },
+ "Peroxide Power": {
+  "name": "Kuryenteng Peroxide",
+  "desc": "Bawasan ang iyong produksyon ng M€ nang 1 antas at taasan ang iyong produksyon ng enerhiya nang 2 antas."
+ },
+ "Pets": {
+  "name": "Alagang Hayop",
+  "desc": "Magdagdag ng 1 hayop sa barahang ito.",
+  "effects": [
+   "Kapag may nailagay na kahit anong tile ng lungsod, magdagdag ng hayop sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat 2 hayop dito."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Daungang Pangkalawakan ng Phobos",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 1 antas at maglagay ng tile ng lungsod SA NAKARESERBANG LUGAR."
+ },
+ "Plantation": {
+  "name": "Plantasyon",
+  "desc": "Maglagay ng tile ng luntian at itaas ang oksiheno nang 1 antas."
+ },
+ "Power Grid": {
+  "name": "Power Grid",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang isang antas para sa bawat tag ng kuryente na mayroon ka, kasama ang isang ito."
+ },
+ "Power Plant": {
+  "name": "Planta ng Kuryente",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 1 antas."
+ },
+ "Predators": {
+  "name": "Maninila",
+  "actions": [
+   "Mag-alis ng 1 hayop mula sa kahit anong baraha at idagdag ito sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat hayop sa barahang ito."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Protektadong Lambak",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 2 antas. Maglagay ng tile ng luntian SA LUGAR NA NAKARESERBA PARA SA KARAGATAN, nang hindi pinapansin ang karaniwang patakaran sa paglalagay, at itaas ang oksiheno nang 1 antas."
+ },
+ "Rad-Chem Factory": {
+  "name": "Pabrika ng Rad-Chem",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas. Itaas ang iyong TR nang 2 antas."
+ },
+ "Regolith Eaters": {
+  "name": "Kumakain ng Regolith",
+  "actions": [
+   "Magdagdag ng 1 mikrobyo sa barahang ito.",
+   "Mag-alis ng 2 mikrobyo mula sa barahang ito para itaas ang antas ng oksiheno nang 1 antas."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Pagpapakawala ng Inert na Gas",
+  "desc": "Itaas ang iyong antas ng terraform nang 2 antas."
+ },
+ "Research Outpost": {
+  "name": "Himpilan ng Pananaliksik",
+  "desc": "Maglagay ng tile ng lungsod nang HINDI KATABI NG ANUMANG IBANG TILE.",
+  "effects": [
+   "Kapag naglaro ka ng baraha, bawas 1 M€ ang babayaran mo rito."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Paggawa ng Rover",
+  "effects": [
+   "Kapag may nailagay na kahit anong tile ng lungsod, kumuha ng 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Paghahanap ng Buhay",
+  "actions": [
+   "Gumastos ng 1 M€ para ibunyag ang baraha sa itaas ng bunutan. Kung may tag ng mikrobyo ang barahang iyon, magdagdag ng yamang agham dito."
+  ],
+  "vpText": [
+   "3 VP kung may isa o higit pang yamang agham ka rito."
+  ]
+ },
+ "Shuttles": {
+  "name": "Mga Shuttle",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 2 antas.",
+  "effects": [
+   "Kapag naglaro ka ng baraha ng kalawakan, bawas 2 M€ ang babayaran mo rito."
+  ]
+ },
+ "Small Animals": {
+  "name": "Maliliit na Hayop",
+  "desc": "Bawasan ang produksyon ng halaman ng kahit sinong manlalaro nang 1 antas.",
+  "actions": [
+   "Magdagdag ng 1 hayop sa barahang ito."
+  ],
+  "vpText": [
+   "1 VP bawat 2 hayop sa barahang ito."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Pabrika ng Lupa",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng halaman nang 1 antas."
+ },
+ "Solar Power": {
+  "name": "Solar Power",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 1 antas."
+ },
+ "Solar Wind Power": {
+  "name": "Kuryente mula sa Solar Wind",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 1 antas at kumuha ng 2 titanium."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Taasan ang iyong produksyon ng init nang 7 antas."
+ },
+ "Space Mirrors": {
+  "name": "Mga Salamin sa Kalawakan",
+  "actions": [
+   "Gumastos ng 7 M€ para taasan ang iyong produksyon ng enerhiya nang 1 antas."
+  ]
+ },
+ "Special Design": {
+  "name": "Espesyal na Disenyo",
+  "desc": "Ang susunod na barahang lalaruin mo sa henerasyong ito ay +2 o -2 antas sa pandaigdigang kailangan, ikaw ang pipili."
+ },
+ "Steelworks": {
+  "name": "Gawaan ng Bakal",
+  "actions": [
+   "Gumastos ng 4 na enerhiya para kumuha ng 2 bakal at itaas ang oksiheno nang 1 antas."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Hukay na Minahan",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 2 antas. Taasan ang iyong produksyon ng bakal nang 2 antas at ang iyong produksyon ng titanium nang 1 antas. Itaas ang oksiheno nang 2 antas."
+ },
+ "Subterranean Reservoir": {
+  "name": "Imbakan ng Tubig sa Ilalim ng Lupa",
+  "desc": "Maglagay ng 1 tile ng karagatan."
+ },
+ "Symbiotic Fungus": {
+  "name": "Simbiyotikong Halamang-singaw",
+  "actions": [
+   "Magdagdag ng mikrobyo sa IBANG baraha."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Kuryente mula sa Tektonikong Diin",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 3 antas."
+ },
+ "Towing A Comet": {
+  "name": "Paghila sa Kometa",
+  "desc": "Kumuha ng 2 halaman. Itaas ang antas ng oksiheno nang 1 antas at maglagay ng tile ng karagatan."
+ },
+ "Trees": {
+  "name": "Mga Puno",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 3 antas. Kumuha ng 1 halaman."
+ },
+ "Tundra Farming": {
+  "name": "Pagsasaka sa Tundra",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas at ang iyong produksyon ng M€ nang 2 antas. Kumuha ng 1 halaman."
+ },
+ "Underground City": {
+  "name": "Lungsod sa Ilalim ng Lupa",
+  "desc": "Maglagay ng tile ng lungsod. Bawasan ang iyong produksyon ng enerhiya nang 2 antas at taasan ang iyong produksyon ng bakal nang 2 antas."
+ },
+ "Underground Detonations": {
+  "name": "Pagsabog sa Ilalim ng Lupa",
+  "actions": [
+   "Gumastos ng 10 M€ para taasan ang iyong produksyon ng init nang 2 antas."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanisadong Lugar",
+  "desc": "Bawasan ang iyong produksyon ng enerhiya nang 1 antas at taasan ang iyong produksyon ng M€ nang 2 antas. Maglagay ng tile ng lungsod na KATABI NG HINDI BABABA SA 2 IBANG TILE NG LUNGSOD."
+ },
+ "Water Import From Europa": {
+  "name": "Pag-angkat ng Tubig mula sa Europa",
+  "actions": [
+   "Magbayad ng 12 M€ para maglagay ng tile ng karagatan. PUWEDENG GUMAMIT NG TITANIUM na parang naglalaro ng baraha ng kalawakan."
+  ],
+  "vpText": [
+   "1 VP para sa bawat tag ng Jovian na mayroon ka."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Planta ng Paghahati ng Tubig",
+  "actions": [
+   "Gumastos ng 3 enerhiya para itaas ang oksiheno nang 1 antas."
+  ]
+ },
+ "Wave Power": {
+  "name": "Kuryente mula sa Alon",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 1 antas."
+ },
+ "Windmills": {
+  "name": "Mga Windmill",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 1 antas."
+ },
+ "Worms": {
+  "name": "Bulate",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas para sa bawat 2 tag ng mikrobyo na mayroon ka, kasama ang isang ito."
+ },
+ "Zeppelins": {
+  "name": "Mga Zeppelin",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas para sa bawat tile ng lungsod SA MARTE."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Magsisimula ka sa 1 produksyon ng titanium at 42 M€.",
+  "effects": [
+   "Tuwing may nilarong tag ng Jovian, kasama ang isang ito, taasan ang iyong produksyon ng M€ nang 1 antas."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Magsisimula ka sa 60 M€.",
+  "effects": [
+   "Kapag naglaro ka ng tag ng Daigdig, bawas 3 M€ ang babayaran mo rito."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Magsisimula ka sa 3 produksyon ng M€ at 44 M€.",
+  "effects": [
+   "Kapag naglaro ka ng tag ng gusali, bawas 2 M€ ang babayaran mo rito."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Magsisimula ka sa 1 produksyon ng titanium at 38 M€.",
+  "effects": [
+   "Kapag naglaro ka ng tag ng Daigdig, kasama ang isang ito, bumunot ng baraha."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Magsisimula ka sa 47 M€.",
+  "actions": [
+   "Gumastos ng 4 M€ para taasan nang 1 antas ang (isa sa) iyong PINAKAMABABANG produksyon."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Magsisimula ka sa 37 M€. Bilang iyong unang aksyon, bumunot ng 3 baraha ng Prelude, at laruin ang isa sa mga ito. Itapon ang dalawa pa.",
+  "effects": [
+   "Kapag naglaro ka ng tag ng agham, bawas 2 M€ ang babayaran mo rito."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Magsisimula ka sa 45 M€. Bilang iyong unang aksyon, magpondo ng gantimpala nang libre.",
+  "effects": [
+   "Kapag naglaro ka ng baraha na may HINDI NEGATIBONG icon ng VP, kasama ang isang ito, kumuha ng 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Korporasyon ng Baguhan",
+  "desc": "Magsisimula ka sa 42 M€. Sa halip na pumili mula sa 10 baraha sa paghahanda, makakakuha ka ng 10 baraha nang libre."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Magsisimula ka sa 57 M€.",
+  "effects": [
+   "Pagkatapos mong magbayad para sa baraha o karaniwang proyekto na may batayang halagang 20 M€ o higit pa, makakakuha ka ng 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Magsisimula ka sa 2 produksyon ng halaman, 3 halaman, at 36 M€.",
+  "effects": [
+   "Lagi kang puwedeng magbayad ng 7 halaman, sa halip na 8, para maglagay ng luntian."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Magsisimula ka sa 3 produksyon ng init at 42 M€.",
+  "effects": [
+   "Puwede mong gamitin ang init bilang M€. Hindi mo puwedeng gamitin ang M€ bilang init."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Magsisimula ka sa 20 bakal at 30 M€.",
+  "effects": [
+   "Tuwing maglalaro ka ng pangyayari, makakakuha ka ng 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Bilang iyong unang aksyon sa laro, bumunot ng 3 baraha. Magsimula sa 45 M€.",
+  "effects": [
+   "Ang iyong mga kailangang temperatura, oksiheno, karagatan, at Venus ay +2 o -2 antas, ikaw ang pipili sa bawat pagkakataon."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Samahan ng mga Minero",
+  "desc": "Magsisimula ka sa 30 M€, 5 bakal at 1 produksyon ng bakal.",
+  "effects": [
+   "Tuwing maglalagay ka ng tile sa lugar na may bonus na bakal o titanium, taasan ang iyong produksyon ng bakal nang 1 antas"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Magsisimula ka sa 10 titanium at 23 M€.",
+  "effects": [
+   "Ang bawat titanium mo ay may dagdag na halagang 1 M€."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republika ng Tharsis",
+  "desc": "Magsisimula ka sa 40 M€. Bilang iyong unang aksyon sa laro, maglagay ng tile ng lungsod.",
+  "effects": [
+   "Kapag may nailagay na kahit anong tile ng lungsod SA MARTE, taasan ang iyong produksyon ng M€ nang 1 antas. Kapag naglagay ka ng tile ng lungsod, kumuha ng 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Magsisimula ka sa 1 produksyon ng enerhiya at 48 M€.",
+  "effects": [
+   "Kapag naglalaro ng baraha ng kuryente O NG KARANIWANG PROYEKTONG PLANTA NG KURYENTE, bawas 3 M€ ang babayaran mo rito."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "United Nations Mars Initiative",
+  "desc": "Magsisimula ka sa 40 M€.",
+  "actions": [
+   "Kung tumaas ang iyong Antas ng Terraform sa henerasyong ito, puwede kang magbayad ng 3 M€ para itaas ito nang 1 antas pa."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Kaalyadong Bangko",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 4 na antas. Kumuha ng 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Suporta sa Biyospera",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 2 antas. Bawasan ang iyong produksyon ng M€ nang 1 antas."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbina ng Aquifer",
+  "desc": "Maglagay ng tile ng karagatan. Taasan ang iyong produksyon ng enerhiya nang 2 antas. Magbayad ng 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Paghuhukay ng Mohole",
+  "desc": "Taasan ang iyong produksyon ng bakal nang 1 antas at ang produksyon ng init nang 2 antas. Kumuha ng 2 init."
+ },
+ "Early Settlement": {
+  "name": "Maagang Pamayanan",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas. Maglagay ng tile ng lungsod."
+ },
+ "Biofuels": {
+  "name": "Biofuel",
+  "desc": "Taasan ang iyong produksyon ng enerhiya at ng halaman nang 1 antas. Kumuha ng 2 halaman."
+ },
+ "Power Generation": {
+  "name": "Paglikha ng Kuryente",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 3 antas."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Pamayanang Sapat sa Sarili",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 2 antas. Maglagay ng tile ng lungsod."
+ },
+ "Mining Operations": {
+  "name": "Operasyon sa Pagmimina",
+  "desc": "Taasan ang iyong produksyon ng bakal nang 2 antas. Kumuha ng 4 na bakal."
+ },
+ "UNMI Contractor": {
+  "name": "Kontratista ng UNMI",
+  "desc": "Itaas ang iyong TR nang 3 antas. Bumunot ng baraha."
+ },
+ "Dome Farming": {
+  "name": "Pagsasaka sa Simboryo",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 2 antas at ang produksyon ng halaman nang 1 antas."
+ },
+ "Business Empire": {
+  "name": "Imperyo ng Negosyo",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 6 na antas. Magbayad ng 6 M€."
+ },
+ "Donation": {
+  "name": "Donasyon",
+  "desc": "Kumuha ng 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Padala ng Nitrogen",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas. Itaas ang iyong TR nang 1 antas. Kumuha ng 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Planta ng Pagtunaw ng Metal",
+  "desc": "Itaas ang oksiheno nang 2 antas. Kumuha ng 5 bakal."
+ },
+ "Supplier": {
+  "name": "Supplier",
+  "desc": "Taasan ang iyong produksyon ng enerhiya nang 2 antas. Kumuha ng 4 na bakal."
+ },
+ "Supply Drop": {
+  "name": "Hulog na Suplay",
+  "desc": "Kumuha ng 3 titanium, 8 bakal at 3 halaman."
+ },
+ "Great Aquifer": {
+  "name": "Dakilang Aquifer",
+  "desc": "Maglagay ng 2 tile ng karagatan."
+ },
+ "Biolab": {
+  "name": "Biolab",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas. Bumunot ng 3 baraha."
+ },
+ "Martian Industries": {
+  "name": "Industriya ng Marte",
+  "desc": "Taasan ang iyong produksyon ng enerhiya at ng bakal nang 1 antas. Kumuha ng 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Himpilan ng Pananaliksik sa Io",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 1 antas. Bumunot ng baraha."
+ },
+ "Polar Industries": {
+  "name": "Industriya sa Polo",
+  "desc": "Taasan ang iyong produksyon ng init nang 2 antas. Maglagay ng tile ng karagatan."
+ },
+ "Society Support": {
+  "name": "Suporta ng Lipunan",
+  "desc": "Taasan ang iyong produksyon ng halaman, enerhiya at init nang 1 antas. Bawasan ang produksyon ng M€ nang 1 antas."
+ },
+ "Galilean Mining": {
+  "name": "Pagmimina sa Galilean",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 2 antas. Magbayad ng 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Napakalaking Asteroid",
+  "desc": "Itaas ang temperatura nang 3 antas. Magbayad ng 5 M€."
+ },
+ "Metals Company": {
+  "name": "Kompanya ng Metal",
+  "desc": "Taasan ang iyong produksyon ng M€, bakal at titanium nang 1 antas."
+ },
+ "Loan": {
+  "name": "Pautang",
+  "desc": "Kumuha ng 30 M€. Bawasan ang iyong produksyon ng M€ nang 2 antas."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Taasan ang iyong produksyon ng init nang 3 antas. Kumuha ng 3 init."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid na Mayaman sa Metal",
+  "desc": "Itaas ang temperatura nang 1 antas. Kumuha ng 4 na titanium at 4 na bakal."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbital na Gawaan ng Konstruksyon",
+  "desc": "Taasan ang iyong produksyon ng titanium nang 1 antas. Kumuha ng 4 na titanium."
+ },
+ "Acquired Space Agency": {
+  "name": "Nabiling Ahensya sa Kalawakan",
+  "desc": "Kumuha ng 6 na titanium. Magbunyag ng mga baraha hanggang makapagbunyag ka ng dalawang baraha na may tag ng kalawakan. Kunin ang mga iyon sa iyong kamay, itapon ang iba."
+ },
+ "Research Network": {
+  "name": "Network ng Pananaliksik",
+  "desc": "Taasan ang iyong produksyon ng M€ nang 1 antas. Bumunot ng 3 baraha. Pagkatapos itong laruin, kapag gumawa ka ng aksyon, itinuturing ang tag na anuman bilang kahit anong tag na pipiliin mo."
+ },
+ "Eccentric Sponsor": {
+  "name": "Eksentrikong Isponsor",
+  "desc": "MAGLARO NG BARAHA MULA SA KAMAY NA MAY 25 M€ NA DISKWENTO."
+ },
+ "Ecology Experts": {
+  "name": "Mga Eksperto sa Ekolohiya",
+  "desc": "Taasan ang iyong produksyon ng halaman nang 1 antas. MAGLARO NG BARAHA MULA SA KAMAY, NANG HINDI PINAPANSIN ANG PANDAIGDIGANG KAILANGAN."
+ },
+ "Experimental Forest": {
+  "name": "Eksperimental na Gubat",
+  "desc": "Maglagay ng 1 tile ng luntian at itaas ang oksiheno nang 1 antas. Magbunyag ng mga baraha hanggang makapagbunyag ka ng dalawang baraha na may tag ng halaman. Kunin ang mga iyon sa iyong kamay at itapon ang iba."
+ }
+}

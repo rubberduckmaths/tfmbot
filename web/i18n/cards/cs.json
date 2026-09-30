@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Získaná společnost",
+  "desc": "Zvyšte svou produkci M€ o 3."
+ },
+ "Advanced Alloys": {
+  "name": "Pokročilé slitiny",
+  "effects": [
+   "Každá J titanu má pro vás hodnotu o 1 M€ vyšší.",
+   "Každá J oceli má pro vás hodnotu o 1 M€ vyšší."
+  ]
+ },
+ "AI Central": {
+  "name": "Centrála UI",
+  "desc": "Snižte svou produkci energie o 1.",
+  "actions": [
+   "Doberte 2 karty."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitační technologie",
+  "effects": [
+   "Zahrajete-li kartu, máte slevu 2 M€."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Konsorcium těžby na asteroidech",
+  "desc": "Snižte produkci titanu libovolného hráče o 1 a zvyšte svou o 1."
+ },
+ "Bribed Committee": {
+  "name": "Podplacený výbor",
+  "desc": "Zvyšte svůj TR o 2."
+ },
+ "Building Industries": {
+  "name": "Stavební průmysl",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci oceli o 2."
+ },
+ "Business Contacts": {
+  "name": "Obchodní kontakty",
+  "desc": "Prohlédněte si 4 vrchní karty balíčku. 2 si vezměte do ruky a zbytek odhoďte."
+ },
+ "Business Network": {
+  "name": "Obchodní síť",
+  "desc": "Snižte svou produkci M€ o 1.",
+  "actions": [
+   "Prohlédněte si vrchní kartu a buď ji kupte, nebo ji odhoďte."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Trestanecké doly na Callistu",
+  "desc": "Zvyšte svou produkci M€ o 3."
+ },
+ "Caretaker Contract": {
+  "name": "Správcovská smlouva",
+  "actions": [
+   "Za 8 J tepla zvyšte svůj teraformační rating o 1."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Zvyšte svou produkci M€ o 1 za každý váš symbol Země, včetně tohoto."
+ },
+ "CEO's Favorite Project": {
+  "name": "Oblíbený projekt ředitele",
+  "desc": "Položte 1 zdroj na libovolnou vaši kartu, na které už je alespoň 1 zdroj."
+ },
+ "Commercial District": {
+  "name": "Obchodní čtvrť",
+  "desc": "Umístěte tuto destičku. Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 4.",
+  "vpText": [
+   "1 VB za každou sousední destičku města."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Pevnost korporace",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 3. Umístěte destičku města."
+ },
+ "Development Center": {
+  "name": "Vývojové centrum",
+  "actions": [
+   "Za 1 J energie doberte kartu."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Pozemský katapult",
+  "effects": [
+   "Zahrajete-li kartu, máte slevu 2 M€."
+  ]
+ },
+ "Earth Office": {
+  "name": "Pozemská kancelář",
+  "effects": [
+   "Zahrajete-li symbol Země, máte slevu 3 M€."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektromagnetický katapult",
+  "desc": "Snižte svou produkci energie o 1.",
+  "actions": [
+   "Za 1 J rostlin nebo 1 J oceli obdržíte 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Odčerpávání energie",
+  "desc": "Snižte produkci energie libovolného hráče o 1 a zvyšte svou o 1."
+ },
+ "Fuel Factory": {
+  "name": "Továrna na palivo",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci titanu a svou produkci M€, obojí o 1."
+ },
+ "Gene Repair": {
+  "name": "Oprava genů",
+  "desc": "Zvyšte svou produkci M€ o 2."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Konsorcium Velkého srázu",
+  "desc": "Snižte produkci oceli libovolného hráče o 1 a zvyšte svou o 1."
+ },
+ "Hackers": {
+  "name": "Hackeři",
+  "desc": "Snižte svou produkci energie o 1 a produkci M€ libovolného hráče o 2. Zvyšte svou produkci M€ o 2."
+ },
+ "Hired Raiders": {
+  "name": "Najatí nájezdníci",
+  "desc": "Ukradněte libovolnému hráči až 2 J oceli, nebo 3 M€."
+ },
+ "Indentured Workers": {
+  "name": "Dělníci na smlouvu",
+  "desc": "Příští karta, kterou v této generaci zahrajete, stojí o 8 M€ méně."
+ },
+ "Industrial Center": {
+  "name": "Průmyslové centrum",
+  "desc": "Umístěte tuto destičku vedle destičky města.",
+  "actions": [
+   "Za 7 M€ zvyšte svou produkci oceli o 1."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Mezihvězdná kolonizační loď"
+ },
+ "Invention Contest": {
+  "name": "Soutěž vynálezců",
+  "desc": "Prohlédněte si 3 vrchní karty balíčku. 1 si vezměte do ruky a zbytek odhoďte."
+ },
+ "Inventors' Guild": {
+  "name": "Cech vynálezců",
+  "actions": [
+   "Prohlédněte si vrchní kartu a buď ji kupte, nebo ji odhoďte."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investiční úvěr",
+  "desc": "Snižte svou produkci M€ o 1. Obdržíte 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Těžařský průmysl na Io",
+  "desc": "Zvyšte svou produkci titanu o 2 a svou produkci M€ o 2.",
+  "vpText": [
+   "1 VB za každý váš symbol Jupiteru."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrangeova observatoř",
+  "desc": "Doberte 1 kartu."
+ },
+ "Land Claim": {
+  "name": "Nárok na pozemek",
+  "desc": "Vyhraďte si dosud nevyhrazené pole: destičku tam smíte umístit jen vy."
+ },
+ "Lightning Harvest": {
+  "name": "Sklizeň blesků",
+  "desc": "Zvyšte svou produkci energie a svou produkci M€, obojí o jeden stupeň."
+ },
+ "Mars University": {
+  "name": "Marsovská univerzita",
+  "effects": [
+   "Zahrajete-li symbol vědy, včetně tohoto, můžete odhodit kartu z ruky a dobrat kartu."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Konvertor hmoty",
+  "desc": "Zvyšte svou produkci energie o 6.",
+  "effects": [
+   "Zahrajete-li kartu se symbolem vesmíru, máte slevu 2 M€."
+  ]
+ },
+ "Media Archives": {
+  "name": "Mediální archivy",
+  "desc": "Obdržíte 1 M€ za každou událost, kterou KDY zahráli všichni hráči."
+ },
+ "Media Group": {
+  "name": "Mediální skupina",
+  "effects": [
+   "Zahrajete-li kartu události, obdržíte 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Lékařská laboratoř",
+  "desc": "Zvyšte svou produkci M€ o 1 za každé 2 vaše symboly stavby, včetně tohoto."
+ },
+ "Mine": {
+  "name": "Důl",
+  "desc": "Zvyšte svou produkci oceli o 1."
+ },
+ "Mineral Deposit": {
+  "name": "Ložisko nerostů",
+  "desc": "Obdržíte 5 J oceli."
+ },
+ "Mining Area": {
+  "name": "Těžební oblast",
+  "desc": "Umístěte tuto destičku na pole s bonusem oceli nebo titanu, vedle jiné vaší destičky. Zvyšte svou produkci daného zdroje o 1."
+ },
+ "Miranda Resort": {
+  "name": "Letovisko na Mirandě",
+  "desc": "Zvyšte svou produkci M€ o 1 za každý váš symbol Země."
+ },
+ "Olympus Conference": {
+  "name": "Konference na Olympu",
+  "desc": "Zahrajete-li symbol vědy, včetně tohoto, buď položte zdroj vědy na tuto kartu, nebo z ní zdroj vědy odeberte a doberte kartu."
+ },
+ "Physics Complex": {
+  "name": "Fyzikální komplex",
+  "actions": [
+   "Za 6 J energie položte na tuto kartu zdroj vědy."
+  ],
+  "vpText": [
+   "2 VB za každý zdroj vědy na této kartě."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energetická infrastruktura",
+  "actions": [
+   "Utraťte libovolné množství energie a obdržíte stejný počet M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Konsorcium dodavatelů energie",
+  "desc": "Snižte produkci energie libovolného hráče o 1 a zvyšte svou o 1."
+ },
+ "Protected Habitats": {
+  "name": "Chráněná stanoviště",
+  "effects": [
+   "Soupeři vám nesmějí odebírat rostliny, zvířata ani mikroby."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvantový extraktor",
+  "desc": "Zvyšte svou produkci energie o 4.",
+  "effects": [
+   "Zahrajete-li kartu se symbolem vesmíru, máte slevu 2 M€."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Antiradiační obleky",
+  "desc": "Zvyšte svou produkci M€ o 1."
+ },
+ "Research": {
+  "name": "Výzkum",
+  "desc": "Počítá se jako zahrání 2 karet vědy. Doberte 2 karty."
+ },
+ "Restricted Area": {
+  "name": "Zakázaná oblast",
+  "desc": "Umístěte tuto destičku.",
+  "actions": [
+   "Za 2 M€ doberte kartu."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotičtí pracovníci",
+  "desc": "Zkopírujte pouze pole produkce jedné vaší karty se symbolem stavby."
+ },
+ "Sabotage": {
+  "name": "Sabotáž",
+  "desc": "Odhoďte libovolnému hráči až 3 J titanu, nebo 4 J oceli, nebo 7 M€."
+ },
+ "Satellites": {
+  "name": "Satelity",
+  "desc": "Zvyšte svou produkci M€ o 1 za každý váš symbol vesmíru, včetně tohoto."
+ },
+ "Security Fleet": {
+  "name": "Bezpečnostní flotila",
+  "actions": [
+   "Za 1 J titanu položte na tuto kartu 1 stíhačku."
+  ],
+  "vpText": [
+   "1 VB za každou stíhačku na této kartě."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Vesmírný výtah",
+  "desc": "Zvyšte svou produkci titanu o 1.",
+  "actions": [
+   "Za 1 J oceli obdržíte 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Vesmírná stanice",
+  "effects": [
+   "Zahrajete-li kartu se symbolem vesmíru, máte slevu 2 M€."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponzoři",
+  "desc": "Zvyšte svou produkci M€ o 2."
+ },
+ "Standard Technology": {
+  "name": "Standardní technologie",
+  "effects": [
+   "Zaplatíte-li za standardní projekt (kromě prodeje patentů), obdržíte 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Želvušky",
+  "actions": [
+   "Položte na tuto kartu 1 mikroba."
+  ],
+  "vpText": [
+   "1 VB za každé 4 mikroby na této kartě."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Předvedení technologie",
+  "desc": "Doberte dvě karty."
+ },
+ "Terraforming Ganymede": {
+  "name": "Teraformace Ganymedu",
+  "desc": "Zvyšte svůj TR o 1 za každý váš symbol Jupiteru, včetně tohoto."
+ },
+ "Titanium Mine": {
+  "name": "Titanový důl",
+  "desc": "Zvyšte svou produkci titanu o 1."
+ },
+ "Toll Station": {
+  "name": "Mýtná stanice",
+  "desc": "Zvyšte svou produkci M€ o 1 za každý symbol vesmíru, který mají vaši SOUPEŘI."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Transneptunická sonda",
+  "desc": "Sonda do hlubokého vesmíru: má hodnotu 1 VB."
+ },
+ "Tropical Resort": {
+  "name": "Tropické letovisko",
+  "desc": "Snižte svou produkci tepla o 2 a zvyšte svou produkci M€ o 3."
+ },
+ "Vesta Shipyard": {
+  "name": "Loděnice na Vestě",
+  "desc": "Zvyšte svou produkci titanu o 1."
+ },
+ "Viral Enhancers": {
+  "name": "Virové zesilovače",
+  "effects": [
+   "Zahrajete-li symbol rostliny, mikroba nebo zvířete, včetně tohoto, obdržíte 1 J rostlin, nebo položte 1 zdroj na TUTO KARTU."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Odhoďte libovolnému hráči až 2 zvířata nebo 5 J rostlin."
+ },
+ "SF Memorial": {
+  "name": "Památník sci-fi",
+  "desc": "Doberte 1 kartu."
+ },
+ "House Printing": {
+  "name": "Tisk domů",
+  "desc": "Zvyšte svou produkci oceli o 1."
+ },
+ "Space Hotels": {
+  "name": "Vesmírné hotely",
+  "desc": "Zvyšte produkci M€ o 4."
+ },
+ "Martian Survey": {
+  "name": "Průzkum Marsu",
+  "desc": "Doberte dvě karty."
+ },
+ "Research Coordination": {
+  "name": "Koordinace výzkumu",
+  "desc": "Po zahrání platí: provádíte-li akci, počítá se symbol žolíka jako libovolný symbol dle vaší volby."
+ },
+ "Lava Tube Settlement": {
+  "name": "Osada v lávovém tunelu",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 2. Umístěte destičku města na SOPEČNÉ POLE bez ohledu na sousední města."
+ },
+ "Psychrophiles": {
+  "name": "Psychrofilové",
+  "actions": [
+   "Položte na tuto kartu 1 mikroba."
+  ],
+  "effects": [
+   "Při placení za kartu se symbolem rostliny můžete použít mikroby odsud, každý v hodnotě 2 M€."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Adaptační technologie",
+  "effects": [
+   "Vaše globální podmínky jsou +2 nebo −2, vždy podle vaší volby."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Přizpůsobený lišejník",
+  "desc": "Zvyšte svou produkci rostlin o 1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Pokročilé ekosystémy"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Amoniakový asteroid brzděný atmosférou",
+  "desc": "Zvyšte svou produkci tepla o 3 a svou produkci rostlin o 1. Položte 2 mikroby na JINOU kartu."
+ },
+ "Ants": {
+  "name": "Mravenci",
+  "actions": [
+   "Odeberte 1 mikroba z libovolné karty a položte 1 na tuto kartu."
+  ],
+  "vpText": [
+   "1 VB za každé 2 mikroby na této kartě."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Čerpání zvodně",
+  "actions": [
+   "Za 8 M€ umístěte 1 destičku oceánu. MŮŽETE PLATIT I OCELÍ, jako byste hráli kartu se symbolem stavby."
+  ]
+ },
+ "Algae": {
+  "name": "Řasy",
+  "desc": "Obdržíte 1 J rostlin a zvyšte svou produkci rostlin o 2."
+ },
+ "ArchaeBacteria": {
+  "name": "Archebakterie",
+  "desc": "Zvyšte svou produkci rostlin o 1."
+ },
+ "Arctic Algae": {
+  "name": "Arktické řasy",
+  "desc": "Obdržíte 1 J rostlin.",
+  "effects": [
+   "Umístí-li kdokoli destičku oceánu, obdržíte 2 J rostlin."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Umělé jezero",
+  "desc": "Umístěte 1 destičku oceánu NA POLE, KTERÉ NENÍ VYHRAZENO PRO OCEÁN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Umělá fotosyntéza",
+  "desc": "Zvyšte svou produkci rostlin o 1, nebo svou produkci energie o 2.",
+  "orTitles": [
+   "Zvyšte svou produkci energie o 2",
+   "Zvyšte svou produkci rostlin o 1"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Zvyšte teplotu o 1 a obdržíte 2 J titanu. Odhoďte libovolnému hráči až 3 J rostlin."
+ },
+ "Asteroid Mining": {
+  "name": "Těžba na asteroidu",
+  "desc": "Zvyšte svou produkci titanu o 2."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Paprsek z thoriového asteroidu",
+  "desc": "Zvyšte svou produkci tepla a produkci energie, obojí o 3."
+ },
+ "Big Asteroid": {
+  "name": "Velký asteroid",
+  "desc": "Zvyšte teplotu o 2 a obdržíte 4 J titanu. Odhoďte libovolnému hráči až 4 J rostlin."
+ },
+ "Biomass Combustors": {
+  "name": "Spalovny biomasy",
+  "desc": "Snižte produkci rostlin libovolného hráče o 1 a zvyšte svou produkci energie o 2."
+ },
+ "Birds": {
+  "name": "Ptáci",
+  "desc": "Snižte produkci rostlin libovolného hráče o 2. 1 VB za každé zvíře na této kartě.",
+  "actions": [
+   "Položte na tuto kartu zvíře."
+  ],
+  "vpText": [
+   "1 VB za každé zvíře na této kartě."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Černý polární prach",
+  "desc": "Umístěte destičku oceánu. Snižte svou produkci M€ o 2 a zvyšte svou produkci tepla o 3."
+ },
+ "Breathing Filters": {
+  "name": "Dýchací filtry"
+ },
+ "Bushes": {
+  "name": "Keře",
+  "desc": "Zvyšte svou produkci rostlin o 2. Obdržíte 2 J rostlin."
+ },
+ "Capital": {
+  "name": "Hlavní město",
+  "desc": "Umístěte tuto destičku. Snižte svou produkci energie o 2 a zvyšte svou produkci M€ o 5.",
+  "vpText": [
+   "1 VB navíc za každou destičku oceánu sousedící s touto destičkou města."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Zpracování uhličitanů",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci tepla o 3."
+ },
+ "Cloud Seeding": {
+  "name": "Očkování mraků",
+  "desc": "Snižte svou produkci M€ o 1 a produkci tepla libovolného hráče o 1. Zvyšte svou produkci rostlin o 2."
+ },
+ "Colonizer Training Camp": {
+  "name": "Výcvikový tábor kolonistů"
+ },
+ "Comet": {
+  "name": "Kometa",
+  "desc": "Zvyšte teplotu o 1 a umístěte destičku oceánu. Odhoďte libovolnému hráči až 3 J rostlin."
+ },
+ "Convoy From Europa": {
+  "name": "Konvoj z Europy",
+  "desc": "Umístěte 1 destičku oceánu a doberte 1 kartu."
+ },
+ "Cupola City": {
+  "name": "Kopulové město",
+  "desc": "Umístěte destičku města. Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 3."
+ },
+ "Decomposers": {
+  "name": "Rozkladači",
+  "effects": [
+   "Zahrajete-li symbol zvířete, rostliny nebo mikroba, včetně tohoto, položte na tuto kartu mikroba."
+  ],
+  "vpText": [
+   "1 VB za každé 3 mikroby na této kartě."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Ohřev hlubinnými vrty",
+  "desc": "Zvyšte svou produkci energie o 1. Zvyšte teplotu o 1."
+ },
+ "Deimos Down": {
+  "name": "Zřícení Deimosu",
+  "desc": "Zvyšte teplotu o 3 a obdržíte 4 J oceli. Odhoďte libovolnému hráči až 8 J rostlin."
+ },
+ "Designed Microorganisms": {
+  "name": "Navržené mikroorganismy",
+  "desc": "Zvyšte svou produkci rostlin o 2."
+ },
+ "Domed Crater": {
+  "name": "Město pod kupolí",
+  "desc": "Obdržíte 3 J rostlin. Umístěte destičku města. Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 3."
+ },
+ "Dust Seals": {
+  "name": "Protiprachová těsnění"
+ },
+ "Ecological Zone": {
+  "name": "Ekologická zóna",
+  "desc": "Umístěte tuto destičku vedle LIBOVOLNÉ destičky zeleně.",
+  "effects": [
+   "Zahrajete-li symbol zvířete nebo rostliny, VČETNĚ TĚCHTO, položte na tuto kartu zvíře."
+  ],
+  "vpText": [
+   "1 VB za každá 2 zvířata na této kartě."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Úspora energie",
+  "desc": "Zvyšte svou produkci energie o 1 za každou destičku města ve hře."
+ },
+ "Eos Chasma National Park": {
+  "name": "Národní park Eos Chasma",
+  "desc": "Položte 1 zvíře NA LIBOVOLNOU KARTU SE ZVÍŘATY. Obdržíte 3 J rostlin. Zvyšte svou produkci M€ o 2."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Rovníkový magnetizér",
+  "actions": [
+   "Snižte svou produkci energie o 1 a zvyšte svůj teraformační rating o 1."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Houba odolná mrazu",
+  "actions": [
+   "Obdržíte 1 J rostlin.",
+   "Položte 2 mikroby na JINOU kartu."
+  ]
+ },
+ "Farming": {
+  "name": "Zemědělství",
+  "desc": "Zvyšte svou produkci M€ o 2 a svou produkci rostlin o 2. Obdržíte 2 J rostlin."
+ },
+ "Fish": {
+  "name": "Ryby",
+  "desc": "Snižte produkci rostlin libovolného hráče o 1.",
+  "actions": [
+   "Položte na tuto kartu 1 zvíře."
+  ],
+  "vpText": [
+   "1 VB za každé zvíře na této kartě."
+  ]
+ },
+ "Flooding": {
+  "name": "Záplava",
+  "desc": "Umístěte destičku oceánu. POKUD S NÍ SOUSEDÍ JINÉ DESTIČKY, MŮŽETE MAJITELI JEDNÉ Z NICH ODEBRAT 4 M€."
+ },
+ "Food Factory": {
+  "name": "Továrna na potraviny",
+  "desc": "Snižte svou produkci rostlin o 1 a zvyšte svou produkci M€ o 4."
+ },
+ "Fusion Power": {
+  "name": "Fúzní energie",
+  "desc": "Zvyšte svou produkci energie o 3."
+ },
+ "Fueled Generators": {
+  "name": "Palivové generátory",
+  "desc": "Snižte svou produkci M€ o 1 a zvyšte svou produkci energie o 1."
+ },
+ "Ganymede Colony": {
+  "name": "Kolonie na Ganymedu",
+  "desc": "Umístěte destičku města NA VYHRAZENÉ POLE.",
+  "vpText": [
+   "1 VB za každý váš symbol Jupiteru."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Termální energie",
+  "desc": "Zvyšte svou produkci energie o 2."
+ },
+ "GHG Factories": {
+  "name": "Továrna na skleníkové plyny",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci tepla o 4."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bakterie produkující skleníkové plyny",
+  "actions": [
+   "Položte na tuto kartu 1 mikroba.",
+   "Odeberte 2 mikroby a zvyšte teplotu o 1."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Obří ledový asteroid",
+  "desc": "Zvyšte teplotu o 2 a umístěte 2 destičky oceánu. Odhoďte libovolnému hráči až 6 J rostlin."
+ },
+ "Giant Space Mirror": {
+  "name": "Obří vesmírné zrcadlo",
+  "desc": "Zvyšte svou produkci energie o 3."
+ },
+ "Grass": {
+  "name": "Tráva",
+  "desc": "Zvyšte svou produkci rostlin o 1. Obdržíte 3 J rostlin."
+ },
+ "Great Dam": {
+  "name": "Velká přehrada",
+  "desc": "Zvyšte svou produkci energie o 2."
+ },
+ "Greenhouses": {
+  "name": "Skleníky",
+  "desc": "Obdržíte 1 J rostlin za každou destičku města ve hře."
+ },
+ "Heather": {
+  "name": "Vřes",
+  "desc": "Zvyšte svou produkci rostlin o 1. Obdržíte 1 J rostlin."
+ },
+ "Heat Trappers": {
+  "name": "Lapače tepla",
+  "desc": "Snižte produkci tepla libovolného hráče o 2 a zvyšte svou produkci energie o 1."
+ },
+ "Herbivores": {
+  "name": "Býložravci",
+  "desc": "+1 zvíře na tuto kartu. −1 produkce rostlin libovolného hráče",
+  "effects": [
+   "Umístíte-li destičku zeleně, položte na tuto kartu zvíře."
+  ],
+  "vpText": [
+   "1 VB za každá 2 zvířata na této kartě."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Ledový asteroid",
+  "desc": "Umístěte 2 destičky oceánu."
+ },
+ "Ice Cap Melting": {
+  "name": "Tání polární čepičky",
+  "desc": "Umístěte 1 destičku oceánu."
+ },
+ "Immigrant City": {
+  "name": "Město přistěhovalců",
+  "desc": "Snižte svou produkci energie o 1 a svou produkci M€ o 2. Umístěte destičku města.",
+  "effects": [
+   "Je-li umístěna destička města, včetně této, zvyšte svou produkci M€ o 1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Raketoplány pro přistěhovalce",
+  "desc": "Zvyšte svou produkci M€ o 5.",
+  "vpText": [
+   "1 VB za každé 3. město ve hře."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Dovezené skleníkové plyny",
+  "desc": "Zvyšte svou produkci tepla o 1 a obdržíte 3 J tepla."
+ },
+ "Imported Hydrogen": {
+  "name": "Dovezený vodík",
+  "desc": "Obdržíte 3 J rostlin, nebo položte 3 mikroby či 2 zvířata na JINOU kartu. Umístěte destičku oceánu.",
+  "orTitles": [
+   "Obdržíte 3 J rostlin",
+   "Položte 3 mikroby na JINOU kartu",
+   "Položte 2 zvířata na JINOU kartu"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Dovezený dusík",
+  "desc": "Zvyšte svůj TR o 1 a obdržíte 4 J rostlin. Položte 3 mikroby na JINOU kartu a 2 zvířata na JINOU kartu."
+ },
+ "Import of Advanced GHG": {
+  "name": "Dovoz pokročilých skleníkových plynů",
+  "desc": "Zvyšte svou produkci tepla o 2."
+ },
+ "Industrial Microbes": {
+  "name": "Průmyslové mikroby",
+  "desc": "Zvyšte svou produkci energie a svou produkci oceli, obojí o 1."
+ },
+ "Insects": {
+  "name": "Hmyz",
+  "desc": "Zvyšte svou produkci rostlin o 1 za každý váš symbol rostliny."
+ },
+ "Insulation": {
+  "name": "Izolace",
+  "desc": "Snižte svou produkci tepla o libovolný počet stupňů a zvyšte svou produkci M€ o stejný počet."
+ },
+ "Ironworks": {
+  "name": "Železárny",
+  "actions": [
+   "Za 4 J energie obdržíte 1 J oceli a zvyšte obsah kyslíku o 1."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Farma na chaluhy",
+  "desc": "Zvyšte svou produkci M€ o 2 a svou produkci rostlin o 3. Obdržíte 2 J rostlin."
+ },
+ "Lake Marineris": {
+  "name": "Jezero Marineris",
+  "desc": "Umístěte 2 destičky oceánu."
+ },
+ "Large Convoy": {
+  "name": "Velký konvoj",
+  "desc": "Umístěte destičku oceánu a doberte 2 karty. Obdržíte 5 J rostlin, nebo položte 4 zvířata na JINOU kartu.",
+  "orTitles": [
+   "Obdržíte 5 J rostlin",
+   "Položte 4 zvířata na JINOU kartu"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lávové proudy",
+  "desc": "Zvyšte teplotu o 2 a umístěte tuto destičku NA THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS NEBO ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Lišejník",
+  "desc": "Zvyšte svou produkci rostlin o 1."
+ },
+ "Livestock": {
+  "name": "Dobytek",
+  "desc": "Snižte svou produkci rostlin o 1 a zvyšte svou produkci M€ o 2.",
+  "actions": [
+   "Položte na tuto kartu 1 zvíře."
+  ],
+  "vpText": [
+   "1 VB za každé zvíře na této kartě."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Místní zachycování tepla",
+  "desc": "Utraťte 5 J tepla a buď obdržíte 4 J rostlin, nebo položte 2 zvířata na JINOU kartu.",
+  "orTitles": [
+   "Obdržíte 4 J rostlin",
+   "Položte 2 zvířata na JINOU kartu"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Měsíční paprsek",
+  "desc": "Snižte svou produkci M€ o 2 a zvyšte svou produkci tepla a produkci energie, obojí o 2."
+ },
+ "Magnetic Field Dome": {
+  "name": "Kupole magnetického pole",
+  "desc": "Snižte svou produkci energie o 2 a zvyšte svou produkci rostlin o 1. Zvyšte svůj TR o 1."
+ },
+ "Magnetic Field Generators": {
+  "name": "Generátor magnetického pole",
+  "desc": "Snižte svou produkci energie o 4 a zvyšte svou produkci rostlin o 2. Zvyšte svůj TR o 3."
+ },
+ "Mangrove": {
+  "name": "Mangrovy",
+  "desc": "Umístěte destičku zeleně NA POLE VYHRAZENÉ PRO OCEÁN a zvyšte obsah kyslíku o 1. Běžná omezení pro umístění přitom neplatí."
+ },
+ "Martian Rails": {
+  "name": "Marťanská železnice",
+  "actions": [
+   "Za 1 J energie obdržíte 1 M€ za každou destičku města NA MARSU."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metan z Titanu",
+  "desc": "Zvyšte svou produkci tepla o 2 a svou produkci rostlin o 2."
+ },
+ "Micro-Mills": {
+  "name": "Mikromlýny",
+  "desc": "Zvyšte svou produkci tepla o 1."
+ },
+ "Mining Expedition": {
+  "name": "Těžařská výprava",
+  "desc": "Zvyšte obsah kyslíku o 1. Odhoďte libovolnému hráči 2 J rostlin. Obdržíte 2 J oceli."
+ },
+ "Mining Rights": {
+  "name": "Těžební práva",
+  "desc": "Umístěte tuto destičku na pole s bonusem oceli nebo titanu. Zvyšte příslušnou produkci o 1."
+ },
+ "Mohole Area": {
+  "name": "Oblast Mohole",
+  "desc": "Zvyšte svou produkci tepla o 4. Umístěte tuto destičku NA POLE VYHRAZENÉ PRO OCEÁN."
+ },
+ "Moss": {
+  "name": "Mech",
+  "desc": "Ztrácíte 1 J rostlin. Zvyšte svou produkci rostlin o 1."
+ },
+ "Natural Preserve": {
+  "name": "Přírodní rezervace",
+  "desc": "Umístěte tuto destičku TAK, ABY NESOUSEDILA S ŽÁDNOU JINOU. Zvyšte svou produkci M€ o 1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bakterie redukující dusitany",
+  "desc": "Položte na tuto kartu 3 mikroby.",
+  "actions": [
+   "Položte na tuto kartu 1 mikroba.",
+   "Odeberte 3 mikroby a zvyšte svůj TR o 1."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid bohatý na dusík",
+  "desc": "Zvyšte svůj teraformační rating o 2 a teplotu o 1. Zvyšte svou produkci rostlin o 1, nebo o 4, máte-li 3 symboly rostliny."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofilní mech",
+  "desc": "Ztrácíte 2 J rostlin. Zvyšte svou produkci rostlin o 2."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 3. Umístěte destičku města NA VYHRAZENÉ POLE bez ohledu na běžná omezení pro umístění."
+ },
+ "Noctis Farming": {
+  "name": "Farmy v Noctis",
+  "desc": "Zvyšte svou produkci M€ o 1 a obdržíte 2 J rostlin."
+ },
+ "Nuclear Power": {
+  "name": "Jaderná energie",
+  "desc": "Snižte svou produkci M€ o 2 a zvyšte svou produkci energie o 3."
+ },
+ "Nuclear Zone": {
+  "name": "Jaderná zóna",
+  "desc": "Umístěte tuto destičku a zvyšte teplotu o 2."
+ },
+ "Open City": {
+  "name": "Otevřené město",
+  "desc": "Obdržíte 2 J rostlin. Umístěte destičku města. Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 4."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimální aerobrzdění",
+  "effects": [
+   "Zahrajete-li událost se symbolem vesmíru, obdržíte 3 M€ a 3 J tepla."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Zpracování rudy",
+  "actions": [
+   "Za 4 J energie obdržíte 1 J titanu a zvyšte obsah kyslíku o 1."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Těžba permafrostu",
+  "desc": "Umístěte 1 destičku oceánu."
+ },
+ "Peroxide Power": {
+  "name": "Peroxidová energie",
+  "desc": "Snižte svou produkci M€ o 1 a zvyšte svou produkci energie o 2."
+ },
+ "Pets": {
+  "name": "Domácí mazlíčci",
+  "desc": "Položte na tuto kartu 1 zvíře.",
+  "effects": [
+   "Je-li umístěna jakákoli destička města, položte na tuto kartu zvíře."
+  ],
+  "vpText": [
+   "1 VB za každá 2 zvířata zde."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Vesmírný přístav Phobos",
+  "desc": "Zvyšte svou produkci titanu o 1 a umístěte destičku města NA VYHRAZENÉ POLE."
+ },
+ "Plantation": {
+  "name": "Plantáž",
+  "desc": "Umístěte destičku zeleně a zvyšte obsah kyslíku o 1."
+ },
+ "Power Grid": {
+  "name": "Rozvodná síť",
+  "desc": "Zvyšte svou produkci energie o 1 za každý váš symbol energie, včetně tohoto."
+ },
+ "Power Plant": {
+  "name": "Elektrárna",
+  "desc": "Zvyšte svou produkci energie o 1."
+ },
+ "Predators": {
+  "name": "Predátoři",
+  "actions": [
+   "Odeberte 1 zvíře z libovolné karty a položte ho na tuto kartu."
+  ],
+  "vpText": [
+   "1 VB za každé zvíře na této kartě."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Chráněné údolí",
+  "desc": "Zvyšte svou produkci M€ o 2. Umístěte destičku zeleně NA POLE VYHRAZENÉ PRO OCEÁN bez ohledu na běžná omezení pro umístění a zvyšte obsah kyslíku o 1."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radiochemická továrna",
+  "desc": "Snižte svou produkci energie o 1. Zvyšte svůj TR o 2."
+ },
+ "Regolith Eaters": {
+  "name": "Požírači regolitu",
+  "actions": [
+   "Položte na tuto kartu 1 mikroba.",
+   "Odeberte z této karty 2 mikroby a zvyšte obsah kyslíku o 1."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Vypuštění inertních plynů",
+  "desc": "Zvyšte svůj teraformační rating o 2."
+ },
+ "Research Outpost": {
+  "name": "Výzkumná základna",
+  "desc": "Umístěte destičku města TAK, ABY NESOUSEDILA S ŽÁDNOU JINOU DESTIČKOU.",
+  "effects": [
+   "Zahrajete-li kartu, máte slevu 1 M€."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Výroba roverů",
+  "effects": [
+   "Je-li umístěna jakákoli destička města, obdržíte 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Hledání života",
+  "actions": [
+   "Za 1 M€ odhalte vrchní kartu balíčku. Má-li symbol mikroba, položte sem zdroj vědy."
+  ],
+  "vpText": [
+   "3 VB, máte-li zde alespoň jeden zdroj vědy."
+  ]
+ },
+ "Shuttles": {
+  "name": "Raketoplány",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 2.",
+  "effects": [
+   "Zahrajete-li kartu se symbolem vesmíru, máte slevu 2 M€."
+  ]
+ },
+ "Small Animals": {
+  "name": "Malá zvířata",
+  "desc": "Snižte produkci rostlin libovolného hráče o 1.",
+  "actions": [
+   "Položte na tuto kartu 1 zvíře."
+  ],
+  "vpText": [
+   "1 VB za každá 2 zvířata na této kartě."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Továrna na půdu",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci rostlin o 1."
+ },
+ "Solar Power": {
+  "name": "Solární energie",
+  "desc": "Zvyšte svou produkci energie o 1."
+ },
+ "Solar Wind Power": {
+  "name": "Energie slunečního větru",
+  "desc": "Zvyšte svou produkci energie o 1 a obdržíte 2 J titanu."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Zvyšte svou produkci tepla o 7."
+ },
+ "Space Mirrors": {
+  "name": "Vesmírná zrcadla",
+  "actions": [
+   "Za 7 M€ zvyšte svou produkci energie o 1."
+  ]
+ },
+ "Special Design": {
+  "name": "Speciální návrh",
+  "desc": "Příští karta, kterou v této generaci zahrajete, má globální podmínky +2 nebo −2, podle vaší volby."
+ },
+ "Steelworks": {
+  "name": "Ocelárna",
+  "actions": [
+   "Za 4 J energie obdržíte 2 J oceli a zvyšte obsah kyslíku o 1."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Povrchový důl",
+  "desc": "Snižte svou produkci energie o 2. Zvyšte svou produkci oceli o 2 a svou produkci titanu o 1. Zvyšte obsah kyslíku o 2."
+ },
+ "Subterranean Reservoir": {
+  "name": "Podzemní nádrž",
+  "desc": "Umístěte 1 destičku oceánu."
+ },
+ "Symbiotic Fungus": {
+  "name": "Symbiotická houba",
+  "actions": [
+   "Položte mikroba na JINOU kartu."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Energie tektonického napětí",
+  "desc": "Zvyšte svou produkci energie o 3."
+ },
+ "Towing A Comet": {
+  "name": "Odtažení komety",
+  "desc": "Obdržíte 2 J rostlin. Zvyšte obsah kyslíku o 1 a umístěte destičku oceánu."
+ },
+ "Trees": {
+  "name": "Stromy",
+  "desc": "Zvyšte svou produkci rostlin o 3. Obdržíte 1 J rostlin."
+ },
+ "Tundra Farming": {
+  "name": "Zemědělství v tundře",
+  "desc": "Zvyšte svou produkci rostlin o 1 a svou produkci M€ o 2. Obdržíte 1 J rostlin."
+ },
+ "Underground City": {
+  "name": "Podzemní město",
+  "desc": "Umístěte destičku města. Snižte svou produkci energie o 2 a zvyšte svou produkci oceli o 2."
+ },
+ "Underground Detonations": {
+  "name": "Podzemní výbuchy",
+  "actions": [
+   "Za 10 M€ zvyšte svou produkci tepla o 2."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanizovaná oblast",
+  "desc": "Snižte svou produkci energie o 1 a zvyšte svou produkci M€ o 2. Umístěte destičku města VEDLE ALESPOŇ 2 JINÝCH DESTIČEK MĚST."
+ },
+ "Water Import From Europa": {
+  "name": "Dovoz vody z Europy",
+  "actions": [
+   "Za 12 M€ umístěte destičku oceánu. MŮŽETE PLATIT I TITANEM, jako byste hráli kartu se symbolem vesmíru."
+  ],
+  "vpText": [
+   "1 VB za každý váš symbol Jupiteru."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Závod na štěpení vody",
+  "actions": [
+   "Za 3 J energie zvyšte obsah kyslíku o 1."
+  ]
+ },
+ "Wave Power": {
+  "name": "Energie vln",
+  "desc": "Zvyšte svou produkci energie o 1."
+ },
+ "Windmills": {
+  "name": "Větrné elektrárny",
+  "desc": "Zvyšte svou produkci energie o 1."
+ },
+ "Worms": {
+  "name": "Červi",
+  "desc": "Zvyšte svou produkci rostlin o 1 za každé 2 vaše symboly mikroba, včetně tohoto."
+ },
+ "Zeppelins": {
+  "name": "Zeppeliny",
+  "desc": "Zvyšte svou produkci M€ o 1 za každou destičku města NA MARSU."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Začínáte s produkcí titanu 1 a 42 M€.",
+  "effects": [
+   "Pokaždé, když kdokoli vyloží symbol Jupiteru, včetně tohoto, zvyšte svou produkci M€ o 1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Začínáte se 60 M€.",
+  "effects": [
+   "Zahrajete-li symbol Země, máte slevu 3 M€."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Začínáte s produkcí M€ 3 a 44 M€.",
+  "effects": [
+   "Zahrajete-li symbol stavby, máte slevu 2 M€."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Začínáte s produkcí titanu 1 a 38 M€.",
+  "effects": [
+   "Zahrajete-li symbol Země, včetně tohoto, doberte kartu."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Začínáte se 47 M€.",
+  "actions": [
+   "Za 4 M€ zvyšte svou NEJNIŽŠÍ produkci (jednu z nich) o 1."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Začínáte se 37 M€. Jako první akci doberte 3 karty předehry a jednu z nich zahrajte. Zbylé dvě odhoďte.",
+  "effects": [
+   "Zahrajete-li symbol vědy, máte slevu 2 M€."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Začínáte se 45 M€. Jako první akci sponzorujte zdarma jednu soutěž.",
+  "effects": [
+   "Zahrajete-li kartu s NEZÁPORNOU hodnotou VB, včetně této, obdržíte 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Základní korporace",
+  "desc": "Začínáte se 42 M€. Místo výběru z 10 karet při přípravě dostanete 10 karet zdarma."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Začínáte s 57 M€.",
+  "effects": [
+   "Zaplatíte-li za kartu nebo standardní projekt se základní cenou 20 M€ nebo více, obdržíte 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Začínáte s produkcí rostlin 2, 3 J rostlin a 36 M€.",
+  "effects": [
+   "Za destičku zeleně vždy platíte jen 7 J rostlin místo 8."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Začínáte s produkcí tepla 3 a 42 M€.",
+  "effects": [
+   "Teplo můžete používat jako M€. M€ nemůžete používat jako teplo."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Začínáte s 20 J oceli a 30 M€.",
+  "effects": [
+   "Pokaždé, když zahrajete událost, obdržíte 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Jako první akci ve hře doberte 3 karty. Začínáte se 45 M€.",
+  "effects": [
+   "Vaše podmínky na teplotu, kyslík, oceány a Venuši jsou +2 nebo −2, vždy podle vaší volby."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Mining Guild",
+  "desc": "Začínáte s 30 M€, 5 J oceli a produkcí oceli 1.",
+  "effects": [
+   "Pokaždé, když umístíte destičku na pole s bonusem oceli nebo titanu, zvyšte svou produkci oceli o 1."
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Začínáte s 10 J titanu a 23 M€.",
+  "effects": [
+   "Každá vaše J titanu má hodnotu o 1 M€ vyšší."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republika Tharsis",
+  "desc": "Začínáte se 40 M€. Jako první akci ve hře umístěte destičku města.",
+  "effects": [
+   "Je-li NA MARSU umístěna jakákoli destička města, zvyšte svou produkci M€ o 1. Umístíte-li destičku města vy, obdržíte 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "ThorGate",
+  "desc": "Začínáte s produkcí energie 1 a 48 M€.",
+  "effects": [
+   "Hrajete-li kartu se symbolem energie NEBO STANDARDNÍ PROJEKT ELEKTRÁRNA, máte slevu 3 M€."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "United Nations Mars Initiative",
+  "desc": "Začínáte se 40 M€.",
+  "actions": [
+   "Pokud se váš teraformační rating v této generaci zvýšil, můžete zaplatit 3 M€ a zvýšit ho o další 1."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Spojenecká banka",
+  "desc": "Zvyšte svou produkci M€ o 4. Obdržíte 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Podpora biosféry",
+  "desc": "Zvyšte svou produkci rostlin o 2. Snižte svou produkci M€ o 1."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbíny ve zvodni",
+  "desc": "Umístěte destičku oceánu. Zvyšte svou produkci energie o 2. Zaplaťte 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Hloubení Mohole",
+  "desc": "Zvyšte svou produkci oceli o 1 a produkci tepla o 2. Obdržíte 2 J tepla."
+ },
+ "Early Settlement": {
+  "name": "Raná osada",
+  "desc": "Zvyšte svou produkci rostlin o 1. Umístěte destičku města."
+ },
+ "Biofuels": {
+  "name": "Biopaliva",
+  "desc": "Zvyšte svou produkci energie a rostlin o 1. Obdržíte 2 J rostlin."
+ },
+ "Power Generation": {
+  "name": "Výroba energie",
+  "desc": "Zvyšte svou produkci energie o 3."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Soběstačná osada",
+  "desc": "Zvyšte svou produkci M€ o 2. Umístěte destičku města."
+ },
+ "Mining Operations": {
+  "name": "Těžební provoz",
+  "desc": "Zvyšte svou produkci oceli o 2. Obdržíte 4 J oceli."
+ },
+ "UNMI Contractor": {
+  "name": "Dodavatel UNMI",
+  "desc": "Zvyšte svůj TR o 3. Doberte kartu."
+ },
+ "Dome Farming": {
+  "name": "Farmy pod kupolí",
+  "desc": "Zvyšte svou produkci M€ o 2 a produkci rostlin o 1."
+ },
+ "Business Empire": {
+  "name": "Obchodní impérium",
+  "desc": "Zvyšte svou produkci M€ o 6. Zaplaťte 6 M€."
+ },
+ "Donation": {
+  "name": "Dar",
+  "desc": "Obdržíte 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Zásilka dusíku",
+  "desc": "Zvyšte svou produkci rostlin o 1. Zvyšte svůj TR o 1. Obdržíte 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Tavírna",
+  "desc": "Zvyšte obsah kyslíku o 2. Obdržíte 5 J oceli."
+ },
+ "Supplier": {
+  "name": "Dodavatel",
+  "desc": "Zvyšte svou produkci energie o 2. Obdržíte 4 J oceli."
+ },
+ "Supply Drop": {
+  "name": "Shoz zásob",
+  "desc": "Obdržíte 3 J titanu, 8 J oceli a 3 J rostlin."
+ },
+ "Great Aquifer": {
+  "name": "Velká zvodeň",
+  "desc": "Umístěte 2 destičky oceánu."
+ },
+ "Biolab": {
+  "name": "Biolaboratoř",
+  "desc": "Zvyšte svou produkci rostlin o 1. Doberte 3 karty."
+ },
+ "Martian Industries": {
+  "name": "Marťanský průmysl",
+  "desc": "Zvyšte svou produkci energie a oceli o 1. Obdržíte 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Výzkumná základna na Io",
+  "desc": "Zvyšte svou produkci titanu o 1. Doberte kartu."
+ },
+ "Polar Industries": {
+  "name": "Polární průmysl",
+  "desc": "Zvyšte svou produkci tepla o 2. Umístěte destičku oceánu."
+ },
+ "Society Support": {
+  "name": "Podpora společnosti",
+  "desc": "Zvyšte svou produkci rostlin, energie a tepla o 1. Snižte svou produkci M€ o 1."
+ },
+ "Galilean Mining": {
+  "name": "Těžba na Galileových měsících",
+  "desc": "Zvyšte svou produkci titanu o 2. Zaplaťte 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Obrovský asteroid",
+  "desc": "Zvyšte teplotu o 3. Zaplaťte 5 M€."
+ },
+ "Metals Company": {
+  "name": "Kovodělná společnost",
+  "desc": "Zvyšte svou produkci M€, produkci oceli a produkci titanu o 1."
+ },
+ "Loan": {
+  "name": "Půjčka",
+  "desc": "Obdržíte 30 M€. Snižte svou produkci M€ o 2."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Zvyšte svou produkci tepla o 3. Obdržíte 3 J tepla."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid bohatý na kovy",
+  "desc": "Zvyšte teplotu o 1. Obdržíte 4 J titanu a 4 J oceli."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitální loděnice",
+  "desc": "Zvyšte svou produkci titanu o 1. Obdržíte 4 J titanu."
+ },
+ "Acquired Space Agency": {
+  "name": "Získaná vesmírná agentura",
+  "desc": "Obdržíte 6 J titanu. Odhalujte karty, dokud neodhalíte dvě karty se symbolem vesmíru. Ty si vezměte do ruky, zbytek odhoďte."
+ },
+ "Research Network": {
+  "name": "Výzkumná síť",
+  "desc": "Zvyšte svou produkci M€ o 1. Doberte 3 karty. Po zahrání platí: provádíte-li akci, počítá se symbol žolíka jako libovolný symbol dle vaší volby."
+ },
+ "Eccentric Sponsor": {
+  "name": "Výstřední sponzor",
+  "desc": "ZAHRAJTE KARTU Z RUKY SE SLEVOU 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Ekologičtí experti",
+  "desc": "Zvyšte svou produkci rostlin o 1. ZAHRAJTE KARTU Z RUKY BEZ OHLEDU NA GLOBÁLNÍ PODMÍNKY."
+ },
+ "Experimental Forest": {
+  "name": "Pokusný les",
+  "desc": "Umístěte 1 destičku zeleně a zvyšte obsah kyslíku o 1. Odhalujte karty, dokud neodhalíte dvě karty se symbolem rostliny. Ty si vezměte do ruky a zbytek odhoďte."
+ }
+}

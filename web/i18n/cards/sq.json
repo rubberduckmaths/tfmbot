@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Kompani e blerë",
+  "desc": "Rrit prodhimin tënd të M€ me 3 hapa."
+ },
+ "Advanced Alloys": {
+  "name": "Lidhje të avancuara",
+  "effects": [
+   "Çdo titan që ke vlen 1 M€ më shumë.",
+   "Çdo çelik që ke vlen 1 M€ më shumë."
+  ]
+ },
+ "AI Central": {
+  "name": "Qendra e IA-së",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap.",
+  "actions": [
+   "Tërhiq 2 karta."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Teknologji antigravitacionale",
+  "effects": [
+   "Kur luan një kartë, paguan 2 M€ më pak për të."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Konsorciumi i minierave të asteroideve",
+  "desc": "Ul prodhimin e titanit të çdo lojtari me 1 hap dhe rrit tëndin me 1 hap."
+ },
+ "Bribed Committee": {
+  "name": "Komision i korruptuar",
+  "desc": "Rrit TR me 2 hapa."
+ },
+ "Building Industries": {
+  "name": "Industri ndërtimi",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e çelikut me 2 hapa."
+ },
+ "Business Contacts": {
+  "name": "Kontakte biznesi",
+  "desc": "Shiko 4 kartat e sipërme të destës. Merr 2 në dorë dhe hidhi të tjerat."
+ },
+ "Business Network": {
+  "name": "Rrjet biznesi",
+  "desc": "Ul prodhimin tënd të M€ me 1 hap.",
+  "actions": [
+   "Shiko kartën e sipërme dhe ose bleje ose hidhe."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Minierat ndëshkimore të Kalistos",
+  "desc": "Rrit prodhimin tënd të M€ me 3 hapa."
+ },
+ "Caretaker Contract": {
+  "name": "Kontratë mirëmbajtjeje",
+  "actions": [
+   "Shpenzo 8 nxehtësi për të rritur reitingun tënd të terraformimit me 1 hap."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap për çdo simbol Toke që ke, përfshirë këtë."
+ },
+ "CEO's Favorite Project": {
+  "name": "Projekti i preferuar i drejtorit",
+  "desc": "Shto 1 burim në cilëndo kartë tënden që ka tashmë të paktën 1 burim."
+ },
+ "Commercial District": {
+  "name": "Lagje tregtare",
+  "desc": "Vendos këtë pllakë. Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 4 hapa.",
+  "vpText": [
+   "1 PF për çdo pllakë qyteti fqinje."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Fortesa e korporatës",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 3 hapa. Vendos një pllakë qyteti."
+ },
+ "Development Center": {
+  "name": "Qendër zhvillimi",
+  "actions": [
+   "Shpenzo 1 energji për të tërhequr një kartë."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Katapulta e Tokës",
+  "effects": [
+   "Kur luan një kartë, paguan 2 M€ më pak për të."
+  ]
+ },
+ "Earth Office": {
+  "name": "Zyra e Tokës",
+  "effects": [
+   "Kur luan një simbol Toke, paguan 3 M€ më pak për të."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrokatapultë",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap.",
+  "actions": [
+   "Shpenzo 1 bimë ose 1 çelik për të marrë 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Përvetësim energjie",
+  "desc": "Ul prodhimin e energjisë të çdo lojtari me 1 hap dhe rrit tëndin me 1 hap."
+ },
+ "Fuel Factory": {
+  "name": "Fabrikë karburanti",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e titanit dhe të M€ me nga 1 hap secilin."
+ },
+ "Gene Repair": {
+  "name": "Riparim gjenesh",
+  "desc": "Rrit prodhimin tënd të M€ me 2 hapa."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Konsorciumi i Shkëmbit të Madh",
+  "desc": "Ul prodhimin e çelikut të çdo lojtari me 1 hap dhe rrit tëndin me 1 hap."
+ },
+ "Hackers": {
+  "name": "Hakerë",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe prodhimin e M€ të çdo lojtari me 2 hapa. Rrit prodhimin tënd të M€ me 2 hapa."
+ },
+ "Hired Raiders": {
+  "name": "Plaçkitës me pagesë",
+  "desc": "Vidh deri në 2 çelik ose 3 M€ nga çdo lojtar."
+ },
+ "Indentured Workers": {
+  "name": "Punëtorë me kontratë",
+  "desc": "Karta e radhës që luan në këtë brez kushton 8 M€ më pak."
+ },
+ "Industrial Center": {
+  "name": "Qendër industriale",
+  "desc": "Vendos këtë pllakë pranë një pllake qyteti.",
+  "actions": [
+   "Shpenzo 7 M€ për të rritur prodhimin tënd të çelikut me 1 hap."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Anije koloniale ndëryjore"
+ },
+ "Invention Contest": {
+  "name": "Konkurs shpikjesh",
+  "desc": "Shiko 3 kartat e sipërme të destës. Merr 1 në dorë dhe hidhi të tjerat."
+ },
+ "Inventors' Guild": {
+  "name": "Esnafi i shpikësve",
+  "actions": [
+   "Shiko kartën e sipërme dhe ose bleje ose hidhe."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Kredi investimi",
+  "desc": "Ul prodhimin tënd të M€ me 1 hap. Merr 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Industritë minerare të Ios",
+  "desc": "Rrit prodhimin tënd të titanit me 2 hapa dhe prodhimin e M€ me 2 hapa.",
+  "vpText": [
+   "1 PF për çdo simbol Jupiteri që ke."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Observatori Lagrange",
+  "desc": "Tërhiq 1 kartë."
+ },
+ "Land Claim": {
+  "name": "Pretendim toke",
+  "desc": "Rezervo për vete një zonë të parezervuar: vetëm ti mund të vendosësh pllakë atje."
+ },
+ "Lightning Harvest": {
+  "name": "Korrje rrufesh",
+  "desc": "Rrit prodhimin tënd të energjisë dhe prodhimin e M€ me nga një hap secilin."
+ },
+ "Mars University": {
+  "name": "Universiteti i Marsit",
+  "effects": [
+   "Kur luan një simbol shkence, përfshirë këtë, mund të hedhësh një kartë nga dora për të tërhequr një kartë."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Konvertues mase",
+  "desc": "Rrit prodhimin tënd të energjisë me 6 hapa.",
+  "effects": [
+   "Kur luan një kartë hapësire, paguan 2 M€ më pak për të."
+  ]
+ },
+ "Media Archives": {
+  "name": "Arkivat e medias",
+  "desc": "Merr 1 M€ për çdo ngjarje TË LUAJTUR NDONJËHERË nga të gjithë lojtarët."
+ },
+ "Media Group": {
+  "name": "Grup mediatik",
+  "effects": [
+   "Pasi luan një kartë ngjarjeje, merr 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Laborator mjekësor",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap për çdo 2 simbole ndërtimi që ke, përfshirë këtë."
+ },
+ "Mine": {
+  "name": "Minierë",
+  "desc": "Rrit prodhimin tënd të çelikut me 1 hap."
+ },
+ "Mineral Deposit": {
+  "name": "Depozitë minerale",
+  "desc": "Merr 5 çelik."
+ },
+ "Mining Area": {
+  "name": "Zonë minerare",
+  "desc": "Vendos këtë pllakë në një zonë me shpërblim vendosjeje çeliku ose titani, pranë një pllake tjetër tënden. Rrit prodhimin e atij burimi me 1 hap."
+ },
+ "Miranda Resort": {
+  "name": "Resorti i Mirandës",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap për çdo simbol Toke që ke."
+ },
+ "Olympus Conference": {
+  "name": "Konferenca e Olimpit",
+  "desc": "Kur luan një simbol shkence, përfshirë këtë, ose shto një burim shkencor në këtë kartë, ose hiq një burim shkencor nga kjo kartë për të tërhequr një kartë."
+ },
+ "Physics Complex": {
+  "name": "Kompleks fizike",
+  "actions": [
+   "Shpenzo 6 energji për të shtuar një burim shkencor në këtë kartë."
+  ],
+  "vpText": [
+   "2 PF për çdo burim shkencor në këtë kartë."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Infrastrukturë energjetike",
+  "actions": [
+   "Shpenzo çfarëdo sasie energjie dhe merr po aq M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Konsorciumi i furnizimit me energji",
+  "desc": "Ul prodhimin e energjisë të çdo lojtari me 1 hap dhe rrit tëndin me 1 hap."
+ },
+ "Protected Habitats": {
+  "name": "Habitate të mbrojtura",
+  "effects": [
+   "Kundërshtarët nuk mund të heqin bimët, kafshët ose mikrobet e tua."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Ekstraktor kuantik",
+  "desc": "Rrit prodhimin tënd të energjisë me 4 hapa.",
+  "effects": [
+   "Kur luan një kartë hapësire, paguan 2 M€ më pak për të."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Kostume antirrezatim",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap."
+ },
+ "Research": {
+  "name": "Kërkim shkencor",
+  "desc": "Llogaritet si luajtje e 2 kartave shkence. Tërhiq 2 karta."
+ },
+ "Restricted Area": {
+  "name": "Zonë e kufizuar",
+  "desc": "Vendos këtë pllakë.",
+  "actions": [
+   "Shpenzo 2 M€ për të tërhequr një kartë."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Fuqi punëtore robotike",
+  "desc": "Dyfisho vetëm kutinë e prodhimit të njërës prej kartave të tua të ndërtimit."
+ },
+ "Sabotage": {
+  "name": "Sabotim",
+  "desc": "Hiq deri në 3 titan nga çdo lojtar, ose 4 çelik, ose 7 M€."
+ },
+ "Satellites": {
+  "name": "Satelitë",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap për çdo simbol hapësire që ke, përfshirë këtë."
+ },
+ "Security Fleet": {
+  "name": "Flota e sigurisë",
+  "actions": [
+   "Shpenzo 1 titan për të shtuar 1 burim luftarak në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo burim luftarak në këtë kartë."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Ashensor hapësinor",
+  "desc": "Rrit prodhimin tënd të titanit me 1 hap.",
+  "actions": [
+   "Shpenzo 1 çelik për të marrë 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Stacion hapësinor",
+  "effects": [
+   "Kur luan një kartë hapësire, paguan 2 M€ më pak për të."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsorë",
+  "desc": "Rrit prodhimin tënd të M€ me 2 hapa."
+ },
+ "Standard Technology": {
+  "name": "Teknologji standarde",
+  "effects": [
+   "Pasi paguan për një projekt standard, përveç shitjes së patentave, merr 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigradë",
+  "actions": [
+   "Shto 1 mikrob në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo 4 mikrobe në këtë kartë."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Demonstrim teknologjie",
+  "desc": "Tërhiq dy karta."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraformimi i Ganimedit",
+  "desc": "Rrit TR me 1 hap për çdo simbol Jupiteri që ke, përfshirë këtë."
+ },
+ "Titanium Mine": {
+  "name": "Minierë titani",
+  "desc": "Rrit prodhimin tënd të titanit me 1 hap."
+ },
+ "Toll Station": {
+  "name": "Stacion pagese",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap për çdo simbol hapësire që kanë KUNDËRSHTARËT e tu."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Sondë përtej Neptunit",
+  "desc": "Një sondë e hapësirës së thellë: vlen 1 PF."
+ },
+ "Tropical Resort": {
+  "name": "Resort tropikal",
+  "desc": "Ul prodhimin tënd të nxehtësisë me 2 hapa dhe rrit prodhimin e M€ me 3 hapa."
+ },
+ "Vesta Shipyard": {
+  "name": "Kantieri i Vestës",
+  "desc": "Rrit prodhimin tënd të titanit me 1 hap."
+ },
+ "Viral Enhancers": {
+  "name": "Përforcues viralë",
+  "effects": [
+   "Kur luan një simbol bime, mikrobi ose kafshe, përfshirë këtë, merr 1 bimë ose shto 1 burim NË ATË KARTË."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Hiq deri në 2 kafshë ose 5 bimë nga çdo lojtar."
+ },
+ "SF Memorial": {
+  "name": "Memoriali i fantashkencës",
+  "desc": "Tërhiq 1 kartë."
+ },
+ "House Printing": {
+  "name": "Printim shtëpish",
+  "desc": "Rrit prodhimin tënd të çelikut me 1 hap."
+ },
+ "Space Hotels": {
+  "name": "Hotele hapësinore",
+  "desc": "Rrit prodhimin e M€ me 4 hapa."
+ },
+ "Martian Survey": {
+  "name": "Vëzhgim marsian",
+  "desc": "Tërhiq dy karta."
+ },
+ "Research Coordination": {
+  "name": "Koordinim kërkimesh",
+  "desc": "Pasi luhet, kur kryen një veprim, simboli xhoker llogaritet si çdo simbol që zgjedh ti."
+ },
+ "Lava Tube Settlement": {
+  "name": "Vendbanim në tunel lave",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 2 hapa. Vendos një pllakë qyteti NË NJË ZONË VULLKANIKE pavarësisht qyteteve fqinje."
+ },
+ "Psychrophiles": {
+  "name": "Psikrofilë",
+  "actions": [
+   "Shto 1 mikrob në këtë kartë."
+  ],
+  "effects": [
+   "Kur paguan për një kartë bime, mikrobet këtu mund të përdoren si 2 M€ secili."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Teknologji përshtatjeje",
+  "effects": [
+   "Kërkesat e tua globale janë +2 ose -2 hapa, sipas zgjedhjes sate në çdo rast."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Likene të përshtatura",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ekosisteme të avancuara"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroid amoniaku me aerofrenim",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 3 hapa dhe prodhimin e bimëve me 1 hap. Shto 2 mikrobe në NJË KARTË TJETËR."
+ },
+ "Ants": {
+  "name": "Milingona",
+  "actions": [
+   "Hiq 1 mikrob nga çdo kartë për të shtuar 1 në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo 2 mikrobe në këtë kartë."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Pompim akuiferi",
+  "actions": [
+   "Shpenzo 8 M€ për të vendosur 1 pllakë oqeani. MUND TË PËRDORET ÇELIK sikur të luash një kartë ndërtimi."
+  ]
+ },
+ "Algae": {
+  "name": "Alga",
+  "desc": "Merr 1 bimë dhe rrit prodhimin tënd të bimëve me 2 hapa."
+ },
+ "ArchaeBacteria": {
+  "name": "Arkebaktere",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap."
+ },
+ "Arctic Algae": {
+  "name": "Alga arktike",
+  "desc": "Merr 1 bimë.",
+  "effects": [
+   "Kur dikush vendos një pllakë oqeani, merr 2 bimë."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Liqen artificial",
+  "desc": "Vendos 1 pllakë oqeani NË NJË ZONË JO TË REZERVUAR PËR OQEAN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Fotosintezë artificiale",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap ose prodhimin e energjisë me 2 hapa.",
+  "orTitles": [
+   "Rrit prodhimin tënd të energjisë me 2 hapa",
+   "Rrit prodhimin tënd të bimëve me 1 hap"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Rrit temperaturën me 1 hap dhe merr 2 titan. Hiq deri në 3 bimë nga çdo lojtar."
+ },
+ "Asteroid Mining": {
+  "name": "Miniera asteroidesh",
+  "desc": "Rrit prodhimin tënd të titanit me 2 hapa."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Rreze nga një asteroid toriumi",
+  "desc": "Rrit prodhimin tënd të nxehtësisë dhe të energjisë me nga 3 hapa secilin."
+ },
+ "Big Asteroid": {
+  "name": "Asteroid i madh",
+  "desc": "Rrit temperaturën me 2 hapa dhe merr 4 titan. Hiq deri në 4 bimë nga çdo lojtar."
+ },
+ "Biomass Combustors": {
+  "name": "Djegës biomase",
+  "desc": "Ul prodhimin e bimëve të çdo lojtari me 1 hap dhe rrit prodhimin tënd të energjisë me 2 hapa."
+ },
+ "Birds": {
+  "name": "Zogj",
+  "desc": "Ul prodhimin e bimëve të çdo lojtari me 2 hapa. 1 PF për çdo kafshë në këtë kartë.",
+  "actions": [
+   "Shto një kafshë në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo kafshë në këtë kartë."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Pluhur i zi polar",
+  "desc": "Vendos një pllakë oqeani. Ul prodhimin tënd të M€ me 2 hapa dhe rrit prodhimin e nxehtësisë me 3 hapa."
+ },
+ "Breathing Filters": {
+  "name": "Filtra frymëmarrjeje"
+ },
+ "Bushes": {
+  "name": "Shkurre",
+  "desc": "Rrit prodhimin tënd të bimëve me 2 hapa. Merr 2 bimë."
+ },
+ "Capital": {
+  "name": "Kryeqytet",
+  "desc": "Vendos këtë pllakë. Ul prodhimin tënd të energjisë me 2 hapa dhe rrit prodhimin e M€ me 5 hapa.",
+  "vpText": [
+   "1 PF shtesë për çdo pllakë oqeani pranë kësaj pllake qyteti."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Përpunim karbonatesh",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e nxehtësisë me 3 hapa."
+ },
+ "Cloud Seeding": {
+  "name": "Mbjellje resh",
+  "desc": "Ul prodhimin tënd të M€ me 1 hap dhe prodhimin e nxehtësisë të çdo lojtari me 1 hap. Rrit prodhimin tënd të bimëve me 2 hapa."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kamp stërvitjeje për kolonë"
+ },
+ "Comet": {
+  "name": "Kometë",
+  "desc": "Rrit temperaturën me 1 hap dhe vendos një pllakë oqeani. Hiq deri në 3 bimë nga çdo lojtar."
+ },
+ "Convoy From Europa": {
+  "name": "Kolonë nga Evropa",
+  "desc": "Vendos 1 pllakë oqeani dhe tërhiq 1 kartë."
+ },
+ "Cupola City": {
+  "name": "Qytet nën kupolë",
+  "desc": "Vendos një pllakë qyteti. Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 3 hapa."
+ },
+ "Decomposers": {
+  "name": "Dekompozues",
+  "effects": [
+   "Kur luan një simbol kafshe, bime ose mikrobi, përfshirë këtë, shto një mikrob në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo 3 mikrobe në këtë kartë."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Ngrohje nga puse të thella",
+  "desc": "Rrit prodhimin tënd të energjisë me 1 hap. Rrit temperaturën me 1 hap."
+ },
+ "Deimos Down": {
+  "name": "Rënia e Deimosit",
+  "desc": "Rrit temperaturën me 3 hapa dhe merr 4 çelik. Hiq deri në 8 bimë nga çdo lojtar."
+ },
+ "Designed Microorganisms": {
+  "name": "Mikroorganizma të projektuar",
+  "desc": "Rrit prodhimin tënd të bimëve me 2 hapa."
+ },
+ "Domed Crater": {
+  "name": "Krater me kupolë",
+  "desc": "Merr 3 bimë. Vendos një pllakë qyteti. Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 3 hapa."
+ },
+ "Dust Seals": {
+  "name": "Izolues pluhuri"
+ },
+ "Ecological Zone": {
+  "name": "Zonë ekologjike",
+  "desc": "Vendos këtë pllakë pranë ÇDO gjelbërimi.",
+  "effects": [
+   "Kur luan një simbol kafshe ose bime, PËRFSHIRË KËTO, shto një kafshë në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo 2 kafshë në këtë kartë."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Kursim energjie",
+  "desc": "Rrit prodhimin tënd të energjisë me 1 hap për çdo pllakë qyteti në lojë."
+ },
+ "Eos Chasma National Park": {
+  "name": "Parku kombëtar Eos Chasma",
+  "desc": "Shto 1 kafshë NË ÇDO KARTË KAFSHËSH. Merr 3 bimë. Rrit prodhimin tënd të M€ me 2 hapa."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Magnetizues ekuatorial",
+  "actions": [
+   "Ul prodhimin tënd të energjisë me 1 hap për të rritur reitingun tënd të terraformimit me 1 hap."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Kërpudhë e të ftohtit ekstrem",
+  "actions": [
+   "Merr 1 bimë.",
+   "Shto 2 mikrobe në NJË KARTË TJETËR."
+  ]
+ },
+ "Farming": {
+  "name": "Bujqësi",
+  "desc": "Rrit prodhimin tënd të M€ me 2 hapa dhe prodhimin e bimëve me 2 hapa. Merr 2 bimë."
+ },
+ "Fish": {
+  "name": "Peshq",
+  "desc": "Ul prodhimin e bimëve të çdo lojtari me 1 hap.",
+  "actions": [
+   "Shto 1 kafshë në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo kafshë në këtë kartë."
+  ]
+ },
+ "Flooding": {
+  "name": "Përmbytje",
+  "desc": "Vendos një pllakë oqeani. NËSE KA PLLAKA PRANË KËSAJ PLLAKE OQEANI, MUND T'I HEQËSH 4 M€ PRONARIT TË NJËRËS PREJ TYRE."
+ },
+ "Food Factory": {
+  "name": "Fabrikë ushqimi",
+  "desc": "Ul prodhimin tënd të bimëve me 1 hap dhe rrit prodhimin e M€ me 4 hapa."
+ },
+ "Fusion Power": {
+  "name": "Energji e shkrirjes",
+  "desc": "Rrit prodhimin tënd të energjisë me 3 hapa."
+ },
+ "Fueled Generators": {
+  "name": "Gjeneratorë me karburant",
+  "desc": "Ul prodhimin tënd të M€ me 1 hap dhe rrit prodhimin e energjisë me 1 hap."
+ },
+ "Ganymede Colony": {
+  "name": "Kolonia e Ganimedit",
+  "desc": "Vendos një pllakë qyteti NË ZONËN E REZERVUAR.",
+  "vpText": [
+   "1 PF për çdo simbol Jupiteri që ke."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Energji gjeotermale",
+  "desc": "Rrit prodhimin tënd të energjisë me 2 hapa."
+ },
+ "GHG Factories": {
+  "name": "Fabrika GES",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e nxehtësisë me 4 hapa."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Baktere që prodhojnë GES",
+  "actions": [
+   "Shto 1 mikrob në këtë kartë.",
+   "Hiq 2 mikrobe për të rritur temperaturën me 1 hap."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroid gjigant akulli",
+  "desc": "Rrit temperaturën me 2 hapa dhe vendos 2 pllaka oqeani. Hiq deri në 6 bimë nga çdo lojtar."
+ },
+ "Giant Space Mirror": {
+  "name": "Pasqyrë gjigante hapësinore",
+  "desc": "Rrit prodhimin tënd të energjisë me 3 hapa."
+ },
+ "Grass": {
+  "name": "Bar",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap. Merr 3 bimë."
+ },
+ "Great Dam": {
+  "name": "Diga e madhe",
+  "desc": "Rrit prodhimin tënd të energjisë me 2 hapa."
+ },
+ "Greenhouses": {
+  "name": "Sera",
+  "desc": "Merr 1 bimë për çdo pllakë qyteti në lojë."
+ },
+ "Heather": {
+  "name": "Shqopë",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap. Merr 1 bimë."
+ },
+ "Heat Trappers": {
+  "name": "Kurthe nxehtësie",
+  "desc": "Ul prodhimin e nxehtësisë të çdo lojtari me 2 hapa dhe rrit prodhimin tënd të energjisë me 1 hap."
+ },
+ "Herbivores": {
+  "name": "Barngrënës",
+  "desc": "+1 kafshë në këtë kartë. -1 prodhim bimësh i çdo lojtari",
+  "effects": [
+   "Kur vendos një pllakë gjelbërimi, shto një kafshë në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo 2 kafshë në këtë kartë."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroid akulli",
+  "desc": "Vendos 2 pllaka oqeani."
+ },
+ "Ice Cap Melting": {
+  "name": "Shkrirja e kapakut të akullit",
+  "desc": "Vendos 1 pllakë oqeani."
+ },
+ "Immigrant City": {
+  "name": "Qytet emigrantësh",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe prodhimin e M€ me 2 hapa. Vendos një pllakë qyteti.",
+  "effects": [
+   "Kur vendoset një pllakë qyteti, përfshirë këtë, rrit prodhimin tënd të M€ me 1 hap."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Anije emigracioni",
+  "desc": "Rrit prodhimin tënd të M€ me 5 hapa.",
+  "vpText": [
+   "1 PF për çdo qytet të 3-të në lojë."
+  ]
+ },
+ "Imported GHG": {
+  "name": "GES të importuar",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 1 hap dhe merr 3 nxehtësi."
+ },
+ "Imported Hydrogen": {
+  "name": "Hidrogjen i importuar",
+  "desc": "Merr 3 bimë, ose shto 3 mikrobe ose 2 kafshë në NJË KARTË TJETËR. Vendos një pllakë oqeani.",
+  "orTitles": [
+   "Merr 3 bimë",
+   "Shto 3 mikrobe në NJË KARTË TJETËR",
+   "Shto 2 kafshë në NJË KARTË TJETËR"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Azot i importuar",
+  "desc": "Rrit TR me 1 hap dhe merr 4 bimë. Shto 3 mikrobe në NJË KARTË TJETËR dhe 2 kafshë në NJË KARTË TJETËR."
+ },
+ "Import of Advanced GHG": {
+  "name": "Import i GES të avancuar",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 2 hapa."
+ },
+ "Industrial Microbes": {
+  "name": "Mikrobe industriale",
+  "desc": "Rrit prodhimin tënd të energjisë dhe të çelikut me nga 1 hap secilin."
+ },
+ "Insects": {
+  "name": "Insekte",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap për çdo simbol bime që ke."
+ },
+ "Insulation": {
+  "name": "Izolim",
+  "desc": "Ul prodhimin tënd të nxehtësisë me sa hapa të duash dhe rrit prodhimin e M€ me po aq hapa."
+ },
+ "Ironworks": {
+  "name": "Shkritore hekuri",
+  "actions": [
+   "Shpenzo 4 energji për të marrë 1 çelik dhe për të rritur oksigjenin me 1 hap."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Kultivim algash kelp",
+  "desc": "Rrit prodhimin tënd të M€ me 2 hapa dhe prodhimin e bimëve me 3 hapa. Merr 2 bimë."
+ },
+ "Lake Marineris": {
+  "name": "Liqeni Marineris",
+  "desc": "Vendos 2 pllaka oqeani."
+ },
+ "Large Convoy": {
+  "name": "Kolonë e madhe",
+  "desc": "Vendos një pllakë oqeani dhe tërhiq 2 karta. Merr 5 bimë ose shto 4 kafshë në NJË KARTË TJETËR.",
+  "orTitles": [
+   "Merr 5 bimë",
+   "Shto 4 kafshë në NJË KARTË TJETËR"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Rrjedha lave",
+  "desc": "Rrit temperaturën me 2 hapa dhe vendos këtë pllakë OSE NË THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS OSE NË ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Likene",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap."
+ },
+ "Livestock": {
+  "name": "Bagëti",
+  "desc": "Ul prodhimin tënd të bimëve me 1 hap dhe rrit prodhimin e M€ me 2 hapa",
+  "actions": [
+   "Shto 1 kafshë në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo kafshë në këtë kartë."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Kapje lokale e nxehtësisë",
+  "desc": "Shpenzo 5 nxehtësi për të marrë 4 bimë, ose për të shtuar 2 kafshë në NJË KARTË TJETËR.",
+  "orTitles": [
+   "Merr 4 bimë",
+   "Shto 2 kafshë në NJË KARTË TJETËR"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Rreze hënore",
+  "desc": "Ul prodhimin tënd të M€ me 2 hapa dhe rrit prodhimin e nxehtësisë dhe të energjisë me nga 2 hapa secilin."
+ },
+ "Magnetic Field Dome": {
+  "name": "Kupolë e fushës magnetike",
+  "desc": "Ul prodhimin tënd të energjisë me 2 hapa dhe rrit prodhimin e bimëve me 1 hap. Rrit TR me 1 hap."
+ },
+ "Magnetic Field Generators": {
+  "name": "Gjeneratorë të fushës magnetike",
+  "desc": "Ul prodhimin tënd të energjisë me 4 hapa dhe rrit prodhimin e bimëve me 2 hapa. Rrit TR me 3 hapa."
+ },
+ "Mangrove": {
+  "name": "Mangrova",
+  "desc": "Vendos një pllakë gjelbërimi NË NJË ZONË TË REZERVUAR PËR OQEAN dhe rrit oksigjenin me 1 hap. Për këtë mos merr parasysh kufizimet e zakonshme të vendosjes."
+ },
+ "Martian Rails": {
+  "name": "Hekurudha marsiane",
+  "actions": [
+   "Shpenzo 1 energji për të marrë 1 M€ për çdo pllakë qyteti NË MARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metan nga Titani",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 2 hapa dhe prodhimin e bimëve me 2 hapa."
+ },
+ "Micro-Mills": {
+  "name": "Mikromullinj",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 1 hap."
+ },
+ "Mining Expedition": {
+  "name": "Ekspeditë minerare",
+  "desc": "Rrit oksigjenin me 1 hap. Hiq 2 bimë nga çdo lojtar. Merr 2 çelik."
+ },
+ "Mining Rights": {
+  "name": "Të drejta minerare",
+  "desc": "Vendos këtë pllakë në një zonë me shpërblim vendosjeje çeliku ose titani. Rrit atë prodhim me 1 hap."
+ },
+ "Mohole Area": {
+  "name": "Zona e Moholit",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 4 hapa. Vendos këtë pllakë NË NJË ZONË TË REZERVUAR PËR OQEAN."
+ },
+ "Moss": {
+  "name": "Myshk",
+  "desc": "Humb 1 bimë. Rrit prodhimin tënd të bimëve me 1 hap."
+ },
+ "Natural Preserve": {
+  "name": "Rezervat natyror",
+  "desc": "Vendos këtë pllakë JO PRANË ASNJË PLLAKE TJETËR. Rrit prodhimin tënd të M€ me 1 hap."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Baktere që reduktojnë nitritet",
+  "desc": "Shto 3 mikrobe në këtë kartë.",
+  "actions": [
+   "Shto 1 mikrob në këtë kartë.",
+   "Hiq 3 mikrobe për të rritur TR me 1 hap."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid i pasur me azot",
+  "desc": "Rrit reitingun tënd të terraformimit me 2 hapa dhe temperaturën me 1 hap. Rrit prodhimin tënd të bimëve me 1 hap, ose me 4 hapa nëse ke 3 simbole bime."
+ },
+ "Nitrophilic Moss": {
+  "name": "Myshk nitrofil",
+  "desc": "Humb 2 bimë. Rrit prodhimin tënd të bimëve me 2 hapa."
+ },
+ "Noctis City": {
+  "name": "Qyteti Noctis",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 3 hapa. Vendos një pllakë qyteti NË ZONËN E REZERVUAR, pa marrë parasysh kufizimet e zakonshme të vendosjes."
+ },
+ "Noctis Farming": {
+  "name": "Bujqësi në Noctis",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap dhe merr 2 bimë."
+ },
+ "Nuclear Power": {
+  "name": "Energji bërthamore",
+  "desc": "Ul prodhimin tënd të M€ me 2 hapa dhe rrit prodhimin e energjisë me 3 hapa."
+ },
+ "Nuclear Zone": {
+  "name": "Zonë bërthamore",
+  "desc": "Vendos këtë pllakë dhe rrit temperaturën me 2 hapa."
+ },
+ "Open City": {
+  "name": "Qytet i hapur",
+  "desc": "Merr 2 bimë. Vendos një pllakë qyteti. Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 4 hapa."
+ },
+ "Optimal Aerobraking": {
+  "name": "Aerofrenim optimal",
+  "effects": [
+   "Kur luan një ngjarje hapësire, merr 3 M€ dhe 3 nxehtësi."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Përpunues mineralesh",
+  "actions": [
+   "Shpenzo 4 energji për të marrë 1 titan dhe për të rritur oksigjenin me 1 hap."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Nxjerrje nga ngrica e përhershme",
+  "desc": "Vendos 1 pllakë oqeani."
+ },
+ "Peroxide Power": {
+  "name": "Energji peroksidi",
+  "desc": "Ul prodhimin tënd të M€ me 1 hap dhe rrit prodhimin e energjisë me 2 hapa."
+ },
+ "Pets": {
+  "name": "Kafshë shtëpiake",
+  "desc": "Shto 1 kafshë në këtë kartë.",
+  "effects": [
+   "Kur vendoset çdo pllakë qyteti, shto një kafshë në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo 2 kafshë këtu."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Porti hapësinor i Fobosit",
+  "desc": "Rrit prodhimin tënd të titanit me 1 hap dhe vendos një pllakë qyteti NË ZONËN E REZERVUAR."
+ },
+ "Plantation": {
+  "name": "Plantacion",
+  "desc": "Vendos një pllakë gjelbërimi dhe rrit oksigjenin me 1 hap."
+ },
+ "Power Grid": {
+  "name": "Rrjet elektrik",
+  "desc": "Rrit prodhimin tënd të energjisë me një hap për çdo simbol energjie që ke, përfshirë këtë."
+ },
+ "Power Plant": {
+  "name": "Central elektrik",
+  "desc": "Rrit prodhimin tënd të energjisë me 1 hap."
+ },
+ "Predators": {
+  "name": "Grabitqarë",
+  "actions": [
+   "Hiq 1 kafshë nga çdo kartë dhe shtoje në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo kafshë në këtë kartë."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Lugina e mbrojtur",
+  "desc": "Rrit prodhimin tënd të M€ me 2 hapa. Vendos një pllakë gjelbërimi NË NJË ZONË TË REZERVUAR PËR OQEAN, pa marrë parasysh kufizimet e zakonshme të vendosjes, dhe rrit oksigjenin me 1 hap."
+ },
+ "Rad-Chem Factory": {
+  "name": "Fabrikë radiokimike",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap. Rrit TR me 2 hapa."
+ },
+ "Regolith Eaters": {
+  "name": "Ngrënës regoliti",
+  "actions": [
+   "Shto 1 mikrob në këtë kartë.",
+   "Hiq 2 mikrobe nga kjo kartë për të rritur nivelin e oksigjenit me 1 hap."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Çlirim gazesh inerte",
+  "desc": "Rrit reitingun tënd të terraformimit me 2 hapa."
+ },
+ "Research Outpost": {
+  "name": "Post kërkimor",
+  "desc": "Vendos një pllakë qyteti JO PRANË ASNJË PLLAKE TJETËR.",
+  "effects": [
+   "Kur luan një kartë, paguan 1 M€ më pak për të."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Ndërtim roverësh",
+  "effects": [
+   "Kur vendoset çdo pllakë qyteti, merr 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Kërkim për jetë",
+  "actions": [
+   "Shpenzo 1 M€ për të zbuluar kartën e sipërme të destës. Nëse ajo kartë ka simbol mikrobi, shto këtu një burim shkencor."
+  ],
+  "vpText": [
+   "3 PF nëse ke këtu një ose më shumë burime shkencore."
+  ]
+ },
+ "Shuttles": {
+  "name": "Anije transporti",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 2 hapa.",
+  "effects": [
+   "Kur luan një kartë hapësire, paguan 2 M€ më pak për të."
+  ]
+ },
+ "Small Animals": {
+  "name": "Kafshë të vogla",
+  "desc": "Ul prodhimin e bimëve të çdo lojtari me 1 hap.",
+  "actions": [
+   "Shto 1 kafshë në këtë kartë."
+  ],
+  "vpText": [
+   "1 PF për çdo 2 kafshë në këtë kartë."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Fabrikë dheu",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e bimëve me 1 hap."
+ },
+ "Solar Power": {
+  "name": "Energji diellore",
+  "desc": "Rrit prodhimin tënd të energjisë me 1 hap."
+ },
+ "Solar Wind Power": {
+  "name": "Energji e erës diellore",
+  "desc": "Rrit prodhimin tënd të energjisë me 1 hap dhe merr 2 titan."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 7 hapa."
+ },
+ "Space Mirrors": {
+  "name": "Pasqyra hapësinore",
+  "actions": [
+   "Shpenzo 7 M€ për të rritur prodhimin tënd të energjisë me 1 hap."
+  ]
+ },
+ "Special Design": {
+  "name": "Projektim i veçantë",
+  "desc": "Karta e radhës që luan në këtë brez ka kërkesat globale +2 ose -2 hapa, sipas zgjedhjes sate."
+ },
+ "Steelworks": {
+  "name": "Çeliktore",
+  "actions": [
+   "Shpenzo 4 energji për të marrë 2 çelik dhe për të rritur oksigjenin me 1 hap."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Minierë sipërfaqësore",
+  "desc": "Ul prodhimin tënd të energjisë me 2 hapa. Rrit prodhimin e çelikut me 2 hapa dhe prodhimin e titanit me 1 hap. Rrit oksigjenin me 2 hapa."
+ },
+ "Subterranean Reservoir": {
+  "name": "Rezervuar nëntokësor",
+  "desc": "Vendos 1 pllakë oqeani."
+ },
+ "Symbiotic Fungus": {
+  "name": "Kërpudhë simbiotike",
+  "actions": [
+   "Shto një mikrob në NJË KARTË TJETËR."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Energji e stresit tektonik",
+  "desc": "Rrit prodhimin tënd të energjisë me 3 hapa."
+ },
+ "Towing A Comet": {
+  "name": "Tërheqja e një komete",
+  "desc": "Merr 2 bimë. Rrit nivelin e oksigjenit me 1 hap dhe vendos një pllakë oqeani."
+ },
+ "Trees": {
+  "name": "Pemë",
+  "desc": "Rrit prodhimin tënd të bimëve me 3 hapa. Merr 1 bimë."
+ },
+ "Tundra Farming": {
+  "name": "Bujqësi në tundër",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap dhe prodhimin e M€ me 2 hapa. Merr 1 bimë."
+ },
+ "Underground City": {
+  "name": "Qytet nëntokësor",
+  "desc": "Vendos një pllakë qyteti. Ul prodhimin tënd të energjisë me 2 hapa dhe rrit prodhimin e çelikut me 2 hapa."
+ },
+ "Underground Detonations": {
+  "name": "Shpërthime nëntokësore",
+  "actions": [
+   "Shpenzo 10 M€ për të rritur prodhimin tënd të nxehtësisë me 2 hapa."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Zonë e urbanizuar",
+  "desc": "Ul prodhimin tënd të energjisë me 1 hap dhe rrit prodhimin e M€ me 2 hapa. Vendos një pllakë qyteti PRANË TË PAKTËN 2 PLLAKAVE TË TJERA QYTETI."
+ },
+ "Water Import From Europa": {
+  "name": "Import uji nga Evropa",
+  "actions": [
+   "Paguaj 12 M€ për të vendosur një pllakë oqeani. MUND TË PËRDORET TITAN sikur të luash një kartë hapësire."
+  ],
+  "vpText": [
+   "1 PF për çdo simbol Jupiteri që ke."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Impiant ndarjeje uji",
+  "actions": [
+   "Shpenzo 3 energji për të rritur oksigjenin me 1 hap."
+  ]
+ },
+ "Wave Power": {
+  "name": "Energji e valëve",
+  "desc": "Rrit prodhimin tënd të energjisë me 1 hap."
+ },
+ "Windmills": {
+  "name": "Mullinj ere",
+  "desc": "Rrit prodhimin tënd të energjisë me 1 hap."
+ },
+ "Worms": {
+  "name": "Krimba",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap për çdo 2 simbole mikrobi që ke, përfshirë këtë."
+ },
+ "Zeppelins": {
+  "name": "Cepelinë",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap për çdo pllakë qyteti NË MARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Fillon me 1 prodhim titani dhe 42 M€.",
+  "effects": [
+   "Sa herë që hyn në lojë çdo simbol Jupiteri, përfshirë këtë, rrit prodhimin tënd të M€ me 1 hap."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Fillon me 60 M€.",
+  "effects": [
+   "Kur luan një simbol Toke, paguan 3 M€ më pak për të."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Fillon me 3 prodhim M€ dhe 44 M€.",
+  "effects": [
+   "Kur luan një simbol ndërtimi, paguan 2 M€ më pak për të."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Fillon me 1 prodhim titani dhe 38 M€.",
+  "effects": [
+   "Kur luan një simbol Toke, përfshirë këtë, tërhiq një kartë."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Fillon me 47 M€.",
+  "actions": [
+   "Shpenzo 4 M€ për të rritur (njërin nga) prodhimet e tua MË TË ULËTA me 1 hap."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Fillon me 37 M€. Si veprim të parë, tërhiq 3 karta prelude dhe luaj njërën prej tyre. Hidhi dy të tjerat.",
+  "effects": [
+   "Kur luan një simbol shkence, paguan 2 M€ më pak për të."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Fillon me 45 M€. Si veprim të parë, financo falas një çmim.",
+  "effects": [
+   "Kur luan një kartë me ikonë PF JO NEGATIVE, përfshirë këtë, merr 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Korporatë për fillestarë",
+  "desc": "Fillon me 42 M€. Në vend që të zgjedhësh nga 10 karta gjatë përgatitjes, merr 10 karta falas."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Fillon me 57 M€.",
+  "effects": [
+   "Pasi paguan për një kartë ose projekt standard me kosto bazë 20 M€ ose më shumë, merr 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Fillon me 2 prodhim bimësh, 3 bimë dhe 36 M€.",
+  "effects": [
+   "Për të vendosur gjelbërim mund të paguash gjithmonë 7 bimë në vend të 8."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Fillon me 3 prodhim nxehtësie dhe 42 M€.",
+  "effects": [
+   "Mund ta përdorësh nxehtësinë si M€. Nuk mund t'i përdorësh M€ si nxehtësi."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Fillon me 20 çelik dhe 30 M€.",
+  "effects": [
+   "Sa herë që luan një ngjarje, merr 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Si veprim të parë në lojë, tërhiq 3 karta. Fillon me 45 M€.",
+  "effects": [
+   "Kërkesat e tua për temperaturën, oksigjenin, oqeanet dhe Venusin janë +2 ose -2 hapa, sipas zgjedhjes sate në çdo rast."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Esnafi i minatorëve",
+  "desc": "Fillon me 30 M€, 5 çelik dhe 1 prodhim çeliku.",
+  "effects": [
+   "Sa herë që vendos një pllakë në një zonë me shpërblim vendosjeje çeliku ose titani, rrit prodhimin tënd të çelikut me 1 hap"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Fillon me 10 titan dhe 23 M€.",
+  "effects": [
+   "Çdo titan që ke vlen 1 M€ më shumë."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republika e Tharsisit",
+  "desc": "Fillon me 40 M€. Si veprim të parë në lojë, vendos një pllakë qyteti.",
+  "effects": [
+   "Kur vendoset çdo pllakë qyteti NË MARS, rrit prodhimin tënd të M€ me 1 hap. Kur vendos ti një pllakë qyteti, merr 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Fillon me 1 prodhim energjie dhe 48 M€.",
+  "effects": [
+   "Kur luan një kartë energjie OSE PROJEKTIN STANDARD CENTRAL ELEKTRIK, paguan 3 M€ më pak për të."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Nisma e OKB-së për Marsin",
+  "desc": "Fillon me 40 M€.",
+  "actions": [
+   "Nëse reitingu yt i terraformimit është rritur në këtë brez, mund të paguash 3 M€ për ta rritur edhe me 1 hap."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Banka aleate",
+  "desc": "Rrit prodhimin tënd të M€ me 4 hapa. Merr 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Mbështetje për biosferën",
+  "desc": "Rrit prodhimin tënd të bimëve me 2 hapa. Ul prodhimin tënd të M€ me 1 hap."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbina akuiferi",
+  "desc": "Vendos një pllakë oqeani. Rrit prodhimin tënd të energjisë me 2 hapa. Paguaj 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Gërmimi i Moholit",
+  "desc": "Rrit prodhimin tënd të çelikut me 1 hap dhe prodhimin e nxehtësisë me 2 hapa. Merr 2 nxehtësi."
+ },
+ "Early Settlement": {
+  "name": "Vendbanim i hershëm",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap. Vendos një pllakë qyteti."
+ },
+ "Biofuels": {
+  "name": "Biokarburante",
+  "desc": "Rrit prodhimin tënd të energjisë dhe të bimëve me 1 hap. Merr 2 bimë."
+ },
+ "Power Generation": {
+  "name": "Prodhim energjie",
+  "desc": "Rrit prodhimin tënd të energjisë me 3 hapa."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Vendbanim i vetëmjaftueshëm",
+  "desc": "Rrit prodhimin tënd të M€ me 2 hapa. Vendos një pllakë qyteti."
+ },
+ "Mining Operations": {
+  "name": "Operacione minerare",
+  "desc": "Rrit prodhimin tënd të çelikut me 2 hapa. Merr 4 çelik."
+ },
+ "UNMI Contractor": {
+  "name": "Kontraktor i UNMI",
+  "desc": "Rrit TR me 3 hapa. Tërhiq një kartë."
+ },
+ "Dome Farming": {
+  "name": "Bujqësi nën kupolë",
+  "desc": "Rrit prodhimin tënd të M€ me 2 hapa dhe prodhimin e bimëve me 1 hap."
+ },
+ "Business Empire": {
+  "name": "Perandori biznesi",
+  "desc": "Rrit prodhimin tënd të M€ me 6 hapa. Paguaj 6 M€."
+ },
+ "Donation": {
+  "name": "Dhurim",
+  "desc": "Merr 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Ngarkesë azoti",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap. Rrit TR me 1 hap. Merr 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Shkritore",
+  "desc": "Rrit oksigjenin me 2 hapa. Merr 5 çelik."
+ },
+ "Supplier": {
+  "name": "Furnizues",
+  "desc": "Rrit prodhimin tënd të energjisë me 2 hapa. Merr 4 çelik."
+ },
+ "Supply Drop": {
+  "name": "Hedhje furnizimesh",
+  "desc": "Merr 3 titan, 8 çelik dhe 3 bimë."
+ },
+ "Great Aquifer": {
+  "name": "Akuiferi i madh",
+  "desc": "Vendos 2 pllaka oqeani."
+ },
+ "Biolab": {
+  "name": "Biolaborator",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap. Tërhiq 3 karta."
+ },
+ "Martian Industries": {
+  "name": "Industritë marsiane",
+  "desc": "Rrit prodhimin tënd të energjisë dhe të çelikut me 1 hap. Merr 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Post kërkimor në Io",
+  "desc": "Rrit prodhimin tënd të titanit me 1 hap. Tërhiq një kartë."
+ },
+ "Polar Industries": {
+  "name": "Industritë polare",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 2 hapa. Vendos një pllakë oqeani."
+ },
+ "Society Support": {
+  "name": "Mbështetje shoqërore",
+  "desc": "Rrit prodhimin tënd të bimëve, energjisë dhe nxehtësisë me 1 hap. Ul prodhimin e M€ me 1 hap."
+ },
+ "Galilean Mining": {
+  "name": "Miniera në hënat e Galileut",
+  "desc": "Rrit prodhimin tënd të titanit me 2 hapa. Paguaj 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroid gjigant",
+  "desc": "Rrit temperaturën me 3 hapa. Paguaj 5 M€."
+ },
+ "Metals Company": {
+  "name": "Kompani metalesh",
+  "desc": "Rrit prodhimin tënd të M€, çelikut dhe titanit me 1 hap."
+ },
+ "Loan": {
+  "name": "Hua",
+  "desc": "Merr 30 M€. Ul prodhimin tënd të M€ me 2 hapa."
+ },
+ "Mohole": {
+  "name": "Mohol",
+  "desc": "Rrit prodhimin tënd të nxehtësisë me 3 hapa. Merr 3 nxehtësi."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid i pasur me metale",
+  "desc": "Rrit temperaturën me 1 hap. Merr 4 titan dhe 4 çelik."
+ },
+ "Orbital Construction Yard": {
+  "name": "Kantier orbital ndërtimi",
+  "desc": "Rrit prodhimin tënd të titanit me 1 hap. Merr 4 titan."
+ },
+ "Acquired Space Agency": {
+  "name": "Agjenci hapësinore e blerë",
+  "desc": "Merr 6 titan. Zbulo karta derisa të zbulosh dy karta me simbol hapësire. Merri ato në dorë, hidhi të tjerat."
+ },
+ "Research Network": {
+  "name": "Rrjet kërkimor",
+  "desc": "Rrit prodhimin tënd të M€ me 1 hap. Tërhiq 3 karta. Pasi luhet, kur kryen një veprim, simboli xhoker llogaritet si çdo simbol që zgjedh ti."
+ },
+ "Eccentric Sponsor": {
+  "name": "Sponsor ekscentrik",
+  "desc": "LUAJ NJË KARTË NGA DORA ME ZBRITJE 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Ekspertë ekologjie",
+  "desc": "Rrit prodhimin tënd të bimëve me 1 hap. LUAJ NJË KARTË NGA DORA, DUKE INJORUAR KËRKESAT GLOBALE."
+ },
+ "Experimental Forest": {
+  "name": "Pyll eksperimental",
+  "desc": "Vendos 1 pllakë gjelbërimi dhe rrit oksigjenin me 1 hap. Zbulo karta derisa të zbulosh dy karta me simbol bime. Merri ato në dorë dhe hidhi të tjerat."
+ }
+}

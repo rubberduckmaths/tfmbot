@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Erositako enpresa",
+  "desc": "Igo zure M€ ekoizpena 3 maila."
+ },
+ "Advanced Alloys": {
+  "name": "Aleazio aurreratuak",
+  "effects": [
+   "Duzun titanio bakoitzak 1 M€ gehiago balio du.",
+   "Duzun altzairu bakoitzak 1 M€ gehiago balio du."
+  ]
+ },
+ "AI Central": {
+  "name": "AA zentrala",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1.",
+  "actions": [
+   "Atera 2 karta."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigrabitate-teknologia",
+  "effects": [
+   "Karta bat jokatzen duzunean, 2 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroide-meatzaritzako partzuergoa",
+  "desc": "Jaitsi edozein titanio-ekoizpen maila 1 eta igo zurea maila 1."
+ },
+ "Bribed Committee": {
+  "name": "Erositako batzordea",
+  "desc": "Igo zure TM 2 maila."
+ },
+ "Building Industries": {
+  "name": "Eraikuntza-industriak",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure altzairu-ekoizpena 2 maila."
+ },
+ "Business Contacts": {
+  "name": "Negozio-harremanak",
+  "desc": "Begiratu sortako goiko 4 kartak. Hartu 2 eskura eta baztertu gainerakoak."
+ },
+ "Business Network": {
+  "name": "Negozio-sarea",
+  "desc": "Jaitsi zure M€ ekoizpena maila 1.",
+  "actions": [
+   "Begiratu goiko karta eta erosi edo baztertu."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Kalistoko zigor-meategiak",
+  "desc": "Igo zure M€ ekoizpena 3 maila."
+ },
+ "Caretaker Contract": {
+  "name": "Zaintza-kontratua",
+  "actions": [
+   "Gastatu 8 bero zure terraformazio-maila maila 1 igotzeko."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartela",
+  "desc": "Igo zure M€ ekoizpena maila 1 duzun Lur-etiketa bakoitzeko, hau barne."
+ },
+ "CEO's Favorite Project": {
+  "name": "Zuzendariaren proiektu kuttuna",
+  "desc": "Gehitu baliabide 1 gutxienez baliabide 1 duen zure edozein kartari."
+ },
+ "Commercial District": {
+  "name": "Merkataritza-auzoa",
+  "desc": "Jarri lauza hau. Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 4 maila.",
+  "vpText": [
+   "GP 1 ondoko hiri-lauza bakoitzeko."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Korporazioaren gotorlekua",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 3 maila. Jarri hiri-lauza bat."
+ },
+ "Development Center": {
+  "name": "Garapen-zentroa",
+  "actions": [
+   "Gastatu energia 1 karta bat ateratzeko."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Lurreko katapulta",
+  "effects": [
+   "Karta bat jokatzen duzunean, 2 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Earth Office": {
+  "name": "Lurreko bulegoa",
+  "effects": [
+   "Lur-etiketa bat jokatzen duzunean, 3 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Katapulta elektrikoa",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1.",
+  "actions": [
+   "Gastatu landare 1 edo altzairu 1, 7 M€ lortzeko."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Energia-lapurreta",
+  "desc": "Jaitsi edozein energia-ekoizpen maila 1 eta igo zurea maila 1."
+ },
+ "Fuel Factory": {
+  "name": "Erregai-fabrika",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure titanio- eta M€ ekoizpenak maila 1 bakoitza."
+ },
+ "Gene Repair": {
+  "name": "Gene-konponketa",
+  "desc": "Igo zure M€ ekoizpena 2 maila."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Ezpondura Handiko partzuergoa",
+  "desc": "Jaitsi edozein altzairu-ekoizpen maila 1 eta igo zurea maila 1."
+ },
+ "Hackers": {
+  "name": "Hackerrak",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta edozein M€ ekoizpen 2 maila. Igo zure M€ ekoizpena 2 maila."
+ },
+ "Hired Raiders": {
+  "name": "Kontratatutako erasotzaileak",
+  "desc": "Lapurtu gehienez 2 altzairu, edo 3 M€, edozein jokalariri."
+ },
+ "Indentured Workers": {
+  "name": "Kontratupeko langileak",
+  "desc": "Belaunaldi honetan jokatzen duzun hurrengo kartak 8 M€ gutxiago balio du."
+ },
+ "Industrial Center": {
+  "name": "Industria-gunea",
+  "desc": "Jarri lauza hau hiri-lauza baten ondoan.",
+  "actions": [
+   "Gastatu 7 M€ zure altzairu-ekoizpena maila 1 igotzeko."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Izarrarteko kolonia-ontzia"
+ },
+ "Invention Contest": {
+  "name": "Asmakizun-lehiaketa",
+  "desc": "Begiratu sortako goiko 3 kartak. Hartu 1 eskura eta baztertu gainerakoak."
+ },
+ "Inventors' Guild": {
+  "name": "Asmatzaileen gremioa",
+  "actions": [
+   "Begiratu goiko karta eta erosi edo baztertu."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Inbertsio-mailegua",
+  "desc": "Jaitsi zure M€ ekoizpena maila 1. Lortu 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Ioko meatze-industriak",
+  "desc": "Igo zure titanio-ekoizpena 2 maila eta zure M€ ekoizpena 2 maila.",
+  "vpText": [
+   "GP 1 duzun Jupiter-etiketa bakoitzeko."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrange behatokia",
+  "desc": "Atera karta 1."
+ },
+ "Land Claim": {
+  "name": "Lur-erreklamazioa",
+  "desc": "Erreserbatu erreserbatu gabeko gune bat zuretzat: zuk bakarrik jar dezakezu lauza bat bertan."
+ },
+ "Lightning Harvest": {
+  "name": "Tximista-uzta",
+  "desc": "Igo zure energia-ekoizpena eta zure M€ ekoizpena maila bana."
+ },
+ "Mars University": {
+  "name": "Marteko unibertsitatea",
+  "effects": [
+   "Zientzia-etiketa bat jokatzen duzunean, hau barne, eskuko karta bat baztertu dezakezu karta bat ateratzeko."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Masa-bihurgailua",
+  "desc": "Igo zure energia-ekoizpena 6 maila.",
+  "effects": [
+   "Espazio-karta bat jokatzen duzunean, 2 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Media Archives": {
+  "name": "Hedabideen artxiboak",
+  "desc": "Lortu 1 M€ jokalari guztiek INOIZ JOKATUTAKO gertaera bakoitzeko."
+ },
+ "Media Group": {
+  "name": "Komunikabide-taldea",
+  "effects": [
+   "Gertaera-karta bat jokatu ondoren, 3 M€ lortzen dituzu."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Laborategi medikoa",
+  "desc": "Igo zure M€ ekoizpena maila 1 dituzun 2 eraikuntza-etiketako, hau barne."
+ },
+ "Mine": {
+  "name": "Meategia",
+  "desc": "Igo zure altzairu-ekoizpena maila 1."
+ },
+ "Mineral Deposit": {
+  "name": "Mineral-hobia",
+  "desc": "Lortu 5 altzairu."
+ },
+ "Mining Area": {
+  "name": "Meatze-eremua",
+  "desc": "Jarri lauza hau altzairu- edo titanio-bonusa duen gune batean, zure beste lauza baten ondoan. Igo baliabide horren ekoizpena maila 1."
+ },
+ "Miranda Resort": {
+  "name": "Mirandako estazioa",
+  "desc": "Igo zure M€ ekoizpena maila 1 duzun Lur-etiketa bakoitzeko."
+ },
+ "Olympus Conference": {
+  "name": "Olinpoko konferentzia",
+  "desc": "Zientzia-etiketa bat jokatzen duzunean, hau barne, gehitu zientzia-baliabide bat karta honi, edo kendu zientzia-baliabide bat karta honetatik karta bat ateratzeko."
+ },
+ "Physics Complex": {
+  "name": "Fisika-konplexua",
+  "actions": [
+   "Gastatu 6 energia zientzia-baliabide bat karta honi gehitzeko."
+  ],
+  "vpText": [
+   "2 GP karta honetako zientzia-baliabide bakoitzeko."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energia-azpiegitura",
+  "actions": [
+   "Gastatu nahi adina energia eta lortu beste hainbeste M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Energia-hornidurako partzuergoa",
+  "desc": "Jaitsi edozein energia-ekoizpen maila 1 eta igo zurea maila 1."
+ },
+ "Protected Habitats": {
+  "name": "Habitat babestuak",
+  "effects": [
+   "Aurkariek ezin dituzte zure landareak, animaliak edo mikrobioak kendu."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Erauzgailu kuantikoa",
+  "desc": "Igo zure energia-ekoizpena 4 maila.",
+  "effects": [
+   "Espazio-karta bat jokatzen duzunean, 2 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Erradiazio-jantziak",
+  "desc": "Igo zure M€ ekoizpena maila 1."
+ },
+ "Research": {
+  "name": "Ikerketa",
+  "desc": "2 zientzia-karta jokatzea bezala zenbatzen da. Atera 2 karta."
+ },
+ "Restricted Area": {
+  "name": "Eremu murriztua",
+  "desc": "Jarri lauza hau.",
+  "actions": [
+   "Gastatu 2 M€ karta bat ateratzeko."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robot-langileak",
+  "desc": "Bikoiztu zure eraikuntza-karta bateko ekoizpen-koadroa soilik."
+ },
+ "Sabotage": {
+  "name": "Sabotajea",
+  "desc": "Kendu gehienez 3 titanio edozein jokalariri, edo 4 altzairu, edo 7 M€."
+ },
+ "Satellites": {
+  "name": "Sateliteak",
+  "desc": "Igo zure M€ ekoizpena maila 1 duzun espazio-etiketa bakoitzeko, hau barne."
+ },
+ "Security Fleet": {
+  "name": "Segurtasun-flota",
+  "actions": [
+   "Gastatu titanio 1 ehiza-hegazkin 1 karta honi gehitzeko."
+  ],
+  "vpText": [
+   "GP 1 karta honetako ehiza-hegazkin bakoitzeko."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Espazio-igogailua",
+  "desc": "Igo zure titanio-ekoizpena maila 1.",
+  "actions": [
+   "Gastatu altzairu 1, 5 M€ lortzeko."
+  ]
+ },
+ "Space Station": {
+  "name": "Espazio-estazioa",
+  "effects": [
+   "Espazio-karta bat jokatzen duzunean, 2 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Sponsors": {
+  "name": "Babesleak",
+  "desc": "Igo zure M€ ekoizpena 2 maila."
+ },
+ "Standard Technology": {
+  "name": "Teknologia estandarra",
+  "effects": [
+   "Proiektu estandar bat ordaindu ondoren, patenteak saltzea izan ezik, 3 M€ lortzen dituzu."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigradoak",
+  "actions": [
+   "Gehitu mikrobio 1 karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako 4 mikrobioko."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Erakustaldi teknologikoa",
+  "desc": "Atera bi karta."
+ },
+ "Terraforming Ganymede": {
+  "name": "Ganimedes terraformatzea",
+  "desc": "Igo zure TM maila 1 duzun Jupiter-etiketa bakoitzeko, hau barne."
+ },
+ "Titanium Mine": {
+  "name": "Titanio-meategia",
+  "desc": "Igo zure titanio-ekoizpena maila 1."
+ },
+ "Toll Station": {
+  "name": "Bidesari-gunea",
+  "desc": "Igo zure M€ ekoizpena maila 1 zure AURKARIEK duten espazio-etiketa bakoitzeko."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Neptunoz haraindiko zunda",
+  "desc": "Espazio sakoneko zunda bat: GP 1 balio du."
+ },
+ "Tropical Resort": {
+  "name": "Estazio tropikala",
+  "desc": "Jaitsi zure bero-ekoizpena 2 maila eta igo zure M€ ekoizpena 3 maila."
+ },
+ "Vesta Shipyard": {
+  "name": "Vestako ontziola",
+  "desc": "Igo zure titanio-ekoizpena maila 1."
+ },
+ "Viral Enhancers": {
+  "name": "Hobekuntza birikoak",
+  "effects": [
+   "Landare-, mikrobio- edo animalia-etiketa bat jokatzen duzunean, hau barne, lortu landare 1 edo gehitu baliabide 1 KARTA HORRI."
+  ]
+ },
+ "Virus": {
+  "name": "Birusa",
+  "desc": "Kendu gehienez 2 animalia edo 5 landare edozein jokalariri."
+ },
+ "SF Memorial": {
+  "name": "Zientzia-fikzioaren oroigarria",
+  "desc": "Atera karta 1."
+ },
+ "House Printing": {
+  "name": "Etxeen inprimaketa",
+  "desc": "Igo zure altzairu-ekoizpena maila 1."
+ },
+ "Space Hotels": {
+  "name": "Espazio-hotelak",
+  "desc": "Igo M€ ekoizpena 4 maila."
+ },
+ "Martian Survey": {
+  "name": "Marteko azterketa",
+  "desc": "Atera bi karta."
+ },
+ "Research Coordination": {
+  "name": "Ikerketa-koordinazioa",
+  "desc": "Jokatu ondoren, ekintza bat egiten duzunean, komodin-etiketa zuk aukeratutako edozein etiketa bezala zenbatzen da."
+ },
+ "Lava Tube Settlement": {
+  "name": "Laba-hodiko asentamendua",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 2 maila. Jarri hiri-lauza bat GUNE BOLKANIKO BATEAN, ondoko hiriak kontuan hartu gabe."
+ },
+ "Psychrophiles": {
+  "name": "Psikrofiloak",
+  "actions": [
+   "Gehitu mikrobio 1 karta honi."
+  ],
+  "effects": [
+   "Landare-karta bat ordaintzean, hemengo mikrobioak 2 M€ bakoitza bezala erabil daitezke."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Egokitzapen-teknologia",
+  "effects": [
+   "Zure baldintza globalak +2 edo -2 maila dira, zuk aukeratuta kasu bakoitzean."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Liken egokitua",
+  "desc": "Igo zure landare-ekoizpena maila 1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ekosistema aurreratuak"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aerobalaztatutako amoniako-asteroidea",
+  "desc": "Igo zure bero-ekoizpena 3 maila eta zure landare-ekoizpena maila 1. Gehitu 2 mikrobio BESTE karta bati."
+ },
+ "Ants": {
+  "name": "Inurriak",
+  "actions": [
+   "Kendu mikrobio 1 edozein kartatik, 1 karta honi gehitzeko."
+  ],
+  "vpText": [
+   "GP 1 karta honetako 2 mikrobioko."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Akuifero-ponpaketa",
+  "actions": [
+   "Gastatu 8 M€ ozeano-lauza 1 jartzeko. ALTZAIRUA ERABIL DAITEKE eraikuntza-karta bat jokatzen ariko bazina bezala."
+  ]
+ },
+ "Algae": {
+  "name": "Algak",
+  "desc": "Lortu landare 1 eta igo zure landare-ekoizpena 2 maila."
+ },
+ "ArchaeBacteria": {
+  "name": "Arkeobakterioak",
+  "desc": "Igo zure landare-ekoizpena maila 1."
+ },
+ "Arctic Algae": {
+  "name": "Alga artikoak",
+  "desc": "Lortu landare 1.",
+  "effects": [
+   "Edonork ozeano-lauza bat jartzen duenean, lortu 2 landare."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Aintzira artifiziala",
+  "desc": "Jarri ozeano-lauza 1 OZEANORAKO ERRESERBATU GABEKO GUNE BATEAN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Fotosintesi artifiziala",
+  "desc": "Igo zure landare-ekoizpena maila 1 edo zure energia-ekoizpena 2 maila.",
+  "orTitles": [
+   "Igo zure energia-ekoizpena 2 maila",
+   "Igo zure landare-ekoizpena maila 1"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroidea",
+  "desc": "Igo tenperatura maila 1 eta lortu 2 titanio. Kendu gehienez 3 landare edozein jokalariri."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroide-meatzaritza",
+  "desc": "Igo zure titanio-ekoizpena 2 maila."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Torio-asteroide baten izpia",
+  "desc": "Igo zure bero-ekoizpena eta energia-ekoizpena 3 maila bakoitza."
+ },
+ "Big Asteroid": {
+  "name": "Asteroide handia",
+  "desc": "Igo tenperatura 2 maila eta lortu 4 titanio. Kendu gehienez 4 landare edozein jokalariri."
+ },
+ "Biomass Combustors": {
+  "name": "Biomasa-errekuntzagailuak",
+  "desc": "Jaitsi edozein landare-ekoizpen maila 1 eta igo zure energia-ekoizpena 2 maila."
+ },
+ "Birds": {
+  "name": "Txoriak",
+  "desc": "Jaitsi edozein landare-ekoizpen 2 maila. GP 1 karta honetako animalia bakoitzeko.",
+  "actions": [
+   "Gehitu animalia bat karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako animalia bakoitzeko."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Hauts polar beltza",
+  "desc": "Jarri ozeano-lauza bat. Jaitsi zure M€ ekoizpena 2 maila eta igo zure bero-ekoizpena 3 maila."
+ },
+ "Breathing Filters": {
+  "name": "Arnasa hartzeko iragazkiak"
+ },
+ "Bushes": {
+  "name": "Zuhaixkak",
+  "desc": "Igo zure landare-ekoizpena 2 maila. Lortu 2 landare."
+ },
+ "Capital": {
+  "name": "Hiriburua",
+  "desc": "Jarri lauza hau. Jaitsi zure energia-ekoizpena 2 maila eta igo zure M€ ekoizpena 5 maila.",
+  "vpText": [
+   "GP 1 gehigarri hiri-lauza honen ondoko ozeano-lauza bakoitzeko."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonatoen prozesamendua",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure bero-ekoizpena 3 maila."
+ },
+ "Cloud Seeding": {
+  "name": "Hodei-ereintza",
+  "desc": "Jaitsi zure M€ ekoizpena maila 1 eta edozein bero-ekoizpen maila 1. Igo zure landare-ekoizpena 2 maila."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kolonoen prestakuntza-kanpamendua"
+ },
+ "Comet": {
+  "name": "Kometa",
+  "desc": "Igo tenperatura maila 1 eta jarri ozeano-lauza bat. Kendu gehienez 3 landare edozein jokalariri."
+ },
+ "Convoy From Europa": {
+  "name": "Europatik datorren konboia",
+  "desc": "Jarri ozeano-lauza 1 eta atera karta 1."
+ },
+ "Cupola City": {
+  "name": "Kupula-hiria",
+  "desc": "Jarri hiri-lauza bat. Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 3 maila."
+ },
+ "Decomposers": {
+  "name": "Deskonposatzaileak",
+  "effects": [
+   "Animalia-, landare- edo mikrobio-etiketa bat jokatzen duzunean, hau barne, gehitu mikrobio bat karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako 3 mikrobioko."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Putzu sakonen berokuntza",
+  "desc": "Igo zure energia-ekoizpena maila 1. Igo tenperatura maila 1."
+ },
+ "Deimos Down": {
+  "name": "Deimosen erorikoa",
+  "desc": "Igo tenperatura 3 maila eta lortu 4 altzairu. Kendu gehienez 8 landare edozein jokalariri."
+ },
+ "Designed Microorganisms": {
+  "name": "Diseinatutako mikroorganismoak",
+  "desc": "Igo zure landare-ekoizpena 2 maila."
+ },
+ "Domed Crater": {
+  "name": "Kupuladun kraterra",
+  "desc": "Lortu 3 landare. Jarri hiri-lauza bat. Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 3 maila."
+ },
+ "Dust Seals": {
+  "name": "Hauts-zigiluak"
+ },
+ "Ecological Zone": {
+  "name": "Eremu ekologikoa",
+  "desc": "Jarri lauza hau EDOZEIN berdeguneren ondoan.",
+  "effects": [
+   "Animalia- edo landare-etiketa bat jokatzen duzunean, HAUEK BARNE, gehitu animalia bat karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako 2 animaliako."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Energia-aurrezpena",
+  "desc": "Igo zure energia-ekoizpena maila 1 jokoan dagoen hiri-lauza bakoitzeko."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos Chasma parke nazionala",
+  "desc": "Gehitu animalia 1 EDOZEIN ANIMALIA-KARTARI. Lortu 3 landare. Igo zure M€ ekoizpena 2 maila."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Magnetizatzaile ekuatoriala",
+  "actions": [
+   "Jaitsi zure energia-ekoizpena maila 1 zure terraformazio-maila maila 1 igotzeko."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Hotz muturreko onddoa",
+  "actions": [
+   "Lortu landare 1.",
+   "Gehitu 2 mikrobio BESTE karta bati."
+  ]
+ },
+ "Farming": {
+  "name": "Nekazaritza",
+  "desc": "Igo zure M€ ekoizpena 2 maila eta zure landare-ekoizpena 2 maila. Lortu 2 landare."
+ },
+ "Fish": {
+  "name": "Arrainak",
+  "desc": "Jaitsi edozein landare-ekoizpen maila 1.",
+  "actions": [
+   "Gehitu animalia 1 karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako animalia bakoitzeko."
+  ]
+ },
+ "Flooding": {
+  "name": "Uholdea",
+  "desc": "Jarri ozeano-lauza bat. OZEANO-LAUZA HONEN ONDOAN LAUZARIK BADAGO, HAIETAKO BATEN JABEARI 4 M€ KEN DIEZAIOKEZU."
+ },
+ "Food Factory": {
+  "name": "Elikagai-fabrika",
+  "desc": "Jaitsi zure landare-ekoizpena maila 1 eta igo zure M€ ekoizpena 4 maila."
+ },
+ "Fusion Power": {
+  "name": "Fusio-energia",
+  "desc": "Igo zure energia-ekoizpena 3 maila."
+ },
+ "Fueled Generators": {
+  "name": "Erregaizko sorgailuak",
+  "desc": "Jaitsi zure M€ ekoizpena maila 1 eta igo zure energia-ekoizpena maila 1."
+ },
+ "Ganymede Colony": {
+  "name": "Ganimedesko kolonia",
+  "desc": "Jarri hiri-lauza bat ERRESERBATUTAKO GUNEAN.",
+  "vpText": [
+   "GP 1 duzun Jupiter-etiketa bakoitzeko."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Energia geotermikoa",
+  "desc": "Igo zure energia-ekoizpena 2 maila."
+ },
+ "GHG Factories": {
+  "name": "BEG fabrikak",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure bero-ekoizpena 4 maila."
+ },
+ "GHG Producing Bacteria": {
+  "name": "BEG sortzen duten bakterioak",
+  "actions": [
+   "Gehitu mikrobio 1 karta honi.",
+   "Kendu 2 mikrobio tenperatura maila 1 igotzeko."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Izotz-asteroide erraldoia",
+  "desc": "Igo tenperatura 2 maila eta jarri 2 ozeano-lauza. Kendu gehienez 6 landare edozein jokalariri."
+ },
+ "Giant Space Mirror": {
+  "name": "Espazio-ispilu erraldoia",
+  "desc": "Igo zure energia-ekoizpena 3 maila."
+ },
+ "Grass": {
+  "name": "Belarra",
+  "desc": "Igo zure landare-ekoizpena maila 1. Lortu 3 landare."
+ },
+ "Great Dam": {
+  "name": "Presa handia",
+  "desc": "Igo zure energia-ekoizpena 2 maila."
+ },
+ "Greenhouses": {
+  "name": "Negutegiak",
+  "desc": "Lortu landare 1 jokoan dagoen hiri-lauza bakoitzeko."
+ },
+ "Heather": {
+  "name": "Txilarra",
+  "desc": "Igo zure landare-ekoizpena maila 1. Lortu landare 1."
+ },
+ "Heat Trappers": {
+  "name": "Bero-tranpak",
+  "desc": "Jaitsi edozein bero-ekoizpen 2 maila eta igo zure energia-ekoizpena maila 1."
+ },
+ "Herbivores": {
+  "name": "Belarjaleak",
+  "desc": "+1 animalia karta honi. -1 edozein landare-ekoizpen",
+  "effects": [
+   "Berdegune-lauza bat jartzen duzunean, gehitu animalia bat karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako 2 animaliako."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Izotz-asteroidea",
+  "desc": "Jarri 2 ozeano-lauza."
+ },
+ "Ice Cap Melting": {
+  "name": "Izotz-kaskoaren urtzea",
+  "desc": "Jarri ozeano-lauza 1."
+ },
+ "Immigrant City": {
+  "name": "Etorkinen hiria",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta zure M€ ekoizpena 2 maila. Jarri hiri-lauza bat.",
+  "effects": [
+   "Hiri-lauza bat jartzen denean, hau barne, igo zure M€ ekoizpena maila 1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Immigrazio-anezkak",
+  "desc": "Igo zure M€ ekoizpena 5 maila.",
+  "vpText": [
+   "GP 1 jokoan dagoen 3. hiri bakoitzeko."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Inportatutako BEG",
+  "desc": "Igo zure bero-ekoizpena maila 1 eta lortu 3 bero."
+ },
+ "Imported Hydrogen": {
+  "name": "Inportatutako hidrogenoa",
+  "desc": "Lortu 3 landare, edo gehitu 3 mikrobio edo 2 animalia BESTE karta bati. Jarri ozeano-lauza bat.",
+  "orTitles": [
+   "Lortu 3 landare",
+   "Gehitu 3 mikrobio BESTE karta bati",
+   "Gehitu 2 animalia BESTE karta bati"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Inportatutako nitrogenoa",
+  "desc": "Igo zure TM maila 1 eta lortu 4 landare. Gehitu 3 mikrobio BESTE karta bati eta 2 animalia BESTE karta bati."
+ },
+ "Import of Advanced GHG": {
+  "name": "BEG aurreratuen inportazioa",
+  "desc": "Igo zure bero-ekoizpena 2 maila."
+ },
+ "Industrial Microbes": {
+  "name": "Industria-mikrobioak",
+  "desc": "Igo zure energia-ekoizpena eta zure altzairu-ekoizpena maila 1 bakoitza."
+ },
+ "Insects": {
+  "name": "Intsektuak",
+  "desc": "Igo zure landare-ekoizpena maila 1 duzun landare-etiketa bakoitzeko."
+ },
+ "Insulation": {
+  "name": "Isolamendua",
+  "desc": "Jaitsi zure bero-ekoizpena nahi adina maila eta igo zure M€ ekoizpena beste hainbeste maila."
+ },
+ "Ironworks": {
+  "name": "Burdinola",
+  "actions": [
+   "Gastatu 4 energia altzairu 1 lortzeko eta oxigenoa maila 1 igotzeko."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Kelp-haztegia",
+  "desc": "Igo zure M€ ekoizpena 2 maila eta zure landare-ekoizpena 3 maila. Lortu 2 landare."
+ },
+ "Lake Marineris": {
+  "name": "Marineris aintzira",
+  "desc": "Jarri 2 ozeano-lauza."
+ },
+ "Large Convoy": {
+  "name": "Konboi handia",
+  "desc": "Jarri ozeano-lauza bat eta atera 2 karta. Lortu 5 landare edo gehitu 4 animalia BESTE karta bati.",
+  "orTitles": [
+   "Lortu 5 landare",
+   "Gehitu 4 animalia BESTE karta bati"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Laba-jarioak",
+  "desc": "Igo tenperatura 2 maila eta jarri lauza hau THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS EDO ARSIA MONS GUNEAN."
+ },
+ "Lichen": {
+  "name": "Likena",
+  "desc": "Igo zure landare-ekoizpena maila 1."
+ },
+ "Livestock": {
+  "name": "Abereak",
+  "desc": "Jaitsi zure landare-ekoizpena maila 1 eta igo zure M€ ekoizpena 2 maila",
+  "actions": [
+   "Gehitu animalia 1 karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako animalia bakoitzeko."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Tokiko bero-harrapaketa",
+  "desc": "Gastatu 5 bero 4 landare lortzeko, edo 2 animalia BESTE karta bati gehitzeko.",
+  "orTitles": [
+   "Lortu 4 landare",
+   "Gehitu 2 animalia BESTE karta bati"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Ilargi-izpia",
+  "desc": "Jaitsi zure M€ ekoizpena 2 maila eta igo zure bero-ekoizpena eta energia-ekoizpena 2 maila bakoitza."
+ },
+ "Magnetic Field Dome": {
+  "name": "Eremu magnetikoko kupula",
+  "desc": "Jaitsi zure energia-ekoizpena 2 maila eta igo zure landare-ekoizpena maila 1. Igo zure TM maila 1."
+ },
+ "Magnetic Field Generators": {
+  "name": "Eremu magnetikoko sorgailuak",
+  "desc": "Jaitsi zure energia-ekoizpena 4 maila eta igo zure landare-ekoizpena 2 maila. Igo zure TM 3 maila."
+ },
+ "Mangrove": {
+  "name": "Mangladia",
+  "desc": "Jarri berdegune-lauza bat OZEANORAKO ERRESERBATUTAKO GUNE BATEAN eta igo oxigenoa maila 1. Ez kontuan hartu kokatze-murriztapen arruntak horretarako."
+ },
+ "Martian Rails": {
+  "name": "Marteko trenbideak",
+  "actions": [
+   "Gastatu energia 1, 1 M€ lortzeko MARTEN dagoen hiri-lauza bakoitzeko."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Titanetik datorren metanoa",
+  "desc": "Igo zure bero-ekoizpena 2 maila eta zure landare-ekoizpena 2 maila."
+ },
+ "Micro-Mills": {
+  "name": "Mikroerrotak",
+  "desc": "Igo zure bero-ekoizpena maila 1."
+ },
+ "Mining Expedition": {
+  "name": "Meatze-espedizioa",
+  "desc": "Igo oxigenoa maila 1. Kendu 2 landare edozein jokalariri. Lortu 2 altzairu."
+ },
+ "Mining Rights": {
+  "name": "Meatze-eskubideak",
+  "desc": "Jarri lauza hau altzairu- edo titanio-bonusa duen gune batean. Igo ekoizpen hori maila 1."
+ },
+ "Mohole Area": {
+  "name": "Mohole eremua",
+  "desc": "Igo zure bero-ekoizpena 4 maila. Jarri lauza hau OZEANORAKO ERRESERBATUTAKO GUNE BATEAN."
+ },
+ "Moss": {
+  "name": "Goroldioa",
+  "desc": "Galdu landare 1. Igo zure landare-ekoizpena maila 1."
+ },
+ "Natural Preserve": {
+  "name": "Natura-erreserba",
+  "desc": "Jarri lauza hau BESTE INONGO LAUZAREN ONDOAN EZ. Igo zure M€ ekoizpena maila 1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitritoak erreduzitzen dituzten bakterioak",
+  "desc": "Gehitu 3 mikrobio karta honi.",
+  "actions": [
+   "Gehitu mikrobio 1 karta honi.",
+   "Kendu 3 mikrobio zure TM maila 1 igotzeko."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Nitrogeno ugariko asteroidea",
+  "desc": "Igo zure terraformazio-maila 2 maila eta tenperatura maila 1. Igo zure landare-ekoizpena maila 1, edo 4 maila 3 landare-etiketa badituzu."
+ },
+ "Nitrophilic Moss": {
+  "name": "Goroldio nitrofiloa",
+  "desc": "Galdu 2 landare. Igo zure landare-ekoizpena 2 maila."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 3 maila. Jarri hiri-lauza bat ERRESERBATUTAKO GUNEAN, kokatze-murriztapen arruntak kontuan hartu gabe."
+ },
+ "Noctis Farming": {
+  "name": "Noctisko nekazaritza",
+  "desc": "Igo zure M€ ekoizpena maila 1 eta lortu 2 landare."
+ },
+ "Nuclear Power": {
+  "name": "Energia nuklearra",
+  "desc": "Jaitsi zure M€ ekoizpena 2 maila eta igo zure energia-ekoizpena 3 maila."
+ },
+ "Nuclear Zone": {
+  "name": "Eremu nuklearra",
+  "desc": "Jarri lauza hau eta igo tenperatura 2 maila."
+ },
+ "Open City": {
+  "name": "Hiri irekia",
+  "desc": "Lortu 2 landare. Jarri hiri-lauza bat. Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 4 maila."
+ },
+ "Optimal Aerobraking": {
+  "name": "Aerobalazta optimoa",
+  "effects": [
+   "Espazio-gertaera bat jokatzen duzunean, 3 M€ eta 3 bero lortzen dituzu."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Mea-prozesatzailea",
+  "actions": [
+   "Gastatu 4 energia titanio 1 lortzeko eta oxigenoa maila 1 igotzeko."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Permafrost-erauzketa",
+  "desc": "Jarri ozeano-lauza 1."
+ },
+ "Peroxide Power": {
+  "name": "Peroxido-energia",
+  "desc": "Jaitsi zure M€ ekoizpena maila 1 eta igo zure energia-ekoizpena 2 maila."
+ },
+ "Pets": {
+  "name": "Maskotak",
+  "desc": "Gehitu animalia 1 karta honi.",
+  "effects": [
+   "Edozein hiri-lauza jartzen denean, gehitu animalia bat karta honi."
+  ],
+  "vpText": [
+   "GP 1 hemengo 2 animaliako."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Fobosko espazio-portua",
+  "desc": "Igo zure titanio-ekoizpena maila 1 eta jarri hiri-lauza bat ERRESERBATUTAKO GUNEAN."
+ },
+ "Plantation": {
+  "name": "Landaketa",
+  "desc": "Jarri berdegune-lauza bat eta igo oxigenoa maila 1."
+ },
+ "Power Grid": {
+  "name": "Sare elektrikoa",
+  "desc": "Igo zure energia-ekoizpena maila bat duzun energia-etiketa bakoitzeko, hau barne."
+ },
+ "Power Plant": {
+  "name": "Zentral elektrikoa",
+  "desc": "Igo zure energia-ekoizpena maila 1."
+ },
+ "Predators": {
+  "name": "Harrapariak",
+  "actions": [
+   "Kendu animalia 1 edozein kartatik eta gehitu karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako animalia bakoitzeko."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Haran babestua",
+  "desc": "Igo zure M€ ekoizpena 2 maila. Jarri berdegune-lauza bat OZEANORAKO ERRESERBATUTAKO GUNE BATEAN, kokatze-murriztapen arruntak kontuan hartu gabe, eta igo oxigenoa maila 1."
+ },
+ "Rad-Chem Factory": {
+  "name": "Erradio-kimika fabrika",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1. Igo zure TM 2 maila."
+ },
+ "Regolith Eaters": {
+  "name": "Regolito-jaleak",
+  "actions": [
+   "Gehitu mikrobio 1 karta honi.",
+   "Kendu 2 mikrobio karta honetatik oxigeno-maila maila 1 igotzeko."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Gas geldoen askapena",
+  "desc": "Igo zure terraformazio-maila 2 maila."
+ },
+ "Research Outpost": {
+  "name": "Ikerketa-postua",
+  "desc": "Jarri hiri-lauza bat BESTE INONGO LAUZAREN ONDOAN EZ.",
+  "effects": [
+   "Karta bat jokatzen duzunean, 1 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Rover-eraikuntza",
+  "effects": [
+   "Edozein hiri-lauza jartzen denean, lortu 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Bizitzaren bila",
+  "actions": [
+   "Gastatu 1 M€ sortako goiko karta agerian jartzeko. Karta horrek mikrobio-etiketa badu, gehitu zientzia-baliabide bat hemen."
+  ],
+  "vpText": [
+   "3 GP hemen zientzia-baliabide bat edo gehiago badituzu."
+  ]
+ },
+ "Shuttles": {
+  "name": "Anezkak",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 2 maila.",
+  "effects": [
+   "Espazio-karta bat jokatzen duzunean, 2 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Small Animals": {
+  "name": "Animalia txikiak",
+  "desc": "Jaitsi edozein landare-ekoizpen maila 1.",
+  "actions": [
+   "Gehitu animalia 1 karta honi."
+  ],
+  "vpText": [
+   "GP 1 karta honetako 2 animaliako."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Lurzoru-fabrika",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure landare-ekoizpena maila 1."
+ },
+ "Solar Power": {
+  "name": "Eguzki-energia",
+  "desc": "Igo zure energia-ekoizpena maila 1."
+ },
+ "Solar Wind Power": {
+  "name": "Eguzki-haizearen energia",
+  "desc": "Igo zure energia-ekoizpena maila 1 eta lortu 2 titanio."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Igo zure bero-ekoizpena 7 maila."
+ },
+ "Space Mirrors": {
+  "name": "Espazio-ispiluak",
+  "actions": [
+   "Gastatu 7 M€ zure energia-ekoizpena maila 1 igotzeko."
+  ]
+ },
+ "Special Design": {
+  "name": "Diseinu berezia",
+  "desc": "Belaunaldi honetan jokatzen duzun hurrengo kartak +2 edo -2 maila ditu baldintza globaletan, zuk aukeratuta."
+ },
+ "Steelworks": {
+  "name": "Altzairutegia",
+  "actions": [
+   "Gastatu 4 energia 2 altzairu lortzeko eta oxigenoa maila 1 igotzeko."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Zeru irekiko meategia",
+  "desc": "Jaitsi zure energia-ekoizpena 2 maila. Igo zure altzairu-ekoizpena 2 maila eta zure titanio-ekoizpena maila 1. Igo oxigenoa 2 maila."
+ },
+ "Subterranean Reservoir": {
+  "name": "Lurpeko urtegia",
+  "desc": "Jarri ozeano-lauza 1."
+ },
+ "Symbiotic Fungus": {
+  "name": "Onddo sinbiotikoa",
+  "actions": [
+   "Gehitu mikrobio bat BESTE karta bati."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tentsio tektonikoko energia",
+  "desc": "Igo zure energia-ekoizpena 3 maila."
+ },
+ "Towing A Comet": {
+  "name": "Kometa bat atoian",
+  "desc": "Lortu 2 landare. Igo oxigeno-maila maila 1 eta jarri ozeano-lauza bat."
+ },
+ "Trees": {
+  "name": "Zuhaitzak",
+  "desc": "Igo zure landare-ekoizpena 3 maila. Lortu landare 1."
+ },
+ "Tundra Farming": {
+  "name": "Tundrako nekazaritza",
+  "desc": "Igo zure landare-ekoizpena maila 1 eta zure M€ ekoizpena 2 maila. Lortu landare 1."
+ },
+ "Underground City": {
+  "name": "Lurpeko hiria",
+  "desc": "Jarri hiri-lauza bat. Jaitsi zure energia-ekoizpena 2 maila eta igo zure altzairu-ekoizpena 2 maila."
+ },
+ "Underground Detonations": {
+  "name": "Lurpeko leherketak",
+  "actions": [
+   "Gastatu 10 M€ zure bero-ekoizpena 2 maila igotzeko."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Eremu urbanizatua",
+  "desc": "Jaitsi zure energia-ekoizpena maila 1 eta igo zure M€ ekoizpena 2 maila. Jarri hiri-lauza bat GUTXIENEZ BESTE 2 HIRI-LAUZAREN ONDOAN."
+ },
+ "Water Import From Europa": {
+  "name": "Europatik ur-inportazioa",
+  "actions": [
+   "Ordaindu 12 M€ ozeano-lauza bat jartzeko. TITANIOA ERABIL DAITEKE espazio-karta bat jokatzean bezala."
+  ],
+  "vpText": [
+   "GP 1 duzun Jupiter-etiketa bakoitzeko."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Ura banatzeko planta",
+  "actions": [
+   "Gastatu 3 energia oxigenoa maila 1 igotzeko."
+  ]
+ },
+ "Wave Power": {
+  "name": "Olatu-energia",
+  "desc": "Igo zure energia-ekoizpena maila 1."
+ },
+ "Windmills": {
+  "name": "Haize-errotak",
+  "desc": "Igo zure energia-ekoizpena maila 1."
+ },
+ "Worms": {
+  "name": "Zizareak",
+  "desc": "Igo zure landare-ekoizpena maila 1 dituzun 2 mikrobio-etiketako, hau barne."
+ },
+ "Zeppelins": {
+  "name": "Zeppelinak",
+  "desc": "Igo zure M€ ekoizpena maila 1 MARTEN dagoen hiri-lauza bakoitzeko."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Titanio-ekoizpen 1ekin eta 42 M€-rekin hasten zara.",
+  "effects": [
+   "Edozein Jupiter-etiketa jokoan sartzen den bakoitzean, hau barne, igo zure M€ ekoizpena maila 1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "60 M€-rekin hasten zara.",
+  "effects": [
+   "Lur-etiketa bat jokatzen duzunean, 3 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "3 M€ ekoizpenekin eta 44 M€-rekin hasten zara.",
+  "effects": [
+   "Eraikuntza-etiketa bat jokatzen duzunean, 2 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Titanio-ekoizpen 1ekin eta 38 M€-rekin hasten zara.",
+  "effects": [
+   "Lur-etiketa bat jokatzen duzunean, hau barne, atera karta bat."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "47 M€-rekin hasten zara.",
+  "actions": [
+   "Gastatu 4 M€ zure ekoizpen BAXUENA (horietako bat) maila 1 igotzeko."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "37 M€-rekin hasten zara. Zure lehen ekintza gisa, atera 3 preludio-karta eta jokatu horietako bat. Baztertu beste biak.",
+  "effects": [
+   "Zientzia-etiketa bat jokatzen duzunean, 2 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "45 M€-rekin hasten zara. Zure lehen ekintza gisa, finantzatu sari bat doan.",
+  "effects": [
+   "GP ikono EZ-NEGATIBOA duen karta bat jokatzen duzunean, hau barne, lortu 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Hasiberrien korporazioa",
+  "desc": "42 M€-rekin hasten zara. Prestaketan 10 kartatik aukeratu beharrean, 10 kartak doan jasotzen dituzu."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "57 M€-rekin hasten zara.",
+  "effects": [
+   "Oinarrizko kostua 20 M€ edo gehiago duen karta edo proiektu estandar bat ordaindu ondoren, 4 M€ lortzen dituzu."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "2 landare-ekoizpenekin, 3 landarerekin eta 36 M€-rekin hasten zara.",
+  "effects": [
+   "Beti ordain ditzakezu 7 landare, 8ren ordez, berdegunea jartzeko."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "3 bero-ekoizpenekin eta 42 M€-rekin hasten zara.",
+  "effects": [
+   "Beroa M€ bezala erabil dezakezu. Ezin duzu M€ bero bezala erabili."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "20 altzairurekin eta 30 M€-rekin hasten zara.",
+  "effects": [
+   "Gertaera bat jokatzen duzun bakoitzean, 2 M€ lortzen dituzu."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Partidako zure lehen ekintza gisa, atera 3 karta. 45 M€-rekin hasten zara.",
+  "effects": [
+   "Zure tenperatura-, oxigeno-, ozeano- eta Artizar-baldintzak +2 edo -2 maila dira, zuk aukeratuta kasu bakoitzean."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Meatzarien gremioa",
+  "desc": "30 M€-rekin, 5 altzairurekin eta altzairu-ekoizpen 1ekin hasten zara.",
+  "effects": [
+   "Altzairu- edo titanio-bonusa duen gune batean lauza bat jartzen duzun bakoitzean, igo zure altzairu-ekoizpena maila 1"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "10 titaniorekin eta 23 M€-rekin hasten zara.",
+  "effects": [
+   "Zure titanio bakoitzak 1 M€ gehiago balio du."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tharsisko Errepublika",
+  "desc": "40 M€-rekin hasten zara. Partidako zure lehen ekintza gisa, jarri hiri-lauza bat.",
+  "effects": [
+   "Edozein hiri-lauza MARTEN jartzen denean, igo zure M€ ekoizpena maila 1. Zuk hiri-lauza bat jartzen duzunean, lortu 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Energia-ekoizpen 1ekin eta 48 M€-rekin hasten zara.",
+  "effects": [
+   "Energia-karta bat EDO ZENTRAL ELEKTRIKOA PROIEKTU ESTANDARRA jokatzean, 3 M€ gutxiago ordaintzen duzu."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "NBEren Marte ekimena",
+  "desc": "40 M€-rekin hasten zara.",
+  "actions": [
+   "Belaunaldi honetan zure terraformazio-maila igo bada, 3 M€ ordain ditzakezu beste maila 1 igotzeko."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Banku aliatua",
+  "desc": "Igo zure M€ ekoizpena 4 maila. Lortu 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Biosferarako laguntza",
+  "desc": "Igo zure landare-ekoizpena 2 maila. Jaitsi zure M€ ekoizpena maila 1."
+ },
+ "Aquifer Turbines": {
+  "name": "Akuifero-turbinak",
+  "desc": "Jarri ozeano-lauza bat. Igo zure energia-ekoizpena 2 maila. Ordaindu 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Mohole-indusketa",
+  "desc": "Igo zure altzairu-ekoizpena maila 1 eta bero-ekoizpena 2 maila. Lortu 2 bero."
+ },
+ "Early Settlement": {
+  "name": "Asentamendu goiztiarra",
+  "desc": "Igo zure landare-ekoizpena maila 1. Jarri hiri-lauza bat."
+ },
+ "Biofuels": {
+  "name": "Bioerregaiak",
+  "desc": "Igo zure energia- eta landare-ekoizpena maila 1. Lortu 2 landare."
+ },
+ "Power Generation": {
+  "name": "Energia-sorkuntza",
+  "desc": "Igo zure energia-ekoizpena 3 maila."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Asentamendu autonomoa",
+  "desc": "Igo zure M€ ekoizpena 2 maila. Jarri hiri-lauza bat."
+ },
+ "Mining Operations": {
+  "name": "Meatze-eragiketak",
+  "desc": "Igo zure altzairu-ekoizpena 2 maila. Lortu 4 altzairu."
+ },
+ "UNMI Contractor": {
+  "name": "UNMIren kontratista",
+  "desc": "Igo zure TM 3 maila. Atera karta bat."
+ },
+ "Dome Farming": {
+  "name": "Kupula-nekazaritza",
+  "desc": "Igo zure M€ ekoizpena 2 maila eta landare-ekoizpena maila 1."
+ },
+ "Business Empire": {
+  "name": "Negozio-inperioa",
+  "desc": "Igo zure M€ ekoizpena 6 maila. Ordaindu 6 M€."
+ },
+ "Donation": {
+  "name": "Dohaintza",
+  "desc": "Lortu 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Nitrogeno-bidalketa",
+  "desc": "Igo zure landare-ekoizpena maila 1. Igo zure TM maila 1. Lortu 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Galdategia",
+  "desc": "Igo oxigenoa 2 maila. Lortu 5 altzairu."
+ },
+ "Supplier": {
+  "name": "Hornitzailea",
+  "desc": "Igo zure energia-ekoizpena 2 maila. Lortu 4 altzairu."
+ },
+ "Supply Drop": {
+  "name": "Hornidura-jaurtiketa",
+  "desc": "Lortu 3 titanio, 8 altzairu eta 3 landare."
+ },
+ "Great Aquifer": {
+  "name": "Akuifero handia",
+  "desc": "Jarri 2 ozeano-lauza."
+ },
+ "Biolab": {
+  "name": "Biolaborategia",
+  "desc": "Igo zure landare-ekoizpena maila 1. Atera 3 karta."
+ },
+ "Martian Industries": {
+  "name": "Marteko industriak",
+  "desc": "Igo zure energia- eta altzairu-ekoizpena maila 1. Lortu 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Ioko ikerketa-postua",
+  "desc": "Igo zure titanio-ekoizpena maila 1. Atera karta bat."
+ },
+ "Polar Industries": {
+  "name": "Industria polarrak",
+  "desc": "Igo zure bero-ekoizpena 2 maila. Jarri ozeano-lauza bat."
+ },
+ "Society Support": {
+  "name": "Gizartearen laguntza",
+  "desc": "Igo zure landare-, energia- eta bero-ekoizpena maila 1. Jaitsi M€ ekoizpena maila 1."
+ },
+ "Galilean Mining": {
+  "name": "Galileoren ilargietako meatzaritza",
+  "desc": "Igo zure titanio-ekoizpena 2 maila. Ordaindu 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroide izugarria",
+  "desc": "Igo tenperatura 3 maila. Ordaindu 5 M€."
+ },
+ "Metals Company": {
+  "name": "Metal-enpresa",
+  "desc": "Igo zure M€, altzairu- eta titanio-ekoizpena maila 1."
+ },
+ "Loan": {
+  "name": "Mailegua",
+  "desc": "Lortu 30 M€. Jaitsi zure M€ ekoizpena 2 maila."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Igo zure bero-ekoizpena 3 maila. Lortu 3 bero."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metal ugariko asteroidea",
+  "desc": "Igo tenperatura maila 1. Lortu 4 titanio eta 4 altzairu."
+ },
+ "Orbital Construction Yard": {
+  "name": "Eraikuntza-gune orbitala",
+  "desc": "Igo zure titanio-ekoizpena maila 1. Lortu 4 titanio."
+ },
+ "Acquired Space Agency": {
+  "name": "Erositako espazio-agentzia",
+  "desc": "Lortu 6 titanio. Jarri kartak agerian espazio-etiketa duten bi karta agertu arte. Hartu horiek eskura, baztertu gainerakoak."
+ },
+ "Research Network": {
+  "name": "Ikerketa-sarea",
+  "desc": "Igo zure M€ ekoizpena maila 1. Atera 3 karta. Jokatu ondoren, ekintza bat egiten duzunean, komodin-etiketa zuk aukeratutako edozein etiketa bezala zenbatzen da."
+ },
+ "Eccentric Sponsor": {
+  "name": "Babesle eszentrikoa",
+  "desc": "JOKATU ESKUKO KARTA BAT 25 M€-KO DESKONTUAREKIN."
+ },
+ "Ecology Experts": {
+  "name": "Ekologia-adituak",
+  "desc": "Igo zure landare-ekoizpena maila 1. JOKATU ESKUKO KARTA BAT, BALDINTZA GLOBALAK KONTUAN HARTU GABE."
+ },
+ "Experimental Forest": {
+  "name": "Baso esperimentala",
+  "desc": "Jarri berdegune-lauza 1 eta igo oxigenoa maila 1. Jarri kartak agerian landare-etiketa duten bi karta agertu arte. Hartu horiek eskura eta baztertu gainerakoak."
+ }
+}

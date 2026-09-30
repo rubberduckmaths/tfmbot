@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Inkampani Ethengiwe",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-3."
+ },
+ "Advanced Alloys": {
+  "name": "Izingxubevange Zensimbi Ezithuthukile",
+  "effects": [
+   "Ithithaniyamu ngalinye onalo libiza u-1 M€ ngaphezulu.",
+   "Insimbi ngayinye onayo ibiza u-1 M€ ngaphezulu."
+  ]
+ },
+ "AI Central": {
+  "name": "Isikhungo se-AI",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1.",
+  "actions": [
+   "Dweba amakhadi angu-2."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Ubuchwepheshe Bokulwa Namandla Adonsela Phansi",
+  "effects": [
+   "Uma udlala ikhadi, ukhokha u-2 M€ ngaphansi ngalo."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Inhlangano Yokumba Ama-asteroyidi",
+  "desc": "Nciphisa ukukhiqiza kwethithaniyamu kwanoma ubani ngo-1 bese ukhulisa okwakho ngo-1."
+ },
+ "Bribed Committee": {
+  "name": "Ikomidi Elifunjathisiwe",
+  "desc": "Phakamisa i-TR yakho ngo-2."
+ },
+ "Building Industries": {
+  "name": "Izimboni Zokwakha",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwensimbi ngo-2."
+ },
+ "Business Contacts": {
+  "name": "Oxhumana Nabo Ebhizinisini",
+  "desc": "Bheka amakhadi angu-4 aphezulu enqwabeni. Thatha angu-2 uwafake esandleni sakho bese ulahla amanye."
+ },
+ "Business Network": {
+  "name": "Inethiwekhi Yebhizinisi",
+  "desc": "Nciphisa ukukhiqiza kwakho kwe-M€ ngo-1.",
+  "actions": [
+   "Bheka ikhadi eliphezulu bese ulithenga noma ulilahle."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Izimayini Zejele Zase-Callisto",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-3."
+ },
+ "Caretaker Contract": {
+  "name": "Inkontileka Yomnakekeli",
+  "actions": [
+   "Sebenzisa ukushisa okungu-8 ukuze uphakamise Isilinganiso sakho se-Terraform ngo-1."
+  ]
+ },
+ "Cartel": {
+  "name": "Inhlangano Yokulawula Intengo",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1 ngophawu ngalunye lomhlaba onalo, kuhlanganise nalolu."
+ },
+ "CEO's Favorite Project": {
+  "name": "Iphrojekthi Ethandwa Yisikhulu Esiphezulu",
+  "desc": "Engeza insiza engu-1 kunoma yiliphi ikhadi lakho elivele linensiza okungenani engu-1."
+ },
+ "Commercial District": {
+  "name": "Isifunda Sezohwebo",
+  "desc": "Beka leli thayela. Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-4.",
+  "vpText": [
+   "Iphuzu elingu-1 ngethayela ledolobha ngalinye eliseduze."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Inqaba Yenkampani",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-3. Beka ithayela ledolobha."
+ },
+ "Development Center": {
+  "name": "Isikhungo Sentuthuko",
+  "actions": [
+   "Sebenzisa amandla angu-1 ukuze udwebe ikhadi."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Isijikijeli Somhlaba",
+  "effects": [
+   "Uma udlala ikhadi, ukhokha u-2 M€ ngaphansi ngalo."
+  ]
+ },
+ "Earth Office": {
+  "name": "Ihhovisi Lomhlaba",
+  "effects": [
+   "Uma udlala uphawu lomhlaba, ukhokha u-3 M€ ngaphansi ngalo."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Isijikijeli Sikagesi",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1.",
+  "actions": [
+   "Sebenzisa isitshalo esingu-1 noma insimbi engu-1 ukuze uthole 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Ukudonsa Amandla",
+  "desc": "Nciphisa ukukhiqiza kwamandla kwanoma ubani ngo-1 bese ukhulisa okwakho ngo-1."
+ },
+ "Fuel Factory": {
+  "name": "Imboni Kaphethiloli",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwethithaniyamu nokwe-M€ ngo-1 ngakunye."
+ },
+ "Gene Repair": {
+  "name": "Ukulungiswa Kofuzo",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-2."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Inhlangano Yewa Elikhulu",
+  "desc": "Nciphisa ukukhiqiza kwensimbi kwanoma ubani ngo-1 bese ukhulisa okwakho ngo-1."
+ },
+ "Hackers": {
+  "name": "Abagebengu Bekhompyutha",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 nokukhiqiza kwe-M€ kwanoma ubani ngo-2. Khulisa ukukhiqiza kwakho kwe-M€ ngo-2."
+ },
+ "Hired Raiders": {
+  "name": "Abaphangi Abaqashiwe",
+  "desc": "Ntshontsha insimbi efika ku-2, noma 3 M€ kunoma yimuphi umdlali."
+ },
+ "Indentured Workers": {
+  "name": "Abasebenzi Benkontileka",
+  "desc": "Ikhadi elilandelayo ozolidlala kulesi sizukulwane libiza u-8 M€ ngaphansi."
+ },
+ "Industrial Center": {
+  "name": "Isikhungo Sezimboni",
+  "desc": "Beka leli thayela eduze kwethayela ledolobha.",
+  "actions": [
+   "Sebenzisa u-7 M€ ukuze ukhulise ukukhiqiza kwakho kwensimbi ngo-1."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Umkhumbi Wekoloni Wezinkanyezi"
+ },
+ "Invention Contest": {
+  "name": "Umncintiswano Wokusungula",
+  "desc": "Bheka amakhadi angu-3 aphezulu enqwabeni. Thatha elingu-1 ulifake esandleni sakho bese ulahla amanye."
+ },
+ "Inventors' Guild": {
+  "name": "Inhlangano Yabasunguli",
+  "actions": [
+   "Bheka ikhadi eliphezulu bese ulithenga noma ulilahle."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Imali Mboleko Yokutshala",
+  "desc": "Nciphisa ukukhiqiza kwakho kwe-M€ ngo-1. Thola 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Izimboni Zokumba Zase-Io",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-2 nokukhiqiza kwakho kwe-M€ ngo-2.",
+  "vpText": [
+   "Iphuzu elingu-1 ngophawu ngalunye lwe-Jupiter onalo."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Indawo Yokubuka Izinkanyezi ye-Lagrange",
+  "desc": "Dweba ikhadi elingu-1."
+ },
+ "Land Claim": {
+  "name": "Ukufuna Umhlaba",
+  "desc": "Zibekele indawo engakabekelwa muntu: nguwe kuphela ongabeka ithayela lapho."
+ },
+ "Lightning Harvest": {
+  "name": "Isivuno Sombani",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla nokukhiqiza kwakho kwe-M€ ngesinyathelo esisodwa ngakunye."
+ },
+ "Mars University": {
+  "name": "Inyuvesi yase-Mars",
+  "effects": [
+   "Uma udlala uphawu lwesayensi, kuhlanganise nalolu, ungalahla ikhadi esandleni ukuze udwebe ikhadi."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Isiguquli Sesisindo",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-6.",
+  "effects": [
+   "Uma udlala ikhadi lomkhathi, ukhokha u-2 M€ ngaphansi ngalo."
+  ]
+ },
+ "Media Archives": {
+  "name": "Ingobo Yemibhalo Yabezindaba",
+  "desc": "Thola u-1 M€ ngesehlakalo ngasinye ESAKE SADLALWA yibo bonke abadlali."
+ },
+ "Media Group": {
+  "name": "Iqembu Labezindaba",
+  "effects": [
+   "Ngemva kokudlala ikhadi lesehlakalo, uthola 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Ilebhu Yezokwelapha",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1 njalo ngezimpawu zokwakha ezingu-2 onazo, kuhlanganise nalolu."
+ },
+ "Mine": {
+  "name": "Imayini",
+  "desc": "Khulisa ukukhiqiza kwakho kwensimbi ngo-1."
+ },
+ "Mineral Deposit": {
+  "name": "Idiphozi Yamaminerali",
+  "desc": "Thola insimbi engu-5."
+ },
+ "Mining Area": {
+  "name": "Indawo Yokumba",
+  "desc": "Beka leli thayela endaweni enebhonasi yokubeka yensimbi noma yethithaniyamu, eduze kwelinye ithayela lakho. Khulisa ukukhiqiza kwakho kwaleyo nsiza ngo-1."
+ },
+ "Miranda Resort": {
+  "name": "Indawo Yokungcebeleka ye-Miranda",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1 ngophawu ngalunye lomhlaba onalo."
+ },
+ "Olympus Conference": {
+  "name": "Ingqungquthela ye-Olympus",
+  "desc": "Uma udlala uphawu lwesayensi, kuhlanganise nalolu, engeza insiza yesayensi kuleli khadi, noma susa insiza yesayensi kuleli khadi ukuze udwebe ikhadi."
+ },
+ "Physics Complex": {
+  "name": "Isakhiwo Sefiziksi",
+  "actions": [
+   "Sebenzisa amandla angu-6 ukuze wengeze insiza yesayensi kuleli khadi."
+  ],
+  "vpText": [
+   "Amaphuzu angu-2 ngensiza yesayensi ngayinye kuleli khadi."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Ingqalasizinda Yamandla",
+  "actions": [
+   "Sebenzisa noma yimaphi amandla bese uthola u-M€ olingana nawo."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Inhlangano Yokuhlinzeka Ngamandla",
+  "desc": "Nciphisa ukukhiqiza kwamandla kwanoma ubani ngo-1 bese ukhulisa okwakho ngo-1."
+ },
+ "Protected Habitats": {
+  "name": "Izindawo Zokuhlala Ezivikelekile",
+  "effects": [
+   "Abaphikisi abakwazi ukususa izitshalo zakho, izilwane noma amagciwane."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Isikhiphi se-Quantum",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-4.",
+  "effects": [
+   "Uma udlala ikhadi lomkhathi, ukhokha u-2 M€ ngaphansi ngalo."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Izingubo Zokuvikela Imisebe",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1."
+ },
+ "Research": {
+  "name": "Ucwaningo",
+  "desc": "Kubalwa njengokudlala amakhadi esayensi angu-2. Dweba amakhadi angu-2."
+ },
+ "Restricted Area": {
+  "name": "Indawo Enemingcele",
+  "desc": "Beka leli thayela.",
+  "actions": [
+   "Sebenzisa u-2 M€ ukuze udwebe ikhadi."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Abasebenzi Abangamarobhothi",
+  "desc": "Kopisha ibhokisi lokukhiqiza kuphela lelinye lamakhadi akho okwakha."
+ },
+ "Sabotage": {
+  "name": "Ukucekela Phansi",
+  "desc": "Susa ithithaniyamu elifika ku-3 kunoma yimuphi umdlali, noma insimbi engu-4, noma 7 M€."
+ },
+ "Satellites": {
+  "name": "Amasathelayithi",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1 ngophawu ngalunye lomkhathi onalo, kuhlanganise nalolu."
+ },
+ "Security Fleet": {
+  "name": "Umkhumbi Wezokuphepha",
+  "actions": [
+   "Sebenzisa ithithaniyamu elingu-1 ukuze wengeze insiza yomlweli engu-1 kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 ngensiza yomlweli ngayinye kuleli khadi."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Ikheshi Lomkhathi",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-1.",
+  "actions": [
+   "Sebenzisa insimbi engu-1 ukuze uthole 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Isiteshi Somkhathi",
+  "effects": [
+   "Uma udlala ikhadi lomkhathi, ukhokha u-2 M€ ngaphansi ngalo."
+  ]
+ },
+ "Sponsors": {
+  "name": "Abaxhasi",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-2."
+ },
+ "Standard Technology": {
+  "name": "Ubuchwepheshe Obujwayelekile",
+  "effects": [
+   "Ngemva kokukhokhela iphrojekthi ejwayelekile, ngaphandle kokuthengisa amalungelo obunikazi, uthola 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Ama-tardigrade",
+  "actions": [
+   "Engeza igciwane elingu-1 kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 njalo ngamagciwane angu-4 kuleli khadi."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Umbukiso Wobuchwepheshe",
+  "desc": "Dweba amakhadi amabili."
+ },
+ "Terraforming Ganymede": {
+  "name": "I-terraforming ye-Ganymede",
+  "desc": "Phakamisa i-TR yakho ngo-1 ngophawu ngalunye lwe-Jupiter onalo, kuhlanganise nalolu."
+ },
+ "Titanium Mine": {
+  "name": "Imayini Yethithaniyamu",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-1."
+ },
+ "Toll Station": {
+  "name": "Isiteshi Sokukhokha Imali Yomgwaqo",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1 ngophawu ngalunye lomkhathi ABAPHIKISI bakho abanalo."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Umkhumbi Wokuhlola Ongale kwe-Neptune",
+  "desc": "Umkhumbi wokuhlola womkhathi okude: ubiza iphuzu elingu-1."
+ },
+ "Tropical Resort": {
+  "name": "Indawo Yokungcebeleka Yasezindaweni Ezishisayo",
+  "desc": "Nciphisa ukukhiqiza kwakho kokushisa ngo-2 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-3."
+ },
+ "Vesta Shipyard": {
+  "name": "Indawo Yokwakha Imikhumbi ye-Vesta",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-1."
+ },
+ "Viral Enhancers": {
+  "name": "Abathuthukisi Bamagciwane",
+  "effects": [
+   "Uma udlala uphawu lwesitshalo, lwegciwane, noma lwesilwane, kuhlanganise nalolu, thola isitshalo esingu-1 noma wengeze insiza engu-1 KULELO KHADI."
+  ]
+ },
+ "Virus": {
+  "name": "Igciwane Elibulalayo",
+  "desc": "Susa izilwane ezifika ku-2 noma izitshalo ezingu-5 kunoma yimuphi umdlali."
+ },
+ "SF Memorial": {
+  "name": "Isikhumbuzo se-SF",
+  "desc": "Dweba ikhadi elingu-1."
+ },
+ "House Printing": {
+  "name": "Ukuphrinta Izindlu",
+  "desc": "Khulisa ukukhiqiza kwakho kwensimbi ngo-1."
+ },
+ "Space Hotels": {
+  "name": "Amahhotela Asemkhathini",
+  "desc": "Khulisa ukukhiqiza kwe-M€ ngo-4."
+ },
+ "Martian Survey": {
+  "name": "Ukuhlola i-Mars",
+  "desc": "Dweba amakhadi amabili."
+ },
+ "Research Coordination": {
+  "name": "Ukuxhumanisa Ucwaningo",
+  "desc": "Ngemva kokudlalwa, uma wenza isenzo, uphawu olungaba yinoma yiluphi lubalwa njengoma yiluphi uphawu olukhethayo."
+ },
+ "Lava Tube Settlement": {
+  "name": "Indawo Yokuhlala Emhubheni Wodaka Lwentaba-mlilo",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-2. Beka ithayela ledolobha ENDAWENI YENTABA-MLILO ngaphandle kokunaka amadolobha aseduze."
+ },
+ "Psychrophiles": {
+  "name": "Amagciwane Athanda Amakhaza",
+  "actions": [
+   "Engeza igciwane elingu-1 kuleli khadi."
+  ],
+  "effects": [
+   "Uma ukhokhela ikhadi lesitshalo, amagciwane akhona lapha angasetshenziswa njengo-2 M€ ngalinye."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Ubuchwepheshe Bokuzivumelanisa",
+  "effects": [
+   "Izimfuneko zakho zomhlaba wonke zingu-+2 noma -2 izinyathelo, ngokukhetha kwakho njalo."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Ulayikeni Ozivumelanisile",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Izimvelo Ezithuthukile"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "I-asteroyidi Ye-ammonia Enciphiswe Ijubane Ngomoya",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-3 nokukhiqiza kwakho kwezitshalo ngo-1. Engeza amagciwane angu-2 KWELINYE IKHADI."
+ },
+ "Ants": {
+  "name": "Izintuthwane",
+  "actions": [
+   "Susa igciwane elingu-1 kunoma yiliphi ikhadi ukuze wengeze elingu-1 kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 njalo ngamagciwane angu-2 kuleli khadi."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Ukumpompa Amanzi Angaphansi",
+  "actions": [
+   "Sebenzisa u-8 M€ ukuze ubeke ithayela lolwandle elingu-1. INSIMBI INGASETSHENZISWA sengathi udlala ikhadi lokwakha."
+  ]
+ },
+ "Algae": {
+  "name": "Ulwelwe",
+  "desc": "Thola isitshalo esingu-1 bese ukhulisa ukukhiqiza kwakho kwezitshalo ngo-2."
+ },
+ "ArchaeBacteria": {
+  "name": "Ama-archaebacteria",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1."
+ },
+ "Arctic Algae": {
+  "name": "Ulwelwe Lwase-Arctic",
+  "desc": "Thola isitshalo esingu-1.",
+  "effects": [
+   "Uma noma ubani ebeka ithayela lolwandle, thola izitshalo ezingu-2."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Ichibi Elenziwe",
+  "desc": "Beka ithayela lolwandle elingu-1 ENDAWENI ENGABEKELWANGA ULWANDLE."
+ },
+ "Artificial Photosynthesis": {
+  "name": "I-photosynthesis Yokwenziwa",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1 noma ukukhiqiza kwakho kwamandla ngo-2.",
+  "orTitles": [
+   "Khulisa ukukhiqiza kwakho kwamandla ngo-2",
+   "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1"
+  ]
+ },
+ "Asteroid": {
+  "name": "I-asteroyidi",
+  "desc": "Phakamisa izinga lokushisa ngo-1 bese uthola ithithaniyamu elingu-2. Susa izitshalo ezifika ku-3 kunoma yimuphi umdlali."
+ },
+ "Asteroid Mining": {
+  "name": "Ukumba Ama-asteroyidi",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-2."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Umsebe Ovela Ku-asteroyidi Ye-thorium",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa nokukhiqiza kwakho kwamandla ngo-3 ngakunye."
+ },
+ "Big Asteroid": {
+  "name": "I-asteroyidi Enkulu",
+  "desc": "Phakamisa izinga lokushisa ngo-2 bese uthola ithithaniyamu elingu-4. Susa izitshalo ezifika ku-4 kunoma yimuphi umdlali."
+ },
+ "Biomass Combustors": {
+  "name": "Izishisi Ze-biomass",
+  "desc": "Nciphisa ukukhiqiza kwezitshalo kwanoma ubani ngo-1 bese ukhulisa ukukhiqiza kwakho kwamandla ngo-2."
+ },
+ "Birds": {
+  "name": "Izinyoni",
+  "desc": "Nciphisa ukukhiqiza kwezitshalo kwanoma ubani ngo-2. Iphuzu elingu-1 ngesilwane ngasinye kuleli khadi.",
+  "actions": [
+   "Engeza isilwane kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 ngesilwane ngasinye kuleli khadi."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Uthuli Olumnyama Lwesigxobo",
+  "desc": "Beka ithayela lolwandle. Nciphisa ukukhiqiza kwakho kwe-M€ ngo-2 bese ukhulisa ukukhiqiza kwakho kokushisa ngo-3."
+ },
+ "Breathing Filters": {
+  "name": "Izihlungi Zokuphefumula"
+ },
+ "Bushes": {
+  "name": "Izihlahla",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-2. Thola izitshalo ezingu-2."
+ },
+ "Capital": {
+  "name": "Inhloko-dolobha",
+  "desc": "Beka leli thayela. Nciphisa ukukhiqiza kwakho kwamandla ngo-2 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-5.",
+  "vpText": [
+   "Iphuzu elingu-1 elengeziwe ngethayela lolwandle ngalinye eliseduze naleli thayela ledolobha."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Ukucubungula i-Carbonate",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kokushisa ngo-3."
+ },
+ "Cloud Seeding": {
+  "name": "Ukutshala Amafu",
+  "desc": "Nciphisa ukukhiqiza kwakho kwe-M€ ngo-1 nokukhiqiza kokushisa kwanoma ubani ngo-1. Khulisa ukukhiqiza kwakho kwezitshalo ngo-2."
+ },
+ "Colonizer Training Camp": {
+  "name": "Ikamu Lokuqeqesha Abakholoni"
+ },
+ "Comet": {
+  "name": "Inkanyezi Enomsila",
+  "desc": "Phakamisa izinga lokushisa ngo-1 bese ubeka ithayela lolwandle. Susa izitshalo ezifika ku-3 kunoma yimuphi umdlali."
+ },
+ "Convoy From Europa": {
+  "name": "Uhide Lwemikhumbi Oluvela e-Europa",
+  "desc": "Beka ithayela lolwandle elingu-1 bese udweba ikhadi elingu-1."
+ },
+ "Cupola City": {
+  "name": "Idolobha Elinophahla Oluyindilinga",
+  "desc": "Beka ithayela ledolobha. Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-3."
+ },
+ "Decomposers": {
+  "name": "Izibolisi",
+  "effects": [
+   "Uma udlala uphawu lwesilwane, lwesitshalo, noma lwegciwane, kuhlanganise nalolu, engeza igciwane kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 njalo ngamagciwane angu-3 kuleli khadi."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Ukushisisa Ngomthombo Ojulile",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-1. Phakamisa izinga lokushisa ngo-1."
+ },
+ "Deimos Down": {
+  "name": "Ukuwa kwe-Deimos",
+  "desc": "Phakamisa izinga lokushisa ngo-3 bese uthola insimbi engu-4. Susa izitshalo ezifika ku-8 kunoma yimuphi umdlali."
+ },
+ "Designed Microorganisms": {
+  "name": "Izinto Eziphilayo Ezincane Eziklanyiwe",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-2."
+ },
+ "Domed Crater": {
+  "name": "Umgodi Onophahla Oluyindilinga",
+  "desc": "Thola izitshalo ezingu-3. Beka ithayela ledolobha. Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-3."
+ },
+ "Dust Seals": {
+  "name": "Izivalo Zothuli"
+ },
+ "Ecological Zone": {
+  "name": "Indawo Yemvelo",
+  "desc": "Beka leli thayela eduze kwanoma YILIPHI ihlathi.",
+  "effects": [
+   "Uma udlala uphawu lwesilwane noma lwesitshalo KUHLANGANISE NALEZI, engeza isilwane kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 njalo ngezilwane ezingu-2 kuleli khadi."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Ukonga Amandla",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-1 ngethayela ledolobha ngalinye elisemdlalweni."
+ },
+ "Eos Chasma National Park": {
+  "name": "Ipaki Kazwelonke ye-Eos Chasma",
+  "desc": "Engeza isilwane esingu-1 KUNOMA YILIPHI IKHADI LEZILWANE. Thola izitshalo ezingu-3. Khulisa ukukhiqiza kwakho kwe-M€ ngo-2."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Isikhazimulisi Senkabazwe",
+  "actions": [
+   "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 ukuze uphakamise Isilinganiso sakho se-Terraform ngo-1."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Isikhunta Samakhaza Amakhulu",
+  "actions": [
+   "Thola isitshalo esingu-1.",
+   "Engeza amagciwane angu-2 KWELINYE IKHADI."
+  ]
+ },
+ "Farming": {
+  "name": "Ukulima",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-2 nokukhiqiza kwakho kwezitshalo ngo-2. Thola izitshalo ezingu-2."
+ },
+ "Fish": {
+  "name": "Izinhlanzi",
+  "desc": "Nciphisa ukukhiqiza kwezitshalo kwanoma ubani ngo-1.",
+  "actions": [
+   "Engeza isilwane esingu-1 kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 ngesilwane ngasinye kuleli khadi."
+  ]
+ },
+ "Flooding": {
+  "name": "Izikhukhula",
+  "desc": "Beka ithayela lolwandle. UMA KUKHONA AMATHAYELA ASEDUZE NALELI THAYELA LOLWANDLE, UNGASUSA U-4 M€ KUMNIKAZI WELINYE LALAWO MATHAYELA."
+ },
+ "Food Factory": {
+  "name": "Imboni Yokudla",
+  "desc": "Nciphisa ukukhiqiza kwakho kwezitshalo ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-4."
+ },
+ "Fusion Power": {
+  "name": "Amandla Okuhlanganisa Ama-athomu",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-3."
+ },
+ "Fueled Generators": {
+  "name": "Ojeneretha Abasebenzisa Uphethiloli",
+  "desc": "Nciphisa ukukhiqiza kwakho kwe-M€ ngo-1 bese ukhulisa ukukhiqiza kwakho kwamandla ngo-1."
+ },
+ "Ganymede Colony": {
+  "name": "Ikoloni lase-Ganymede",
+  "desc": "Beka ithayela ledolobha ENDAWENI EBEKELWE ECALENI.",
+  "vpText": [
+   "Iphuzu elingu-1 ngophawu ngalunye lwe-Jupiter onalo."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Amandla Okushisa Komhlaba",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-2."
+ },
+ "GHG Factories": {
+  "name": "Izimboni Zamagesi Abamba Ukushisa",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kokushisa ngo-4."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Amagciwane Akhiqiza Amagesi Abamba Ukushisa",
+  "actions": [
+   "Engeza igciwane elingu-1 kuleli khadi.",
+   "Susa amagciwane angu-2 ukuze uphakamise izinga lokushisa ngo-1."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "I-asteroyidi Yeqhwa Enkulukazi",
+  "desc": "Phakamisa izinga lokushisa ngo-2 bese ubeka amathayela olwandle angu-2. Susa izitshalo ezifika ku-6 kunoma yimuphi umdlali."
+ },
+ "Giant Space Mirror": {
+  "name": "Isibuko Somkhathi Esikhulukazi",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-3."
+ },
+ "Grass": {
+  "name": "Utshani",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1. Thola izitshalo ezingu-3."
+ },
+ "Great Dam": {
+  "name": "Idamu Elikhulu",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-2."
+ },
+ "Greenhouses": {
+  "name": "Izindlu Zezitshalo Zengilazi",
+  "desc": "Thola isitshalo esingu-1 ngethayela ledolobha ngalinye elisemdlalweni."
+ },
+ "Heather": {
+  "name": "I-heather",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1. Thola isitshalo esingu-1."
+ },
+ "Heat Trappers": {
+  "name": "Izibambi Zokushisa",
+  "desc": "Nciphisa ukukhiqiza kokushisa kwanoma ubani ngo-2 bese ukhulisa ukukhiqiza kwakho kwamandla ngo-1."
+ },
+ "Herbivores": {
+  "name": "Izilwane Ezidla Utshani",
+  "desc": "+1 isilwane kuleli khadi. -1 ukukhiqiza kwezitshalo kwanoma ubani",
+  "effects": [
+   "Uma ubeka ithayela lehlathi, engeza isilwane kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 njalo ngezilwane ezingu-2 kuleli khadi."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "I-asteroyidi Yeqhwa",
+  "desc": "Beka amathayela olwandle angu-2."
+ },
+ "Ice Cap Melting": {
+  "name": "Ukuncibilika Kwekhephu Leqhwa",
+  "desc": "Beka ithayela lolwandle elingu-1."
+ },
+ "Immigrant City": {
+  "name": "Idolobha Labafuduki",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 futhi unciphise ukukhiqiza kwakho kwe-M€ ngo-2. Beka ithayela ledolobha.",
+  "effects": [
+   "Uma kubekwa ithayela ledolobha, kuhlanganise naleli, khulisa ukukhiqiza kwakho kwe-M€ ngo-1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Imikhumbi Yabafuduki",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-5.",
+  "vpText": [
+   "Iphuzu elingu-1 njalo ngamadolobha angu-3 asemdlalweni."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Amagesi Abamba Ukushisa Angenisiwe",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-1 bese uthola ukushisa okungu-3."
+ },
+ "Imported Hydrogen": {
+  "name": "I-hydrogen Engenisiwe",
+  "desc": "Thola izitshalo ezingu-3, noma wengeze amagciwane angu-3 noma izilwane ezingu-2 KWELINYE IKHADI. Beka ithayela lolwandle.",
+  "orTitles": [
+   "Thola izitshalo ezingu-3",
+   "Engeza amagciwane angu-3 KWELINYE IKHADI",
+   "Engeza izilwane ezingu-2 KWELINYE IKHADI"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "I-nitrogen Engenisiwe",
+  "desc": "Phakamisa i-TR yakho ngo-1 bese uthola izitshalo ezingu-4. Engeza amagciwane angu-3 KWELINYE IKHADI nezilwane ezingu-2 KWELINYE IKHADI."
+ },
+ "Import of Advanced GHG": {
+  "name": "Ukungeniswa Kwamagesi Abamba Ukushisa Athuthukile",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-2."
+ },
+ "Industrial Microbes": {
+  "name": "Amagciwane Ezimboni",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla nokukhiqiza kwakho kwensimbi ngo-1 ngakunye."
+ },
+ "Insects": {
+  "name": "Izinambuzane",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1 ngophawu ngalunye lwesitshalo onalo."
+ },
+ "Insulation": {
+  "name": "Ukuvikela Ukushisa",
+  "desc": "Nciphisa ukukhiqiza kwakho kokushisa nganoma yiziphi izinyathelo bese ukhulisa ukukhiqiza kwakho kwe-M€ ngenani elifanayo lezinyathelo."
+ },
+ "Ironworks": {
+  "name": "Imboni Yensimbi",
+  "actions": [
+   "Sebenzisa amandla angu-4 ukuze uthole insimbi engu-1 futhi uphakamise i-oksijini ngo-1."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Ukulima Ukhula Lwasolwandle",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-2 nokukhiqiza kwakho kwezitshalo ngo-3. Thola izitshalo ezingu-2."
+ },
+ "Lake Marineris": {
+  "name": "Ichibi i-Marineris",
+  "desc": "Beka amathayela olwandle angu-2."
+ },
+ "Large Convoy": {
+  "name": "Uhide Olukhulu Lwemikhumbi",
+  "desc": "Beka ithayela lolwandle bese udweba amakhadi angu-2. Thola izitshalo ezingu-5 noma wengeze izilwane ezingu-4 KWELINYE IKHADI.",
+  "orTitles": [
+   "Thola izitshalo ezingu-5",
+   "Engeza izilwane ezingu-4 KWELINYE IKHADI"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Ukugeleza Kodaka Lwentaba-mlilo",
+  "desc": "Phakamisa izinga lokushisa ngo-2 bese ubeka leli thayela KU-THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS NOMA ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Ulayikeni",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1."
+ },
+ "Livestock": {
+  "name": "Imfuyo",
+  "desc": "Nciphisa ukukhiqiza kwakho kwezitshalo ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-2",
+  "actions": [
+   "Engeza isilwane esingu-1 kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 ngesilwane ngasinye kuleli khadi."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Ukubamba Ukushisa Kwendawo",
+  "desc": "Sebenzisa ukushisa okungu-5 ukuze uthole izitshalo ezingu-4, noma wengeze izilwane ezingu-2 KWELINYE IKHADI.",
+  "orTitles": [
+   "Thola izitshalo ezingu-4",
+   "Engeza izilwane ezingu-2 KWELINYE IKHADI"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Umsebe Wenyanga",
+  "desc": "Nciphisa ukukhiqiza kwakho kwe-M€ ngo-2 bese ukhulisa ukukhiqiza kwakho kokushisa nokukhiqiza kwakho kwamandla ngo-2 ngakunye."
+ },
+ "Magnetic Field Dome": {
+  "name": "Uphahla Lwendawo Kazibuthe",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-2 bese ukhulisa ukukhiqiza kwakho kwezitshalo ngo-1. Phakamisa i-TR yakho ngo-1."
+ },
+ "Magnetic Field Generators": {
+  "name": "Ojeneretha Bendawo Kazibuthe",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-4 bese ukhulisa ukukhiqiza kwakho kwezitshalo ngo-2. Phakamisa i-TR yakho ngo-3."
+ },
+ "Mangrove": {
+  "name": "Imihlume",
+  "desc": "Beka ithayela lehlathi ENDAWENI EBEKELWE ULWANDLE bese uphakamisa i-oksijini ngo-1. Ungayinaki imithetho ejwayelekile yokubeka kulokhu."
+ },
+ "Martian Rails": {
+  "name": "Ojantshi Base-Mars",
+  "actions": [
+   "Sebenzisa amandla angu-1 ukuze uthole u-1 M€ ngethayela ledolobha ngalinye KU-MARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "I-methane Evela e-Titan",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-2 nokukhiqiza kwakho kwezitshalo ngo-2."
+ },
+ "Micro-Mills": {
+  "name": "Izigayo Ezincane",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-1."
+ },
+ "Mining Expedition": {
+  "name": "Uhambo Lokumba",
+  "desc": "Phakamisa i-oksijini ngo-1. Susa izitshalo ezingu-2 kunoma yimuphi umdlali. Thola insimbi engu-2."
+ },
+ "Mining Rights": {
+  "name": "Amalungelo Okumba",
+  "desc": "Beka leli thayela endaweni enebhonasi yokubeka yensimbi noma yethithaniyamu. Khulisa lokho kukhiqiza ngo-1."
+ },
+ "Mohole Area": {
+  "name": "Indawo ye-Mohole",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-4. Beka leli thayela ENDAWENI EBEKELWE ULWANDLE."
+ },
+ "Moss": {
+  "name": "Ubulembu",
+  "desc": "Lahlekelwa isitshalo esingu-1. Khulisa ukukhiqiza kwakho kwezitshalo ngo-1."
+ },
+ "Natural Preserve": {
+  "name": "Isiqiwu Semvelo",
+  "desc": "Beka leli thayela LINGASEDUZE NANOMA YILIPHI ELINYE ITHAYELA. Khulisa ukukhiqiza kwakho kwe-M€ ngo-1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Amagciwane Anciphisa i-Nitrite",
+  "desc": "Engeza amagciwane angu-3 kuleli khadi.",
+  "actions": [
+   "Engeza igciwane elingu-1 kuleli khadi.",
+   "Susa amagciwane angu-3 ukuze uphakamise i-TR yakho ngo-1."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "I-asteroyidi Ecebile Nge-nitrogen",
+  "desc": "Phakamisa Isilinganiso sakho se-Terraform ngo-2 nezinga lokushisa ngo-1. Khulisa ukukhiqiza kwakho kwezitshalo ngo-1, noma ngo-4 uma unezimpawu zesitshalo ezingu-3."
+ },
+ "Nitrophilic Moss": {
+  "name": "Ubulembu Obuthanda i-Nitrogen",
+  "desc": "Lahlekelwa izitshalo ezingu-2. Khulisa ukukhiqiza kwakho kwezitshalo ngo-2."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-3. Beka ithayela ledolobha ENDAWENI EBEKELWE ECALENI, ngaphandle kokunaka imithetho ejwayelekile yokubeka."
+ },
+ "Noctis Farming": {
+  "name": "Ukulima e-Noctis",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1 bese uthola izitshalo ezingu-2."
+ },
+ "Nuclear Power": {
+  "name": "Amandla Enuzi",
+  "desc": "Nciphisa ukukhiqiza kwakho kwe-M€ ngo-2 bese ukhulisa ukukhiqiza kwakho kwamandla ngo-3."
+ },
+ "Nuclear Zone": {
+  "name": "Indawo Yenuzi",
+  "desc": "Beka leli thayela bese uphakamisa izinga lokushisa ngo-2."
+ },
+ "Open City": {
+  "name": "Idolobha Elivulekile",
+  "desc": "Thola izitshalo ezingu-2. Beka ithayela ledolobha. Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-4."
+ },
+ "Optimal Aerobraking": {
+  "name": "Ukubhuleka Ngomoya Okuphelele",
+  "effects": [
+   "Uma udlala isehlakalo somkhathi, uthola 3 M€ nokushisa okungu-3."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Isicubunguli Setshe Lensimbi",
+  "actions": [
+   "Sebenzisa amandla angu-4 ukuze uthole ithithaniyamu elingu-1 futhi uphakamise i-oksijini ngo-1."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Ukumba Umhlabathi Oqandisiwe",
+  "desc": "Beka ithayela lolwandle elingu-1."
+ },
+ "Peroxide Power": {
+  "name": "Amandla e-Peroxide",
+  "desc": "Nciphisa ukukhiqiza kwakho kwe-M€ ngo-1 bese ukhulisa ukukhiqiza kwakho kwamandla ngo-2."
+ },
+ "Pets": {
+  "name": "Izilwane Ezifuywayo",
+  "desc": "Engeza isilwane esingu-1 kuleli khadi.",
+  "effects": [
+   "Uma kubekwa noma yiliphi ithayela ledolobha, engeza isilwane kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 njalo ngezilwane ezingu-2 lapha."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Isiphephelo Somkhathi sase-Phobos",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-1 bese ubeka ithayela ledolobha ENDAWENI EBEKELWE ECALENI."
+ },
+ "Plantation": {
+  "name": "Ipulazi Lezihlahla",
+  "desc": "Beka ithayela lehlathi bese uphakamisa i-oksijini ngo-1."
+ },
+ "Power Grid": {
+  "name": "Inethiwekhi Kagesi",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngesinyathelo esisodwa ngophawu ngalunye lwamandla onalo, kuhlanganise nalolu."
+ },
+ "Power Plant": {
+  "name": "Isiteshi Sikagesi",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-1."
+ },
+ "Predators": {
+  "name": "Izilwane Ezizingelayo",
+  "actions": [
+   "Susa isilwane esingu-1 kunoma yiliphi ikhadi bese usengeza kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 ngesilwane ngasinye kuleli khadi."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Isigodi Esivikelekile",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-2. Beka ithayela lehlathi ENDAWENI EBEKELWE ULWANDLE, ngaphandle kokunaka imithetho ejwayelekile yokubeka, bese uphakamisa i-oksijini ngo-1."
+ },
+ "Rad-Chem Factory": {
+  "name": "Imboni Yamakhemikhali Emisebe",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1. Phakamisa i-TR yakho ngo-2."
+ },
+ "Regolith Eaters": {
+  "name": "Abadli Be-regolith",
+  "actions": [
+   "Engeza igciwane elingu-1 kuleli khadi.",
+   "Susa amagciwane angu-2 kuleli khadi ukuze uphakamise izinga le-oksijini ngo-1."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Ukukhululwa Kwamagesi Angasebenzi",
+  "desc": "Phakamisa Isilinganiso sakho se-Terraform ngo-2."
+ },
+ "Research Outpost": {
+  "name": "Isikhungo Socwaningo Esikude",
+  "desc": "Beka ithayela ledolobha LINGASEDUZE NANOMA YILIPHI ELINYE ITHAYELA.",
+  "effects": [
+   "Uma udlala ikhadi, ukhokha u-1 M€ ngaphansi ngalo."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Ukwakhiwa Kwezimoto Zokuhlola",
+  "effects": [
+   "Uma kubekwa noma yiliphi ithayela ledolobha, thola 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Ukufuna Impilo",
+  "actions": [
+   "Sebenzisa u-1 M€ ukuze uveze ikhadi eliphezulu lenqwaba yokudweba. Uma lelo khadi linophawu lwegciwane, engeza insiza yesayensi lapha."
+  ],
+  "vpText": [
+   "Amaphuzu angu-3 uma unensiza yesayensi eyodwa noma ngaphezulu lapha."
+  ]
+ },
+ "Shuttles": {
+  "name": "Imikhumbi Yokuthutha",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-2.",
+  "effects": [
+   "Uma udlala ikhadi lomkhathi, ukhokha u-2 M€ ngaphansi ngalo."
+  ]
+ },
+ "Small Animals": {
+  "name": "Izilwane Ezincane",
+  "desc": "Nciphisa ukukhiqiza kwezitshalo kwanoma ubani ngo-1.",
+  "actions": [
+   "Engeza isilwane esingu-1 kuleli khadi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 njalo ngezilwane ezingu-2 kuleli khadi."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Imboni Yenhlabathi",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwezitshalo ngo-1."
+ },
+ "Solar Power": {
+  "name": "Amandla Elanga",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-1."
+ },
+ "Solar Wind Power": {
+  "name": "Amandla Omoya Welanga",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-1 bese uthola ithithaniyamu elingu-2."
+ },
+ "Soletta": {
+  "name": "I-Soletta",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-7."
+ },
+ "Space Mirrors": {
+  "name": "Izibuko Zomkhathi",
+  "actions": [
+   "Sebenzisa u-7 M€ ukuze ukhulise ukukhiqiza kwakho kwamandla ngo-1."
+  ]
+ },
+ "Special Design": {
+  "name": "Idizayini Ekhethekile",
+  "desc": "Ikhadi elilandelayo ozolidlala kulesi sizukulwane lingu-+2 noma -2 izinyathelo ezimfunekweni zomhlaba wonke, ngokukhetha kwakho."
+ },
+ "Steelworks": {
+  "name": "Imboni Yokwenza Insimbi",
+  "actions": [
+   "Sebenzisa amandla angu-4 ukuze uthole insimbi engu-2 futhi uphakamise i-oksijini ngo-1."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Imayini Evulekile",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-2. Khulisa ukukhiqiza kwakho kwensimbi ngo-2 nokukhiqiza kwakho kwethithaniyamu ngo-1. Phakamisa i-oksijini ngo-2."
+ },
+ "Subterranean Reservoir": {
+  "name": "Idamu Elingaphansi Komhlaba",
+  "desc": "Beka ithayela lolwandle elingu-1."
+ },
+ "Symbiotic Fungus": {
+  "name": "Isikhunta Esisebenzisanayo",
+  "actions": [
+   "Engeza igciwane KWELINYE IKHADI."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Amandla Engcindezi Yomhlaba",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-3."
+ },
+ "Towing A Comet": {
+  "name": "Ukudonsa Inkanyezi Enomsila",
+  "desc": "Thola izitshalo ezingu-2. Phakamisa izinga le-oksijini ngo-1 bese ubeka ithayela lolwandle."
+ },
+ "Trees": {
+  "name": "Izihlahla Ezinkulu",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-3. Thola isitshalo esingu-1."
+ },
+ "Tundra Farming": {
+  "name": "Ukulima e-Tundra",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1 nokukhiqiza kwakho kwe-M€ ngo-2. Thola isitshalo esingu-1."
+ },
+ "Underground City": {
+  "name": "Idolobha Elingaphansi Komhlaba",
+  "desc": "Beka ithayela ledolobha. Nciphisa ukukhiqiza kwakho kwamandla ngo-2 bese ukhulisa ukukhiqiza kwakho kwensimbi ngo-2."
+ },
+ "Underground Detonations": {
+  "name": "Ukuqhuma Ngaphansi Komhlaba",
+  "actions": [
+   "Sebenzisa u-10 M€ ukuze ukhulise ukukhiqiza kwakho kokushisa ngo-2."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Indawo Yasedolobheni",
+  "desc": "Nciphisa ukukhiqiza kwakho kwamandla ngo-1 bese ukhulisa ukukhiqiza kwakho kwe-M€ ngo-2. Beka ithayela ledolobha ELISEDUZE OKUNGENANI NAMANYE AMATHAYELA EDOLOBHA ANGU-2."
+ },
+ "Water Import From Europa": {
+  "name": "Ukungenisa Amanzi Avela e-Europa",
+  "actions": [
+   "Khokha u-12 M€ ukuze ubeke ithayela lolwandle. ITHITHANIYAMU LINGASETSHENZISWA sengathi udlala ikhadi lomkhathi."
+  ],
+  "vpText": [
+   "Iphuzu elingu-1 ngophawu ngalunye lwe-Jupiter onalo."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Isiteshi Sokuhlukanisa Amanzi",
+  "actions": [
+   "Sebenzisa amandla angu-3 ukuze uphakamise i-oksijini ngo-1."
+  ]
+ },
+ "Wave Power": {
+  "name": "Amandla Amagagasi",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-1."
+ },
+ "Windmills": {
+  "name": "Izigayo Zomoya",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-1."
+ },
+ "Worms": {
+  "name": "Izikelemu",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1 njalo ngezimpawu zegciwane ezingu-2 onazo, kuhlanganise nalolu."
+ },
+ "Zeppelins": {
+  "name": "Ama-zeppelin",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1 ngethayela ledolobha ngalinye KU-MARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Uqala nokukhiqiza kwethithaniyamu okungu-1 no-42 M€.",
+  "effects": [
+   "Njalo uma noma yiluphi uphawu lwe-Jupiter lungena emdlalweni, kuhlanganise nalolu, khulisa ukukhiqiza kwakho kwe-M€ ngo-1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Uqala no-60 M€.",
+  "effects": [
+   "Uma udlala uphawu lomhlaba, ukhokha u-3 M€ ngaphansi ngalo."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Uqala nokukhiqiza kwe-M€ okungu-3 no-44 M€.",
+  "effects": [
+   "Uma udlala uphawu lokwakha, ukhokha u-2 M€ ngaphansi ngalo."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Uqala nokukhiqiza kwethithaniyamu okungu-1 no-38 M€.",
+  "effects": [
+   "Uma udlala uphawu lomhlaba, kuhlanganise nalolu, dweba ikhadi."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Uqala no-47 M€.",
+  "actions": [
+   "Sebenzisa u-4 M€ ukuze ukhulise (okukodwa kokhiqizo lwakho) OKUPHANSI KAKHULU ngo-1."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Uqala no-37 M€. Njengesenzo sakho sokuqala, dweba amakhadi Esandulela angu-3, bese udlala elilodwa kuwo. Lahla amanye amabili.",
+  "effects": [
+   "Uma udlala uphawu lwesayensi, ukhokha u-2 M€ ngaphansi ngalo."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Uqala no-45 M€. Njengesenzo sakho sokuqala, xhasa umklomelo mahhala.",
+  "effects": [
+   "Uma udlala ikhadi elinophawu lwamaphuzu OLUNGELONA OLUBI, kuhlanganise naleli, thola 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Inkampani Yabaqalayo",
+  "desc": "Uqala no-42 M€. Esikhundleni sokukhetha kumakhadi angu-10 ngesikhathi sokulungiselela, uthola amakhadi angu-10 mahhala."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Uqala no-57 M€.",
+  "effects": [
+   "Ngemva kokukhokhela ikhadi noma iphrojekthi ejwayelekile enenani eliyisisekelo elingu-20 M€ noma ngaphezulu, uthola 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Uqala nokukhiqiza kwezitshalo okungu-2, izitshalo ezingu-3, no-36 M€.",
+  "effects": [
+   "Ungahlala ukhokha izitshalo ezingu-7, esikhundleni sezingu-8, ukuze ubeke ihlathi."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Uqala nokukhiqiza kokushisa okungu-3 no-42 M€.",
+  "effects": [
+   "Ungasebenzisa ukushisa njengo-M€. Awukwazi ukusebenzisa u-M€ njengokushisa."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Uqala nensimbi engu-20 no-30 M€.",
+  "effects": [
+   "Njalo uma udlala isehlakalo, uthola 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Njengesenzo sakho sokuqala emdlalweni, dweba amakhadi angu-3. Qala no-45 M€.",
+  "effects": [
+   "Izimfuneko zakho zezinga lokushisa, i-oksijini, ulwandle, ne-Venus zingu-+2 noma -2 izinyathelo, ngokukhetha kwakho njalo."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Inhlangano Yabavukuzi",
+  "desc": "Uqala no-30 M€, insimbi engu-5 nokukhiqiza kwensimbi okungu-1.",
+  "effects": [
+   "Njalo uma ubeka ithayela endaweni enebhonasi yokubeka yensimbi noma yethithaniyamu, khulisa ukukhiqiza kwakho kwensimbi ngo-1"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Uqala nethithaniyamu elingu-10 no-23 M€.",
+  "effects": [
+   "Izinsiza zakho zethithaniyamu ngayinye ibiza u-1 M€ ngaphezulu."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "IRiphabhulikhi ye-Tharsis",
+  "desc": "Uqala no-40 M€. Njengesenzo sakho sokuqala emdlalweni, beka ithayela ledolobha.",
+  "effects": [
+   "Uma kubekwa noma yiliphi ithayela ledolobha KU-MARS, khulisa ukukhiqiza kwakho kwe-M€ ngo-1. Uma ubeka ithayela ledolobha, thola 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Uqala nokukhiqiza kwamandla okungu-1 no-48 M€.",
+  "effects": [
+   "Uma udlala ikhadi lamandla NOMA IPHROJEKTHI EJWAYELEKILE YESITESHI SIKAGESI, ukhokha u-3 M€ ngaphansi ngalo."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Uhlelo lwe-Mars Lwezizwe Ezihlangene",
+  "desc": "Uqala no-40 M€.",
+  "actions": [
+   "Uma Isilinganiso sakho se-Terraform siphakanyisiwe kulesi sizukulwane, ungakhokha u-3 M€ ukuze usiphakamise ngo-1 futhi."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Ibhange Elibambisene",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-4. Thola 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Ukwesekwa Kwendawo Yokuphila",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-2. Nciphisa ukukhiqiza kwakho kwe-M€ ngo-1."
+ },
+ "Aquifer Turbines": {
+  "name": "Ophephela Bamanzi Angaphansi",
+  "desc": "Beka ithayela lolwandle. Khulisa ukukhiqiza kwakho kwamandla ngo-2. Khokha 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Ukumbiwa kwe-Mohole",
+  "desc": "Khulisa ukukhiqiza kwakho kwensimbi ngo-1 nokukhiqiza kokushisa ngo-2. Thola ukushisa okungu-2."
+ },
+ "Early Settlement": {
+  "name": "Indawo Yokuhlala Yokuqala",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1. Beka ithayela ledolobha."
+ },
+ "Biofuels": {
+  "name": "Uphethiloli Wezitshalo",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla nokwezitshalo ngo-1. Thola izitshalo ezingu-2."
+ },
+ "Power Generation": {
+  "name": "Ukukhiqizwa Kukagesi",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-3."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Indawo Yokuhlala Ezimele",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-2. Beka ithayela ledolobha."
+ },
+ "Mining Operations": {
+  "name": "Imisebenzi Yokumba",
+  "desc": "Khulisa ukukhiqiza kwakho kwensimbi ngo-2. Thola insimbi engu-4."
+ },
+ "UNMI Contractor": {
+  "name": "Usonkontileka we-UNMI",
+  "desc": "Phakamisa i-TR yakho ngo-3. Dweba ikhadi."
+ },
+ "Dome Farming": {
+  "name": "Ukulima Ngaphansi Kophahla",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-2 nokukhiqiza kwezitshalo ngo-1."
+ },
+ "Business Empire": {
+  "name": "Umbuso Webhizinisi",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-6. Khokha 6 M€."
+ },
+ "Donation": {
+  "name": "Umnikelo",
+  "desc": "Thola 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Umthwalo we-Nitrogen",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1. Phakamisa i-TR yakho ngo-1. Thola 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Isiteshi Sokuncibilikisa",
+  "desc": "Phakamisa i-oksijini ngo-2. Thola insimbi engu-5."
+ },
+ "Supplier": {
+  "name": "Umhlinzeki",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla ngo-2. Thola insimbi engu-4."
+ },
+ "Supply Drop": {
+  "name": "Ukuwiswa Kwempahla",
+  "desc": "Thola ithithaniyamu elingu-3, insimbi engu-8 nezitshalo ezingu-3."
+ },
+ "Great Aquifer": {
+  "name": "Amanzi Amakhulu Angaphansi",
+  "desc": "Beka amathayela olwandle angu-2."
+ },
+ "Biolab": {
+  "name": "Ilebhu Yebhayoloji",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1. Dweba amakhadi angu-3."
+ },
+ "Martian Industries": {
+  "name": "Izimboni Zase-Mars",
+  "desc": "Khulisa ukukhiqiza kwakho kwamandla nokwensimbi ngo-1. Thola 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Isikhungo Socwaningo sase-Io",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-1. Dweba ikhadi."
+ },
+ "Polar Industries": {
+  "name": "Izimboni Zezigxobo",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-2. Beka ithayela lolwandle."
+ },
+ "Society Support": {
+  "name": "Ukwesekwa Komphakathi",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo, kwamandla nokokushisa ngo-1. Nciphisa ukukhiqiza kwe-M€ ngo-1."
+ },
+ "Galilean Mining": {
+  "name": "Ukumba Ezinyangeni ze-Galileo",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-2. Khokha 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "I-asteroyidi Enkulu Kakhulu",
+  "desc": "Phakamisa izinga lokushisa ngo-3. Khokha 5 M€."
+ },
+ "Metals Company": {
+  "name": "Inkampani Yezinsimbi",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€, kwensimbi nokwethithaniyamu ngo-1."
+ },
+ "Loan": {
+  "name": "Imali Mboleko",
+  "desc": "Thola 30 M€. Nciphisa ukukhiqiza kwakho kwe-M€ ngo-2."
+ },
+ "Mohole": {
+  "name": "I-Mohole",
+  "desc": "Khulisa ukukhiqiza kwakho kokushisa ngo-3. Thola ukushisa okungu-3."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "I-asteroyidi Ecebile Ngezinsimbi",
+  "desc": "Phakamisa izinga lokushisa ngo-1. Thola ithithaniyamu elingu-4 nensimbi engu-4."
+ },
+ "Orbital Construction Yard": {
+  "name": "Indawo Yokwakha Ku-orbit",
+  "desc": "Khulisa ukukhiqiza kwakho kwethithaniyamu ngo-1. Thola ithithaniyamu elingu-4."
+ },
+ "Acquired Space Agency": {
+  "name": "Inhlangano Yomkhathi Ethengiwe",
+  "desc": "Thola ithithaniyamu elingu-6. Veza amakhadi uze uveze amakhadi amabili anezimpawu Zomkhathi. Wafake esandleni sakho, lahla amanye."
+ },
+ "Research Network": {
+  "name": "Inethiwekhi Yocwaningo",
+  "desc": "Khulisa ukukhiqiza kwakho kwe-M€ ngo-1. Dweba amakhadi angu-3. Ngemva kokudlalwa, uma wenza isenzo, uphawu olungaba yinoma yiluphi lubalwa njengoma yiluphi uphawu olukhethayo."
+ },
+ "Eccentric Sponsor": {
+  "name": "Umxhasi Oyinqaba",
+  "desc": "DLALA IKHADI ESANDLENI NGESAPHULELO SIKA-25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Ochwepheshe Bemvelo",
+  "desc": "Khulisa ukukhiqiza kwakho kwezitshalo ngo-1. DLALA IKHADI ESANDLENI, UNGAZINAKI IZIMFUNEKO ZOMHLABA WONKE."
+ },
+ "Experimental Forest": {
+  "name": "Ihlathi Lokuhlola",
+  "desc": "Beka ithayela lehlathi elingu-1 bese uphakamisa i-oksijini ngo-1. Veza amakhadi uze uveze amakhadi amabili anezimpawu zesitshalo. Wafake esandleni sakho bese ulahla amanye."
+ }
+}

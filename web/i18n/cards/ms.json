@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Syarikat Diambil Alih",
+  "desc": "Tingkatkan pengeluaran M€ anda 3 tahap."
+ },
+ "Advanced Alloys": {
+  "name": "Aloi Termaju",
+  "effects": [
+   "Setiap titanium anda bernilai 1 M€ lebih.",
+   "Setiap keluli anda bernilai 1 M€ lebih."
+  ]
+ },
+ "AI Central": {
+  "name": "Pusat AI",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap.",
+  "actions": [
+   "Cabut 2 kad."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Teknologi Antigraviti",
+  "effects": [
+   "Apabila anda memainkan kad, anda membayar 2 M€ kurang untuknya."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Konsortium Perlombongan Asteroid",
+  "desc": "Kurangkan pengeluaran titanium mana-mana pemain 1 tahap dan tingkatkan pengeluaran anda sendiri 1 tahap."
+ },
+ "Bribed Committee": {
+  "name": "Jawatankuasa Dirasuah",
+  "desc": "Naikkan TR anda 2 tahap."
+ },
+ "Building Industries": {
+  "name": "Industri Pembinaan",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran keluli anda 2 tahap."
+ },
+ "Business Contacts": {
+  "name": "Kenalan Perniagaan",
+  "desc": "Lihat 4 kad teratas dek. Ambil 2 ke tangan anda dan buang selebihnya."
+ },
+ "Business Network": {
+  "name": "Rangkaian Perniagaan",
+  "desc": "Kurangkan pengeluaran M€ anda 1 tahap.",
+  "actions": [
+   "Lihat kad teratas dan sama ada beli atau buang kad itu."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Lombong Penjara Callisto",
+  "desc": "Tingkatkan pengeluaran M€ anda 3 tahap."
+ },
+ "Caretaker Contract": {
+  "name": "Kontrak Penjaga",
+  "actions": [
+   "Belanjakan 8 haba untuk menaikkan penarafan terraform anda 1 tahap."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap bagi setiap tag Bumi yang anda ada, termasuk yang ini."
+ },
+ "CEO's Favorite Project": {
+  "name": "Projek Kegemaran CEO",
+  "desc": "Tambah 1 sumber pada mana-mana kad anda yang sudah mempunyai sekurang-kurangnya 1 sumber."
+ },
+ "Commercial District": {
+  "name": "Daerah Perniagaan",
+  "desc": "Letakkan jubin ini. Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 4 tahap.",
+  "vpText": [
+   "1 MK bagi setiap jubin bandar yang bersebelahan."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Kubu Korporat",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 3 tahap. Letakkan jubin bandar."
+ },
+ "Development Center": {
+  "name": "Pusat Pembangunan",
+  "actions": [
+   "Belanjakan 1 tenaga untuk mencabut sekeping kad."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Lastik Bumi",
+  "effects": [
+   "Apabila anda memainkan kad, anda membayar 2 M€ kurang untuknya."
+  ]
+ },
+ "Earth Office": {
+  "name": "Pejabat Bumi",
+  "effects": [
+   "Apabila anda memainkan tag Bumi, anda membayar 3 M€ kurang untuknya."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Lastik Elektro",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap.",
+  "actions": [
+   "Belanjakan 1 tumbuhan atau 1 keluli untuk mendapat 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Curi Tenaga",
+  "desc": "Kurangkan pengeluaran tenaga mana-mana pemain 1 tahap dan tingkatkan pengeluaran anda sendiri 1 tahap."
+ },
+ "Fuel Factory": {
+  "name": "Kilang Bahan Api",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran titanium dan pengeluaran M€ anda masing-masing 1 tahap."
+ },
+ "Gene Repair": {
+  "name": "Pembaikan Gen",
+  "desc": "Tingkatkan pengeluaran M€ anda 2 tahap."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Konsortium Tebing Agung",
+  "desc": "Kurangkan pengeluaran keluli mana-mana pemain 1 tahap dan tingkatkan pengeluaran anda sendiri 1 tahap."
+ },
+ "Hackers": {
+  "name": "Penggodam",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan pengeluaran M€ mana-mana pemain 2 tahap. Tingkatkan pengeluaran M€ anda 2 tahap."
+ },
+ "Hired Raiders": {
+  "name": "Penyerang Upahan",
+  "desc": "Curi sehingga 2 keluli, atau 3 M€ daripada mana-mana pemain."
+ },
+ "Indentured Workers": {
+  "name": "Pekerja Kontrak",
+  "desc": "Kad seterusnya yang anda mainkan dalam generasi ini berharga 8 M€ kurang."
+ },
+ "Industrial Center": {
+  "name": "Pusat Perindustrian",
+  "desc": "Letakkan jubin ini bersebelahan jubin bandar.",
+  "actions": [
+   "Belanjakan 7 M€ untuk meningkatkan pengeluaran keluli anda 1 tahap."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Kapal Koloni Antara Bintang"
+ },
+ "Invention Contest": {
+  "name": "Pertandingan Rekaan",
+  "desc": "Lihat 3 kad teratas dek. Ambil 1 ke tangan anda dan buang selebihnya."
+ },
+ "Inventors' Guild": {
+  "name": "Persatuan Pencipta",
+  "actions": [
+   "Lihat kad teratas dan sama ada beli atau buang kad itu."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Pinjaman Pelaburan",
+  "desc": "Kurangkan pengeluaran M€ anda 1 tahap. Dapatkan 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Industri Perlombongan Io",
+  "desc": "Tingkatkan pengeluaran titanium anda 2 tahap dan pengeluaran M€ anda 2 tahap.",
+  "vpText": [
+   "1 MK bagi setiap tag Jovian yang anda ada."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Balai Cerap Lagrange",
+  "desc": "Cabut 1 kad."
+ },
+ "Land Claim": {
+  "name": "Tuntutan Tanah",
+  "desc": "Tempah kawasan yang belum ditempah untuk diri anda: hanya anda boleh meletakkan jubin di situ."
+ },
+ "Lightning Harvest": {
+  "name": "Tuaian Kilat",
+  "desc": "Tingkatkan pengeluaran tenaga dan pengeluaran M€ anda masing-masing satu tahap."
+ },
+ "Mars University": {
+  "name": "Universiti Marikh",
+  "effects": [
+   "Apabila anda memainkan tag sains, termasuk yang ini, anda boleh membuang sekeping kad dari tangan untuk mencabut sekeping kad."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Penukar Jisim",
+  "desc": "Tingkatkan pengeluaran tenaga anda 6 tahap.",
+  "effects": [
+   "Apabila anda memainkan kad angkasa, anda membayar 2 M€ kurang untuknya."
+  ]
+ },
+ "Media Archives": {
+  "name": "Arkib Media",
+  "desc": "Dapatkan 1 M€ bagi setiap peristiwa yang PERNAH DIMAINKAN oleh semua pemain."
+ },
+ "Media Group": {
+  "name": "Kumpulan Media",
+  "effects": [
+   "Selepas anda memainkan kad peristiwa, anda mendapat 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Makmal Perubatan",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap bagi setiap 2 tag bangunan yang anda ada, termasuk yang ini."
+ },
+ "Mine": {
+  "name": "Lombong",
+  "desc": "Tingkatkan pengeluaran keluli anda 1 tahap."
+ },
+ "Mineral Deposit": {
+  "name": "Mendapan Mineral",
+  "desc": "Dapatkan 5 keluli."
+ },
+ "Mining Area": {
+  "name": "Kawasan Perlombongan",
+  "desc": "Letakkan jubin ini di kawasan dengan bonus peletakan keluli atau titanium, bersebelahan jubin anda yang lain. Tingkatkan pengeluaran sumber tersebut 1 tahap."
+ },
+ "Miranda Resort": {
+  "name": "Resort Miranda",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap bagi setiap tag Bumi yang anda ada."
+ },
+ "Olympus Conference": {
+  "name": "Persidangan Olympus",
+  "desc": "Apabila anda memainkan tag sains, termasuk yang ini, sama ada tambah satu sumber sains pada kad ini, atau keluarkan satu sumber sains daripada kad ini untuk mencabut sekeping kad."
+ },
+ "Physics Complex": {
+  "name": "Kompleks Fizik",
+  "actions": [
+   "Belanjakan 6 tenaga untuk menambah satu sumber sains pada kad ini."
+  ],
+  "vpText": [
+   "2 MK bagi setiap sumber sains pada kad ini."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Infrastruktur Kuasa",
+  "actions": [
+   "Belanjakan sebarang jumlah tenaga dan dapatkan M€ sebanyak jumlah itu."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Konsortium Bekalan Kuasa",
+  "desc": "Kurangkan pengeluaran tenaga mana-mana pemain 1 tahap dan tingkatkan pengeluaran anda sendiri 1 tahap."
+ },
+ "Protected Habitats": {
+  "name": "Habitat Terlindung",
+  "effects": [
+   "Lawan tidak boleh mengeluarkan tumbuhan, haiwan atau mikrob anda."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Pengekstrak Kuantum",
+  "desc": "Tingkatkan pengeluaran tenaga anda 4 tahap.",
+  "effects": [
+   "Apabila anda memainkan kad angkasa, anda membayar 2 M€ kurang untuknya."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Sut Antiradiasi",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap."
+ },
+ "Research": {
+  "name": "Penyelidikan",
+  "desc": "Dikira sebagai memainkan 2 kad sains. Cabut 2 kad."
+ },
+ "Restricted Area": {
+  "name": "Kawasan Larangan",
+  "desc": "Letakkan jubin ini.",
+  "actions": [
+   "Belanjakan 2 M€ untuk mencabut sekeping kad."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Tenaga Kerja Robotik",
+  "desc": "Salin hanya kotak pengeluaran salah satu kad bangunan anda."
+ },
+ "Sabotage": {
+  "name": "Sabotaj",
+  "desc": "Keluarkan sehingga 3 titanium daripada mana-mana pemain, atau 4 keluli, atau 7 M€."
+ },
+ "Satellites": {
+  "name": "Satelit",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap bagi setiap tag angkasa yang anda ada, termasuk yang ini."
+ },
+ "Security Fleet": {
+  "name": "Armada Keselamatan",
+  "actions": [
+   "Belanjakan 1 titanium untuk menambah 1 sumber pejuang pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap sumber pejuang pada kad ini."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Lif Angkasa",
+  "desc": "Tingkatkan pengeluaran titanium anda 1 tahap.",
+  "actions": [
+   "Belanjakan 1 keluli untuk mendapat 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Stesen Angkasa",
+  "effects": [
+   "Apabila anda memainkan kad angkasa, anda membayar 2 M€ kurang untuknya."
+  ]
+ },
+ "Sponsors": {
+  "name": "Penaja",
+  "desc": "Tingkatkan pengeluaran M€ anda 2 tahap."
+ },
+ "Standard Technology": {
+  "name": "Teknologi Standard",
+  "effects": [
+   "Selepas anda membayar projek standard, kecuali menjual paten, anda mendapat 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigrad",
+  "actions": [
+   "Tambah 1 mikrob pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap 4 mikrob pada kad ini."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Demonstrasi Teknologi",
+  "desc": "Cabut dua kad."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraform Ganymede",
+  "desc": "Naikkan TR anda 1 tahap bagi setiap tag Jovian yang anda ada, termasuk yang ini."
+ },
+ "Titanium Mine": {
+  "name": "Lombong Titanium",
+  "desc": "Tingkatkan pengeluaran titanium anda 1 tahap."
+ },
+ "Toll Station": {
+  "name": "Plaza Tol",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap bagi setiap tag angkasa yang dimiliki oleh LAWAN anda."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Kuar Trans-Neptun",
+  "desc": "Kuar angkasa lepas: bernilai 1 MK."
+ },
+ "Tropical Resort": {
+  "name": "Resort Tropika",
+  "desc": "Kurangkan pengeluaran haba anda 2 tahap dan tingkatkan pengeluaran M€ anda 3 tahap."
+ },
+ "Vesta Shipyard": {
+  "name": "Limbungan Vesta",
+  "desc": "Tingkatkan pengeluaran titanium anda 1 tahap."
+ },
+ "Viral Enhancers": {
+  "name": "Penggalak Virus",
+  "effects": [
+   "Apabila anda memainkan tag tumbuhan, mikrob atau haiwan, termasuk yang ini, dapatkan 1 tumbuhan atau tambah 1 sumber pada KAD ITU."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Keluarkan sehingga 2 haiwan atau 5 tumbuhan daripada mana-mana pemain."
+ },
+ "SF Memorial": {
+  "name": "Tugu Peringatan SF",
+  "desc": "Cabut 1 kad."
+ },
+ "House Printing": {
+  "name": "Rumah Cetakan",
+  "desc": "Tingkatkan pengeluaran keluli anda 1 tahap."
+ },
+ "Space Hotels": {
+  "name": "Hotel Angkasa",
+  "desc": "Tingkatkan pengeluaran M€ 4 tahap."
+ },
+ "Martian Survey": {
+  "name": "Tinjauan Marikh",
+  "desc": "Cabut dua kad."
+ },
+ "Research Coordination": {
+  "name": "Koordinasi Penyelidikan",
+  "desc": "Selepas dimainkan, apabila anda melakukan tindakan, tag sebarang dikira sebagai mana-mana tag pilihan anda."
+ },
+ "Lava Tube Settlement": {
+  "name": "Penempatan Tiub Lava",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 2 tahap. Letakkan jubin bandar di KAWASAN GUNUNG BERAPI tanpa mengira bandar yang bersebelahan."
+ },
+ "Psychrophiles": {
+  "name": "Psikrofil",
+  "actions": [
+   "Tambah 1 mikrob pada kad ini."
+  ],
+  "effects": [
+   "Apabila membayar kad tumbuhan, mikrob di sini boleh digunakan sebagai 2 M€ setiap satu."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Teknologi Adaptasi",
+  "effects": [
+   "Syarat global anda +2 atau -2 tahap, mengikut pilihan anda dalam setiap kes."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Liken Teradaptasi",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ekosistem Termaju"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroid Ammonia Brek Udara",
+  "desc": "Tingkatkan pengeluaran haba anda 3 tahap dan pengeluaran tumbuhan anda 1 tahap. Tambah 2 mikrob pada kad LAIN."
+ },
+ "Ants": {
+  "name": "Semut",
+  "actions": [
+   "Keluarkan 1 mikrob daripada mana-mana kad untuk menambah 1 pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap 2 mikrob pada kad ini."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Pengepaman Akuifer",
+  "actions": [
+   "Belanjakan 8 M€ untuk meletakkan 1 jubin lautan. KELULI BOLEH DIGUNAKAN seolah-olah anda memainkan kad bangunan."
+  ]
+ },
+ "Algae": {
+  "name": "Alga",
+  "desc": "Dapatkan 1 tumbuhan dan tingkatkan pengeluaran tumbuhan anda 2 tahap."
+ },
+ "ArchaeBacteria": {
+  "name": "Arkeabakteria",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap."
+ },
+ "Arctic Algae": {
+  "name": "Alga Artik",
+  "desc": "Dapatkan 1 tumbuhan.",
+  "effects": [
+   "Apabila sesiapa meletakkan jubin lautan, dapatkan 2 tumbuhan."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Tasik Buatan",
+  "desc": "Letakkan 1 jubin lautan DI KAWASAN YANG TIDAK DIKHASKAN UNTUK LAUTAN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Fotosintesis Buatan",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap atau pengeluaran tenaga anda 2 tahap.",
+  "orTitles": [
+   "Tingkatkan pengeluaran tenaga anda 2 tahap",
+   "Tingkatkan pengeluaran tumbuhan anda 1 tahap"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Naikkan suhu 1 tahap dan dapatkan 2 titanium. Keluarkan sehingga 3 tumbuhan daripada mana-mana pemain."
+ },
+ "Asteroid Mining": {
+  "name": "Perlombongan Asteroid",
+  "desc": "Tingkatkan pengeluaran titanium anda 2 tahap."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Pancaran dari Asteroid Torium",
+  "desc": "Tingkatkan pengeluaran haba dan pengeluaran tenaga anda masing-masing 3 tahap."
+ },
+ "Big Asteroid": {
+  "name": "Asteroid Besar",
+  "desc": "Naikkan suhu 2 tahap dan dapatkan 4 titanium. Keluarkan sehingga 4 tumbuhan daripada mana-mana pemain."
+ },
+ "Biomass Combustors": {
+  "name": "Pembakar Biojisim",
+  "desc": "Kurangkan pengeluaran tumbuhan mana-mana pemain 1 tahap dan tingkatkan pengeluaran tenaga anda 2 tahap."
+ },
+ "Birds": {
+  "name": "Burung",
+  "desc": "Kurangkan pengeluaran tumbuhan mana-mana pemain 2 tahap. 1 MK bagi setiap haiwan pada kad ini.",
+  "actions": [
+   "Tambah seekor haiwan pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap haiwan pada kad ini."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Debu Kutub Hitam",
+  "desc": "Letakkan jubin lautan. Kurangkan pengeluaran M€ anda 2 tahap dan tingkatkan pengeluaran haba anda 3 tahap."
+ },
+ "Breathing Filters": {
+  "name": "Penapis Pernafasan"
+ },
+ "Bushes": {
+  "name": "Semak",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 2 tahap. Dapatkan 2 tumbuhan."
+ },
+ "Capital": {
+  "name": "Ibu Negara",
+  "desc": "Letakkan jubin ini. Kurangkan pengeluaran tenaga anda 2 tahap dan tingkatkan pengeluaran M€ anda 5 tahap.",
+  "vpText": [
+   "1 MK tambahan bagi setiap jubin lautan yang bersebelahan jubin bandar ini."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Pemprosesan Karbonat",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran haba anda 3 tahap."
+ },
+ "Cloud Seeding": {
+  "name": "Pembenihan Awan",
+  "desc": "Kurangkan pengeluaran M€ anda 1 tahap dan pengeluaran haba mana-mana pemain 1 tahap. Tingkatkan pengeluaran tumbuhan anda 2 tahap."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kem Latihan Penjajah"
+ },
+ "Comet": {
+  "name": "Komet",
+  "desc": "Naikkan suhu 1 tahap dan letakkan jubin lautan. Keluarkan sehingga 3 tumbuhan daripada mana-mana pemain."
+ },
+ "Convoy From Europa": {
+  "name": "Konvoi dari Europa",
+  "desc": "Letakkan 1 jubin lautan dan cabut 1 kad."
+ },
+ "Cupola City": {
+  "name": "Bandar Kubah",
+  "desc": "Letakkan jubin bandar. Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 3 tahap."
+ },
+ "Decomposers": {
+  "name": "Pengurai",
+  "effects": [
+   "Apabila anda memainkan tag haiwan, tumbuhan atau mikrob, termasuk yang ini, tambah satu mikrob pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap 3 mikrob pada kad ini."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Pemanasan Telaga Dalam",
+  "desc": "Tingkatkan pengeluaran tenaga anda 1 tahap. Naikkan suhu 1 tahap."
+ },
+ "Deimos Down": {
+  "name": "Deimos Jatuh",
+  "desc": "Naikkan suhu 3 tahap dan dapatkan 4 keluli. Keluarkan sehingga 8 tumbuhan daripada mana-mana pemain."
+ },
+ "Designed Microorganisms": {
+  "name": "Mikroorganisma Rekaan",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 2 tahap."
+ },
+ "Domed Crater": {
+  "name": "Kawah Berkubah",
+  "desc": "Dapatkan 3 tumbuhan. Letakkan jubin bandar. Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 3 tahap."
+ },
+ "Dust Seals": {
+  "name": "Pengedap Debu"
+ },
+ "Ecological Zone": {
+  "name": "Zon Ekologi",
+  "desc": "Letakkan jubin ini bersebelahan MANA-MANA kawasan hijau.",
+  "effects": [
+   "Apabila anda memainkan tag haiwan atau tumbuhan, TERMASUK YANG INI, tambah seekor haiwan pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap 2 haiwan pada kad ini."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Penjimatan Tenaga",
+  "desc": "Tingkatkan pengeluaran tenaga anda 1 tahap bagi setiap jubin bandar dalam permainan."
+ },
+ "Eos Chasma National Park": {
+  "name": "Taman Negara Eos Chasma",
+  "desc": "Tambah 1 haiwan PADA MANA-MANA KAD HAIWAN. Dapatkan 3 tumbuhan. Tingkatkan pengeluaran M€ anda 2 tahap."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Pemagnet Khatulistiwa",
+  "actions": [
+   "Kurangkan pengeluaran tenaga anda 1 tahap untuk menaikkan penarafan terraform anda 1 tahap."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Kulat Sejuk Melampau",
+  "actions": [
+   "Dapatkan 1 tumbuhan.",
+   "Tambah 2 mikrob pada kad LAIN."
+  ]
+ },
+ "Farming": {
+  "name": "Pertanian",
+  "desc": "Tingkatkan pengeluaran M€ anda 2 tahap dan pengeluaran tumbuhan anda 2 tahap. Dapatkan 2 tumbuhan."
+ },
+ "Fish": {
+  "name": "Ikan",
+  "desc": "Kurangkan pengeluaran tumbuhan mana-mana pemain 1 tahap.",
+  "actions": [
+   "Tambah 1 haiwan pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap haiwan pada kad ini."
+  ]
+ },
+ "Flooding": {
+  "name": "Banjir",
+  "desc": "Letakkan jubin lautan. JIKA ADA JUBIN BERSEBELAHAN JUBIN LAUTAN INI, ANDA BOLEH MENGELUARKAN 4 M€ DARIPADA PEMILIK SALAH SATU JUBIN TERSEBUT."
+ },
+ "Food Factory": {
+  "name": "Kilang Makanan",
+  "desc": "Kurangkan pengeluaran tumbuhan anda 1 tahap dan tingkatkan pengeluaran M€ anda 4 tahap."
+ },
+ "Fusion Power": {
+  "name": "Kuasa Pelakuran",
+  "desc": "Tingkatkan pengeluaran tenaga anda 3 tahap."
+ },
+ "Fueled Generators": {
+  "name": "Penjana Berbahan Api",
+  "desc": "Kurangkan pengeluaran M€ anda 1 tahap dan tingkatkan pengeluaran tenaga anda 1 tahap."
+ },
+ "Ganymede Colony": {
+  "name": "Koloni Ganymede",
+  "desc": "Letakkan jubin bandar DI KAWASAN YANG DIKHASKAN.",
+  "vpText": [
+   "1 MK bagi setiap tag Jovian yang anda ada."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Kuasa Geoterma",
+  "desc": "Tingkatkan pengeluaran tenaga anda 2 tahap."
+ },
+ "GHG Factories": {
+  "name": "Kilang GRH",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran haba anda 4 tahap."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bakteria Penghasil GRH",
+  "actions": [
+   "Tambah 1 mikrob pada kad ini.",
+   "Keluarkan 2 mikrob untuk menaikkan suhu 1 tahap."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Asteroid Ais Gergasi",
+  "desc": "Naikkan suhu 2 tahap dan letakkan 2 jubin lautan. Keluarkan sehingga 6 tumbuhan daripada mana-mana pemain."
+ },
+ "Giant Space Mirror": {
+  "name": "Cermin Angkasa Gergasi",
+  "desc": "Tingkatkan pengeluaran tenaga anda 3 tahap."
+ },
+ "Grass": {
+  "name": "Rumput",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap. Dapatkan 3 tumbuhan."
+ },
+ "Great Dam": {
+  "name": "Empangan Besar",
+  "desc": "Tingkatkan pengeluaran tenaga anda 2 tahap."
+ },
+ "Greenhouses": {
+  "name": "Rumah Hijau",
+  "desc": "Dapatkan 1 tumbuhan bagi setiap jubin bandar dalam permainan."
+ },
+ "Heather": {
+  "name": "Heather",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap. Dapatkan 1 tumbuhan."
+ },
+ "Heat Trappers": {
+  "name": "Perangkap Haba",
+  "desc": "Kurangkan pengeluaran haba mana-mana pemain 2 tahap dan tingkatkan pengeluaran tenaga anda 1 tahap."
+ },
+ "Herbivores": {
+  "name": "Herbivor",
+  "desc": "+1 haiwan pada kad ini. -1 pengeluaran tumbuhan mana-mana pemain",
+  "effects": [
+   "Apabila anda meletakkan jubin kawasan hijau, tambah seekor haiwan pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap 2 haiwan pada kad ini."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroid Ais",
+  "desc": "Letakkan 2 jubin lautan."
+ },
+ "Ice Cap Melting": {
+  "name": "Pencairan Litupan Ais",
+  "desc": "Letakkan 1 jubin lautan."
+ },
+ "Immigrant City": {
+  "name": "Bandar Pendatang",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan kurangkan pengeluaran M€ anda 2 tahap. Letakkan jubin bandar.",
+  "effects": [
+   "Apabila jubin bandar diletakkan, termasuk yang ini, tingkatkan pengeluaran M€ anda 1 tahap."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Ulang-alik Imigresen",
+  "desc": "Tingkatkan pengeluaran M€ anda 5 tahap.",
+  "vpText": [
+   "1 MK bagi setiap 3 bandar dalam permainan."
+  ]
+ },
+ "Imported GHG": {
+  "name": "GRH Import",
+  "desc": "Tingkatkan pengeluaran haba anda 1 tahap dan dapatkan 3 haba."
+ },
+ "Imported Hydrogen": {
+  "name": "Hidrogen Import",
+  "desc": "Dapatkan 3 tumbuhan, atau tambah 3 mikrob atau 2 haiwan pada kad LAIN. Letakkan jubin lautan.",
+  "orTitles": [
+   "Dapatkan 3 tumbuhan",
+   "Tambah 3 mikrob pada kad LAIN",
+   "Tambah 2 haiwan pada kad LAIN"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitrogen Import",
+  "desc": "Naikkan TR anda 1 tahap dan dapatkan 4 tumbuhan. Tambah 3 mikrob pada kad LAIN dan 2 haiwan pada kad LAIN."
+ },
+ "Import of Advanced GHG": {
+  "name": "Import GRH Termaju",
+  "desc": "Tingkatkan pengeluaran haba anda 2 tahap."
+ },
+ "Industrial Microbes": {
+  "name": "Mikrob Industri",
+  "desc": "Tingkatkan pengeluaran tenaga dan pengeluaran keluli anda masing-masing 1 tahap."
+ },
+ "Insects": {
+  "name": "Serangga",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap bagi setiap tag tumbuhan yang anda ada."
+ },
+ "Insulation": {
+  "name": "Penebatan",
+  "desc": "Kurangkan pengeluaran haba anda sebarang bilangan tahap dan tingkatkan pengeluaran M€ anda sebanyak bilangan tahap yang sama."
+ },
+ "Ironworks": {
+  "name": "Kilang Besi",
+  "actions": [
+   "Belanjakan 4 tenaga untuk mendapat 1 keluli dan menaikkan oksigen 1 tahap."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Penternakan Kelp",
+  "desc": "Tingkatkan pengeluaran M€ anda 2 tahap dan pengeluaran tumbuhan anda 3 tahap. Dapatkan 2 tumbuhan."
+ },
+ "Lake Marineris": {
+  "name": "Tasik Marineris",
+  "desc": "Letakkan 2 jubin lautan."
+ },
+ "Large Convoy": {
+  "name": "Konvoi Besar",
+  "desc": "Letakkan jubin lautan dan cabut 2 kad. Dapatkan 5 tumbuhan atau tambah 4 haiwan pada kad LAIN.",
+  "orTitles": [
+   "Dapatkan 5 tumbuhan",
+   "Tambah 4 haiwan pada kad LAIN"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Aliran Lava",
+  "desc": "Naikkan suhu 2 tahap dan letakkan jubin ini DI THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS ATAU ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Liken",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap."
+ },
+ "Livestock": {
+  "name": "Ternakan",
+  "desc": "Kurangkan pengeluaran tumbuhan anda 1 tahap dan tingkatkan pengeluaran M€ anda 2 tahap",
+  "actions": [
+   "Tambah 1 haiwan pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap haiwan pada kad ini."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Perangkap Haba Setempat",
+  "desc": "Belanjakan 5 haba untuk mendapat 4 tumbuhan, atau untuk menambah 2 haiwan pada kad LAIN.",
+  "orTitles": [
+   "Dapatkan 4 tumbuhan",
+   "Tambah 2 haiwan pada kad LAIN"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Pancaran Bulan",
+  "desc": "Kurangkan pengeluaran M€ anda 2 tahap dan tingkatkan pengeluaran haba dan pengeluaran tenaga anda masing-masing 2 tahap."
+ },
+ "Magnetic Field Dome": {
+  "name": "Kubah Medan Magnet",
+  "desc": "Kurangkan pengeluaran tenaga anda 2 tahap dan tingkatkan pengeluaran tumbuhan anda 1 tahap. Naikkan TR anda 1 tahap."
+ },
+ "Magnetic Field Generators": {
+  "name": "Penjana Medan Magnet",
+  "desc": "Kurangkan pengeluaran tenaga anda 4 tahap dan tingkatkan pengeluaran tumbuhan anda 2 tahap. Naikkan TR anda 3 tahap."
+ },
+ "Mangrove": {
+  "name": "Bakau",
+  "desc": "Letakkan jubin kawasan hijau DI KAWASAN YANG DIKHASKAN UNTUK LAUTAN dan naikkan oksigen 1 tahap. Abaikan sekatan peletakan biasa untuk ini."
+ },
+ "Martian Rails": {
+  "name": "Landasan Marikh",
+  "actions": [
+   "Belanjakan 1 tenaga untuk mendapat 1 M€ bagi setiap jubin bandar DI MARIKH."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metana dari Titan",
+  "desc": "Tingkatkan pengeluaran haba anda 2 tahap dan pengeluaran tumbuhan anda 2 tahap."
+ },
+ "Micro-Mills": {
+  "name": "Kilang Mikro",
+  "desc": "Tingkatkan pengeluaran haba anda 1 tahap."
+ },
+ "Mining Expedition": {
+  "name": "Ekspedisi Perlombongan",
+  "desc": "Naikkan oksigen 1 tahap. Keluarkan 2 tumbuhan daripada mana-mana pemain. Dapatkan 2 keluli."
+ },
+ "Mining Rights": {
+  "name": "Hak Perlombongan",
+  "desc": "Letakkan jubin ini di kawasan dengan bonus peletakan keluli atau titanium. Tingkatkan pengeluaran tersebut 1 tahap."
+ },
+ "Mohole Area": {
+  "name": "Kawasan Mohole",
+  "desc": "Tingkatkan pengeluaran haba anda 4 tahap. Letakkan jubin ini DI KAWASAN YANG DIKHASKAN UNTUK LAUTAN."
+ },
+ "Moss": {
+  "name": "Lumut",
+  "desc": "Hilang 1 tumbuhan. Tingkatkan pengeluaran tumbuhan anda 1 tahap."
+ },
+ "Natural Preserve": {
+  "name": "Rizab Semula Jadi",
+  "desc": "Letakkan jubin ini TIDAK BERSEBELAHAN MANA-MANA JUBIN LAIN. Tingkatkan pengeluaran M€ anda 1 tahap."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bakteria Penurun Nitrit",
+  "desc": "Tambah 3 mikrob pada kad ini.",
+  "actions": [
+   "Tambah 1 mikrob pada kad ini.",
+   "Keluarkan 3 mikrob untuk menaikkan TR anda 1 tahap."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid Kaya Nitrogen",
+  "desc": "Naikkan penarafan terraform anda 2 tahap dan suhu 1 tahap. Tingkatkan pengeluaran tumbuhan anda 1 tahap, atau 4 tahap jika anda ada 3 tag tumbuhan."
+ },
+ "Nitrophilic Moss": {
+  "name": "Lumut Nitrofilik",
+  "desc": "Hilang 2 tumbuhan. Tingkatkan pengeluaran tumbuhan anda 2 tahap."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 3 tahap. Letakkan jubin bandar DI KAWASAN YANG DIKHASKAN, tanpa mengira sekatan peletakan biasa."
+ },
+ "Noctis Farming": {
+  "name": "Pertanian Noctis",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap dan dapatkan 2 tumbuhan."
+ },
+ "Nuclear Power": {
+  "name": "Kuasa Nuklear",
+  "desc": "Kurangkan pengeluaran M€ anda 2 tahap dan tingkatkan pengeluaran tenaga anda 3 tahap."
+ },
+ "Nuclear Zone": {
+  "name": "Zon Nuklear",
+  "desc": "Letakkan jubin ini dan naikkan suhu 2 tahap."
+ },
+ "Open City": {
+  "name": "Bandar Terbuka",
+  "desc": "Dapatkan 2 tumbuhan. Letakkan jubin bandar. Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 4 tahap."
+ },
+ "Optimal Aerobraking": {
+  "name": "Brek Udara Optimum",
+  "effects": [
+   "Apabila anda memainkan peristiwa angkasa, anda mendapat 3 M€ dan 3 haba."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Pemproses Bijih",
+  "actions": [
+   "Belanjakan 4 tenaga untuk mendapat 1 titanium dan menaikkan oksigen 1 tahap."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Pengekstrakan Ibun Abadi",
+  "desc": "Letakkan 1 jubin lautan."
+ },
+ "Peroxide Power": {
+  "name": "Kuasa Peroksida",
+  "desc": "Kurangkan pengeluaran M€ anda 1 tahap dan tingkatkan pengeluaran tenaga anda 2 tahap."
+ },
+ "Pets": {
+  "name": "Haiwan Peliharaan",
+  "desc": "Tambah 1 haiwan pada kad ini.",
+  "effects": [
+   "Apabila mana-mana jubin bandar diletakkan, tambah seekor haiwan pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap 2 haiwan di sini."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Pangkalan Angkasa Phobos",
+  "desc": "Tingkatkan pengeluaran titanium anda 1 tahap dan letakkan jubin bandar DI KAWASAN YANG DIKHASKAN."
+ },
+ "Plantation": {
+  "name": "Ladang",
+  "desc": "Letakkan jubin kawasan hijau dan naikkan oksigen 1 tahap."
+ },
+ "Power Grid": {
+  "name": "Grid Kuasa",
+  "desc": "Tingkatkan pengeluaran tenaga anda satu tahap bagi setiap tag kuasa yang anda ada, termasuk yang ini."
+ },
+ "Power Plant": {
+  "name": "Loji Janakuasa",
+  "desc": "Tingkatkan pengeluaran tenaga anda 1 tahap."
+ },
+ "Predators": {
+  "name": "Pemangsa",
+  "actions": [
+   "Keluarkan 1 haiwan daripada mana-mana kad dan tambahkannya pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap haiwan pada kad ini."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Lembah Terlindung",
+  "desc": "Tingkatkan pengeluaran M€ anda 2 tahap. Letakkan jubin kawasan hijau DI KAWASAN YANG DIKHASKAN UNTUK LAUTAN, tanpa mengira sekatan peletakan biasa, dan naikkan oksigen 1 tahap."
+ },
+ "Rad-Chem Factory": {
+  "name": "Kilang Kimia Radiasi",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap. Naikkan TR anda 2 tahap."
+ },
+ "Regolith Eaters": {
+  "name": "Pemakan Regolit",
+  "actions": [
+   "Tambah 1 mikrob pada kad ini.",
+   "Keluarkan 2 mikrob daripada kad ini untuk menaikkan paras oksigen 1 tahap."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Pelepasan Gas Lengai",
+  "desc": "Naikkan penarafan terraform anda 2 tahap."
+ },
+ "Research Outpost": {
+  "name": "Pos Penyelidikan",
+  "desc": "Letakkan jubin bandar TIDAK BERSEBELAHAN MANA-MANA JUBIN LAIN.",
+  "effects": [
+   "Apabila anda memainkan kad, anda membayar 1 M€ kurang untuknya."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Pembinaan Rover",
+  "effects": [
+   "Apabila mana-mana jubin bandar diletakkan, dapatkan 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Mencari Kehidupan",
+  "actions": [
+   "Belanjakan 1 M€ untuk mendedahkan kad teratas dek cabutan. Jika kad itu mempunyai tag mikrob, tambah satu sumber sains di sini."
+  ],
+  "vpText": [
+   "3 MK jika anda ada satu atau lebih sumber sains di sini."
+  ]
+ },
+ "Shuttles": {
+  "name": "Ulang-alik",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 2 tahap.",
+  "effects": [
+   "Apabila anda memainkan kad angkasa, anda membayar 2 M€ kurang untuknya."
+  ]
+ },
+ "Small Animals": {
+  "name": "Haiwan Kecil",
+  "desc": "Kurangkan pengeluaran tumbuhan mana-mana pemain 1 tahap.",
+  "actions": [
+   "Tambah 1 haiwan pada kad ini."
+  ],
+  "vpText": [
+   "1 MK bagi setiap 2 haiwan pada kad ini."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Kilang Tanah",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran tumbuhan anda 1 tahap."
+ },
+ "Solar Power": {
+  "name": "Kuasa Suria",
+  "desc": "Tingkatkan pengeluaran tenaga anda 1 tahap."
+ },
+ "Solar Wind Power": {
+  "name": "Kuasa Angin Suria",
+  "desc": "Tingkatkan pengeluaran tenaga anda 1 tahap dan dapatkan 2 titanium."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Tingkatkan pengeluaran haba anda 7 tahap."
+ },
+ "Space Mirrors": {
+  "name": "Cermin Angkasa",
+  "actions": [
+   "Belanjakan 7 M€ untuk meningkatkan pengeluaran tenaga anda 1 tahap."
+  ]
+ },
+ "Special Design": {
+  "name": "Reka Bentuk Khas",
+  "desc": "Kad seterusnya yang anda mainkan dalam generasi ini mendapat +2 atau -2 tahap pada syarat global, mengikut pilihan anda."
+ },
+ "Steelworks": {
+  "name": "Kilang Keluli",
+  "actions": [
+   "Belanjakan 4 tenaga untuk mendapat 2 keluli dan menaikkan oksigen 1 tahap."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Lombong Dedah",
+  "desc": "Kurangkan pengeluaran tenaga anda 2 tahap. Tingkatkan pengeluaran keluli anda 2 tahap dan pengeluaran titanium anda 1 tahap. Naikkan oksigen 2 tahap."
+ },
+ "Subterranean Reservoir": {
+  "name": "Takungan Bawah Tanah",
+  "desc": "Letakkan 1 jubin lautan."
+ },
+ "Symbiotic Fungus": {
+  "name": "Kulat Simbiotik",
+  "actions": [
+   "Tambah satu mikrob pada kad LAIN."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Kuasa Tegasan Tektonik",
+  "desc": "Tingkatkan pengeluaran tenaga anda 3 tahap."
+ },
+ "Towing A Comet": {
+  "name": "Menunda Komet",
+  "desc": "Dapatkan 2 tumbuhan. Naikkan paras oksigen 1 tahap dan letakkan jubin lautan."
+ },
+ "Trees": {
+  "name": "Pokok",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 3 tahap. Dapatkan 1 tumbuhan."
+ },
+ "Tundra Farming": {
+  "name": "Pertanian Tundra",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap dan pengeluaran M€ anda 2 tahap. Dapatkan 1 tumbuhan."
+ },
+ "Underground City": {
+  "name": "Bandar Bawah Tanah",
+  "desc": "Letakkan jubin bandar. Kurangkan pengeluaran tenaga anda 2 tahap dan tingkatkan pengeluaran keluli anda 2 tahap."
+ },
+ "Underground Detonations": {
+  "name": "Letupan Bawah Tanah",
+  "actions": [
+   "Belanjakan 10 M€ untuk meningkatkan pengeluaran haba anda 2 tahap."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Kawasan Bandar",
+  "desc": "Kurangkan pengeluaran tenaga anda 1 tahap dan tingkatkan pengeluaran M€ anda 2 tahap. Letakkan jubin bandar BERSEBELAHAN SEKURANG-KURANGNYA 2 JUBIN BANDAR LAIN."
+ },
+ "Water Import From Europa": {
+  "name": "Import Air dari Europa",
+  "actions": [
+   "Bayar 12 M€ untuk meletakkan jubin lautan. TITANIUM BOLEH DIGUNAKAN seolah-olah memainkan kad angkasa."
+  ],
+  "vpText": [
+   "1 MK bagi setiap tag Jovian yang anda ada."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Loji Pemecahan Air",
+  "actions": [
+   "Belanjakan 3 tenaga untuk menaikkan oksigen 1 tahap."
+  ]
+ },
+ "Wave Power": {
+  "name": "Kuasa Ombak",
+  "desc": "Tingkatkan pengeluaran tenaga anda 1 tahap."
+ },
+ "Windmills": {
+  "name": "Kincir Angin",
+  "desc": "Tingkatkan pengeluaran tenaga anda 1 tahap."
+ },
+ "Worms": {
+  "name": "Cacing",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap bagi setiap 2 tag mikrob yang anda ada, termasuk yang ini."
+ },
+ "Zeppelins": {
+  "name": "Zeppelin",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap bagi setiap jubin bandar DI MARIKH."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Anda bermula dengan 1 pengeluaran titanium dan 42 M€.",
+  "effects": [
+   "Setiap kali mana-mana tag Jovian dimainkan, termasuk yang ini, tingkatkan pengeluaran M€ anda 1 tahap."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Anda bermula dengan 60 M€.",
+  "effects": [
+   "Apabila anda memainkan tag Bumi, anda membayar 3 M€ kurang untuknya."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Anda bermula dengan 3 pengeluaran M€ dan 44 M€.",
+  "effects": [
+   "Apabila anda memainkan tag bangunan, anda membayar 2 M€ kurang untuknya."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Anda bermula dengan 1 pengeluaran titanium dan 38 M€.",
+  "effects": [
+   "Apabila anda memainkan tag Bumi, termasuk yang ini, cabut sekeping kad."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Anda bermula dengan 47 M€.",
+  "actions": [
+   "Belanjakan 4 M€ untuk meningkatkan (salah satu) pengeluaran TERENDAH anda 1 tahap."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Anda bermula dengan 37 M€. Sebagai tindakan pertama anda, cabut 3 kad Prelud dan mainkan salah satu daripadanya. Buang dua yang lain.",
+  "effects": [
+   "Apabila anda memainkan tag sains, anda membayar 2 M€ kurang untuknya."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Anda bermula dengan 45 M€. Sebagai tindakan pertama anda, biayai satu anugerah secara percuma.",
+  "effects": [
+   "Apabila anda memainkan kad dengan ikon MK yang TIDAK NEGATIF, termasuk yang ini, dapatkan 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Syarikat Pemula",
+  "desc": "Anda bermula dengan 42 M€. Daripada memilih antara 10 kad semasa persediaan, anda mendapat 10 kad secara percuma."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Anda bermula dengan 57 M€.",
+  "effects": [
+   "Selepas anda membayar kad atau projek standard dengan kos asas 20 M€ atau lebih, anda mendapat 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Anda bermula dengan 2 pengeluaran tumbuhan, 3 tumbuhan dan 36 M€.",
+  "effects": [
+   "Anda sentiasa boleh membayar 7 tumbuhan, bukan 8, untuk meletakkan kawasan hijau."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Anda bermula dengan 3 pengeluaran haba dan 42 M€.",
+  "effects": [
+   "Anda boleh menggunakan haba sebagai M€. Anda tidak boleh menggunakan M€ sebagai haba."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Anda bermula dengan 20 keluli dan 30 M€.",
+  "effects": [
+   "Setiap kali anda memainkan peristiwa, anda mendapat 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Sebagai tindakan pertama anda dalam permainan, cabut 3 kad. Mula dengan 45 M€.",
+  "effects": [
+   "Syarat suhu, oksigen, lautan dan Venus anda +2 atau -2 tahap, mengikut pilihan anda dalam setiap kes."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Persatuan Pelombong",
+  "desc": "Anda bermula dengan 30 M€, 5 keluli dan 1 pengeluaran keluli.",
+  "effects": [
+   "Setiap kali anda meletakkan jubin di kawasan dengan bonus peletakan keluli atau titanium, tingkatkan pengeluaran keluli anda 1 tahap"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Anda bermula dengan 10 titanium dan 23 M€.",
+  "effects": [
+   "Setiap titanium anda bernilai 1 M€ lebih."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republik Tharsis",
+  "desc": "Anda bermula dengan 40 M€. Sebagai tindakan pertama anda dalam permainan, letakkan jubin bandar.",
+  "effects": [
+   "Apabila mana-mana jubin bandar diletakkan DI MARIKH, tingkatkan pengeluaran M€ anda 1 tahap. Apabila anda meletakkan jubin bandar, dapatkan 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Anda bermula dengan 1 pengeluaran tenaga dan 48 M€.",
+  "effects": [
+   "Apabila memainkan kad kuasa ATAU PROJEK STANDARD LOJI JANAKUASA, anda membayar 3 M€ kurang untuknya."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Inisiatif Marikh PBB",
+  "desc": "Anda bermula dengan 40 M€.",
+  "actions": [
+   "Jika Penarafan Terraform anda dinaikkan dalam generasi ini, anda boleh membayar 3 M€ untuk menaikkannya 1 tahap lagi."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Bank Bersekutu",
+  "desc": "Tingkatkan pengeluaran M€ anda 4 tahap. Dapatkan 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Sokongan Biosfera",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 2 tahap. Kurangkan pengeluaran M€ anda 1 tahap."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbin Akuifer",
+  "desc": "Letakkan jubin lautan. Tingkatkan pengeluaran tenaga anda 2 tahap. Bayar 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Penggalian Mohole",
+  "desc": "Tingkatkan pengeluaran keluli anda 1 tahap dan pengeluaran haba 2 tahap. Dapatkan 2 haba."
+ },
+ "Early Settlement": {
+  "name": "Penempatan Awal",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap. Letakkan jubin bandar."
+ },
+ "Biofuels": {
+  "name": "Bahan Api Bio",
+  "desc": "Tingkatkan pengeluaran tenaga dan tumbuhan anda 1 tahap. Dapatkan 2 tumbuhan."
+ },
+ "Power Generation": {
+  "name": "Penjanaan Kuasa",
+  "desc": "Tingkatkan pengeluaran tenaga anda 3 tahap."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Penempatan Berdikari",
+  "desc": "Tingkatkan pengeluaran M€ anda 2 tahap. Letakkan jubin bandar."
+ },
+ "Mining Operations": {
+  "name": "Operasi Perlombongan",
+  "desc": "Tingkatkan pengeluaran keluli anda 2 tahap. Dapatkan 4 keluli."
+ },
+ "UNMI Contractor": {
+  "name": "Kontraktor UNMI",
+  "desc": "Naikkan TR anda 3 tahap. Cabut sekeping kad."
+ },
+ "Dome Farming": {
+  "name": "Pertanian Kubah",
+  "desc": "Tingkatkan pengeluaran M€ anda 2 tahap dan pengeluaran tumbuhan 1 tahap."
+ },
+ "Business Empire": {
+  "name": "Empayar Perniagaan",
+  "desc": "Tingkatkan pengeluaran M€ anda 6 tahap. Bayar 6 M€."
+ },
+ "Donation": {
+  "name": "Derma",
+  "desc": "Dapatkan 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Penghantaran Nitrogen",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap. Naikkan TR anda 1 tahap. Dapatkan 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Loji Peleburan",
+  "desc": "Naikkan oksigen 2 tahap. Dapatkan 5 keluli."
+ },
+ "Supplier": {
+  "name": "Pembekal",
+  "desc": "Tingkatkan pengeluaran tenaga anda 2 tahap. Dapatkan 4 keluli."
+ },
+ "Supply Drop": {
+  "name": "Bekalan Udara",
+  "desc": "Dapatkan 3 titanium, 8 keluli dan 3 tumbuhan."
+ },
+ "Great Aquifer": {
+  "name": "Akuifer Agung",
+  "desc": "Letakkan 2 jubin lautan."
+ },
+ "Biolab": {
+  "name": "Biomakmal",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap. Cabut 3 kad."
+ },
+ "Martian Industries": {
+  "name": "Industri Marikh",
+  "desc": "Tingkatkan pengeluaran tenaga dan keluli anda 1 tahap. Dapatkan 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Pos Penyelidikan Io",
+  "desc": "Tingkatkan pengeluaran titanium anda 1 tahap. Cabut sekeping kad."
+ },
+ "Polar Industries": {
+  "name": "Industri Kutub",
+  "desc": "Tingkatkan pengeluaran haba anda 2 tahap. Letakkan jubin lautan."
+ },
+ "Society Support": {
+  "name": "Sokongan Masyarakat",
+  "desc": "Tingkatkan pengeluaran tumbuhan, tenaga dan haba anda 1 tahap. Kurangkan pengeluaran M€ 1 tahap."
+ },
+ "Galilean Mining": {
+  "name": "Perlombongan Galilean",
+  "desc": "Tingkatkan pengeluaran titanium anda 2 tahap. Bayar 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroid Raksasa",
+  "desc": "Naikkan suhu 3 tahap. Bayar 5 M€."
+ },
+ "Metals Company": {
+  "name": "Syarikat Logam",
+  "desc": "Tingkatkan pengeluaran M€, keluli dan titanium anda 1 tahap."
+ },
+ "Loan": {
+  "name": "Pinjaman",
+  "desc": "Dapatkan 30 M€. Kurangkan pengeluaran M€ anda 2 tahap."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Tingkatkan pengeluaran haba anda 3 tahap. Dapatkan 3 haba."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid Kaya Logam",
+  "desc": "Naikkan suhu 1 tahap. Dapatkan 4 titanium dan 4 keluli."
+ },
+ "Orbital Construction Yard": {
+  "name": "Limbungan Pembinaan Orbit",
+  "desc": "Tingkatkan pengeluaran titanium anda 1 tahap. Dapatkan 4 titanium."
+ },
+ "Acquired Space Agency": {
+  "name": "Agensi Angkasa Diambil Alih",
+  "desc": "Dapatkan 6 titanium. Dedahkan kad sehingga anda mendedahkan dua kad dengan tag angkasa. Ambil kedua-duanya ke tangan anda, buang selebihnya."
+ },
+ "Research Network": {
+  "name": "Rangkaian Penyelidikan",
+  "desc": "Tingkatkan pengeluaran M€ anda 1 tahap. Cabut 3 kad. Selepas dimainkan, apabila anda melakukan tindakan, tag sebarang dikira sebagai mana-mana tag pilihan anda."
+ },
+ "Eccentric Sponsor": {
+  "name": "Penaja Eksentrik",
+  "desc": "MAINKAN SEKEPING KAD DARI TANGAN DENGAN DISKAUN 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Pakar Ekologi",
+  "desc": "Tingkatkan pengeluaran tumbuhan anda 1 tahap. MAINKAN SEKEPING KAD DARI TANGAN, DENGAN MENGABAIKAN SYARAT GLOBAL."
+ },
+ "Experimental Forest": {
+  "name": "Hutan Eksperimen",
+  "desc": "Letakkan 1 jubin kawasan hijau dan naikkan oksigen 1 tahap. Dedahkan kad sehingga anda mendedahkan dua kad bertag tumbuhan. Ambil kedua-duanya ke tangan anda dan buang selebihnya."
+ }
+}

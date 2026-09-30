@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Prevzeto podjetje",
+  "desc": "Povečaj svojo proizvodnjo M€ za 3 stopnje."
+ },
+ "Advanced Alloys": {
+  "name": "Napredne zlitine",
+  "effects": [
+   "Vsak tvoj titan je vreden 1 M€ več.",
+   "Vsako tvoje jeklo je vredno 1 M€ več."
+  ]
+ },
+ "AI Central": {
+  "name": "Središče UI",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo.",
+  "actions": [
+   "Vleci 2 karti."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Protigravitacijska tehnologija",
+  "effects": [
+   "Ko odigraš karto, zanjo plačaš 2 M€ manj."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Konzorcij za rudarjenje asteroidov",
+  "desc": "Zmanjšaj proizvodnjo titana kateregakoli igralca za 1 stopnjo in povečaj svojo za 1 stopnjo."
+ },
+ "Bribed Committee": {
+  "name": "Podkupljeni odbor",
+  "desc": "Dvigni svoj TR za 2 stopnji."
+ },
+ "Building Industries": {
+  "name": "Gradbena industrija",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo jekla za 2 stopnji."
+ },
+ "Business Contacts": {
+  "name": "Poslovni stiki",
+  "desc": "Poglej vrhnje 4 karte kupa. 2 vzemi v roko, ostale zavrzi."
+ },
+ "Business Network": {
+  "name": "Poslovna mreža",
+  "desc": "Zmanjšaj svojo proizvodnjo M€ za 1 stopnjo.",
+  "actions": [
+   "Poglej vrhnjo karto in jo kupi ali zavrzi."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Kazenski rudniki na Kalistu",
+  "desc": "Povečaj svojo proizvodnjo M€ za 3 stopnje."
+ },
+ "Caretaker Contract": {
+  "name": "Pogodba o oskrbi",
+  "actions": [
+   "Porabi 8 toplote, da dvigneš svoj teraformacijski rang za 1 stopnjo."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo za vsako svojo oznako Zemlje, vključno s to."
+ },
+ "CEO's Favorite Project": {
+  "name": "Direktorjev najljubši projekt",
+  "desc": "Dodaj 1 vir na katerokoli svojo karto, ki že ima vsaj 1 vir."
+ },
+ "Commercial District": {
+  "name": "Poslovna četrt",
+  "desc": "Postavi to ploščico. Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 4 stopnje.",
+  "vpText": [
+   "1 ZT za vsako sosednjo ploščico mesta."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Korporacijska trdnjava",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 3 stopnje. Postavi ploščico mesta."
+ },
+ "Development Center": {
+  "name": "Razvojni center",
+  "actions": [
+   "Porabi 1 energijo, da vlečeš karto."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Zemeljski katapult",
+  "effects": [
+   "Ko odigraš karto, zanjo plačaš 2 M€ manj."
+  ]
+ },
+ "Earth Office": {
+  "name": "Zemeljska pisarna",
+  "effects": [
+   "Ko odigraš oznako Zemlje, zanjo plačaš 3 M€ manj."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrokatapult",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo.",
+  "actions": [
+   "Porabi 1 rastlino ali 1 jeklo, da prejmeš 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Odjem energije",
+  "desc": "Zmanjšaj proizvodnjo energije kateregakoli igralca za 1 stopnjo in povečaj svojo za 1 stopnjo."
+ },
+ "Fuel Factory": {
+  "name": "Tovarna goriva",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo titana in M€ vsako za 1 stopnjo."
+ },
+ "Gene Repair": {
+  "name": "Popravilo genov",
+  "desc": "Povečaj svojo proizvodnjo M€ za 2 stopnji."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Konzorcij Velike stene",
+  "desc": "Zmanjšaj proizvodnjo jekla kateregakoli igralca za 1 stopnjo in povečaj svojo za 1 stopnjo."
+ },
+ "Hackers": {
+  "name": "Hekerji",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in proizvodnjo M€ kateregakoli igralca za 2 stopnji. Povečaj svojo proizvodnjo M€ za 2 stopnji."
+ },
+ "Hired Raiders": {
+  "name": "Najeti roparji",
+  "desc": "Ukradi do 2 jekla ali 3 M€ kateremukoli igralcu."
+ },
+ "Indentured Workers": {
+  "name": "Pogodbeni delavci",
+  "desc": "Naslednja karta, ki jo odigraš v tej generaciji, stane 8 M€ manj."
+ },
+ "Industrial Center": {
+  "name": "Industrijsko središče",
+  "desc": "Postavi to ploščico ob ploščico mesta.",
+  "actions": [
+   "Porabi 7 M€, da povečaš svojo proizvodnjo jekla za 1 stopnjo."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Medzvezdna kolonialna ladja"
+ },
+ "Invention Contest": {
+  "name": "Natečaj izumov",
+  "desc": "Poglej vrhnje 3 karte kupa. 1 vzemi v roko, ostale zavrzi."
+ },
+ "Inventors' Guild": {
+  "name": "Ceh izumiteljev",
+  "actions": [
+   "Poglej vrhnjo karto in jo kupi ali zavrzi."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investicijsko posojilo",
+  "desc": "Zmanjšaj svojo proizvodnjo M€ za 1 stopnjo. Prejmi 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Rudarska industrija na Iu",
+  "desc": "Povečaj svojo proizvodnjo titana za 2 stopnji in proizvodnjo M€ za 2 stopnji.",
+  "vpText": [
+   "1 ZT za vsako tvojo oznako Jupitra."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrangeev observatorij",
+  "desc": "Vleci 1 karto."
+ },
+ "Land Claim": {
+  "name": "Zahtevek za zemljo",
+  "desc": "Rezerviraj si nerezervirano območje: tja lahko postaviš ploščico samo ti."
+ },
+ "Lightning Harvest": {
+  "name": "Žetev strel",
+  "desc": "Povečaj svojo proizvodnjo energije in proizvodnjo M€ vsako za eno stopnjo."
+ },
+ "Mars University": {
+  "name": "Marsovska univerza",
+  "effects": [
+   "Ko odigraš oznako znanosti, vključno s to, lahko zavržeš karto iz roke in vlečeš karto."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Pretvornik mase",
+  "desc": "Povečaj svojo proizvodnjo energije za 6 stopenj.",
+  "effects": [
+   "Ko odigraš vesoljsko karto, zanjo plačaš 2 M€ manj."
+  ]
+ },
+ "Media Archives": {
+  "name": "Medijski arhivi",
+  "desc": "Prejmi 1 M€ za vsak dogodek, ki so ga vsi igralci KADARKOLI ODIGRALI."
+ },
+ "Media Group": {
+  "name": "Medijska skupina",
+  "effects": [
+   "Ko odigraš karto dogodka, prejmeš 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Medicinski laboratorij",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo za vsaki 2 svoji oznaki gradnje, vključno s to."
+ },
+ "Mine": {
+  "name": "Rudnik",
+  "desc": "Povečaj svojo proizvodnjo jekla za 1 stopnjo."
+ },
+ "Mineral Deposit": {
+  "name": "Nahajališče rud",
+  "desc": "Prejmi 5 jekla."
+ },
+ "Mining Area": {
+  "name": "Rudarsko območje",
+  "desc": "Postavi to ploščico na območje z bonusom jekla ali titana ob postavitvi, ob drugo svojo ploščico. Povečaj proizvodnjo tega vira za 1 stopnjo."
+ },
+ "Miranda Resort": {
+  "name": "Letovišče na Mirandi",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo za vsako svojo oznako Zemlje."
+ },
+ "Olympus Conference": {
+  "name": "Konferenca Olimp",
+  "desc": "Ko odigraš oznako znanosti, vključno s to, bodisi dodaj znanstveni vir na to karto bodisi z nje odstrani znanstveni vir, da vlečeš karto."
+ },
+ "Physics Complex": {
+  "name": "Fizikalni kompleks",
+  "actions": [
+   "Porabi 6 energije, da dodaš znanstveni vir na to karto."
+  ],
+  "vpText": [
+   "2 ZT za vsak znanstveni vir na tej karti."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energetska infrastruktura",
+  "actions": [
+   "Porabi poljubno količino energije in prejmi enako količino M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Konzorcij za oskrbo z energijo",
+  "desc": "Zmanjšaj proizvodnjo energije kateregakoli igralca za 1 stopnjo in povečaj svojo za 1 stopnjo."
+ },
+ "Protected Habitats": {
+  "name": "Zaščiteni habitati",
+  "effects": [
+   "Nasprotniki ne smejo odstraniti tvojih rastlin, živali ali mikrobov."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvantni ekstraktor",
+  "desc": "Povečaj svojo proizvodnjo energije za 4 stopnje.",
+  "effects": [
+   "Ko odigraš vesoljsko karto, zanjo plačaš 2 M€ manj."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Protisevalne obleke",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo."
+ },
+ "Research": {
+  "name": "Raziskovanje",
+  "desc": "Šteje kot igranje 2 znanstvenih kart. Vleci 2 karti."
+ },
+ "Restricted Area": {
+  "name": "Omejeno območje",
+  "desc": "Postavi to ploščico.",
+  "actions": [
+   "Porabi 2 M€, da vlečeš karto."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotska delovna sila",
+  "desc": "Podvoji samo polje proizvodnje ene od svojih kart gradnje."
+ },
+ "Sabotage": {
+  "name": "Sabotaža",
+  "desc": "Kateremukoli igralcu odstrani do 3 titana ali 4 jekla ali 7 M€."
+ },
+ "Satellites": {
+  "name": "Sateliti",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo za vsako svojo oznako vesolja, vključno s to."
+ },
+ "Security Fleet": {
+  "name": "Varnostna flota",
+  "actions": [
+   "Porabi 1 titan, da na to karto dodaš 1 vir lovca."
+  ],
+  "vpText": [
+   "1 ZT za vsak vir lovca na tej karti."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Vesoljsko dvigalo",
+  "desc": "Povečaj svojo proizvodnjo titana za 1 stopnjo.",
+  "actions": [
+   "Porabi 1 jeklo, da prejmeš 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Vesoljska postaja",
+  "effects": [
+   "Ko odigraš vesoljsko karto, zanjo plačaš 2 M€ manj."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponzorji",
+  "desc": "Povečaj svojo proizvodnjo M€ za 2 stopnji."
+ },
+ "Standard Technology": {
+  "name": "Standardna tehnologija",
+  "effects": [
+   "Ko plačaš standardni projekt, razen prodaje patentov, prejmeš 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Počasniki",
+  "actions": [
+   "Dodaj 1 mikroba na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsake 4 mikrobe na tej karti."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Tehnološka predstavitev",
+  "desc": "Vleci dve karti."
+ },
+ "Terraforming Ganymede": {
+  "name": "Teraformiranje Ganimeda",
+  "desc": "Dvigni svoj TR za 1 stopnjo za vsako svojo oznako Jupitra, vključno s to."
+ },
+ "Titanium Mine": {
+  "name": "Rudnik titana",
+  "desc": "Povečaj svojo proizvodnjo titana za 1 stopnjo."
+ },
+ "Toll Station": {
+  "name": "Cestninska postaja",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo za vsako oznako vesolja, ki jo imajo tvoji NASPROTNIKI."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Sonda onkraj Neptuna",
+  "desc": "Sonda za globoko vesolje: vredna 1 ZT."
+ },
+ "Tropical Resort": {
+  "name": "Tropsko letovišče",
+  "desc": "Zmanjšaj svojo proizvodnjo toplote za 2 stopnji in povečaj proizvodnjo M€ za 3 stopnje."
+ },
+ "Vesta Shipyard": {
+  "name": "Ladjedelnica Vesta",
+  "desc": "Povečaj svojo proizvodnjo titana za 1 stopnjo."
+ },
+ "Viral Enhancers": {
+  "name": "Virusni ojačevalci",
+  "effects": [
+   "Ko odigraš oznako rastline, mikroba ali živali, vključno s to, prejmi 1 rastlino ali dodaj 1 vir na TO KARTO."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Kateremukoli igralcu odstrani do 2 živali ali 5 rastlin."
+ },
+ "SF Memorial": {
+  "name": "Spomenik znanstveni fantastiki",
+  "desc": "Vleci 1 karto."
+ },
+ "House Printing": {
+  "name": "Tiskanje hiš",
+  "desc": "Povečaj svojo proizvodnjo jekla za 1 stopnjo."
+ },
+ "Space Hotels": {
+  "name": "Vesoljski hoteli",
+  "desc": "Povečaj proizvodnjo M€ za 4 stopnje."
+ },
+ "Martian Survey": {
+  "name": "Marsovska raziskava",
+  "desc": "Vleci dve karti."
+ },
+ "Research Coordination": {
+  "name": "Usklajevanje raziskav",
+  "desc": "Ko je odigrana, pri izvedbi akcije oznaka džokerja šteje kot katerakoli oznaka po tvoji izbiri."
+ },
+ "Lava Tube Settlement": {
+  "name": "Naselje v lavinem tunelu",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 2 stopnji. Postavi ploščico mesta na VULKANSKO OBMOČJE ne glede na sosednja mesta."
+ },
+ "Psychrophiles": {
+  "name": "Psihrofili",
+  "actions": [
+   "Dodaj 1 mikroba na to karto."
+  ],
+  "effects": [
+   "Pri plačilu karte rastline lahko mikrobe s te karte uporabiš kot 2 M€ vsakega."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Prilagoditvena tehnologija",
+  "effects": [
+   "Tvoji globalni pogoji so +2 ali -2 stopnji, v vsakem primeru po tvoji izbiri."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Prilagojeni lišaji",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo."
+ },
+ "Advanced Ecosystems": {
+  "name": "Napredni ekosistemi"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aerozaviran amonijakov asteroid",
+  "desc": "Povečaj svojo proizvodnjo toplote za 3 stopnje in proizvodnjo rastlin za 1 stopnjo. Dodaj 2 mikroba na DRUGO karto."
+ },
+ "Ants": {
+  "name": "Mravlje",
+  "actions": [
+   "Odstrani 1 mikroba s katerekoli karte in dodaj 1 na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsaka 2 mikroba na tej karti."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Črpanje vodonosnika",
+  "actions": [
+   "Porabi 8 M€, da postaviš 1 ploščico oceana. JEKLO LAHKO UPORABIŠ, kot bi igral karto gradnje."
+  ]
+ },
+ "Algae": {
+  "name": "Alge",
+  "desc": "Prejmi 1 rastlino in povečaj svojo proizvodnjo rastlin za 2 stopnji."
+ },
+ "ArchaeBacteria": {
+  "name": "Arheje",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo."
+ },
+ "Arctic Algae": {
+  "name": "Arktične alge",
+  "desc": "Prejmi 1 rastlino.",
+  "effects": [
+   "Ko kdorkoli postavi ploščico oceana, prejmi 2 rastlini."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Umetno jezero",
+  "desc": "Postavi 1 ploščico oceana NA OBMOČJE, KI NI REZERVIRANO ZA OCEAN."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Umetna fotosinteza",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo ali proizvodnjo energije za 2 stopnji.",
+  "orTitles": [
+   "Povečaj svojo proizvodnjo energije za 2 stopnji",
+   "Povečaj svojo proizvodnjo rastlin za 1 stopnjo"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Dvigni temperaturo za 1 stopnjo in prejmi 2 titana. Kateremukoli igralcu odstrani do 3 rastline."
+ },
+ "Asteroid Mining": {
+  "name": "Rudarjenje asteroidov",
+  "desc": "Povečaj svojo proizvodnjo titana za 2 stopnji."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Žarek s torijevega asteroida",
+  "desc": "Povečaj svojo proizvodnjo toplote in energije vsako za 3 stopnje."
+ },
+ "Big Asteroid": {
+  "name": "Velik asteroid",
+  "desc": "Dvigni temperaturo za 2 stopnji in prejmi 4 titana. Kateremukoli igralcu odstrani do 4 rastline."
+ },
+ "Biomass Combustors": {
+  "name": "Sežigalniki biomase",
+  "desc": "Zmanjšaj proizvodnjo rastlin kateregakoli igralca za 1 stopnjo in povečaj svojo proizvodnjo energije za 2 stopnji."
+ },
+ "Birds": {
+  "name": "Ptice",
+  "desc": "Zmanjšaj proizvodnjo rastlin kateregakoli igralca za 2 stopnji. 1 ZT za vsako žival na tej karti.",
+  "actions": [
+   "Dodaj žival na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsako žival na tej karti."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Črni polarni prah",
+  "desc": "Postavi ploščico oceana. Zmanjšaj svojo proizvodnjo M€ za 2 stopnji in povečaj proizvodnjo toplote za 3 stopnje."
+ },
+ "Breathing Filters": {
+  "name": "Dihalni filtri"
+ },
+ "Bushes": {
+  "name": "Grmovje",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 2 stopnji. Prejmi 2 rastlini."
+ },
+ "Capital": {
+  "name": "Prestolnica",
+  "desc": "Postavi to ploščico. Zmanjšaj svojo proizvodnjo energije za 2 stopnji in povečaj proizvodnjo M€ za 5 stopenj.",
+  "vpText": [
+   "1 dodatna ZT za vsako ploščico oceana ob tej ploščici mesta."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Predelava karbonatov",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo toplote za 3 stopnje."
+ },
+ "Cloud Seeding": {
+  "name": "Sejanje oblakov",
+  "desc": "Zmanjšaj svojo proizvodnjo M€ za 1 stopnjo in proizvodnjo toplote kateregakoli igralca za 1 stopnjo. Povečaj svojo proizvodnjo rastlin za 2 stopnji."
+ },
+ "Colonizer Training Camp": {
+  "name": "Tabor za urjenje kolonistov"
+ },
+ "Comet": {
+  "name": "Komet",
+  "desc": "Dvigni temperaturo za 1 stopnjo in postavi ploščico oceana. Kateremukoli igralcu odstrani do 3 rastline."
+ },
+ "Convoy From Europa": {
+  "name": "Konvoj z Evrope",
+  "desc": "Postavi 1 ploščico oceana in vleci 1 karto."
+ },
+ "Cupola City": {
+  "name": "Mesto pod kupolo",
+  "desc": "Postavi ploščico mesta. Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 3 stopnje."
+ },
+ "Decomposers": {
+  "name": "Razkrojevalci",
+  "effects": [
+   "Ko odigraš oznako živali, rastline ali mikroba, vključno s to, dodaj mikroba na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsake 3 mikrobe na tej karti."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Ogrevanje iz globokih vrtin",
+  "desc": "Povečaj svojo proizvodnjo energije za 1 stopnjo. Dvigni temperaturo za 1 stopnjo."
+ },
+ "Deimos Down": {
+  "name": "Padec Deimosa",
+  "desc": "Dvigni temperaturo za 3 stopnje in prejmi 4 jekla. Kateremukoli igralcu odstrani do 8 rastlin."
+ },
+ "Designed Microorganisms": {
+  "name": "Načrtovani mikroorganizmi",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 2 stopnji."
+ },
+ "Domed Crater": {
+  "name": "Krater pod kupolo",
+  "desc": "Prejmi 3 rastline. Postavi ploščico mesta. Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 3 stopnje."
+ },
+ "Dust Seals": {
+  "name": "Tesnila proti prahu"
+ },
+ "Ecological Zone": {
+  "name": "Ekološko območje",
+  "desc": "Postavi to ploščico ob KATEROKOLI zelenico.",
+  "effects": [
+   "Ko odigraš oznako živali ali rastline, VKLJUČNO S TEMA, dodaj žival na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsaki 2 živali na tej karti."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Varčevanje z energijo",
+  "desc": "Povečaj svojo proizvodnjo energije za 1 stopnjo za vsako ploščico mesta v igri."
+ },
+ "Eos Chasma National Park": {
+  "name": "Narodni park Eos Chasma",
+  "desc": "Dodaj 1 žival NA KATEROKOLI KARTO ŽIVALI. Prejmi 3 rastline. Povečaj svojo proizvodnjo M€ za 2 stopnji."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Ekvatorialni magnetizator",
+  "actions": [
+   "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo, da dvigneš svoj teraformacijski rang za 1 stopnjo."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Gliva ekstremnega mraza",
+  "actions": [
+   "Prejmi 1 rastlino.",
+   "Dodaj 2 mikroba na DRUGO karto."
+  ]
+ },
+ "Farming": {
+  "name": "Kmetijstvo",
+  "desc": "Povečaj svojo proizvodnjo M€ za 2 stopnji in proizvodnjo rastlin za 2 stopnji. Prejmi 2 rastlini."
+ },
+ "Fish": {
+  "name": "Ribe",
+  "desc": "Zmanjšaj proizvodnjo rastlin kateregakoli igralca za 1 stopnjo.",
+  "actions": [
+   "Dodaj 1 žival na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsako žival na tej karti."
+  ]
+ },
+ "Flooding": {
+  "name": "Poplava",
+  "desc": "Postavi ploščico oceana. ČE SO OB TEJ PLOŠČICI OCEANA DRUGE PLOŠČICE, LAHKO LASTNIKU ENE OD NJIH ODVZAMEŠ 4 M€."
+ },
+ "Food Factory": {
+  "name": "Tovarna hrane",
+  "desc": "Zmanjšaj svojo proizvodnjo rastlin za 1 stopnjo in povečaj proizvodnjo M€ za 4 stopnje."
+ },
+ "Fusion Power": {
+  "name": "Fuzijska energija",
+  "desc": "Povečaj svojo proizvodnjo energije za 3 stopnje."
+ },
+ "Fueled Generators": {
+  "name": "Generatorji na gorivo",
+  "desc": "Zmanjšaj svojo proizvodnjo M€ za 1 stopnjo in povečaj proizvodnjo energije za 1 stopnjo."
+ },
+ "Ganymede Colony": {
+  "name": "Kolonija Ganimed",
+  "desc": "Postavi ploščico mesta NA REZERVIRANO OBMOČJE.",
+  "vpText": [
+   "1 ZT za vsako tvojo oznako Jupitra."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geotermalna energija",
+  "desc": "Povečaj svojo proizvodnjo energije za 2 stopnji."
+ },
+ "GHG Factories": {
+  "name": "Tovarne TPG",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo toplote za 4 stopnje."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Bakterije, ki proizvajajo TPG",
+  "actions": [
+   "Dodaj 1 mikroba na to karto.",
+   "Odstrani 2 mikroba, da dvigneš temperaturo za 1 stopnjo."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Velikanski ledeni asteroid",
+  "desc": "Dvigni temperaturo za 2 stopnji in postavi 2 ploščici oceana. Kateremukoli igralcu odstrani do 6 rastlin."
+ },
+ "Giant Space Mirror": {
+  "name": "Velikansko vesoljsko ogledalo",
+  "desc": "Povečaj svojo proizvodnjo energije za 3 stopnje."
+ },
+ "Grass": {
+  "name": "Trava",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo. Prejmi 3 rastline."
+ },
+ "Great Dam": {
+  "name": "Veliki jez",
+  "desc": "Povečaj svojo proizvodnjo energije za 2 stopnji."
+ },
+ "Greenhouses": {
+  "name": "Rastlinjaki",
+  "desc": "Prejmi 1 rastlino za vsako ploščico mesta v igri."
+ },
+ "Heather": {
+  "name": "Resa",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo. Prejmi 1 rastlino."
+ },
+ "Heat Trappers": {
+  "name": "Lovilci toplote",
+  "desc": "Zmanjšaj proizvodnjo toplote kateregakoli igralca za 2 stopnji in povečaj svojo proizvodnjo energije za 1 stopnjo."
+ },
+ "Herbivores": {
+  "name": "Rastlinojedci",
+  "desc": "+1 žival na to karto. -1 proizvodnja rastlin kateregakoli igralca",
+  "effects": [
+   "Ko postaviš ploščico zelenice, dodaj žival na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsaki 2 živali na tej karti."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Ledeni asteroid",
+  "desc": "Postavi 2 ploščici oceana."
+ },
+ "Ice Cap Melting": {
+  "name": "Taljenje ledene kape",
+  "desc": "Postavi 1 ploščico oceana."
+ },
+ "Immigrant City": {
+  "name": "Priseljensko mesto",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in proizvodnjo M€ za 2 stopnji. Postavi ploščico mesta.",
+  "effects": [
+   "Ko je postavljena ploščica mesta, vključno s to, povečaj svojo proizvodnjo M€ za 1 stopnjo."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Priseljenski šatli",
+  "desc": "Povečaj svojo proizvodnjo M€ za 5 stopenj.",
+  "vpText": [
+   "1 ZT za vsako 3. mesto v igri."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Uvoženi TPG",
+  "desc": "Povečaj svojo proizvodnjo toplote za 1 stopnjo in prejmi 3 toplote."
+ },
+ "Imported Hydrogen": {
+  "name": "Uvoženi vodik",
+  "desc": "Prejmi 3 rastline ali dodaj 3 mikrobe ali 2 živali na DRUGO karto. Postavi ploščico oceana.",
+  "orTitles": [
+   "Prejmi 3 rastline",
+   "Dodaj 3 mikrobe na DRUGO karto",
+   "Dodaj 2 živali na DRUGO karto"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Uvoženi dušik",
+  "desc": "Dvigni svoj TR za 1 stopnjo in prejmi 4 rastline. Dodaj 3 mikrobe na DRUGO karto in 2 živali na DRUGO karto."
+ },
+ "Import of Advanced GHG": {
+  "name": "Uvoz naprednih TPG",
+  "desc": "Povečaj svojo proizvodnjo toplote za 2 stopnji."
+ },
+ "Industrial Microbes": {
+  "name": "Industrijski mikrobi",
+  "desc": "Povečaj svojo proizvodnjo energije in jekla vsako za 1 stopnjo."
+ },
+ "Insects": {
+  "name": "Žuželke",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo za vsako svojo oznako rastline."
+ },
+ "Insulation": {
+  "name": "Izolacija",
+  "desc": "Zmanjšaj svojo proizvodnjo toplote za poljubno število stopenj in povečaj proizvodnjo M€ za enako število stopenj."
+ },
+ "Ironworks": {
+  "name": "Železarna",
+  "actions": [
+   "Porabi 4 energije, da prejmeš 1 jeklo in dvigneš kisik za 1 stopnjo."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Gojenje kelpa",
+  "desc": "Povečaj svojo proizvodnjo M€ za 2 stopnji in proizvodnjo rastlin za 3 stopnje. Prejmi 2 rastlini."
+ },
+ "Lake Marineris": {
+  "name": "Jezero Marineris",
+  "desc": "Postavi 2 ploščici oceana."
+ },
+ "Large Convoy": {
+  "name": "Velik konvoj",
+  "desc": "Postavi ploščico oceana in vleci 2 karti. Prejmi 5 rastlin ali dodaj 4 živali na DRUGO karto.",
+  "orTitles": [
+   "Prejmi 5 rastlin",
+   "Dodaj 4 živali na DRUGO karto"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lavini tokovi",
+  "desc": "Dvigni temperaturo za 2 stopnji in postavi to ploščico NA THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS ALI ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Lišaji",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo."
+ },
+ "Livestock": {
+  "name": "Živina",
+  "desc": "Zmanjšaj svojo proizvodnjo rastlin za 1 stopnjo in povečaj proizvodnjo M€ za 2 stopnji",
+  "actions": [
+   "Dodaj 1 žival na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsako žival na tej karti."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Lokalno zajemanje toplote",
+  "desc": "Porabi 5 toplote, da prejmeš 4 rastline ali dodaš 2 živali na DRUGO karto.",
+  "orTitles": [
+   "Prejmi 4 rastline",
+   "Dodaj 2 živali na DRUGO karto"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Lunarni žarek",
+  "desc": "Zmanjšaj svojo proizvodnjo M€ za 2 stopnji in povečaj proizvodnjo toplote in energije vsako za 2 stopnji."
+ },
+ "Magnetic Field Dome": {
+  "name": "Kupola magnetnega polja",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 2 stopnji in povečaj proizvodnjo rastlin za 1 stopnjo. Dvigni svoj TR za 1 stopnjo."
+ },
+ "Magnetic Field Generators": {
+  "name": "Generatorji magnetnega polja",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 4 stopnje in povečaj proizvodnjo rastlin za 2 stopnji. Dvigni svoj TR za 3 stopnje."
+ },
+ "Mangrove": {
+  "name": "Mangrove",
+  "desc": "Postavi ploščico zelenice NA OBMOČJE, REZERVIRANO ZA OCEAN, in dvigni kisik za 1 stopnjo. Pri tem ne upoštevaj običajnih omejitev postavitve."
+ },
+ "Martian Rails": {
+  "name": "Marsovska železnica",
+  "actions": [
+   "Porabi 1 energijo, da prejmeš 1 M€ za vsako ploščico mesta NA MARSU."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metan s Titana",
+  "desc": "Povečaj svojo proizvodnjo toplote za 2 stopnji in proizvodnjo rastlin za 2 stopnji."
+ },
+ "Micro-Mills": {
+  "name": "Mikromlini",
+  "desc": "Povečaj svojo proizvodnjo toplote za 1 stopnjo."
+ },
+ "Mining Expedition": {
+  "name": "Rudarska odprava",
+  "desc": "Dvigni kisik za 1 stopnjo. Kateremukoli igralcu odstrani 2 rastlini. Prejmi 2 jekla."
+ },
+ "Mining Rights": {
+  "name": "Rudarske pravice",
+  "desc": "Postavi to ploščico na območje z bonusom jekla ali titana ob postavitvi. Povečaj to proizvodnjo za 1 stopnjo."
+ },
+ "Mohole Area": {
+  "name": "Območje Mohole",
+  "desc": "Povečaj svojo proizvodnjo toplote za 4 stopnje. Postavi to ploščico NA OBMOČJE, REZERVIRANO ZA OCEAN."
+ },
+ "Moss": {
+  "name": "Mah",
+  "desc": "Izgubi 1 rastlino. Povečaj svojo proizvodnjo rastlin za 1 stopnjo."
+ },
+ "Natural Preserve": {
+  "name": "Naravni rezervat",
+  "desc": "Postavi to ploščico TAKO, DA NI OB NOBENI DRUGI PLOŠČICI. Povečaj svojo proizvodnjo M€ za 1 stopnjo."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Bakterije, ki reducirajo nitrit",
+  "desc": "Dodaj 3 mikrobe na to karto.",
+  "actions": [
+   "Dodaj 1 mikroba na to karto.",
+   "Odstrani 3 mikrobe, da dvigneš svoj TR za 1 stopnjo."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Z dušikom bogat asteroid",
+  "desc": "Dvigni svoj teraformacijski rang za 2 stopnji in temperaturo za 1 stopnjo. Povečaj svojo proizvodnjo rastlin za 1 stopnjo ali za 4 stopnje, če imaš 3 oznake rastline."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofilni mah",
+  "desc": "Izgubi 2 rastlini. Povečaj svojo proizvodnjo rastlin za 2 stopnji."
+ },
+ "Noctis City": {
+  "name": "Mesto Noctis",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 3 stopnje. Postavi ploščico mesta NA REZERVIRANO OBMOČJE ne glede na običajne omejitve postavitve."
+ },
+ "Noctis Farming": {
+  "name": "Kmetovanje v Noctisu",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo in prejmi 2 rastlini."
+ },
+ "Nuclear Power": {
+  "name": "Jedrska energija",
+  "desc": "Zmanjšaj svojo proizvodnjo M€ za 2 stopnji in povečaj proizvodnjo energije za 3 stopnje."
+ },
+ "Nuclear Zone": {
+  "name": "Jedrsko območje",
+  "desc": "Postavi to ploščico in dvigni temperaturo za 2 stopnji."
+ },
+ "Open City": {
+  "name": "Odprto mesto",
+  "desc": "Prejmi 2 rastlini. Postavi ploščico mesta. Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 4 stopnje."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimalno aerozaviranje",
+  "effects": [
+   "Ko odigraš vesoljski dogodek, prejmeš 3 M€ in 3 toplote."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Predelovalnica rude",
+  "actions": [
+   "Porabi 4 energije, da prejmeš 1 titan in dvigneš kisik za 1 stopnjo."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Pridobivanje iz permafrosta",
+  "desc": "Postavi 1 ploščico oceana."
+ },
+ "Peroxide Power": {
+  "name": "Peroksidna energija",
+  "desc": "Zmanjšaj svojo proizvodnjo M€ za 1 stopnjo in povečaj proizvodnjo energije za 2 stopnji."
+ },
+ "Pets": {
+  "name": "Hišni ljubljenčki",
+  "desc": "Dodaj 1 žival na to karto.",
+  "effects": [
+   "Ko je postavljena katerakoli ploščica mesta, dodaj žival na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsaki 2 živali tukaj."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Vesoljsko pristanišče Fobos",
+  "desc": "Povečaj svojo proizvodnjo titana za 1 stopnjo in postavi ploščico mesta NA REZERVIRANO OBMOČJE."
+ },
+ "Plantation": {
+  "name": "Nasad",
+  "desc": "Postavi ploščico zelenice in dvigni kisik za 1 stopnjo."
+ },
+ "Power Grid": {
+  "name": "Električno omrežje",
+  "desc": "Povečaj svojo proizvodnjo energije za stopnjo za vsako svojo oznako energije, vključno s to."
+ },
+ "Power Plant": {
+  "name": "Elektrarna",
+  "desc": "Povečaj svojo proizvodnjo energije za 1 stopnjo."
+ },
+ "Predators": {
+  "name": "Plenilci",
+  "actions": [
+   "Odstrani 1 žival s katerekoli karte in jo dodaj na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsako žival na tej karti."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Zaščitena dolina",
+  "desc": "Povečaj svojo proizvodnjo M€ za 2 stopnji. Postavi ploščico zelenice NA OBMOČJE, REZERVIRANO ZA OCEAN, ne glede na običajne omejitve postavitve, in dvigni kisik za 1 stopnjo."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radiokemična tovarna",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo. Dvigni svoj TR za 2 stopnji."
+ },
+ "Regolith Eaters": {
+  "name": "Jedci regolita",
+  "actions": [
+   "Dodaj 1 mikroba na to karto.",
+   "Odstrani 2 mikroba s te karte, da dvigneš raven kisika za 1 stopnjo."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Sproščanje inertnih plinov",
+  "desc": "Dvigni svoj teraformacijski rang za 2 stopnji."
+ },
+ "Research Outpost": {
+  "name": "Raziskovalna postojanka",
+  "desc": "Postavi ploščico mesta TAKO, DA NI OB NOBENI DRUGI PLOŠČICI.",
+  "effects": [
+   "Ko odigraš karto, zanjo plačaš 1 M€ manj."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Gradnja roverjev",
+  "effects": [
+   "Ko je postavljena katerakoli ploščica mesta, prejmi 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Iskanje življenja",
+  "actions": [
+   "Porabi 1 M€, da razkriješ vrhnjo karto kupa za vlečenje. Če ima ta karta oznako mikroba, sem dodaj znanstveni vir."
+  ],
+  "vpText": [
+   "3 ZT, če imaš tukaj enega ali več znanstvenih virov."
+  ]
+ },
+ "Shuttles": {
+  "name": "Šatli",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 2 stopnji.",
+  "effects": [
+   "Ko odigraš vesoljsko karto, zanjo plačaš 2 M€ manj."
+  ]
+ },
+ "Small Animals": {
+  "name": "Male živali",
+  "desc": "Zmanjšaj proizvodnjo rastlin kateregakoli igralca za 1 stopnjo.",
+  "actions": [
+   "Dodaj 1 žival na to karto."
+  ],
+  "vpText": [
+   "1 ZT za vsaki 2 živali na tej karti."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Tovarna prsti",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo rastlin za 1 stopnjo."
+ },
+ "Solar Power": {
+  "name": "Sončna energija",
+  "desc": "Povečaj svojo proizvodnjo energije za 1 stopnjo."
+ },
+ "Solar Wind Power": {
+  "name": "Energija sončnega vetra",
+  "desc": "Povečaj svojo proizvodnjo energije za 1 stopnjo in prejmi 2 titana."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Povečaj svojo proizvodnjo toplote za 7 stopenj."
+ },
+ "Space Mirrors": {
+  "name": "Vesoljska ogledala",
+  "actions": [
+   "Porabi 7 M€, da povečaš svojo proizvodnjo energije za 1 stopnjo."
+  ]
+ },
+ "Special Design": {
+  "name": "Posebna zasnova",
+  "desc": "Za naslednjo karto, ki jo odigraš v tej generaciji, so globalni pogoji +2 ali -2 stopnji, po tvoji izbiri."
+ },
+ "Steelworks": {
+  "name": "Jeklarna",
+  "actions": [
+   "Porabi 4 energije, da prejmeš 2 jekla in dvigneš kisik za 1 stopnjo."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Površinski kop",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 2 stopnji. Povečaj proizvodnjo jekla za 2 stopnji in proizvodnjo titana za 1 stopnjo. Dvigni kisik za 2 stopnji."
+ },
+ "Subterranean Reservoir": {
+  "name": "Podzemni rezervoar",
+  "desc": "Postavi 1 ploščico oceana."
+ },
+ "Symbiotic Fungus": {
+  "name": "Simbiotska gliva",
+  "actions": [
+   "Dodaj mikroba na DRUGO karto."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Energija tektonskih napetosti",
+  "desc": "Povečaj svojo proizvodnjo energije za 3 stopnje."
+ },
+ "Towing A Comet": {
+  "name": "Vleka kometa",
+  "desc": "Prejmi 2 rastlini. Dvigni raven kisika za 1 stopnjo in postavi ploščico oceana."
+ },
+ "Trees": {
+  "name": "Drevesa",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 3 stopnje. Prejmi 1 rastlino."
+ },
+ "Tundra Farming": {
+  "name": "Kmetovanje v tundri",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo in proizvodnjo M€ za 2 stopnji. Prejmi 1 rastlino."
+ },
+ "Underground City": {
+  "name": "Podzemno mesto",
+  "desc": "Postavi ploščico mesta. Zmanjšaj svojo proizvodnjo energije za 2 stopnji in povečaj proizvodnjo jekla za 2 stopnji."
+ },
+ "Underground Detonations": {
+  "name": "Podzemne eksplozije",
+  "actions": [
+   "Porabi 10 M€, da povečaš svojo proizvodnjo toplote za 2 stopnji."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanizirano območje",
+  "desc": "Zmanjšaj svojo proizvodnjo energije za 1 stopnjo in povečaj proizvodnjo M€ za 2 stopnji. Postavi ploščico mesta OB VSAJ 2 DRUGI PLOŠČICI MESTA."
+ },
+ "Water Import From Europa": {
+  "name": "Uvoz vode z Evrope",
+  "actions": [
+   "Plačaj 12 M€, da postaviš ploščico oceana. TITAN LAHKO UPORABIŠ, kot bi igral vesoljsko karto."
+  ],
+  "vpText": [
+   "1 ZT za vsako tvojo oznako Jupitra."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Naprava za razcep vode",
+  "actions": [
+   "Porabi 3 energije, da dvigneš kisik za 1 stopnjo."
+  ]
+ },
+ "Wave Power": {
+  "name": "Energija valov",
+  "desc": "Povečaj svojo proizvodnjo energije za 1 stopnjo."
+ },
+ "Windmills": {
+  "name": "Vetrnice",
+  "desc": "Povečaj svojo proizvodnjo energije za 1 stopnjo."
+ },
+ "Worms": {
+  "name": "Črvi",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo za vsaki 2 svoji oznaki mikroba, vključno s to."
+ },
+ "Zeppelins": {
+  "name": "Cepelini",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo za vsako ploščico mesta NA MARSU."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Začneš z 1 proizvodnjo titana in 42 M€.",
+  "effects": [
+   "Vsakič, ko pride v igro katerakoli oznaka Jupitra, vključno s to, povečaj svojo proizvodnjo M€ za 1 stopnjo."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Začneš s 60 M€.",
+  "effects": [
+   "Ko odigraš oznako Zemlje, zanjo plačaš 3 M€ manj."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Začneš s 3 proizvodnje M€ in 44 M€.",
+  "effects": [
+   "Ko odigraš oznako gradnje, zanjo plačaš 2 M€ manj."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Začneš z 1 proizvodnjo titana in 38 M€.",
+  "effects": [
+   "Ko odigraš oznako Zemlje, vključno s to, vleci karto."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Začneš s 47 M€.",
+  "actions": [
+   "Porabi 4 M€, da povečaš (eno od) svojih NAJNIŽJIH proizvodenj za 1 stopnjo."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Začneš s 37 M€. Kot prvo akcijo vleci 3 karte preludijev in odigraj enega od njih. Druga dva zavrzi.",
+  "effects": [
+   "Ko odigraš oznako znanosti, zanjo plačaš 2 M€ manj."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Začneš s 45 M€. Kot prvo akcijo brezplačno financiraj nagrado.",
+  "effects": [
+   "Ko odigraš karto z NENEGATIVNO ikono ZT, vključno s to, prejmi 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Korporacija za začetnike",
+  "desc": "Začneš z 42 M€. Namesto izbiranja med 10 kartami ob pripravi dobiš 10 kart brezplačno."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Začneš s 57 M€.",
+  "effects": [
+   "Ko plačaš karto ali standardni projekt z osnovno ceno 20 M€ ali več, prejmeš 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Začneš z 2 proizvodnje rastlin, 3 rastlinami in 36 M€.",
+  "effects": [
+   "Za postavitev zelenice lahko vedno plačaš 7 rastlin namesto 8."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Začneš s 3 proizvodnje toplote in 42 M€.",
+  "effects": [
+   "Toploto lahko uporabljaš kot M€. M€ ne smeš uporabljati kot toploto."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Začneš z 20 jekla in 30 M€.",
+  "effects": [
+   "Vsakič, ko odigraš dogodek, prejmeš 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Kot prvo akcijo v igri vleci 3 karte. Začneš s 45 M€.",
+  "effects": [
+   "Tvoji pogoji za temperaturo, kisik, oceane in Venero so +2 ali -2 stopnji, v vsakem primeru po tvoji izbiri."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Rudarski ceh",
+  "desc": "Začneš s 30 M€, 5 jekla in 1 proizvodnjo jekla.",
+  "effects": [
+   "Vsakič, ko postaviš ploščico na območje z bonusom jekla ali titana ob postavitvi, povečaj svojo proizvodnjo jekla za 1 stopnjo"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Začneš z 10 titana in 23 M€.",
+  "effects": [
+   "Vsak tvoj titan je vreden 1 M€ več."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Republika Tharsis",
+  "desc": "Začneš s 40 M€. Kot prvo akcijo v igri postavi ploščico mesta.",
+  "effects": [
+   "Ko je katerakoli ploščica mesta postavljena NA MARS, povečaj svojo proizvodnjo M€ za 1 stopnjo. Ko ploščico mesta postaviš ti, prejmi 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Začneš z 1 proizvodnjo energije in 48 M€.",
+  "effects": [
+   "Ko igraš karto energije ALI STANDARDNI PROJEKT ELEKTRARNA, zanj plačaš 3 M€ manj."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Marsovska pobuda Združenih narodov",
+  "desc": "Začneš s 40 M€.",
+  "actions": [
+   "Če se je tvoj teraformacijski rang v tej generaciji dvignil, lahko plačaš 3 M€, da ga dvigneš še za 1 stopnjo."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Zavezniška banka",
+  "desc": "Povečaj svojo proizvodnjo M€ za 4 stopnje. Prejmi 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Podpora biosferi",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 2 stopnji. Zmanjšaj svojo proizvodnjo M€ za 1 stopnjo."
+ },
+ "Aquifer Turbines": {
+  "name": "Turbine vodonosnika",
+  "desc": "Postavi ploščico oceana. Povečaj svojo proizvodnjo energije za 2 stopnji. Plačaj 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Izkop Mohole",
+  "desc": "Povečaj svojo proizvodnjo jekla za 1 stopnjo in proizvodnjo toplote za 2 stopnji. Prejmi 2 toploti."
+ },
+ "Early Settlement": {
+  "name": "Zgodnje naselje",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo. Postavi ploščico mesta."
+ },
+ "Biofuels": {
+  "name": "Biogoriva",
+  "desc": "Povečaj svojo proizvodnjo energije in rastlin za 1 stopnjo. Prejmi 2 rastlini."
+ },
+ "Power Generation": {
+  "name": "Proizvodnja energije",
+  "desc": "Povečaj svojo proizvodnjo energije za 3 stopnje."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Samozadostno naselje",
+  "desc": "Povečaj svojo proizvodnjo M€ za 2 stopnji. Postavi ploščico mesta."
+ },
+ "Mining Operations": {
+  "name": "Rudarska dela",
+  "desc": "Povečaj svojo proizvodnjo jekla za 2 stopnji. Prejmi 4 jekla."
+ },
+ "UNMI Contractor": {
+  "name": "Izvajalec UNMI",
+  "desc": "Dvigni svoj TR za 3 stopnje. Vleci karto."
+ },
+ "Dome Farming": {
+  "name": "Kmetovanje pod kupolo",
+  "desc": "Povečaj svojo proizvodnjo M€ za 2 stopnji in proizvodnjo rastlin za 1 stopnjo."
+ },
+ "Business Empire": {
+  "name": "Poslovni imperij",
+  "desc": "Povečaj svojo proizvodnjo M€ za 6 stopenj. Plačaj 6 M€."
+ },
+ "Donation": {
+  "name": "Donacija",
+  "desc": "Prejmi 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Pošiljka dušika",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo. Dvigni svoj TR za 1 stopnjo. Prejmi 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Talilnica",
+  "desc": "Dvigni kisik za 2 stopnji. Prejmi 5 jekla."
+ },
+ "Supplier": {
+  "name": "Dobavitelj",
+  "desc": "Povečaj svojo proizvodnjo energije za 2 stopnji. Prejmi 4 jekla."
+ },
+ "Supply Drop": {
+  "name": "Odvrženi tovor",
+  "desc": "Prejmi 3 titana, 8 jekla in 3 rastline."
+ },
+ "Great Aquifer": {
+  "name": "Veliki vodonosnik",
+  "desc": "Postavi 2 ploščici oceana."
+ },
+ "Biolab": {
+  "name": "Biolaboratorij",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo. Vleci 3 karte."
+ },
+ "Martian Industries": {
+  "name": "Marsovska industrija",
+  "desc": "Povečaj svojo proizvodnjo energije in jekla za 1 stopnjo. Prejmi 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Raziskovalna postojanka na Iu",
+  "desc": "Povečaj svojo proizvodnjo titana za 1 stopnjo. Vleci karto."
+ },
+ "Polar Industries": {
+  "name": "Polarna industrija",
+  "desc": "Povečaj svojo proizvodnjo toplote za 2 stopnji. Postavi ploščico oceana."
+ },
+ "Society Support": {
+  "name": "Podpora družbe",
+  "desc": "Povečaj svojo proizvodnjo rastlin, energije in toplote za 1 stopnjo. Zmanjšaj proizvodnjo M€ za 1 stopnjo."
+ },
+ "Galilean Mining": {
+  "name": "Rudarjenje na Galilejevih lunah",
+  "desc": "Povečaj svojo proizvodnjo titana za 2 stopnji. Plačaj 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Ogromen asteroid",
+  "desc": "Dvigni temperaturo za 3 stopnje. Plačaj 5 M€."
+ },
+ "Metals Company": {
+  "name": "Družba za kovine",
+  "desc": "Povečaj svojo proizvodnjo M€, jekla in titana za 1 stopnjo."
+ },
+ "Loan": {
+  "name": "Posojilo",
+  "desc": "Prejmi 30 M€. Zmanjšaj svojo proizvodnjo M€ za 2 stopnji."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Povečaj svojo proizvodnjo toplote za 3 stopnje. Prejmi 3 toplote."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "S kovinami bogat asteroid",
+  "desc": "Dvigni temperaturo za 1 stopnjo. Prejmi 4 titana in 4 jekla."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitalno gradbišče",
+  "desc": "Povečaj svojo proizvodnjo titana za 1 stopnjo. Prejmi 4 titana."
+ },
+ "Acquired Space Agency": {
+  "name": "Prevzeta vesoljska agencija",
+  "desc": "Prejmi 6 titana. Razkrivaj karte, dokler ne razkriješ dveh kart z oznako vesolja. Vzemi ju v roko, ostale zavrzi."
+ },
+ "Research Network": {
+  "name": "Raziskovalna mreža",
+  "desc": "Povečaj svojo proizvodnjo M€ za 1 stopnjo. Vleci 3 karte. Ko je odigrana, pri izvedbi akcije oznaka džokerja šteje kot katerakoli oznaka po tvoji izbiri."
+ },
+ "Eccentric Sponsor": {
+  "name": "Ekscentrični sponzor",
+  "desc": "ODIGRAJ KARTO IZ ROKE S POPUSTOM 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Strokovnjaki za ekologijo",
+  "desc": "Povečaj svojo proizvodnjo rastlin za 1 stopnjo. ODIGRAJ KARTO IZ ROKE BREZ UPOŠTEVANJA GLOBALNIH POGOJEV."
+ },
+ "Experimental Forest": {
+  "name": "Poskusni gozd",
+  "desc": "Postavi 1 ploščico zelenice in dvigni kisik za 1 stopnjo. Razkrivaj karte, dokler ne razkriješ dveh kart z oznako rastline. Vzemi ju v roko, ostale zavrzi."
+ }
+}

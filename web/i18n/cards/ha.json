@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Kamfanin da Aka Saya",
+  "desc": "Ƙara samar da M€ naka da mataki 3."
+ },
+ "Advanced Alloys": {
+  "name": "Gawayen Ƙarfe na Zamani",
+  "effects": [
+   "Kowane titanium da kake da shi yana da ƙarin ƙimar 1 M€.",
+   "Kowane ƙarfe da kake da shi yana da ƙarin ƙimar 1 M€."
+  ]
+ },
+ "AI Central": {
+  "name": "Cibiyar AI",
+  "desc": "Rage samar da makamashi naka da mataki 1.",
+  "actions": [
+   "Ɗauki katuna 2."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Fasahar Hana Nauyi",
+  "effects": [
+   "Idan ka buga kati, za ka biya 2 M€ ƙasa da farashinsa."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Ƙungiyar Haƙar Ma'adinan Asteroid",
+  "desc": "Rage samar da titanium na kowane ɗan wasa da mataki 1 kuma ka ƙara naka da mataki 1."
+ },
+ "Bribed Committee": {
+  "name": "Kwamitin da Aka Ba Cin Hanci",
+  "desc": "Ɗaga TR naka da mataki 2."
+ },
+ "Building Industries": {
+  "name": "Masana'antun Gini",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da ƙarfe naka da mataki 2."
+ },
+ "Business Contacts": {
+  "name": "Abokan Hulɗar Kasuwanci",
+  "desc": "Duba katuna 4 na saman tari. Ɗauki 2 zuwa hannunka ka jefar da sauran."
+ },
+ "Business Network": {
+  "name": "Hanyar Sadarwar Kasuwanci",
+  "desc": "Rage samar da M€ naka da mataki 1.",
+  "actions": [
+   "Duba katin sama sannan ka saye shi ko ka jefar da shi."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Ma'adinan Horo na Callisto",
+  "desc": "Ƙara samar da M€ naka da mataki 3."
+ },
+ "Caretaker Contract": {
+  "name": "Kwangilar Kulawa",
+  "actions": [
+   "Kashe zafi 8 don ɗaga Matsayin Terraform naka da mataki 1."
+  ]
+ },
+ "Cartel": {
+  "name": "Gamayyar Kasuwa",
+  "desc": "Ƙara samar da M€ naka da mataki 1 ga kowace alamar Duniya da kake da ita, har da wannan."
+ },
+ "CEO's Favorite Project": {
+  "name": "Aikin da Shugaban Kamfani Ya Fi So",
+  "desc": "Ƙara albarkatu 1 a kan kowane katinka da ke da aƙalla albarkatu 1."
+ },
+ "Commercial District": {
+  "name": "Gundumar Kasuwanci",
+  "desc": "Sanya wannan yanki. Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 4.",
+  "vpText": [
+   "Maki 1 ga kowane yankin birni da ke maƙwabtaka."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Sansanin Kamfani",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 3. Sanya yankin birni."
+ },
+ "Development Center": {
+  "name": "Cibiyar Ci Gaba",
+  "actions": [
+   "Kashe makamashi 1 don ɗaukar kati."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Majaujawar Duniya",
+  "effects": [
+   "Idan ka buga kati, za ka biya 2 M€ ƙasa da farashinsa."
+  ]
+ },
+ "Earth Office": {
+  "name": "Ofishin Duniya",
+  "effects": [
+   "Idan ka buga alamar Duniya, za ka biya 3 M€ ƙasa da farashinta."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Majaujawar Lantarki",
+  "desc": "Rage samar da makamashi naka da mataki 1.",
+  "actions": [
+   "Kashe tsiro 1 ko ƙarfe 1 don samun 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Satar Makamashi",
+  "desc": "Rage samar da makamashi na kowane ɗan wasa da mataki 1 kuma ka ƙara naka da mataki 1."
+ },
+ "Fuel Factory": {
+  "name": "Masana'antar Mai",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da titanium da na M€ naka da mataki 1 kowanne."
+ },
+ "Gene Repair": {
+  "name": "Gyaran Kwayoyin Halitta",
+  "desc": "Ƙara samar da M€ naka da mataki 2."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Ƙungiyar Babban Tsauni",
+  "desc": "Rage samar da ƙarfe na kowane ɗan wasa da mataki 1 kuma ka ƙara naka da mataki 1."
+ },
+ "Hackers": {
+  "name": "Masu Kutse",
+  "desc": "Rage samar da makamashi naka da mataki 1 da samar da M€ na kowane ɗan wasa da mataki 2. Ƙara samar da M€ naka da mataki 2."
+ },
+ "Hired Raiders": {
+  "name": "'Yan Fashin Haya",
+  "desc": "Sace har zuwa ƙarfe 2, ko 3 M€ daga kowane ɗan wasa."
+ },
+ "Indentured Workers": {
+  "name": "Ma'aikatan Kwangila",
+  "desc": "Katin da za ka buga na gaba a wannan zamani zai rage farashi da 8 M€."
+ },
+ "Industrial Center": {
+  "name": "Cibiyar Masana'antu",
+  "desc": "Sanya wannan yanki a maƙwabtakar yankin birni.",
+  "actions": [
+   "Kashe 7 M€ don ƙara samar da ƙarfe naka da mataki 1."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Jirgin Mulkin Mallaka Tsakanin Taurari"
+ },
+ "Invention Contest": {
+  "name": "Gasar Ƙirƙira",
+  "desc": "Duba katuna 3 na saman tari. Ɗauki 1 zuwa hannunka ka jefar da sauran."
+ },
+ "Inventors' Guild": {
+  "name": "Ƙungiyar Masu Ƙirƙira",
+  "actions": [
+   "Duba katin sama sannan ka saye shi ko ka jefar da shi."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Rancen Zuba Jari",
+  "desc": "Rage samar da M€ naka da mataki 1. Sami 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Masana'antun Haƙar Ma'adinai na Io",
+  "desc": "Ƙara samar da titanium naka da mataki 2 da samar da M€ naka da mataki 2.",
+  "vpText": [
+   "Maki 1 ga kowace alamar Jupiter da kake da ita."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Cibiyar Kallon Taurari ta Lagrange",
+  "desc": "Ɗauki kati 1."
+ },
+ "Land Claim": {
+  "name": "Da'awar Fili",
+  "desc": "Keɓe wani wuri da ba a keɓe ba don kanka: kai kaɗai ne za ka iya sanya yanki a can."
+ },
+ "Lightning Harvest": {
+  "name": "Girbin Walƙiya",
+  "desc": "Ƙara samar da makamashi naka da samar da M€ naka da mataki ɗaya kowanne."
+ },
+ "Mars University": {
+  "name": "Jami'ar Mars",
+  "effects": [
+   "Idan ka buga alamar kimiyya, har da wannan, za ka iya jefar da kati daga hannu don ɗaukar kati."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Mai Canza Nauyi",
+  "desc": "Ƙara samar da makamashi naka da mataki 6.",
+  "effects": [
+   "Idan ka buga katin sararin samaniya, za ka biya 2 M€ ƙasa da farashinsa."
+  ]
+ },
+ "Media Archives": {
+  "name": "Ma'ajiyar Kafofin Watsa Labarai",
+  "desc": "Sami 1 M€ ga kowace aukuwa da DUKAN 'yan wasa suka TAƁA bugawa."
+ },
+ "Media Group": {
+  "name": "Ƙungiyar Kafofin Watsa Labarai",
+  "effects": [
+   "Bayan ka buga katin aukuwa, za ka sami 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Ɗakin Gwajin Magani",
+  "desc": "Ƙara samar da M€ naka da mataki 1 ga kowace alamomin gini 2 da kake da su, har da wannan."
+ },
+ "Mine": {
+  "name": "Ma'adinai",
+  "desc": "Ƙara samar da ƙarfe naka da mataki 1."
+ },
+ "Mineral Deposit": {
+  "name": "Tarin Ma'adinai",
+  "desc": "Sami ƙarfe 5."
+ },
+ "Mining Area": {
+  "name": "Yankin Haƙar Ma'adinai",
+  "desc": "Sanya wannan yanki a wurin da ke da kyautar sanyawa ta ƙarfe ko titanium, a maƙwabtakar wani yankinka. Ƙara samar da wannan albarkatun naka da mataki 1."
+ },
+ "Miranda Resort": {
+  "name": "Wurin Shaƙatawa na Miranda",
+  "desc": "Ƙara samar da M€ naka da mataki 1 ga kowace alamar Duniya da kake da ita."
+ },
+ "Olympus Conference": {
+  "name": "Taron Olympus",
+  "desc": "Idan ka buga alamar kimiyya, har da wannan, ko dai ka ƙara albarkatun kimiyya a kan wannan katin, ko ka cire albarkatun kimiyya daga wannan katin don ɗaukar kati."
+ },
+ "Physics Complex": {
+  "name": "Cibiyar Kimiyyar Lissafi",
+  "actions": [
+   "Kashe makamashi 6 don ƙara albarkatun kimiyya a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 2 ga kowane albarkatun kimiyya a kan wannan katin."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Ababen More Rayuwa na Wuta",
+  "actions": [
+   "Kashe kowane adadi na makamashi ka sami M€ daidai da adadin."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Ƙungiyar Samar da Wuta",
+  "desc": "Rage samar da makamashi na kowane ɗan wasa da mataki 1 kuma ka ƙara naka da mataki 1."
+ },
+ "Protected Habitats": {
+  "name": "Muhallai Masu Kariya",
+  "effects": [
+   "Abokan karawa ba za su iya cire tsirranka, dabbobinka ko ƙwayoyin cutarka ba."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Mai Fitarwa na Quantum",
+  "desc": "Ƙara samar da makamashi naka da mataki 4.",
+  "effects": [
+   "Idan ka buga katin sararin samaniya, za ka biya 2 M€ ƙasa da farashinsa."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Rigunan Kariya daga Haske",
+  "desc": "Ƙara samar da M€ naka da mataki 1."
+ },
+ "Research": {
+  "name": "Bincike",
+  "desc": "Ana ƙidaya shi kamar buga katunan kimiyya 2. Ɗauki katuna 2."
+ },
+ "Restricted Area": {
+  "name": "Yanki Mai Iyaka",
+  "desc": "Sanya wannan yanki.",
+  "actions": [
+   "Kashe 2 M€ don ɗaukar kati."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Ma'aikatan Mutum-mutumi",
+  "desc": "Kwafi akwatin samarwa kawai na ɗaya daga cikin katunan gininka."
+ },
+ "Sabotage": {
+  "name": "Zagon Ƙasa",
+  "desc": "Cire har zuwa titanium 3 daga kowane ɗan wasa, ko ƙarfe 4, ko 7 M€."
+ },
+ "Satellites": {
+  "name": "Tauraron Ɗan Adam",
+  "desc": "Ƙara samar da M€ naka da mataki 1 ga kowace alamar sararin samaniya da kake da ita, har da wannan."
+ },
+ "Security Fleet": {
+  "name": "Rundunar Tsaro",
+  "actions": [
+   "Kashe titanium 1 don ƙara albarkatun mayaƙi 1 a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowane albarkatun mayaƙi a kan wannan katin."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Lif na Sararin Samaniya",
+  "desc": "Ƙara samar da titanium naka da mataki 1.",
+  "actions": [
+   "Kashe ƙarfe 1 don samun 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Tashar Sararin Samaniya",
+  "effects": [
+   "Idan ka buga katin sararin samaniya, za ka biya 2 M€ ƙasa da farashinsa."
+  ]
+ },
+ "Sponsors": {
+  "name": "Masu Ɗaukar Nauyi",
+  "desc": "Ƙara samar da M€ naka da mataki 2."
+ },
+ "Standard Technology": {
+  "name": "Fasaha ta Asali",
+  "effects": [
+   "Bayan ka biya kuɗin aiki na asali, banda sayar da haƙƙin mallaka, za ka sami 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigrade",
+  "actions": [
+   "Ƙara ƙwayar cuta 1 a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace ƙwayoyin cuta 4 a kan wannan katin."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Nunin Fasaha",
+  "desc": "Ɗauki katuna biyu."
+ },
+ "Terraforming Ganymede": {
+  "name": "Terraforming na Ganymede",
+  "desc": "Ɗaga TR naka da mataki 1 ga kowace alamar Jupiter da kake da ita, har da wannan."
+ },
+ "Titanium Mine": {
+  "name": "Ma'adinan Titanium",
+  "desc": "Ƙara samar da titanium naka da mataki 1."
+ },
+ "Toll Station": {
+  "name": "Tashar Karɓar Haraji",
+  "desc": "Ƙara samar da M€ naka da mataki 1 ga kowace alamar sararin samaniya da ABOKAN KARAWARKA suke da ita."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Jirgin Bincike na Bayan Neptune",
+  "desc": "Jirgin binciken sararin samaniya mai nisa: yana da ƙimar maki 1."
+ },
+ "Tropical Resort": {
+  "name": "Wurin Shaƙatawa na Wurare Masu Zafi",
+  "desc": "Rage samar da zafi naka da mataki 2 kuma ka ƙara samar da M€ naka da mataki 3."
+ },
+ "Vesta Shipyard": {
+  "name": "Tashar Ƙera Jirage ta Vesta",
+  "desc": "Ƙara samar da titanium naka da mataki 1."
+ },
+ "Viral Enhancers": {
+  "name": "Masu Ƙarfafa Ƙwayoyin Cuta",
+  "effects": [
+   "Idan ka buga alamar tsiro, ƙwayar cuta, ko dabba, har da wannan, sami tsiro 1 ko ka ƙara albarkatu 1 a kan WANNAN KATIN."
+  ]
+ },
+ "Virus": {
+  "name": "Ƙwayar Cutar Virus",
+  "desc": "Cire har zuwa dabbobi 2 ko tsirrai 5 daga kowane ɗan wasa."
+ },
+ "SF Memorial": {
+  "name": "Abin Tunawa na SF",
+  "desc": "Ɗauki kati 1."
+ },
+ "House Printing": {
+  "name": "Buga Gidaje",
+  "desc": "Ƙara samar da ƙarfe naka da mataki 1."
+ },
+ "Space Hotels": {
+  "name": "Otal-otal na Sararin Samaniya",
+  "desc": "Ƙara samar da M€ da mataki 4."
+ },
+ "Martian Survey": {
+  "name": "Binciken Mars",
+  "desc": "Ɗauki katuna biyu."
+ },
+ "Research Coordination": {
+  "name": "Haɗin Kan Bincike",
+  "desc": "Bayan an buga shi, idan ka yi aiki, alamar kowace tana ƙidaya a matsayin kowace alama da ka zaɓa."
+ },
+ "Lava Tube Settlement": {
+  "name": "Matsugunin Ramin Lava",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 2. Sanya yankin birni a WURIN DUTSEN WUTA ba tare da la'akari da biranen maƙwabta ba."
+ },
+ "Psychrophiles": {
+  "name": "Masu Son Sanyi",
+  "actions": [
+   "Ƙara ƙwayar cuta 1 a kan wannan katin."
+  ],
+  "effects": [
+   "Idan kana biyan kuɗin katin tsiro, ana iya amfani da ƙwayoyin cuta na nan a matsayin 2 M€ kowacce."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Fasahar Daidaitawa",
+  "effects": [
+   "Sharuɗɗan duniya naka suna +2 ko -2 matakai, zaɓinka a kowane lokaci."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Lichen da Ya Saba",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1."
+ },
+ "Advanced Ecosystems": {
+  "name": "Tsarin Muhalli na Zamani"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Asteroid na Ammonia da Iska Ta Rage wa Gudu",
+  "desc": "Ƙara samar da zafi naka da mataki 3 da samar da tsirrai naka da mataki 1. Ƙara ƙwayoyin cuta 2 a kan WANI kati."
+ },
+ "Ants": {
+  "name": "Tururuwa",
+  "actions": [
+   "Cire ƙwayar cuta 1 daga kowane kati don ƙara 1 a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace ƙwayoyin cuta 2 a kan wannan katin."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Zuƙar Ruwan Ƙarƙashin Ƙasa",
+  "actions": [
+   "Kashe 8 M€ don sanya yankin teku 1. ANA IYA AMFANI DA ƘARFE kamar kana buga katin gini."
+  ]
+ },
+ "Algae": {
+  "name": "Gansakuka",
+  "desc": "Sami tsiro 1 kuma ka ƙara samar da tsirrai naka da mataki 2."
+ },
+ "ArchaeBacteria": {
+  "name": "Archaebacteria",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1."
+ },
+ "Arctic Algae": {
+  "name": "Gansakukan Arctic",
+  "desc": "Sami tsiro 1.",
+  "effects": [
+   "Idan kowa ya sanya yankin teku, sami tsirrai 2."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Tafkin da Aka Ƙirƙira",
+  "desc": "Sanya yankin teku 1 a WURIN DA BA A KEƁE DON TEKU BA."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Photosynthesis na Ƙirƙira",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1 ko samar da makamashi naka da mataki 2.",
+  "orTitles": [
+   "Ƙara samar da makamashi naka da mataki 2",
+   "Ƙara samar da tsirrai naka da mataki 1"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Ɗaga zafin jiki da mataki 1 kuma ka sami titanium 2. Cire har zuwa tsirrai 3 daga kowane ɗan wasa."
+ },
+ "Asteroid Mining": {
+  "name": "Haƙar Ma'adinan Asteroid",
+  "desc": "Ƙara samar da titanium naka da mataki 2."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Haske daga Asteroid na Thorium",
+  "desc": "Ƙara samar da zafi naka da samar da makamashi naka da mataki 3 kowanne."
+ },
+ "Big Asteroid": {
+  "name": "Babban Asteroid",
+  "desc": "Ɗaga zafin jiki da mataki 2 kuma ka sami titanium 4. Cire har zuwa tsirrai 4 daga kowane ɗan wasa."
+ },
+ "Biomass Combustors": {
+  "name": "Masu Ƙona Biomass",
+  "desc": "Rage samar da tsirrai na kowane ɗan wasa da mataki 1 kuma ka ƙara samar da makamashi naka da mataki 2."
+ },
+ "Birds": {
+  "name": "Tsuntsaye",
+  "desc": "Rage samar da tsirrai na kowane ɗan wasa da mataki 2. Maki 1 ga kowace dabba a kan wannan katin.",
+  "actions": [
+   "Ƙara dabba a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace dabba a kan wannan katin."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Baƙar Ƙurar Sanda",
+  "desc": "Sanya yankin teku. Rage samar da M€ naka da mataki 2 kuma ka ƙara samar da zafi naka da mataki 3."
+ },
+ "Breathing Filters": {
+  "name": "Matatun Numfashi"
+ },
+ "Bushes": {
+  "name": "Kurmi-kurmi",
+  "desc": "Ƙara samar da tsirrai naka da mataki 2. Sami tsirrai 2."
+ },
+ "Capital": {
+  "name": "Babban Birni",
+  "desc": "Sanya wannan yanki. Rage samar da makamashi naka da mataki 2 kuma ka ƙara samar da M€ naka da mataki 5.",
+  "vpText": [
+   "Ƙarin maki 1 ga kowane yankin teku da ke maƙwabtaka da wannan yankin birni."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Sarrafa Carbonate",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da zafi naka da mataki 3."
+ },
+ "Cloud Seeding": {
+  "name": "Shuka Gajimare",
+  "desc": "Rage samar da M€ naka da mataki 1 da samar da zafi na kowane ɗan wasa da mataki 1. Ƙara samar da tsirrai naka da mataki 2."
+ },
+ "Colonizer Training Camp": {
+  "name": "Sansanin Horar da Masu Mulkin Mallaka"
+ },
+ "Comet": {
+  "name": "Tauraro Mai Wutsiya",
+  "desc": "Ɗaga zafin jiki da mataki 1 kuma ka sanya yankin teku. Cire har zuwa tsirrai 3 daga kowane ɗan wasa."
+ },
+ "Convoy From Europa": {
+  "name": "Ayarin daga Europa",
+  "desc": "Sanya yankin teku 1 kuma ka ɗauki kati 1."
+ },
+ "Cupola City": {
+  "name": "Birnin Kubba",
+  "desc": "Sanya yankin birni. Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 3."
+ },
+ "Decomposers": {
+  "name": "Masu Ruɓar da Abubuwa",
+  "effects": [
+   "Idan ka buga alamar dabba, tsiro, ko ƙwayar cuta, har da wannan, ƙara ƙwayar cuta a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace ƙwayoyin cuta 3 a kan wannan katin."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Dumama ta Rijiya Mai Zurfi",
+  "desc": "Ƙara samar da makamashi naka da mataki 1. Ɗaga zafin jiki da mataki 1."
+ },
+ "Deimos Down": {
+  "name": "Faɗuwar Deimos",
+  "desc": "Ɗaga zafin jiki da mataki 3 kuma ka sami ƙarfe 4. Cire har zuwa tsirrai 8 daga kowane ɗan wasa."
+ },
+ "Designed Microorganisms": {
+  "name": "Ƙananan Halittu da Aka Tsara",
+  "desc": "Ƙara samar da tsirrai naka da mataki 2."
+ },
+ "Domed Crater": {
+  "name": "Rami Mai Kubba",
+  "desc": "Sami tsirrai 3. Sanya yankin birni. Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 3."
+ },
+ "Dust Seals": {
+  "name": "Makullan Ƙura"
+ },
+ "Ecological Zone": {
+  "name": "Yankin Muhalli",
+  "desc": "Sanya wannan yanki a maƙwabtakar KOWANE kurmi.",
+  "effects": [
+   "Idan ka buga alamar dabba ko tsiro HAR DA WAƊANNAN, ƙara dabba a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace dabbobi 2 a kan wannan katin."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Tattalin Makamashi",
+  "desc": "Ƙara samar da makamashi naka da mataki 1 ga kowane yankin birni a wasa."
+ },
+ "Eos Chasma National Park": {
+  "name": "Gandun Dajin Ƙasa na Eos Chasma",
+  "desc": "Ƙara dabba 1 a KAN KOWANE KATIN DABBA. Sami tsirrai 3. Ƙara samar da M€ naka da mataki 2."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Maganaɗisun Ekweta",
+  "actions": [
+   "Rage samar da makamashi naka da mataki 1 don ɗaga Matsayin Terraform naka da mataki 1."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Naman Gwari na Sanyi Mai Tsanani",
+  "actions": [
+   "Sami tsiro 1.",
+   "Ƙara ƙwayoyin cuta 2 a kan WANI kati."
+  ]
+ },
+ "Farming": {
+  "name": "Noma",
+  "desc": "Ƙara samar da M€ naka da mataki 2 da samar da tsirrai naka da mataki 2. Sami tsirrai 2."
+ },
+ "Fish": {
+  "name": "Kifi",
+  "desc": "Rage samar da tsirrai na kowane ɗan wasa da mataki 1.",
+  "actions": [
+   "Ƙara dabba 1 a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace dabba a kan wannan katin."
+  ]
+ },
+ "Flooding": {
+  "name": "Ambaliya",
+  "desc": "Sanya yankin teku. IDAN AKWAI YANKUNA A MAƘWABTAKAR WANNAN YANKIN TEKU, ZA KA IYA CIRE 4 M€ DAGA MAMALLAKIN ƊAYA DAGA CIKIN WAƊANNAN YANKUNA."
+ },
+ "Food Factory": {
+  "name": "Masana'antar Abinci",
+  "desc": "Rage samar da tsirrai naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 4."
+ },
+ "Fusion Power": {
+  "name": "Makamashin Haɗaka",
+  "desc": "Ƙara samar da makamashi naka da mataki 3."
+ },
+ "Fueled Generators": {
+  "name": "Janareto Masu Amfani da Mai",
+  "desc": "Rage samar da M€ naka da mataki 1 kuma ka ƙara samar da makamashi naka da mataki 1."
+ },
+ "Ganymede Colony": {
+  "name": "Mulkin Mallakar Ganymede",
+  "desc": "Sanya yankin birni a KAN WURIN DA AKA KEƁE.",
+  "vpText": [
+   "Maki 1 ga kowace alamar Jupiter da kake da ita."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Makamashin Zafin Ƙasa",
+  "desc": "Ƙara samar da makamashi naka da mataki 2."
+ },
+ "GHG Factories": {
+  "name": "Masana'antun Iskar Gas Mai Ɗumama Duniya",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da zafi naka da mataki 4."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Ƙwayoyin Cuta Masu Samar da Iskar Gas Mai Ɗumama Duniya",
+  "actions": [
+   "Ƙara ƙwayar cuta 1 a kan wannan katin.",
+   "Cire ƙwayoyin cuta 2 don ɗaga zafin jiki da mataki 1."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Ƙaton Asteroid na Ƙanƙara",
+  "desc": "Ɗaga zafin jiki da mataki 2 kuma ka sanya yankunan teku 2. Cire har zuwa tsirrai 6 daga kowane ɗan wasa."
+ },
+ "Giant Space Mirror": {
+  "name": "Ƙaton Madubin Sararin Samaniya",
+  "desc": "Ƙara samar da makamashi naka da mataki 3."
+ },
+ "Grass": {
+  "name": "Ciyawa",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1. Sami tsirrai 3."
+ },
+ "Great Dam": {
+  "name": "Babbar Madatsar Ruwa",
+  "desc": "Ƙara samar da makamashi naka da mataki 2."
+ },
+ "Greenhouses": {
+  "name": "Gidajen Gilashi na Shuka",
+  "desc": "Sami tsiro 1 ga kowane yankin birni a wasa."
+ },
+ "Heather": {
+  "name": "Heather",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1. Sami tsiro 1."
+ },
+ "Heat Trappers": {
+  "name": "Masu Kama Zafi",
+  "desc": "Rage samar da zafi na kowane ɗan wasa da mataki 2 kuma ka ƙara samar da makamashi naka da mataki 1."
+ },
+ "Herbivores": {
+  "name": "Masu Cin Ciyawa",
+  "desc": "+1 dabba a kan wannan katin. -1 samar da tsirrai na kowane ɗan wasa",
+  "effects": [
+   "Idan ka sanya yankin kurmi, ƙara dabba a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace dabbobi 2 a kan wannan katin."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Asteroid na Ƙanƙara",
+  "desc": "Sanya yankunan teku 2."
+ },
+ "Ice Cap Melting": {
+  "name": "Narkewar Hular Ƙanƙara",
+  "desc": "Sanya yankin teku 1."
+ },
+ "Immigrant City": {
+  "name": "Birnin Baƙi",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka rage samar da M€ naka da mataki 2. Sanya yankin birni.",
+  "effects": [
+   "Idan aka sanya yankin birni, har da wannan, ƙara samar da M€ naka da mataki 1."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Jiragen Baƙi",
+  "desc": "Ƙara samar da M€ naka da mataki 5.",
+  "vpText": [
+   "Maki 1 ga kowane birni na 3 a wasa."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Iskar Gas Mai Ɗumama Duniya da Aka Shigo da Ita",
+  "desc": "Ƙara samar da zafi naka da mataki 1 kuma ka sami zafi 3."
+ },
+ "Imported Hydrogen": {
+  "name": "Hydrogen da Aka Shigo da Shi",
+  "desc": "Sami tsirrai 3, ko ka ƙara ƙwayoyin cuta 3 ko dabbobi 2 a kan WANI kati. Sanya yankin teku.",
+  "orTitles": [
+   "Sami tsirrai 3",
+   "Ƙara ƙwayoyin cuta 3 a kan WANI kati",
+   "Ƙara dabbobi 2 a kan WANI kati"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Nitrogen da Aka Shigo da Shi",
+  "desc": "Ɗaga TR naka da mataki 1 kuma ka sami tsirrai 4. Ƙara ƙwayoyin cuta 3 a kan WANI kati da dabbobi 2 a kan WANI kati."
+ },
+ "Import of Advanced GHG": {
+  "name": "Shigo da Iskar Gas Mai Ɗumama Duniya ta Zamani",
+  "desc": "Ƙara samar da zafi naka da mataki 2."
+ },
+ "Industrial Microbes": {
+  "name": "Ƙwayoyin Cuta na Masana'antu",
+  "desc": "Ƙara samar da makamashi naka da samar da ƙarfe naka da mataki 1 kowanne."
+ },
+ "Insects": {
+  "name": "Ƙwari",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1 ga kowace alamar tsiro da kake da ita."
+ },
+ "Insulation": {
+  "name": "Kariyar Zafi",
+  "desc": "Rage samar da zafi naka da kowane adadin matakai kuma ka ƙara samar da M€ naka da adadin matakai iri ɗaya."
+ },
+ "Ironworks": {
+  "name": "Masana'antar Ƙarfe",
+  "actions": [
+   "Kashe makamashi 4 don samun ƙarfe 1 da ɗaga iskar oxygen da mataki 1."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Noman Ciyawar Teku",
+  "desc": "Ƙara samar da M€ naka da mataki 2 da samar da tsirrai naka da mataki 3. Sami tsirrai 2."
+ },
+ "Lake Marineris": {
+  "name": "Tafkin Marineris",
+  "desc": "Sanya yankunan teku 2."
+ },
+ "Large Convoy": {
+  "name": "Babban Ayari",
+  "desc": "Sanya yankin teku kuma ka ɗauki katuna 2. Sami tsirrai 5 ko ka ƙara dabbobi 4 a kan WANI kati.",
+  "orTitles": [
+   "Sami tsirrai 5",
+   "Ƙara dabbobi 4 a kan WANI kati"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Kwararar Lava",
+  "desc": "Ɗaga zafin jiki da mataki 2 kuma ka sanya wannan yanki a KAN THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS KO ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Lichen",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1."
+ },
+ "Livestock": {
+  "name": "Dabbobin Kiwo",
+  "desc": "Rage samar da tsirrai naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 2",
+  "actions": [
+   "Ƙara dabba 1 a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace dabba a kan wannan katin."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Kama Zafi a Wuri",
+  "desc": "Kashe zafi 5 don samun tsirrai 4, ko don ƙara dabbobi 2 a kan WANI kati.",
+  "orTitles": [
+   "Sami tsirrai 4",
+   "Ƙara dabbobi 2 a kan WANI kati"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Hasken Wata",
+  "desc": "Rage samar da M€ naka da mataki 2 kuma ka ƙara samar da zafi naka da samar da makamashi naka da mataki 2 kowanne."
+ },
+ "Magnetic Field Dome": {
+  "name": "Kubbar Filin Maganaɗisu",
+  "desc": "Rage samar da makamashi naka da mataki 2 kuma ka ƙara samar da tsirrai naka da mataki 1. Ɗaga TR naka da mataki 1."
+ },
+ "Magnetic Field Generators": {
+  "name": "Janareto na Filin Maganaɗisu",
+  "desc": "Rage samar da makamashi naka da mataki 4 kuma ka ƙara samar da tsirrai naka da mataki 2. Ɗaga TR naka da mataki 3."
+ },
+ "Mangrove": {
+  "name": "Itatuwan Mangrove",
+  "desc": "Sanya yankin kurmi a WURIN DA AKA KEƁE DON TEKU kuma ka ɗaga iskar oxygen da mataki 1. Yi watsi da ƙa'idojin sanyawa na yau da kullum saboda wannan."
+ },
+ "Martian Rails": {
+  "name": "Layukan Dogo na Mars",
+  "actions": [
+   "Kashe makamashi 1 don samun 1 M€ ga kowane yankin birni a KAN MARS."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Methane daga Titan",
+  "desc": "Ƙara samar da zafi naka da mataki 2 da samar da tsirrai naka da mataki 2."
+ },
+ "Micro-Mills": {
+  "name": "Ƙananan Injinan Niƙa",
+  "desc": "Ƙara samar da zafi naka da mataki 1."
+ },
+ "Mining Expedition": {
+  "name": "Balaguron Haƙar Ma'adinai",
+  "desc": "Ɗaga iskar oxygen da mataki 1. Cire tsirrai 2 daga kowane ɗan wasa. Sami ƙarfe 2."
+ },
+ "Mining Rights": {
+  "name": "Haƙƙin Haƙar Ma'adinai",
+  "desc": "Sanya wannan yanki a wurin da ke da kyautar sanyawa ta ƙarfe ko titanium. Ƙara wannan samarwa da mataki 1."
+ },
+ "Mohole Area": {
+  "name": "Yankin Mohole",
+  "desc": "Ƙara samar da zafi naka da mataki 4. Sanya wannan yanki a WURIN DA AKA KEƁE DON TEKU."
+ },
+ "Moss": {
+  "name": "Gansakukan Ƙasa",
+  "desc": "Rasa tsiro 1. Ƙara samar da tsirrai naka da mataki 1."
+ },
+ "Natural Preserve": {
+  "name": "Gandun Halitta",
+  "desc": "Sanya wannan yanki BA A MAƘWABTAKAR KOWANE YANKI BA. Ƙara samar da M€ naka da mataki 1."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Ƙwayoyin Cuta Masu Rage Nitrite",
+  "desc": "Ƙara ƙwayoyin cuta 3 a kan wannan katin.",
+  "actions": [
+   "Ƙara ƙwayar cuta 1 a kan wannan katin.",
+   "Cire ƙwayoyin cuta 3 don ɗaga TR naka da mataki 1."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Asteroid Mai Yawan Nitrogen",
+  "desc": "Ɗaga Matsayin Terraform naka da mataki 2 da zafin jiki da mataki 1. Ƙara samar da tsirrai naka da mataki 1, ko mataki 4 idan kana da alamomin tsiro 3."
+ },
+ "Nitrophilic Moss": {
+  "name": "Gansakukan Ƙasa Masu Son Nitrogen",
+  "desc": "Rasa tsirrai 2. Ƙara samar da tsirrai naka da mataki 2."
+ },
+ "Noctis City": {
+  "name": "Noctis City",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 3. Sanya yankin birni a KAN WURIN DA AKA KEƁE, ba tare da la'akari da ƙa'idojin sanyawa na yau da kullum ba."
+ },
+ "Noctis Farming": {
+  "name": "Noman Noctis",
+  "desc": "Ƙara samar da M€ naka da mataki 1 kuma ka sami tsirrai 2."
+ },
+ "Nuclear Power": {
+  "name": "Makamashin Nukiliya",
+  "desc": "Rage samar da M€ naka da mataki 2 kuma ka ƙara samar da makamashi naka da mataki 3."
+ },
+ "Nuclear Zone": {
+  "name": "Yankin Nukiliya",
+  "desc": "Sanya wannan yanki kuma ka ɗaga zafin jiki da mataki 2."
+ },
+ "Open City": {
+  "name": "Birni a Buɗe",
+  "desc": "Sami tsirrai 2. Sanya yankin birni. Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 4."
+ },
+ "Optimal Aerobraking": {
+  "name": "Birki Mafi Kyau da Iska",
+  "effects": [
+   "Idan ka buga aukuwar sararin samaniya, za ka sami 3 M€ da zafi 3."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Mai Sarrafa Tama",
+  "actions": [
+   "Kashe makamashi 4 don samun titanium 1 da ɗaga iskar oxygen da mataki 1."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Haƙar Ƙasa Mai Daskarewa",
+  "desc": "Sanya yankin teku 1."
+ },
+ "Peroxide Power": {
+  "name": "Makamashin Peroxide",
+  "desc": "Rage samar da M€ naka da mataki 1 kuma ka ƙara samar da makamashi naka da mataki 2."
+ },
+ "Pets": {
+  "name": "Dabbobin Gida",
+  "desc": "Ƙara dabba 1 a kan wannan katin.",
+  "effects": [
+   "Idan aka sanya kowane yankin birni, ƙara dabba a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace dabbobi 2 a nan."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Mafakar Sararin Samaniya ta Phobos",
+  "desc": "Ƙara samar da titanium naka da mataki 1 kuma ka sanya yankin birni a KAN WURIN DA AKA KEƁE."
+ },
+ "Plantation": {
+  "name": "Gonar Itatuwa",
+  "desc": "Sanya yankin kurmi kuma ka ɗaga iskar oxygen da mataki 1."
+ },
+ "Power Grid": {
+  "name": "Layin Wutar Lantarki",
+  "desc": "Ƙara samar da makamashi naka da mataki ɗaya ga kowace alamar wuta da kake da ita, har da wannan."
+ },
+ "Power Plant": {
+  "name": "Tashar Wuta",
+  "desc": "Ƙara samar da makamashi naka da mataki 1."
+ },
+ "Predators": {
+  "name": "Namun Daji Masu Farauta",
+  "actions": [
+   "Cire dabba 1 daga kowane kati ka ƙara ta a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace dabba a kan wannan katin."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Kwari Mai Kariya",
+  "desc": "Ƙara samar da M€ naka da mataki 2. Sanya yankin kurmi a WURIN DA AKA KEƁE DON TEKU, ba tare da la'akari da ƙa'idojin sanyawa na yau da kullum ba, kuma ka ɗaga iskar oxygen da mataki 1."
+ },
+ "Rad-Chem Factory": {
+  "name": "Masana'antar Sinadarai Masu Haske",
+  "desc": "Rage samar da makamashi naka da mataki 1. Ɗaga TR naka da mataki 2."
+ },
+ "Regolith Eaters": {
+  "name": "Masu Cin Regolith",
+  "actions": [
+   "Ƙara ƙwayar cuta 1 a kan wannan katin.",
+   "Cire ƙwayoyin cuta 2 daga wannan katin don ɗaga matakin iskar oxygen da mataki 1."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Sakin Iskar Gas Marasa Aiki",
+  "desc": "Ɗaga Matsayin Terraform naka da mataki 2."
+ },
+ "Research Outpost": {
+  "name": "Sansanin Bincike",
+  "desc": "Sanya yankin birni BA A MAƘWABTAKAR KOWANE YANKI BA.",
+  "effects": [
+   "Idan ka buga kati, za ka biya 1 M€ ƙasa da farashinsa."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Ƙera Motocin Bincike",
+  "effects": [
+   "Idan aka sanya kowane yankin birni, sami 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Neman Rayuwa",
+  "actions": [
+   "Kashe 1 M€ don bayyana katin saman tarin ɗauka. Idan katin yana da alamar ƙwayar cuta, ƙara albarkatun kimiyya a nan."
+  ],
+  "vpText": [
+   "Maki 3 idan kana da albarkatun kimiyya ɗaya ko fiye a nan."
+  ]
+ },
+ "Shuttles": {
+  "name": "Jiragen Jigila",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 2.",
+  "effects": [
+   "Idan ka buga katin sararin samaniya, za ka biya 2 M€ ƙasa da farashinsa."
+  ]
+ },
+ "Small Animals": {
+  "name": "Ƙananan Dabbobi",
+  "desc": "Rage samar da tsirrai na kowane ɗan wasa da mataki 1.",
+  "actions": [
+   "Ƙara dabba 1 a kan wannan katin."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace dabbobi 2 a kan wannan katin."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Masana'antar Ƙasar Noma",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da tsirrai naka da mataki 1."
+ },
+ "Solar Power": {
+  "name": "Makamashin Rana",
+  "desc": "Ƙara samar da makamashi naka da mataki 1."
+ },
+ "Solar Wind Power": {
+  "name": "Makamashin Iskar Rana",
+  "desc": "Ƙara samar da makamashi naka da mataki 1 kuma ka sami titanium 2."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Ƙara samar da zafi naka da mataki 7."
+ },
+ "Space Mirrors": {
+  "name": "Madubban Sararin Samaniya",
+  "actions": [
+   "Kashe 7 M€ don ƙara samar da makamashi naka da mataki 1."
+  ]
+ },
+ "Special Design": {
+  "name": "Tsari na Musamman",
+  "desc": "Katin da za ka buga na gaba a wannan zamani yana da +2 ko -2 matakai a sharuɗɗan duniya, zaɓinka."
+ },
+ "Steelworks": {
+  "name": "Masana'antar Tace Ƙarfe",
+  "actions": [
+   "Kashe makamashi 4 don samun ƙarfe 2 da ɗaga iskar oxygen da mataki 1."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Ma'adinai a Buɗe",
+  "desc": "Rage samar da makamashi naka da mataki 2. Ƙara samar da ƙarfe naka da mataki 2 da samar da titanium naka da mataki 1. Ɗaga iskar oxygen da mataki 2."
+ },
+ "Subterranean Reservoir": {
+  "name": "Tafkin Ƙarƙashin Ƙasa",
+  "desc": "Sanya yankin teku 1."
+ },
+ "Symbiotic Fungus": {
+  "name": "Naman Gwari Mai Haɗin Gwiwa",
+  "actions": [
+   "Ƙara ƙwayar cuta a kan WANI kati."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Makamashin Matsin Ƙasa",
+  "desc": "Ƙara samar da makamashi naka da mataki 3."
+ },
+ "Towing A Comet": {
+  "name": "Jan Tauraro Mai Wutsiya",
+  "desc": "Sami tsirrai 2. Ɗaga matakin iskar oxygen da mataki 1 kuma ka sanya yankin teku."
+ },
+ "Trees": {
+  "name": "Itatuwa",
+  "desc": "Ƙara samar da tsirrai naka da mataki 3. Sami tsiro 1."
+ },
+ "Tundra Farming": {
+  "name": "Noman Tundra",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1 da samar da M€ naka da mataki 2. Sami tsiro 1."
+ },
+ "Underground City": {
+  "name": "Birnin Ƙarƙashin Ƙasa",
+  "desc": "Sanya yankin birni. Rage samar da makamashi naka da mataki 2 kuma ka ƙara samar da ƙarfe naka da mataki 2."
+ },
+ "Underground Detonations": {
+  "name": "Fashe-fashen Ƙarƙashin Ƙasa",
+  "actions": [
+   "Kashe 10 M€ don ƙara samar da zafi naka da mataki 2."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Yankin Birane",
+  "desc": "Rage samar da makamashi naka da mataki 1 kuma ka ƙara samar da M€ naka da mataki 2. Sanya yankin birni A MAƘWABTAKAR AƘALLA WASU YANKUNAN BIRNI 2."
+ },
+ "Water Import From Europa": {
+  "name": "Shigo da Ruwa daga Europa",
+  "actions": [
+   "Biya 12 M€ don sanya yankin teku. ANA IYA AMFANI DA TITANIUM kamar kana buga katin sararin samaniya."
+  ],
+  "vpText": [
+   "Maki 1 ga kowace alamar Jupiter da kake da ita."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Tashar Raba Ruwa",
+  "actions": [
+   "Kashe makamashi 3 don ɗaga iskar oxygen da mataki 1."
+  ]
+ },
+ "Wave Power": {
+  "name": "Makamashin Raƙuman Ruwa",
+  "desc": "Ƙara samar da makamashi naka da mataki 1."
+ },
+ "Windmills": {
+  "name": "Injinan Iska",
+  "desc": "Ƙara samar da makamashi naka da mataki 1."
+ },
+ "Worms": {
+  "name": "Tsutsotsi",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1 ga kowace alamomin ƙwayar cuta 2 da kake da su, har da wannan."
+ },
+ "Zeppelins": {
+  "name": "Zeppelin",
+  "desc": "Ƙara samar da M€ naka da mataki 1 ga kowane yankin birni a KAN MARS."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Za ka fara da samar da titanium 1 da 42 M€.",
+  "effects": [
+   "Duk lokacin da aka shigar da kowace alamar Jupiter cikin wasa, har da wannan, ƙara samar da M€ naka da mataki 1."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Za ka fara da 60 M€.",
+  "effects": [
+   "Idan ka buga alamar Duniya, za ka biya 3 M€ ƙasa da farashinta."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Za ka fara da samar da M€ 3 da 44 M€.",
+  "effects": [
+   "Idan ka buga alamar gini, za ka biya 2 M€ ƙasa da farashinta."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Za ka fara da samar da titanium 1 da 38 M€.",
+  "effects": [
+   "Idan ka buga alamar Duniya, har da wannan, ɗauki kati."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Za ka fara da 47 M€.",
+  "actions": [
+   "Kashe 4 M€ don ƙara (ɗaya daga cikin) samarwarka MAFI ƘASƘANCI da mataki 1."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Za ka fara da 37 M€. A matsayin aikinka na farko, ɗauki katunan Gabatarwa 3, ka buga ɗaya daga cikinsu. Jefar da sauran biyun.",
+  "effects": [
+   "Idan ka buga alamar kimiyya, za ka biya 2 M€ ƙasa da farashinta."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Za ka fara da 45 M€. A matsayin aikinka na farko, ɗauki nauyin kyauta ɗaya kyauta.",
+  "effects": [
+   "Idan ka buga kati mai alamar maki MARAR RAGI, har da wannan, sami 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Kamfanin Mafari",
+  "desc": "Za ka fara da 42 M€. Maimakon zaɓa daga katuna 10 a lokacin shiri, za ka sami katuna 10 kyauta."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Za ka fara da 57 M€.",
+  "effects": [
+   "Bayan ka biya kuɗin kati ko aiki na asali mai farashin asali na 20 M€ ko fiye, za ka sami 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Za ka fara da samar da tsirrai 2, tsirrai 3, da 36 M€.",
+  "effects": [
+   "Kullum za ka iya biyan tsirrai 7, maimakon 8, don sanya kurmi."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Za ka fara da samar da zafi 3 da 42 M€.",
+  "effects": [
+   "Za ka iya amfani da zafi a matsayin M€. Ba za ka iya amfani da M€ a matsayin zafi ba."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Za ka fara da ƙarfe 20 da 30 M€.",
+  "effects": [
+   "Duk lokacin da ka buga aukuwa, za ka sami 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "A matsayin aikinka na farko a wasa, ɗauki katuna 3. Fara da 45 M€.",
+  "effects": [
+   "Sharuɗɗan zafin jiki, iskar oxygen, teku, da Venus naka suna +2 ko -2 matakai, zaɓinka a kowane lokaci."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Ƙungiyar Masu Haƙar Ma'adinai",
+  "desc": "Za ka fara da 30 M€, ƙarfe 5 da samar da ƙarfe 1.",
+  "effects": [
+   "Duk lokacin da ka sanya yanki a wurin da ke da kyautar sanyawa ta ƙarfe ko titanium, ƙara samar da ƙarfe naka da mataki 1"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Za ka fara da titanium 10 da 23 M€.",
+  "effects": [
+   "Kowane albarkatun titanium naka yana da ƙarin ƙimar 1 M€."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Jamhuriyar Tharsis",
+  "desc": "Za ka fara da 40 M€. A matsayin aikinka na farko a wasa, sanya yankin birni.",
+  "effects": [
+   "Idan aka sanya kowane yankin birni a KAN MARS, ƙara samar da M€ naka da mataki 1. Idan ka sanya yankin birni, sami 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Za ka fara da samar da makamashi 1 da 48 M€.",
+  "effects": [
+   "Idan kana buga katin wuta KO AIKI NA ASALI NA TASHAR WUTA, za ka biya 3 M€ ƙasa da farashinsa."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Shirin Mars na Majalisar Ɗinkin Duniya",
+  "desc": "Za ka fara da 40 M€.",
+  "actions": [
+   "Idan an ɗaga Matsayin Terraform naka a wannan zamani, za ka iya biyan 3 M€ don ɗaga shi da ƙarin mataki 1."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Bankin Ƙawance",
+  "desc": "Ƙara samar da M€ naka da mataki 4. Sami 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Tallafin Duniyar Halittu",
+  "desc": "Ƙara samar da tsirrai naka da mataki 2. Rage samar da M€ naka da mataki 1."
+ },
+ "Aquifer Turbines": {
+  "name": "Injinan Turbine na Ruwan Ƙarƙashin Ƙasa",
+  "desc": "Sanya yankin teku. Ƙara samar da makamashi naka da mataki 2. Biya 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Haƙar Mohole",
+  "desc": "Ƙara samar da ƙarfe naka da mataki 1 da samar da zafi da mataki 2. Sami zafi 2."
+ },
+ "Early Settlement": {
+  "name": "Matsuguni na Farko",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1. Sanya yankin birni."
+ },
+ "Biofuels": {
+  "name": "Man Fetur na Halittu",
+  "desc": "Ƙara samar da makamashi da tsirrai naka da mataki 1. Sami tsirrai 2."
+ },
+ "Power Generation": {
+  "name": "Samar da Wuta",
+  "desc": "Ƙara samar da makamashi naka da mataki 3."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Matsuguni Mai Dogaro da Kai",
+  "desc": "Ƙara samar da M€ naka da mataki 2. Sanya yankin birni."
+ },
+ "Mining Operations": {
+  "name": "Ayyukan Haƙar Ma'adinai",
+  "desc": "Ƙara samar da ƙarfe naka da mataki 2. Sami ƙarfe 4."
+ },
+ "UNMI Contractor": {
+  "name": "Ɗan Kwangilar UNMI",
+  "desc": "Ɗaga TR naka da mataki 3. Ɗauki kati."
+ },
+ "Dome Farming": {
+  "name": "Noma a Kubba",
+  "desc": "Ƙara samar da M€ naka da mataki 2 da samar da tsirrai da mataki 1."
+ },
+ "Business Empire": {
+  "name": "Daular Kasuwanci",
+  "desc": "Ƙara samar da M€ naka da mataki 6. Biya 6 M€."
+ },
+ "Donation": {
+  "name": "Gudummawa",
+  "desc": "Sami 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Jigilar Nitrogen",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1. Ɗaga TR naka da mataki 1. Sami 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Tashar Narkar da Ƙarfe",
+  "desc": "Ɗaga iskar oxygen da mataki 2. Sami ƙarfe 5."
+ },
+ "Supplier": {
+  "name": "Mai Kawowa",
+  "desc": "Ƙara samar da makamashi naka da mataki 2. Sami ƙarfe 4."
+ },
+ "Supply Drop": {
+  "name": "Saukar Kayayyaki",
+  "desc": "Sami titanium 3, ƙarfe 8 da tsirrai 3."
+ },
+ "Great Aquifer": {
+  "name": "Babban Ruwan Ƙarƙashin Ƙasa",
+  "desc": "Sanya yankunan teku 2."
+ },
+ "Biolab": {
+  "name": "Ɗakin Gwajin Ilimin Halittu",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1. Ɗauki katuna 3."
+ },
+ "Martian Industries": {
+  "name": "Masana'antun Mars",
+  "desc": "Ƙara samar da makamashi da ƙarfe naka da mataki 1. Sami 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Sansanin Bincike na Io",
+  "desc": "Ƙara samar da titanium naka da mataki 1. Ɗauki kati."
+ },
+ "Polar Industries": {
+  "name": "Masana'antun Sanda",
+  "desc": "Ƙara samar da zafi naka da mataki 2. Sanya yankin teku."
+ },
+ "Society Support": {
+  "name": "Tallafin Al'umma",
+  "desc": "Ƙara samar da tsirrai, makamashi da zafi naka da mataki 1. Rage samar da M€ da mataki 1."
+ },
+ "Galilean Mining": {
+  "name": "Haƙar Ma'adinan Watannin Galileo",
+  "desc": "Ƙara samar da titanium naka da mataki 2. Biya 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Asteroid Mai Girman Gaske",
+  "desc": "Ɗaga zafin jiki da mataki 3. Biya 5 M€."
+ },
+ "Metals Company": {
+  "name": "Kamfanin Karafa",
+  "desc": "Ƙara samar da M€, ƙarfe da titanium naka da mataki 1."
+ },
+ "Loan": {
+  "name": "Ranci",
+  "desc": "Sami 30 M€. Rage samar da M€ naka da mataki 2."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Ƙara samar da zafi naka da mataki 3. Sami zafi 3."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Asteroid Mai Yawan Karafa",
+  "desc": "Ɗaga zafin jiki da mataki 1. Sami titanium 4 da ƙarfe 4."
+ },
+ "Orbital Construction Yard": {
+  "name": "Filin Gini na Falaki",
+  "desc": "Ƙara samar da titanium naka da mataki 1. Sami titanium 4."
+ },
+ "Acquired Space Agency": {
+  "name": "Hukumar Sararin Samaniya da Aka Saya",
+  "desc": "Sami titanium 6. Bayyana katuna har sai ka bayyana katuna biyu masu alamar Sararin Samaniya. Ɗauke su zuwa hannunka, ka jefar da sauran."
+ },
+ "Research Network": {
+  "name": "Hanyar Sadarwar Bincike",
+  "desc": "Ƙara samar da M€ naka da mataki 1. Ɗauki katuna 3. Bayan an buga shi, idan ka yi aiki, alamar kowace tana ƙidaya a matsayin kowace alama da ka zaɓa."
+ },
+ "Eccentric Sponsor": {
+  "name": "Mai Ɗaukar Nauyi Mai Ban Mamaki",
+  "desc": "BUGA KATI DAGA HANNU DA RANGWAMEN 25 M€."
+ },
+ "Ecology Experts": {
+  "name": "Ƙwararrun Muhalli",
+  "desc": "Ƙara samar da tsirrai naka da mataki 1. BUGA KATI DAGA HANNU, BA TARE DA LA'AKARI DA SHARUƊƊAN DUNIYA BA."
+ },
+ "Experimental Forest": {
+  "name": "Kurmin Gwaji",
+  "desc": "Sanya yankin kurmi 1 kuma ka ɗaga iskar oxygen da mataki 1. Bayyana katuna har sai ka bayyana katuna biyu masu alamar tsiro. Ɗauke su zuwa hannunka ka jefar da sauran."
+ }
+}

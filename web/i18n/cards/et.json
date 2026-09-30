@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Omandatud ettevõte",
+  "desc": "Suurenda oma M€-tootmist 3 sammu võrra."
+ },
+ "Advanced Alloys": {
+  "name": "Täiustatud sulamid",
+  "effects": [
+   "Iga sinu titaan on 1 M€ võrra väärtuslikum.",
+   "Iga sinu teras on 1 M€ võrra väärtuslikum."
+  ]
+ },
+ "AI Central": {
+  "name": "TI-keskus",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra.",
+  "actions": [
+   "Tõmba 2 kaarti."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitatsioonitehnoloogia",
+  "effects": [
+   "Kui mängid kaardi, maksad selle eest 2 M€ vähem."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroidikaevanduse konsortsium",
+  "desc": "Vähenda ükskõik millise mängija titaanitootmist 1 sammu võrra ja suurenda enda oma 1 sammu võrra."
+ },
+ "Bribed Committee": {
+  "name": "Äraostetud komitee",
+  "desc": "Tõsta oma TR-i 2 sammu võrra."
+ },
+ "Building Industries": {
+  "name": "Ehitustööstus",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda terasetootmist 2 sammu võrra."
+ },
+ "Business Contacts": {
+  "name": "Ärikontaktid",
+  "desc": "Vaata paki 4 pealmist kaarti. Võta 2 kätte ja viska ülejäänud ära."
+ },
+ "Business Network": {
+  "name": "Ärivõrgustik",
+  "desc": "Vähenda oma M€-tootmist 1 sammu võrra.",
+  "actions": [
+   "Vaata pealmist kaarti ja kas osta see või viska ära."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Callisto sunnitöökaevandused",
+  "desc": "Suurenda oma M€-tootmist 3 sammu võrra."
+ },
+ "Caretaker Contract": {
+  "name": "Hooldusleping",
+  "actions": [
+   "Kuluta 8 soojust, et tõsta oma terraformimisreitingut 1 sammu võrra."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartell",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra iga oma Maa sümboli kohta, see kaasa arvatud."
+ },
+ "CEO's Favorite Project": {
+  "name": "Tegevjuhi lemmikprojekt",
+  "desc": "Lisa 1 ressurss ükskõik millisele oma kaardile, millel on juba vähemalt 1 ressurss."
+ },
+ "Commercial District": {
+  "name": "Ärirajoon",
+  "desc": "Aseta see plaat. Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 4 sammu võrra.",
+  "vpText": [
+   "1 VP iga naabruses oleva linnaplaadi kohta."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Korporatsiooni kindlus",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 3 sammu võrra. Aseta linnaplaat."
+ },
+ "Development Center": {
+  "name": "Arenduskeskus",
+  "actions": [
+   "Kuluta 1 energiat, et tõmmata kaart."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Maa katapult",
+  "effects": [
+   "Kui mängid kaardi, maksad selle eest 2 M€ vähem."
+  ]
+ },
+ "Earth Office": {
+  "name": "Maa kontor",
+  "effects": [
+   "Kui mängid Maa sümboli, maksad selle eest 3 M€ vähem."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrikatapult",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra.",
+  "actions": [
+   "Kuluta 1 taim või 1 teras, et saada 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Energia ärakasutamine",
+  "desc": "Vähenda ükskõik millise mängija energiatootmist 1 sammu võrra ja suurenda enda oma 1 sammu võrra."
+ },
+ "Fuel Factory": {
+  "name": "Kütusetehas",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda titaani- ja M€-tootmist kumbagi 1 sammu võrra."
+ },
+ "Gene Repair": {
+  "name": "Geeniparandus",
+  "desc": "Suurenda oma M€-tootmist 2 sammu võrra."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Suure järsaku konsortsium",
+  "desc": "Vähenda ükskõik millise mängija terasetootmist 1 sammu võrra ja suurenda enda oma 1 sammu võrra."
+ },
+ "Hackers": {
+  "name": "Häkkerid",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja ükskõik millise mängija M€-tootmist 2 sammu võrra. Suurenda oma M€-tootmist 2 sammu võrra."
+ },
+ "Hired Raiders": {
+  "name": "Palgatud röövlid",
+  "desc": "Varasta ükskõik milliselt mängijalt kuni 2 terast või 3 M€."
+ },
+ "Indentured Workers": {
+  "name": "Lepingulised töölised",
+  "desc": "Järgmine kaart, mille selles põlvkonnas mängid, maksab 8 M€ vähem."
+ },
+ "Industrial Center": {
+  "name": "Tööstuskeskus",
+  "desc": "Aseta see plaat linnaplaadi kõrvale.",
+  "actions": [
+   "Kuluta 7 M€, et suurendada oma terasetootmist 1 sammu võrra."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Tähtedevaheline koloonialaev"
+ },
+ "Invention Contest": {
+  "name": "Leiutiste konkurss",
+  "desc": "Vaata paki 3 pealmist kaarti. Võta 1 kätte ja viska ülejäänud ära."
+ },
+ "Inventors' Guild": {
+  "name": "Leiutajate gild",
+  "actions": [
+   "Vaata pealmist kaarti ja kas osta see või viska ära."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investeerimislaen",
+  "desc": "Vähenda oma M€-tootmist 1 sammu võrra. Saad 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Io kaevandustööstus",
+  "desc": "Suurenda oma titaanitootmist 2 sammu võrra ja M€-tootmist 2 sammu võrra.",
+  "vpText": [
+   "1 VP iga sinu Jupiteri sümboli kohta."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrange'i observatoorium",
+  "desc": "Tõmba 1 kaart."
+ },
+ "Land Claim": {
+  "name": "Maanõue",
+  "desc": "Broneeri endale broneerimata ala: ainult sina võid sinna plaadi asetada."
+ },
+ "Lightning Harvest": {
+  "name": "Välgusaak",
+  "desc": "Suurenda oma energiatootmist ja M€-tootmist kumbagi ühe sammu võrra."
+ },
+ "Mars University": {
+  "name": "Marsi ülikool",
+  "effects": [
+   "Kui mängid teadussümboli, see kaasa arvatud, võid visata käest kaardi ära, et tõmmata kaart."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Massimuundur",
+  "desc": "Suurenda oma energiatootmist 6 sammu võrra.",
+  "effects": [
+   "Kui mängid kosmosekaardi, maksad selle eest 2 M€ vähem."
+  ]
+ },
+ "Media Archives": {
+  "name": "Meediaarhiivid",
+  "desc": "Saad 1 M€ iga sündmuse eest, mille kõik mängijad on KUNAGI MÄNGINUD."
+ },
+ "Media Group": {
+  "name": "Meediagrupp",
+  "effects": [
+   "Pärast sündmuskaardi mängimist saad 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Meditsiinilabor",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra iga 2 oma ehitussümboli kohta, see kaasa arvatud."
+ },
+ "Mine": {
+  "name": "Kaevandus",
+  "desc": "Suurenda oma terasetootmist 1 sammu võrra."
+ },
+ "Mineral Deposit": {
+  "name": "Maagimaardla",
+  "desc": "Saad 5 terast."
+ },
+ "Mining Area": {
+  "name": "Kaevandusala",
+  "desc": "Aseta see plaat alale, millel on terase või titaani asetamisboonus, mõne teise oma plaadi kõrvale. Suurenda selle ressursi tootmist 1 sammu võrra."
+ },
+ "Miranda Resort": {
+  "name": "Miranda kuurort",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra iga oma Maa sümboli kohta."
+ },
+ "Olympus Conference": {
+  "name": "Olümpose konverents",
+  "desc": "Kui mängid teadussümboli, see kaasa arvatud, kas lisa sellele kaardile teadusressurss või eemalda sellelt kaardilt teadusressurss, et tõmmata kaart."
+ },
+ "Physics Complex": {
+  "name": "Füüsikakompleks",
+  "actions": [
+   "Kuluta 6 energiat, et lisada sellele kaardile teadusressurss."
+  ],
+  "vpText": [
+   "2 VP iga sellel kaardil oleva teadusressursi kohta."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energiataristu",
+  "actions": [
+   "Kuluta ükskõik kui palju energiat ja saa sama palju M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Energiavarustuse konsortsium",
+  "desc": "Vähenda ükskõik millise mängija energiatootmist 1 sammu võrra ja suurenda enda oma 1 sammu võrra."
+ },
+ "Protected Habitats": {
+  "name": "Kaitstud elupaigad",
+  "effects": [
+   "Vastased ei tohi eemaldada sinu taimi, loomi ega mikroobe."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvantekstraktor",
+  "desc": "Suurenda oma energiatootmist 4 sammu võrra.",
+  "effects": [
+   "Kui mängid kosmosekaardi, maksad selle eest 2 M€ vähem."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Kiirguskaitseülikonnad",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra."
+ },
+ "Research": {
+  "name": "Teadustöö",
+  "desc": "Loetakse 2 teaduskaardi mängimiseks. Tõmba 2 kaarti."
+ },
+ "Restricted Area": {
+  "name": "Piiratud ala",
+  "desc": "Aseta see plaat.",
+  "actions": [
+   "Kuluta 2 M€, et tõmmata kaart."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robottööjõud",
+  "desc": "Kopeeri ainult ühe oma ehituskaardi tootmiskast."
+ },
+ "Sabotage": {
+  "name": "Sabotaaž",
+  "desc": "Eemalda ükskõik milliselt mängijalt kuni 3 titaani või 4 terast või 7 M€."
+ },
+ "Satellites": {
+  "name": "Satelliidid",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra iga oma kosmosesümboli kohta, see kaasa arvatud."
+ },
+ "Security Fleet": {
+  "name": "Turvalaevastik",
+  "actions": [
+   "Kuluta 1 titaan, et lisada sellele kaardile 1 hävitaja-ressurss."
+  ],
+  "vpText": [
+   "1 VP iga sellel kaardil oleva hävitaja-ressursi kohta."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Kosmoselift",
+  "desc": "Suurenda oma titaanitootmist 1 sammu võrra.",
+  "actions": [
+   "Kuluta 1 teras, et saada 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Kosmosejaam",
+  "effects": [
+   "Kui mängid kosmosekaardi, maksad selle eest 2 M€ vähem."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsorid",
+  "desc": "Suurenda oma M€-tootmist 2 sammu võrra."
+ },
+ "Standard Technology": {
+  "name": "Standardtehnoloogia",
+  "effects": [
+   "Pärast standardprojekti eest maksmist, v.a patentide müük, saad 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Loimurid",
+  "actions": [
+   "Lisa sellele kaardile 1 mikroob."
+  ],
+  "vpText": [
+   "1 VP iga 4 sellel kaardil oleva mikroobi kohta."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Tehnoloogia demonstratsioon",
+  "desc": "Tõmba kaks kaarti."
+ },
+ "Terraforming Ganymede": {
+  "name": "Ganymedese terraformimine",
+  "desc": "Tõsta oma TR-i 1 sammu võrra iga oma Jupiteri sümboli kohta, see kaasa arvatud."
+ },
+ "Titanium Mine": {
+  "name": "Titaanikaevandus",
+  "desc": "Suurenda oma titaanitootmist 1 sammu võrra."
+ },
+ "Toll Station": {
+  "name": "Teemaksujaam",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra iga VASTASTE kosmosesümboli kohta."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Neptuunitagune sond",
+  "desc": "Süvakosmose sond: väärt 1 VP."
+ },
+ "Tropical Resort": {
+  "name": "Troopiline kuurort",
+  "desc": "Vähenda oma soojustootmist 2 sammu võrra ja suurenda M€-tootmist 3 sammu võrra."
+ },
+ "Vesta Shipyard": {
+  "name": "Vesta laevatehas",
+  "desc": "Suurenda oma titaanitootmist 1 sammu võrra."
+ },
+ "Viral Enhancers": {
+  "name": "Viiruslikud võimendajad",
+  "effects": [
+   "Kui mängid taime-, mikroobi- või loomasümboli, see kaasa arvatud, saad 1 taime või lisa 1 ressurss SELLELE KAARDILE."
+  ]
+ },
+ "Virus": {
+  "name": "Viirus",
+  "desc": "Eemalda ükskõik milliselt mängijalt kuni 2 looma või 5 taime."
+ },
+ "SF Memorial": {
+  "name": "Ulmekirjanduse memoriaal",
+  "desc": "Tõmba 1 kaart."
+ },
+ "House Printing": {
+  "name": "Majade 3D-printimine",
+  "desc": "Suurenda oma terasetootmist 1 sammu võrra."
+ },
+ "Space Hotels": {
+  "name": "Kosmosehotellid",
+  "desc": "Suurenda M€-tootmist 4 sammu võrra."
+ },
+ "Martian Survey": {
+  "name": "Marsi uuring",
+  "desc": "Tõmba kaks kaarti."
+ },
+ "Research Coordination": {
+  "name": "Teadustöö koordineerimine",
+  "desc": "Pärast mängimist loetakse tegevuse sooritamisel jokkerisümbol ükskõik milliseks sinu valitud sümboliks."
+ },
+ "Lava Tube Settlement": {
+  "name": "Laavatunneli asula",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 2 sammu võrra. Aseta linnaplaat VULKAANILISELE ALALE, hoolimata naaberlinnadest."
+ },
+ "Psychrophiles": {
+  "name": "Psührofiilid",
+  "actions": [
+   "Lisa sellele kaardile 1 mikroob."
+  ],
+  "effects": [
+   "Taimekaardi eest makstes võib siin olevaid mikroobe kasutada 2 M€ väärtuses tükk."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Kohanemistehnoloogia",
+  "effects": [
+   "Sinu globaalsed nõuded on +2 või -2 sammu, igal juhul sinu valikul."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Kohastunud samblikud",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra."
+ },
+ "Advanced Ecosystems": {
+  "name": "Arenenud ökosüsteemid"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aeropidurdatud ammoniaagiasteroid",
+  "desc": "Suurenda oma soojustootmist 3 sammu võrra ja taimetootmist 1 sammu võrra. Lisa 2 mikroobi TEISELE kaardile."
+ },
+ "Ants": {
+  "name": "Sipelgad",
+  "actions": [
+   "Eemalda ükskõik milliselt kaardilt 1 mikroob, et lisada 1 sellele kaardile."
+  ],
+  "vpText": [
+   "1 VP iga 2 sellel kaardil oleva mikroobi kohta."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Põhjavee pumpamine",
+  "actions": [
+   "Kuluta 8 M€, et asetada 1 ookeaniplaat. TERAST VÕIB KASUTADA, nagu mängiksid ehituskaarti."
+  ]
+ },
+ "Algae": {
+  "name": "Vetikad",
+  "desc": "Saad 1 taime ja suurenda oma taimetootmist 2 sammu võrra."
+ },
+ "ArchaeBacteria": {
+  "name": "Arhebakterid",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra."
+ },
+ "Arctic Algae": {
+  "name": "Arktilised vetikad",
+  "desc": "Saad 1 taime.",
+  "effects": [
+   "Kui keegi asetab ookeaniplaadi, saad 2 taime."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Tehisjärv",
+  "desc": "Aseta 1 ookeaniplaat ALALE, MIS POLE OOKEANILE BRONEERITUD."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Tehisfotosüntees",
+  "desc": "Suurenda oma taimetootmist 1 sammu või energiatootmist 2 sammu võrra.",
+  "orTitles": [
+   "Suurenda oma energiatootmist 2 sammu võrra",
+   "Suurenda oma taimetootmist 1 sammu võrra"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Tõsta temperatuuri 1 sammu võrra ja saad 2 titaani. Eemalda ükskõik milliselt mängijalt kuni 3 taime."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroidikaevandus",
+  "desc": "Suurenda oma titaanitootmist 2 sammu võrra."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Kiir tooriumiasteroidilt",
+  "desc": "Suurenda oma soojus- ja energiatootmist kumbagi 3 sammu võrra."
+ },
+ "Big Asteroid": {
+  "name": "Suur asteroid",
+  "desc": "Tõsta temperatuuri 2 sammu võrra ja saad 4 titaani. Eemalda ükskõik milliselt mängijalt kuni 4 taime."
+ },
+ "Biomass Combustors": {
+  "name": "Biomassipõletid",
+  "desc": "Vähenda ükskõik millise mängija taimetootmist 1 sammu võrra ja suurenda oma energiatootmist 2 sammu võrra."
+ },
+ "Birds": {
+  "name": "Linnud",
+  "desc": "Vähenda ükskõik millise mängija taimetootmist 2 sammu võrra. 1 VP iga sellel kaardil oleva looma kohta.",
+  "actions": [
+   "Lisa sellele kaardile loom."
+  ],
+  "vpText": [
+   "1 VP iga sellel kaardil oleva looma kohta."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Must polaartolm",
+  "desc": "Aseta ookeaniplaat. Vähenda oma M€-tootmist 2 sammu võrra ja suurenda soojustootmist 3 sammu võrra."
+ },
+ "Breathing Filters": {
+  "name": "Hingamisfiltrid"
+ },
+ "Bushes": {
+  "name": "Põõsad",
+  "desc": "Suurenda oma taimetootmist 2 sammu võrra. Saad 2 taime."
+ },
+ "Capital": {
+  "name": "Pealinn",
+  "desc": "Aseta see plaat. Vähenda oma energiatootmist 2 sammu võrra ja suurenda M€-tootmist 5 sammu võrra.",
+  "vpText": [
+   "1 lisa-VP iga selle linnaplaadi kõrval oleva ookeaniplaadi kohta."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonaaditöötlus",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda soojustootmist 3 sammu võrra."
+ },
+ "Cloud Seeding": {
+  "name": "Pilvede külvamine",
+  "desc": "Vähenda oma M€-tootmist 1 sammu võrra ja ükskõik millise mängija soojustootmist 1 sammu võrra. Suurenda oma taimetootmist 2 sammu võrra."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kolonistide õppelaager"
+ },
+ "Comet": {
+  "name": "Komeet",
+  "desc": "Tõsta temperatuuri 1 sammu võrra ja aseta ookeaniplaat. Eemalda ükskõik milliselt mängijalt kuni 3 taime."
+ },
+ "Convoy From Europa": {
+  "name": "Konvoi Europalt",
+  "desc": "Aseta 1 ookeaniplaat ja tõmba 1 kaart."
+ },
+ "Cupola City": {
+  "name": "Kuplilinn",
+  "desc": "Aseta linnaplaat. Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 3 sammu võrra."
+ },
+ "Decomposers": {
+  "name": "Lagundajad",
+  "effects": [
+   "Kui mängid looma-, taime- või mikroobisümboli, see kaasa arvatud, lisa sellele kaardile mikroob."
+  ],
+  "vpText": [
+   "1 VP iga 3 sellel kaardil oleva mikroobi kohta."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Sügavkaevuküte",
+  "desc": "Suurenda oma energiatootmist 1 sammu võrra. Tõsta temperatuuri 1 sammu võrra."
+ },
+ "Deimos Down": {
+  "name": "Deimose kukkumine",
+  "desc": "Tõsta temperatuuri 3 sammu võrra ja saad 4 terast. Eemalda ükskõik milliselt mängijalt kuni 8 taime."
+ },
+ "Designed Microorganisms": {
+  "name": "Disainitud mikroorganismid",
+  "desc": "Suurenda oma taimetootmist 2 sammu võrra."
+ },
+ "Domed Crater": {
+  "name": "Kupliga kraater",
+  "desc": "Saad 3 taime. Aseta linnaplaat. Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 3 sammu võrra."
+ },
+ "Dust Seals": {
+  "name": "Tolmutihendid"
+ },
+ "Ecological Zone": {
+  "name": "Ökoloogiline tsoon",
+  "desc": "Aseta see plaat ÜKSKÕIK MILLISE haljastuse kõrvale.",
+  "effects": [
+   "Kui mängid looma- või taimesümboli, NEED KAASA ARVATUD, lisa sellele kaardile loom."
+  ],
+  "vpText": [
+   "1 VP iga 2 sellel kaardil oleva looma kohta."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Energiasääst",
+  "desc": "Suurenda oma energiatootmist 1 sammu võrra iga mängus oleva linnaplaadi kohta."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos Chasma rahvuspark",
+  "desc": "Lisa 1 loom ÜKSKÕIK MILLISELE LOOMAKAARDILE. Saad 3 taime. Suurenda oma M€-tootmist 2 sammu võrra."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Ekvatoriaalne magnetiseerija",
+  "actions": [
+   "Vähenda oma energiatootmist 1 sammu võrra, et tõsta oma terraformimisreitingut 1 sammu võrra."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Äärmusliku külma seen",
+  "actions": [
+   "Saad 1 taime.",
+   "Lisa 2 mikroobi TEISELE kaardile."
+  ]
+ },
+ "Farming": {
+  "name": "Põllumajandus",
+  "desc": "Suurenda oma M€-tootmist 2 sammu võrra ja taimetootmist 2 sammu võrra. Saad 2 taime."
+ },
+ "Fish": {
+  "name": "Kalad",
+  "desc": "Vähenda ükskõik millise mängija taimetootmist 1 sammu võrra.",
+  "actions": [
+   "Lisa sellele kaardile 1 loom."
+  ],
+  "vpText": [
+   "1 VP iga sellel kaardil oleva looma kohta."
+  ]
+ },
+ "Flooding": {
+  "name": "Üleujutus",
+  "desc": "Aseta ookeaniplaat. KUI SELLE OOKEANIPLAADI KÕRVAL ON PLAATE, VÕID VÕTTA ÜHE NENDE PLAATIDE OMANIKULT 4 M€."
+ },
+ "Food Factory": {
+  "name": "Toiduainetehas",
+  "desc": "Vähenda oma taimetootmist 1 sammu võrra ja suurenda M€-tootmist 4 sammu võrra."
+ },
+ "Fusion Power": {
+  "name": "Termotuumaenergia",
+  "desc": "Suurenda oma energiatootmist 3 sammu võrra."
+ },
+ "Fueled Generators": {
+  "name": "Kütusegeneraatorid",
+  "desc": "Vähenda oma M€-tootmist 1 sammu võrra ja suurenda energiatootmist 1 sammu võrra."
+ },
+ "Ganymede Colony": {
+  "name": "Ganymedese koloonia",
+  "desc": "Aseta linnaplaat BRONEERITUD ALALE.",
+  "vpText": [
+   "1 VP iga sinu Jupiteri sümboli kohta."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geotermaalenergia",
+  "desc": "Suurenda oma energiatootmist 2 sammu võrra."
+ },
+ "GHG Factories": {
+  "name": "KHG-tehased",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda soojustootmist 4 sammu võrra."
+ },
+ "GHG Producing Bacteria": {
+  "name": "KHG-d tootvad bakterid",
+  "actions": [
+   "Lisa sellele kaardile 1 mikroob.",
+   "Eemalda 2 mikroobi, et tõsta temperatuuri 1 sammu võrra."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Hiiglaslik jääasteroid",
+  "desc": "Tõsta temperatuuri 2 sammu võrra ja aseta 2 ookeaniplaati. Eemalda ükskõik milliselt mängijalt kuni 6 taime."
+ },
+ "Giant Space Mirror": {
+  "name": "Hiiglaslik kosmosepeegel",
+  "desc": "Suurenda oma energiatootmist 3 sammu võrra."
+ },
+ "Grass": {
+  "name": "Rohi",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra. Saad 3 taime."
+ },
+ "Great Dam": {
+  "name": "Suur tamm",
+  "desc": "Suurenda oma energiatootmist 2 sammu võrra."
+ },
+ "Greenhouses": {
+  "name": "Kasvuhooned",
+  "desc": "Saad 1 taime iga mängus oleva linnaplaadi kohta."
+ },
+ "Heather": {
+  "name": "Kanarbik",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra. Saad 1 taime."
+ },
+ "Heat Trappers": {
+  "name": "Soojuspüüdurid",
+  "desc": "Vähenda ükskõik millise mängija soojustootmist 2 sammu võrra ja suurenda oma energiatootmist 1 sammu võrra."
+ },
+ "Herbivores": {
+  "name": "Taimtoidulised",
+  "desc": "+1 loom sellele kaardile. -1 ükskõik millise mängija taimetootmine",
+  "effects": [
+   "Kui asetad haljastusplaadi, lisa sellele kaardile loom."
+  ],
+  "vpText": [
+   "1 VP iga 2 sellel kaardil oleva looma kohta."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Jääasteroid",
+  "desc": "Aseta 2 ookeaniplaati."
+ },
+ "Ice Cap Melting": {
+  "name": "Jäämütsi sulamine",
+  "desc": "Aseta 1 ookeaniplaat."
+ },
+ "Immigrant City": {
+  "name": "Immigrantide linn",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja M€-tootmist 2 sammu võrra. Aseta linnaplaat.",
+  "effects": [
+   "Kui asetatakse linnaplaat, see kaasa arvatud, suurenda oma M€-tootmist 1 sammu võrra."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Immigratsioonisüstikud",
+  "desc": "Suurenda oma M€-tootmist 5 sammu võrra.",
+  "vpText": [
+   "1 VP iga mängus oleva 3. linna kohta."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Imporditud KHG",
+  "desc": "Suurenda oma soojustootmist 1 sammu võrra ja saad 3 soojust."
+ },
+ "Imported Hydrogen": {
+  "name": "Imporditud vesinik",
+  "desc": "Saad 3 taime või lisa 3 mikroobi või 2 looma TEISELE kaardile. Aseta ookeaniplaat.",
+  "orTitles": [
+   "Saad 3 taime",
+   "Lisa 3 mikroobi TEISELE kaardile",
+   "Lisa 2 looma TEISELE kaardile"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Imporditud lämmastik",
+  "desc": "Tõsta oma TR-i 1 sammu võrra ja saad 4 taime. Lisa 3 mikroobi TEISELE kaardile ja 2 looma TEISELE kaardile."
+ },
+ "Import of Advanced GHG": {
+  "name": "Täiustatud KHG import",
+  "desc": "Suurenda oma soojustootmist 2 sammu võrra."
+ },
+ "Industrial Microbes": {
+  "name": "Tööstuslikud mikroobid",
+  "desc": "Suurenda oma energia- ja terasetootmist kumbagi 1 sammu võrra."
+ },
+ "Insects": {
+  "name": "Putukad",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra iga oma taimesümboli kohta."
+ },
+ "Insulation": {
+  "name": "Isolatsioon",
+  "desc": "Vähenda oma soojustootmist ükskõik mitme sammu võrra ja suurenda M€-tootmist sama mitme sammu võrra."
+ },
+ "Ironworks": {
+  "name": "Rauavalukoda",
+  "actions": [
+   "Kuluta 4 energiat, et saada 1 teras ja tõsta hapnikku 1 sammu võrra."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Pruunvetikakasvandus",
+  "desc": "Suurenda oma M€-tootmist 2 sammu võrra ja taimetootmist 3 sammu võrra. Saad 2 taime."
+ },
+ "Lake Marineris": {
+  "name": "Marinerise järv",
+  "desc": "Aseta 2 ookeaniplaati."
+ },
+ "Large Convoy": {
+  "name": "Suur konvoi",
+  "desc": "Aseta ookeaniplaat ja tõmba 2 kaarti. Saad 5 taime või lisa 4 looma TEISELE kaardile.",
+  "orTitles": [
+   "Saad 5 taime",
+   "Lisa 4 looma TEISELE kaardile"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Laavavoolud",
+  "desc": "Tõsta temperatuuri 2 sammu võrra ja aseta see plaat KAS THARSIS THOLUSELE, ASCRAEUS MONSILE, PAVONIS MONSILE VÕI ARSIA MONSILE."
+ },
+ "Lichen": {
+  "name": "Samblikud",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra."
+ },
+ "Livestock": {
+  "name": "Kariloomad",
+  "desc": "Vähenda oma taimetootmist 1 sammu võrra ja suurenda M€-tootmist 2 sammu võrra",
+  "actions": [
+   "Lisa sellele kaardile 1 loom."
+  ],
+  "vpText": [
+   "1 VP iga sellel kaardil oleva looma kohta."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Kohalik soojuse püüdmine",
+  "desc": "Kuluta 5 soojust, et saada 4 taime või lisada 2 looma TEISELE kaardile.",
+  "orTitles": [
+   "Saad 4 taime",
+   "Lisa 2 looma TEISELE kaardile"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Kuukiir",
+  "desc": "Vähenda oma M€-tootmist 2 sammu võrra ja suurenda soojus- ja energiatootmist kumbagi 2 sammu võrra."
+ },
+ "Magnetic Field Dome": {
+  "name": "Magnetvälja kuppel",
+  "desc": "Vähenda oma energiatootmist 2 sammu võrra ja suurenda taimetootmist 1 sammu võrra. Tõsta oma TR-i 1 sammu võrra."
+ },
+ "Magnetic Field Generators": {
+  "name": "Magnetvälja generaatorid",
+  "desc": "Vähenda oma energiatootmist 4 sammu võrra ja suurenda taimetootmist 2 sammu võrra. Tõsta oma TR-i 3 sammu võrra."
+ },
+ "Mangrove": {
+  "name": "Mangroov",
+  "desc": "Aseta haljastusplaat OOKEANILE BRONEERITUD ALALE ja tõsta hapnikku 1 sammu võrra. Eira selleks tavalisi asetamispiiranguid."
+ },
+ "Martian Rails": {
+  "name": "Marsi raudtee",
+  "actions": [
+   "Kuluta 1 energiat, et saada 1 M€ iga MARSIL oleva linnaplaadi kohta."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metaan Titaanilt",
+  "desc": "Suurenda oma soojustootmist 2 sammu võrra ja taimetootmist 2 sammu võrra."
+ },
+ "Micro-Mills": {
+  "name": "Mikroveskid",
+  "desc": "Suurenda oma soojustootmist 1 sammu võrra."
+ },
+ "Mining Expedition": {
+  "name": "Kaevandusekspeditsioon",
+  "desc": "Tõsta hapnikku 1 sammu võrra. Eemalda ükskõik milliselt mängijalt 2 taime. Saad 2 terast."
+ },
+ "Mining Rights": {
+  "name": "Kaevandusõigused",
+  "desc": "Aseta see plaat alale, millel on terase või titaani asetamisboonus. Suurenda selle tootmist 1 sammu võrra."
+ },
+ "Mohole Area": {
+  "name": "Mohole'i ala",
+  "desc": "Suurenda oma soojustootmist 4 sammu võrra. Aseta see plaat OOKEANILE BRONEERITUD ALALE."
+ },
+ "Moss": {
+  "name": "Sammal",
+  "desc": "Kaota 1 taim. Suurenda oma taimetootmist 1 sammu võrra."
+ },
+ "Natural Preserve": {
+  "name": "Looduskaitseala",
+  "desc": "Aseta see plaat NII, ET SEE POLEKS ÜHEGI TEISE PLAADI KÕRVAL. Suurenda oma M€-tootmist 1 sammu võrra."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitritit redutseerivad bakterid",
+  "desc": "Lisa sellele kaardile 3 mikroobi.",
+  "actions": [
+   "Lisa sellele kaardile 1 mikroob.",
+   "Eemalda 3 mikroobi, et tõsta oma TR-i 1 sammu võrra."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Lämmastikurikas asteroid",
+  "desc": "Tõsta oma terraformimisreitingut 2 sammu võrra ja temperatuuri 1 sammu võrra. Suurenda oma taimetootmist 1 sammu või 4 sammu võrra, kui sul on 3 taimesümbolit."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofiilne sammal",
+  "desc": "Kaota 2 taime. Suurenda oma taimetootmist 2 sammu võrra."
+ },
+ "Noctis City": {
+  "name": "Noctise linn",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 3 sammu võrra. Aseta linnaplaat BRONEERITUD ALALE, eirates tavalisi asetamispiiranguid."
+ },
+ "Noctis Farming": {
+  "name": "Noctise põllundus",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra ja saad 2 taime."
+ },
+ "Nuclear Power": {
+  "name": "Tuumaenergia",
+  "desc": "Vähenda oma M€-tootmist 2 sammu võrra ja suurenda energiatootmist 3 sammu võrra."
+ },
+ "Nuclear Zone": {
+  "name": "Tuumatsoon",
+  "desc": "Aseta see plaat ja tõsta temperatuuri 2 sammu võrra."
+ },
+ "Open City": {
+  "name": "Avatud linn",
+  "desc": "Saad 2 taime. Aseta linnaplaat. Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 4 sammu võrra."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimaalne aeropidurdus",
+  "effects": [
+   "Kui mängid kosmosesündmuse, saad 3 M€ ja 3 soojust."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Maagitöötlus",
+  "actions": [
+   "Kuluta 4 energiat, et saada 1 titaan ja tõsta hapnikku 1 sammu võrra."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Igikeltsa kaevandamine",
+  "desc": "Aseta 1 ookeaniplaat."
+ },
+ "Peroxide Power": {
+  "name": "Peroksiidienergia",
+  "desc": "Vähenda oma M€-tootmist 1 sammu võrra ja suurenda energiatootmist 2 sammu võrra."
+ },
+ "Pets": {
+  "name": "Lemmikloomad",
+  "desc": "Lisa sellele kaardile 1 loom.",
+  "effects": [
+   "Kui asetatakse ükskõik milline linnaplaat, lisa sellele kaardile loom."
+  ],
+  "vpText": [
+   "1 VP iga 2 siin oleva looma kohta."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Phobose kosmosesadam",
+  "desc": "Suurenda oma titaanitootmist 1 sammu võrra ja aseta linnaplaat BRONEERITUD ALALE."
+ },
+ "Plantation": {
+  "name": "Istandus",
+  "desc": "Aseta haljastusplaat ja tõsta hapnikku 1 sammu võrra."
+ },
+ "Power Grid": {
+  "name": "Elektrivõrk",
+  "desc": "Suurenda oma energiatootmist sammu võrra iga oma energiasümboli kohta, see kaasa arvatud."
+ },
+ "Power Plant": {
+  "name": "Elektrijaam",
+  "desc": "Suurenda oma energiatootmist 1 sammu võrra."
+ },
+ "Predators": {
+  "name": "Kiskjad",
+  "actions": [
+   "Eemalda ükskõik milliselt kaardilt 1 loom ja lisa see sellele kaardile."
+  ],
+  "vpText": [
+   "1 VP iga sellel kaardil oleva looma kohta."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Kaitstud org",
+  "desc": "Suurenda oma M€-tootmist 2 sammu võrra. Aseta haljastusplaat OOKEANILE BRONEERITUD ALALE, eirates tavalisi asetamispiiranguid, ja tõsta hapnikku 1 sammu võrra."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radiokeemiatehas",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra. Tõsta oma TR-i 2 sammu võrra."
+ },
+ "Regolith Eaters": {
+  "name": "Regoliidisööjad",
+  "actions": [
+   "Lisa sellele kaardile 1 mikroob.",
+   "Eemalda sellelt kaardilt 2 mikroobi, et tõsta hapnikutaset 1 sammu võrra."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Inertgaaside vabastamine",
+  "desc": "Tõsta oma terraformimisreitingut 2 sammu võrra."
+ },
+ "Research Outpost": {
+  "name": "Uurimisjaam",
+  "desc": "Aseta linnaplaat NII, ET SEE POLEKS ÜHEGI TEISE PLAADI KÕRVAL.",
+  "effects": [
+   "Kui mängid kaardi, maksad selle eest 1 M€ vähem."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Kulgurite ehitus",
+  "effects": [
+   "Kui asetatakse ükskõik milline linnaplaat, saad 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Elu otsingud",
+  "actions": [
+   "Kuluta 1 M€, et avada tõmbepaki pealmine kaart. Kui sellel kaardil on mikroobisümbol, lisa siia teadusressurss."
+  ],
+  "vpText": [
+   "3 VP, kui sul on siin üks või rohkem teadusressurssi."
+  ]
+ },
+ "Shuttles": {
+  "name": "Süstikud",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 2 sammu võrra.",
+  "effects": [
+   "Kui mängid kosmosekaardi, maksad selle eest 2 M€ vähem."
+  ]
+ },
+ "Small Animals": {
+  "name": "Väikeloomad",
+  "desc": "Vähenda ükskõik millise mängija taimetootmist 1 sammu võrra.",
+  "actions": [
+   "Lisa sellele kaardile 1 loom."
+  ],
+  "vpText": [
+   "1 VP iga 2 sellel kaardil oleva looma kohta."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Mullatehas",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda taimetootmist 1 sammu võrra."
+ },
+ "Solar Power": {
+  "name": "Päikeseenergia",
+  "desc": "Suurenda oma energiatootmist 1 sammu võrra."
+ },
+ "Solar Wind Power": {
+  "name": "Päikesetuule energia",
+  "desc": "Suurenda oma energiatootmist 1 sammu võrra ja saad 2 titaani."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Suurenda oma soojustootmist 7 sammu võrra."
+ },
+ "Space Mirrors": {
+  "name": "Kosmosepeeglid",
+  "actions": [
+   "Kuluta 7 M€, et suurendada oma energiatootmist 1 sammu võrra."
+  ]
+ },
+ "Special Design": {
+  "name": "Erilahendus",
+  "desc": "Järgmise kaardi puhul, mille selles põlvkonnas mängid, on globaalsed nõuded +2 või -2 sammu, sinu valikul."
+ },
+ "Steelworks": {
+  "name": "Terasetehas",
+  "actions": [
+   "Kuluta 4 energiat, et saada 2 terast ja tõsta hapnikku 1 sammu võrra."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Pealmaakaevandus",
+  "desc": "Vähenda oma energiatootmist 2 sammu võrra. Suurenda terasetootmist 2 sammu võrra ja titaanitootmist 1 sammu võrra. Tõsta hapnikku 2 sammu võrra."
+ },
+ "Subterranean Reservoir": {
+  "name": "Maa-alune veehoidla",
+  "desc": "Aseta 1 ookeaniplaat."
+ },
+ "Symbiotic Fungus": {
+  "name": "Sümbiootiline seen",
+  "actions": [
+   "Lisa mikroob TEISELE kaardile."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektoonilise pinge energia",
+  "desc": "Suurenda oma energiatootmist 3 sammu võrra."
+ },
+ "Towing A Comet": {
+  "name": "Komeedi pukseerimine",
+  "desc": "Saad 2 taime. Tõsta hapnikutaset 1 sammu võrra ja aseta ookeaniplaat."
+ },
+ "Trees": {
+  "name": "Puud",
+  "desc": "Suurenda oma taimetootmist 3 sammu võrra. Saad 1 taime."
+ },
+ "Tundra Farming": {
+  "name": "Tundrapõllundus",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra ja M€-tootmist 2 sammu võrra. Saad 1 taime."
+ },
+ "Underground City": {
+  "name": "Maa-alune linn",
+  "desc": "Aseta linnaplaat. Vähenda oma energiatootmist 2 sammu võrra ja suurenda terasetootmist 2 sammu võrra."
+ },
+ "Underground Detonations": {
+  "name": "Maa-alused plahvatused",
+  "actions": [
+   "Kuluta 10 M€, et suurendada oma soojustootmist 2 sammu võrra."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Linnastunud ala",
+  "desc": "Vähenda oma energiatootmist 1 sammu võrra ja suurenda M€-tootmist 2 sammu võrra. Aseta linnaplaat VÄHEMALT 2 TEISE LINNAPLAADI KÕRVALE."
+ },
+ "Water Import From Europa": {
+  "name": "Veeimport Europalt",
+  "actions": [
+   "Maksa 12 M€, et asetada ookeaniplaat. TITAANI VÕIB KASUTADA, nagu mängiksid kosmosekaarti."
+  ],
+  "vpText": [
+   "1 VP iga sinu Jupiteri sümboli kohta."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Vee lagundamise jaam",
+  "actions": [
+   "Kuluta 3 energiat, et tõsta hapnikku 1 sammu võrra."
+  ]
+ },
+ "Wave Power": {
+  "name": "Laineenergia",
+  "desc": "Suurenda oma energiatootmist 1 sammu võrra."
+ },
+ "Windmills": {
+  "name": "Tuulikud",
+  "desc": "Suurenda oma energiatootmist 1 sammu võrra."
+ },
+ "Worms": {
+  "name": "Ussid",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra iga 2 oma mikroobisümboli kohta, see kaasa arvatud."
+ },
+ "Zeppelins": {
+  "name": "Tsepeliinid",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra iga MARSIL oleva linnaplaadi kohta."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Alustad 1 titaanitootmise ja 42 M€-ga.",
+  "effects": [
+   "Iga kord, kui mängu tuleb ükskõik milline Jupiteri sümbol, see kaasa arvatud, suurenda oma M€-tootmist 1 sammu võrra."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Alustad 60 M€-ga.",
+  "effects": [
+   "Kui mängid Maa sümboli, maksad selle eest 3 M€ vähem."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Alustad 3 M€-tootmise ja 44 M€-ga.",
+  "effects": [
+   "Kui mängid ehitussümboli, maksad selle eest 2 M€ vähem."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Alustad 1 titaanitootmise ja 38 M€-ga.",
+  "effects": [
+   "Kui mängid Maa sümboli, see kaasa arvatud, tõmba kaart."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Alustad 47 M€-ga.",
+  "actions": [
+   "Kuluta 4 M€, et suurendada (ühte) oma MADALAIMAT tootmist 1 sammu võrra."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Alustad 37 M€-ga. Esimese tegevusena tõmba 3 prelüüdikaarti ja mängi neist üks. Viska ülejäänud kaks ära.",
+  "effects": [
+   "Kui mängid teadussümboli, maksad selle eest 2 M€ vähem."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Alustad 45 M€-ga. Esimese tegevusena rahasta tasuta üks auhind.",
+  "effects": [
+   "Kui mängid MITTENEGATIIVSE VP-ikooniga kaardi, see kaasa arvatud, saad 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Algaja korporatsioon",
+  "desc": "Alustad 42 M€-ga. Selle asemel, et ettevalmistusel 10 kaardi seast valida, saad 10 kaarti tasuta."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Alustad 57 M€-ga.",
+  "effects": [
+   "Pärast kaardi või standardprojekti eest maksmist, mille baashind on 20 M€ või rohkem, saad 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Alustad 2 taimetootmise, 3 taime ja 36 M€-ga.",
+  "effects": [
+   "Haljastuse asetamiseks võid alati maksta 8 asemel 7 taime."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Alustad 3 soojustootmise ja 42 M€-ga.",
+  "effects": [
+   "Võid kasutada soojust nagu M€-i. M€-i ei tohi kasutada soojusena."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Alustad 20 terase ja 30 M€-ga.",
+  "effects": [
+   "Iga kord, kui mängid sündmuse, saad 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Mängu esimese tegevusena tõmba 3 kaarti. Alusta 45 M€-ga.",
+  "effects": [
+   "Sinu temperatuuri-, hapniku-, ookeani- ja Veenuse nõuded on +2 või -2 sammu, igal juhul sinu valikul."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Kaevurite gild",
+  "desc": "Alustad 30 M€, 5 terase ja 1 terasetootmisega.",
+  "effects": [
+   "Iga kord, kui asetad plaadi alale, millel on terase või titaani asetamisboonus, suurenda oma terasetootmist 1 sammu võrra"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Alustad 10 titaani ja 23 M€-ga.",
+  "effects": [
+   "Iga sinu titaan on 1 M€ võrra väärtuslikum."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tharsise Vabariik",
+  "desc": "Alustad 40 M€-ga. Mängu esimese tegevusena aseta linnaplaat.",
+  "effects": [
+   "Kui MARSILE asetatakse ükskõik milline linnaplaat, suurenda oma M€-tootmist 1 sammu võrra. Kui sina asetad linnaplaadi, saad 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Alustad 1 energiatootmise ja 48 M€-ga.",
+  "effects": [
+   "Energiakaardi VÕI STANDARDPROJEKTI ELEKTRIJAAM mängimisel maksad selle eest 3 M€ vähem."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "ÜRO Marsi algatus",
+  "desc": "Alustad 40 M€-ga.",
+  "actions": [
+   "Kui sinu terraformimisreitingut on selles põlvkonnas tõstetud, võid maksta 3 M€, et tõsta seda veel 1 sammu võrra."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Liitlaste pank",
+  "desc": "Suurenda oma M€-tootmist 4 sammu võrra. Saad 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Biosfääri toetus",
+  "desc": "Suurenda oma taimetootmist 2 sammu võrra. Vähenda oma M€-tootmist 1 sammu võrra."
+ },
+ "Aquifer Turbines": {
+  "name": "Põhjaveeturbiinid",
+  "desc": "Aseta ookeaniplaat. Suurenda oma energiatootmist 2 sammu võrra. Maksa 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Mohole'i kaevamine",
+  "desc": "Suurenda oma terasetootmist 1 sammu võrra ja soojustootmist 2 sammu võrra. Saad 2 soojust."
+ },
+ "Early Settlement": {
+  "name": "Varajane asula",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra. Aseta linnaplaat."
+ },
+ "Biofuels": {
+  "name": "Biokütused",
+  "desc": "Suurenda oma energia- ja taimetootmist 1 sammu võrra. Saad 2 taime."
+ },
+ "Power Generation": {
+  "name": "Energia tootmine",
+  "desc": "Suurenda oma energiatootmist 3 sammu võrra."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Isemajandav asula",
+  "desc": "Suurenda oma M€-tootmist 2 sammu võrra. Aseta linnaplaat."
+ },
+ "Mining Operations": {
+  "name": "Kaevandustööd",
+  "desc": "Suurenda oma terasetootmist 2 sammu võrra. Saad 4 terast."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI töövõtja",
+  "desc": "Tõsta oma TR-i 3 sammu võrra. Tõmba kaart."
+ },
+ "Dome Farming": {
+  "name": "Kuplipõllundus",
+  "desc": "Suurenda oma M€-tootmist 2 sammu võrra ja taimetootmist 1 sammu võrra."
+ },
+ "Business Empire": {
+  "name": "Äriimpeerium",
+  "desc": "Suurenda oma M€-tootmist 6 sammu võrra. Maksa 6 M€."
+ },
+ "Donation": {
+  "name": "Annetus",
+  "desc": "Saad 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Lämmastikusaadetis",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra. Tõsta oma TR-i 1 sammu võrra. Saad 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Sulatusahi",
+  "desc": "Tõsta hapnikku 2 sammu võrra. Saad 5 terast."
+ },
+ "Supplier": {
+  "name": "Tarnija",
+  "desc": "Suurenda oma energiatootmist 2 sammu võrra. Saad 4 terast."
+ },
+ "Supply Drop": {
+  "name": "Varude heitmine",
+  "desc": "Saad 3 titaani, 8 terast ja 3 taime."
+ },
+ "Great Aquifer": {
+  "name": "Suur põhjaveekiht",
+  "desc": "Aseta 2 ookeaniplaati."
+ },
+ "Biolab": {
+  "name": "Biolabor",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra. Tõmba 3 kaarti."
+ },
+ "Martian Industries": {
+  "name": "Marsi tööstus",
+  "desc": "Suurenda oma energia- ja terasetootmist 1 sammu võrra. Saad 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Io uurimisjaam",
+  "desc": "Suurenda oma titaanitootmist 1 sammu võrra. Tõmba kaart."
+ },
+ "Polar Industries": {
+  "name": "Polaartööstus",
+  "desc": "Suurenda oma soojustootmist 2 sammu võrra. Aseta ookeaniplaat."
+ },
+ "Society Support": {
+  "name": "Ühiskonna toetus",
+  "desc": "Suurenda oma taime-, energia- ja soojustootmist 1 sammu võrra. Vähenda M€-tootmist 1 sammu võrra."
+ },
+ "Galilean Mining": {
+  "name": "Galilei kuude kaevandamine",
+  "desc": "Suurenda oma titaanitootmist 2 sammu võrra. Maksa 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Tohutu asteroid",
+  "desc": "Tõsta temperatuuri 3 sammu võrra. Maksa 5 M€."
+ },
+ "Metals Company": {
+  "name": "Metallifirma",
+  "desc": "Suurenda oma M€-, terase- ja titaanitootmist 1 sammu võrra."
+ },
+ "Loan": {
+  "name": "Laen",
+  "desc": "Saad 30 M€. Vähenda oma M€-tootmist 2 sammu võrra."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Suurenda oma soojustootmist 3 sammu võrra. Saad 3 soojust."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metallirikas asteroid",
+  "desc": "Tõsta temperatuuri 1 sammu võrra. Saad 4 titaani ja 4 terast."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitaalne ehitusplats",
+  "desc": "Suurenda oma titaanitootmist 1 sammu võrra. Saad 4 titaani."
+ },
+ "Acquired Space Agency": {
+  "name": "Omandatud kosmoseagentuur",
+  "desc": "Saad 6 titaani. Ava kaarte, kuni avad kaks kosmosesümboliga kaarti. Võta need kätte, viska ülejäänud ära."
+ },
+ "Research Network": {
+  "name": "Teadusvõrgustik",
+  "desc": "Suurenda oma M€-tootmist 1 sammu võrra. Tõmba 3 kaarti. Pärast mängimist loetakse tegevuse sooritamisel jokkerisümbol ükskõik milliseks sinu valitud sümboliks."
+ },
+ "Eccentric Sponsor": {
+  "name": "Ekstsentriline sponsor",
+  "desc": "MÄNGI KÄEST KAART 25 M€ ALLAHINDLUSEGA."
+ },
+ "Ecology Experts": {
+  "name": "Ökoloogiaeksperdid",
+  "desc": "Suurenda oma taimetootmist 1 sammu võrra. MÄNGI KÄEST KAART, EIRATES GLOBAALSEID NÕUDEID."
+ },
+ "Experimental Forest": {
+  "name": "Katsemets",
+  "desc": "Aseta 1 haljastusplaat ja tõsta hapnikku 1 sammu võrra. Ava kaarte, kuni avad kaks taimesümboliga kaarti. Võta need kätte ja viska ülejäänud ära."
+ }
+}

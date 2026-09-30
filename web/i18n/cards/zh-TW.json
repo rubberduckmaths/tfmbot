@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "收購的公司",
+  "desc": "你的M€產能提升3級。"
+ },
+ "Advanced Alloys": {
+  "name": "先進合金",
+  "effects": [
+   "你的每個鈦額外價值1 M€。",
+   "你的每個鋼鐵額外價值1 M€。"
+  ]
+ },
+ "AI Central": {
+  "name": "AI中樞",
+  "desc": "你的能源產能降低1級。",
+  "actions": [
+   "抽2張牌。"
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "反重力技術",
+  "effects": [
+   "你打出卡牌時，少支付2 M€。"
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "小行星採礦聯盟",
+  "desc": "任一玩家的鈦產能降低1級，你自己的提升1級。"
+ },
+ "Bribed Committee": {
+  "name": "受賄的委員會",
+  "desc": "你的改造度提升2級。"
+ },
+ "Building Industries": {
+  "name": "建築產業",
+  "desc": "你的能源產能降低1級，鋼鐵產能提升2級。"
+ },
+ "Business Contacts": {
+  "name": "商業人脈",
+  "desc": "查看牌堆頂4張牌。將其中2張加入手牌，其餘棄掉。"
+ },
+ "Business Network": {
+  "name": "商業網路",
+  "desc": "你的M€產能降低1級。",
+  "actions": [
+   "查看牌堆頂的牌，選擇買下或棄掉。"
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "木衛四勞改礦場",
+  "desc": "你的M€產能提升3級。"
+ },
+ "Caretaker Contract": {
+  "name": "管理員合約",
+  "actions": [
+   "花費8熱能，使你的改造度提升1級。"
+  ]
+ },
+ "Cartel": {
+  "name": "卡特爾",
+  "desc": "你每有1個地球標誌（含本卡），M€產能提升1級。"
+ },
+ "CEO's Favorite Project": {
+  "name": "執行長最愛的專案",
+  "desc": "在你一張已有至少1個資源的卡牌上，再放1個資源。"
+ },
+ "Commercial District": {
+  "name": "商業區",
+  "desc": "放置此板塊。你的能源產能降低1級，M€產能提升4級。",
+  "vpText": [
+   "每個相鄰的城市板塊得1勝利點。"
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "企業堡壘",
+  "desc": "你的能源產能降低1級，M€產能提升3級。放置1個城市板塊。"
+ },
+ "Development Center": {
+  "name": "研發中心",
+  "actions": [
+   "花費1能源抽1張牌。"
+  ]
+ },
+ "Earth Catapult": {
+  "name": "地球彈射器",
+  "effects": [
+   "你打出卡牌時，少支付2 M€。"
+  ]
+ },
+ "Earth Office": {
+  "name": "地球辦事處",
+  "effects": [
+   "你打出地球標誌時，少支付3 M€。"
+  ]
+ },
+ "Electro Catapult": {
+  "name": "電磁彈射器",
+  "desc": "你的能源產能降低1級。",
+  "actions": [
+   "花費1植物或1鋼鐵，獲得7 M€。"
+  ]
+ },
+ "Energy Tapping": {
+  "name": "能源竊取",
+  "desc": "任一玩家的能源產能降低1級，你自己的提升1級。"
+ },
+ "Fuel Factory": {
+  "name": "燃料工廠",
+  "desc": "你的能源產能降低1級，鈦產能與M€產能各提升1級。"
+ },
+ "Gene Repair": {
+  "name": "基因修復",
+  "desc": "你的M€產能提升2級。"
+ },
+ "Great Escarpment Consortium": {
+  "name": "大斷崖聯盟",
+  "desc": "任一玩家的鋼鐵產能降低1級，你自己的提升1級。"
+ },
+ "Hackers": {
+  "name": "駭客",
+  "desc": "你的能源產能降低1級，任一玩家的M€產能降低2級。你的M€產能提升2級。"
+ },
+ "Hired Raiders": {
+  "name": "雇傭掠奪者",
+  "desc": "從任一玩家偷走至多2鋼鐵，或3 M€。"
+ },
+ "Indentured Workers": {
+  "name": "契約勞工",
+  "desc": "本世代你打出的下一張牌費用減少8 M€。"
+ },
+ "Industrial Center": {
+  "name": "工業中心",
+  "desc": "將此板塊放在與城市板塊相鄰處。",
+  "actions": [
+   "花費7 M€，使你的鋼鐵產能提升1級。"
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "星際殖民船"
+ },
+ "Invention Contest": {
+  "name": "發明競賽",
+  "desc": "查看牌堆頂3張牌。將其中1張加入手牌，其餘棄掉。"
+ },
+ "Inventors' Guild": {
+  "name": "發明家公會",
+  "actions": [
+   "查看牌堆頂的牌，選擇買下或棄掉。"
+  ]
+ },
+ "Investment Loan": {
+  "name": "投資貸款",
+  "desc": "你的M€產能降低1級。獲得10 M€。"
+ },
+ "Io Mining Industries": {
+  "name": "木衛一採礦產業",
+  "desc": "你的鈦產能提升2級，M€產能提升2級。",
+  "vpText": [
+   "你每有1個木星標誌得1勝利點。"
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "拉格朗日天文台",
+  "desc": "抽1張牌。"
+ },
+ "Land Claim": {
+  "name": "土地宣告",
+  "desc": "為自己保留一個未被保留的區域：只有你能在那裡放置板塊。"
+ },
+ "Lightning Harvest": {
+  "name": "閃電採集",
+  "desc": "你的能源產能與M€產能各提升1級。"
+ },
+ "Mars University": {
+  "name": "火星大學",
+  "effects": [
+   "你打出科學標誌時（含本卡），可以從手牌棄1張牌來抽1張牌。"
+  ]
+ },
+ "Mass Converter": {
+  "name": "質能轉換器",
+  "desc": "你的能源產能提升6級。",
+  "effects": [
+   "你打出太空卡時，少支付2 M€。"
+  ]
+ },
+ "Media Archives": {
+  "name": "媒體檔案庫",
+  "desc": "所有玩家「至今打出過」的每張事件卡，讓你獲得1 M€。"
+ },
+ "Media Group": {
+  "name": "媒體集團",
+  "effects": [
+   "你打出事件卡後，獲得3 M€。"
+  ]
+ },
+ "Medical Lab": {
+  "name": "醫學實驗室",
+  "desc": "你每有2個建築標誌（含本卡），M€產能提升1級。"
+ },
+ "Mine": {
+  "name": "礦坑",
+  "desc": "你的鋼鐵產能提升1級。"
+ },
+ "Mineral Deposit": {
+  "name": "礦床",
+  "desc": "獲得5鋼鐵。"
+ },
+ "Mining Area": {
+  "name": "採礦區",
+  "desc": "將此板塊放在有鋼鐵或鈦放置獎勵、且與你其他板塊相鄰的區域。該資源的產能提升1級。"
+ },
+ "Miranda Resort": {
+  "name": "天衛五度假村",
+  "desc": "你每有1個地球標誌，M€產能提升1級。"
+ },
+ "Olympus Conference": {
+  "name": "奧林帕斯會議",
+  "desc": "你打出科學標誌時（含本卡），選擇在這張卡上放1個科學資源，或從這張卡移除1個科學資源來抽1張牌。"
+ },
+ "Physics Complex": {
+  "name": "物理研究園區",
+  "actions": [
+   "花費6能源，在這張卡上放1個科學資源。"
+  ],
+  "vpText": [
+   "這張卡上每個科學資源得2勝利點。"
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "電力基礎設施",
+  "actions": [
+   "花費任意數量的能源，並獲得等量的M€。"
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "電力供應聯盟",
+  "desc": "任一玩家的能源產能降低1級，你自己的提升1級。"
+ },
+ "Protected Habitats": {
+  "name": "受保護的棲地",
+  "effects": [
+   "對手不能移除你的植物、動物或微生物。"
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "量子萃取器",
+  "desc": "你的能源產能提升4級。",
+  "effects": [
+   "你打出太空卡時，少支付2 M€。"
+  ]
+ },
+ "Rad-Suits": {
+  "name": "防輻射衣",
+  "desc": "你的M€產能提升1級。"
+ },
+ "Research": {
+  "name": "研究",
+  "desc": "視為打出2張科學卡。抽2張牌。"
+ },
+ "Restricted Area": {
+  "name": "禁區",
+  "desc": "放置此板塊。",
+  "actions": [
+   "花費2 M€抽1張牌。"
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "機器人勞動力",
+  "desc": "只複製你一張建築卡的產能框。"
+ },
+ "Sabotage": {
+  "name": "破壞",
+  "desc": "從任一玩家移除至多3鈦，或4鋼鐵，或7 M€。"
+ },
+ "Satellites": {
+  "name": "人造衛星",
+  "desc": "你每有1個太空標誌（含本卡），M€產能提升1級。"
+ },
+ "Security Fleet": {
+  "name": "保安艦隊",
+  "actions": [
+   "花費1鈦，在這張卡上放1個戰機資源。"
+  ],
+  "vpText": [
+   "這張卡上每個戰機資源得1勝利點。"
+  ]
+ },
+ "Space Elevator": {
+  "name": "太空電梯",
+  "desc": "你的鈦產能提升1級。",
+  "actions": [
+   "花費1鋼鐵獲得5 M€。"
+  ]
+ },
+ "Space Station": {
+  "name": "太空站",
+  "effects": [
+   "你打出太空卡時，少支付2 M€。"
+  ]
+ },
+ "Sponsors": {
+  "name": "贊助商",
+  "desc": "你的M€產能提升2級。"
+ },
+ "Standard Technology": {
+  "name": "標準技術",
+  "effects": [
+   "你支付標準專案（出售專利除外）的費用後，獲得3 M€。"
+  ]
+ },
+ "Tardigrades": {
+  "name": "水熊蟲",
+  "actions": [
+   "在這張卡上放1個微生物。"
+  ],
+  "vpText": [
+   "這張卡上每4個微生物得1勝利點。"
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "技術展示",
+  "desc": "抽兩張牌。"
+ },
+ "Terraforming Ganymede": {
+  "name": "改造木衛三",
+  "desc": "你每有1個木星標誌（含本卡），改造度提升1級。"
+ },
+ "Titanium Mine": {
+  "name": "鈦礦",
+  "desc": "你的鈦產能提升1級。"
+ },
+ "Toll Station": {
+  "name": "收費站",
+  "desc": "你的「對手們」每有1個太空標誌，你的M€產能提升1級。"
+ },
+ "Trans-Neptune Probe": {
+  "name": "海王星外探測器",
+  "desc": "一艘深空探測器：價值1勝利點。"
+ },
+ "Tropical Resort": {
+  "name": "熱帶度假村",
+  "desc": "你的熱能產能降低2級，M€產能提升3級。"
+ },
+ "Vesta Shipyard": {
+  "name": "灶神星造船廠",
+  "desc": "你的鈦產能提升1級。"
+ },
+ "Viral Enhancers": {
+  "name": "病毒增強劑",
+  "effects": [
+   "你打出植物、微生物或動物標誌時（含本卡），獲得1植物，或在「那張卡」上放1個資源。"
+  ]
+ },
+ "Virus": {
+  "name": "病毒",
+  "desc": "從任一玩家移除至多2個動物或5植物。"
+ },
+ "SF Memorial": {
+  "name": "科幻紀念館",
+  "desc": "抽1張牌。"
+ },
+ "House Printing": {
+  "name": "房屋列印",
+  "desc": "你的鋼鐵產能提升1級。"
+ },
+ "Space Hotels": {
+  "name": "太空旅館",
+  "desc": "M€產能提升4級。"
+ },
+ "Martian Survey": {
+  "name": "火星勘測",
+  "desc": "抽兩張牌。"
+ },
+ "Research Coordination": {
+  "name": "研究協調",
+  "desc": "打出後，當你執行行動時，萬用標誌可視為你選擇的任一標誌。"
+ },
+ "Lava Tube Settlement": {
+  "name": "熔岩管聚落",
+  "desc": "你的能源產能降低1級，M€產能提升2級。在「火山區」放置1個城市板塊，不受相鄰城市限制。"
+ },
+ "Psychrophiles": {
+  "name": "嗜冷菌",
+  "actions": [
+   "在這張卡上放1個微生物。"
+  ],
+  "effects": [
+   "支付植物卡費用時，這裡的每個微生物可當作2 M€使用。"
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "適應技術",
+  "effects": [
+   "你的全球參數需求可+2或-2級，每次由你選擇。"
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "適應型地衣",
+  "desc": "你的植物產能提升1級。"
+ },
+ "Advanced Ecosystems": {
+  "name": "進階生態系"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "空氣制動氨小行星",
+  "desc": "你的熱能產能提升3級，植物產能提升1級。在「另一張」卡牌上放2個微生物。"
+ },
+ "Ants": {
+  "name": "螞蟻",
+  "actions": [
+   "從任一卡牌移除1個微生物，並在這張卡上放1個。"
+  ],
+  "vpText": [
+   "這張卡上每2個微生物得1勝利點。"
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "含水層抽水",
+  "actions": [
+   "花費8 M€放置1個海洋板塊。可如打出建築卡般「使用鋼鐵」支付。"
+  ]
+ },
+ "Algae": {
+  "name": "藻類",
+  "desc": "獲得1植物，你的植物產能提升2級。"
+ },
+ "ArchaeBacteria": {
+  "name": "古細菌",
+  "desc": "你的植物產能提升1級。"
+ },
+ "Arctic Algae": {
+  "name": "北極藻類",
+  "desc": "獲得1植物。",
+  "effects": [
+   "任何人放置海洋板塊時，你獲得2植物。"
+  ]
+ },
+ "Artificial Lake": {
+  "name": "人工湖",
+  "desc": "在「非海洋保留區」放置1個海洋板塊。"
+ },
+ "Artificial Photosynthesis": {
+  "name": "人工光合作用",
+  "desc": "你的植物產能提升1級，或能源產能提升2級。",
+  "orTitles": [
+   "你的能源產能提升2級",
+   "你的植物產能提升1級"
+  ]
+ },
+ "Asteroid": {
+  "name": "小行星",
+  "desc": "溫度提升1級，並獲得2鈦。從任一玩家移除至多3植物。"
+ },
+ "Asteroid Mining": {
+  "name": "小行星採礦",
+  "desc": "你的鈦產能提升2級。"
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "釷小行星射束",
+  "desc": "你的熱能產能與能源產能各提升3級。"
+ },
+ "Big Asteroid": {
+  "name": "大型小行星",
+  "desc": "溫度提升2級，並獲得4鈦。從任一玩家移除至多4植物。"
+ },
+ "Biomass Combustors": {
+  "name": "生質燃燒器",
+  "desc": "任一玩家的植物產能降低1級，你的能源產能提升2級。"
+ },
+ "Birds": {
+  "name": "鳥類",
+  "desc": "任一玩家的植物產能降低2級。這張卡上每個動物得1勝利點。",
+  "actions": [
+   "在這張卡上放1個動物。"
+  ],
+  "vpText": [
+   "這張卡上每個動物得1勝利點。"
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "黑色極地塵",
+  "desc": "放置1個海洋板塊。你的M€產能降低2級，熱能產能提升3級。"
+ },
+ "Breathing Filters": {
+  "name": "呼吸過濾器"
+ },
+ "Bushes": {
+  "name": "灌木叢",
+  "desc": "你的植物產能提升2級。獲得2植物。"
+ },
+ "Capital": {
+  "name": "首都",
+  "desc": "放置此板塊。你的能源產能降低2級，M€產能提升5級。",
+  "vpText": [
+   "與此城市板塊相鄰的每個海洋板塊，額外得1勝利點。"
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "碳酸鹽處理",
+  "desc": "你的能源產能降低1級，熱能產能提升3級。"
+ },
+ "Cloud Seeding": {
+  "name": "人工造雨",
+  "desc": "你的M€產能降低1級，任一玩家的熱能產能降低1級。你的植物產能提升2級。"
+ },
+ "Colonizer Training Camp": {
+  "name": "殖民者訓練營"
+ },
+ "Comet": {
+  "name": "彗星",
+  "desc": "溫度提升1級，並放置1個海洋板塊。從任一玩家移除至多3植物。"
+ },
+ "Convoy From Europa": {
+  "name": "木衛二運輸船隊",
+  "desc": "放置1個海洋板塊，並抽1張牌。"
+ },
+ "Cupola City": {
+  "name": "穹頂城市",
+  "desc": "放置1個城市板塊。你的能源產能降低1級，M€產能提升3級。"
+ },
+ "Decomposers": {
+  "name": "分解者",
+  "effects": [
+   "你打出動物、植物或微生物標誌時（含本卡），在這張卡上放1個微生物。"
+  ],
+  "vpText": [
+   "這張卡上每3個微生物得1勝利點。"
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "深井加熱",
+  "desc": "你的能源產能提升1級。溫度提升1級。"
+ },
+ "Deimos Down": {
+  "name": "火衛二墜落",
+  "desc": "溫度提升3級，並獲得4鋼鐵。從任一玩家移除至多8植物。"
+ },
+ "Designed Microorganisms": {
+  "name": "設計微生物",
+  "desc": "你的植物產能提升2級。"
+ },
+ "Domed Crater": {
+  "name": "穹頂隕石坑",
+  "desc": "獲得3植物。放置1個城市板塊。你的能源產能降低1級，M€產能提升3級。"
+ },
+ "Dust Seals": {
+  "name": "防塵密封"
+ },
+ "Ecological Zone": {
+  "name": "生態區",
+  "desc": "將此板塊放在與「任一」綠地相鄰處。",
+  "effects": [
+   "你打出動物或植物標誌時（含這些卡本身），在這張卡上放1個動物。"
+  ],
+  "vpText": [
+   "這張卡上每2個動物得1勝利點。"
+  ]
+ },
+ "Energy Saving": {
+  "name": "節約能源",
+  "desc": "場上每有1個城市板塊，你的能源產能提升1級。"
+ },
+ "Eos Chasma National Park": {
+  "name": "厄俄斯峽谷國家公園",
+  "desc": "在「任一動物卡」上放1個動物。獲得3植物。你的M€產能提升2級。"
+ },
+ "Equatorial Magnetizer": {
+  "name": "赤道磁化器",
+  "actions": [
+   "你的能源產能降低1級，使你的改造度提升1級。"
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "極寒真菌",
+  "actions": [
+   "獲得1植物。",
+   "在「另一張」卡牌上放2個微生物。"
+  ]
+ },
+ "Farming": {
+  "name": "農業",
+  "desc": "你的M€產能提升2級，植物產能提升2級。獲得2植物。"
+ },
+ "Fish": {
+  "name": "魚",
+  "desc": "任一玩家的植物產能降低1級。",
+  "actions": [
+   "在這張卡上放1個動物。"
+  ],
+  "vpText": [
+   "這張卡上每個動物得1勝利點。"
+  ]
+ },
+ "Flooding": {
+  "name": "洪水",
+  "desc": "放置1個海洋板塊。若有板塊與此海洋板塊相鄰，你可以從其中一個板塊的擁有者身上移除4 M€。"
+ },
+ "Food Factory": {
+  "name": "食品工廠",
+  "desc": "你的植物產能降低1級，M€產能提升4級。"
+ },
+ "Fusion Power": {
+  "name": "核融合發電",
+  "desc": "你的能源產能提升3級。"
+ },
+ "Fueled Generators": {
+  "name": "燃料發電機",
+  "desc": "你的M€產能降低1級，能源產能提升1級。"
+ },
+ "Ganymede Colony": {
+  "name": "木衛三殖民地",
+  "desc": "在「保留區」放置1個城市板塊。",
+  "vpText": [
+   "你每有1個木星標誌得1勝利點。"
+  ]
+ },
+ "Geothermal Power": {
+  "name": "地熱發電",
+  "desc": "你的能源產能提升2級。"
+ },
+ "GHG Factories": {
+  "name": "溫室氣體工廠",
+  "desc": "你的能源產能降低1級，熱能產能提升4級。"
+ },
+ "GHG Producing Bacteria": {
+  "name": "產溫室氣體細菌",
+  "actions": [
+   "在這張卡上放1個微生物。",
+   "移除2個微生物，使溫度提升1級。"
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "巨型冰小行星",
+  "desc": "溫度提升2級，並放置2個海洋板塊。從任一玩家移除至多6植物。"
+ },
+ "Giant Space Mirror": {
+  "name": "巨型太空鏡",
+  "desc": "你的能源產能提升3級。"
+ },
+ "Grass": {
+  "name": "草地",
+  "desc": "你的植物產能提升1級。獲得3植物。"
+ },
+ "Great Dam": {
+  "name": "大水壩",
+  "desc": "你的能源產能提升2級。"
+ },
+ "Greenhouses": {
+  "name": "溫室",
+  "desc": "場上每有1個城市板塊，獲得1植物。"
+ },
+ "Heather": {
+  "name": "石楠",
+  "desc": "你的植物產能提升1級。獲得1植物。"
+ },
+ "Heat Trappers": {
+  "name": "熱能捕集器",
+  "desc": "任一玩家的熱能產能降低2級，你的能源產能提升1級。"
+ },
+ "Herbivores": {
+  "name": "食草動物",
+  "desc": "這張卡上+1動物。任一玩家植物產能-1",
+  "effects": [
+   "你放置綠地板塊時，在這張卡上放1個動物。"
+  ],
+  "vpText": [
+   "這張卡上每2個動物得1勝利點。"
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "冰小行星",
+  "desc": "放置2個海洋板塊。"
+ },
+ "Ice Cap Melting": {
+  "name": "冰帽融化",
+  "desc": "放置1個海洋板塊。"
+ },
+ "Immigrant City": {
+  "name": "移民城市",
+  "desc": "你的能源產能降低1級，M€產能降低2級。放置1個城市板塊。",
+  "effects": [
+   "每當有城市板塊被放置時（含本卡），你的M€產能提升1級。"
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "移民太空梭",
+  "desc": "你的M€產能提升5級。",
+  "vpText": [
+   "場上每3座城市得1勝利點。"
+  ]
+ },
+ "Imported GHG": {
+  "name": "進口溫室氣體",
+  "desc": "你的熱能產能提升1級，並獲得3熱能。"
+ },
+ "Imported Hydrogen": {
+  "name": "進口氫",
+  "desc": "獲得3植物，或在「另一張」卡牌上放3個微生物或2個動物。放置1個海洋板塊。",
+  "orTitles": [
+   "獲得3植物",
+   "在「另一張」卡牌上放3個微生物",
+   "在「另一張」卡牌上放2個動物"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "進口氮",
+  "desc": "你的改造度提升1級，並獲得4植物。在「另一張」卡牌上放3個微生物，並在「另一張」卡牌上放2個動物。"
+ },
+ "Import of Advanced GHG": {
+  "name": "進口先進溫室氣體",
+  "desc": "你的熱能產能提升2級。"
+ },
+ "Industrial Microbes": {
+  "name": "工業微生物",
+  "desc": "你的能源產能與鋼鐵產能各提升1級。"
+ },
+ "Insects": {
+  "name": "昆蟲",
+  "desc": "你每有1個植物標誌，植物產能提升1級。"
+ },
+ "Insulation": {
+  "name": "隔熱",
+  "desc": "你的熱能產能降低任意級數，M€產能提升相同級數。"
+ },
+ "Ironworks": {
+  "name": "煉鐵廠",
+  "actions": [
+   "花費4能源，獲得1鋼鐵並使氧氣提升1級。"
+  ]
+ },
+ "Kelp Farming": {
+  "name": "海帶養殖",
+  "desc": "你的M€產能提升2級，植物產能提升3級。獲得2植物。"
+ },
+ "Lake Marineris": {
+  "name": "水手湖",
+  "desc": "放置2個海洋板塊。"
+ },
+ "Large Convoy": {
+  "name": "大型運輸船隊",
+  "desc": "放置1個海洋板塊並抽2張牌。獲得5植物，或在「另一張」卡牌上放4個動物。",
+  "orTitles": [
+   "獲得5植物",
+   "在「另一張」卡牌上放4個動物"
+  ]
+ },
+ "Lava Flows": {
+  "name": "熔岩流",
+  "desc": "溫度提升2級，並將此板塊放在「塔爾西斯山丘、艾斯克雷爾斯山、帕弗尼斯山或阿爾西亞山」其中之一。"
+ },
+ "Lichen": {
+  "name": "地衣",
+  "desc": "你的植物產能提升1級。"
+ },
+ "Livestock": {
+  "name": "家畜",
+  "desc": "你的植物產能降低1級，M€產能提升2級",
+  "actions": [
+   "在這張卡上放1個動物。"
+  ],
+  "vpText": [
+   "這張卡上每個動物得1勝利點。"
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "局部熱能捕集",
+  "desc": "花費5熱能，獲得4植物，或在「另一張」卡牌上放2個動物。",
+  "orTitles": [
+   "獲得4植物",
+   "在「另一張」卡牌上放2個動物"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "月球射束",
+  "desc": "你的M€產能降低2級，熱能產能與能源產能各提升2級。"
+ },
+ "Magnetic Field Dome": {
+  "name": "磁場穹頂",
+  "desc": "你的能源產能降低2級，植物產能提升1級。你的改造度提升1級。"
+ },
+ "Magnetic Field Generators": {
+  "name": "磁場產生器",
+  "desc": "你的能源產能降低4級，植物產能提升2級。你的改造度提升3級。"
+ },
+ "Mangrove": {
+  "name": "紅樹林",
+  "desc": "在「海洋保留區」放置1個綠地板塊，並使氧氣提升1級。此次放置不受一般放置限制。"
+ },
+ "Martian Rails": {
+  "name": "火星鐵路",
+  "actions": [
+   "花費1能源，「火星上」每有1個城市板塊，獲得1 M€。"
+  ]
+ },
+ "Methane From Titan": {
+  "name": "土衛六甲烷",
+  "desc": "你的熱能產能提升2級，植物產能提升2級。"
+ },
+ "Micro-Mills": {
+  "name": "微型磨坊",
+  "desc": "你的熱能產能提升1級。"
+ },
+ "Mining Expedition": {
+  "name": "採礦遠征",
+  "desc": "氧氣提升1級。從任一玩家移除2植物。獲得2鋼鐵。"
+ },
+ "Mining Rights": {
+  "name": "採礦權",
+  "desc": "將此板塊放在有鋼鐵或鈦放置獎勵的區域。該產能提升1級。"
+ },
+ "Mohole Area": {
+  "name": "莫霍鑽井區",
+  "desc": "你的熱能產能提升4級。將此板塊放在「海洋保留區」。"
+ },
+ "Moss": {
+  "name": "苔蘚",
+  "desc": "失去1植物。你的植物產能提升1級。"
+ },
+ "Natural Preserve": {
+  "name": "自然保留區",
+  "desc": "將此板塊放在「不與任何其他板塊相鄰」的位置。你的M€產能提升1級。"
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "亞硝酸還原菌",
+  "desc": "在這張卡上放3個微生物。",
+  "actions": [
+   "在這張卡上放1個微生物。",
+   "移除3個微生物，使你的改造度提升1級。"
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "富氮小行星",
+  "desc": "你的改造度提升2級，溫度提升1級。你的植物產能提升1級，若你有3個植物標誌則提升4級。"
+ },
+ "Nitrophilic Moss": {
+  "name": "嗜氮苔蘚",
+  "desc": "失去2植物。你的植物產能提升2級。"
+ },
+ "Noctis City": {
+  "name": "諾克提斯城",
+  "desc": "你的能源產能降低1級，M€產能提升3級。在「保留區」放置1個城市板塊，不受一般放置限制。"
+ },
+ "Noctis Farming": {
+  "name": "諾克提斯農場",
+  "desc": "你的M€產能提升1級，並獲得2植物。"
+ },
+ "Nuclear Power": {
+  "name": "核能發電",
+  "desc": "你的M€產能降低2級，能源產能提升3級。"
+ },
+ "Nuclear Zone": {
+  "name": "核子區",
+  "desc": "放置此板塊，並使溫度提升2級。"
+ },
+ "Open City": {
+  "name": "開放城市",
+  "desc": "獲得2植物。放置1個城市板塊。你的能源產能降低1級，M€產能提升4級。"
+ },
+ "Optimal Aerobraking": {
+  "name": "最佳空氣制動",
+  "effects": [
+   "你打出太空事件卡時，獲得3 M€與3熱能。"
+  ]
+ },
+ "Ore Processor": {
+  "name": "礦石處理機",
+  "actions": [
+   "花費4能源，獲得1鈦並使氧氣提升1級。"
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "永凍層開採",
+  "desc": "放置1個海洋板塊。"
+ },
+ "Peroxide Power": {
+  "name": "過氧化物發電",
+  "desc": "你的M€產能降低1級，能源產能提升2級。"
+ },
+ "Pets": {
+  "name": "寵物",
+  "desc": "在這張卡上放1個動物。",
+  "effects": [
+   "每當有任何城市板塊被放置時，在這張卡上放1個動物。"
+  ],
+  "vpText": [
+   "這裡每2個動物得1勝利點。"
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "火衛一太空港",
+  "desc": "你的鈦產能提升1級，並在「保留區」放置1個城市板塊。"
+ },
+ "Plantation": {
+  "name": "種植園",
+  "desc": "放置1個綠地板塊，並使氧氣提升1級。"
+ },
+ "Power Grid": {
+  "name": "電網",
+  "desc": "你每有1個電力標誌（含本卡），能源產能提升1級。"
+ },
+ "Power Plant": {
+  "name": "發電廠",
+  "desc": "你的能源產能提升1級。"
+ },
+ "Predators": {
+  "name": "掠食者",
+  "actions": [
+   "從任一卡牌移除1個動物，並放到這張卡上。"
+  ],
+  "vpText": [
+   "這張卡上每個動物得1勝利點。"
+  ]
+ },
+ "Protected Valley": {
+  "name": "受保護的山谷",
+  "desc": "你的M€產能提升2級。在「海洋保留區」放置1個綠地板塊，不受一般放置限制，並使氧氣提升1級。"
+ },
+ "Rad-Chem Factory": {
+  "name": "輻射化學工廠",
+  "desc": "你的能源產能降低1級。你的改造度提升2級。"
+ },
+ "Regolith Eaters": {
+  "name": "風化層吞噬者",
+  "actions": [
+   "在這張卡上放1個微生物。",
+   "從這張卡移除2個微生物，使氧氣提升1級。"
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "釋放惰性氣體",
+  "desc": "你的改造度提升2級。"
+ },
+ "Research Outpost": {
+  "name": "研究前哨站",
+  "desc": "在「不與任何其他板塊相鄰」的位置放置1個城市板塊。",
+  "effects": [
+   "你打出卡牌時，少支付1 M€。"
+  ]
+ },
+ "Rover Construction": {
+  "name": "探測車製造",
+  "effects": [
+   "每當有任何城市板塊被放置時，獲得2 M€。"
+  ]
+ },
+ "Search For Life": {
+  "name": "尋找生命",
+  "actions": [
+   "花費1 M€翻開抽牌堆頂的牌。若該牌有微生物標誌，在這裡放1個科學資源。"
+  ],
+  "vpText": [
+   "若這裡有1個以上的科學資源，得3勝利點。"
+  ]
+ },
+ "Shuttles": {
+  "name": "太空梭",
+  "desc": "你的能源產能降低1級，M€產能提升2級。",
+  "effects": [
+   "你打出太空卡時，少支付2 M€。"
+  ]
+ },
+ "Small Animals": {
+  "name": "小動物",
+  "desc": "任一玩家的植物產能降低1級。",
+  "actions": [
+   "在這張卡上放1個動物。"
+  ],
+  "vpText": [
+   "這張卡上每2個動物得1勝利點。"
+  ]
+ },
+ "Soil Factory": {
+  "name": "土壤工廠",
+  "desc": "你的能源產能降低1級，植物產能提升1級。"
+ },
+ "Solar Power": {
+  "name": "太陽能發電",
+  "desc": "你的能源產能提升1級。"
+ },
+ "Solar Wind Power": {
+  "name": "太陽風發電",
+  "desc": "你的能源產能提升1級，並獲得2鈦。"
+ },
+ "Soletta": {
+  "name": "太陽鏡陣",
+  "desc": "你的熱能產能提升7級。"
+ },
+ "Space Mirrors": {
+  "name": "太空鏡",
+  "actions": [
+   "花費7 M€，使你的能源產能提升1級。"
+  ]
+ },
+ "Special Design": {
+  "name": "特殊設計",
+  "desc": "本世代你打出的下一張牌，全球參數需求可+2或-2級，由你選擇。"
+ },
+ "Steelworks": {
+  "name": "煉鋼廠",
+  "actions": [
+   "花費4能源，獲得2鋼鐵並使氧氣提升1級。"
+  ]
+ },
+ "Strip Mine": {
+  "name": "露天礦場",
+  "desc": "你的能源產能降低2級。你的鋼鐵產能提升2級，鈦產能提升1級。氧氣提升2級。"
+ },
+ "Subterranean Reservoir": {
+  "name": "地下水庫",
+  "desc": "放置1個海洋板塊。"
+ },
+ "Symbiotic Fungus": {
+  "name": "共生真菌",
+  "actions": [
+   "在「另一張」卡牌上放1個微生物。"
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "地殼應力發電",
+  "desc": "你的能源產能提升3級。"
+ },
+ "Towing A Comet": {
+  "name": "拖曳彗星",
+  "desc": "獲得2植物。氧氣提升1級，並放置1個海洋板塊。"
+ },
+ "Trees": {
+  "name": "樹木",
+  "desc": "你的植物產能提升3級。獲得1植物。"
+ },
+ "Tundra Farming": {
+  "name": "凍原農業",
+  "desc": "你的植物產能提升1級，M€產能提升2級。獲得1植物。"
+ },
+ "Underground City": {
+  "name": "地下城市",
+  "desc": "放置1個城市板塊。你的能源產能降低2級，鋼鐵產能提升2級。"
+ },
+ "Underground Detonations": {
+  "name": "地下爆破",
+  "actions": [
+   "花費10M€，使你的熱能產能提升2級。"
+  ]
+ },
+ "Urbanized Area": {
+  "name": "都市化區域",
+  "desc": "你的能源產能降低1級，M€產能提升2級。在「與至少2個其他城市板塊相鄰」處放置1個城市板塊。"
+ },
+ "Water Import From Europa": {
+  "name": "木衛二進口水",
+  "actions": [
+   "支付12 M€放置1個海洋板塊。可如打出太空卡般「使用鈦」支付。"
+  ],
+  "vpText": [
+   "你每有1個木星標誌得1勝利點。"
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "水分解廠",
+  "actions": [
+   "花費3能源，使氧氣提升1級。"
+  ]
+ },
+ "Wave Power": {
+  "name": "波浪發電",
+  "desc": "你的能源產能提升1級。"
+ },
+ "Windmills": {
+  "name": "風車",
+  "desc": "你的能源產能提升1級。"
+ },
+ "Worms": {
+  "name": "蠕蟲",
+  "desc": "你每有2個微生物標誌（含本卡），植物產能提升1級。"
+ },
+ "Zeppelins": {
+  "name": "齊柏林飛船",
+  "desc": "「火星上」每有1個城市板塊，你的M€產能提升1級。"
+ },
+ "Saturn Systems": {
+  "name": "土星系統",
+  "desc": "你以1鈦產能與42 M€開始遊戲。",
+  "effects": [
+   "每當有任何木星標誌進場時（含本卡），你的M€產能提升1級。"
+  ]
+ },
+ "Teractor": {
+  "name": "特拉克特",
+  "desc": "你以60 M€開始遊戲。",
+  "effects": [
+   "你打出地球標誌時，少支付3 M€。"
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "長盛火星",
+  "desc": "你以3 M€產能與44 M€開始遊戲。",
+  "effects": [
+   "你打出建築標誌時，少支付2 M€。"
+  ]
+ },
+ "Point Luna": {
+  "name": "月球點",
+  "desc": "你以1鈦產能與38 M€開始遊戲。",
+  "effects": [
+   "你打出地球標誌時（含本卡），抽1張牌。"
+  ]
+ },
+ "Robinson Industries": {
+  "name": "魯賓遜工業",
+  "desc": "你以47 M€開始遊戲。",
+  "actions": [
+   "花費4 M€，使你「最低」的產能（其中之一）提升1級。"
+  ]
+ },
+ "Valley Trust": {
+  "name": "山谷信託",
+  "desc": "你以37 M€開始遊戲。首個行動：抽3張序章牌，打出其中1張，其餘2張棄掉。",
+  "effects": [
+   "你打出科學標誌時，少支付2M€。"
+  ]
+ },
+ "Vitor": {
+  "name": "維托",
+  "desc": "你以45 M€開始遊戲。首個行動：免費贊助1個獎項。",
+  "effects": [
+   "你打出勝利點圖示「非負」的卡牌時（含本卡），獲得3 M€。"
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "新手公司",
+  "desc": "你以42 M€開始遊戲。準備階段不用從10張牌中挑選，而是免費獲得這10張牌。"
+ },
+ "CrediCor": {
+  "name": "信貸集團",
+  "desc": "你以57 M€開始遊戲。",
+  "effects": [
+   "你支付基本費用20M€以上的卡牌或標準專案後，獲得4 M€。"
+  ]
+ },
+ "EcoLine": {
+  "name": "生態線",
+  "desc": "你以2植物產能、3植物與36 M€開始遊戲。",
+  "effects": [
+   "你放置綠地時，永遠可以只支付7植物而非8植物。"
+  ]
+ },
+ "Helion": {
+  "name": "赫利恩",
+  "desc": "你以3熱能產能與42 M€開始遊戲。",
+  "effects": [
+   "你可以把熱能當作M€使用。你不能把M€當作熱能使用。"
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "星際影業",
+  "desc": "你以20鋼鐵與30 M€開始遊戲。",
+  "effects": [
+   "每當你打出事件卡，獲得2 M€。"
+  ]
+ },
+ "Inventrix": {
+  "name": "因文崔克斯",
+  "desc": "遊戲中的首個行動：抽3張牌。以45 M€開始遊戲。",
+  "effects": [
+   "你的溫度、氧氣、海洋與金星需求可+2或-2級，每次由你選擇。"
+  ]
+ },
+ "Mining Guild": {
+  "name": "採礦公會",
+  "desc": "你以30 M€、5鋼鐵與1鋼鐵產能開始遊戲。",
+  "effects": [
+   "每當你在有鋼鐵或鈦放置獎勵的區域放置板塊，你的鋼鐵產能提升1級"
+  ]
+ },
+ "PhoboLog": {
+  "name": "火衛物流",
+  "desc": "你以10鈦與23 M€開始遊戲。",
+  "effects": [
+   "你的每個鈦資源額外價值1 M€。"
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "塔爾西斯共和國",
+  "desc": "你以40 M€開始遊戲。遊戲中的首個行動：放置1個城市板塊。",
+  "effects": [
+   "每當有任何城市板塊被放置在「火星上」，你的M€產能提升1級。你放置城市板塊時，獲得3 M€。"
+  ]
+ },
+ "Thorgate": {
+  "name": "索爾蓋特",
+  "desc": "你以1能源產能與48 M€開始遊戲。",
+  "effects": [
+   "打出電力卡「或標準專案發電廠」時，少支付3 M€。"
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "聯合國火星倡議",
+  "desc": "你以40 M€開始遊戲。",
+  "actions": [
+   "若你的改造度在本世代曾提升，你可以支付3 M€使其再提升1級。"
+  ]
+ },
+ "Allied Bank": {
+  "name": "聯合銀行",
+  "desc": "你的M€產能提升4級。獲得3 M€。"
+ },
+ "Biosphere Support": {
+  "name": "生物圈支援",
+  "desc": "你的植物產能提升2級。你的M€產能降低1級。"
+ },
+ "Aquifer Turbines": {
+  "name": "含水層渦輪",
+  "desc": "放置1個海洋板塊。你的能源產能提升2級。支付3 M€。"
+ },
+ "Mohole Excavation": {
+  "name": "莫霍鑽井開挖",
+  "desc": "你的鋼鐵產能提升1級，熱能產能提升2級。獲得2熱能。"
+ },
+ "Early Settlement": {
+  "name": "早期聚落",
+  "desc": "你的植物產能提升1級。放置1個城市板塊。"
+ },
+ "Biofuels": {
+  "name": "生質燃料",
+  "desc": "你的能源與植物產能各提升1級。獲得2植物。"
+ },
+ "Power Generation": {
+  "name": "發電",
+  "desc": "你的能源產能提升3級。"
+ },
+ "Self-Sufficient Settlement": {
+  "name": "自給自足聚落",
+  "desc": "你的M€產能提升2級。放置1個城市板塊。"
+ },
+ "Mining Operations": {
+  "name": "採礦作業",
+  "desc": "你的鋼鐵產能提升2級。獲得4鋼鐵。"
+ },
+ "UNMI Contractor": {
+  "name": "UNMI承包商",
+  "desc": "你的改造度提升3級。抽1張牌。"
+ },
+ "Dome Farming": {
+  "name": "穹頂農場",
+  "desc": "你的M€產能提升2級，植物產能提升1級。"
+ },
+ "Business Empire": {
+  "name": "商業帝國",
+  "desc": "你的M€產能提升6級。支付6 M€。"
+ },
+ "Donation": {
+  "name": "捐款",
+  "desc": "獲得21 M€。"
+ },
+ "Nitrogen Shipment": {
+  "name": "氮運輸",
+  "desc": "你的植物產能提升1級。你的改造度提升1級。獲得5 M€。"
+ },
+ "Smelting Plant": {
+  "name": "冶煉廠",
+  "desc": "氧氣提升2級。獲得5鋼鐵。"
+ },
+ "Supplier": {
+  "name": "供應商",
+  "desc": "你的能源產能提升2級。獲得4鋼鐵。"
+ },
+ "Supply Drop": {
+  "name": "物資空投",
+  "desc": "獲得3鈦、8鋼鐵與3植物。"
+ },
+ "Great Aquifer": {
+  "name": "大含水層",
+  "desc": "放置2個海洋板塊。"
+ },
+ "Biolab": {
+  "name": "生物實驗室",
+  "desc": "你的植物產能提升1級。抽3張牌。"
+ },
+ "Martian Industries": {
+  "name": "火星工業",
+  "desc": "你的能源與鋼鐵產能各提升1級。獲得6 M€。"
+ },
+ "Io Research Outpost": {
+  "name": "木衛一研究前哨站",
+  "desc": "你的鈦產能提升1級。抽1張牌。"
+ },
+ "Polar Industries": {
+  "name": "極地工業",
+  "desc": "你的熱能產能提升2級。放置1個海洋板塊。"
+ },
+ "Society Support": {
+  "name": "社會支援",
+  "desc": "你的植物、能源與熱能產能各提升1級。M€產能降低1級。"
+ },
+ "Galilean Mining": {
+  "name": "伽利略衛星採礦",
+  "desc": "你的鈦產能提升2級。支付5 M€。"
+ },
+ "Huge Asteroid": {
+  "name": "巨型小行星",
+  "desc": "溫度提升3級。支付5 M€。"
+ },
+ "Metals Company": {
+  "name": "金屬公司",
+  "desc": "你的M€、鋼鐵與鈦產能各提升1級。"
+ },
+ "Loan": {
+  "name": "貸款",
+  "desc": "獲得30 M€。你的M€產能降低2級。"
+ },
+ "Mohole": {
+  "name": "莫霍鑽井",
+  "desc": "你的熱能產能提升3級。獲得3熱能。"
+ },
+ "Metal-Rich Asteroid": {
+  "name": "富金屬小行星",
+  "desc": "溫度提升1級。獲得4鈦與4鋼鐵。"
+ },
+ "Orbital Construction Yard": {
+  "name": "軌道建造場",
+  "desc": "你的鈦產能提升1級。獲得4鈦。"
+ },
+ "Acquired Space Agency": {
+  "name": "收購的太空機構",
+  "desc": "獲得6鈦。持續翻牌，直到翻出兩張有太空標誌的牌。將它們加入手牌，其餘棄掉。"
+ },
+ "Research Network": {
+  "name": "研究網路",
+  "desc": "你的M€產能提升1級。抽3張牌。打出後，當你執行行動時，萬用標誌可視為你選擇的任一標誌。"
+ },
+ "Eccentric Sponsor": {
+  "name": "古怪的贊助者",
+  "desc": "從手牌打出1張牌，享有25 M€折扣。"
+ },
+ "Ecology Experts": {
+  "name": "生態專家",
+  "desc": "你的植物產能提升1級。從手牌打出1張牌，無視全球參數需求。"
+ },
+ "Experimental Forest": {
+  "name": "實驗林",
+  "desc": "放置1個綠地板塊，並使氧氣提升1級。持續翻牌，直到翻出兩張有植物標誌的牌。將它們加入手牌，其餘棄掉。"
+ }
+}

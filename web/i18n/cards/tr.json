@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Satın Alınan Şirket",
+  "desc": "M€ üretimini 3 adım artır."
+ },
+ "Advanced Alloys": {
+  "name": "Gelişmiş Alaşımlar",
+  "effects": [
+   "Sahip olduğun her titanyum 1 M€ fazla değerindedir.",
+   "Sahip olduğun her çelik 1 M€ fazla değerindedir."
+  ]
+ },
+ "AI Central": {
+  "name": "Yapay Zekâ Merkezi",
+  "desc": "Enerji üretimini 1 adım azalt.",
+  "actions": [
+   "2 kart çek."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Yerçekimi Karşıtı Teknoloji",
+  "effects": [
+   "Bir kart oynadığında onun için 2 M€ daha az ödersin."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroit Madenciliği Konsorsiyumu",
+  "desc": "Herhangi bir titanyum üretimini 1 adım azalt, kendininkini 1 adım artır."
+ },
+ "Bribed Committee": {
+  "name": "Rüşvetçi Komite",
+  "desc": "TR'ni 2 adım yükselt."
+ },
+ "Building Industries": {
+  "name": "İnşaat Sanayii",
+  "desc": "Enerji üretimini 1 adım azalt, çelik üretimini 2 adım artır."
+ },
+ "Business Contacts": {
+  "name": "İş Bağlantıları",
+  "desc": "Destenin en üstündeki 4 karta bak. 2 tanesini eline al, kalanları at."
+ },
+ "Business Network": {
+  "name": "İş Ağı",
+  "desc": "M€ üretimini 1 adım azalt.",
+  "actions": [
+   "En üstteki karta bak; ya satın al ya da at."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Callisto Ceza Madenleri",
+  "desc": "M€ üretimini 3 adım artır."
+ },
+ "Caretaker Contract": {
+  "name": "Bakım Sözleşmesi",
+  "actions": [
+   "8 ısı harcayarak TR'ni 1 adım yükselt."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Bu dahil sahip olduğun her Dünya etiketi için M€ üretimini 1 adım artır."
+ },
+ "CEO's Favorite Project": {
+  "name": "CEO'nun Gözde Projesi",
+  "desc": "Zaten en az 1 kaynağı olan kartlarından birine 1 kaynak ekle."
+ },
+ "Commercial District": {
+  "name": "Ticaret Bölgesi",
+  "desc": "Bu karoyu yerleştir. Enerji üretimini 1 adım azalt, M€ üretimini 4 adım artır.",
+  "vpText": [
+   "Bitişik her şehir karosu için 1 ZP."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Şirket Kalesi",
+  "desc": "Enerji üretimini 1 adım azalt, M€ üretimini 3 adım artır. Bir şehir karosu yerleştir."
+ },
+ "Development Center": {
+  "name": "Geliştirme Merkezi",
+  "actions": [
+   "1 enerji harcayarak bir kart çek."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Dünya Mancınığı",
+  "effects": [
+   "Bir kart oynadığında onun için 2 M€ daha az ödersin."
+  ]
+ },
+ "Earth Office": {
+  "name": "Dünya Ofisi",
+  "effects": [
+   "Bir Dünya etiketi oynadığında onun için 3 M€ daha az ödersin."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektro Mancınık",
+  "desc": "Enerji üretimini 1 adım azalt.",
+  "actions": [
+   "1 bitki veya 1 çelik harcayarak 7 M€ kazan."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Enerji Hırsızlığı",
+  "desc": "Herhangi bir enerji üretimini 1 adım azalt, kendininkini 1 adım artır."
+ },
+ "Fuel Factory": {
+  "name": "Yakıt Fabrikası",
+  "desc": "Enerji üretimini 1 adım azalt; titanyum ve M€ üretimini 1'er adım artır."
+ },
+ "Gene Repair": {
+  "name": "Gen Onarımı",
+  "desc": "M€ üretimini 2 adım artır."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Büyük Yarlar Konsorsiyumu",
+  "desc": "Herhangi bir çelik üretimini 1 adım azalt, kendininkini 1 adım artır."
+ },
+ "Hackers": {
+  "name": "Hackerlar",
+  "desc": "Enerji üretimini 1 adım ve herhangi bir M€ üretimini 2 adım azalt. M€ üretimini 2 adım artır."
+ },
+ "Hired Raiders": {
+  "name": "Kiralık Akıncılar",
+  "desc": "Herhangi bir oyuncudan en fazla 2 çelik veya 3 M€ çal."
+ },
+ "Indentured Workers": {
+  "name": "Sözleşmeli İşçiler",
+  "desc": "Bu nesilde oynayacağın bir sonraki kart 8 M€ daha ucuzdur."
+ },
+ "Industrial Center": {
+  "name": "Sanayi Merkezi",
+  "desc": "Bu karoyu bir şehir karosuna bitişik yerleştir.",
+  "actions": [
+   "7 M€ harcayarak çelik üretimini 1 adım artır."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Yıldızlararası Koloni Gemisi"
+ },
+ "Invention Contest": {
+  "name": "Buluş Yarışması",
+  "desc": "Destenin en üstündeki 3 karta bak. 1 tanesini eline al, kalanları at."
+ },
+ "Inventors' Guild": {
+  "name": "Mucitler Loncası",
+  "actions": [
+   "En üstteki karta bak; ya satın al ya da at."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Yatırım Kredisi",
+  "desc": "M€ üretimini 1 adım azalt. 10 M€ kazan."
+ },
+ "Io Mining Industries": {
+  "name": "Io Madencilik Sanayii",
+  "desc": "Titanyum üretimini 2 adım ve M€ üretimini 2 adım artır.",
+  "vpText": [
+   "Sahip olduğun her Jüpiter etiketi için 1 ZP."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagrange Gözlemevi",
+  "desc": "1 kart çek."
+ },
+ "Land Claim": {
+  "name": "Arazi Talebi",
+  "desc": "Ayrılmamış bir alanı kendine ayır: oraya yalnızca sen karo yerleştirebilirsin."
+ },
+ "Lightning Harvest": {
+  "name": "Yıldırım Hasadı",
+  "desc": "Enerji ve M€ üretimini birer adım artır."
+ },
+ "Mars University": {
+  "name": "Mars Üniversitesi",
+  "effects": [
+   "Bu dahil bir bilim etiketi oynadığında, elinden bir kart atıp bir kart çekebilirsin."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Kütle Dönüştürücü",
+  "desc": "Enerji üretimini 6 adım artır.",
+  "effects": [
+   "Bir uzay kartı oynadığında onun için 2 M€ daha az ödersin."
+  ]
+ },
+ "Media Archives": {
+  "name": "Medya Arşivleri",
+  "desc": "Tüm oyuncuların ŞİMDİYE DEK OYNADIĞI her olay için 1 M€ kazan."
+ },
+ "Media Group": {
+  "name": "Medya Grubu",
+  "effects": [
+   "Bir olay kartı oynadıktan sonra 3 M€ kazanırsın."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Tıp Laboratuvarı",
+  "desc": "Bu dahil sahip olduğun her 2 bina etiketi için M€ üretimini 1 adım artır."
+ },
+ "Mine": {
+  "name": "Maden",
+  "desc": "Çelik üretimini 1 adım artır."
+ },
+ "Mineral Deposit": {
+  "name": "Maden Yatağı",
+  "desc": "5 çelik kazan."
+ },
+ "Mining Area": {
+  "name": "Madencilik Alanı",
+  "desc": "Bu karoyu, çelik veya titanyum yerleştirme bonusu olan ve başka bir karona bitişik bir alana yerleştir. O kaynağın üretimini 1 adım artır."
+ },
+ "Miranda Resort": {
+  "name": "Miranda Tatil Köyü",
+  "desc": "Sahip olduğun her Dünya etiketi için M€ üretimini 1 adım artır."
+ },
+ "Olympus Conference": {
+  "name": "Olympus Konferansı",
+  "desc": "Bu dahil bir bilim etiketi oynadığında, ya bu karta bir bilim kaynağı ekle ya da bu karttan bir bilim kaynağı çıkararak bir kart çek."
+ },
+ "Physics Complex": {
+  "name": "Fizik Kompleksi",
+  "actions": [
+   "6 enerji harcayarak bu karta bir bilim kaynağı ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her bilim kaynağı için 2 ZP."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Enerji Altyapısı",
+  "actions": [
+   "İstediğin miktarda enerji harca ve o miktarda M€ kazan."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Enerji Tedarik Konsorsiyumu",
+  "desc": "Herhangi bir enerji üretimini 1 adım azalt, kendininkini 1 adım artır."
+ },
+ "Protected Habitats": {
+  "name": "Korunan Yaşam Alanları",
+  "effects": [
+   "Rakipler bitkilerini, hayvanlarını veya mikroplarını çıkaramaz."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kuantum Çıkarıcı",
+  "desc": "Enerji üretimini 4 adım artır.",
+  "effects": [
+   "Bir uzay kartı oynadığında onun için 2 M€ daha az ödersin."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Radyasyon Giysileri",
+  "desc": "M€ üretimini 1 adım artır."
+ },
+ "Research": {
+  "name": "Araştırma",
+  "desc": "2 bilim kartı oynamış sayılırsın. 2 kart çek."
+ },
+ "Restricted Area": {
+  "name": "Yasak Bölge",
+  "desc": "Bu karoyu yerleştir.",
+  "actions": [
+   "2 M€ harcayarak bir kart çek."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robot İşgücü",
+  "desc": "Bina kartlarından birinin yalnızca üretim kutusunu kopyala."
+ },
+ "Sabotage": {
+  "name": "Sabotaj",
+  "desc": "Herhangi bir oyuncudan en fazla 3 titanyum ya da 4 çelik ya da 7 M€ çıkar."
+ },
+ "Satellites": {
+  "name": "Uydular",
+  "desc": "Bu dahil sahip olduğun her uzay etiketi için M€ üretimini 1 adım artır."
+ },
+ "Security Fleet": {
+  "name": "Güvenlik Filosu",
+  "actions": [
+   "1 titanyum harcayarak bu karta 1 savaşçı kaynağı ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her savaşçı kaynağı için 1 ZP."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Uzay Asansörü",
+  "desc": "Titanyum üretimini 1 adım artır.",
+  "actions": [
+   "1 çelik harcayarak 5 M€ kazan."
+  ]
+ },
+ "Space Station": {
+  "name": "Uzay İstasyonu",
+  "effects": [
+   "Bir uzay kartı oynadığında onun için 2 M€ daha az ödersin."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsorlar",
+  "desc": "M€ üretimini 2 adım artır."
+ },
+ "Standard Technology": {
+  "name": "Standart Teknoloji",
+  "effects": [
+   "Patent satışı hariç bir standart proje için ödeme yaptıktan sonra 3 M€ kazanırsın."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigradlar",
+  "actions": [
+   "Bu karta 1 mikrop ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her 4 mikrop için 1 ZP."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Teknoloji Gösterisi",
+  "desc": "İki kart çek."
+ },
+ "Terraforming Ganymede": {
+  "name": "Ganymede'yi Dönüştürmek",
+  "desc": "Bu dahil sahip olduğun her Jüpiter etiketi için TR'ni 1 adım yükselt."
+ },
+ "Titanium Mine": {
+  "name": "Titanyum Madeni",
+  "desc": "Titanyum üretimini 1 adım artır."
+ },
+ "Toll Station": {
+  "name": "Gişe İstasyonu",
+  "desc": "RAKİPLERİNİN sahip olduğu her uzay etiketi için M€ üretimini 1 adım artır."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Neptün Ötesi Sondası",
+  "desc": "Bir derin uzay sondası: 1 ZP değerinde."
+ },
+ "Tropical Resort": {
+  "name": "Tropik Tatil Köyü",
+  "desc": "Isı üretimini 2 adım azalt, M€ üretimini 3 adım artır."
+ },
+ "Vesta Shipyard": {
+  "name": "Vesta Tersanesi",
+  "desc": "Titanyum üretimini 1 adım artır."
+ },
+ "Viral Enhancers": {
+  "name": "Viral Güçlendiriciler",
+  "effects": [
+   "Bu dahil bir bitki, mikrop veya hayvan etiketi oynadığında 1 bitki kazan ya da O KARTA 1 kaynak ekle."
+  ]
+ },
+ "Virus": {
+  "name": "Virüs",
+  "desc": "Herhangi bir oyuncudan en fazla 2 hayvan veya 5 bitki çıkar."
+ },
+ "SF Memorial": {
+  "name": "Bilimkurgu Anıtı",
+  "desc": "1 kart çek."
+ },
+ "House Printing": {
+  "name": "Ev Baskısı",
+  "desc": "Çelik üretimini 1 adım artır."
+ },
+ "Space Hotels": {
+  "name": "Uzay Otelleri",
+  "desc": "M€ üretimini 4 adım artır."
+ },
+ "Martian Survey": {
+  "name": "Mars Araştırması",
+  "desc": "İki kart çek."
+ },
+ "Research Coordination": {
+  "name": "Araştırma Koordinasyonu",
+  "desc": "Oynandıktan sonra, bir eylem yaptığında joker etiket seçtiğin herhangi bir etiket sayılır."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lav Tüpü Yerleşimi",
+  "desc": "Enerji üretimini 1 adım azalt, M€ üretimini 2 adım artır. Bitişik şehirlerden bağımsız olarak bir VOLKANİK ALANA şehir karosu yerleştir."
+ },
+ "Psychrophiles": {
+  "name": "Psikrofiller",
+  "actions": [
+   "Bu karta 1 mikrop ekle."
+  ],
+  "effects": [
+   "Bir bitki kartı için ödeme yaparken buradaki mikroplar tanesi 2 M€ olarak kullanılabilir."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Uyum Teknolojisi",
+  "effects": [
+   "Küresel gereksinimlerin, her biri için senin seçiminle +2 veya -2 adımdır."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Uyarlanmış Liken",
+  "desc": "Bitki üretimini 1 adım artır."
+ },
+ "Advanced Ecosystems": {
+  "name": "Gelişmiş Ekosistemler"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aerofrenli Amonyak Asteroidi",
+  "desc": "Isı üretimini 3 adım, bitki üretimini 1 adım artır. BAŞKA bir karta 2 mikrop ekle."
+ },
+ "Ants": {
+  "name": "Karıncalar",
+  "actions": [
+   "Herhangi bir karttan 1 mikrop çıkararak bu karta 1 ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her 2 mikrop için 1 ZP."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Akifer Pompalama",
+  "actions": [
+   "8 M€ harcayarak 1 okyanus karosu yerleştir. Bina kartı oynuyormuş gibi ÇELİK KULLANILABİLİR."
+  ]
+ },
+ "Algae": {
+  "name": "Algler",
+  "desc": "1 bitki kazan ve bitki üretimini 2 adım artır."
+ },
+ "ArchaeBacteria": {
+  "name": "Arkebakteriler",
+  "desc": "Bitki üretimini 1 adım artır."
+ },
+ "Arctic Algae": {
+  "name": "Kutup Algleri",
+  "desc": "1 bitki kazan.",
+  "effects": [
+   "Herhangi biri okyanus karosu yerleştirdiğinde 2 bitki kazan."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Yapay Göl",
+  "desc": "OKYANUSA AYRILMAMIŞ BİR ALANA 1 okyanus karosu yerleştir."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Yapay Fotosentez",
+  "desc": "Bitki üretimini 1 adım veya enerji üretimini 2 adım artır.",
+  "orTitles": [
+   "Enerji üretimini 2 adım artır",
+   "Bitki üretimini 1 adım artır"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroit",
+  "desc": "Sıcaklığı 1 adım yükselt ve 2 titanyum kazan. Herhangi bir oyuncudan en fazla 3 bitki çıkar."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroit Madenciliği",
+  "desc": "Titanyum üretimini 2 adım artır."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Toryum Asteroidinden Işın",
+  "desc": "Isı ve enerji üretimini 3'er adım artır."
+ },
+ "Big Asteroid": {
+  "name": "Büyük Asteroit",
+  "desc": "Sıcaklığı 2 adım yükselt ve 4 titanyum kazan. Herhangi bir oyuncudan en fazla 4 bitki çıkar."
+ },
+ "Biomass Combustors": {
+  "name": "Biyokütle Yakıcılar",
+  "desc": "Herhangi bir bitki üretimini 1 adım azalt, enerji üretimini 2 adım artır."
+ },
+ "Birds": {
+  "name": "Kuşlar",
+  "desc": "Herhangi bir bitki üretimini 2 adım azalt. Bu karttaki her hayvan için 1 ZP.",
+  "actions": [
+   "Bu karta bir hayvan ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her hayvan için 1 ZP."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Kara Kutup Tozu",
+  "desc": "Bir okyanus karosu yerleştir. M€ üretimini 2 adım azalt, ısı üretimini 3 adım artır."
+ },
+ "Breathing Filters": {
+  "name": "Solunum Filtreleri"
+ },
+ "Bushes": {
+  "name": "Çalılar",
+  "desc": "Bitki üretimini 2 adım artır. 2 bitki kazan."
+ },
+ "Capital": {
+  "name": "Başkent",
+  "desc": "Bu karoyu yerleştir. Enerji üretimini 2 adım azalt, M€ üretimini 5 adım artır.",
+  "vpText": [
+   "Bu şehir karosuna bitişik her okyanus karosu için 1 ek ZP."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonat İşleme",
+  "desc": "Enerji üretimini 1 adım azalt, ısı üretimini 3 adım artır."
+ },
+ "Cloud Seeding": {
+  "name": "Bulut Tohumlama",
+  "desc": "M€ üretimini 1 adım ve herhangi bir ısı üretimini 1 adım azalt. Bitki üretimini 2 adım artır."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kolonici Eğitim Kampı"
+ },
+ "Comet": {
+  "name": "Kuyruklu Yıldız",
+  "desc": "Sıcaklığı 1 adım yükselt ve bir okyanus karosu yerleştir. Herhangi bir oyuncudan en fazla 3 bitki çıkar."
+ },
+ "Convoy From Europa": {
+  "name": "Europa'dan Konvoy",
+  "desc": "1 okyanus karosu yerleştir ve 1 kart çek."
+ },
+ "Cupola City": {
+  "name": "Kubbe Şehir",
+  "desc": "Bir şehir karosu yerleştir. Enerji üretimini 1 adım azalt, M€ üretimini 3 adım artır."
+ },
+ "Decomposers": {
+  "name": "Ayrıştırıcılar",
+  "effects": [
+   "Bu dahil bir hayvan, bitki veya mikrop etiketi oynadığında bu karta bir mikrop ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her 3 mikrop için 1 ZP."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Derin Kuyu Isıtma",
+  "desc": "Enerji üretimini 1 adım artır. Sıcaklığı 1 adım yükselt."
+ },
+ "Deimos Down": {
+  "name": "Deimos Düşüşü",
+  "desc": "Sıcaklığı 3 adım yükselt ve 4 çelik kazan. Herhangi bir oyuncudan en fazla 8 bitki çıkar."
+ },
+ "Designed Microorganisms": {
+  "name": "Tasarım Mikroorganizmalar",
+  "desc": "Bitki üretimini 2 adım artır."
+ },
+ "Domed Crater": {
+  "name": "Kubbeli Krater",
+  "desc": "3 bitki kazan. Bir şehir karosu yerleştir. Enerji üretimini 1 adım azalt, M€ üretimini 3 adım artır."
+ },
+ "Dust Seals": {
+  "name": "Toz Contaları"
+ },
+ "Ecological Zone": {
+  "name": "Ekolojik Bölge",
+  "desc": "Bu karoyu HERHANGİ bir yeşil alana bitişik yerleştir.",
+  "effects": [
+   "BUNLAR DAHİL bir hayvan veya bitki etiketi oynadığında bu karta bir hayvan ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her 2 hayvan için 1 ZP."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Enerji Tasarrufu",
+  "desc": "Oyundaki her şehir karosu için enerji üretimini 1 adım artır."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos Chasma Milli Parkı",
+  "desc": "HERHANGİ BİR HAYVAN KARTINA 1 hayvan ekle. 3 bitki kazan. M€ üretimini 2 adım artır."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Ekvator Mıknatıslayıcı",
+  "actions": [
+   "Enerji üretimini 1 adım azaltarak TR'ni 1 adım yükselt."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Aşırı Soğuk Mantarı",
+  "actions": [
+   "1 bitki kazan.",
+   "BAŞKA bir karta 2 mikrop ekle."
+  ]
+ },
+ "Farming": {
+  "name": "Tarım",
+  "desc": "M€ üretimini 2 adım ve bitki üretimini 2 adım artır. 2 bitki kazan."
+ },
+ "Fish": {
+  "name": "Balıklar",
+  "desc": "Herhangi bir bitki üretimini 1 adım azalt.",
+  "actions": [
+   "Bu karta 1 hayvan ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her hayvan için 1 ZP."
+  ]
+ },
+ "Flooding": {
+  "name": "Sel",
+  "desc": "Bir okyanus karosu yerleştir. BU OKYANUS KAROSUNA BİTİŞİK KAROLAR VARSA, BU KAROLARDAN BİRİNİN SAHİBİNDEN 4 M€ ÇIKARABİLİRSİN."
+ },
+ "Food Factory": {
+  "name": "Gıda Fabrikası",
+  "desc": "Bitki üretimini 1 adım azalt, M€ üretimini 4 adım artır."
+ },
+ "Fusion Power": {
+  "name": "Füzyon Enerjisi",
+  "desc": "Enerji üretimini 3 adım artır."
+ },
+ "Fueled Generators": {
+  "name": "Yakıtlı Jeneratörler",
+  "desc": "M€ üretimini 1 adım azalt, enerji üretimini 1 adım artır."
+ },
+ "Ganymede Colony": {
+  "name": "Ganymede Kolonisi",
+  "desc": "AYRILMIŞ ALANA bir şehir karosu yerleştir.",
+  "vpText": [
+   "Sahip olduğun her Jüpiter etiketi için 1 ZP."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Jeotermal Enerji",
+  "desc": "Enerji üretimini 2 adım artır."
+ },
+ "GHG Factories": {
+  "name": "Sera Gazı Fabrikaları",
+  "desc": "Enerji üretimini 1 adım azalt, ısı üretimini 4 adım artır."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Sera Gazı Üreten Bakteriler",
+  "actions": [
+   "Bu karta 1 mikrop ekle.",
+   "2 mikrop çıkararak sıcaklığı 1 adım yükselt."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Dev Buz Asteroidi",
+  "desc": "Sıcaklığı 2 adım yükselt ve 2 okyanus karosu yerleştir. Herhangi bir oyuncudan en fazla 6 bitki çıkar."
+ },
+ "Giant Space Mirror": {
+  "name": "Dev Uzay Aynası",
+  "desc": "Enerji üretimini 3 adım artır."
+ },
+ "Grass": {
+  "name": "Çimen",
+  "desc": "Bitki üretimini 1 adım artır. 3 bitki kazan."
+ },
+ "Great Dam": {
+  "name": "Büyük Baraj",
+  "desc": "Enerji üretimini 2 adım artır."
+ },
+ "Greenhouses": {
+  "name": "Seralar",
+  "desc": "Oyundaki her şehir karosu için 1 bitki kazan."
+ },
+ "Heather": {
+  "name": "Funda",
+  "desc": "Bitki üretimini 1 adım artır. 1 bitki kazan."
+ },
+ "Heat Trappers": {
+  "name": "Isı Tuzakları",
+  "desc": "Herhangi bir ısı üretimini 2 adım azalt, enerji üretimini 1 adım artır."
+ },
+ "Herbivores": {
+  "name": "Otoburlar",
+  "desc": "Bu karta +1 hayvan. Herhangi bir bitki üretimi -1",
+  "effects": [
+   "Bir yeşil alan karosu yerleştirdiğinde bu karta bir hayvan ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her 2 hayvan için 1 ZP."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Buz Asteroidi",
+  "desc": "2 okyanus karosu yerleştir."
+ },
+ "Ice Cap Melting": {
+  "name": "Buzul Erimesi",
+  "desc": "1 okyanus karosu yerleştir."
+ },
+ "Immigrant City": {
+  "name": "Göçmen Şehri",
+  "desc": "Enerji üretimini 1 adım ve M€ üretimini 2 adım azalt. Bir şehir karosu yerleştir.",
+  "effects": [
+   "Bu dahil bir şehir karosu yerleştirildiğinde M€ üretimini 1 adım artır."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Göçmen Mekikleri",
+  "desc": "M€ üretimini 5 adım artır.",
+  "vpText": [
+   "Oyundaki her 3 şehir için 1 ZP."
+  ]
+ },
+ "Imported GHG": {
+  "name": "İthal Sera Gazı",
+  "desc": "Isı üretimini 1 adım artır ve 3 ısı kazan."
+ },
+ "Imported Hydrogen": {
+  "name": "İthal Hidrojen",
+  "desc": "3 bitki kazan ya da BAŞKA bir karta 3 mikrop veya 2 hayvan ekle. Bir okyanus karosu yerleştir.",
+  "orTitles": [
+   "3 bitki kazan",
+   "BAŞKA bir karta 3 mikrop ekle",
+   "BAŞKA bir karta 2 hayvan ekle"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "İthal Azot",
+  "desc": "TR'ni 1 adım yükselt ve 4 bitki kazan. BAŞKA bir karta 3 mikrop, BAŞKA bir karta 2 hayvan ekle."
+ },
+ "Import of Advanced GHG": {
+  "name": "Gelişmiş Sera Gazı İthalatı",
+  "desc": "Isı üretimini 2 adım artır."
+ },
+ "Industrial Microbes": {
+  "name": "Endüstriyel Mikroplar",
+  "desc": "Enerji ve çelik üretimini 1'er adım artır."
+ },
+ "Insects": {
+  "name": "Böcekler",
+  "desc": "Sahip olduğun her bitki etiketi için bitki üretimini 1 adım artır."
+ },
+ "Insulation": {
+  "name": "Yalıtım",
+  "desc": "Isı üretimini istediğin kadar adım azalt, M€ üretimini aynı sayıda adım artır."
+ },
+ "Ironworks": {
+  "name": "Demirhane",
+  "actions": [
+   "4 enerji harcayarak 1 çelik kazan ve oksijeni 1 adım yükselt."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Deniz Yosunu Tarımı",
+  "desc": "M€ üretimini 2 adım, bitki üretimini 3 adım artır. 2 bitki kazan."
+ },
+ "Lake Marineris": {
+  "name": "Marineris Gölü",
+  "desc": "2 okyanus karosu yerleştir."
+ },
+ "Large Convoy": {
+  "name": "Büyük Konvoy",
+  "desc": "Bir okyanus karosu yerleştir ve 2 kart çek. 5 bitki kazan ya da BAŞKA bir karta 4 hayvan ekle.",
+  "orTitles": [
+   "5 bitki kazan",
+   "BAŞKA bir karta 4 hayvan ekle"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lav Akıntıları",
+  "desc": "Sıcaklığı 2 adım yükselt ve bu karoyu THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS VEYA ARSIA MONS'TAN BİRİNE yerleştir."
+ },
+ "Lichen": {
+  "name": "Liken",
+  "desc": "Bitki üretimini 1 adım artır."
+ },
+ "Livestock": {
+  "name": "Hayvancılık",
+  "desc": "Bitki üretimini 1 adım azalt, M€ üretimini 2 adım artır.",
+  "actions": [
+   "Bu karta 1 hayvan ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her hayvan için 1 ZP."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Yerel Isı Hapsetme",
+  "desc": "5 ısı harcayarak 4 bitki kazan ya da BAŞKA bir karta 2 hayvan ekle.",
+  "orTitles": [
+   "4 bitki kazan",
+   "BAŞKA bir karta 2 hayvan ekle"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Ay Işını",
+  "desc": "M€ üretimini 2 adım azalt, ısı ve enerji üretimini 2'şer adım artır."
+ },
+ "Magnetic Field Dome": {
+  "name": "Manyetik Alan Kubbesi",
+  "desc": "Enerji üretimini 2 adım azalt, bitki üretimini 1 adım artır. TR'ni 1 adım yükselt."
+ },
+ "Magnetic Field Generators": {
+  "name": "Manyetik Alan Jeneratörleri",
+  "desc": "Enerji üretimini 4 adım azalt, bitki üretimini 2 adım artır. TR'ni 3 adım yükselt."
+ },
+ "Mangrove": {
+  "name": "Mangrov",
+  "desc": "OKYANUSA AYRILMIŞ BİR ALANA bir yeşil alan karosu yerleştir ve oksijeni 1 adım yükselt. Bunun için normal yerleştirme kısıtlamalarını yok say."
+ },
+ "Martian Rails": {
+  "name": "Mars Demiryolları",
+  "actions": [
+   "1 enerji harcayarak MARS'TAKİ her şehir karosu için 1 M€ kazan."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Titan'dan Metan",
+  "desc": "Isı üretimini 2 adım ve bitki üretimini 2 adım artır."
+ },
+ "Micro-Mills": {
+  "name": "Mikro Değirmenler",
+  "desc": "Isı üretimini 1 adım artır."
+ },
+ "Mining Expedition": {
+  "name": "Madencilik Seferi",
+  "desc": "Oksijeni 1 adım yükselt. Herhangi bir oyuncudan 2 bitki çıkar. 2 çelik kazan."
+ },
+ "Mining Rights": {
+  "name": "Maden Hakları",
+  "desc": "Bu karoyu çelik veya titanyum yerleştirme bonusu olan bir alana yerleştir. O üretimi 1 adım artır."
+ },
+ "Mohole Area": {
+  "name": "Mohole Alanı",
+  "desc": "Isı üretimini 4 adım artır. Bu karoyu OKYANUSA AYRILMIŞ BİR ALANA yerleştir."
+ },
+ "Moss": {
+  "name": "Yosun",
+  "desc": "1 bitki kaybet. Bitki üretimini 1 adım artır."
+ },
+ "Natural Preserve": {
+  "name": "Doğal Koruma Alanı",
+  "desc": "Bu karoyu BAŞKA HİÇBİR KAROYA BİTİŞİK OLMAYAN bir yere yerleştir. M€ üretimini 1 adım artır."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitrit İndirgeyen Bakteriler",
+  "desc": "Bu karta 3 mikrop ekle.",
+  "actions": [
+   "Bu karta 1 mikrop ekle.",
+   "3 mikrop çıkararak TR'ni 1 adım yükselt."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Azotça Zengin Asteroit",
+  "desc": "TR'ni 2 adım, sıcaklığı 1 adım yükselt. Bitki üretimini 1 adım artır; 3 bitki etiketin varsa 4 adım artır."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofilik Yosun",
+  "desc": "2 bitki kaybet. Bitki üretimini 2 adım artır."
+ },
+ "Noctis City": {
+  "name": "Noctis Şehri",
+  "desc": "Enerji üretimini 1 adım azalt, M€ üretimini 3 adım artır. Normal yerleştirme kısıtlamalarını yok sayarak AYRILMIŞ ALANA bir şehir karosu yerleştir."
+ },
+ "Noctis Farming": {
+  "name": "Noctis Tarımı",
+  "desc": "M€ üretimini 1 adım artır ve 2 bitki kazan."
+ },
+ "Nuclear Power": {
+  "name": "Nükleer Enerji",
+  "desc": "M€ üretimini 2 adım azalt, enerji üretimini 3 adım artır."
+ },
+ "Nuclear Zone": {
+  "name": "Nükleer Bölge",
+  "desc": "Bu karoyu yerleştir ve sıcaklığı 2 adım yükselt."
+ },
+ "Open City": {
+  "name": "Açık Şehir",
+  "desc": "2 bitki kazan. Bir şehir karosu yerleştir. Enerji üretimini 1 adım azalt, M€ üretimini 4 adım artır."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimum Aerofren",
+  "effects": [
+   "Bir uzay olayı oynadığında 3 M€ ve 3 ısı kazanırsın."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Cevher İşleyici",
+  "actions": [
+   "4 enerji harcayarak 1 titanyum kazan ve oksijeni 1 adım yükselt."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Donmuş Toprak Çıkarımı",
+  "desc": "1 okyanus karosu yerleştir."
+ },
+ "Peroxide Power": {
+  "name": "Peroksit Enerjisi",
+  "desc": "M€ üretimini 1 adım azalt, enerji üretimini 2 adım artır."
+ },
+ "Pets": {
+  "name": "Evcil Hayvanlar",
+  "desc": "Bu karta 1 hayvan ekle.",
+  "effects": [
+   "Herhangi bir şehir karosu yerleştirildiğinde bu karta bir hayvan ekle."
+  ],
+  "vpText": [
+   "Buradaki her 2 hayvan için 1 ZP."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Phobos Uzay Limanı",
+  "desc": "Titanyum üretimini 1 adım artır ve AYRILMIŞ ALANA bir şehir karosu yerleştir."
+ },
+ "Plantation": {
+  "name": "Plantasyon",
+  "desc": "Bir yeşil alan karosu yerleştir ve oksijeni 1 adım yükselt."
+ },
+ "Power Grid": {
+  "name": "Enerji Şebekesi",
+  "desc": "Bu dahil sahip olduğun her güç etiketi için enerji üretimini bir adım artır."
+ },
+ "Power Plant": {
+  "name": "Enerji Santrali",
+  "desc": "Enerji üretimini 1 adım artır."
+ },
+ "Predators": {
+  "name": "Yırtıcılar",
+  "actions": [
+   "Herhangi bir karttan 1 hayvan çıkar ve bu karta ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her hayvan için 1 ZP."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Korunan Vadi",
+  "desc": "M€ üretimini 2 adım artır. Normal yerleştirme kısıtlamalarını yok sayarak OKYANUSA AYRILMIŞ BİR ALANA bir yeşil alan karosu yerleştir ve oksijeni 1 adım yükselt."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radyokimya Fabrikası",
+  "desc": "Enerji üretimini 1 adım azalt. TR'ni 2 adım yükselt."
+ },
+ "Regolith Eaters": {
+  "name": "Regolit Yiyiciler",
+  "actions": [
+   "Bu karta 1 mikrop ekle.",
+   "Bu karttan 2 mikrop çıkararak oksijen seviyesini 1 adım yükselt."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Soy Gazların Salınımı",
+  "desc": "TR'ni 2 adım yükselt."
+ },
+ "Research Outpost": {
+  "name": "Araştırma Karakolu",
+  "desc": "BAŞKA HİÇBİR KAROYA BİTİŞİK OLMAYAN bir yere bir şehir karosu yerleştir.",
+  "effects": [
+   "Bir kart oynadığında onun için 1 M€ daha az ödersin."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Gezgin Araç İnşası",
+  "effects": [
+   "Herhangi bir şehir karosu yerleştirildiğinde 2 M€ kazan."
+  ]
+ },
+ "Search For Life": {
+  "name": "Yaşam Arayışı",
+  "actions": [
+   "1 M€ harcayarak çekme destesinin en üstündeki kartı aç. O kartta mikrop etiketi varsa buraya bir bilim kaynağı ekle."
+  ],
+  "vpText": [
+   "Burada en az bir bilim kaynağı varsa 3 ZP."
+  ]
+ },
+ "Shuttles": {
+  "name": "Mekikler",
+  "desc": "Enerji üretimini 1 adım azalt, M€ üretimini 2 adım artır.",
+  "effects": [
+   "Bir uzay kartı oynadığında onun için 2 M€ daha az ödersin."
+  ]
+ },
+ "Small Animals": {
+  "name": "Küçük Hayvanlar",
+  "desc": "Herhangi bir bitki üretimini 1 adım azalt.",
+  "actions": [
+   "Bu karta 1 hayvan ekle."
+  ],
+  "vpText": [
+   "Bu karttaki her 2 hayvan için 1 ZP."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Toprak Fabrikası",
+  "desc": "Enerji üretimini 1 adım azalt, bitki üretimini 1 adım artır."
+ },
+ "Solar Power": {
+  "name": "Güneş Enerjisi",
+  "desc": "Enerji üretimini 1 adım artır."
+ },
+ "Solar Wind Power": {
+  "name": "Güneş Rüzgârı Enerjisi",
+  "desc": "Enerji üretimini 1 adım artır ve 2 titanyum kazan."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Isı üretimini 7 adım artır."
+ },
+ "Space Mirrors": {
+  "name": "Uzay Aynaları",
+  "actions": [
+   "7 M€ harcayarak enerji üretimini 1 adım artır."
+  ]
+ },
+ "Special Design": {
+  "name": "Özel Tasarım",
+  "desc": "Bu nesilde oynayacağın bir sonraki kart için küresel gereksinimler, senin seçiminle +2 veya -2 adımdır."
+ },
+ "Steelworks": {
+  "name": "Çelikhane",
+  "actions": [
+   "4 enerji harcayarak 2 çelik kazan ve oksijeni 1 adım yükselt."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Açık Ocak Madeni",
+  "desc": "Enerji üretimini 2 adım azalt. Çelik üretimini 2 adım, titanyum üretimini 1 adım artır. Oksijeni 2 adım yükselt."
+ },
+ "Subterranean Reservoir": {
+  "name": "Yeraltı Rezervuarı",
+  "desc": "1 okyanus karosu yerleştir."
+ },
+ "Symbiotic Fungus": {
+  "name": "Simbiyotik Mantar",
+  "actions": [
+   "BAŞKA bir karta bir mikrop ekle."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektonik Stres Enerjisi",
+  "desc": "Enerji üretimini 3 adım artır."
+ },
+ "Towing A Comet": {
+  "name": "Kuyruklu Yıldız Çekmek",
+  "desc": "2 bitki kazan. Oksijen seviyesini 1 adım yükselt ve bir okyanus karosu yerleştir."
+ },
+ "Trees": {
+  "name": "Ağaçlar",
+  "desc": "Bitki üretimini 3 adım artır. 1 bitki kazan."
+ },
+ "Tundra Farming": {
+  "name": "Tundra Tarımı",
+  "desc": "Bitki üretimini 1 adım, M€ üretimini 2 adım artır. 1 bitki kazan."
+ },
+ "Underground City": {
+  "name": "Yeraltı Şehri",
+  "desc": "Bir şehir karosu yerleştir. Enerji üretimini 2 adım azalt, çelik üretimini 2 adım artır."
+ },
+ "Underground Detonations": {
+  "name": "Yeraltı Patlatmaları",
+  "actions": [
+   "10 M€ harcayarak ısı üretimini 2 adım artır."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Kentleşmiş Bölge",
+  "desc": "Enerji üretimini 1 adım azalt, M€ üretimini 2 adım artır. EN AZ 2 BAŞKA ŞEHİR KAROSUNA BİTİŞİK bir şehir karosu yerleştir."
+ },
+ "Water Import From Europa": {
+  "name": "Europa'dan Su İthalatı",
+  "actions": [
+   "12 M€ ödeyerek bir okyanus karosu yerleştir. Uzay kartı oynuyormuş gibi TİTANYUM KULLANILABİLİR."
+  ],
+  "vpText": [
+   "Sahip olduğun her Jüpiter etiketi için 1 ZP."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Su Ayrıştırma Tesisi",
+  "actions": [
+   "3 enerji harcayarak oksijeni 1 adım yükselt."
+  ]
+ },
+ "Wave Power": {
+  "name": "Dalga Enerjisi",
+  "desc": "Enerji üretimini 1 adım artır."
+ },
+ "Windmills": {
+  "name": "Yel Değirmenleri",
+  "desc": "Enerji üretimini 1 adım artır."
+ },
+ "Worms": {
+  "name": "Solucanlar",
+  "desc": "Bu dahil sahip olduğun her 2 mikrop etiketi için bitki üretimini 1 adım artır."
+ },
+ "Zeppelins": {
+  "name": "Zeplinler",
+  "desc": "MARS'TAKİ her şehir karosu için M€ üretimini 1 adım artır."
+ },
+ "Saturn Systems": {
+  "name": "Satürn Sistemleri",
+  "desc": "1 titanyum üretimi ve 42 M€ ile başlarsın.",
+  "effects": [
+   "Bu dahil herhangi bir Jüpiter etiketi oyuna girdiğinde M€ üretimini 1 adım artır."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "60 M€ ile başlarsın.",
+  "effects": [
+   "Bir Dünya etiketi oynadığında onun için 3 M€ daha az ödersin."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "3 M€ üretimi ve 44 M€ ile başlarsın.",
+  "effects": [
+   "Bir bina etiketi oynadığında onun için 2 M€ daha az ödersin."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "1 titanyum üretimi ve 38 M€ ile başlarsın.",
+  "effects": [
+   "Bu dahil bir Dünya etiketi oynadığında bir kart çek."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Sanayi",
+  "desc": "47 M€ ile başlarsın.",
+  "actions": [
+   "4 M€ harcayarak EN DÜŞÜK üretimlerinden birini 1 adım artır."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Vadi Vakfı",
+  "desc": "37 M€ ile başlarsın. İlk eylemin olarak 3 Prelüd kartı çek ve birini oyna. Diğer ikisini at.",
+  "effects": [
+   "Bir bilim etiketi oynadığında onun için 2 M€ daha az ödersin."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "45 M€ ile başlarsın. İlk eylemin olarak bir ödülü ücretsiz finanse et.",
+  "effects": [
+   "Bu dahil NEGATİF OLMAYAN ZP simgeli bir kart oynadığında 3 M€ kazan."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Başlangıç Şirketi",
+  "desc": "42 M€ ile başlarsın. Kurulumda 10 kart arasından seçmek yerine 10 kartı ücretsiz alırsın."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "57 M€ ile başlarsın.",
+  "effects": [
+   "Temel maliyeti 20 M€ veya daha fazla olan bir kart ya da standart proje için ödeme yaptıktan sonra 4 M€ kazanırsın."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "2 bitki üretimi, 3 bitki ve 36 M€ ile başlarsın.",
+  "effects": [
+   "Yeşil alan yerleştirmek için her zaman 8 yerine 7 bitki ödeyebilirsin."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "3 ısı üretimi ve 42 M€ ile başlarsın.",
+  "effects": [
+   "Isıyı M€ olarak kullanabilirsin. M€'yu ısı olarak kullanamazsın."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Gezegenlerarası Sinema",
+  "desc": "20 çelik ve 30 M€ ile başlarsın.",
+  "effects": [
+   "Her olay oynadığında 2 M€ kazanırsın."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Oyundaki ilk eylemin olarak 3 kart çek. 45 M€ ile başla.",
+  "effects": [
+   "Sıcaklık, oksijen, okyanus ve Venüs gereksinimlerin, her biri için senin seçiminle +2 veya -2 adımdır."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Madenci Loncası",
+  "desc": "30 M€, 5 çelik ve 1 çelik üretimi ile başlarsın.",
+  "effects": [
+   "Çelik veya titanyum yerleştirme bonusu olan bir alana her karo yerleştirdiğinde çelik üretimini 1 adım artır."
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "10 titanyum ve 23 M€ ile başlarsın.",
+  "effects": [
+   "Titanyum kaynaklarının her biri 1 M€ fazla değerindedir."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tharsis Cumhuriyeti",
+  "desc": "40 M€ ile başlarsın. Oyundaki ilk eylemin olarak bir şehir karosu yerleştir.",
+  "effects": [
+   "MARS'A herhangi bir şehir karosu yerleştirildiğinde M€ üretimini 1 adım artır. Bir şehir karosu yerleştirdiğinde 3 M€ kazan."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "1 enerji üretimi ve 48 M€ ile başlarsın.",
+  "effects": [
+   "Bir güç kartı VEYA ENERJİ SANTRALİ STANDART PROJESİ için 3 M€ daha az ödersin."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "Birleşmiş Milletler Mars Girişimi",
+  "desc": "40 M€ ile başlarsın.",
+  "actions": [
+   "Bu nesil TR'n yükseldiyse, 3 M€ ödeyerek onu 1 adım daha yükseltebilirsin."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Müttefik Banka",
+  "desc": "M€ üretimini 4 adım artır. 3 M€ kazan."
+ },
+ "Biosphere Support": {
+  "name": "Biyosfer Desteği",
+  "desc": "Bitki üretimini 2 adım artır. M€ üretimini 1 adım azalt."
+ },
+ "Aquifer Turbines": {
+  "name": "Akifer Türbinleri",
+  "desc": "Bir okyanus karosu yerleştir. Enerji üretimini 2 adım artır. 3 M€ öde."
+ },
+ "Mohole Excavation": {
+  "name": "Mohole Kazısı",
+  "desc": "Çelik üretimini 1 adım, ısı üretimini 2 adım artır. 2 ısı kazan."
+ },
+ "Early Settlement": {
+  "name": "Erken Yerleşim",
+  "desc": "Bitki üretimini 1 adım artır. Bir şehir karosu yerleştir."
+ },
+ "Biofuels": {
+  "name": "Biyoyakıtlar",
+  "desc": "Enerji ve bitki üretimini 1'er adım artır. 2 bitki kazan."
+ },
+ "Power Generation": {
+  "name": "Enerji Üretimi",
+  "desc": "Enerji üretimini 3 adım artır."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Kendine Yeten Yerleşim",
+  "desc": "M€ üretimini 2 adım artır. Bir şehir karosu yerleştir."
+ },
+ "Mining Operations": {
+  "name": "Madencilik Operasyonları",
+  "desc": "Çelik üretimini 2 adım artır. 4 çelik kazan."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI Yüklenicisi",
+  "desc": "TR'ni 3 adım yükselt. Bir kart çek."
+ },
+ "Dome Farming": {
+  "name": "Kubbe Tarımı",
+  "desc": "M€ üretimini 2 adım, bitki üretimini 1 adım artır."
+ },
+ "Business Empire": {
+  "name": "İş İmparatorluğu",
+  "desc": "M€ üretimini 6 adım artır. 6 M€ öde."
+ },
+ "Donation": {
+  "name": "Bağış",
+  "desc": "21 M€ kazan."
+ },
+ "Nitrogen Shipment": {
+  "name": "Azot Sevkiyatı",
+  "desc": "Bitki üretimini 1 adım artır. TR'ni 1 adım yükselt. 5 M€ kazan."
+ },
+ "Smelting Plant": {
+  "name": "Eritme Tesisi",
+  "desc": "Oksijeni 2 adım yükselt. 5 çelik kazan."
+ },
+ "Supplier": {
+  "name": "Tedarikçi",
+  "desc": "Enerji üretimini 2 adım artır. 4 çelik kazan."
+ },
+ "Supply Drop": {
+  "name": "İkmal Bırakma",
+  "desc": "3 titanyum, 8 çelik ve 3 bitki kazan."
+ },
+ "Great Aquifer": {
+  "name": "Büyük Akifer",
+  "desc": "2 okyanus karosu yerleştir."
+ },
+ "Biolab": {
+  "name": "Biyolab",
+  "desc": "Bitki üretimini 1 adım artır. 3 kart çek."
+ },
+ "Martian Industries": {
+  "name": "Mars Sanayii",
+  "desc": "Enerji ve çelik üretimini 1'er adım artır. 6 M€ kazan."
+ },
+ "Io Research Outpost": {
+  "name": "Io Araştırma Karakolu",
+  "desc": "Titanyum üretimini 1 adım artır. Bir kart çek."
+ },
+ "Polar Industries": {
+  "name": "Kutup Sanayii",
+  "desc": "Isı üretimini 2 adım artır. Bir okyanus karosu yerleştir."
+ },
+ "Society Support": {
+  "name": "Toplum Desteği",
+  "desc": "Bitki, enerji ve ısı üretimini 1'er adım artır. M€ üretimini 1 adım azalt."
+ },
+ "Galilean Mining": {
+  "name": "Galile Madenciliği",
+  "desc": "Titanyum üretimini 2 adım artır. 5 M€ öde."
+ },
+ "Huge Asteroid": {
+  "name": "Devasa Asteroit",
+  "desc": "Sıcaklığı 3 adım yükselt. 5 M€ öde."
+ },
+ "Metals Company": {
+  "name": "Metal Şirketi",
+  "desc": "M€, çelik ve titanyum üretimini 1'er adım artır."
+ },
+ "Loan": {
+  "name": "Kredi",
+  "desc": "30 M€ kazan. M€ üretimini 2 adım azalt."
+ },
+ "Mohole": {
+  "name": "Mohole",
+  "desc": "Isı üretimini 3 adım artır. 3 ısı kazan."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metalce Zengin Asteroit",
+  "desc": "Sıcaklığı 1 adım yükselt. 4 titanyum ve 4 çelik kazan."
+ },
+ "Orbital Construction Yard": {
+  "name": "Yörünge İnşa Tersanesi",
+  "desc": "Titanyum üretimini 1 adım artır. 4 titanyum kazan."
+ },
+ "Acquired Space Agency": {
+  "name": "Satın Alınan Uzay Ajansı",
+  "desc": "6 titanyum kazan. Uzay etiketli iki kart açana kadar kart aç. Onları eline al, kalanları at."
+ },
+ "Research Network": {
+  "name": "Araştırma Ağı",
+  "desc": "M€ üretimini 1 adım artır. 3 kart çek. Oynandıktan sonra, bir eylem yaptığında joker etiket seçtiğin herhangi bir etiket sayılır."
+ },
+ "Eccentric Sponsor": {
+  "name": "Eksantrik Sponsor",
+  "desc": "ELİNDEN 25 M€ İNDİRİMLE BİR KART OYNA."
+ },
+ "Ecology Experts": {
+  "name": "Ekoloji Uzmanları",
+  "desc": "Bitki üretimini 1 adım artır. KÜRESEL GEREKSİNİMLERİ YOK SAYARAK ELİNDEN BİR KART OYNA."
+ },
+ "Experimental Forest": {
+  "name": "Deneysel Orman",
+  "desc": "1 yeşil alan karosu yerleştir ve oksijeni 1 adım yükselt. Bitki etiketli iki kart açana kadar kart aç. Onları eline al, kalanları at."
+ }
+}

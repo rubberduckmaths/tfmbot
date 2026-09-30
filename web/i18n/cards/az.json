@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Alınmış şirkət",
+  "desc": "M€ istehsalınızı 3 pillə artırın."
+ },
+ "Advanced Alloys": {
+  "name": "Qabaqcıl ərintilər",
+  "effects": [
+   "Hər titanınız 1 M€ artıq dəyərindədir.",
+   "Hər poladınız 1 M€ artıq dəyərindədir."
+  ]
+ },
+ "AI Central": {
+  "name": "Süni intellekt mərkəzi",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın.",
+  "actions": [
+   "2 kart çəkin."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antiqravitasiya texnologiyası",
+  "effects": [
+   "Kart oynayanda onun üçün 2 M€ az ödəyirsiniz."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroid mədən konsorsiumu",
+  "desc": "İstənilən oyunçunun titan istehsalını 1 pillə azaldın, özünüzünkünü 1 pillə artırın."
+ },
+ "Bribed Committee": {
+  "name": "Rüşvət alan komitə",
+  "desc": "TR-inizi 2 pillə qaldırın."
+ },
+ "Building Industries": {
+  "name": "Tikinti sənayesi",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, polad istehsalınızı 2 pillə artırın."
+ },
+ "Business Contacts": {
+  "name": "İşgüzar əlaqələr",
+  "desc": "Dəstənin üstündəki 4 karta baxın. 2-ni əlinizə götürün, qalanlarını atın."
+ },
+ "Business Network": {
+  "name": "Biznes şəbəkəsi",
+  "desc": "M€ istehsalınızı 1 pillə azaldın.",
+  "actions": [
+   "Üst karta baxın və ya onu satın alın, ya da atın."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Kallisto katorqa mədənləri",
+  "desc": "M€ istehsalınızı 3 pillə artırın."
+ },
+ "Caretaker Contract": {
+  "name": "Baxıcı müqaviləsi",
+  "actions": [
+   "Terraformasiya reytinqinizi 1 pillə qaldırmaq üçün 8 istilik xərcləyin."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Bu da daxil olmaqla, hər Yer nişanınız üçün M€ istehsalınızı 1 pillə artırın."
+ },
+ "CEO's Favorite Project": {
+  "name": "Baş direktorun sevimli layihəsi",
+  "desc": "Üzərində artıq ən azı 1 resurs olan istənilən kartınıza 1 resurs əlavə edin."
+ },
+ "Commercial District": {
+  "name": "Ticarət rayonu",
+  "desc": "Bu kaşını yerləşdirin. Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 4 pillə artırın.",
+  "vpText": [
+   "Hər qonşu şəhər kaşısı üçün 1 xal."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Korporativ qala",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 3 pillə artırın. Şəhər kaşısı yerləşdirin."
+ },
+ "Development Center": {
+  "name": "İnkişaf mərkəzi",
+  "actions": [
+   "Kart çəkmək üçün 1 enerji xərcləyin."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Yer katapultu",
+  "effects": [
+   "Kart oynayanda onun üçün 2 M€ az ödəyirsiniz."
+  ]
+ },
+ "Earth Office": {
+  "name": "Yer ofisi",
+  "effects": [
+   "Yer nişanı oynayanda onun üçün 3 M€ az ödəyirsiniz."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrokatapult",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın.",
+  "actions": [
+   "7 M€ almaq üçün 1 bitki və ya 1 polad xərcləyin."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Enerji oğurluğu",
+  "desc": "İstənilən oyunçunun enerji istehsalını 1 pillə azaldın, özünüzünkünü 1 pillə artırın."
+ },
+ "Fuel Factory": {
+  "name": "Yanacaq zavodu",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, titan və M€ istehsalınızı hər birini 1 pillə artırın."
+ },
+ "Gene Repair": {
+  "name": "Gen bərpası",
+  "desc": "M€ istehsalınızı 2 pillə artırın."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Böyük Eskarp konsorsiumu",
+  "desc": "İstənilən oyunçunun polad istehsalını 1 pillə azaldın, özünüzünkünü 1 pillə artırın."
+ },
+ "Hackers": {
+  "name": "Hakerlər",
+  "desc": "Enerji istehsalınızı 1 pillə və istənilən oyunçunun M€ istehsalını 2 pillə azaldın. M€ istehsalınızı 2 pillə artırın."
+ },
+ "Hired Raiders": {
+  "name": "Muzdlu basqınçılar",
+  "desc": "İstənilən oyunçudan ən çoxu 2 polad və ya 3 M€ oğurlayın."
+ },
+ "Indentured Workers": {
+  "name": "Müqaviləli fəhlələr",
+  "desc": "Bu nəsildə oynayacağınız növbəti kart 8 M€ ucuz başa gəlir."
+ },
+ "Industrial Center": {
+  "name": "Sənaye mərkəzi",
+  "desc": "Bu kaşını şəhər kaşısının yanında yerləşdirin.",
+  "actions": [
+   "Polad istehsalınızı 1 pillə artırmaq üçün 7 M€ xərcləyin."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Ulduzlararası koloniya gəmisi"
+ },
+ "Invention Contest": {
+  "name": "İxtira müsabiqəsi",
+  "desc": "Dəstənin üstündəki 3 karta baxın. 1-ni əlinizə götürün, qalanlarını atın."
+ },
+ "Inventors' Guild": {
+  "name": "İxtiraçılar gildiyası",
+  "actions": [
+   "Üst karta baxın və ya onu satın alın, ya da atın."
+  ]
+ },
+ "Investment Loan": {
+  "name": "İnvestisiya krediti",
+  "desc": "M€ istehsalınızı 1 pillə azaldın. 10 M€ alın."
+ },
+ "Io Mining Industries": {
+  "name": "İo mədən sənayesi",
+  "desc": "Titan istehsalınızı 2 pillə və M€ istehsalınızı 2 pillə artırın.",
+  "vpText": [
+   "Hər Yupiter nişanınız üçün 1 xal."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Laqranj rəsədxanası",
+  "desc": "1 kart çəkin."
+ },
+ "Land Claim": {
+  "name": "Torpaq iddiası",
+  "desc": "Rezerv olunmamış bir sahəni özünüz üçün rezerv edin: orada yalnız siz kaşı yerləşdirə bilərsiniz."
+ },
+ "Lightning Harvest": {
+  "name": "İldırım məhsulu",
+  "desc": "Enerji və M€ istehsalınızı hər birini bir pillə artırın."
+ },
+ "Mars University": {
+  "name": "Mars universiteti",
+  "effects": [
+   "Bu da daxil olmaqla, elm nişanı oynayanda əlinizdən bir kart atıb bir kart çəkə bilərsiniz."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Kütlə çeviricisi",
+  "desc": "Enerji istehsalınızı 6 pillə artırın.",
+  "effects": [
+   "Kosmos kartı oynayanda onun üçün 2 M€ az ödəyirsiniz."
+  ]
+ },
+ "Media Archives": {
+  "name": "Media arxivləri",
+  "desc": "Bütün oyunçuların İNDİYƏDƏK OYNADIĞI hər hadisə üçün 1 M€ alın."
+ },
+ "Media Group": {
+  "name": "Media qrupu",
+  "effects": [
+   "Hadisə kartı oynadıqdan sonra 3 M€ alırsınız."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Tibbi laboratoriya",
+  "desc": "Bu da daxil olmaqla, hər 2 tikinti nişanınız üçün M€ istehsalınızı 1 pillə artırın."
+ },
+ "Mine": {
+  "name": "Mədən",
+  "desc": "Polad istehsalınızı 1 pillə artırın."
+ },
+ "Mineral Deposit": {
+  "name": "Mineral yatağı",
+  "desc": "5 polad alın."
+ },
+ "Mining Area": {
+  "name": "Mədən sahəsi",
+  "desc": "Bu kaşını polad və ya titan yerləşdirmə bonusu olan sahədə, başqa kaşınızın yanında yerləşdirin. Həmin resursun istehsalını 1 pillə artırın."
+ },
+ "Miranda Resort": {
+  "name": "Miranda kurortu",
+  "desc": "Hər Yer nişanınız üçün M€ istehsalınızı 1 pillə artırın."
+ },
+ "Olympus Conference": {
+  "name": "Olimp konfransı",
+  "desc": "Bu da daxil olmaqla, elm nişanı oynayanda ya bu karta elm resursu əlavə edin, ya da bu kartdan elm resursu çıxarıb kart çəkin."
+ },
+ "Physics Complex": {
+  "name": "Fizika kompleksi",
+  "actions": [
+   "Bu karta elm resursu əlavə etmək üçün 6 enerji xərcləyin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər elm resursu üçün 2 xal."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Enerji infrastrukturu",
+  "actions": [
+   "İstənilən miqdarda enerji xərcləyin və o qədər M€ alın."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Enerji təchizatı konsorsiumu",
+  "desc": "İstənilən oyunçunun enerji istehsalını 1 pillə azaldın, özünüzünkünü 1 pillə artırın."
+ },
+ "Protected Habitats": {
+  "name": "Qorunan yaşayış mühitləri",
+  "effects": [
+   "Rəqiblər sizin bitkilərinizi, heyvanlarınızı və ya mikroblarınızı çıxara bilməz."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvant ekstraktoru",
+  "desc": "Enerji istehsalınızı 4 pillə artırın.",
+  "effects": [
+   "Kosmos kartı oynayanda onun üçün 2 M€ az ödəyirsiniz."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Radiasiya kostyumları",
+  "desc": "M€ istehsalınızı 1 pillə artırın."
+ },
+ "Research": {
+  "name": "Tədqiqat",
+  "desc": "2 elm kartı oynamaq kimi sayılır. 2 kart çəkin."
+ },
+ "Restricted Area": {
+  "name": "Məhdud zona",
+  "desc": "Bu kaşını yerləşdirin.",
+  "actions": [
+   "Kart çəkmək üçün 2 M€ xərcləyin."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robot işçi qüvvəsi",
+  "desc": "Tikinti kartlarınızdan birinin yalnız istehsal blokunu təkrarlayın."
+ },
+ "Sabotage": {
+  "name": "Təxribat",
+  "desc": "İstənilən oyunçudan ən çoxu 3 titan, ya 4 polad, ya da 7 M€ çıxarın."
+ },
+ "Satellites": {
+  "name": "Peyklər",
+  "desc": "Bu da daxil olmaqla, hər kosmos nişanınız üçün M€ istehsalınızı 1 pillə artırın."
+ },
+ "Security Fleet": {
+  "name": "Təhlükəsizlik donanması",
+  "actions": [
+   "Bu karta 1 qırıcı əlavə etmək üçün 1 titan xərcləyin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər qırıcı üçün 1 xal."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Kosmik lift",
+  "desc": "Titan istehsalınızı 1 pillə artırın.",
+  "actions": [
+   "5 M€ almaq üçün 1 polad xərcləyin."
+  ]
+ },
+ "Space Station": {
+  "name": "Kosmik stansiya",
+  "effects": [
+   "Kosmos kartı oynayanda onun üçün 2 M€ az ödəyirsiniz."
+  ]
+ },
+ "Sponsors": {
+  "name": "Sponsorlar",
+  "desc": "M€ istehsalınızı 2 pillə artırın."
+ },
+ "Standard Technology": {
+  "name": "Standart texnologiya",
+  "effects": [
+   "Patent satışı istisna olmaqla, standart layihə üçün ödədikdən sonra 3 M€ alırsınız."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardiqradlar",
+  "actions": [
+   "Bu karta 1 mikrob əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər 4 mikrob üçün 1 xal."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Texnologiya nümayişi",
+  "desc": "İki kart çəkin."
+ },
+ "Terraforming Ganymede": {
+  "name": "Qanimedin terraformasiyası",
+  "desc": "Bu da daxil olmaqla, hər Yupiter nişanınız üçün TR-inizi 1 pillə qaldırın."
+ },
+ "Titanium Mine": {
+  "name": "Titan mədəni",
+  "desc": "Titan istehsalınızı 1 pillə artırın."
+ },
+ "Toll Station": {
+  "name": "Ödəniş məntəqəsi",
+  "desc": "RƏQİBLƏRİNİZİN hər kosmos nişanı üçün M€ istehsalınızı 1 pillə artırın."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Transneptun zondu",
+  "desc": "Dərin kosmos zondu: 1 xal dəyərindədir."
+ },
+ "Tropical Resort": {
+  "name": "Tropik kurort",
+  "desc": "İstilik istehsalınızı 2 pillə azaldın, M€ istehsalınızı 3 pillə artırın."
+ },
+ "Vesta Shipyard": {
+  "name": "Vesta gəmiqayırma zavodu",
+  "desc": "Titan istehsalınızı 1 pillə artırın."
+ },
+ "Viral Enhancers": {
+  "name": "Viral gücləndiricilər",
+  "effects": [
+   "Bu da daxil olmaqla, bitki, mikrob və ya heyvan nişanı oynayanda 1 bitki alın və ya HƏMİN KARTA 1 resurs əlavə edin."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "İstənilən oyunçudan ən çoxu 2 heyvan və ya 5 bitki çıxarın."
+ },
+ "SF Memorial": {
+  "name": "Elmi fantastika memorialı",
+  "desc": "1 kart çəkin."
+ },
+ "House Printing": {
+  "name": "Ev çapı",
+  "desc": "Polad istehsalınızı 1 pillə artırın."
+ },
+ "Space Hotels": {
+  "name": "Kosmik otellər",
+  "desc": "M€ istehsalını 4 pillə artırın."
+ },
+ "Martian Survey": {
+  "name": "Mars kəşfiyyatı",
+  "desc": "İki kart çəkin."
+ },
+ "Research Coordination": {
+  "name": "Tədqiqatların koordinasiyası",
+  "desc": "Oynandıqdan sonra, hərəkət edərkən joker nişanı seçdiyiniz istənilən nişan kimi sayılır."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lava tuneli qəsəbəsi",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 2 pillə artırın. Qonşu şəhərlərdən asılı olmayaraq VULKANİK SAHƏDƏ şəhər kaşısı yerləşdirin."
+ },
+ "Psychrophiles": {
+  "name": "Psixrofillər",
+  "actions": [
+   "Bu karta 1 mikrob əlavə edin."
+  ],
+  "effects": [
+   "Bitki kartı üçün ödəyərkən buradakı mikroblardan hər biri 2 M€ kimi istifadə edilə bilər."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Uyğunlaşma texnologiyası",
+  "effects": [
+   "Qlobal tələbləriniz hər dəfə seçiminizlə +2 və ya -2 pillədir."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Uyğunlaşmış şibyə",
+  "desc": "Bitki istehsalınızı 1 pillə artırın."
+ },
+ "Advanced Ecosystems": {
+  "name": "Qabaqcıl ekosistemlər"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aerotormozlanmış ammonyak asteroidi",
+  "desc": "İstilik istehsalınızı 3 pillə və bitki istehsalınızı 1 pillə artırın. BAŞQA karta 2 mikrob əlavə edin."
+ },
+ "Ants": {
+  "name": "Qarışqalar",
+  "actions": [
+   "Bu karta 1 mikrob əlavə etmək üçün istənilən kartdan 1 mikrob çıxarın."
+  ],
+  "vpText": [
+   "Bu kartdakı hər 2 mikrob üçün 1 xal."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Akviferdən vurma",
+  "actions": [
+   "1 okean kaşısı yerləşdirmək üçün 8 M€ xərcləyin. Tikinti kartı oynayırmış kimi POLADDAN İSTİFADƏ ETMƏK OLAR."
+  ]
+ },
+ "Algae": {
+  "name": "Yosunlar",
+  "desc": "1 bitki alın və bitki istehsalınızı 2 pillə artırın."
+ },
+ "ArchaeBacteria": {
+  "name": "Arxebakteriyalar",
+  "desc": "Bitki istehsalınızı 1 pillə artırın."
+ },
+ "Arctic Algae": {
+  "name": "Arktik yosunlar",
+  "desc": "1 bitki alın.",
+  "effects": [
+   "Kimsə okean kaşısı yerləşdirəndə 2 bitki alın."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Süni göl",
+  "desc": "1 okean kaşısını OKEAN ÜÇÜN REZERV OLUNMAMIŞ SAHƏDƏ yerləşdirin."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Süni fotosintez",
+  "desc": "Bitki istehsalınızı 1 pillə və ya enerji istehsalınızı 2 pillə artırın.",
+  "orTitles": [
+   "Enerji istehsalınızı 2 pillə artırın",
+   "Bitki istehsalınızı 1 pillə artırın"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Temperaturu 1 pillə qaldırın və 2 titan alın. İstənilən oyunçudan ən çoxu 3 bitki çıxarın."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroid mədənçiliyi",
+  "desc": "Titan istehsalınızı 2 pillə artırın."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Torium asteroidindən şüa",
+  "desc": "İstilik və enerji istehsalınızı hər birini 3 pillə artırın."
+ },
+ "Big Asteroid": {
+  "name": "Böyük asteroid",
+  "desc": "Temperaturu 2 pillə qaldırın və 4 titan alın. İstənilən oyunçudan ən çoxu 4 bitki çıxarın."
+ },
+ "Biomass Combustors": {
+  "name": "Biokütlə yandırıcıları",
+  "desc": "İstənilən oyunçunun bitki istehsalını 1 pillə azaldın, enerji istehsalınızı 2 pillə artırın."
+ },
+ "Birds": {
+  "name": "Quşlar",
+  "desc": "İstənilən oyunçunun bitki istehsalını 2 pillə azaldın. Bu kartdakı hər heyvan üçün 1 xal.",
+  "actions": [
+   "Bu karta bir heyvan əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər heyvan üçün 1 xal."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Qara qütb tozu",
+  "desc": "Okean kaşısı yerləşdirin. M€ istehsalınızı 2 pillə azaldın, istilik istehsalınızı 3 pillə artırın."
+ },
+ "Breathing Filters": {
+  "name": "Tənəffüs filtrləri"
+ },
+ "Bushes": {
+  "name": "Kollar",
+  "desc": "Bitki istehsalınızı 2 pillə artırın. 2 bitki alın."
+ },
+ "Capital": {
+  "name": "Paytaxt",
+  "desc": "Bu kaşını yerləşdirin. Enerji istehsalınızı 2 pillə azaldın, M€ istehsalınızı 5 pillə artırın.",
+  "vpText": [
+   "Bu şəhər kaşısına bitişik hər okean kaşısı üçün əlavə 1 xal."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonat emalı",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, istilik istehsalınızı 3 pillə artırın."
+ },
+ "Cloud Seeding": {
+  "name": "Bulud səpini",
+  "desc": "M€ istehsalınızı 1 pillə və istənilən oyunçunun istilik istehsalını 1 pillə azaldın. Bitki istehsalınızı 2 pillə artırın."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kolonistlər üçün təlim düşərgəsi"
+ },
+ "Comet": {
+  "name": "Kometa",
+  "desc": "Temperaturu 1 pillə qaldırın və okean kaşısı yerləşdirin. İstənilən oyunçudan ən çoxu 3 bitki çıxarın."
+ },
+ "Convoy From Europa": {
+  "name": "Avropadan karvan",
+  "desc": "1 okean kaşısı yerləşdirin və 1 kart çəkin."
+ },
+ "Cupola City": {
+  "name": "Günbəzli şəhər",
+  "desc": "Şəhər kaşısı yerləşdirin. Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 3 pillə artırın."
+ },
+ "Decomposers": {
+  "name": "Parçalayıcılar",
+  "effects": [
+   "Bu da daxil olmaqla, heyvan, bitki və ya mikrob nişanı oynayanda bu karta mikrob əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər 3 mikrob üçün 1 xal."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Dərin quyu ilə isitmə",
+  "desc": "Enerji istehsalınızı 1 pillə artırın. Temperaturu 1 pillə qaldırın."
+ },
+ "Deimos Down": {
+  "name": "Deymosun düşməsi",
+  "desc": "Temperaturu 3 pillə qaldırın və 4 polad alın. İstənilən oyunçudan ən çoxu 8 bitki çıxarın."
+ },
+ "Designed Microorganisms": {
+  "name": "Layihələndirilmiş mikroorqanizmlər",
+  "desc": "Bitki istehsalınızı 2 pillə artırın."
+ },
+ "Domed Crater": {
+  "name": "Günbəzli krater",
+  "desc": "3 bitki alın. Şəhər kaşısı yerləşdirin. Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 3 pillə artırın."
+ },
+ "Dust Seals": {
+  "name": "Toz kipləşdiriciləri"
+ },
+ "Ecological Zone": {
+  "name": "Ekoloji zona",
+  "desc": "Bu kaşını İSTƏNİLƏN yaşıllığın yanında yerləşdirin.",
+  "effects": [
+   "BUNLAR DA DAXİL OLMAQLA, heyvan və ya bitki nişanı oynayanda bu karta heyvan əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər 2 heyvan üçün 1 xal."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Enerjiyə qənaət",
+  "desc": "Oyundakı hər şəhər kaşısı üçün enerji istehsalınızı 1 pillə artırın."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos kanyonu milli parkı",
+  "desc": "İSTƏNİLƏN HEYVAN KARTINA 1 heyvan əlavə edin. 3 bitki alın. M€ istehsalınızı 2 pillə artırın."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Ekvatorial maqnitləşdirici",
+  "actions": [
+   "Terraformasiya reytinqinizi 1 pillə qaldırmaq üçün enerji istehsalınızı 1 pillə azaldın."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Şaxtaya davamlı göbələk",
+  "actions": [
+   "1 bitki alın.",
+   "BAŞQA karta 2 mikrob əlavə edin."
+  ]
+ },
+ "Farming": {
+  "name": "Əkinçilik",
+  "desc": "M€ istehsalınızı 2 pillə və bitki istehsalınızı 2 pillə artırın. 2 bitki alın."
+ },
+ "Fish": {
+  "name": "Balıqlar",
+  "desc": "İstənilən oyunçunun bitki istehsalını 1 pillə azaldın.",
+  "actions": [
+   "Bu karta 1 heyvan əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər heyvan üçün 1 xal."
+  ]
+ },
+ "Flooding": {
+  "name": "Daşqın",
+  "desc": "Okean kaşısı yerləşdirin. BU OKEAN KAŞISININ YANINDA KAŞILAR VARSA, ONLARDAN BİRİNİN SAHİBİNDƏN 4 M€ ÇIXARA BİLƏRSİNİZ."
+ },
+ "Food Factory": {
+  "name": "Qida fabriki",
+  "desc": "Bitki istehsalınızı 1 pillə azaldın, M€ istehsalınızı 4 pillə artırın."
+ },
+ "Fusion Power": {
+  "name": "Termonüvə enerjisi",
+  "desc": "Enerji istehsalınızı 3 pillə artırın."
+ },
+ "Fueled Generators": {
+  "name": "Yanacaq generatorları",
+  "desc": "M€ istehsalınızı 1 pillə azaldın, enerji istehsalınızı 1 pillə artırın."
+ },
+ "Ganymede Colony": {
+  "name": "Qanimed koloniyası",
+  "desc": "Şəhər kaşısını REZERV OLUNMUŞ SAHƏDƏ yerləşdirin.",
+  "vpText": [
+   "Hər Yupiter nişanınız üçün 1 xal."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geotermal enerji",
+  "desc": "Enerji istehsalınızı 2 pillə artırın."
+ },
+ "GHG Factories": {
+  "name": "İstixana qazı zavodları",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, istilik istehsalınızı 4 pillə artırın."
+ },
+ "GHG Producing Bacteria": {
+  "name": "İstixana qazı istehsal edən bakteriyalar",
+  "actions": [
+   "Bu karta 1 mikrob əlavə edin.",
+   "Temperaturu 1 pillə qaldırmaq üçün 2 mikrob çıxarın."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Nəhəng buz asteroidi",
+  "desc": "Temperaturu 2 pillə qaldırın və 2 okean kaşısı yerləşdirin. İstənilən oyunçudan ən çoxu 6 bitki çıxarın."
+ },
+ "Giant Space Mirror": {
+  "name": "Nəhəng kosmik güzgü",
+  "desc": "Enerji istehsalınızı 3 pillə artırın."
+ },
+ "Grass": {
+  "name": "Ot",
+  "desc": "Bitki istehsalınızı 1 pillə artırın. 3 bitki alın."
+ },
+ "Great Dam": {
+  "name": "Böyük bənd",
+  "desc": "Enerji istehsalınızı 2 pillə artırın."
+ },
+ "Greenhouses": {
+  "name": "İstixanalar",
+  "desc": "Oyundakı hər şəhər kaşısı üçün 1 bitki alın."
+ },
+ "Heather": {
+  "name": "Süpürgə kolu",
+  "desc": "Bitki istehsalınızı 1 pillə artırın. 1 bitki alın."
+ },
+ "Heat Trappers": {
+  "name": "İstilik tələləri",
+  "desc": "İstənilən oyunçunun istilik istehsalını 2 pillə azaldın, enerji istehsalınızı 1 pillə artırın."
+ },
+ "Herbivores": {
+  "name": "Otyeyənlər",
+  "desc": "Bu karta +1 heyvan. İstənilən oyunçunun bitki istehsalı -1",
+  "effects": [
+   "Yaşıllıq kaşısı yerləşdirəndə bu karta heyvan əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər 2 heyvan üçün 1 xal."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Buz asteroidi",
+  "desc": "2 okean kaşısı yerləşdirin."
+ },
+ "Ice Cap Melting": {
+  "name": "Buz örtüyünün əriməsi",
+  "desc": "1 okean kaşısı yerləşdirin."
+ },
+ "Immigrant City": {
+  "name": "Mühacir şəhəri",
+  "desc": "Enerji istehsalınızı 1 pillə və M€ istehsalınızı 2 pillə azaldın. Şəhər kaşısı yerləşdirin.",
+  "effects": [
+   "Bu da daxil olmaqla, şəhər kaşısı yerləşdiriləndə M€ istehsalınızı 1 pillə artırın."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Mühacir şatlları",
+  "desc": "M€ istehsalınızı 5 pillə artırın.",
+  "vpText": [
+   "Oyundakı hər 3-cü şəhər üçün 1 xal."
+  ]
+ },
+ "Imported GHG": {
+  "name": "İdxal olunmuş istixana qazları",
+  "desc": "İstilik istehsalınızı 1 pillə artırın və 3 istilik alın."
+ },
+ "Imported Hydrogen": {
+  "name": "İdxal olunmuş hidrogen",
+  "desc": "3 bitki alın və ya BAŞQA karta 3 mikrob və ya 2 heyvan əlavə edin. Okean kaşısı yerləşdirin.",
+  "orTitles": [
+   "3 bitki alın",
+   "BAŞQA karta 3 mikrob əlavə edin",
+   "BAŞQA karta 2 heyvan əlavə edin"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "İdxal olunmuş azot",
+  "desc": "TR-inizi 1 pillə qaldırın və 4 bitki alın. BAŞQA karta 3 mikrob və BAŞQA karta 2 heyvan əlavə edin."
+ },
+ "Import of Advanced GHG": {
+  "name": "Qabaqcıl istixana qazlarının idxalı",
+  "desc": "İstilik istehsalınızı 2 pillə artırın."
+ },
+ "Industrial Microbes": {
+  "name": "Sənaye mikrobları",
+  "desc": "Enerji və polad istehsalınızı hər birini 1 pillə artırın."
+ },
+ "Insects": {
+  "name": "Həşəratlar",
+  "desc": "Hər bitki nişanınız üçün bitki istehsalınızı 1 pillə artırın."
+ },
+ "Insulation": {
+  "name": "İstilik izolyasiyası",
+  "desc": "İstilik istehsalınızı istənilən sayda pillə azaldın, M€ istehsalınızı eyni sayda pillə artırın."
+ },
+ "Ironworks": {
+  "name": "Dəmir zavodu",
+  "actions": [
+   "1 polad almaq və oksigeni 1 pillə qaldırmaq üçün 4 enerji xərcləyin."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Laminariya fermaları",
+  "desc": "M€ istehsalınızı 2 pillə və bitki istehsalınızı 3 pillə artırın. 2 bitki alın."
+ },
+ "Lake Marineris": {
+  "name": "Marineris gölü",
+  "desc": "2 okean kaşısı yerləşdirin."
+ },
+ "Large Convoy": {
+  "name": "Böyük karvan",
+  "desc": "Okean kaşısı yerləşdirin və 2 kart çəkin. 5 bitki alın və ya BAŞQA karta 4 heyvan əlavə edin.",
+  "orTitles": [
+   "5 bitki alın",
+   "BAŞQA karta 4 heyvan əlavə edin"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lava axınları",
+  "desc": "Temperaturu 2 pillə qaldırın və bu kaşını TARSİS TOLUS, ASKREY DAĞI, PAVONİS DAĞI VƏ YA ARSİYA DAĞI üzərində yerləşdirin."
+ },
+ "Lichen": {
+  "name": "Şibyə",
+  "desc": "Bitki istehsalınızı 1 pillə artırın."
+ },
+ "Livestock": {
+  "name": "Mal-qara",
+  "desc": "Bitki istehsalınızı 1 pillə azaldın, M€ istehsalınızı 2 pillə artırın",
+  "actions": [
+   "Bu karta 1 heyvan əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər heyvan üçün 1 xal."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Yerli istilik tutma",
+  "desc": "4 bitki almaq və ya BAŞQA karta 2 heyvan əlavə etmək üçün 5 istilik xərcləyin.",
+  "orTitles": [
+   "4 bitki alın",
+   "BAŞQA karta 2 heyvan əlavə edin"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Ay şüası",
+  "desc": "M€ istehsalınızı 2 pillə azaldın, istilik və enerji istehsalınızı hər birini 2 pillə artırın."
+ },
+ "Magnetic Field Dome": {
+  "name": "Maqnit sahəsi günbəzi",
+  "desc": "Enerji istehsalınızı 2 pillə azaldın, bitki istehsalınızı 1 pillə artırın. TR-inizi 1 pillə qaldırın."
+ },
+ "Magnetic Field Generators": {
+  "name": "Maqnit sahəsi generatorları",
+  "desc": "Enerji istehsalınızı 4 pillə azaldın, bitki istehsalınızı 2 pillə artırın. TR-inizi 3 pillə qaldırın."
+ },
+ "Mangrove": {
+  "name": "Manqrlar",
+  "desc": "Yaşıllıq kaşısını OKEAN ÜÇÜN REZERV OLUNMUŞ SAHƏDƏ yerləşdirin və oksigeni 1 pillə qaldırın. Bunun üçün adi yerləşdirmə məhdudiyyətlərinə məhəl qoymayın."
+ },
+ "Martian Rails": {
+  "name": "Mars dəmir yolu",
+  "actions": [
+   "MARSDAKI hər şəhər kaşısı üçün 1 M€ almaq məqsədilə 1 enerji xərcləyin."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Titandan metan",
+  "desc": "İstilik istehsalınızı 2 pillə və bitki istehsalınızı 2 pillə artırın."
+ },
+ "Micro-Mills": {
+  "name": "Mikrozavodlar",
+  "desc": "İstilik istehsalınızı 1 pillə artırın."
+ },
+ "Mining Expedition": {
+  "name": "Mədən ekspedisiyası",
+  "desc": "Oksigeni 1 pillə qaldırın. İstənilən oyunçudan 2 bitki çıxarın. 2 polad alın."
+ },
+ "Mining Rights": {
+  "name": "Mədən hüquqları",
+  "desc": "Bu kaşını polad və ya titan yerləşdirmə bonusu olan sahədə yerləşdirin. Həmin istehsalı 1 pillə artırın."
+ },
+ "Mohole Area": {
+  "name": "Mohol zonası",
+  "desc": "İstilik istehsalınızı 4 pillə artırın. Bu kaşını OKEAN ÜÇÜN REZERV OLUNMUŞ SAHƏDƏ yerləşdirin."
+ },
+ "Moss": {
+  "name": "Mamır",
+  "desc": "1 bitki itirin. Bitki istehsalınızı 1 pillə artırın."
+ },
+ "Natural Preserve": {
+  "name": "Təbii qoruq",
+  "desc": "Bu kaşını HEÇ BİR BAŞQA KAŞININ YANINDA OLMAYAN yerdə yerləşdirin. M€ istehsalınızı 1 pillə artırın."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitrit bərpa edən bakteriyalar",
+  "desc": "Bu karta 3 mikrob əlavə edin.",
+  "actions": [
+   "Bu karta 1 mikrob əlavə edin.",
+   "TR-inizi 1 pillə qaldırmaq üçün 3 mikrob çıxarın."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Azotla zəngin asteroid",
+  "desc": "Terraformasiya reytinqinizi 2 pillə və temperaturu 1 pillə qaldırın. Bitki istehsalınızı 1 pillə, 3 bitki nişanınız varsa 4 pillə artırın."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofil mamır",
+  "desc": "2 bitki itirin. Bitki istehsalınızı 2 pillə artırın."
+ },
+ "Noctis City": {
+  "name": "Noktis şəhəri",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 3 pillə artırın. Adi yerləşdirmə məhdudiyyətlərinə məhəl qoymadan şəhər kaşısını REZERV OLUNMUŞ SAHƏDƏ yerləşdirin."
+ },
+ "Noctis Farming": {
+  "name": "Noktis fermaları",
+  "desc": "M€ istehsalınızı 1 pillə artırın və 2 bitki alın."
+ },
+ "Nuclear Power": {
+  "name": "Nüvə enerjisi",
+  "desc": "M€ istehsalınızı 2 pillə azaldın, enerji istehsalınızı 3 pillə artırın."
+ },
+ "Nuclear Zone": {
+  "name": "Nüvə zonası",
+  "desc": "Bu kaşını yerləşdirin və temperaturu 2 pillə qaldırın."
+ },
+ "Open City": {
+  "name": "Açıq şəhər",
+  "desc": "2 bitki alın. Şəhər kaşısı yerləşdirin. Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 4 pillə artırın."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimal aerotormozlama",
+  "effects": [
+   "Kosmos hadisəsi oynayanda 3 M€ və 3 istilik alırsınız."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Filiz emalçısı",
+  "actions": [
+   "1 titan almaq və oksigeni 1 pillə qaldırmaq üçün 4 enerji xərcləyin."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Əbədi donuşluqdan hasilat",
+  "desc": "1 okean kaşısı yerləşdirin."
+ },
+ "Peroxide Power": {
+  "name": "Peroksid enerjisi",
+  "desc": "M€ istehsalınızı 1 pillə azaldın, enerji istehsalınızı 2 pillə artırın."
+ },
+ "Pets": {
+  "name": "Ev heyvanları",
+  "desc": "Bu karta 1 heyvan əlavə edin.",
+  "effects": [
+   "İstənilən şəhər kaşısı yerləşdiriləndə bu karta heyvan əlavə edin."
+  ],
+  "vpText": [
+   "Buradakı hər 2 heyvan üçün 1 xal."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Fobos kosmik limanı",
+  "desc": "Titan istehsalınızı 1 pillə artırın və şəhər kaşısını REZERV OLUNMUŞ SAHƏDƏ yerləşdirin."
+ },
+ "Plantation": {
+  "name": "Plantasiya",
+  "desc": "Yaşıllıq kaşısı yerləşdirin və oksigeni 1 pillə qaldırın."
+ },
+ "Power Grid": {
+  "name": "Elektrik şəbəkəsi",
+  "desc": "Bu da daxil olmaqla, hər enerji nişanınız üçün enerji istehsalınızı bir pillə artırın."
+ },
+ "Power Plant": {
+  "name": "Elektrik stansiyası",
+  "desc": "Enerji istehsalınızı 1 pillə artırın."
+ },
+ "Predators": {
+  "name": "Yırtıcılar",
+  "actions": [
+   "İstənilən kartdan 1 heyvan çıxarıb bu karta əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər heyvan üçün 1 xal."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Qorunan vadi",
+  "desc": "M€ istehsalınızı 2 pillə artırın. Adi yerləşdirmə məhdudiyyətlərinə məhəl qoymadan yaşıllıq kaşısını OKEAN ÜÇÜN REZERV OLUNMUŞ SAHƏDƏ yerləşdirin və oksigeni 1 pillə qaldırın."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radiokimya zavodu",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın. TR-inizi 2 pillə qaldırın."
+ },
+ "Regolith Eaters": {
+  "name": "Regolit yeyənlər",
+  "actions": [
+   "Bu karta 1 mikrob əlavə edin.",
+   "Oksigen səviyyəsini 1 pillə qaldırmaq üçün bu kartdan 2 mikrob çıxarın."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "İnert qazların buraxılması",
+  "desc": "Terraformasiya reytinqinizi 2 pillə qaldırın."
+ },
+ "Research Outpost": {
+  "name": "Tədqiqat forpostu",
+  "desc": "Şəhər kaşısını HEÇ BİR BAŞQA KAŞININ YANINDA OLMAYAN yerdə yerləşdirin.",
+  "effects": [
+   "Kart oynayanda onun üçün 1 M€ az ödəyirsiniz."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Marsoxod istehsalı",
+  "effects": [
+   "İstənilən şəhər kaşısı yerləşdiriləndə 2 M€ alın."
+  ]
+ },
+ "Search For Life": {
+  "name": "Həyat axtarışı",
+  "actions": [
+   "Dəstənin üst kartını açmaq üçün 1 M€ xərcləyin. Həmin kartda mikrob nişanı varsa, buraya elm resursu əlavə edin."
+  ],
+  "vpText": [
+   "Burada bir və ya daha çox elm resursunuz varsa, 3 xal."
+  ]
+ },
+ "Shuttles": {
+  "name": "Şatllar",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 2 pillə artırın.",
+  "effects": [
+   "Kosmos kartı oynayanda onun üçün 2 M€ az ödəyirsiniz."
+  ]
+ },
+ "Small Animals": {
+  "name": "Kiçik heyvanlar",
+  "desc": "İstənilən oyunçunun bitki istehsalını 1 pillə azaldın.",
+  "actions": [
+   "Bu karta 1 heyvan əlavə edin."
+  ],
+  "vpText": [
+   "Bu kartdakı hər 2 heyvan üçün 1 xal."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Torpaq zavodu",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, bitki istehsalınızı 1 pillə artırın."
+ },
+ "Solar Power": {
+  "name": "Günəş enerjisi",
+  "desc": "Enerji istehsalınızı 1 pillə artırın."
+ },
+ "Solar Wind Power": {
+  "name": "Günəş küləyi enerjisi",
+  "desc": "Enerji istehsalınızı 1 pillə artırın və 2 titan alın."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "İstilik istehsalınızı 7 pillə artırın."
+ },
+ "Space Mirrors": {
+  "name": "Kosmik güzgülər",
+  "actions": [
+   "Enerji istehsalınızı 1 pillə artırmaq üçün 7 M€ xərcləyin."
+  ]
+ },
+ "Special Design": {
+  "name": "Xüsusi dizayn",
+  "desc": "Bu nəsildə oynayacağınız növbəti kart üçün qlobal tələblər seçiminizlə +2 və ya -2 pillədir."
+ },
+ "Steelworks": {
+  "name": "Polad zavodu",
+  "actions": [
+   "2 polad almaq və oksigeni 1 pillə qaldırmaq üçün 4 enerji xərcləyin."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Açıq karxana",
+  "desc": "Enerji istehsalınızı 2 pillə azaldın. Polad istehsalınızı 2 pillə və titan istehsalınızı 1 pillə artırın. Oksigeni 2 pillə qaldırın."
+ },
+ "Subterranean Reservoir": {
+  "name": "Yeraltı su anbarı",
+  "desc": "1 okean kaşısı yerləşdirin."
+ },
+ "Symbiotic Fungus": {
+  "name": "Simbiotik göbələk",
+  "actions": [
+   "BAŞQA karta mikrob əlavə edin."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektonik gərginlik enerjisi",
+  "desc": "Enerji istehsalınızı 3 pillə artırın."
+ },
+ "Towing A Comet": {
+  "name": "Kometanın yedəyə alınması",
+  "desc": "2 bitki alın. Oksigen səviyyəsini 1 pillə qaldırın və okean kaşısı yerləşdirin."
+ },
+ "Trees": {
+  "name": "Ağaclar",
+  "desc": "Bitki istehsalınızı 3 pillə artırın. 1 bitki alın."
+ },
+ "Tundra Farming": {
+  "name": "Tundra əkinçiliyi",
+  "desc": "Bitki istehsalınızı 1 pillə və M€ istehsalınızı 2 pillə artırın. 1 bitki alın."
+ },
+ "Underground City": {
+  "name": "Yeraltı şəhər",
+  "desc": "Şəhər kaşısı yerləşdirin. Enerji istehsalınızı 2 pillə azaldın, polad istehsalınızı 2 pillə artırın."
+ },
+ "Underground Detonations": {
+  "name": "Yeraltı partlayışlar",
+  "actions": [
+   "İstilik istehsalınızı 2 pillə artırmaq üçün 10 M€ xərcləyin."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanizasiya olunmuş ərazi",
+  "desc": "Enerji istehsalınızı 1 pillə azaldın, M€ istehsalınızı 2 pillə artırın. Şəhər kaşısını ƏN AZI 2 BAŞQA ŞƏHƏR KAŞISININ YANINDA yerləşdirin."
+ },
+ "Water Import From Europa": {
+  "name": "Avropadan su idxalı",
+  "actions": [
+   "Okean kaşısı yerləşdirmək üçün 12 M€ ödəyin. Kosmos kartı oynayırmış kimi TİTANDAN İSTİFADƏ ETMƏK OLAR."
+  ],
+  "vpText": [
+   "Hər Yupiter nişanınız üçün 1 xal."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Su parçalama qurğusu",
+  "actions": [
+   "Oksigeni 1 pillə qaldırmaq üçün 3 enerji xərcləyin."
+  ]
+ },
+ "Wave Power": {
+  "name": "Dalğa enerjisi",
+  "desc": "Enerji istehsalınızı 1 pillə artırın."
+ },
+ "Windmills": {
+  "name": "Külək dəyirmanları",
+  "desc": "Enerji istehsalınızı 1 pillə artırın."
+ },
+ "Worms": {
+  "name": "Soxulcanlar",
+  "desc": "Bu da daxil olmaqla, hər 2 mikrob nişanınız üçün bitki istehsalınızı 1 pillə artırın."
+ },
+ "Zeppelins": {
+  "name": "Zeppelinlər",
+  "desc": "MARSDAKI hər şəhər kaşısı üçün M€ istehsalınızı 1 pillə artırın."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "1 titan istehsalı və 42 M€ ilə başlayırsınız.",
+  "effects": [
+   "Bu da daxil olmaqla, hər dəfə istənilən Yupiter nişanı oyuna daxil olanda M€ istehsalınızı 1 pillə artırın."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "60 M€ ilə başlayırsınız.",
+  "effects": [
+   "Yer nişanı oynayanda onun üçün 3 M€ az ödəyirsiniz."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "3 M€ istehsalı və 44 M€ ilə başlayırsınız.",
+  "effects": [
+   "Tikinti nişanı oynayanda onun üçün 2 M€ az ödəyirsiniz."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "1 titan istehsalı və 38 M€ ilə başlayırsınız.",
+  "effects": [
+   "Bu da daxil olmaqla, Yer nişanı oynayanda kart çəkin."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "47 M€ ilə başlayırsınız.",
+  "actions": [
+   "ƏN AŞAĞI istehsalınızı (və ya onlardan birini) 1 pillə artırmaq üçün 4 M€ xərcləyin."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "37 M€ ilə başlayırsınız. İlk hərəkətiniz kimi 3 prelüdiya kartı çəkin və onlardan birini oynayın. Digər ikisini atın.",
+  "effects": [
+   "Elm nişanı oynayanda onun üçün 2 M€ az ödəyirsiniz."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "45 M€ ilə başlayırsınız. İlk hərəkətiniz kimi bir mükafatı pulsuz maliyyələşdirin.",
+  "effects": [
+   "Bu da daxil olmaqla, MƏNFİ OLMAYAN xal nişanlı kart oynayanda 3 M€ alın."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Başlanğıc korporasiyası",
+  "desc": "42 M€ ilə başlayırsınız. Hazırlıq zamanı 10 kartdan seçmək əvəzinə 10 kartı pulsuz alırsınız."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "57 M€ ilə başlayırsınız.",
+  "effects": [
+   "Əsas qiyməti 20 M€ və ya daha çox olan kart və ya standart layihə üçün ödədikdən sonra 4 M€ alırsınız."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "2 bitki istehsalı, 3 bitki və 36 M€ ilə başlayırsınız.",
+  "effects": [
+   "Yaşıllıq yerləşdirmək üçün həmişə 8 əvəzinə 7 bitki ödəyə bilərsiniz."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "3 istilik istehsalı və 42 M€ ilə başlayırsınız.",
+  "effects": [
+   "İstilikdən M€ kimi istifadə edə bilərsiniz. M€-dən istilik kimi istifadə edə bilməzsiniz."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Planetlərarası Kinematoqrafiya",
+  "desc": "20 polad və 30 M€ ilə başlayırsınız.",
+  "effects": [
+   "Hər dəfə hadisə oynayanda 2 M€ alırsınız."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Oyundakı ilk hərəkətiniz kimi 3 kart çəkin. 45 M€ ilə başlayırsınız.",
+  "effects": [
+   "Temperatur, oksigen, okean və Venera tələbləriniz hər dəfə seçiminizlə +2 və ya -2 pillədir."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Mədənçilər Gildiyası",
+  "desc": "30 M€, 5 polad və 1 polad istehsalı ilə başlayırsınız.",
+  "effects": [
+   "Hər dəfə polad və ya titan yerləşdirmə bonusu olan sahəyə kaşı yerləşdirəndə polad istehsalınızı 1 pillə artırın"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "10 titan və 23 M€ ilə başlayırsınız.",
+  "effects": [
+   "Titan resurslarınızın hər biri 1 M€ artıq dəyərindədir."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tarsis Respublikası",
+  "desc": "40 M€ ilə başlayırsınız. Oyundakı ilk hərəkətiniz kimi şəhər kaşısı yerləşdirin.",
+  "effects": [
+   "MARSDA istənilən şəhər kaşısı yerləşdiriləndə M€ istehsalınızı 1 pillə artırın. Özünüz şəhər kaşısı yerləşdirəndə 3 M€ alın."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "1 enerji istehsalı və 48 M€ ilə başlayırsınız.",
+  "effects": [
+   "Enerji kartı VƏ YA ELEKTRİK STANSİYASI STANDART LAYİHƏSİNİ oynayanda onun üçün 3 M€ az ödəyirsiniz."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "BMT-nin Mars Təşəbbüsü",
+  "desc": "40 M€ ilə başlayırsınız.",
+  "actions": [
+   "Bu nəsildə Terraformasiya reytinqiniz qalxıbsa, onu daha 1 pillə qaldırmaq üçün 3 M€ ödəyə bilərsiniz."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Müttəfiq bank",
+  "desc": "M€ istehsalınızı 4 pillə artırın. 3 M€ alın."
+ },
+ "Biosphere Support": {
+  "name": "Biosferə dəstək",
+  "desc": "Bitki istehsalınızı 2 pillə artırın. M€ istehsalınızı 1 pillə azaldın."
+ },
+ "Aquifer Turbines": {
+  "name": "Akvifer turbinləri",
+  "desc": "Okean kaşısı yerləşdirin. Enerji istehsalınızı 2 pillə artırın. 3 M€ ödəyin."
+ },
+ "Mohole Excavation": {
+  "name": "Mohol qazıntısı",
+  "desc": "Polad istehsalınızı 1 pillə və istilik istehsalınızı 2 pillə artırın. 2 istilik alın."
+ },
+ "Early Settlement": {
+  "name": "Erkən qəsəbə",
+  "desc": "Bitki istehsalınızı 1 pillə artırın. Şəhər kaşısı yerləşdirin."
+ },
+ "Biofuels": {
+  "name": "Bioyanacaq",
+  "desc": "Enerji və bitki istehsalınızı 1 pillə artırın. 2 bitki alın."
+ },
+ "Power Generation": {
+  "name": "Enerji istehsalı",
+  "desc": "Enerji istehsalınızı 3 pillə artırın."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Özünü təmin edən qəsəbə",
+  "desc": "M€ istehsalınızı 2 pillə artırın. Şəhər kaşısı yerləşdirin."
+ },
+ "Mining Operations": {
+  "name": "Mədən əməliyyatları",
+  "desc": "Polad istehsalınızı 2 pillə artırın. 4 polad alın."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI podratçısı",
+  "desc": "TR-inizi 3 pillə qaldırın. Kart çəkin."
+ },
+ "Dome Farming": {
+  "name": "Günbəz altında əkinçilik",
+  "desc": "M€ istehsalınızı 2 pillə və bitki istehsalınızı 1 pillə artırın."
+ },
+ "Business Empire": {
+  "name": "Biznes imperiyası",
+  "desc": "M€ istehsalınızı 6 pillə artırın. 6 M€ ödəyin."
+ },
+ "Donation": {
+  "name": "İanə",
+  "desc": "21 M€ alın."
+ },
+ "Nitrogen Shipment": {
+  "name": "Azot göndərişi",
+  "desc": "Bitki istehsalınızı 1 pillə artırın. TR-inizi 1 pillə qaldırın. 5 M€ alın."
+ },
+ "Smelting Plant": {
+  "name": "Əritmə zavodu",
+  "desc": "Oksigeni 2 pillə qaldırın. 5 polad alın."
+ },
+ "Supplier": {
+  "name": "Təchizatçı",
+  "desc": "Enerji istehsalınızı 2 pillə artırın. 4 polad alın."
+ },
+ "Supply Drop": {
+  "name": "Təchizat atılışı",
+  "desc": "3 titan, 8 polad və 3 bitki alın."
+ },
+ "Great Aquifer": {
+  "name": "Böyük akvifer",
+  "desc": "2 okean kaşısı yerləşdirin."
+ },
+ "Biolab": {
+  "name": "Bioloji laboratoriya",
+  "desc": "Bitki istehsalınızı 1 pillə artırın. 3 kart çəkin."
+ },
+ "Martian Industries": {
+  "name": "Mars sənayesi",
+  "desc": "Enerji və polad istehsalınızı 1 pillə artırın. 6 M€ alın."
+ },
+ "Io Research Outpost": {
+  "name": "İo tədqiqat forpostu",
+  "desc": "Titan istehsalınızı 1 pillə artırın. Kart çəkin."
+ },
+ "Polar Industries": {
+  "name": "Qütb sənayesi",
+  "desc": "İstilik istehsalınızı 2 pillə artırın. Okean kaşısı yerləşdirin."
+ },
+ "Society Support": {
+  "name": "Cəmiyyətin dəstəyi",
+  "desc": "Bitki, enerji və istilik istehsalınızı 1 pillə artırın. M€ istehsalını 1 pillə azaldın."
+ },
+ "Galilean Mining": {
+  "name": "Qaliley peyklərində mədənçilik",
+  "desc": "Titan istehsalınızı 2 pillə artırın. 5 M€ ödəyin."
+ },
+ "Huge Asteroid": {
+  "name": "Nəhəng asteroid",
+  "desc": "Temperaturu 3 pillə qaldırın. 5 M€ ödəyin."
+ },
+ "Metals Company": {
+  "name": "Metallar şirkəti",
+  "desc": "M€, polad və titan istehsalınızı 1 pillə artırın."
+ },
+ "Loan": {
+  "name": "Kredit",
+  "desc": "30 M€ alın. M€ istehsalınızı 2 pillə azaldın."
+ },
+ "Mohole": {
+  "name": "Mohol",
+  "desc": "İstilik istehsalınızı 3 pillə artırın. 3 istilik alın."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metalla zəngin asteroid",
+  "desc": "Temperaturu 1 pillə qaldırın. 4 titan və 4 polad alın."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbital tikinti meydançası",
+  "desc": "Titan istehsalınızı 1 pillə artırın. 4 titan alın."
+ },
+ "Acquired Space Agency": {
+  "name": "Alınmış kosmik agentlik",
+  "desc": "6 titan alın. Kosmos nişanlı iki kart açılana qədər kartları açın. Onları əlinizə götürün, qalanlarını atın."
+ },
+ "Research Network": {
+  "name": "Tədqiqat şəbəkəsi",
+  "desc": "M€ istehsalınızı 1 pillə artırın. 3 kart çəkin. Oynandıqdan sonra, hərəkət edərkən joker nişanı seçdiyiniz istənilən nişan kimi sayılır."
+ },
+ "Eccentric Sponsor": {
+  "name": "Ekssentrik sponsor",
+  "desc": "ƏLİNİZDƏN 25 M€ ENDİRİMLƏ BİR KART OYNAYIN."
+ },
+ "Ecology Experts": {
+  "name": "Ekologiya ekspertləri",
+  "desc": "Bitki istehsalınızı 1 pillə artırın. QLOBAL TƏLƏBLƏRƏ MƏHƏL QOYMADAN ƏLİNİZDƏN BİR KART OYNAYIN."
+ },
+ "Experimental Forest": {
+  "name": "Eksperimental meşə",
+  "desc": "1 yaşıllıq kaşısı yerləşdirin və oksigeni 1 pillə qaldırın. Bitki nişanlı iki kart açılana qədər kartları açın. Onları əlinizə götürün, qalanlarını atın."
+ }
+}

@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Sotib olingan kompaniya",
+  "desc": "M€ ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Advanced Alloys": {
+  "name": "Ilgʻor qotishmalar",
+  "effects": [
+   "Har bir titaningiz 1 M€ qimmatroq hisoblanadi.",
+   "Har bir poʻlatingiz 1 M€ qimmatroq hisoblanadi."
+  ]
+ },
+ "AI Central": {
+  "name": "Sunʼiy intellekt markazi",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring.",
+  "actions": [
+   "2 ta karta oling."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitatsiya texnologiyasi",
+  "effects": [
+   "Karta oʻynaganingizda uning uchun 2 M€ kam toʻlaysiz."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroid konchilik konsorsiumi",
+  "desc": "Istalgan oʻyinchining titan ishlab chiqarishini 1 pogʻonaga kamaytiring va oʻzingiznikini 1 pogʻonaga oshiring."
+ },
+ "Bribed Committee": {
+  "name": "Pora olgan qoʻmita",
+  "desc": "TR ni 2 pogʻonaga koʻtaring."
+ },
+ "Building Industries": {
+  "name": "Qurilish sanoati",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va poʻlat ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Business Contacts": {
+  "name": "Ishbilarmonlik aloqalari",
+  "desc": "Dastaning yuqoridagi 4 ta kartasiga qarang. 2 tasini qoʻlingizga oling, qolganini tashlang."
+ },
+ "Business Network": {
+  "name": "Biznes tarmogʻi",
+  "desc": "M€ ishlab chiqarishingizni 1 pogʻonaga kamaytiring.",
+  "actions": [
+   "Yuqoridagi kartaga qarang va uni sotib oling yoki tashlang."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Kallisto katorga konlari",
+  "desc": "M€ ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Caretaker Contract": {
+  "name": "Vasiylik shartnomasi",
+  "actions": [
+   "Terraformatsiya reytingingizni 1 pogʻonaga koʻtarish uchun 8 issiqlik sarflang."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartel",
+  "desc": "Shu karta ham kiradi: har bir Yer belgingiz uchun M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "CEO's Favorite Project": {
+  "name": "Bosh direktorning sevimli loyihasi",
+  "desc": "Ustida kamida 1 ta resurs boʻlgan istalgan kartangizga 1 ta resurs qoʻshing."
+ },
+ "Commercial District": {
+  "name": "Savdo tumani",
+  "desc": "Bu plitkani joylashtiring. Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 4 pogʻonaga oshiring.",
+  "vpText": [
+   "Har bir qoʻshni shahar plitkasi uchun 1 ochko."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Korporativ qalʼa",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 3 pogʻonaga oshiring. Shahar plitkasini joylashtiring."
+ },
+ "Development Center": {
+  "name": "Rivojlanish markazi",
+  "actions": [
+   "Karta olish uchun 1 energiya sarflang."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Yer katapultasi",
+  "effects": [
+   "Karta oʻynaganingizda uning uchun 2 M€ kam toʻlaysiz."
+  ]
+ },
+ "Earth Office": {
+  "name": "Yerdagi idora",
+  "effects": [
+   "Yer belgisini oʻynaganingizda uning uchun 3 M€ kam toʻlaysiz."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrokatapulta",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring.",
+  "actions": [
+   "7 M€ olish uchun 1 oʻsimlik yoki 1 poʻlat sarflang."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Energiyaga ulanish",
+  "desc": "Istalgan oʻyinchining energiya ishlab chiqarishini 1 pogʻonaga kamaytiring va oʻzingiznikini 1 pogʻonaga oshiring."
+ },
+ "Fuel Factory": {
+  "name": "Yoqilgʻi zavodi",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring, titan va M€ ishlab chiqarishingizni har birini 1 pogʻonaga oshiring."
+ },
+ "Gene Repair": {
+  "name": "Genlarni tiklash",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Buyuk Eskarp konsorsiumi",
+  "desc": "Istalgan oʻyinchining poʻlat ishlab chiqarishini 1 pogʻonaga kamaytiring va oʻzingiznikini 1 pogʻonaga oshiring."
+ },
+ "Hackers": {
+  "name": "Xakerlar",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga va istalgan oʻyinchining M€ ishlab chiqarishini 2 pogʻonaga kamaytiring. M€ ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Hired Raiders": {
+  "name": "Yollanma bosqinchilar",
+  "desc": "Istalgan oʻyinchidan koʻpi bilan 2 poʻlat yoki 3 M€ oʻgʻirlang."
+ },
+ "Indentured Workers": {
+  "name": "Shartnomali ishchilar",
+  "desc": "Shu avlodda oʻynaydigan keyingi kartangiz 8 M€ arzonroq turadi."
+ },
+ "Industrial Center": {
+  "name": "Sanoat markazi",
+  "desc": "Bu plitkani shahar plitkasi yoniga joylashtiring.",
+  "actions": [
+   "Poʻlat ishlab chiqarishingizni 1 pogʻonaga oshirish uchun 7 M€ sarflang."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Yulduzlararo koloniya kemasi"
+ },
+ "Invention Contest": {
+  "name": "Ixtirolar tanlovi",
+  "desc": "Dastaning yuqoridagi 3 ta kartasiga qarang. 1 tasini qoʻlingizga oling, qolganini tashlang."
+ },
+ "Inventors' Guild": {
+  "name": "Ixtirochilar gildiyasi",
+  "actions": [
+   "Yuqoridagi kartaga qarang va uni sotib oling yoki tashlang."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investitsiya krediti",
+  "desc": "M€ ishlab chiqarishingizni 1 pogʻonaga kamaytiring. 10 M€ oling."
+ },
+ "Io Mining Industries": {
+  "name": "Io kon sanoati",
+  "desc": "Titan ishlab chiqarishingizni 2 pogʻonaga va M€ ishlab chiqarishingizni 2 pogʻonaga oshiring.",
+  "vpText": [
+   "Har bir Yupiter belgingiz uchun 1 ochko."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagranj rasadxonasi",
+  "desc": "1 ta karta oling."
+ },
+ "Land Claim": {
+  "name": "Yerga daʼvo",
+  "desc": "Band qilinmagan hududni oʻzingiz uchun band qiling: u yerga faqat siz plitka joylashtira olasiz."
+ },
+ "Lightning Harvest": {
+  "name": "Chaqmoq hosili",
+  "desc": "Energiya va M€ ishlab chiqarishingizni har birini bir pogʻonaga oshiring."
+ },
+ "Mars University": {
+  "name": "Mars universiteti",
+  "effects": [
+   "Fan belgisini (shu karta ham kiradi) oʻynaganingizda qoʻlingizdan bitta kartani tashlab, bitta karta olishingiz mumkin."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Massa oʻzgartirgich",
+  "desc": "Energiya ishlab chiqarishingizni 6 pogʻonaga oshiring.",
+  "effects": [
+   "Kosmos kartasini oʻynaganingizda uning uchun 2 M€ kam toʻlaysiz."
+  ]
+ },
+ "Media Archives": {
+  "name": "Media arxivlari",
+  "desc": "Barcha oʻyinchilar HOZIRGACHA OʻYNAGAN har bir hodisa uchun 1 M€ oling."
+ },
+ "Media Group": {
+  "name": "Media guruhi",
+  "effects": [
+   "Hodisa kartasini oʻynaganingizdan soʻng 3 M€ olasiz."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Tibbiyot laboratoriyasi",
+  "desc": "Shu karta ham kiradi: har 2 ta qurilish belgingiz uchun M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Mine": {
+  "name": "Kon",
+  "desc": "Poʻlat ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Mineral Deposit": {
+  "name": "Mineral koni",
+  "desc": "5 poʻlat oling."
+ },
+ "Mining Area": {
+  "name": "Kon hududi",
+  "desc": "Bu plitkani poʻlat yoki titan joylashtirish bonusi bor hududga, oʻzingizning boshqa plitkangiz yoniga joylashtiring. Oʻsha resurs ishlab chiqarishini 1 pogʻonaga oshiring."
+ },
+ "Miranda Resort": {
+  "name": "Miranda kurorti",
+  "desc": "Har bir Yer belgingiz uchun M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Olympus Conference": {
+  "name": "Olimp konferensiyasi",
+  "desc": "Fan belgisini (shu karta ham kiradi) oʻynaganingizda yo bu kartaga ilmiy resurs qoʻshing, yo bu kartadan ilmiy resursni olib tashlab, karta oling."
+ },
+ "Physics Complex": {
+  "name": "Fizika majmuasi",
+  "actions": [
+   "Bu kartaga ilmiy resurs qoʻshish uchun 6 energiya sarflang."
+  ],
+  "vpText": [
+   "Bu kartadagi har bir ilmiy resurs uchun 2 ochko."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energetika infratuzilmasi",
+  "actions": [
+   "Istalgan miqdorda energiya sarflang va shuncha M€ oling."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Energiya taʼminoti konsorsiumi",
+  "desc": "Istalgan oʻyinchining energiya ishlab chiqarishini 1 pogʻonaga kamaytiring va oʻzingiznikini 1 pogʻonaga oshiring."
+ },
+ "Protected Habitats": {
+  "name": "Himoyalangan yashash muhitlari",
+  "effects": [
+   "Raqiblar sizning oʻsimliklaringiz, hayvonlaringiz yoki mikroblaringizni olib tashlay olmaydi."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvant ekstraktori",
+  "desc": "Energiya ishlab chiqarishingizni 4 pogʻonaga oshiring.",
+  "effects": [
+   "Kosmos kartasini oʻynaganingizda uning uchun 2 M€ kam toʻlaysiz."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Radiatsiyadan himoya kostyumlari",
+  "desc": "M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Research": {
+  "name": "Tadqiqot",
+  "desc": "2 ta fan kartasini oʻynash deb hisoblanadi. 2 ta karta oling."
+ },
+ "Restricted Area": {
+  "name": "Cheklangan hudud",
+  "desc": "Bu plitkani joylashtiring.",
+  "actions": [
+   "Karta olish uchun 2 M€ sarflang."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robot ishchi kuchi",
+  "desc": "Qurilish kartalaringizdan birining faqat ishlab chiqarish blokini takrorlang."
+ },
+ "Sabotage": {
+  "name": "Sabotaj",
+  "desc": "Istalgan oʻyinchidan koʻpi bilan 3 titan, yoki 4 poʻlat, yoki 7 M€ olib tashlang."
+ },
+ "Satellites": {
+  "name": "Sunʼiy yoʻldoshlar",
+  "desc": "Shu karta ham kiradi: har bir kosmos belgingiz uchun M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Security Fleet": {
+  "name": "Xavfsizlik floti",
+  "actions": [
+   "Bu kartaga 1 ta qiruvchi qoʻshish uchun 1 titan sarflang."
+  ],
+  "vpText": [
+   "Bu kartadagi har bir qiruvchi uchun 1 ochko."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Kosmik lift",
+  "desc": "Titan ishlab chiqarishingizni 1 pogʻonaga oshiring.",
+  "actions": [
+   "5 M€ olish uchun 1 poʻlat sarflang."
+  ]
+ },
+ "Space Station": {
+  "name": "Kosmik stansiya",
+  "effects": [
+   "Kosmos kartasini oʻynaganingizda uning uchun 2 M€ kam toʻlaysiz."
+  ]
+ },
+ "Sponsors": {
+  "name": "Homiylar",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Standard Technology": {
+  "name": "Standart texnologiya",
+  "effects": [
+   "Patent sotishdan tashqari standart loyiha uchun toʻlaganingizdan soʻng 3 M€ olasiz."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigradlar",
+  "actions": [
+   "Bu kartaga 1 mikrob qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har 4 mikrob uchun 1 ochko."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Texnologiya namoyishi",
+  "desc": "Ikkita karta oling."
+ },
+ "Terraforming Ganymede": {
+  "name": "Ganimedni terraformatsiya qilish",
+  "desc": "Shu karta ham kiradi: har bir Yupiter belgingiz uchun TR ni 1 pogʻonaga koʻtaring."
+ },
+ "Titanium Mine": {
+  "name": "Titan koni",
+  "desc": "Titan ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Toll Station": {
+  "name": "Pullik oʻtish punkti",
+  "desc": "RAQIBLARINGIZNING har bir kosmos belgisi uchun M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Transneptun zondi",
+  "desc": "Chuqur kosmos zondi: 1 ochko beradi."
+ },
+ "Tropical Resort": {
+  "name": "Tropik kurort",
+  "desc": "Issiqlik ishlab chiqarishingizni 2 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Vesta Shipyard": {
+  "name": "Vesta kemasozlik zavodi",
+  "desc": "Titan ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Viral Enhancers": {
+  "name": "Virusli kuchaytirgichlar",
+  "effects": [
+   "Oʻsimlik, mikrob yoki hayvon belgisini (shu karta ham kiradi) oʻynaganingizda 1 oʻsimlik oling yoki OʻSHA KARTAGA 1 resurs qoʻshing."
+  ]
+ },
+ "Virus": {
+  "name": "Virus",
+  "desc": "Istalgan oʻyinchidan koʻpi bilan 2 hayvon yoki 5 oʻsimlikni olib tashlang."
+ },
+ "SF Memorial": {
+  "name": "Ilmiy fantastika memoriali",
+  "desc": "1 ta karta oling."
+ },
+ "House Printing": {
+  "name": "Uylarni chop etish",
+  "desc": "Poʻlat ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Space Hotels": {
+  "name": "Kosmik mehmonxonalar",
+  "desc": "M€ ishlab chiqarishni 4 pogʻonaga oshiring."
+ },
+ "Martian Survey": {
+  "name": "Marsni oʻrganish",
+  "desc": "Ikkita karta oling."
+ },
+ "Research Coordination": {
+  "name": "Tadqiqotlarni muvofiqlashtirish",
+  "desc": "Oʻynalgandan soʻng, harakat qilganingizda joker belgisi siz tanlagan istalgan belgi hisoblanadi."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lava tunnelidagi posyolka",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 2 pogʻonaga oshiring. Qoʻshni shaharlardan qatʼi nazar, VULQONLI HUDUDGA shahar plitkasini joylashtiring."
+ },
+ "Psychrophiles": {
+  "name": "Psixrofillar",
+  "actions": [
+   "Bu kartaga 1 mikrob qoʻshing."
+  ],
+  "effects": [
+   "Oʻsimlik kartasi uchun toʻlaganda bu yerdagi mikroblarning har biri 2 M€ sifatida ishlatilishi mumkin."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Moslashuv texnologiyasi",
+  "effects": [
+   "Global talablaringiz har safar oʻz tanlovingiz bilan +2 yoki -2 pogʻona."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Moslashgan lishayniklar",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Advanced Ecosystems": {
+  "name": "Ilgʻor ekotizimlar"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aerotormozlangan ammiak asteroidi",
+  "desc": "Issiqlik ishlab chiqarishingizni 3 pogʻonaga va oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. BOSHQA kartaga 2 mikrob qoʻshing."
+ },
+ "Ants": {
+  "name": "Chumolilar",
+  "actions": [
+   "Bu kartaga 1 mikrob qoʻshish uchun istalgan kartadan 1 mikrobni olib tashlang."
+  ],
+  "vpText": [
+   "Bu kartadagi har 2 mikrob uchun 1 ochko."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Suvli qatlamdan nasos bilan tortish",
+  "actions": [
+   "1 ta okean plitkasini joylashtirish uchun 8 M€ sarflang. Qurilish kartasini oʻynayotgandek POʻLATDAN FOYDALANISH MUMKIN."
+  ]
+ },
+ "Algae": {
+  "name": "Suvoʻtlar",
+  "desc": "1 oʻsimlik oling va oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "ArchaeBacteria": {
+  "name": "Arxebakteriyalar",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Arctic Algae": {
+  "name": "Arktika suvoʻtlari",
+  "desc": "1 oʻsimlik oling.",
+  "effects": [
+   "Istalgan oʻyinchi okean plitkasini joylashtirganda 2 oʻsimlik oling."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Sunʼiy koʻl",
+  "desc": "1 ta okean plitkasini OKEAN UCHUN BAND QILINMAGAN HUDUDGA joylashtiring."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Sunʼiy fotosintez",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga yoki energiya ishlab chiqarishingizni 2 pogʻonaga oshiring.",
+  "orTitles": [
+   "Energiya ishlab chiqarishingizni 2 pogʻonaga oshiring",
+   "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroid",
+  "desc": "Haroratni 1 pogʻonaga koʻtaring va 2 titan oling. Istalgan oʻyinchidan koʻpi bilan 3 oʻsimlikni olib tashlang."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroidlarda konchilik",
+  "desc": "Titan ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Toriy asteroididan nur",
+  "desc": "Issiqlik va energiya ishlab chiqarishingizni har birini 3 pogʻonaga oshiring."
+ },
+ "Big Asteroid": {
+  "name": "Katta asteroid",
+  "desc": "Haroratni 2 pogʻonaga koʻtaring va 4 titan oling. Istalgan oʻyinchidan koʻpi bilan 4 oʻsimlikni olib tashlang."
+ },
+ "Biomass Combustors": {
+  "name": "Biomassa yoqgichlari",
+  "desc": "Istalgan oʻyinchining oʻsimlik ishlab chiqarishini 1 pogʻonaga kamaytiring va energiya ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Birds": {
+  "name": "Qushlar",
+  "desc": "Istalgan oʻyinchining oʻsimlik ishlab chiqarishini 2 pogʻonaga kamaytiring. Bu kartadagi har bir hayvon uchun 1 ochko.",
+  "actions": [
+   "Bu kartaga hayvon qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har bir hayvon uchun 1 ochko."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Qora qutb changi",
+  "desc": "Okean plitkasini joylashtiring. M€ ishlab chiqarishingizni 2 pogʻonaga kamaytiring va issiqlik ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Breathing Filters": {
+  "name": "Nafas filtrlari"
+ },
+ "Bushes": {
+  "name": "Butalar",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring. 2 oʻsimlik oling."
+ },
+ "Capital": {
+  "name": "Poytaxt",
+  "desc": "Bu plitkani joylashtiring. Energiya ishlab chiqarishingizni 2 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 5 pogʻonaga oshiring.",
+  "vpText": [
+   "Bu shahar plitkasiga qoʻshni har bir okean plitkasi uchun qoʻshimcha 1 ochko."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonatlarni qayta ishlash",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va issiqlik ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Cloud Seeding": {
+  "name": "Bulutlarga ishlov berish",
+  "desc": "M€ ishlab chiqarishingizni 1 pogʻonaga va istalgan oʻyinchining issiqlik ishlab chiqarishini 1 pogʻonaga kamaytiring. Oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kolonistlar oʻquv lageri"
+ },
+ "Comet": {
+  "name": "Kometa",
+  "desc": "Haroratni 1 pogʻonaga koʻtaring va okean plitkasini joylashtiring. Istalgan oʻyinchidan koʻpi bilan 3 oʻsimlikni olib tashlang."
+ },
+ "Convoy From Europa": {
+  "name": "Yevropadan karvon",
+  "desc": "1 ta okean plitkasini joylashtiring va 1 ta karta oling."
+ },
+ "Cupola City": {
+  "name": "Gumbazli shahar",
+  "desc": "Shahar plitkasini joylashtiring. Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Decomposers": {
+  "name": "Parchalovchilar",
+  "effects": [
+   "Hayvon, oʻsimlik yoki mikrob belgisini (shu karta ham kiradi) oʻynaganingizda bu kartaga mikrob qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har 3 mikrob uchun 1 ochko."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Chuqur quduq orqali isitish",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga oshiring. Haroratni 1 pogʻonaga koʻtaring."
+ },
+ "Deimos Down": {
+  "name": "Deymosning qulashi",
+  "desc": "Haroratni 3 pogʻonaga koʻtaring va 4 poʻlat oling. Istalgan oʻyinchidan koʻpi bilan 8 oʻsimlikni olib tashlang."
+ },
+ "Designed Microorganisms": {
+  "name": "Loyihalangan mikroorganizmlar",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Domed Crater": {
+  "name": "Gumbazli krater",
+  "desc": "3 oʻsimlik oling. Shahar plitkasini joylashtiring. Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Dust Seals": {
+  "name": "Changdan zichlagichlar"
+ },
+ "Ecological Zone": {
+  "name": "Ekologik hudud",
+  "desc": "Bu plitkani ISTALGAN koʻkalamzor yoniga joylashtiring.",
+  "effects": [
+   "Hayvon yoki oʻsimlik belgisini (BULAR HAM KIRADI) oʻynaganingizda bu kartaga hayvon qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har 2 hayvon uchun 1 ochko."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Energiyani tejash",
+  "desc": "Oʻyindagi har bir shahar plitkasi uchun energiya ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos kanyoni milliy bogʻi",
+  "desc": "ISTALGAN HAYVON KARTASIGA 1 hayvon qoʻshing. 3 oʻsimlik oling. M€ ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Ekvatorial magnitlagich",
+  "actions": [
+   "Terraformatsiya reytingingizni 1 pogʻonaga koʻtarish uchun energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Sovuqqa chidamli zamburugʻ",
+  "actions": [
+   "1 oʻsimlik oling.",
+   "BOSHQA kartaga 2 mikrob qoʻshing."
+  ]
+ },
+ "Farming": {
+  "name": "Dehqonchilik",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga va oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring. 2 oʻsimlik oling."
+ },
+ "Fish": {
+  "name": "Baliqlar",
+  "desc": "Istalgan oʻyinchining oʻsimlik ishlab chiqarishini 1 pogʻonaga kamaytiring.",
+  "actions": [
+   "Bu kartaga 1 hayvon qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har bir hayvon uchun 1 ochko."
+  ]
+ },
+ "Flooding": {
+  "name": "Suv toshqini",
+  "desc": "Okean plitkasini joylashtiring. AGAR BU OKEAN PLITKASI YONIDA PLITKALAR BOʻLSA, ULARDAN BIRINING EGASIDAN 4 M€ OLIB TASHLASHINGIZ MUMKIN."
+ },
+ "Food Factory": {
+  "name": "Oziq-ovqat fabrikasi",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 4 pogʻonaga oshiring."
+ },
+ "Fusion Power": {
+  "name": "Termoyadro energiyasi",
+  "desc": "Energiya ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Fueled Generators": {
+  "name": "Yoqilgʻi generatorlari",
+  "desc": "M€ ishlab chiqarishingizni 1 pogʻonaga kamaytiring va energiya ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Ganymede Colony": {
+  "name": "Ganimed koloniyasi",
+  "desc": "Shahar plitkasini BAND QILINGAN HUDUDGA joylashtiring.",
+  "vpText": [
+   "Har bir Yupiter belgingiz uchun 1 ochko."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geotermal energiya",
+  "desc": "Energiya ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "GHG Factories": {
+  "name": "Issiqxona gazi zavodlari",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va issiqlik ishlab chiqarishingizni 4 pogʻonaga oshiring."
+ },
+ "GHG Producing Bacteria": {
+  "name": "Issiqxona gazi ishlab chiqaruvchi bakteriyalar",
+  "actions": [
+   "Bu kartaga 1 mikrob qoʻshing.",
+   "Haroratni 1 pogʻonaga koʻtarish uchun 2 mikrobni olib tashlang."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Ulkan muz asteroidi",
+  "desc": "Haroratni 2 pogʻonaga koʻtaring va 2 ta okean plitkasini joylashtiring. Istalgan oʻyinchidan koʻpi bilan 6 oʻsimlikni olib tashlang."
+ },
+ "Giant Space Mirror": {
+  "name": "Ulkan kosmik oyna",
+  "desc": "Energiya ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Grass": {
+  "name": "Oʻt",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. 3 oʻsimlik oling."
+ },
+ "Great Dam": {
+  "name": "Buyuk toʻgʻon",
+  "desc": "Energiya ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Greenhouses": {
+  "name": "Issiqxonalar",
+  "desc": "Oʻyindagi har bir shahar plitkasi uchun 1 oʻsimlik oling."
+ },
+ "Heather": {
+  "name": "Vereskzor",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. 1 oʻsimlik oling."
+ },
+ "Heat Trappers": {
+  "name": "Issiqlik tutqichlari",
+  "desc": "Istalgan oʻyinchining issiqlik ishlab chiqarishini 2 pogʻonaga kamaytiring va energiya ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Herbivores": {
+  "name": "Oʻtxoʻrlar",
+  "desc": "Bu kartaga +1 hayvon. Istalgan oʻyinchining oʻsimlik ishlab chiqarishi -1",
+  "effects": [
+   "Koʻkalamzor plitkasini joylashtirganingizda bu kartaga hayvon qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har 2 hayvon uchun 1 ochko."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Muz asteroidi",
+  "desc": "2 ta okean plitkasini joylashtiring."
+ },
+ "Ice Cap Melting": {
+  "name": "Muz qalpogʻining erishi",
+  "desc": "1 ta okean plitkasini joylashtiring."
+ },
+ "Immigrant City": {
+  "name": "Immigrantlar shahri",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga va M€ ishlab chiqarishingizni 2 pogʻonaga kamaytiring. Shahar plitkasini joylashtiring.",
+  "effects": [
+   "Shahar plitkasi (shu karta ham kiradi) joylashtirilganda M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Immigratsiya shattllari",
+  "desc": "M€ ishlab chiqarishingizni 5 pogʻonaga oshiring.",
+  "vpText": [
+   "Oʻyindagi har 3-shahar uchun 1 ochko."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Import qilingan issiqxona gazlari",
+  "desc": "Issiqlik ishlab chiqarishingizni 1 pogʻonaga oshiring va 3 issiqlik oling."
+ },
+ "Imported Hydrogen": {
+  "name": "Import qilingan vodorod",
+  "desc": "3 oʻsimlik oling yoki BOSHQA kartaga 3 mikrob yoki 2 hayvon qoʻshing. Okean plitkasini joylashtiring.",
+  "orTitles": [
+   "3 oʻsimlik oling",
+   "BOSHQA kartaga 3 mikrob qoʻshing",
+   "BOSHQA kartaga 2 hayvon qoʻshing"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Import qilingan azot",
+  "desc": "TR ni 1 pogʻonaga koʻtaring va 4 oʻsimlik oling. BOSHQA kartaga 3 mikrob va BOSHQA kartaga 2 hayvon qoʻshing."
+ },
+ "Import of Advanced GHG": {
+  "name": "Ilgʻor issiqxona gazlari importi",
+  "desc": "Issiqlik ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Industrial Microbes": {
+  "name": "Sanoat mikroblari",
+  "desc": "Energiya va poʻlat ishlab chiqarishingizni har birini 1 pogʻonaga oshiring."
+ },
+ "Insects": {
+  "name": "Hasharotlar",
+  "desc": "Har bir oʻsimlik belgingiz uchun oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Insulation": {
+  "name": "Issiqlik izolyatsiyasi",
+  "desc": "Issiqlik ishlab chiqarishingizni istalgan pogʻonaga kamaytiring va M€ ishlab chiqarishingizni shuncha pogʻonaga oshiring."
+ },
+ "Ironworks": {
+  "name": "Temir zavodi",
+  "actions": [
+   "1 poʻlat olish va kislorodni 1 pogʻonaga koʻtarish uchun 4 energiya sarflang."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Laminariya fermasi",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga va oʻsimlik ishlab chiqarishingizni 3 pogʻonaga oshiring. 2 oʻsimlik oling."
+ },
+ "Lake Marineris": {
+  "name": "Marineris koʻli",
+  "desc": "2 ta okean plitkasini joylashtiring."
+ },
+ "Large Convoy": {
+  "name": "Katta karvon",
+  "desc": "Okean plitkasini joylashtiring va 2 ta karta oling. 5 oʻsimlik oling yoki BOSHQA kartaga 4 hayvon qoʻshing.",
+  "orTitles": [
+   "5 oʻsimlik oling",
+   "BOSHQA kartaga 4 hayvon qoʻshing"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lava oqimlari",
+  "desc": "Haroratni 2 pogʻonaga koʻtaring va bu plitkani TARSIS TOLUS, ASKREY TOGʻI, PAVONIS TOGʻI YOKI ARSIYA TOGʻI ustiga joylashtiring."
+ },
+ "Lichen": {
+  "name": "Lishayniklar",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Livestock": {
+  "name": "Chorvachilik",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 2 pogʻonaga oshiring",
+  "actions": [
+   "Bu kartaga 1 hayvon qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har bir hayvon uchun 1 ochko."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Mahalliy issiqlik tutish",
+  "desc": "4 oʻsimlik olish yoki BOSHQA kartaga 2 hayvon qoʻshish uchun 5 issiqlik sarflang.",
+  "orTitles": [
+   "4 oʻsimlik oling",
+   "BOSHQA kartaga 2 hayvon qoʻshing"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Oy nuri",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga kamaytiring, issiqlik va energiya ishlab chiqarishingizni har birini 2 pogʻonaga oshiring."
+ },
+ "Magnetic Field Dome": {
+  "name": "Magnit maydoni gumbazi",
+  "desc": "Energiya ishlab chiqarishingizni 2 pogʻonaga kamaytiring va oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. TR ni 1 pogʻonaga koʻtaring."
+ },
+ "Magnetic Field Generators": {
+  "name": "Magnit maydoni generatorlari",
+  "desc": "Energiya ishlab chiqarishingizni 4 pogʻonaga kamaytiring va oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring. TR ni 3 pogʻonaga koʻtaring."
+ },
+ "Mangrove": {
+  "name": "Mangrlar",
+  "desc": "Koʻkalamzor plitkasini OKEAN UCHUN BAND QILINGAN HUDUDGA joylashtiring va kislorodni 1 pogʻonaga koʻtaring. Buning uchun odatiy joylashtirish cheklovlariga eʼtibor bermang."
+ },
+ "Martian Rails": {
+  "name": "Mars temir yoʻli",
+  "actions": [
+   "MARSDAGI har bir shahar plitkasi uchun 1 M€ olish uchun 1 energiya sarflang."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Titandan metan",
+  "desc": "Issiqlik ishlab chiqarishingizni 2 pogʻonaga va oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Micro-Mills": {
+  "name": "Mikrotegirmonlar",
+  "desc": "Issiqlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Mining Expedition": {
+  "name": "Kon ekspeditsiyasi",
+  "desc": "Kislorodni 1 pogʻonaga koʻtaring. Istalgan oʻyinchidan 2 oʻsimlikni olib tashlang. 2 poʻlat oling."
+ },
+ "Mining Rights": {
+  "name": "Qazib olish huquqi",
+  "desc": "Bu plitkani poʻlat yoki titan joylashtirish bonusi bor hududga joylashtiring. Oʻsha ishlab chiqarishni 1 pogʻonaga oshiring."
+ },
+ "Mohole Area": {
+  "name": "Mohol hududi",
+  "desc": "Issiqlik ishlab chiqarishingizni 4 pogʻonaga oshiring. Bu plitkani OKEAN UCHUN BAND QILINGAN HUDUDGA joylashtiring."
+ },
+ "Moss": {
+  "name": "Mox",
+  "desc": "1 oʻsimlikni yoʻqoting. Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Natural Preserve": {
+  "name": "Tabiiy qoʻriqxona",
+  "desc": "Bu plitkani HECH QANDAY BOSHQA PLITKA YONIDA BOʻLMAGAN joyga qoʻying. M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitritni qaytaruvchi bakteriyalar",
+  "desc": "Bu kartaga 3 mikrob qoʻshing.",
+  "actions": [
+   "Bu kartaga 1 mikrob qoʻshing.",
+   "TR ni 1 pogʻonaga koʻtarish uchun 3 mikrobni olib tashlang."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Azotga boy asteroid",
+  "desc": "Terraformatsiya reytingingizni 2 pogʻonaga va haroratni 1 pogʻonaga koʻtaring. Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga, agar 3 ta oʻsimlik belgingiz boʻlsa, 4 pogʻonaga oshiring."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofil mox",
+  "desc": "2 oʻsimlikni yoʻqoting. Oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Noctis City": {
+  "name": "Noktis shahri",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 3 pogʻonaga oshiring. Odatiy joylashtirish cheklovlariga eʼtibor bermay, shahar plitkasini BAND QILINGAN HUDUDGA joylashtiring."
+ },
+ "Noctis Farming": {
+  "name": "Noktis fermalari",
+  "desc": "M€ ishlab chiqarishingizni 1 pogʻonaga oshiring va 2 oʻsimlik oling."
+ },
+ "Nuclear Power": {
+  "name": "Atom energiyasi",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga kamaytiring va energiya ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Nuclear Zone": {
+  "name": "Yadroviy hudud",
+  "desc": "Bu plitkani joylashtiring va haroratni 2 pogʻonaga koʻtaring."
+ },
+ "Open City": {
+  "name": "Ochiq shahar",
+  "desc": "2 oʻsimlik oling. Shahar plitkasini joylashtiring. Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 4 pogʻonaga oshiring."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimal aerotormozlash",
+  "effects": [
+   "Kosmos hodisasini oʻynaganingizda 3 M€ va 3 issiqlik olasiz."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Ruda qayta ishlagich",
+  "actions": [
+   "1 titan olish va kislorodni 1 pogʻonaga koʻtarish uchun 4 energiya sarflang."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Abadiy muzlikdan qazib olish",
+  "desc": "1 ta okean plitkasini joylashtiring."
+ },
+ "Peroxide Power": {
+  "name": "Peroksid energiyasi",
+  "desc": "M€ ishlab chiqarishingizni 1 pogʻonaga kamaytiring va energiya ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Pets": {
+  "name": "Uy hayvonlari",
+  "desc": "Bu kartaga 1 hayvon qoʻshing.",
+  "effects": [
+   "Istalgan shahar plitkasi joylashtirilganda bu kartaga hayvon qoʻshing."
+  ],
+  "vpText": [
+   "Bu yerdagi har 2 hayvon uchun 1 ochko."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Fobos kosmik porti",
+  "desc": "Titan ishlab chiqarishingizni 1 pogʻonaga oshiring va shahar plitkasini BAND QILINGAN HUDUDGA joylashtiring."
+ },
+ "Plantation": {
+  "name": "Plantatsiya",
+  "desc": "Koʻkalamzor plitkasini joylashtiring va kislorodni 1 pogʻonaga koʻtaring."
+ },
+ "Power Grid": {
+  "name": "Elektr tarmogʻi",
+  "desc": "Shu karta ham kiradi: har bir energiya belgingiz uchun energiya ishlab chiqarishingizni bir pogʻonaga oshiring."
+ },
+ "Power Plant": {
+  "name": "Elektr stansiyasi",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Predators": {
+  "name": "Yirtqichlar",
+  "actions": [
+   "Istalgan kartadan 1 hayvonni olib, bu kartaga qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har bir hayvon uchun 1 ochko."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Himoyalangan vodiy",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga oshiring. Odatiy joylashtirish cheklovlariga eʼtibor bermay, koʻkalamzor plitkasini OKEAN UCHUN BAND QILINGAN HUDUDGA joylashtiring va kislorodni 1 pogʻonaga koʻtaring."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radiokimyo zavodi",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring. TR ni 2 pogʻonaga koʻtaring."
+ },
+ "Regolith Eaters": {
+  "name": "Regolit yeyuvchilar",
+  "actions": [
+   "Bu kartaga 1 mikrob qoʻshing.",
+   "Kislorod darajasini 1 pogʻonaga koʻtarish uchun bu kartadan 2 mikrobni olib tashlang."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Inert gazlarni chiqarish",
+  "desc": "Terraformatsiya reytingingizni 2 pogʻonaga koʻtaring."
+ },
+ "Research Outpost": {
+  "name": "Tadqiqot forposti",
+  "desc": "Shahar plitkasini HECH QANDAY BOSHQA PLITKA YONIDA BOʻLMAGAN joyga qoʻying.",
+  "effects": [
+   "Karta oʻynaganingizda uning uchun 1 M€ kam toʻlaysiz."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Marsoxod qurilishi",
+  "effects": [
+   "Istalgan shahar plitkasi joylashtirilganda 2 M€ oling."
+  ]
+ },
+ "Search For Life": {
+  "name": "Hayot izlash",
+  "actions": [
+   "Dastaning yuqoridagi kartasini ochish uchun 1 M€ sarflang. Agar u kartada mikrob belgisi boʻlsa, bu yerga ilmiy resurs qoʻshing."
+  ],
+  "vpText": [
+   "Bu yerda bir yoki undan koʻp ilmiy resursingiz boʻlsa, 3 ochko."
+  ]
+ },
+ "Shuttles": {
+  "name": "Shattllar",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 2 pogʻonaga oshiring.",
+  "effects": [
+   "Kosmos kartasini oʻynaganingizda uning uchun 2 M€ kam toʻlaysiz."
+  ]
+ },
+ "Small Animals": {
+  "name": "Mayda hayvonlar",
+  "desc": "Istalgan oʻyinchining oʻsimlik ishlab chiqarishini 1 pogʻonaga kamaytiring.",
+  "actions": [
+   "Bu kartaga 1 hayvon qoʻshing."
+  ],
+  "vpText": [
+   "Bu kartadagi har 2 hayvon uchun 1 ochko."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Tuproq zavodi",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Solar Power": {
+  "name": "Quyosh energiyasi",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Solar Wind Power": {
+  "name": "Quyosh shamoli energiyasi",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga oshiring va 2 titan oling."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Issiqlik ishlab chiqarishingizni 7 pogʻonaga oshiring."
+ },
+ "Space Mirrors": {
+  "name": "Kosmik oynalar",
+  "actions": [
+   "Energiya ishlab chiqarishingizni 1 pogʻonaga oshirish uchun 7 M€ sarflang."
+  ]
+ },
+ "Special Design": {
+  "name": "Maxsus loyiha",
+  "desc": "Shu avlodda oʻynaydigan keyingi kartangiz uchun global talablar oʻz tanlovingiz bilan +2 yoki -2 pogʻona."
+ },
+ "Steelworks": {
+  "name": "Poʻlat zavodi",
+  "actions": [
+   "2 poʻlat olish va kislorodni 1 pogʻonaga koʻtarish uchun 4 energiya sarflang."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Ochiq karyer",
+  "desc": "Energiya ishlab chiqarishingizni 2 pogʻonaga kamaytiring. Poʻlat ishlab chiqarishingizni 2 pogʻonaga va titan ishlab chiqarishingizni 1 pogʻonaga oshiring. Kislorodni 2 pogʻonaga koʻtaring."
+ },
+ "Subterranean Reservoir": {
+  "name": "Yer osti suv ombori",
+  "desc": "1 ta okean plitkasini joylashtiring."
+ },
+ "Symbiotic Fungus": {
+  "name": "Simbiotik zamburugʻ",
+  "actions": [
+   "BOSHQA kartaga mikrob qoʻshing."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektonik kuchlanish energiyasi",
+  "desc": "Energiya ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Towing A Comet": {
+  "name": "Kometani shatakka olish",
+  "desc": "2 oʻsimlik oling. Kislorod darajasini 1 pogʻonaga koʻtaring va okean plitkasini joylashtiring."
+ },
+ "Trees": {
+  "name": "Daraxtlar",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 3 pogʻonaga oshiring. 1 oʻsimlik oling."
+ },
+ "Tundra Farming": {
+  "name": "Tundra dehqonchiligi",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga va M€ ishlab chiqarishingizni 2 pogʻonaga oshiring. 1 oʻsimlik oling."
+ },
+ "Underground City": {
+  "name": "Yer osti shahri",
+  "desc": "Shahar plitkasini joylashtiring. Energiya ishlab chiqarishingizni 2 pogʻonaga kamaytiring va poʻlat ishlab chiqarishingizni 2 pogʻonaga oshiring."
+ },
+ "Underground Detonations": {
+  "name": "Yer osti portlashlari",
+  "actions": [
+   "Issiqlik ishlab chiqarishingizni 2 pogʻonaga oshirish uchun 10 M€ sarflang."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanizatsiyalashgan hudud",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga kamaytiring va M€ ishlab chiqarishingizni 2 pogʻonaga oshiring. Shahar plitkasini KAMIDA 2 TA BOSHQA SHAHAR PLITKASI YONIGA joylashtiring."
+ },
+ "Water Import From Europa": {
+  "name": "Yevropadan suv importi",
+  "actions": [
+   "Okean plitkasini joylashtirish uchun 12 M€ toʻlang. Kosmos kartasini oʻynayotgandek TITANDAN FOYDALANISH MUMKIN."
+  ],
+  "vpText": [
+   "Har bir Yupiter belgingiz uchun 1 ochko."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Suvni parchalash qurilmasi",
+  "actions": [
+   "Kislorodni 1 pogʻonaga koʻtarish uchun 3 energiya sarflang."
+  ]
+ },
+ "Wave Power": {
+  "name": "Toʻlqin energiyasi",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Windmills": {
+  "name": "Shamol tegirmonlari",
+  "desc": "Energiya ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Worms": {
+  "name": "Chuvalchanglar",
+  "desc": "Shu karta ham kiradi: har 2 ta mikrob belgingiz uchun oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Zeppelins": {
+  "name": "Seppelinlar",
+  "desc": "MARSDAGI har bir shahar plitkasi uchun M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "1 titan ishlab chiqarish va 42 M€ bilan boshlaysiz.",
+  "effects": [
+   "Har safar istalgan Yupiter belgisi (shu karta ham kiradi) oʻyinga kirganda M€ ishlab chiqarishingizni 1 pogʻonaga oshiring."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "60 M€ bilan boshlaysiz.",
+  "effects": [
+   "Yer belgisini oʻynaganingizda uning uchun 3 M€ kam toʻlaysiz."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "3 M€ ishlab chiqarish va 44 M€ bilan boshlaysiz.",
+  "effects": [
+   "Qurilish belgisini oʻynaganingizda uning uchun 2 M€ kam toʻlaysiz."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "1 titan ishlab chiqarish va 38 M€ bilan boshlaysiz.",
+  "effects": [
+   "Yer belgisini (shu karta ham kiradi) oʻynaganingizda karta oling."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "47 M€ bilan boshlaysiz.",
+  "actions": [
+   "ENG PAST ishlab chiqarishingizni (yoki ulardan birini) 1 pogʻonaga oshirish uchun 4 M€ sarflang."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "37 M€ bilan boshlaysiz. Birinchi harakatingiz sifatida 3 ta prelyudiya kartasini oling va ulardan birini oʻynang. Qolgan ikkitasini tashlang.",
+  "effects": [
+   "Fan belgisini oʻynaganingizda uning uchun 2 M€ kam toʻlaysiz."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "45 M€ bilan boshlaysiz. Birinchi harakatingiz sifatida bitta mukofotni bepul moliyalashtiring.",
+  "effects": [
+   "MANFIY BOʻLMAGAN ochko belgisi bor kartani (shu karta ham kiradi) oʻynaganingizda 3 M€ oling."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Boshlovchi korporatsiyasi",
+  "desc": "42 M€ bilan boshlaysiz. Tayyorgarlik paytida 10 ta kartadan tanlash oʻrniga 10 ta kartani bepul olasiz."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "57 M€ bilan boshlaysiz.",
+  "effects": [
+   "Asosiy narxi 20 M€ yoki undan koʻp boʻlgan karta yoki standart loyiha uchun toʻlaganingizdan soʻng 4 M€ olasiz."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "2 oʻsimlik ishlab chiqarish, 3 oʻsimlik va 36 M€ bilan boshlaysiz.",
+  "effects": [
+   "Koʻkalamzor joylashtirish uchun har doim 8 oʻrniga 7 oʻsimlik toʻlashingiz mumkin."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "3 issiqlik ishlab chiqarish va 42 M€ bilan boshlaysiz.",
+  "effects": [
+   "Issiqlikdan M€ sifatida foydalanishingiz mumkin. M€ dan issiqlik sifatida foydalana olmaysiz."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Sayyoralararo kinematografiya",
+  "desc": "20 poʻlat va 30 M€ bilan boshlaysiz.",
+  "effects": [
+   "Har safar hodisa oʻynaganingizda 2 M€ olasiz."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Oʻyindagi birinchi harakatingiz sifatida 3 ta karta oling. 45 M€ bilan boshlaysiz.",
+  "effects": [
+   "Harorat, kislorod, okean va Venera talablaringiz har safar oʻz tanlovingiz bilan +2 yoki -2 pogʻona."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Konchilar gildiyasi",
+  "desc": "30 M€, 5 poʻlat va 1 poʻlat ishlab chiqarish bilan boshlaysiz.",
+  "effects": [
+   "Har safar poʻlat yoki titan joylashtirish bonusi bor hududga plitka qoʻyganingizda poʻlat ishlab chiqarishingizni 1 pogʻonaga oshiring"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "10 titan va 23 M€ bilan boshlaysiz.",
+  "effects": [
+   "Har bir titan resursingiz 1 M€ qimmatroq hisoblanadi."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tarsis Respublikasi",
+  "desc": "40 M€ bilan boshlaysiz. Oʻyindagi birinchi harakatingiz sifatida shahar plitkasini joylashtiring.",
+  "effects": [
+   "MARSGA istalgan shahar plitkasi joylashtirilganda M€ ishlab chiqarishingizni 1 pogʻonaga oshiring. Oʻzingiz shahar plitkasini joylashtirganingizda 3 M€ oling."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "1 energiya ishlab chiqarish va 48 M€ bilan boshlaysiz.",
+  "effects": [
+   "Energiya kartasini YOKI ELEKTR STANSIYASI STANDART LOYIHASINI oʻynaganingizda uning uchun 3 M€ kam toʻlaysiz."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "BMTning Mars tashabbusi",
+  "desc": "40 M€ bilan boshlaysiz.",
+  "actions": [
+   "Agar shu avlodda Terraformatsiya reytingingiz koʻtarilgan boʻlsa, uni yana 1 pogʻonaga koʻtarish uchun 3 M€ toʻlashingiz mumkin."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Ittifoqchi bank",
+  "desc": "M€ ishlab chiqarishingizni 4 pogʻonaga oshiring. 3 M€ oling."
+ },
+ "Biosphere Support": {
+  "name": "Biosferani qoʻllab-quvvatlash",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 2 pogʻonaga oshiring. M€ ishlab chiqarishingizni 1 pogʻonaga kamaytiring."
+ },
+ "Aquifer Turbines": {
+  "name": "Suvli qatlam turbinalari",
+  "desc": "Okean plitkasini joylashtiring. Energiya ishlab chiqarishingizni 2 pogʻonaga oshiring. 3 M€ toʻlang."
+ },
+ "Mohole Excavation": {
+  "name": "Mohol qazish",
+  "desc": "Poʻlat ishlab chiqarishingizni 1 pogʻonaga va issiqlik ishlab chiqarishingizni 2 pogʻonaga oshiring. 2 issiqlik oling."
+ },
+ "Early Settlement": {
+  "name": "Ilk posyolka",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. Shahar plitkasini joylashtiring."
+ },
+ "Biofuels": {
+  "name": "Bioyoqilgʻi",
+  "desc": "Energiya va oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. 2 oʻsimlik oling."
+ },
+ "Power Generation": {
+  "name": "Energiya ishlab chiqarish",
+  "desc": "Energiya ishlab chiqarishingizni 3 pogʻonaga oshiring."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Oʻzini oʻzi taʼminlovchi posyolka",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga oshiring. Shahar plitkasini joylashtiring."
+ },
+ "Mining Operations": {
+  "name": "Konchilik operatsiyalari",
+  "desc": "Poʻlat ishlab chiqarishingizni 2 pogʻonaga oshiring. 4 poʻlat oling."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI pudratchisi",
+  "desc": "TR ni 3 pogʻonaga koʻtaring. Karta oling."
+ },
+ "Dome Farming": {
+  "name": "Gumbaz ostida dehqonchilik",
+  "desc": "M€ ishlab chiqarishingizni 2 pogʻonaga va oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Business Empire": {
+  "name": "Biznes imperiyasi",
+  "desc": "M€ ishlab chiqarishingizni 6 pogʻonaga oshiring. 6 M€ toʻlang."
+ },
+ "Donation": {
+  "name": "Xayriya",
+  "desc": "21 M€ oling."
+ },
+ "Nitrogen Shipment": {
+  "name": "Azot yetkazib berish",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. TR ni 1 pogʻonaga koʻtaring. 5 M€ oling."
+ },
+ "Smelting Plant": {
+  "name": "Eritish zavodi",
+  "desc": "Kislorodni 2 pogʻonaga koʻtaring. 5 poʻlat oling."
+ },
+ "Supplier": {
+  "name": "Yetkazib beruvchi",
+  "desc": "Energiya ishlab chiqarishingizni 2 pogʻonaga oshiring. 4 poʻlat oling."
+ },
+ "Supply Drop": {
+  "name": "Taʼminot tashlash",
+  "desc": "3 titan, 8 poʻlat va 3 oʻsimlik oling."
+ },
+ "Great Aquifer": {
+  "name": "Buyuk suvli qatlam",
+  "desc": "2 ta okean plitkasini joylashtiring."
+ },
+ "Biolab": {
+  "name": "Biolaboratoriya",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. 3 ta karta oling."
+ },
+ "Martian Industries": {
+  "name": "Mars sanoati",
+  "desc": "Energiya va poʻlat ishlab chiqarishingizni 1 pogʻonaga oshiring. 6 M€ oling."
+ },
+ "Io Research Outpost": {
+  "name": "Io tadqiqot forposti",
+  "desc": "Titan ishlab chiqarishingizni 1 pogʻonaga oshiring. Karta oling."
+ },
+ "Polar Industries": {
+  "name": "Qutb sanoati",
+  "desc": "Issiqlik ishlab chiqarishingizni 2 pogʻonaga oshiring. Okean plitkasini joylashtiring."
+ },
+ "Society Support": {
+  "name": "Jamiyat koʻmagi",
+  "desc": "Oʻsimlik, energiya va issiqlik ishlab chiqarishingizni 1 pogʻonaga oshiring. M€ ishlab chiqarishni 1 pogʻonaga kamaytiring."
+ },
+ "Galilean Mining": {
+  "name": "Galiley yoʻldoshlarida konchilik",
+  "desc": "Titan ishlab chiqarishingizni 2 pogʻonaga oshiring. 5 M€ toʻlang."
+ },
+ "Huge Asteroid": {
+  "name": "Juda katta asteroid",
+  "desc": "Haroratni 3 pogʻonaga koʻtaring. 5 M€ toʻlang."
+ },
+ "Metals Company": {
+  "name": "Metallar kompaniyasi",
+  "desc": "M€, poʻlat va titan ishlab chiqarishingizni 1 pogʻonaga oshiring."
+ },
+ "Loan": {
+  "name": "Kredit",
+  "desc": "30 M€ oling. M€ ishlab chiqarishingizni 2 pogʻonaga kamaytiring."
+ },
+ "Mohole": {
+  "name": "Mohol",
+  "desc": "Issiqlik ishlab chiqarishingizni 3 pogʻonaga oshiring. 3 issiqlik oling."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metallga boy asteroid",
+  "desc": "Haroratni 1 pogʻonaga koʻtaring. 4 titan va 4 poʻlat oling."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbital qurilish maydoni",
+  "desc": "Titan ishlab chiqarishingizni 1 pogʻonaga oshiring. 4 titan oling."
+ },
+ "Acquired Space Agency": {
+  "name": "Sotib olingan kosmik agentlik",
+  "desc": "6 titan oling. Kosmos belgili ikkita karta chiqquncha kartalarni oching. Ularni qoʻlingizga oling, qolganini tashlang."
+ },
+ "Research Network": {
+  "name": "Tadqiqot tarmogʻi",
+  "desc": "M€ ishlab chiqarishingizni 1 pogʻonaga oshiring. 3 ta karta oling. Oʻynalgandan soʻng, harakat qilganingizda joker belgisi siz tanlagan istalgan belgi hisoblanadi."
+ },
+ "Eccentric Sponsor": {
+  "name": "Eksentrik homiy",
+  "desc": "QOʻLINGIZDAN 25 M€ CHEGIRMA BILAN KARTA OʻYNANG."
+ },
+ "Ecology Experts": {
+  "name": "Ekologiya ekspertlari",
+  "desc": "Oʻsimlik ishlab chiqarishingizni 1 pogʻonaga oshiring. GLOBAL TALABLARGA EʼTIBOR BERMAY QOʻLINGIZDAN KARTA OʻYNANG."
+ },
+ "Experimental Forest": {
+  "name": "Tajriba oʻrmoni",
+  "desc": "1 ta koʻkalamzor plitkasini joylashtiring va kislorodni 1 pogʻonaga koʻtaring. Oʻsimlik belgili ikkita karta chiqquncha kartalarni oching. Ularni qoʻlingizga oling, qolganini tashlang."
+ }
+}

@@ -1,0 +1,1343 @@
+{
+ "Acquired Company": {
+  "name": "Įsigyta bendrovė",
+  "desc": "Padidink savo M€ gamybą 3 žingsniais."
+ },
+ "Advanced Alloys": {
+  "name": "Pažangūs lydiniai",
+  "effects": [
+   "Kiekvienas tavo titanas vertas 1 M€ daugiau.",
+   "Kiekvienas tavo plienas vertas 1 M€ daugiau."
+  ]
+ },
+ "AI Central": {
+  "name": "DI centras",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu.",
+  "actions": [
+   "Ištrauk 2 kortas."
+  ]
+ },
+ "Anti-Gravity Technology": {
+  "name": "Antigravitacijos technologija",
+  "effects": [
+   "Kai žaidi kortą, moki už ją 2 M€ mažiau."
+  ]
+ },
+ "Asteroid Mining Consortium": {
+  "name": "Asteroidų kasybos konsorciumas",
+  "desc": "Sumažink bet kurio žaidėjo titano gamybą 1 žingsniu, o savo padidink 1 žingsniu."
+ },
+ "Bribed Committee": {
+  "name": "Papirktas komitetas",
+  "desc": "Pakelk savo TR 2 žingsniais."
+ },
+ "Building Industries": {
+  "name": "Statybų pramonė",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink plieno gamybą 2 žingsniais."
+ },
+ "Business Contacts": {
+  "name": "Verslo kontaktai",
+  "desc": "Peržiūrėk 4 viršutines kaladės kortas. 2 pasiimk į ranką, kitas išmesk."
+ },
+ "Business Network": {
+  "name": "Verslo tinklas",
+  "desc": "Sumažink savo M€ gamybą 1 žingsniu.",
+  "actions": [
+   "Peržiūrėk viršutinę kortą ir ją nupirk arba išmesk."
+  ]
+ },
+ "Callisto Penal Mines": {
+  "name": "Kalisto katorgos kasyklos",
+  "desc": "Padidink savo M€ gamybą 3 žingsniais."
+ },
+ "Caretaker Contract": {
+  "name": "Priežiūros sutartis",
+  "actions": [
+   "Išleisk 8 šilumos ir pakelk savo teraformavimo reitingą 1 žingsniu."
+  ]
+ },
+ "Cartel": {
+  "name": "Kartelis",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu už kiekvieną savo Žemės žymą, įskaitant šią."
+ },
+ "CEO's Favorite Project": {
+  "name": "Generalinio direktoriaus mėgstamas projektas",
+  "desc": "Pridėk 1 išteklių ant bet kurios savo kortos, ant kurios jau yra bent 1 išteklius."
+ },
+ "Commercial District": {
+  "name": "Komercinis rajonas",
+  "desc": "Padėk šią plytelę. Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 4 žingsniais.",
+  "vpText": [
+   "1 PT už kiekvieną gretimą miesto plytelę."
+  ]
+ },
+ "Corporate Stronghold": {
+  "name": "Korporacijos tvirtovė",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 3 žingsniais. Padėk miesto plytelę."
+ },
+ "Development Center": {
+  "name": "Plėtros centras",
+  "actions": [
+   "Išleisk 1 energijos ir ištrauk kortą."
+  ]
+ },
+ "Earth Catapult": {
+  "name": "Žemės katapulta",
+  "effects": [
+   "Kai žaidi kortą, moki už ją 2 M€ mažiau."
+  ]
+ },
+ "Earth Office": {
+  "name": "Žemės biuras",
+  "effects": [
+   "Kai žaidi Žemės žymą, moki už ją 3 M€ mažiau."
+  ]
+ },
+ "Electro Catapult": {
+  "name": "Elektrokatapulta",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu.",
+  "actions": [
+   "Išleisk 1 augalą arba 1 plieno ir gauk 7 M€."
+  ]
+ },
+ "Energy Tapping": {
+  "name": "Energijos nutekinimas",
+  "desc": "Sumažink bet kurio žaidėjo energijos gamybą 1 žingsniu, o savo padidink 1 žingsniu."
+ },
+ "Fuel Factory": {
+  "name": "Kuro gamykla",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink titano bei M€ gamybą po 1 žingsnį."
+ },
+ "Gene Repair": {
+  "name": "Genų taisymas",
+  "desc": "Padidink savo M€ gamybą 2 žingsniais."
+ },
+ "Great Escarpment Consortium": {
+  "name": "Didžiosios atodangos konsorciumas",
+  "desc": "Sumažink bet kurio žaidėjo plieno gamybą 1 žingsniu, o savo padidink 1 žingsniu."
+ },
+ "Hackers": {
+  "name": "Įsilaužėliai",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir bet kurio žaidėjo M€ gamybą 2 žingsniais. Padidink savo M€ gamybą 2 žingsniais."
+ },
+ "Hired Raiders": {
+  "name": "Samdyti plėšikai",
+  "desc": "Pavok iki 2 plieno arba 3 M€ iš bet kurio žaidėjo."
+ },
+ "Indentured Workers": {
+  "name": "Samdiniai pagal sutartį",
+  "desc": "Kita šią kartą sužaidžiama korta kainuoja 8 M€ mažiau."
+ },
+ "Industrial Center": {
+  "name": "Pramonės centras",
+  "desc": "Padėk šią plytelę greta miesto plytelės.",
+  "actions": [
+   "Išleisk 7 M€ ir padidink savo plieno gamybą 1 žingsniu."
+  ]
+ },
+ "Interstellar Colony Ship": {
+  "name": "Tarpžvaigždinis kolonijų laivas"
+ },
+ "Invention Contest": {
+  "name": "Išradimų konkursas",
+  "desc": "Peržiūrėk 3 viršutines kaladės kortas. 1 pasiimk į ranką, kitas išmesk."
+ },
+ "Inventors' Guild": {
+  "name": "Išradėjų gildija",
+  "actions": [
+   "Peržiūrėk viršutinę kortą ir ją nupirk arba išmesk."
+  ]
+ },
+ "Investment Loan": {
+  "name": "Investicinė paskola",
+  "desc": "Sumažink savo M€ gamybą 1 žingsniu. Gauk 10 M€."
+ },
+ "Io Mining Industries": {
+  "name": "Ijo kasybos pramonė",
+  "desc": "Padidink savo titano gamybą 2 žingsniais ir M€ gamybą 2 žingsniais.",
+  "vpText": [
+   "1 PT už kiekvieną savo Jupiterio žymą."
+  ]
+ },
+ "Lagrange Observatory": {
+  "name": "Lagranžo observatorija",
+  "desc": "Ištrauk 1 kortą."
+ },
+ "Land Claim": {
+  "name": "Žemės pretenzija",
+  "desc": "Rezervuok sau nerezervuotą vietą: plytelę ten galėsi padėti tik tu."
+ },
+ "Lightning Harvest": {
+  "name": "Žaibų derlius",
+  "desc": "Padidink savo energijos gamybą ir M€ gamybą po vieną žingsnį."
+ },
+ "Mars University": {
+  "name": "Marso universitetas",
+  "effects": [
+   "Kai žaidi mokslo žymą, įskaitant šią, gali išmesti kortą iš rankos ir ištraukti kortą."
+  ]
+ },
+ "Mass Converter": {
+  "name": "Masės keitiklis",
+  "desc": "Padidink savo energijos gamybą 6 žingsniais.",
+  "effects": [
+   "Kai žaidi kosmoso kortą, moki už ją 2 M€ mažiau."
+  ]
+ },
+ "Media Archives": {
+  "name": "Žiniasklaidos archyvai",
+  "desc": "Gauk 1 M€ už kiekvieną visų žaidėjų KADA NORS SUŽAISTĄ įvykį."
+ },
+ "Media Group": {
+  "name": "Žiniasklaidos grupė",
+  "effects": [
+   "Sužaidęs įvykio kortą, gauni 3 M€."
+  ]
+ },
+ "Medical Lab": {
+  "name": "Medicinos laboratorija",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu už kiekvienas 2 savo pastato žymas, įskaitant šią."
+ },
+ "Mine": {
+  "name": "Kasykla",
+  "desc": "Padidink savo plieno gamybą 1 žingsniu."
+ },
+ "Mineral Deposit": {
+  "name": "Mineralų telkinys",
+  "desc": "Gauk 5 plieno."
+ },
+ "Mining Area": {
+  "name": "Kasybos zona",
+  "desc": "Padėk šią plytelę vietoje su plieno ar titano padėjimo premija, greta kitos savo plytelės. Padidink to ištekliaus gamybą 1 žingsniu."
+ },
+ "Miranda Resort": {
+  "name": "Mirandos kurortas",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu už kiekvieną savo Žemės žymą."
+ },
+ "Olympus Conference": {
+  "name": "Olimpo konferencija",
+  "desc": "Kai žaidi mokslo žymą, įskaitant šią, arba pridėk mokslo išteklių ant šios kortos, arba pašalink mokslo išteklių nuo šios kortos ir ištrauk kortą."
+ },
+ "Physics Complex": {
+  "name": "Fizikos kompleksas",
+  "actions": [
+   "Išleisk 6 energijos ir pridėk mokslo išteklių ant šios kortos."
+  ],
+  "vpText": [
+   "2 PT už kiekvieną mokslo išteklių ant šios kortos."
+  ]
+ },
+ "Power Infrastructure": {
+  "name": "Energetikos infrastruktūra",
+  "actions": [
+   "Išleisk bet kiek energijos ir gauk tiek pat M€."
+  ]
+ },
+ "Power Supply Consortium": {
+  "name": "Energijos tiekimo konsorciumas",
+  "desc": "Sumažink bet kurio žaidėjo energijos gamybą 1 žingsniu, o savo padidink 1 žingsniu."
+ },
+ "Protected Habitats": {
+  "name": "Saugomos buveinės",
+  "effects": [
+   "Varžovai negali pašalinti tavo augalų, gyvūnų ar mikrobų."
+  ]
+ },
+ "Quantum Extractor": {
+  "name": "Kvantinis ekstraktorius",
+  "desc": "Padidink savo energijos gamybą 4 žingsniais.",
+  "effects": [
+   "Kai žaidi kosmoso kortą, moki už ją 2 M€ mažiau."
+  ]
+ },
+ "Rad-Suits": {
+  "name": "Antiradiaciniai kostiumai",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu."
+ },
+ "Research": {
+  "name": "Tyrimai",
+  "desc": "Laikoma, kad sužaidei 2 mokslo kortas. Ištrauk 2 kortas."
+ },
+ "Restricted Area": {
+  "name": "Ribota zona",
+  "desc": "Padėk šią plytelę.",
+  "actions": [
+   "Išleisk 2 M€ ir ištrauk kortą."
+  ]
+ },
+ "Robotic Workforce": {
+  "name": "Robotizuota darbo jėga",
+  "desc": "Nukopijuok tik vienos savo pastato kortos gamybos langelį."
+ },
+ "Sabotage": {
+  "name": "Sabotažas",
+  "desc": "Pašalink iki 3 titano iš bet kurio žaidėjo, arba 4 plieno, arba 7 M€."
+ },
+ "Satellites": {
+  "name": "Palydovai",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu už kiekvieną savo kosmoso žymą, įskaitant šią."
+ },
+ "Security Fleet": {
+  "name": "Apsaugos flotilė",
+  "actions": [
+   "Išleisk 1 titano ir pridėk 1 naikintuvą ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvieną naikintuvą ant šios kortos."
+  ]
+ },
+ "Space Elevator": {
+  "name": "Kosminis liftas",
+  "desc": "Padidink savo titano gamybą 1 žingsniu.",
+  "actions": [
+   "Išleisk 1 plieno ir gauk 5 M€."
+  ]
+ },
+ "Space Station": {
+  "name": "Kosminė stotis",
+  "effects": [
+   "Kai žaidi kosmoso kortą, moki už ją 2 M€ mažiau."
+  ]
+ },
+ "Sponsors": {
+  "name": "Rėmėjai",
+  "desc": "Padidink savo M€ gamybą 2 žingsniais."
+ },
+ "Standard Technology": {
+  "name": "Standartinė technologija",
+  "effects": [
+   "Sumokėjęs už standartinį projektą, išskyrus patentų pardavimą, gauni 3 M€."
+  ]
+ },
+ "Tardigrades": {
+  "name": "Tardigradai",
+  "actions": [
+   "Pridėk 1 mikrobą ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvienus 4 mikrobus ant šios kortos."
+  ]
+ },
+ "Technology Demonstration": {
+  "name": "Technologijų demonstracija",
+  "desc": "Ištrauk dvi kortas."
+ },
+ "Terraforming Ganymede": {
+  "name": "Ganimedo teraformavimas",
+  "desc": "Pakelk savo TR 1 žingsniu už kiekvieną savo Jupiterio žymą, įskaitant šią."
+ },
+ "Titanium Mine": {
+  "name": "Titano kasykla",
+  "desc": "Padidink savo titano gamybą 1 žingsniu."
+ },
+ "Toll Station": {
+  "name": "Rinkliavos stotis",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu už kiekvieną VARŽOVŲ kosmoso žymą."
+ },
+ "Trans-Neptune Probe": {
+  "name": "Zondas už Neptūno",
+  "desc": "Tolimojo kosmoso zondas: vertas 1 PT."
+ },
+ "Tropical Resort": {
+  "name": "Tropinis kurortas",
+  "desc": "Sumažink savo šilumos gamybą 2 žingsniais ir padidink M€ gamybą 3 žingsniais."
+ },
+ "Vesta Shipyard": {
+  "name": "Vestos laivų statykla",
+  "desc": "Padidink savo titano gamybą 1 žingsniu."
+ },
+ "Viral Enhancers": {
+  "name": "Virusiniai stiprikliai",
+  "effects": [
+   "Kai žaidi augalo, mikrobo ar gyvūno žymą, įskaitant šią, gauk 1 augalą arba pridėk 1 išteklių ant TOS KORTOS."
+  ]
+ },
+ "Virus": {
+  "name": "Virusas",
+  "desc": "Pašalink iki 2 gyvūnų arba 5 augalų iš bet kurio žaidėjo."
+ },
+ "SF Memorial": {
+  "name": "Mokslinės fantastikos memorialas",
+  "desc": "Ištrauk 1 kortą."
+ },
+ "House Printing": {
+  "name": "Namų spausdinimas",
+  "desc": "Padidink savo plieno gamybą 1 žingsniu."
+ },
+ "Space Hotels": {
+  "name": "Kosminiai viešbučiai",
+  "desc": "Padidink M€ gamybą 4 žingsniais."
+ },
+ "Martian Survey": {
+  "name": "Marso žvalgyba",
+  "desc": "Ištrauk dvi kortas."
+ },
+ "Research Coordination": {
+  "name": "Tyrimų koordinavimas",
+  "desc": "Sužaidus, kai atlieki veiksmą, džokerio žyma laikoma bet kuria tavo pasirinkta žyma."
+ },
+ "Lava Tube Settlement": {
+  "name": "Lavos tunelio gyvenvietė",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 2 žingsniais. Padėk miesto plytelę VULKANINĖJE VIETOJE, nepaisydamas gretimų miestų."
+ },
+ "Psychrophiles": {
+  "name": "Psichrofilai",
+  "actions": [
+   "Pridėk 1 mikrobą ant šios kortos."
+  ],
+  "effects": [
+   "Mokant už augalo kortą, čia esantys mikrobai gali būti naudojami po 2 M€."
+  ]
+ },
+ "Adaptation Technology": {
+  "name": "Prisitaikymo technologija",
+  "effects": [
+   "Tavo globalūs reikalavimai yra +2 arba -2 žingsniai, kiekvienu atveju pasirenki pats."
+  ]
+ },
+ "Adapted Lichen": {
+  "name": "Prisitaikiusios kerpės",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu."
+ },
+ "Advanced Ecosystems": {
+  "name": "Pažangios ekosistemos"
+ },
+ "Aerobraked Ammonia Asteroid": {
+  "name": "Aerostabdytas amoniako asteroidas",
+  "desc": "Padidink savo šilumos gamybą 3 žingsniais ir augalų gamybą 1 žingsniu. Pridėk 2 mikrobus ant KITOS kortos."
+ },
+ "Ants": {
+  "name": "Skruzdėlės",
+  "actions": [
+   "Pašalink 1 mikrobą nuo bet kurios kortos ir pridėk 1 ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvienus 2 mikrobus ant šios kortos."
+  ]
+ },
+ "Aquifer Pumping": {
+  "name": "Požeminio vandens siurbimas",
+  "actions": [
+   "Išleisk 8 M€ ir padėk 1 vandenyno plytelę. GALIMA NAUDOTI PLIENĄ, lyg žaistum pastato kortą."
+  ]
+ },
+ "Algae": {
+  "name": "Dumbliai",
+  "desc": "Gauk 1 augalą ir padidink savo augalų gamybą 2 žingsniais."
+ },
+ "ArchaeBacteria": {
+  "name": "Archebakterijos",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu."
+ },
+ "Arctic Algae": {
+  "name": "Arktiniai dumbliai",
+  "desc": "Gauk 1 augalą.",
+  "effects": [
+   "Kai kas nors padeda vandenyno plytelę, gauk 2 augalus."
+  ]
+ },
+ "Artificial Lake": {
+  "name": "Dirbtinis ežeras",
+  "desc": "Padėk 1 vandenyno plytelę VIETOJE, NEREZERVUOTOJE VANDENYNUI."
+ },
+ "Artificial Photosynthesis": {
+  "name": "Dirbtinė fotosintezė",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu arba energijos gamybą 2 žingsniais.",
+  "orTitles": [
+   "Padidink savo energijos gamybą 2 žingsniais",
+   "Padidink savo augalų gamybą 1 žingsniu"
+  ]
+ },
+ "Asteroid": {
+  "name": "Asteroidas",
+  "desc": "Pakelk temperatūrą 1 žingsniu ir gauk 2 titano. Pašalink iki 3 augalų iš bet kurio žaidėjo."
+ },
+ "Asteroid Mining": {
+  "name": "Asteroidų kasyba",
+  "desc": "Padidink savo titano gamybą 2 žingsniais."
+ },
+ "Beam From A Thorium Asteroid": {
+  "name": "Spindulys iš torio asteroido",
+  "desc": "Padidink savo šilumos ir energijos gamybą po 3 žingsnius."
+ },
+ "Big Asteroid": {
+  "name": "Didelis asteroidas",
+  "desc": "Pakelk temperatūrą 2 žingsniais ir gauk 4 titano. Pašalink iki 4 augalų iš bet kurio žaidėjo."
+ },
+ "Biomass Combustors": {
+  "name": "Biomasės degikliai",
+  "desc": "Sumažink bet kurio žaidėjo augalų gamybą 1 žingsniu ir padidink savo energijos gamybą 2 žingsniais."
+ },
+ "Birds": {
+  "name": "Paukščiai",
+  "desc": "Sumažink bet kurio žaidėjo augalų gamybą 2 žingsniais. 1 PT už kiekvieną gyvūną ant šios kortos.",
+  "actions": [
+   "Pridėk gyvūną ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvieną gyvūną ant šios kortos."
+  ]
+ },
+ "Black Polar Dust": {
+  "name": "Juodosios poliarinės dulkės",
+  "desc": "Padėk vandenyno plytelę. Sumažink savo M€ gamybą 2 žingsniais ir padidink šilumos gamybą 3 žingsniais."
+ },
+ "Breathing Filters": {
+  "name": "Kvėpavimo filtrai"
+ },
+ "Bushes": {
+  "name": "Krūmai",
+  "desc": "Padidink savo augalų gamybą 2 žingsniais. Gauk 2 augalus."
+ },
+ "Capital": {
+  "name": "Sostinė",
+  "desc": "Padėk šią plytelę. Sumažink savo energijos gamybą 2 žingsniais ir padidink M€ gamybą 5 žingsniais.",
+  "vpText": [
+   "1 papildomas PT už kiekvieną vandenyno plytelę greta šios miesto plytelės."
+  ]
+ },
+ "Carbonate Processing": {
+  "name": "Karbonatų perdirbimas",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink šilumos gamybą 3 žingsniais."
+ },
+ "Cloud Seeding": {
+  "name": "Debesų sėjimas",
+  "desc": "Sumažink savo M€ gamybą 1 žingsniu ir bet kurio žaidėjo šilumos gamybą 1 žingsniu. Padidink savo augalų gamybą 2 žingsniais."
+ },
+ "Colonizer Training Camp": {
+  "name": "Kolonistų mokymo stovykla"
+ },
+ "Comet": {
+  "name": "Kometa",
+  "desc": "Pakelk temperatūrą 1 žingsniu ir padėk vandenyno plytelę. Pašalink iki 3 augalų iš bet kurio žaidėjo."
+ },
+ "Convoy From Europa": {
+  "name": "Konvojus iš Europos",
+  "desc": "Padėk 1 vandenyno plytelę ir ištrauk 1 kortą."
+ },
+ "Cupola City": {
+  "name": "Kupolo miestas",
+  "desc": "Padėk miesto plytelę. Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 3 žingsniais."
+ },
+ "Decomposers": {
+  "name": "Skaidytojai",
+  "effects": [
+   "Kai žaidi gyvūno, augalo ar mikrobo žymą, įskaitant šią, pridėk mikrobą ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvienus 3 mikrobus ant šios kortos."
+  ]
+ },
+ "Deep Well Heating": {
+  "name": "Gilių gręžinių šildymas",
+  "desc": "Padidink savo energijos gamybą 1 žingsniu. Pakelk temperatūrą 1 žingsniu."
+ },
+ "Deimos Down": {
+  "name": "Deimo kritimas",
+  "desc": "Pakelk temperatūrą 3 žingsniais ir gauk 4 plieno. Pašalink iki 8 augalų iš bet kurio žaidėjo."
+ },
+ "Designed Microorganisms": {
+  "name": "Sukurti mikroorganizmai",
+  "desc": "Padidink savo augalų gamybą 2 žingsniais."
+ },
+ "Domed Crater": {
+  "name": "Uždengtas krateris",
+  "desc": "Gauk 3 augalus. Padėk miesto plytelę. Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 3 žingsniais."
+ },
+ "Dust Seals": {
+  "name": "Dulkių sandarikliai"
+ },
+ "Ecological Zone": {
+  "name": "Ekologinė zona",
+  "desc": "Padėk šią plytelę greta BET KURIOS žalumos.",
+  "effects": [
+   "Kai žaidi gyvūno ar augalo žymą, ĮSKAITANT ŠIAS, pridėk gyvūną ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvienus 2 gyvūnus ant šios kortos."
+  ]
+ },
+ "Energy Saving": {
+  "name": "Energijos taupymas",
+  "desc": "Padidink savo energijos gamybą 1 žingsniu už kiekvieną žaidime esančią miesto plytelę."
+ },
+ "Eos Chasma National Park": {
+  "name": "Eos Chasma nacionalinis parkas",
+  "desc": "Pridėk 1 gyvūną ANT BET KURIOS GYVŪNŲ KORTOS. Gauk 3 augalus. Padidink savo M€ gamybą 2 žingsniais."
+ },
+ "Equatorial Magnetizer": {
+  "name": "Pusiaujo magnetizatorius",
+  "actions": [
+   "Sumažink savo energijos gamybą 1 žingsniu ir pakelk savo teraformavimo reitingą 1 žingsniu."
+  ]
+ },
+ "Extreme-Cold Fungus": {
+  "name": "Ekstremalaus šalčio grybas",
+  "actions": [
+   "Gauk 1 augalą.",
+   "Pridėk 2 mikrobus ant KITOS kortos."
+  ]
+ },
+ "Farming": {
+  "name": "Žemdirbystė",
+  "desc": "Padidink savo M€ gamybą 2 žingsniais ir augalų gamybą 2 žingsniais. Gauk 2 augalus."
+ },
+ "Fish": {
+  "name": "Žuvys",
+  "desc": "Sumažink bet kurio žaidėjo augalų gamybą 1 žingsniu.",
+  "actions": [
+   "Pridėk 1 gyvūną ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvieną gyvūną ant šios kortos."
+  ]
+ },
+ "Flooding": {
+  "name": "Potvynis",
+  "desc": "Padėk vandenyno plytelę. JEI GRETA ŠIOS VANDENYNO PLYTELĖS YRA PLYTELIŲ, GALI ATIMTI 4 M€ IŠ VIENOS IŠ JŲ SAVININKO."
+ },
+ "Food Factory": {
+  "name": "Maisto fabrikas",
+  "desc": "Sumažink savo augalų gamybą 1 žingsniu ir padidink M€ gamybą 4 žingsniais."
+ },
+ "Fusion Power": {
+  "name": "Sintezės energija",
+  "desc": "Padidink savo energijos gamybą 3 žingsniais."
+ },
+ "Fueled Generators": {
+  "name": "Kuro generatoriai",
+  "desc": "Sumažink savo M€ gamybą 1 žingsniu ir padidink energijos gamybą 1 žingsniu."
+ },
+ "Ganymede Colony": {
+  "name": "Ganimedo kolonija",
+  "desc": "Padėk miesto plytelę REZERVUOTOJE VIETOJE.",
+  "vpText": [
+   "1 PT už kiekvieną savo Jupiterio žymą."
+  ]
+ },
+ "Geothermal Power": {
+  "name": "Geoterminė energija",
+  "desc": "Padidink savo energijos gamybą 2 žingsniais."
+ },
+ "GHG Factories": {
+  "name": "ŠESD gamyklos",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink šilumos gamybą 4 žingsniais."
+ },
+ "GHG Producing Bacteria": {
+  "name": "ŠESD gaminančios bakterijos",
+  "actions": [
+   "Pridėk 1 mikrobą ant šios kortos.",
+   "Pašalink 2 mikrobus ir pakelk temperatūrą 1 žingsniu."
+  ]
+ },
+ "Giant Ice Asteroid": {
+  "name": "Milžiniškas ledo asteroidas",
+  "desc": "Pakelk temperatūrą 2 žingsniais ir padėk 2 vandenyno plyteles. Pašalink iki 6 augalų iš bet kurio žaidėjo."
+ },
+ "Giant Space Mirror": {
+  "name": "Milžiniškas kosminis veidrodis",
+  "desc": "Padidink savo energijos gamybą 3 žingsniais."
+ },
+ "Grass": {
+  "name": "Žolė",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu. Gauk 3 augalus."
+ },
+ "Great Dam": {
+  "name": "Didžioji užtvanka",
+  "desc": "Padidink savo energijos gamybą 2 žingsniais."
+ },
+ "Greenhouses": {
+  "name": "Šiltnamiai",
+  "desc": "Gauk 1 augalą už kiekvieną žaidime esančią miesto plytelę."
+ },
+ "Heather": {
+  "name": "Viržiai",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu. Gauk 1 augalą."
+ },
+ "Heat Trappers": {
+  "name": "Šilumos gaudyklės",
+  "desc": "Sumažink bet kurio žaidėjo šilumos gamybą 2 žingsniais ir padidink savo energijos gamybą 1 žingsniu."
+ },
+ "Herbivores": {
+  "name": "Žolėdžiai",
+  "desc": "+1 gyvūnas ant šios kortos. -1 bet kurio žaidėjo augalų gamyba",
+  "effects": [
+   "Kai padedi žalumos plytelę, pridėk gyvūną ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvienus 2 gyvūnus ant šios kortos."
+  ]
+ },
+ "Ice Asteroid": {
+  "name": "Ledo asteroidas",
+  "desc": "Padėk 2 vandenyno plyteles."
+ },
+ "Ice Cap Melting": {
+  "name": "Ledo kepurės tirpimas",
+  "desc": "Padėk 1 vandenyno plytelę."
+ },
+ "Immigrant City": {
+  "name": "Imigrantų miestas",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir M€ gamybą 2 žingsniais. Padėk miesto plytelę.",
+  "effects": [
+   "Kai padedama miesto plytelė, įskaitant šią, padidink savo M€ gamybą 1 žingsniu."
+  ]
+ },
+ "Immigration Shuttles": {
+  "name": "Imigracijos šaudykliai",
+  "desc": "Padidink savo M€ gamybą 5 žingsniais.",
+  "vpText": [
+   "1 PT už kas 3-ią žaidime esantį miestą."
+  ]
+ },
+ "Imported GHG": {
+  "name": "Importuotos ŠESD",
+  "desc": "Padidink savo šilumos gamybą 1 žingsniu ir gauk 3 šilumos."
+ },
+ "Imported Hydrogen": {
+  "name": "Importuotas vandenilis",
+  "desc": "Gauk 3 augalus arba pridėk 3 mikrobus ar 2 gyvūnus ant KITOS kortos. Padėk vandenyno plytelę.",
+  "orTitles": [
+   "Gauk 3 augalus",
+   "Pridėk 3 mikrobus ant KITOS kortos",
+   "Pridėk 2 gyvūnus ant KITOS kortos"
+  ]
+ },
+ "Imported Nitrogen": {
+  "name": "Importuotas azotas",
+  "desc": "Pakelk savo TR 1 žingsniu ir gauk 4 augalus. Pridėk 3 mikrobus ant KITOS kortos ir 2 gyvūnus ant KITOS kortos."
+ },
+ "Import of Advanced GHG": {
+  "name": "Pažangių ŠESD importas",
+  "desc": "Padidink savo šilumos gamybą 2 žingsniais."
+ },
+ "Industrial Microbes": {
+  "name": "Pramoniniai mikrobai",
+  "desc": "Padidink savo energijos ir plieno gamybą po 1 žingsnį."
+ },
+ "Insects": {
+  "name": "Vabzdžiai",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu už kiekvieną savo augalo žymą."
+ },
+ "Insulation": {
+  "name": "Izoliacija",
+  "desc": "Sumažink savo šilumos gamybą bet kiek žingsnių ir padidink M€ gamybą tiek pat žingsnių."
+ },
+ "Ironworks": {
+  "name": "Geležies liejykla",
+  "actions": [
+   "Išleisk 4 energijos, gauk 1 plieno ir pakelk deguonį 1 žingsniu."
+  ]
+ },
+ "Kelp Farming": {
+  "name": "Rudadumblių ūkis",
+  "desc": "Padidink savo M€ gamybą 2 žingsniais ir augalų gamybą 3 žingsniais. Gauk 2 augalus."
+ },
+ "Lake Marineris": {
+  "name": "Marinerio ežeras",
+  "desc": "Padėk 2 vandenyno plyteles."
+ },
+ "Large Convoy": {
+  "name": "Didelis konvojus",
+  "desc": "Padėk vandenyno plytelę ir ištrauk 2 kortas. Gauk 5 augalus arba pridėk 4 gyvūnus ant KITOS kortos.",
+  "orTitles": [
+   "Gauk 5 augalus",
+   "Pridėk 4 gyvūnus ant KITOS kortos"
+  ]
+ },
+ "Lava Flows": {
+  "name": "Lavos srautai",
+  "desc": "Pakelk temperatūrą 2 žingsniais ir padėk šią plytelę ARBA ANT THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS, ARBA ANT ARSIA MONS."
+ },
+ "Lichen": {
+  "name": "Kerpės",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu."
+ },
+ "Livestock": {
+  "name": "Gyvuliai",
+  "desc": "Sumažink savo augalų gamybą 1 žingsniu ir padidink M€ gamybą 2 žingsniais",
+  "actions": [
+   "Pridėk 1 gyvūną ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvieną gyvūną ant šios kortos."
+  ]
+ },
+ "Local Heat Trapping": {
+  "name": "Vietinis šilumos sulaikymas",
+  "desc": "Išleisk 5 šilumos ir gauk 4 augalus arba pridėk 2 gyvūnus ant KITOS kortos.",
+  "orTitles": [
+   "Gauk 4 augalus",
+   "Pridėk 2 gyvūnus ant KITOS kortos"
+  ]
+ },
+ "Lunar Beam": {
+  "name": "Mėnulio spindulys",
+  "desc": "Sumažink savo M€ gamybą 2 žingsniais ir padidink šilumos bei energijos gamybą po 2 žingsnius."
+ },
+ "Magnetic Field Dome": {
+  "name": "Magnetinio lauko kupolas",
+  "desc": "Sumažink savo energijos gamybą 2 žingsniais ir padidink augalų gamybą 1 žingsniu. Pakelk savo TR 1 žingsniu."
+ },
+ "Magnetic Field Generators": {
+  "name": "Magnetinio lauko generatoriai",
+  "desc": "Sumažink savo energijos gamybą 4 žingsniais ir padidink augalų gamybą 2 žingsniais. Pakelk savo TR 3 žingsniais."
+ },
+ "Mangrove": {
+  "name": "Mangrovės",
+  "desc": "Padėk žalumos plytelę VIETOJE, REZERVUOTOJE VANDENYNUI, ir pakelk deguonį 1 žingsniu. Tam nepaisyk įprastų padėjimo apribojimų."
+ },
+ "Martian Rails": {
+  "name": "Marso geležinkeliai",
+  "actions": [
+   "Išleisk 1 energijos ir gauk 1 M€ už kiekvieną miesto plytelę ANT MARSO."
+  ]
+ },
+ "Methane From Titan": {
+  "name": "Metanas iš Titano",
+  "desc": "Padidink savo šilumos gamybą 2 žingsniais ir augalų gamybą 2 žingsniais."
+ },
+ "Micro-Mills": {
+  "name": "Mikromalūnai",
+  "desc": "Padidink savo šilumos gamybą 1 žingsniu."
+ },
+ "Mining Expedition": {
+  "name": "Kasybos ekspedicija",
+  "desc": "Pakelk deguonį 1 žingsniu. Pašalink 2 augalus iš bet kurio žaidėjo. Gauk 2 plieno."
+ },
+ "Mining Rights": {
+  "name": "Kasybos teisės",
+  "desc": "Padėk šią plytelę vietoje su plieno ar titano padėjimo premija. Padidink tą gamybą 1 žingsniu."
+ },
+ "Mohole Area": {
+  "name": "Moholo zona",
+  "desc": "Padidink savo šilumos gamybą 4 žingsniais. Padėk šią plytelę VIETOJE, REZERVUOTOJE VANDENYNUI."
+ },
+ "Moss": {
+  "name": "Samanos",
+  "desc": "Prarask 1 augalą. Padidink savo augalų gamybą 1 žingsniu."
+ },
+ "Natural Preserve": {
+  "name": "Gamtos draustinis",
+  "desc": "Padėk šią plytelę NE GRETA JOKIOS KITOS PLYTELĖS. Padidink savo M€ gamybą 1 žingsniu."
+ },
+ "Nitrite Reducing Bacteria": {
+  "name": "Nitritus redukuojančios bakterijos",
+  "desc": "Pridėk 3 mikrobus ant šios kortos.",
+  "actions": [
+   "Pridėk 1 mikrobą ant šios kortos.",
+   "Pašalink 3 mikrobus ir pakelk savo TR 1 žingsniu."
+  ]
+ },
+ "Nitrogen-Rich Asteroid": {
+  "name": "Azoto turtingas asteroidas",
+  "desc": "Pakelk savo teraformavimo reitingą 2 žingsniais ir temperatūrą 1 žingsniu. Padidink savo augalų gamybą 1 žingsniu arba 4 žingsniais, jei turi 3 augalo žymas."
+ },
+ "Nitrophilic Moss": {
+  "name": "Nitrofilinės samanos",
+  "desc": "Prarask 2 augalus. Padidink savo augalų gamybą 2 žingsniais."
+ },
+ "Noctis City": {
+  "name": "Noktio miestas",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 3 žingsniais. Padėk miesto plytelę REZERVUOTOJE VIETOJE, nepaisydamas įprastų padėjimo apribojimų."
+ },
+ "Noctis Farming": {
+  "name": "Noktio ūkininkavimas",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu ir gauk 2 augalus."
+ },
+ "Nuclear Power": {
+  "name": "Branduolinė energija",
+  "desc": "Sumažink savo M€ gamybą 2 žingsniais ir padidink energijos gamybą 3 žingsniais."
+ },
+ "Nuclear Zone": {
+  "name": "Branduolinė zona",
+  "desc": "Padėk šią plytelę ir pakelk temperatūrą 2 žingsniais."
+ },
+ "Open City": {
+  "name": "Atviras miestas",
+  "desc": "Gauk 2 augalus. Padėk miesto plytelę. Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 4 žingsniais."
+ },
+ "Optimal Aerobraking": {
+  "name": "Optimalus aerostabdymas",
+  "effects": [
+   "Kai žaidi kosmoso įvykį, gauni 3 M€ ir 3 šilumos."
+  ]
+ },
+ "Ore Processor": {
+  "name": "Rūdos perdirbimas",
+  "actions": [
+   "Išleisk 4 energijos, gauk 1 titano ir pakelk deguonį 1 žingsniu."
+  ]
+ },
+ "Permafrost Extraction": {
+  "name": "Amžinojo įšalo gavyba",
+  "desc": "Padėk 1 vandenyno plytelę."
+ },
+ "Peroxide Power": {
+  "name": "Peroksido energija",
+  "desc": "Sumažink savo M€ gamybą 1 žingsniu ir padidink energijos gamybą 2 žingsniais."
+ },
+ "Pets": {
+  "name": "Augintiniai",
+  "desc": "Pridėk 1 gyvūną ant šios kortos.",
+  "effects": [
+   "Kai padedama bet kuri miesto plytelė, pridėk gyvūną ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvienus 2 gyvūnus čia."
+  ]
+ },
+ "Phobos Space Haven": {
+  "name": "Fobo kosminis uostas",
+  "desc": "Padidink savo titano gamybą 1 žingsniu ir padėk miesto plytelę REZERVUOTOJE VIETOJE."
+ },
+ "Plantation": {
+  "name": "Plantacija",
+  "desc": "Padėk žalumos plytelę ir pakelk deguonį 1 žingsniu."
+ },
+ "Power Grid": {
+  "name": "Elektros tinklas",
+  "desc": "Padidink savo energijos gamybą po žingsnį už kiekvieną savo energijos žymą, įskaitant šią."
+ },
+ "Power Plant": {
+  "name": "Elektrinė",
+  "desc": "Padidink savo energijos gamybą 1 žingsniu."
+ },
+ "Predators": {
+  "name": "Plėšrūnai",
+  "actions": [
+   "Pašalink 1 gyvūną nuo bet kurios kortos ir pridėk jį ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvieną gyvūną ant šios kortos."
+  ]
+ },
+ "Protected Valley": {
+  "name": "Saugomas slėnis",
+  "desc": "Padidink savo M€ gamybą 2 žingsniais. Padėk žalumos plytelę VIETOJE, REZERVUOTOJE VANDENYNUI, nepaisydamas įprastų padėjimo apribojimų, ir pakelk deguonį 1 žingsniu."
+ },
+ "Rad-Chem Factory": {
+  "name": "Radiacinės chemijos gamykla",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu. Pakelk savo TR 2 žingsniais."
+ },
+ "Regolith Eaters": {
+  "name": "Regolito ėdikai",
+  "actions": [
+   "Pridėk 1 mikrobą ant šios kortos.",
+   "Pašalink 2 mikrobus nuo šios kortos ir pakelk deguonies lygį 1 žingsniu."
+  ]
+ },
+ "Release of Inert Gases": {
+  "name": "Inertinių dujų išleidimas",
+  "desc": "Pakelk savo teraformavimo reitingą 2 žingsniais."
+ },
+ "Research Outpost": {
+  "name": "Tyrimų postas",
+  "desc": "Padėk miesto plytelę NE GRETA JOKIOS KITOS PLYTELĖS.",
+  "effects": [
+   "Kai žaidi kortą, moki už ją 1 M€ mažiau."
+  ]
+ },
+ "Rover Construction": {
+  "name": "Marsaeigių gamyba",
+  "effects": [
+   "Kai padedama bet kuri miesto plytelė, gauk 2 M€."
+  ]
+ },
+ "Search For Life": {
+  "name": "Gyvybės paieškos",
+  "actions": [
+   "Išleisk 1 M€ ir atversk viršutinę traukimo kaladės kortą. Jei ji turi mikrobo žymą, pridėk čia mokslo išteklių."
+  ],
+  "vpText": [
+   "3 PT, jei čia turi vieną ar daugiau mokslo išteklių."
+  ]
+ },
+ "Shuttles": {
+  "name": "Šaudykliniai laivai",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 2 žingsniais.",
+  "effects": [
+   "Kai žaidi kosmoso kortą, moki už ją 2 M€ mažiau."
+  ]
+ },
+ "Small Animals": {
+  "name": "Smulkūs gyvūnai",
+  "desc": "Sumažink bet kurio žaidėjo augalų gamybą 1 žingsniu.",
+  "actions": [
+   "Pridėk 1 gyvūną ant šios kortos."
+  ],
+  "vpText": [
+   "1 PT už kiekvienus 2 gyvūnus ant šios kortos."
+  ]
+ },
+ "Soil Factory": {
+  "name": "Dirvožemio gamykla",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink augalų gamybą 1 žingsniu."
+ },
+ "Solar Power": {
+  "name": "Saulės energija",
+  "desc": "Padidink savo energijos gamybą 1 žingsniu."
+ },
+ "Solar Wind Power": {
+  "name": "Saulės vėjo energija",
+  "desc": "Padidink savo energijos gamybą 1 žingsniu ir gauk 2 titano."
+ },
+ "Soletta": {
+  "name": "Soletta",
+  "desc": "Padidink savo šilumos gamybą 7 žingsniais."
+ },
+ "Space Mirrors": {
+  "name": "Kosminiai veidrodžiai",
+  "actions": [
+   "Išleisk 7 M€ ir padidink savo energijos gamybą 1 žingsniu."
+  ]
+ },
+ "Special Design": {
+  "name": "Specialus projektas",
+  "desc": "Kitai šią kartą sužaidžiamai kortai globalūs reikalavimai yra +2 arba -2 žingsniai, pasirenki pats."
+ },
+ "Steelworks": {
+  "name": "Plieno liejykla",
+  "actions": [
+   "Išleisk 4 energijos, gauk 2 plieno ir pakelk deguonį 1 žingsniu."
+  ]
+ },
+ "Strip Mine": {
+  "name": "Atviroji kasykla",
+  "desc": "Sumažink savo energijos gamybą 2 žingsniais. Padidink plieno gamybą 2 žingsniais ir titano gamybą 1 žingsniu. Pakelk deguonį 2 žingsniais."
+ },
+ "Subterranean Reservoir": {
+  "name": "Požeminis rezervuaras",
+  "desc": "Padėk 1 vandenyno plytelę."
+ },
+ "Symbiotic Fungus": {
+  "name": "Simbiotinis grybas",
+  "actions": [
+   "Pridėk mikrobą ant KITOS kortos."
+  ]
+ },
+ "Tectonic Stress Power": {
+  "name": "Tektoninės įtampos energija",
+  "desc": "Padidink savo energijos gamybą 3 žingsniais."
+ },
+ "Towing A Comet": {
+  "name": "Kometos vilkimas",
+  "desc": "Gauk 2 augalus. Pakelk deguonies lygį 1 žingsniu ir padėk vandenyno plytelę."
+ },
+ "Trees": {
+  "name": "Medžiai",
+  "desc": "Padidink savo augalų gamybą 3 žingsniais. Gauk 1 augalą."
+ },
+ "Tundra Farming": {
+  "name": "Tundros ūkininkavimas",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu ir M€ gamybą 2 žingsniais. Gauk 1 augalą."
+ },
+ "Underground City": {
+  "name": "Požeminis miestas",
+  "desc": "Padėk miesto plytelę. Sumažink savo energijos gamybą 2 žingsniais ir padidink plieno gamybą 2 žingsniais."
+ },
+ "Underground Detonations": {
+  "name": "Požeminiai sprogdinimai",
+  "actions": [
+   "Išleisk 10 M€ ir padidink savo šilumos gamybą 2 žingsniais."
+  ]
+ },
+ "Urbanized Area": {
+  "name": "Urbanizuota teritorija",
+  "desc": "Sumažink savo energijos gamybą 1 žingsniu ir padidink M€ gamybą 2 žingsniais. Padėk miesto plytelę GRETA BENT 2 KITŲ MIESTO PLYTELIŲ."
+ },
+ "Water Import From Europa": {
+  "name": "Vandens importas iš Europos",
+  "actions": [
+   "Sumokėk 12 M€ ir padėk vandenyno plytelę. GALIMA NAUDOTI TITANĄ, lyg žaistum kosmoso kortą."
+  ],
+  "vpText": [
+   "1 PT už kiekvieną savo Jupiterio žymą."
+  ]
+ },
+ "Water Splitting Plant": {
+  "name": "Vandens skaidymo įrenginys",
+  "actions": [
+   "Išleisk 3 energijos ir pakelk deguonį 1 žingsniu."
+  ]
+ },
+ "Wave Power": {
+  "name": "Bangų energija",
+  "desc": "Padidink savo energijos gamybą 1 žingsniu."
+ },
+ "Windmills": {
+  "name": "Vėjo jėgainės",
+  "desc": "Padidink savo energijos gamybą 1 žingsniu."
+ },
+ "Worms": {
+  "name": "Sliekai",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu už kiekvienas 2 savo mikrobo žymas, įskaitant šią."
+ },
+ "Zeppelins": {
+  "name": "Cepelinai",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu už kiekvieną miesto plytelę ANT MARSO."
+ },
+ "Saturn Systems": {
+  "name": "Saturn Systems",
+  "desc": "Pradedi su 1 titano gamyba ir 42 M€.",
+  "effects": [
+   "Kaskart, kai į žaidimą patenka bet kuri Jupiterio žyma, įskaitant šią, padidink savo M€ gamybą 1 žingsniu."
+  ]
+ },
+ "Teractor": {
+  "name": "Teractor",
+  "desc": "Pradedi su 60 M€.",
+  "effects": [
+   "Kai žaidi Žemės žymą, moki už ją 3 M€ mažiau."
+  ]
+ },
+ "Cheung Shing MARS": {
+  "name": "Cheung Shing MARS",
+  "desc": "Pradedi su 3 M€ gamyba ir 44 M€.",
+  "effects": [
+   "Kai žaidi pastato žymą, moki už ją 2 M€ mažiau."
+  ]
+ },
+ "Point Luna": {
+  "name": "Point Luna",
+  "desc": "Pradedi su 1 titano gamyba ir 38 M€.",
+  "effects": [
+   "Kai žaidi Žemės žymą, įskaitant šią, ištrauk kortą."
+  ]
+ },
+ "Robinson Industries": {
+  "name": "Robinson Industries",
+  "desc": "Pradedi su 47 M€.",
+  "actions": [
+   "Išleisk 4 M€ ir padidink (vieną iš) savo MAŽIAUSIŲ gamybų 1 žingsniu."
+  ]
+ },
+ "Valley Trust": {
+  "name": "Valley Trust",
+  "desc": "Pradedi su 37 M€. Pirmuoju veiksmu ištrauk 3 preliudijos kortas ir vieną iš jų sužaisk. Kitas dvi išmesk.",
+  "effects": [
+   "Kai žaidi mokslo žymą, moki už ją 2 M€ mažiau."
+  ]
+ },
+ "Vitor": {
+  "name": "Vitor",
+  "desc": "Pradedi su 45 M€. Pirmuoju veiksmu nemokamai finansuok apdovanojimą.",
+  "effects": [
+   "Kai žaidi kortą su NENEIGIAMU PT simboliu, įskaitant šią, gauk 3 M€."
+  ]
+ },
+ "Beginner Corporation": {
+  "name": "Pradedančiųjų korporacija",
+  "desc": "Pradedi su 42 M€. Užuot rinkęsis iš 10 kortų pasiruošimo metu, 10 kortų gauni nemokamai."
+ },
+ "CrediCor": {
+  "name": "CrediCor",
+  "desc": "Pradedi su 57 M€.",
+  "effects": [
+   "Sumokėjęs už kortą ar standartinį projektą, kurio bazinė kaina 20 M€ ar daugiau, gauni 4 M€."
+  ]
+ },
+ "EcoLine": {
+  "name": "EcoLine",
+  "desc": "Pradedi su 2 augalų gamyba, 3 augalais ir 36 M€.",
+  "effects": [
+   "Žalumai padėti visada gali sumokėti 7 augalus vietoj 8."
+  ]
+ },
+ "Helion": {
+  "name": "Helion",
+  "desc": "Pradedi su 3 šilumos gamyba ir 42 M€.",
+  "effects": [
+   "Šilumą gali naudoti kaip M€. M€ negali naudoti kaip šilumos."
+  ]
+ },
+ "Interplanetary Cinematics": {
+  "name": "Interplanetary Cinematics",
+  "desc": "Pradedi su 20 plieno ir 30 M€.",
+  "effects": [
+   "Kaskart sužaidęs įvykį, gauni 2 M€."
+  ]
+ },
+ "Inventrix": {
+  "name": "Inventrix",
+  "desc": "Pirmuoju žaidimo veiksmu ištrauk 3 kortas. Pradedi su 45 M€.",
+  "effects": [
+   "Tavo temperatūros, deguonies, vandenynų ir Veneros reikalavimai yra +2 arba -2 žingsniai, kiekvienu atveju pasirenki pats."
+  ]
+ },
+ "Mining Guild": {
+  "name": "Kalnakasių gildija",
+  "desc": "Pradedi su 30 M€, 5 plieno ir 1 plieno gamyba.",
+  "effects": [
+   "Kaskart padėjęs plytelę vietoje su plieno ar titano padėjimo premija, padidink savo plieno gamybą 1 žingsniu"
+  ]
+ },
+ "PhoboLog": {
+  "name": "PhoboLog",
+  "desc": "Pradedi su 10 titano ir 23 M€.",
+  "effects": [
+   "Kiekvienas tavo titanas vertas 1 M€ daugiau."
+  ]
+ },
+ "Tharsis Republic": {
+  "name": "Tarsio respublika",
+  "desc": "Pradedi su 40 M€. Pirmuoju žaidimo veiksmu padėk miesto plytelę.",
+  "effects": [
+   "Kai bet kuri miesto plytelė padedama ANT MARSO, padidink savo M€ gamybą 1 žingsniu. Kai pats padedi miesto plytelę, gauk 3 M€."
+  ]
+ },
+ "Thorgate": {
+  "name": "Thorgate",
+  "desc": "Pradedi su 1 energijos gamyba ir 48 M€.",
+  "effects": [
+   "Žaisdamas energijos kortą ARBA STANDARTINĮ PROJEKTĄ ELEKTRINĖ, moki už jį 3 M€ mažiau."
+  ]
+ },
+ "United Nations Mars Initiative": {
+  "name": "JT Marso iniciatyva",
+  "desc": "Pradedi su 40 M€.",
+  "actions": [
+   "Jei šią kartą tavo teraformavimo reitingas buvo pakeltas, gali sumokėti 3 M€ ir pakelti jį dar 1 žingsniu."
+  ]
+ },
+ "Allied Bank": {
+  "name": "Sąjungininkų bankas",
+  "desc": "Padidink savo M€ gamybą 4 žingsniais. Gauk 3 M€."
+ },
+ "Biosphere Support": {
+  "name": "Biosferos parama",
+  "desc": "Padidink savo augalų gamybą 2 žingsniais. Sumažink savo M€ gamybą 1 žingsniu."
+ },
+ "Aquifer Turbines": {
+  "name": "Požeminio vandens turbinos",
+  "desc": "Padėk vandenyno plytelę. Padidink savo energijos gamybą 2 žingsniais. Sumokėk 3 M€."
+ },
+ "Mohole Excavation": {
+  "name": "Moholo kasinėjimai",
+  "desc": "Padidink savo plieno gamybą 1 žingsniu ir šilumos gamybą 2 žingsniais. Gauk 2 šilumos."
+ },
+ "Early Settlement": {
+  "name": "Ankstyvoji gyvenvietė",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu. Padėk miesto plytelę."
+ },
+ "Biofuels": {
+  "name": "Biokuras",
+  "desc": "Padidink savo energijos ir augalų gamybą po 1 žingsnį. Gauk 2 augalus."
+ },
+ "Power Generation": {
+  "name": "Energijos gamyba",
+  "desc": "Padidink savo energijos gamybą 3 žingsniais."
+ },
+ "Self-Sufficient Settlement": {
+  "name": "Savarankiška gyvenvietė",
+  "desc": "Padidink savo M€ gamybą 2 žingsniais. Padėk miesto plytelę."
+ },
+ "Mining Operations": {
+  "name": "Kasybos darbai",
+  "desc": "Padidink savo plieno gamybą 2 žingsniais. Gauk 4 plieno."
+ },
+ "UNMI Contractor": {
+  "name": "UNMI rangovas",
+  "desc": "Pakelk savo TR 3 žingsniais. Ištrauk kortą."
+ },
+ "Dome Farming": {
+  "name": "Ūkininkavimas po kupolu",
+  "desc": "Padidink savo M€ gamybą 2 žingsniais ir augalų gamybą 1 žingsniu."
+ },
+ "Business Empire": {
+  "name": "Verslo imperija",
+  "desc": "Padidink savo M€ gamybą 6 žingsniais. Sumokėk 6 M€."
+ },
+ "Donation": {
+  "name": "Auka",
+  "desc": "Gauk 21 M€."
+ },
+ "Nitrogen Shipment": {
+  "name": "Azoto siunta",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu. Pakelk savo TR 1 žingsniu. Gauk 5 M€."
+ },
+ "Smelting Plant": {
+  "name": "Lydykla",
+  "desc": "Pakelk deguonį 2 žingsniais. Gauk 5 plieno."
+ },
+ "Supplier": {
+  "name": "Tiekėjas",
+  "desc": "Padidink savo energijos gamybą 2 žingsniais. Gauk 4 plieno."
+ },
+ "Supply Drop": {
+  "name": "Atsargų numetimas",
+  "desc": "Gauk 3 titano, 8 plieno ir 3 augalus."
+ },
+ "Great Aquifer": {
+  "name": "Didysis vandeningasis sluoksnis",
+  "desc": "Padėk 2 vandenyno plyteles."
+ },
+ "Biolab": {
+  "name": "Biolaboratorija",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu. Ištrauk 3 kortas."
+ },
+ "Martian Industries": {
+  "name": "Marso pramonė",
+  "desc": "Padidink savo energijos ir plieno gamybą po 1 žingsnį. Gauk 6 M€."
+ },
+ "Io Research Outpost": {
+  "name": "Ijo tyrimų postas",
+  "desc": "Padidink savo titano gamybą 1 žingsniu. Ištrauk kortą."
+ },
+ "Polar Industries": {
+  "name": "Poliarinė pramonė",
+  "desc": "Padidink savo šilumos gamybą 2 žingsniais. Padėk vandenyno plytelę."
+ },
+ "Society Support": {
+  "name": "Visuomenės parama",
+  "desc": "Padidink savo augalų, energijos ir šilumos gamybą po 1 žingsnį. Sumažink M€ gamybą 1 žingsniu."
+ },
+ "Galilean Mining": {
+  "name": "Galilėjaus palydovų kasyba",
+  "desc": "Padidink savo titano gamybą 2 žingsniais. Sumokėk 5 M€."
+ },
+ "Huge Asteroid": {
+  "name": "Milžiniškas asteroidas",
+  "desc": "Pakelk temperatūrą 3 žingsniais. Sumokėk 5 M€."
+ },
+ "Metals Company": {
+  "name": "Metalų bendrovė",
+  "desc": "Padidink savo M€, plieno ir titano gamybą po 1 žingsnį."
+ },
+ "Loan": {
+  "name": "Paskola",
+  "desc": "Gauk 30 M€. Sumažink savo M€ gamybą 2 žingsniais."
+ },
+ "Mohole": {
+  "name": "Moholas",
+  "desc": "Padidink savo šilumos gamybą 3 žingsniais. Gauk 3 šilumos."
+ },
+ "Metal-Rich Asteroid": {
+  "name": "Metalų turtingas asteroidas",
+  "desc": "Pakelk temperatūrą 1 žingsniu. Gauk 4 titano ir 4 plieno."
+ },
+ "Orbital Construction Yard": {
+  "name": "Orbitinė statykla",
+  "desc": "Padidink savo titano gamybą 1 žingsniu. Gauk 4 titano."
+ },
+ "Acquired Space Agency": {
+  "name": "Įsigyta kosmoso agentūra",
+  "desc": "Gauk 6 titano. Atverstinėk kortas, kol atversi dvi kortas su kosmoso žymomis. Pasiimk jas į ranką, kitas išmesk."
+ },
+ "Research Network": {
+  "name": "Tyrimų tinklas",
+  "desc": "Padidink savo M€ gamybą 1 žingsniu. Ištrauk 3 kortas. Sužaidus, kai atlieki veiksmą, džokerio žyma laikoma bet kuria tavo pasirinkta žyma."
+ },
+ "Eccentric Sponsor": {
+  "name": "Ekscentriškas rėmėjas",
+  "desc": "SUŽAISK KORTĄ IŠ RANKOS SU 25 M€ NUOLAIDA."
+ },
+ "Ecology Experts": {
+  "name": "Ekologijos ekspertai",
+  "desc": "Padidink savo augalų gamybą 1 žingsniu. SUŽAISK KORTĄ IŠ RANKOS, NEPAISYDAMAS GLOBALIŲ REIKALAVIMŲ."
+ },
+ "Experimental Forest": {
+  "name": "Eksperimentinis miškas",
+  "desc": "Padėk 1 žalumos plytelę ir pakelk deguonį 1 žingsniu. Atverstinėk kortas, kol atversi dvi kortas su augalo žymomis. Pasiimk jas į ranką, kitas išmesk."
+ }
+}
