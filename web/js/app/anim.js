@@ -182,7 +182,7 @@ export class AppAnim {
     // tiles
     const placed = this.board.syncTiles(b.tiles, true);
     // 2. tiles land, 3. then what they gave rises from them, 4. then production
-    if (placed.length) this.floatBonuses(placed, b);
+    if (placed.length) this.floatBonuses(placed, b, a);
     const prodDelay = placed.length ? 1900 : 300;
     if (!mood && placed.length) mood = moodForTile(b.tiles.find(([s]) => s === placed[0])?.[1]);
     // the music changes rarely: a big event always, anything else at most every ~5 min
@@ -299,15 +299,22 @@ export class AppAnim {
   }
 
   // placement bonuses rise from the tile: the hex's printed bonuses and +2 M€
-  // per adjacent ocean (the engine's rule), as little icons that float up and fade
-  floatBonuses(spaces, v) {
+  // per adjacent ocean (the engine's rule), as little icons that float up and fade.
+  // Tiles of one move land one at a time (the move's hex, its extra hexes, then a bonus ocean): each counts the
+  // oceans already there -- of two new neighbouring oceans only the second gets the +2
+  floatBonuses(spaces, v, prev) {
     const ICON = { 0: 'steel', 1: 'titanium', 2: 'plant', 3: 'card', 4: 'heat', 5: 'power' };
+    const act = v.last?.act || {}, seq = [act.space, ...(act.xs || []), act.bocean].filter((s) => s != null && spaces.includes(s));
+    spaces = [...seq, ...spaces.filter((s) => !seq.includes(s))];
+    const isOcean = (n) => v.tiles.some(([s2, t]) => s2 === n && t === 0);
+    const before = new Set((prev?.tiles || []).filter(([, t]) => t === 0).map(([s2]) => s2));
     spaces.forEach((sp, k) => {
       const S = this.map.spaces[sp];
       if (!S || S.kind === 2) return;                       // colonies (Ganymede / Phobos) have no hex bonus
       const counts = {};
       for (const b of S.b || []) if (ICON[b]) counts[ICON[b]] = (counts[ICON[b]] || 0) + 1;
-      const oceansNext = (S.adj || []).filter((n) => v.tiles.some(([s2, t]) => s2 === n && t === 0)).length;
+      const oceansNext = (S.adj || []).filter((n) => before.has(n)).length;
+      if (isOcean(sp)) before.add(sp);                      // (the next tile of this move sees it)
       if (oceansNext) counts.megacredit = 2 * oceansNext;
       const items = Object.entries(counts);
       if (!items.length) return;

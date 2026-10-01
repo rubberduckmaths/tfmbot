@@ -254,7 +254,9 @@ export class AppHand {
     let gain = '';
     if (this.board.highlighted.has(s)) {
       const parts = sp.b.map(bname).filter(Boolean);
-      const oceans = (sp.adj || []).filter((n) => this.view.tiles.some((x) => x[0] === n && x[1] === 0)).length;
+      // (oceans this move already placed count: picking a card's second ocean next to its first gives +2)
+      const picked = this.placing === 'ocean' ? new Set(this.flow?.picks || []) : new Set();
+      const oceans = (sp.adj || []).filter((n) => picked.has(n) || this.view.tiles.some((x) => x[0] === n && x[1] === 0)).length;
       if (oceans) parts.push(t('hex.adjOceans', { m: oceans * 2, n: oceans }));
       gain = parts.length ? `<br><span style="color:#7dffb0">${esc(t('hex.gives', { list: parts.join(' + ') }))}</span>` : `<br><span style="color:#9aa3b5">${esc(t('hex.noBonus'))}</span>`;
     }
