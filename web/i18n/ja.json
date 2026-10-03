@@ -504,7 +504,6 @@
  "go.ms": "マイルストーン",
  "go.aw": "アワード",
  "go.sub": "第{n}世代。ゲームログはTFMBotの学習データとして保存されました。",
- "go.look": "盤面を見る",
  "go.chart": "世代ごとのVP",
  "maps.titleFirst": "火星を選ぼう",
  "maps.title": "新しいゲーム — マップを選択",
@@ -520,7 +519,7 @@
  "map.hellas.blurb": "南半球の巨大な衝突盆地 — 海洋にうってつけの深い低地と、凍てつく南極。",
  "map.elysium.name": "エリシウム",
  "map.elysium.blurb": "北部平原にそびえるエリシウム山とその姉妹火山の火山地帯。",
- "map.vastitas-borealis-novus.name": "ヴァスティタス・ボレアリス・ノヴス",
+ "map.vastitas-borealis-novus.name": "ヴァスティタス・ボレアリス",
  "map.vastitas-borealis-novus.blurb": "極冠まで広がる、果てしない北部平原。",
  "ma.Terraformer": "テラフォーマー",
  "ma.Mayor": "市長",
@@ -941,5 +940,7 @@
  "hex.claimed": "{card}：{who}が予約済み。他のプレイヤーはここにタイルを置けません",
  "rp.povTitle": "どの席から見るか：手札、ドラフトの選択、引いたカード。クリックでプレイヤーを切り替え",
  "rp.povOld": "あなたの席のみ：このリプレイはTFMBotのカードが保存される前に記録されました",
- "atk.offset": "{who}は失ったが、{card}が同じだけ戻した"
+ "atk.offset": "{who}は失ったが、{card}が同じだけ戻した",
+ "log.download": "ログをダウンロード",
+ "log.firstCity": "{who}は{card}の無料の最初の都市を置いた{extra}"
 }

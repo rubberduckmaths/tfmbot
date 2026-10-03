@@ -567,7 +567,6 @@
  "go.ms": "Saavutukset",
  "go.aw": "Palkinnot",
  "go.sub": "Sukupolvi {n}. Pelin loki tallennettiin TFMBotin koulutusdataksi.",
- "go.look": "Katso pelilautaa",
  "go.chart": "VP sukupolvittain",
  "maps.titleFirst": "Valitse Marsisi",
  "maps.title": "Uusi peli — valitse kartta",
@@ -583,7 +582,7 @@
  "map.hellas.blurb": "Suuri eteläinen törmäysallas — syviä alankoja kuin merille tehtyjä, ja jäinen etelänapa.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Elysium Monsin tuliperäinen maakunta sisarvuorineen pohjoisten tasankojen yllä.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Laajat pohjoiset tasangot, jotka ulottuvat napajäätikölle asti.",
  "ma.Terraformer": "Maankaltaistaja",
  "ma.Mayor": "Pormestari",
@@ -1013,5 +1012,7 @@
  "hex.claimed": "{card}: varannut {who}; kukaan muu ei voi asettaa laattaa tähän",
  "rp.povTitle": "Kenen paikalta katsot: hänen kätensä, draft-valintansa ja nostonsa. Vaihda pelaajaa napsauttamalla",
  "rp.povOld": "Vain oma paikkasi: tämä uusinta tallennettiin ennen kuin TFMBotin kortteja tallennettiin",
- "atk.offset": "{who} menetti ne, mutta {card} antoi saman verran takaisin"
+ "atk.offset": "{who} menetti ne, mutta {card} antoi saman verran takaisin",
+ "log.download": "Lataa loki",
+ "log.firstCity": "{who} asetti {card}-kortin ilmaisen ensimmäisen kaupungin{extra}"
 }

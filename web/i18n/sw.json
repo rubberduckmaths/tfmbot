@@ -567,7 +567,6 @@
  "go.ms": "Hatua muhimu",
  "go.aw": "Tuzo",
  "go.sub": "Kizazi {n}. Kumbukumbu ya mchezo imehifadhiwa kwa data ya mafunzo ya TFMBot.",
- "go.look": "Tazama ubao",
  "go.chart": "PU kwa kila kizazi",
  "maps.titleFirst": "Chagua Mirihi yako",
  "maps.title": "Mchezo mpya — chagua ramani",
@@ -583,7 +582,7 @@
  "map.hellas.blurb": "Bonde kubwa la kusini lililoundwa na mgongano — nyanda za chini zilizofaa kwa bahari, na ncha ya kusini iliyoganda.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Jimbo la volkano la Elysium Mons na volkano zake dada juu ya tambarare za kaskazini.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Tambarare kubwa za kaskazini zinazoenea hadi kwenye kofia ya barafu ya ncha.",
  "ma.Terraformer": "Mbadilisha Sayari",
  "ma.Mayor": "Meya",
@@ -1010,5 +1009,7 @@
  "hex.claimed": "{card}: imehifadhiwa na {who}; hakuna mwingine anayeweza kuweka kigae hapa",
  "rp.povTitle": "Unatazama kutoka kiti cha nani: mkono wao, chaguo za drafti na kadi walizochukua. Bofya kubadilisha mchezaji",
  "rp.povOld": "Kiti chako pekee: marudio haya yalirekodiwa kabla kadi za TFMBot hazijahifadhiwa",
- "atk.offset": "{who} alivipoteza, lakini {card} ilirudisha kiasi hicho hicho"
+ "atk.offset": "{who} alivipoteza, lakini {card} ilirudisha kiasi hicho hicho",
+ "log.download": "Pakua kumbukumbu",
+ "log.firstCity": "{who} aliweka jiji la kwanza la bure la {card}{extra}"
 }

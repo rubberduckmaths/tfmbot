@@ -566,7 +566,6 @@
  "go.ms": "Fitos",
  "go.aw": "Recompensas",
  "go.sub": "Xeración {n}. O rexistro da partida gardouse para os datos de adestramento de TFMBot.",
- "go.look": "Ver o taboleiro",
  "go.chart": "PV por xeración",
  "maps.titleFirst": "Escolle o teu Marte",
  "maps.title": "Nova partida — escolle un mapa",
@@ -582,7 +581,7 @@
  "map.hellas.blurb": "A gran conca de impacto do sur — terras baixas profundas feitas para os océanos, e o polo sur xeado.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "A provincia volcánica de Elysium Mons e os seus volcáns irmáns sobre as chairas do norte.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "As vastas chairas do norte que chegan ata o casquete polar.",
  "ma.Terraformer": "Terraformador",
  "ma.Mayor": "Alcalde",
@@ -1012,5 +1011,7 @@
  "hex.claimed": "{card}: reservado por {who}; ninguén máis pode colocar unha loseta aquí",
  "rp.povTitle": "Desde que asento miras: a súa man, as súas escollas do draft e os roubos. Preme para cambiar de xogador",
  "rp.povOld": "Só o teu asento: esta repetición gravouse antes de que se gardasen as cartas de TFMBot",
- "atk.offset": "{who} perdeunos, pero {card} devolveu o mesmo"
+ "atk.offset": "{who} perdeunos, pero {card} devolveu o mesmo",
+ "log.download": "Descargar o rexistro",
+ "log.firstCity": "{who} colocou a primeira cidade gratuíta de {card}{extra}"
 }

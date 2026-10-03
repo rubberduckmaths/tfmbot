@@ -578,7 +578,6 @@
  "go.ms": "Mugarriak",
  "go.aw": "Sariak",
  "go.sub": "{n}. belaunaldia. Partidaren erregistroa TFMBot-en entrenamendu-datuetarako gorde da.",
- "go.look": "Begiratu taula",
  "go.chart": "GP belaunaldika",
  "maps.titleFirst": "Aukeratu zure Marte",
  "maps.title": "Partida berria — aukeratu mapa",
@@ -594,7 +593,7 @@
  "map.hellas.blurb": "Hegoaldeko talka-arro handia — ozeanoetarako egindako behe-lur sakonak, eta hego polo izoztua.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Elysium Mons eta bere sumendi ahizpen probintzia bolkanikoa, iparraldeko ordokien gainetik.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Iparraldeko ordoki zabalak, izotz-kasko polarreraino.",
  "ma.Terraformer": "Terraformatzailea",
  "ma.Mayor": "Alkatea",
@@ -1021,5 +1020,7 @@
  "hex.claimed": "{card}: {who}-(e)k erreserbatua; beste inork ezin du hemen lauzarik jarri",
  "rp.povTitle": "Noren eserlekutik ikusten duzun: bere eskua, draft aukerak eta ateratakoak. Egin klik jokalaria aldatzeko",
  "rp.povOld": "Zure eserlekua bakarrik: errepikapen hau TFMBot-en kartak gorde aurretik grabatu zen",
- "atk.offset": "{who}(e)k galdu egin zituen, baina {card}(e)k beste hainbeste itzuli zituen"
+ "atk.offset": "{who}(e)k galdu egin zituen, baina {card}(e)k beste hainbeste itzuli zituen",
+ "log.download": "Deskargatu erregistroa",
+ "log.firstCity": "{who}(e)k {card}(r)en doako lehen hiria jarri du{extra}"
 }

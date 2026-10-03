@@ -21,11 +21,12 @@ function glow() {
 }
 const additive = (color, opacity = 1) => new THREE.SpriteMaterial({ map: glow(), color, transparent: true, opacity, depthWrite: false, blending: THREE.AdditiveBlending });
 
-export function asteroidStrike(board, cell, { big = false, slow = 1 } = {}) {
+export function asteroidStrike(board, cell, { big = false, slow = 1, from: from0 = null } = {}) {
   const scene = board.scene, k = big ? 1.5 : 1;
   const target = cell.center.clone().addScaledVector(cell.up, 0.02);
-  // come in steeply from the upper right, as seen from the default view
-  const from = target.clone().addScaledVector(cell.up, 7).addScaledVector(cell.east, 4.5).addScaledVector(cell.north, 2.5);
+  // come in steeply from the upper right, as seen from the default view -- or from a given point
+  // (Deimos Down: every fragment from where the moon broke up, deimosOrigin)
+  const from = from0 ? from0.clone() : target.clone().addScaledVector(cell.up, 7).addScaledVector(cell.east, 4.5).addScaledVector(cell.north, 2.5);
   const group = new THREE.Group();
   scene.add(group);
   const rock = new THREE.Mesh(new THREE.IcosahedronGeometry(0.1 * k, 1), new THREE.MeshStandardMaterial({ color: 0x4a3b30, emissive: 0xff6a1a, emissiveIntensity: 1.6, roughness: 0.9, flatShading: true }));
@@ -87,6 +88,20 @@ export function asteroidStrike(board, cell, { big = false, slow = 1 } = {}) {
       crater.material.color.setHSL(0.06 - 0.04 * t, 1, 0.55 - 0.2 * t);
     }, () => cleanup(fx));
   }
+}
+
+// Deimos Down is one moon breaking up: its fragments all come from one point in the sky behind the viewer, just
+// off the bottom-right corner of the screen, between the camera and Mars, so they fan out from there over the
+// planet. jitter: each fragment's own small offset from that point (world units, Mars' radius is 10).
+export function deimosOrigin(board) {
+  const cam = board.camera;
+  if (!cam) return null;
+  const fwd = cam.position.clone(); cam.getWorldDirection(fwd);
+  const right = fwd.clone().cross(cam.up).normalize(), up = right.clone().cross(fwd).normalize();
+  const d = Math.max(3, 0.3 * cam.position.length());                   // a third of the way to Mars
+  const hh = d * Math.tan((cam.fov * Math.PI) / 360), hw = hh * cam.aspect;
+  return (jitter = 0.35) => cam.position.clone().addScaledVector(fwd, d).addScaledVector(right, 1.08 * hw).addScaledVector(up, -1.08 * hh)
+    .add(fwd.clone().set((Math.random() - 0.5) * jitter, (Math.random() - 0.5) * jitter, (Math.random() - 0.5) * jitter));
 }
 
 // Compile the strike's shaders up front (once), so the first asteroid of a

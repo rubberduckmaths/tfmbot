@@ -526,7 +526,6 @@
  "go.ms": "Mijlpalen",
  "go.aw": "Prijzen",
  "go.sub": "Generatie {n}. Het spelverslag is bewaard als trainingsdata voor TFMBot.",
- "go.look": "Bekijk het bord",
  "go.chart": "OP per generatie",
  "maps.titleFirst": "Kies je Mars",
  "maps.title": "Nieuw spel — kies een kaart",
@@ -542,7 +541,7 @@
  "map.hellas.blurb": "Het grote zuidelijke inslagbekken — diepe laagvlakten als gemaakt voor oceanen, en de bevroren zuidpool.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "De vulkanische provincie van Elysium Mons en zijn zustervulkanen boven de noordelijke vlakten.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "De uitgestrekte noordelijke vlakten tot aan de poolkap.",
  "ma.Terraformer": "Terraformer",
  "ma.Mayor": "Burgemeester",
@@ -972,5 +971,7 @@
  "hex.claimed": "{card}: gereserveerd door {who}; niemand anders kan hier een tegel leggen",
  "rp.povTitle": "Vanaf wiens plaats je kijkt: hun hand, draftkeuzes en getrokken kaarten. Klik om van speler te wisselen",
  "rp.povOld": "Alleen jouw plaats: deze herhaling is opgenomen voordat de kaarten van TFMBot werden bewaard",
- "atk.offset": "{who} verloor ze, maar {card} gaf er evenveel terug"
+ "atk.offset": "{who} verloor ze, maar {card} gaf er evenveel terug",
+ "log.download": "Logboek downloaden",
+ "log.firstCity": "{who} plaatste de gratis eerste stad van {card}{extra}"
 }

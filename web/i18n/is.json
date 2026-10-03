@@ -576,7 +576,6 @@
  "go.ms": "Áfangar",
  "go.aw": "Verðlaun",
  "go.sub": "Kynslóð {n}. Leikjaskráin var vistuð sem þjálfunargögn fyrir TFMBot.",
- "go.look": "Skoða borðið",
  "go.chart": "Stig eftir kynslóðum",
  "maps.titleFirst": "Veldu þinn Mars",
  "maps.title": "Nýr leikur — veldu kort",
@@ -592,7 +591,7 @@
  "map.hellas.blurb": "Stóra suðlæga árekstrarlægðin — djúp láglendi sköpuð fyrir höf, og frosinn suðurpóllinn.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Eldfjallasvæði Elysium Mons og systureldfjalla þess ofan við norðursléttuna.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Víðáttumiklar norðursléttur sem teygja sig upp að pólhettunni.",
  "ma.Terraformer": "Jarðmótari",
  "ma.Mayor": "Borgarstjóri",
@@ -1019,5 +1018,7 @@
  "hex.claimed": "{card}: frátekið af {who}; enginn annar getur sett reit hér",
  "rp.povTitle": "Úr hvers sæti þú horfir: hönd, draftval og dregin spil. Smelltu til að skipta um leikmann",
  "rp.povOld": "Aðeins þitt sæti: þessi endursýning var tekin upp áður en spil TFMBot voru vistuð",
- "atk.offset": "{who} missti þær, en {card} gaf jafnmargar til baka"
+ "atk.offset": "{who} missti þær, en {card} gaf jafnmargar til baka",
+ "log.download": "Sækja annálinn",
+ "log.firstCity": "{who} setti ókeypis fyrstu borg {card}{extra}"
 }

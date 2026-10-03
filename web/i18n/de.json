@@ -522,7 +522,6 @@
  "go.ms": "Meilensteine",
  "go.aw": "Auszeichnungen",
  "go.sub": "Generation {n}. Das Spielprotokoll wurde als Trainingsdaten für TFMBot gespeichert.",
- "go.look": "Spielplan ansehen",
  "go.chart": "SP pro Generation",
  "maps.titleFirst": "Wähle deinen Mars",
  "maps.title": "Neues Spiel — Karte wählen",
@@ -538,7 +537,7 @@
  "map.hellas.blurb": "Das große südliche Einschlagbecken — tiefe Senken wie gemacht für Ozeane, dazu der gefrorene Südpol.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Die Vulkanprovinz um Elysium Mons und seine Schwestervulkane über den nördlichen Ebenen.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Die weiten nördlichen Ebenen bis hinauf zur polaren Eiskappe.",
  "ma.Terraformer": "Terraformer",
  "ma.Mayor": "Bürgermeister",
@@ -965,5 +964,7 @@
  "hex.claimed": "{card}: reserviert von {who}; niemand sonst darf hier ein Plättchen legen",
  "rp.povTitle": "Aus wessen Sicht du zusiehst: Hand, Draft-Wahl und gezogene Karten. Klicken, um den Spieler zu wechseln",
  "rp.povOld": "Nur deine Sicht: Diese Wiederholung wurde aufgenommen, bevor TFMBots Karten gespeichert wurden",
- "atk.offset": "{who} verlor sie, aber {card} gab genauso viele zurück"
+ "atk.offset": "{who} verlor sie, aber {card} gab genauso viele zurück",
+ "log.download": "Protokoll herunterladen",
+ "log.firstCity": "{who} hat die kostenlose erste Stadt von {card} gesetzt{extra}"
 }

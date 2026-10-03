@@ -587,7 +587,6 @@
  "go.ms": "Fites",
  "go.aw": "Recompenses",
  "go.sub": "Generació {n}. El registre de la partida s'ha desat per a les dades d'entrenament de TFMBot.",
- "go.look": "Mira el tauler",
  "go.chart": "PV per generació",
  "maps.titleFirst": "Tria el teu Mart",
  "maps.title": "Partida nova — tria un mapa",
@@ -603,7 +602,7 @@
  "map.hellas.blurb": "La gran conca d'impacte del sud — terres baixes i profundes fetes per als oceans, i el pol sud gelat.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "La província volcànica d'Elysium Mons i els seus volcans germans sobre les planes del nord.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Les immenses planes del nord que s'estenen fins al casquet polar.",
  "ma.Terraformer": "Terraformador",
  "ma.Mayor": "Alcalde",
@@ -1040,5 +1039,7 @@
  "hex.claimed": "{card}: reservat per {who}; ningú més hi pot col·locar una fitxa",
  "rp.povTitle": "Des del seient de qui mires: la seva mà, les tries del draft i els robatoris. Clica per canviar de jugador",
  "rp.povOld": "Només el teu seient: aquesta repetició es va gravar abans que es desessin les cartes de TFMBot",
- "atk.offset": "{who} els ha perdut, però {card} n'ha retornat els mateixos"
+ "atk.offset": "{who} els ha perdut, però {card} n'ha retornat els mateixos",
+ "log.download": "Baixa el registre",
+ "log.firstCity": "{who} ha col·locat la primera ciutat gratuïta de {card}{extra}"
 }

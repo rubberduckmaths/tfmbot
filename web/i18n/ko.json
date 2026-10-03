@@ -504,7 +504,6 @@
  "go.ms": "업적",
  "go.aw": "기업상",
  "go.sub": "{n}세대. 게임 기록은 TFMBot의 학습 데이터로 저장되었습니다.",
- "go.look": "보드 보기",
  "go.chart": "세대별 승점",
  "maps.titleFirst": "화성을 고르세요",
  "maps.title": "새 게임 — 맵 선택",
@@ -520,7 +519,7 @@
  "map.hellas.blurb": "남반구의 거대한 충돌 분지 — 바다가 들어서기 좋은 깊은 저지대와 얼어붙은 남극.",
  "map.elysium.name": "엘리시움",
  "map.elysium.blurb": "북부 평원 위로 솟은 엘리시움 산과 그 자매 화산들의 화산 지대.",
- "map.vastitas-borealis-novus.name": "바스티타스 보레알리스 노부스",
+ "map.vastitas-borealis-novus.name": "바스티타스 보레알리스",
  "map.vastitas-borealis-novus.blurb": "극관까지 펼쳐진 광활한 북부 평원.",
  "ma.Terraformer": "테라포머",
  "ma.Mayor": "시장",
@@ -941,5 +940,7 @@
  "hex.claimed": "{card}: {who}이(가) 예약함. 다른 누구도 여기에 타일을 놓을 수 없습니다",
  "rp.povTitle": "어느 자리에서 보는지: 그 플레이어의 손패, 드래프트 선택, 뽑은 카드. 클릭하여 플레이어 전환",
  "rp.povOld": "내 자리만: 이 리플레이는 TFMBot의 카드가 저장되기 전에 기록되었습니다",
- "atk.offset": "{who}이(가) 잃었지만 {card}이(가) 같은 만큼 돌려주었습니다"
+ "atk.offset": "{who}이(가) 잃었지만 {card}이(가) 같은 만큼 돌려주었습니다",
+ "log.download": "기록 다운로드",
+ "log.firstCity": "{who}이(가) {card}의 무료 첫 도시를 놓았습니다{extra}"
 }

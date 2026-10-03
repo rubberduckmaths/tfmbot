@@ -599,7 +599,6 @@
  "go.ms": "Postignuća",
  "go.aw": "Nagrade",
  "go.sub": "Generacija {n}. Zapisnik igre spremljen je za TFMBotove podatke za treniranje.",
- "go.look": "Pogledaj ploču",
  "go.chart": "PB po generacijama",
  "maps.titleFirst": "Odaberi svoj Mars",
  "maps.title": "Nova igra — odaberi kartu",
@@ -615,7 +614,7 @@
  "map.hellas.blurb": "Veliki južni udarni bazen — duboke nizine kao stvorene za oceane i zaleđeni južni pol.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Vulkanska pokrajina Elysium Monsa i njegovih sestrinskih vulkana iznad sjevernih ravnica.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Prostrane sjeverne ravnice koje sežu sve do polarne ledene kape.",
  "ma.Terraformer": "Teraformer",
  "ma.Mayor": "Gradonačelnik",
@@ -1052,5 +1051,7 @@
  "hex.claimed": "{card}: rezervirao {who}; nitko drugi ovdje ne može postaviti pločicu",
  "rp.povTitle": "S čijeg mjesta gledaš: njegova ruka, odabiri u draftu i izvučene karte. Klikni za promjenu igrača",
  "rp.povOld": "Samo tvoje mjesto: ova je snimka nastala prije nego što su se TFMBotove karte spremale",
- "atk.offset": "{who} ih je izgubio, ali {card} je vratio isto toliko"
+ "atk.offset": "{who} ih je izgubio, ali {card} je vratio isto toliko",
+ "log.download": "Preuzmi zapisnik",
+ "log.firstCity": "{who} je postavio besplatni prvi grad ({card}){extra}"
 }

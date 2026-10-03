@@ -16,10 +16,12 @@
 //   - bot decisions are always committed.
 import createModule from '../wasm/tfmweb.mjs';
 import { D, AK } from './protocol.js';
+import { migrateSave } from './save_migrate.js';
 
 let M, api;
 let undoStack = [];
 let awaitingConfirm = false;
+let confirmWhat = '';             // 'preludes': the hold after your preludes (else your turn)
 let settings = { sims: 4096, apiBase: '../api/bot' };
 let log = [];            // decision log for the server (training/review data)
 let gameMeta = {};
@@ -65,6 +67,7 @@ function wrap() {
     payOpts: c('tw_pay_options', 'string', ['number']),
     ansPay: c('tw_answer_action_pay', 'number', ['number', 'number', 'number', 'number', 'number']),
     layout: c('tw_layout_hash', 'number', []),
+    inner: c('tw_layout_inner', 'number', []),
   };
 }
 
@@ -124,7 +127,7 @@ function state(extra = {}) {
   return {
     t: 'view', view, seq: seq++, gid: gameMeta.started ? `${gameMeta.seed}:${gameMeta.started}` : 'legacy',
     legal: humanTurn && (k === D.ACTION || k === D.FG || k === D.PRELUDE_PLAY) ? JSON.parse(api.legal()) : null,
-    canUndo: undoStack.length > 0, undoN: undoStack.length, awaitingConfirm, ...extra,
+    canUndo: undoStack.length > 0, undoN: undoStack.length, awaitingConfirm, confirmWhat: awaitingConfirm ? confirmWhat : '', ...extra,
   };
 }
 
@@ -181,7 +184,11 @@ function afterHumanAnswer(rc, beforeDeck, beforeDisc, kind) {
   const v0 = JSON.parse(api.view());
   const explicit = v0.last && v0.last.act && (v0.last.act.k === AK.PASS || v0.last.act.k === AK.END);
   const mainPhase = (kind === D.ACTION || kind === D.FG || kind === D.KEEP || kind === D.TRIGGER || kind === D.BUY) && v0.stage === 2;
-  awaitingConfirm = handsOff && undoStack.length > 0 && mainPhase && !explicit && !settings.autoConfirm;
+  // your preludes: once the last one has resolved (the game passes to the bot) and nothing was revealed on the way
+  // (a draw clears the undo stack), hold for Confirm too, so the second prelude can still be undone (a player's request)
+  const preludeDone = kind === D.PLAY_PRELUDE || kind === D.TILE || kind === D.PRELUDE_PLAY;
+  awaitingConfirm = handsOff && undoStack.length > 0 && (mainPhase || preludeDone) && !explicit && !settings.autoConfirm;
+  confirmWhat = awaitingConfirm && preludeDone && !mainPhase ? 'preludes' : '';
   if (!awaitingConfirm && handsOff) undoStack = [];
   const v = JSON.parse(api.view());
   logDecision('human', kind, { last: v.last });
@@ -196,17 +203,23 @@ self.onmessage = async (e) => {
     if (m.t === 'init') {
       Object.assign(settings, m.settings || {});
       await loadEngine();
-      if (m.restore && m.restore.bytes.byteLength <= api.sessSize() && m.restore.bytes.byteLength > api.sessSize() - 128) {
-        restore(new Uint8Array(m.restore.bytes));
+      // a save from an older engine layout is migrated first (save_migrate.js: games in progress are never lost);
+      // it then restores onto the same inner layout (the session may have grown at its end: tail zeroed). Only a
+      // layout with no migration step starts a new game, with a notice
+      let mig = null;
+      try { mig = m.restore ? migrateSave(new Uint8Array(m.restore.bytes), m.restore.meta || {}) : null; } catch (e) { console.warn('save migration', e); }
+      const sameInner = (mig?.meta?.inner >>> 0) === (api.inner() >>> 0);
+      if (mig && sameInner && mig.bytes.byteLength <= api.sessSize() && mig.bytes.byteLength > api.sessSize() - 128) {
+        restore(mig.bytes);
         api.refreshLegal();                         // (saved by an older build: its pending moves, made again by this one)
-        gameMeta = m.restore.meta || {};
+        gameMeta = mig.meta;
         log = m.restore.log || [];
         sendStatic(curMap());                       // the saved game's own map
       } else {
         newGame(m.seed, m.map ?? settings.map);
       }
       post({ t: 'progress', frac: 1, msg: 'ready' });
-      post(state());
+      post(state(m.restore && !sameInner ? { fresh: true, oldSave: true } : {}));
       runBot();
     } else if (m.t === 'static') {
       // (the replay viewer, replay.js localStatic) this build's cards + one map, nothing else
@@ -223,6 +236,9 @@ self.onmessage = async (e) => {
       if (busy) return;
       const kind = api.kind();
       if (api.player() !== api.human()) return;
+      // an answer made for an earlier position (a second tap while the next view was still animating in): its
+      // index points into a move list that is gone -- drop it rather than refuse it ("move refused (-1)")
+      if (m.at != null && JSON.parse(api.view()).moves !== m.at) { post({ t: 'stale' }); return; }
       const bd = api.deckN(), bc = api.discN();
       undoStack.push(mark(snapshot()));
       let rc = -99;
@@ -238,6 +254,8 @@ self.onmessage = async (e) => {
       else if (m.a === 'pay') rc = M.ccall('tw_answer_action_pay2', 'number', ['number', 'number', 'number', 'number', 'number', 'number'], [m.idx, m.pay.mc, m.pay.steel, m.pay.ti, m.pay.heat, m.pay.k || 0]);
       afterHumanAnswer(rc, bd, bc, kind);
     } else if (m.t === 'payopts') {
+      // (asked for an earlier position -- a tap on a move list the game has since left: no options, the flow ends)
+      if (m.at != null && JSON.parse(api.view()).moves !== m.at) { post({ t: 'payopts', idx: m.idx, stale: true }); return; }
       post({ t: 'payopts', idx: m.idx, opts: JSON.parse(api.payOpts(m.idx)) });
     } else if (m.t === 'undo') {
       if (busy || !undoStack.length) return;
@@ -299,7 +317,7 @@ function newGame(seed, map) {
   api.newGame(seed, humanFirst, map);
   undoStack = [];
   awaitingConfirm = false;
-  gameMeta = { seed, humanFirst, map: MAPS[map], mapId: map, started: new Date().toISOString(), sims: settings.sims, bot: 'server' };
+  gameMeta = { seed, humanFirst, map: MAPS[map], mapId: map, started: new Date().toISOString(), sims: settings.sims, bot: 'server', inner: api.inner() >>> 0 };
   log = [];
   sendStatic(map);
 }

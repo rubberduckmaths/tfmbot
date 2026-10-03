@@ -522,7 +522,6 @@
  "go.ms": "Kilometre taşları",
  "go.aw": "Ödüller",
  "go.sub": "{n}. nesil. Oyun kaydı TFMBot'un eğitim verisi için saklandı.",
- "go.look": "Tahtaya bak",
  "go.chart": "Nesillere göre ZP",
  "maps.titleFirst": "Mars'ını seç",
  "maps.title": "Yeni oyun — bir harita seç",
@@ -538,7 +537,7 @@
  "map.hellas.blurb": "Büyük güney çarpma havzası — okyanuslar için biçilmiş kaftan derin ovalar ve donmuş güney kutbu.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Kuzey ovalarının üzerinde yükselen Elysium Mons ve kardeş volkanlarının volkanik bölgesi.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Kutup buzuluna kadar uzanan uçsuz bucaksız kuzey ovaları.",
  "ma.Terraformer": "Terraformcu",
  "ma.Mayor": "Belediye Başkanı",
@@ -965,5 +964,7 @@
  "hex.claimed": "{card}: {who} tarafından ayrıldı; buraya başka kimse karo koyamaz",
  "rp.povTitle": "Kimin koltuğundan izliyorsunuz: eli, draft seçimleri ve çektiği kartlar. Oyuncu değiştirmek için tıklayın",
  "rp.povOld": "Yalnızca sizin koltuğunuz: bu tekrar, TFMBot'un kartları kaydedilmeden önce kaydedildi",
- "atk.offset": "{who} bunları kaybetti, ama {card} aynısını geri verdi"
+ "atk.offset": "{who} bunları kaybetti, ama {card} aynısını geri verdi",
+ "log.download": "Günlüğü indir",
+ "log.firstCity": "{who}, {card} şirketinin ücretsiz ilk şehrini yerleştirdi{extra}"
 }

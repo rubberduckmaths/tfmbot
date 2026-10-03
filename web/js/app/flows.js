@@ -19,18 +19,30 @@ export class AppFlows {
 
   // auto: the client opened this flow itself (the final greenery), so even a single legal hex waits for the player's tap
   startFlow(key, auto = false) {
+    // End turn / Pass right after an Undo tap: the bottom bar re-centres as Undo changes the buttons ("Confirm turn"
+    // goes, "End turn" becomes "Pass generation"), so a quick second tap meant for Undo can land on them -- a phone
+    // player passed a generation that way. Ignore it within a second and say how to pass on purpose.
+    if ((key === 'pass' || key === 'end') && Date.now() - (this.lastUndoAt || 0) < 1000) { this.toast(t(key === 'pass' ? 'toast.tapAgainPass' : 'toast.tapAgainEnd')); return; }
     if ($('#actions').classList.contains('open')) { $('#actions').classList.remove('open'); const tog = $('#actions-toggle'); if (tog) tog.textContent = t('btn.actions'); }
     const ent = this.entries();
     const idxs = ent.get(key);
     if (!idxs) return;
     this.closeModal();
-    this.flow = { key, cands: idxs.slice(), auto };
+    this.flow = { key, cands: idxs.slice(), auto, legal: this.legal };   // (its indexes are into THIS move list)
     this.audio.tick();
     this.resolve();
   }
 
   // does this move open the pay dialog (metal, Helion heat, card resources)?
+  // Helion holding heat: heat pays as M€ for anything that costs M€ -- standard projects, milestones and awards
+  // too -- so every such move asks how to pay (a player wanted an end-game City paid all in heat; it went M€)
+  helionHeatPays(a) {
+    const me = this.view.players[this.view.human];
+    if (!a || a.free || !(me.res[5] > 0) || this.db.name(me.corp) !== 'Helion') return false;
+    return (a.k === AK.SP && a.sp !== 0) || a.k === AK.MS || a.k === AK.AW || a.k === AK.PLAY || a.bpay != null;
+  }
   needsPayDialog(a) {
+    if (this.helionHeatPays(a)) return true;
     if (!a || (!a.pay && a.bpay == null) || a.k === AK.SP) return false;
     const me = this.view.players[this.view.human];
     const cd = a.card != null ? this.db.get(a.card) : null;
@@ -48,7 +60,7 @@ export class AppFlows {
   resolve() {
     const f = this.flow;
     if (!f) return;
-    if (!this.legal) return this.cancelFlow();       // the turn moved on under the flow (a slow pay dialog, a stale tap): nothing to resolve
+    if (!this.legal || f.legal !== this.legal) return this.cancelFlow();   // the turn moved on under the flow (a new view, a slow pay dialog, a stale tap): its indexes point into a list that is gone
     const L = this.legal;
     // pay FIRST (rules: you pay, then the card's effects -- tiles and their
     // bonuses -- happen), so a placement can't look like it funds the card
@@ -163,17 +175,18 @@ export class AppFlows {
     const canCardRes = !!(a.pay?.crp?.length);          // microbes / floaters that can pay
     if (f.paid) return this.answer({ a: 'pay', idx: f.cands[0], pay: f.paid });    // paid before placing
     if (f.payAsked) return this.answer({ a: 'action', idx: f.cands[0] });
-    if ((canMetal || canCardRes) && a.k !== AK.SP) return this.askPayOpts(f.cands[0]);
+    if (((canMetal || canCardRes) && a.k !== AK.SP) || this.helionHeatPays(a)) return this.askPayOpts(f.cands[0]);
     this.answer({ a: 'action', idx: f.cands[0] });
   }
 
   // the worker's payment options for legal move idx; the reply is matched to the very move asked about
   askPayOpts(idx) {
     this.flow.payIdx = idx; this.flow.payAct = JSON.stringify(this.legal[idx]);
-    this.worker.postMessage({ t: 'payopts', idx });
+    this.worker.postMessage({ t: 'payopts', idx, at: this.view?.moves });
   }
   payModal(idx, po) {
     if (!this.flow || this.flow.payIdx !== idx || !this.legal?.[idx]) return;
+    if (!po || po.stale) { this.cancelFlow(); return; }   // the worker had already left the position this was asked for
     // the move list changed while the options were on their way (a new view): idx may now be another move --
     // never answer it; the player starts the move again
     if (JSON.stringify(this.legal[idx]) !== this.flow.payAct) {
@@ -187,6 +200,13 @@ export class AppFlows {
     if (po.base >= 0 && po.cost !== Math.max(0, po.base - po.disc)) report('pay-cost-mismatch', `${this.db.name(a.card)}: executor min ${po.cost}, printed ${po.base} - discount ${po.disc}`);
     if (!opts.length) report('pay-no-options', `${this.db.name(a.card)}: no payment option passed the executor`, { po, k: a.k, pay: a.pay, idx, snapshot: this.snapB64() });   // (the position, to reproduce it)
     if (opts.length <= 1) {
+      // only one way to pay although the player holds metal the card can use and more M€ than it takes: a player saw
+      // this (Cupola City, 19 M€ + 2 steel, straight to the hex) and it doesn't reproduce here -- send the position
+      // (only when another split really exists: one metal fewer with the M€ to cover it, or one more where M€ was spent)
+      const me0 = this.view.players[this.view.human], hv0 = po.have || {}, o0 = opts[0] || {}, mc0 = me0?.res?.[0] ?? 0;
+      const sv0 = me0?.steelv ?? 2, tv0 = me0?.tiv ?? 3;
+      const other = (o0.steel > 0 && mc0 >= o0.mc + sv0) || (o0.ti > 0 && mc0 >= o0.mc + tv0) || (o0.mc >= sv0 && (hv0.steel || 0) > (o0.steel || 0)) || (o0.mc >= tv0 && (hv0.ti || 0) > (o0.ti || 0));
+      if (opts.length === 1 && po.cost > 0 && other) report('pay-single-option', `${this.db.name(a.card)}: one way to pay with ${me0.res[0]} M€ / ${hv0.steel || 0} steel / ${hv0.ti || 0} ti`, { po, k: a.k, pay: a.pay, idx, snapshot: this.snapB64() });
       if (this.flow?.payFirst) { this.flow.payFirst = false; this.flow.paid = opts[0] || null; return this.resolve(); }
       return opts.length ? this.answer({ a: 'pay', idx, pay: opts[0] }) : this.answer({ a: 'action', idx });
     }
@@ -207,8 +227,14 @@ export class AppFlows {
       box.appendChild(h('div', 'sub', `${why}${metals ? esc(metals[0].toLocaleUpperCase() + metals.slice(1)) + '. ' : ''}${esc(t('pay.choose'))}`));
       // three ways to pay: the suggested one (the engine's own rule, which is what TFMBot pays), keeping the other
       // resources (the most M€) and spending them (the least M€). Every other split: Custom amounts, below
-      const minMc = Math.min(...opts.map((o) => o.mc));
-      const shown = [opts.find(same), opts[0], opts.find((o) => o.mc === minMc)].filter((o, i, all) => o && all.indexOf(o) === i);
+      // the quick choices, as players think about paying (at most three): the suggested one, M€ only, then "as much of X
+      // as it takes, the rest in M€" for each resource that can pay -- metal first, then card resources, then heat.
+      // Every other mix: Custom amounts, below
+      const maxOf = (key) => {
+        const pure = opts.filter((o) => ['steel', 'ti', 'heat', 'k'].every((r) => r === key || !(o[r] || 0)) && (o[key] || 0) > 0);
+        return pure.sort((x, y) => (y[key] - x[key]) || (x.mc - y.mc))[0];
+      };
+      const shown = [opts.find(same), opts[0], ...['steel', 'ti', 'k', 'heat'].map(maxOf)].filter((o, i, all) => o && all.indexOf(o) === i).slice(0, 3);
       const row = h('div', 'payopts');
       for (const o of shown) {
         const parts = [];

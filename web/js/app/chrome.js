@@ -75,7 +75,14 @@ export class AppChrome {
     const a = this.legal[idx];
     let txt = this.actText(a);
     if (think?.top?.length > 1) {
-      this.toastLong(esc(t('hint.would', { act: txt })), think.top.slice(0, 3).map((x) => `${esc(this.actText(x.act))} · ${Math.round(100 * x.visits / think.total)}%`).join('<br>'));
+      // each suggestion can be played from here: its legal move, through the normal flow (payment, targets, confirm)
+      const L = this.legal, key = (x) => JSON.stringify({ ...x, fz: undefined });   // (fz rides only on the live move list)
+      const rows = think.top.slice(0, 3).map((x) => {
+        const j = L.findIndex((y) => key(y) === key(x.act));
+        return { html: `${esc(this.actText(x.act))} · ${Math.round(100 * x.visits / think.total)}%`,
+          play: j >= 0 ? () => { if (this.legal !== L || !this.myTurn()) return; this.closeModal(); this.flow = { key: 'hint', cands: [j], auto: false, legal: L }; this.resolve(); } : null };
+      });
+      this.toastLong(esc(t('hint.would', { act: txt })), '', rows);
     }
     if (a.space != null) { txt += ' ' + t('act.at', { space: this.spaceWhere(a.space) }); this.board.flashSpace(a.space, 0xfff27a); this.board.ensureVisible(a.space); }
     if (!(think?.top?.length > 1)) this.toast(t('hint.would', { act: txt }), '#fff27a');
@@ -83,6 +90,7 @@ export class AppChrome {
   }
 
   gameOver() {
+    this.stickyTray?.__out?.();          // a public reveal still up (Search For Life...) would be left behind the score screen
     const v = this.view;
     this.audio.fanfare();
     this.modal((box) => {
@@ -100,10 +108,9 @@ export class AppChrome {
         box.appendChild(h('div', 'sub', esc(t('rp.endSub', { n: v.gen }))));
         const foot = h('div', 'foot');
         foot.appendChild(h('div', 'info', ''));
-        const c = h('button', 'ghost', esc(t('go.look'))); c.onclick = () => this.closeModal();
         const again = h('button', 'ghost', esc(t('rp.again'))); again.onclick = () => this.replay.restart();
         const b = h('button', 'primary', esc(t('rp.play'))); b.onclick = () => { location.href = location.href.split('?')[0]; };
-        foot.append(c, again, b);
+        foot.append(again, b);   // (the dialog's own Hide shows the board, with a way back)
         box.appendChild(foot);
         return;
       }
@@ -128,9 +135,7 @@ export class AppChrome {
       foot.appendChild(h('div', 'info', ''));
       const b = h('button', 'primary', esc(t('btn.newGame')));
       b.onclick = () => this.mapChooser();
-      const c = h('button', 'ghost', esc(t('go.look')));
-      c.onclick = () => this.closeModal();
-      foot.append(c, b);
+      foot.append(b);   // (the dialog's own Hide shows the board, with a way back)
       box.appendChild(foot);
     });
   }
@@ -212,10 +217,18 @@ export class AppChrome {
   bindChrome() {
     const unlock = () => { this.audio.unlock(); $('#btn-music').classList.toggle('off', !this.audio.musicOn); };
     addEventListener('pointerdown', unlock, { once: false, capture: true });
-    $('#btn-undo').onclick = () => { this.audio.tick(); this.flow = null; this.board.clearHighlight(); this.worker.postMessage({ t: 'undo' }); };
+    $('#btn-undo').onclick = () => { this.lastUndoAt = Date.now(); this.audio.tick(); this.flow = null; this.board.clearHighlight(); this.worker.postMessage({ t: 'undo' }); };
     $('#btn-confirm').onclick = () => { this.audio.turn(); this.worker.postMessage({ t: 'confirm' }); };
     $('#btn-hint').onclick = () => this.worker.postMessage({ t: 'hint' });
     $('#btn-log').onclick = () => $('#log').classList.toggle('hidden');
+    // the log as a text file (a player's request): one line per entry, as shown, with what TFMBot considered
+    $('#log-dl').onclick = () => {
+      const v = this.view, lines = [...document.querySelectorAll('#log-list li')].map((li) => li.innerText.replace(/\s*\n\s*/g, ' · ').trim());
+      const head = `TFMBot game log -- ${new Date().toISOString().slice(0, 16).replace('T', ' ')}${v ? ` -- ${this.map?.key || ''}, generation ${v.gen}` : ''}\n\n`;
+      const a = h('a'); a.href = URL.createObjectURL(new Blob([head + lines.join('\n') + '\n'], { type: 'text/plain' }));
+      a.download = `tfmbot-log-${new Date().toISOString().slice(0, 10)}.txt`; document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    };
     $('#btn-help').onclick = () => $('#help').classList.toggle('hidden');
     // free-form feedback -> the server's feedback log, with the current position attached
     $('#btn-feedback').onclick = () => { $('#feedback').classList.toggle('hidden'); if (!$('#feedback').classList.contains('hidden')) $('#fb-text').focus(); };

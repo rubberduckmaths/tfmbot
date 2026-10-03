@@ -598,7 +598,6 @@
  "go.ms": "Sasniegumi",
  "go.aw": "Balvas",
  "go.sub": "Paaudze {n}. Spēles žurnāls saglabāts TFMBot apmācības datiem.",
- "go.look": "Apskatīt laukumu",
  "go.chart": "UP pa paaudzēm",
  "maps.titleFirst": "Izvēlies savu Marsu",
  "maps.title": "Jauna spēle — izvēlies karti",
@@ -614,7 +613,7 @@
  "map.hellas.blurb": "Lielais dienvidu trieciena baseins — dziļas zemienes, kas radītas okeāniem, un sasalušais dienvidpols.",
  "map.elysium.name": "Elīzijs",
  "map.elysium.blurb": "Elīzija kalna vulkāniskā province un tā māsas vulkāni virs ziemeļu līdzenumiem.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Plašie ziemeļu līdzenumi, kas stiepjas līdz polārajai ledus cepurei.",
  "ma.Terraformer": "Teraformētājs",
  "ma.Mayor": "Mērs",
@@ -1051,5 +1050,7 @@
  "hex.claimed": "{card}: rezervējis {who}; neviens cits šeit nevar novietot flīzi",
  "rp.povTitle": "No kura vietas skaties: viņa roka, drafta izvēles un vilktās kārtis. Noklikšķini, lai mainītu spēlētāju",
  "rp.povOld": "Tikai tava vieta: šis atkārtojums ierakstīts, pirms TFMBot kārtis tika saglabātas",
- "atk.offset": "{who} tos zaudēja, bet {card} atdeva tikpat daudz"
+ "atk.offset": "{who} tos zaudēja, bet {card} atdeva tikpat daudz",
+ "log.download": "Lejupielādēt žurnālu",
+ "log.firstCity": "{who} novietoja {card} bezmaksas pirmo pilsētu{extra}"
 }

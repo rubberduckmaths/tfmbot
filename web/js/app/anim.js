@@ -2,8 +2,8 @@
 // floating resource and production changes, drawn / revealed card trays and asteroid strikes.
 import { t, tj, tw } from '../i18n.js';
 import { moodForCard, moodForTile } from '../audio/audio.js';
-import { RES, cardEl, cardName } from '../cards/cards.js';
-import { asteroidStrike } from '../board/impact.js';
+import { CARD_RES_ICON, RES, cardEl, cardName } from '../cards/cards.js';
+import { asteroidStrike, deimosOrigin } from '../board/impact.js';
 import { $, h, esc } from '../dom.js';
 import { D, AK } from '../protocol.js';
 import { MOOD_RANK, SP } from './content.js';
@@ -82,15 +82,26 @@ export class AppAnim {
       if (pb.id === b.human && REPLAY == null) { if (newCards.length) { this.audio.card(); this.uiFx.handToBoard(newCards, pb.id, this.db, PCOL[pb.id]); } continue; }   // you know what you played: it just flies from your hand to your board (a replay shows both players' cards large)
       for (const c of newCards) fly(() => this.flyCard(c, pb.id));
     }
-    // the bot's moves that bring no card into a tableau get a fly-by of their own (a replay: both players')
-    if ((botMove || (REPLAY != null && step)) && (step.kind === D.ACTION || step.kind === D.FG)) {
+    // the bot's moves that bring no card into a tableau get a fly-by of their own (a replay: both players'); your own
+    // card action too, as a card in use (a move of yours that brings a card needs none: it is on your board already)
+    let usedId = null;
+    const ownUse = step?.who === 'human' && REPLAY == null && b.last.act?.k === AK.BLUE;
+    if ((botMove || ownUse || (REPLAY != null && step)) && (step.kind === D.ACTION || step.kind === D.FG)) {
       const ac = b.last.act, nm = this.pname(who), bare = (k) => t(k).replace(/^[^\p{L}]+/u, '');
-      // a card's action: the card flies with its Action box lit (any reveal tray -- the card Restricted Area
-      // drew, Search For Life's -- follows it), so the move can't slip by as just a "drew a card"
-      if (ac.k === AK.BLUE) fly(() => this.flyCard(ac.card, who, 'used'));
+      // a card's action: the card pops up beside its player's board with its Action box lit (any reveal tray -- the card
+      // Restricted Area drew, Search For Life's -- follows it), so the move can't slip by as just a "drew a card"
+      if (ac.k === AK.BLUE) {
+        const now = b.players[who].cres?.[ac.card] ?? 0, d = now - (a.players[who].cres?.[ac.card] ?? 0);
+        usedId = ac.card;
+        fly(() => this.flyUse(ac.card, who, { used: true, now, d }));
+      }
+      else if (ac.k === AK.PLAY && ac.free && ac.card === b.players[who].corp)   // (Inventrix's first action: a draw, no card into the tableau)
+        fly(() => this.flyMove(who, 'assets/res/card.png', this.db.lname(ac.card), t('log.faDraw', { who: esc(nm), card: esc(this.db.lname(ac.card)) })));
       else if (ac.k === AK.SP) {
         const icon = ['assets/res/card.png', 'assets/res/power.png', 'assets/temperature.png', 'assets/tiles/ocean.png', 'assets/tiles/greenery.png', 'assets/tiles/city.png'][ac.sp] || 'assets/tiles/special.png';
-        fly(() => this.flyMove(who, icon, spName(ac.sp), esc(ac.sp === 0 ? t('toast.botSell', { who: nm, sp: spName(0), n: ac.disc.length }) : t('toast.botSp', { who: nm, sp: spName(ac.sp) }))));
+        const corp = b.players[who].corp, firstCity = ac.free && corp >= 0;   // (Tharsis Republic's free first city)
+        if (firstCity) fly(() => this.flyMove(who, icon, this.db.lname(corp), t('log.firstCity', { who: esc(nm), card: esc(this.db.lname(corp)), extra: '' })));
+        else fly(() => this.flyMove(who, icon, spName(ac.sp), esc(ac.sp === 0 ? t('toast.botSell', { who: nm, sp: spName(0), n: ac.disc.length }) : t('toast.botSp', { who: nm, sp: spName(ac.sp) }))));
         this.audio.coin();
       }
       else if (ac.k === AK.PLANTS) fly(() => this.flyMove(who, 'assets/tiles/greenery.png', bare('act.plants'), esc(t('toast.botPlants', { who: nm }))));
@@ -98,21 +109,17 @@ export class AppAnim {
       else if (ac.k === AK.PASS) fly(() => this.flyMove(who, '', bare('act.passGenShort'), esc(t('toast.botPassed', { who: nm }))));
     }
     // resources put on (or taken off) a card without a card of their own on screen -- the one possible target
-    // chosen for you, a trigger (Decomposers, Ecological Zone...), a Predators / Ants raid: that card flies to
-    // the middle with "+1 animal on Birds (now 3)", so every automatic placement is visible
+    // chosen for you, a trigger (Decomposers, Ecological Zone...), a Predators / Ants raid: that card pops up beside
+    // its owner's board and the token flies on (or off), "+1 animal on Birds (now 3)", so every automatic placement is visible
     if (b.gen === a.gen && b.moves !== a.moves && b.stage === 2) {
-      const CR = { 6: 'animal', 8: 'microbe', 9: 'science', 10: 'floater', 7: 'fighter' };
       for (const pb of b.players) {
         const pa = a.players[pb.id];
         const fresh = new Set([...pb.played.filter((c) => !pa.played.includes(c)), ...pb.events.filter((c) => !pa.events.includes(c))]);
         const ids = [...new Set([...Object.keys(pb.cres || {}), ...Object.keys(pa.cres || {})])].map(Number)
-          .filter((id) => !fresh.has(id) && (pb.cres?.[id] ?? 0) !== (pa.cres?.[id] ?? 0)
-            && !(b.last.player === b.human && pb.id === b.human && b.last.act?.k === AK.BLUE && b.last.act.card === id && REPLAY == null));   // (your own action on that card: you know)
+          .filter((id) => !fresh.has(id) && (pb.cres?.[id] ?? 0) !== (pa.cres?.[id] ?? 0) && !(pb.id === who && id === usedId));   // (the card used: its own pop-up shows it)
         for (const id of ids.slice(0, 3)) {
-          const cd = this.db.get(id); if (!cd) continue;
-          const now = pb.cres?.[id] ?? 0, d = now - (pa.cres?.[id] ?? 0), r = CR[cd.res] || 'resource';
-          const label = `${esc(this.pname(pb.id))} ${t('fx.cres', { d: signed(d), res: cresName(r, Math.abs(d)), card: esc(this.db.lname(id)), now, n: Math.abs(d) })}`;
-          fly(() => this.flyEl(cardEl(cd, { big: true }), cd.type === 0 ? 300 : 250, 348, pb.id, label, 1300));
+          const now = pb.cres?.[id] ?? 0;
+          fly(() => this.flyUse(id, pb.id, { now, d: now - (pa.cres?.[id] ?? 0) }));
         }
       }
     }
@@ -166,9 +173,10 @@ export class AppAnim {
         if (c) cells.push(c);
       }
       const ep = pace.epoch;
+      const origin = deimos && !this.board.strike ? deimosOrigin(this.board) : null;   // (one breakup point for all ten: 3D board)
       cells.forEach((cell, i) => {
         const delay = deimos ? Math.random() * 450 : i * 320;
-        setTimeout(() => ep === pace.epoch && (this.board.strike ? this.board.strike(cell, { big: big && !deimos }) : asteroidStrike(this.board, cell, { big: big && !deimos })), delay);
+        setTimeout(() => ep === pace.epoch && (this.board.strike ? this.board.strike(cell, { big: big && !deimos }) : asteroidStrike(this.board, cell, { big: big && !deimos, from: origin?.(), slow: origin ? 1.25 : 1 })), delay);
       });
       if (cells.length) {
         this.audio.boom?.();
@@ -488,13 +496,85 @@ export class AppAnim {
     this.flyQ = p;
     return p;
   }
-  async flyCard(cardId, pid, verb) {
+  async flyCard(cardId, pid) {
     const card = this.db.get(cardId);
     if (!card) return;
-    const label = tw('fly.' + (verb || (card.type === 0 ? 'chose' : 'played')), { who: esc(this.pname(pid)) }, this.isYou(pid));
-    const el = cardEl(card, { big: true });
-    if (verb === 'used') el.classList.add('actused');   // (its Action box glows: which ability fired)
-    await this.flyEl(el, card.type === 0 ? 300 : 250, 348, pid, label, pid === this.view.human && REPLAY == null ? 700 : 1500);
+    const label = tw('fly.' + (card.type === 0 ? 'chose' : 'played'), { who: esc(this.pname(pid)) }, this.isYou(pid));
+    await this.flyEl(cardEl(card, { big: true }), card.type === 0 ? 300 : 250, 348, pid, label, pid === this.view.human && REPLAY == null ? 700 : 1500);
+  }
+  // A card IN USE (its action, or resources put on / taken off it): unlike a card being played, which flies through the
+  // middle of the screen, it pops up beside its owner's board -- the card on that tableau did something. It shows
+  // what it holds; the tokens fly onto it (or off it) and its count follows as each lands. d: change, now: count after
+  async flyUse(cardId, pid, { used, now = 0, d = 0 }) {
+    const card = this.db.get(cardId), icon = CARD_RES_ICON[card?.res];
+    if (!card) return;
+    const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let n = icon ? now - d : 0;
+    const W = card.type === 0 ? 300 : 250, H = 348, s = Math.min(0.8, (innerHeight - 70) / H);
+    const el = cardEl(card, { big: true, used, resCount: icon ? n : null });
+    el.classList.add('inuse', 'glowfly');
+    if (used) el.classList.add('actused');
+    el.style.setProperty('--pc', PCOL[pid]);
+    const pile = h('div', 'restoks');
+    el.appendChild(pile);
+    const cnt = el.querySelector('.resn');
+    const show = () => {                              // the tokens on the card (up to 8), and the count
+      pile.innerHTML = `<img src="assets/res/${icon}.png" alt="">`.repeat(Math.min(n, 8)) + (n > 8 ? `<b>+${n - 8}</b>` : '');
+      if (cnt) cnt.innerHTML = `<img src="assets/res/${icon}.png" alt="">${n}`;
+    };
+    if (icon) show();
+    // beside the board: to its right on a wide screen (the boards are in a column at the left), below it on a phone
+    // held upright (the boards run across the top)
+    const panel = $(`.pb[data-p="${pid}"]`), pr = panel ? panel.getBoundingClientRect() : { left: 0, right: 0, top: 0, bottom: 0, width: 0, height: 0 };
+    const wide = innerWidth > innerHeight, cw = W * s, ch = H * s, pad = 8;
+    const x = wide ? (pr.right + 16 + cw > innerWidth - pad ? Math.max(pad, pr.left - 16 - cw) : pr.right + 16) : Math.min(Math.max(pad, pr.left + pr.width / 2 - cw / 2), innerWidth - cw - pad);
+    const y = Math.min(Math.max(pad + 34, wide ? pr.top + 34 : pr.bottom + 46), innerHeight - ch - pad);
+    const at = (px, py, k) => `translate(${px + cw / 2 - W / 2}px, ${py + ch / 2 - H / 2}px) scale(${k})`;
+    const label = h('div', 'who', used ? tw('fly.used', { who: esc(this.pname(pid)) }, this.isYou(pid)) : '');
+    if (!used) label.innerHTML = `${esc(this.pname(pid))} ${t('fx.cres', { d: signed(d), res: cresName(icon === 'wild' ? 'resource' : icon, Math.abs(d)), card: esc(this.db.lname(cardId)), now, n: Math.abs(d) })}`;
+    label.style.color = PCOL[pid];
+    label.style.whiteSpace = 'nowrap'; label.style.opacity = '0'; label.style.transition = `opacity ${dur(300)}ms`;
+    label.style.top = `${y - 40}px`; label.style.left = '0'; label.style.maxWidth = `${innerWidth - 2 * pad}px`;
+    const fl = $('#flyer');
+    this.audio.card();
+    el.style.left = '0px'; el.style.top = '0px';
+    el.style.transform = at(x, y + 30, s * 0.6);
+    el.style.opacity = '0';
+    fl.append(el, label);
+    label.style.transform = `translateX(${Math.min(Math.max(pad, x + cw / 2 - label.offsetWidth / 2), innerWidth - label.offsetWidth - pad)}px)`;
+    await sleep(20);
+    el.style.opacity = '1'; label.style.opacity = '1';
+    el.style.transform = at(x, y, s);
+    await sleep(750 * FLY_PACE);
+    // a token per unit (at most 5): from the board onto the card, or off the card and away
+    if (icon && d && !reduced) {
+      const k = Math.min(Math.abs(d), 5), gone = d < 0, step = dur(260);
+      const slot = (i) => { const r = pile.getBoundingClientRect(); return { x: r.left + (Math.min(i, 7) + 0.5) * 24 * s, y: r.top + r.height / 2 }; };
+      const home = { x: pr.left + pr.width / 2, y: pr.top + pr.height / 2 };
+      const away = { x: home.x < x ? x + cw + 90 : x + cw / 2, y: home.x < x ? y + ch / 2 : y + ch + 90 };
+      const flights = [];
+      for (let i = 0; i < k; i++) {
+        const tok = h('img', 'restokfly'); tok.src = `assets/res/${icon}.png`;
+        const from = gone ? slot(n - 1) : home, to = gone ? away : slot(n);
+        const m = (p, sc) => `translate(${p.x - 16}px, ${p.y - 16}px) scale(${sc})`;
+        tok.style.transform = m(from, gone ? 1 : 0.6);
+        fl.appendChild(tok);
+        if (gone) { n--; show(); } else tok.style.opacity = '1';
+        await sleep(20);
+        tok.style.transform = m(to, gone ? 0.5 : 1);
+        if (gone) tok.style.opacity = '0'; else tok.style.opacity = '1';
+        flights.push(sleep(700).then(() => { tok.remove(); if (!gone) { n++; show(); cnt?.classList.remove('tick'); void cnt?.offsetWidth; cnt?.classList.add('tick'); } }));
+        await sleep(step);
+      }
+      await Promise.all(flights);
+      n = now; show();                                // (more than 5: the rest at once)
+    } else if (icon) { n = now; show(); }
+    await sleep(700 * FLY_PACE);
+    label.style.opacity = '0'; el.style.opacity = '0';
+    el.style.transform = at(x, y + 20, s * 0.9);
+    await sleep(600);
+    el.remove(); label.remove();
+    this.uiFx.settle(pid);
   }
   // a move that brings no card (a standard project, plants into greenery, a milestone...): a small card of its own, briefly
   flyMove(pid, icon, title, label) {

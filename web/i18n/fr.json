@@ -522,7 +522,6 @@
  "go.ms": "Objectifs",
  "go.aw": "Récompenses",
  "go.sub": "Génération {n}. Le journal de la partie a été enregistré pour l'entraînement de TFMBot.",
- "go.look": "Voir le plateau",
  "go.chart": "PV par génération",
  "maps.titleFirst": "Choisissez votre Mars",
  "maps.title": "Nouvelle partie — choisissez une carte",
@@ -538,7 +537,7 @@
  "map.hellas.blurb": "Le grand bassin d'impact austral — de profondes plaines taillées pour les océans, et le pôle Sud gelé.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "La province volcanique d'Elysium Mons et de ses volcans frères, dominant les plaines du nord.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Les immenses plaines du nord, qui s'étendent jusqu'à la calotte polaire.",
  "ma.Terraformer": "Terraformeur",
  "ma.Mayor": "Maire",
@@ -1012,5 +1011,7 @@
  "hex.claimed": "{card} : réservé par {who} ; personne d'autre ne peut poser de tuile ici",
  "rp.povTitle": "La place d'où vous regardez : sa main, ses choix de draft et ses pioches. Cliquez pour changer de joueur",
  "rp.povOld": "Votre place seulement : cette rediffusion a été enregistrée avant que les cartes de TFMBot soient sauvegardées",
- "atk.offset": "{who} les a perdues, mais {card} en a rendu autant"
+ "atk.offset": "{who} les a perdues, mais {card} en a rendu autant",
+ "log.download": "Télécharger le journal",
+ "log.firstCity": "{who} a placé la première cité gratuite de {card}{extra}"
 }

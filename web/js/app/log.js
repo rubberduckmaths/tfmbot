@@ -60,11 +60,17 @@ export class AppLog {
       case D.FG:
         switch (a.k) {
           case AK.PLAY: {
+            // a corporation's first action: Inventrix's draw, Valley Trust's bonus prelude (or its fizzle)
+            if (a.free && a.card === v.players[p].corp) return t('log.faDraw', { who, card: card(a.card) });
+            if (a.free && v.fizzle === a.card) return t('log.faFizzle', { who, card: card(a.card) });
+            if (a.free) return t('log.bonusPrelude', { who, card: card(a.card) }) + (a.space != null ? sp(a.space) : '');
             // the card it targets: Robotic Workforce's copied building, where resources went...
             const tgt = a.rtc != null ? (/robotic workforce/i.test(db.name(a.card)) ? t('log.copying', { card: card(a.rtc) }) : ` → ${card(a.rtc)}`) : '';
             return t('log.played', { who, card: card(a.card), extra: `${tgt}${a.space != null ? sp(a.space) : ''}${this.paidText(a)}` });
           }
-          case AK.SP: return a.sp === 0 ? t('log.sold', { who, card: p === v.human ? card(a.disc[0]) : esc(t('log.aPatent')) }) : t('log.sp', { who, sp: esc(spName(a.sp)), extra: `${a.space != null ? sp(a.space) : ''}${this.paidText(a)}` });
+          // (a corporation's free first city -- Tharsis Republic -- comes as a free City project: say what it is)
+          case AK.SP: if (a.free) return t('log.firstCity', { who, card: card(v.players[p].corp), extra: a.space != null ? sp(a.space) : '' });
+            return a.sp === 0 ? t('log.sold', { who, card: p === v.human ? card(a.disc[0]) : esc(t('log.aPatent')) }) : t('log.sp', { who, sp: esc(spName(a.sp)), extra: `${a.space != null ? sp(a.space) : ''}${this.paidText(a)}` });
           case AK.MS: return t('log.claimed', { who, ms: esc(maName(v.ms[a.ma % 5].name)), extra: this.paidText(a) });
           case AK.AW: return t('log.funded', { who, aw: esc(maName(v.aw[a.ma % 5].name)), extra: this.paidText(a) });
           case AK.BLUE:
@@ -296,7 +302,7 @@ export class AppLog {
     const db = this.db;
     let s;
     switch (a.k) {
-      case AK.PLAY: s = t('act.play', { card: db.lname(a.card) }); break;
+      case AK.PLAY: s = hideCards && a.free ? t('act.bonusPrelude') : t('act.play', { card: db.lname(a.card) }); break;   // (the bot's other two bonus preludes stay hidden)
       case AK.SP: s = a.sp === 0 ? (hideCards ? t('act.sellN', { n: a.disc.length }) : t('act.sell', { cards: tj(a.disc.map((c) => db.lname(c))) })) : t('act.sp', { sp: spName(a.sp) }); break;
       case AK.MS: s = t('act.claim', { ms: maName(this.view.ms[a.ma % 5].name) }); break;
       case AK.AW: s = t('act.fund', { aw: maName(this.view.aw[a.ma % 5].name) }); break;

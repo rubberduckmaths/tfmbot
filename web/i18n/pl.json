@@ -570,7 +570,6 @@
  "go.ms": "Kamienie milowe",
  "go.aw": "Nagrody",
  "go.sub": "Pokolenie {n}. Zapis gry został zachowany jako dane treningowe TFMBota.",
- "go.look": "Obejrzyj planszę",
  "go.chart": "PZ według pokoleń",
  "maps.titleFirst": "Wybierz swój Mars",
  "maps.title": "Nowa gra — wybierz mapę",
@@ -586,7 +585,7 @@
  "map.hellas.blurb": "Wielki południowy basen uderzeniowy — głębokie niziny stworzone dla oceanów i zamarznięty biegun południowy.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Wulkaniczna prowincja Elysium Mons i jego siostrzanych wulkanów nad północnymi równinami.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Rozległe równiny północne ciągnące się aż po polarną czapę lodową.",
  "ma.Terraformer": "Terraformer",
  "ma.Mayor": "Burmistrz",
@@ -1025,5 +1024,7 @@
  "hex.claimed": "{card}: zarezerwowane przez {who}; nikt inny nie może tu położyć płytki",
  "rp.povTitle": "Z czyjego miejsca oglądasz: jego ręka, wybory w drafcie i dobrane karty. Kliknij, aby zmienić gracza",
  "rp.povOld": "Tylko twoje miejsce: ta powtórka została nagrana, zanim zaczęto zapisywać karty TFMBota",
- "atk.offset": "{who} je stracił, ale {card} oddała tyle samo"
+ "atk.offset": "{who} je stracił, ale {card} oddała tyle samo",
+ "log.download": "Pobierz dziennik",
+ "log.firstCity": "{who} położył darmowe pierwsze miasto ({card}){extra}"
 }

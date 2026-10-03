@@ -579,7 +579,6 @@
  "go.ms": "Arritje",
  "go.aw": "Çmime",
  "go.sub": "Brezi {n}. Regjistri i lojës u ruajt si të dhëna trajnimi për TFMBot.",
- "go.look": "Shiko tabelën",
  "go.chart": "PF sipas brezave",
  "maps.titleFirst": "Zgjidh Marsin tënd",
  "maps.title": "Lojë e re — zgjidh një hartë",
@@ -595,7 +594,7 @@
  "map.hellas.blurb": "Pellgu i madh jugor i goditjes — ultësira të thella të bëra për oqeane, dhe poli i ngrirë jugor.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Krahina vullkanike e Elysium Mons dhe vullkanet e tij motra mbi rrafshnaltat veriore.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Rrafshnaltat e gjera veriore që shtrihen deri te kapaku polar i akullit.",
  "ma.Terraformer": "Terraformues",
  "ma.Mayor": "Kryetar bashkie",
@@ -1025,5 +1024,7 @@
  "hex.claimed": "{card}: e rezervuar nga {who}; askush tjetër nuk mund të vendosë pllakë këtu",
  "rp.povTitle": "Nga vendi i kujt shikon: dora, zgjedhjet në draft dhe letrat e tërhequra. Kliko për të ndërruar lojtarin",
  "rp.povOld": "Vetëm vendi yt: ky riprodhim u regjistrua para se të ruheshin letrat e TFMBot",
- "atk.offset": "{who} i humbi, por {card} ktheu të njëjtën sasi"
+ "atk.offset": "{who} i humbi, por {card} ktheu të njëjtën sasi",
+ "log.download": "Shkarko regjistrin",
+ "log.firstCity": "{who} vendosi qytetin e parë falas të {card}{extra}"
 }

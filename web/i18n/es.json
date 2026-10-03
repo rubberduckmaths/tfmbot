@@ -566,7 +566,6 @@
  "go.ms": "Hitos",
  "go.aw": "Recompensas",
  "go.sub": "Generación {n}. El registro de la partida se ha guardado para los datos de entrenamiento de TFMBot.",
- "go.look": "Ver el tablero",
  "go.chart": "PV por generación",
  "maps.titleFirst": "Elige tu Marte",
  "maps.title": "Nueva partida: elige un mapa",
@@ -582,7 +581,7 @@
  "map.hellas.blurb": "La gran cuenca de impacto del sur: tierras bajas y profundas hechas para océanos, y el polo sur helado.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "La provincia volcánica de Elysium Mons y sus volcanes hermanos, sobre las llanuras del norte.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Las vastas llanuras del norte que se extienden hasta el casquete polar.",
  "ma.Terraformer": "Terraformador",
  "ma.Mayor": "Alcalde",
@@ -1012,5 +1011,7 @@
  "hex.claimed": "{card}: reservado por {who}; nadie más puede colocar una loseta aquí",
  "rp.povTitle": "Desde qué asiento miras: su mano, sus elecciones del draft y sus robos. Haz clic para cambiar de jugador",
  "rp.povOld": "Solo tu asiento: esta repetición se grabó antes de que se guardaran las cartas de TFMBot",
- "atk.offset": "{who} los perdió, pero {card} devolvió lo mismo"
+ "atk.offset": "{who} los perdió, pero {card} devolvió lo mismo",
+ "log.download": "Descargar el registro",
+ "log.firstCity": "{who} colocó la primera ciudad gratuita de {card}{extra}"
 }

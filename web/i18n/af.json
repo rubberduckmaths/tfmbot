@@ -523,7 +523,6 @@
  "go.ms": "Mylpale",
  "go.aw": "Toekennings",
  "go.sub": "Generasie {n}. Die spellog is gestoor vir TFMBot se opleidingsdata.",
- "go.look": "Kyk na die bord",
  "go.chart": "OP per generasie",
  "maps.titleFirst": "Kies jou Mars",
  "maps.title": "Nuwe spel — kies 'n kaart",
@@ -539,7 +538,7 @@
  "map.hellas.blurb": "Die groot suidelike impakkom — diep laagtes wat vir oseane gemaak is, en die bevrore suidpool.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Die vulkaniese provinsie van Elysium Mons en sy sustervulkane bo die noordelike vlaktes.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Die uitgestrekte noordelike vlaktes wat tot by die poolyskap strek.",
  "ma.Terraformer": "Terraformeerder",
  "ma.Mayor": "Burgemeester",
@@ -966,5 +965,7 @@
  "hex.claimed": "{card}: gereserveer deur {who}; niemand anders kan hier 'n teël plaas nie",
  "rp.povTitle": "Wie se sitplek jy van kyk: hul hand, trekkeuses en trekkings. Klik om spelers te wissel",
  "rp.povOld": "Net jou sitplek: hierdie herspeling is opgeneem voordat TFMBot se kaarte gestoor is",
- "atk.offset": "{who} het hulle verloor, maar {card} het dieselfde teruggegee"
+ "atk.offset": "{who} het hulle verloor, maar {card} het dieselfde teruggegee",
+ "log.download": "Laai die logboek af",
+ "log.firstCity": "{who} het die gratis eerste stad van {card} geplaas{extra}"
 }

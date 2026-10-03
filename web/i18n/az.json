@@ -566,7 +566,6 @@
  "go.ms": "Nailiyyətlər",
  "go.aw": "Mükafatlar",
  "go.sub": "Nəsil {n}. Oyun jurnalı TFMBot-un təlim məlumatları üçün saxlanıldı.",
- "go.look": "Lövhəyə bax",
  "go.chart": "Nəsillər üzrə xallar",
  "maps.titleFirst": "Marsınızı seçin",
  "maps.title": "Yeni oyun — xəritə seçin",
@@ -582,7 +581,7 @@
  "map.hellas.blurb": "Böyük cənub zərbə hövzəsi — okeanlar üçün yaradılmış dərin ovalıqlar və donmuş cənub qütbü.",
  "map.elysium.name": "Elizium",
  "map.elysium.blurb": "Elizium dağının vulkanik əyaləti və şimal düzənlikləri üzərində yüksələn bacı vulkanları.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Qütb buz örtüyünə qədər uzanan geniş şimal düzənlikləri.",
  "ma.Terraformer": "Terraformer",
  "ma.Mayor": "Mer",
@@ -1009,5 +1008,7 @@
  "hex.claimed": "{card}: {who} tərəfindən rezerv edilib; başqa heç kim bura kaşı qoya bilməz",
  "rp.povTitle": "Kimin yerindən baxırsınız: onun əli, seçimləri və çəkdiyi kartlar. Oyunçunu dəyişmək üçün klikləyin",
  "rp.povOld": "Yalnız sizin yeriniz: bu təkrar TFMBot-un kartları saxlanmazdan əvvəl yazılıb",
- "atk.offset": "{who} onları itirdi, amma {card} eyni qədərini geri verdi"
+ "atk.offset": "{who} onları itirdi, amma {card} eyni qədərini geri verdi",
+ "log.download": "Jurnalı endir",
+ "log.firstCity": "{who} {card} üçün pulsuz ilk şəhəri yerləşdirdi{extra}"
 }

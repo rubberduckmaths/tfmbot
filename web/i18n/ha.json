@@ -567,7 +567,6 @@
  "go.ms": "Matakai",
  "go.aw": "Kyaututtuka",
  "go.sub": "Zamani {n}. An adana tarihin wasan don bayanan horar da TFMBot.",
- "go.look": "Duba allo",
  "go.chart": "Maki a kowane zamani",
  "maps.titleFirst": "Zaɓi Mars ɗinka",
  "maps.title": "Sabon wasa — zaɓi taswira",
@@ -583,7 +582,7 @@
  "map.hellas.blurb": "Babban kwarin karo na kudu — ƙasashe masu zurfi da aka yi don tekuna, da daskararren sandar kudu.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Lardin duwatsun wuta na Elysium Mons da ƙannensa duwatsun wuta a saman filayen arewa.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Manyan filayen arewa da suka miƙe har zuwa hular ƙanƙara ta sanda.",
  "ma.Terraformer": "Mai Terraforming",
  "ma.Mayor": "Magajin Gari",
@@ -1010,5 +1009,7 @@
  "hex.claimed": "{card}: {who} ya keɓe; babu wani da zai iya sanya yanki a nan",
  "rp.povTitle": "Wurin zaman wa kake kallo daga: hannunsa, zaɓen draft da abubuwan da ya ɗauko. Danna don sauya ɗan wasa",
  "rp.povOld": "Wurinka kaɗai: an naɗi wannan maimaici kafin a fara adana katunan TFMBot",
- "atk.offset": "{who} ya rasa su, amma {card} ya mayar da daidai"
+ "atk.offset": "{who} ya rasa su, amma {card} ya mayar da daidai",
+ "log.download": "Sauke rajista",
+ "log.firstCity": "{who} ya sanya birni na farko kyauta na {card}{extra}"
 }

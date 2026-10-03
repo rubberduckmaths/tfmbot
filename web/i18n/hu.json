@@ -579,7 +579,6 @@
  "go.ms": "Mérföldkövek",
  "go.aw": "Díjak",
  "go.sub": "{n}. generáció. A játéknaplót elmentettük TFMBot tanításához.",
- "go.look": "A tábla megtekintése",
  "go.chart": "GyP generációnként",
  "maps.titleFirst": "Válaszd ki a Marsodat",
  "maps.title": "Új játék — válassz térképet",
@@ -595,7 +594,7 @@
  "map.hellas.blurb": "A nagy déli becsapódási medence — óceánoknak való mély alföldek és a fagyos déli pólus.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Az Elysium Mons és testvérvulkánjainak vulkáni vidéke az északi síkságok felett.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "A hatalmas északi síkságok egészen a sarki jégsapkáig.",
  "ma.Terraformer": "Terraformátor",
  "ma.Mayor": "Polgármester",
@@ -1022,5 +1021,7 @@
  "hex.claimed": "{card}: {who} lefoglalta; senki más nem tehet ide lapkát",
  "rp.povTitle": "Kinek a helyéről nézed: a kezét, a draftválasztásait és a húzásait. Kattints a játékosváltáshoz",
  "rp.povOld": "Csak a saját helyed: ez a visszajátszás még azelőtt készült, hogy TFMBot lapjait elmentettük volna",
- "atk.offset": "{who} elvesztette őket, de a(z) {card} ugyanannyit visszaadott"
+ "atk.offset": "{who} elvesztette őket, de a(z) {card} ugyanannyit visszaadott",
+ "log.download": "Napló letöltése",
+ "log.firstCity": "{who} lerakta a(z) {card} ingyenes első városát{extra}"
 }

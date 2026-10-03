@@ -528,7 +528,6 @@
  "go.ms": "Izinqophamlando",
  "go.aw": "Imiklomelo",
  "go.sub": "Isizukulwane {n}. Umlando womdlalo ugcinelwe idatha yokuqeqesha i-TFMBot.",
- "go.look": "Bheka ibhodi",
  "go.chart": "Amaphuzu ngesizukulwane",
  "maps.titleFirst": "Khetha i-Mars yakho",
  "maps.title": "Umdlalo omusha — khetha imephu",
@@ -544,7 +543,7 @@
  "map.hellas.blurb": "Isitsha esikhulu esiseningizimu esenziwe ukushayisana — izigodi ezijulile ezenzelwe izilwandle, nesigxobo saseningizimu esiqandisiwe.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Isifundazwe sezintaba-mlilo se-Elysium Mons nezintaba-mlilo ezingodade bayo ngaphezu kwamathafa asenyakatho.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Amathafa amakhulu asenyakatho eyelulela kuze kufike ekhephini leqhwa lesigxobo.",
  "ma.Terraformer": "Umguquli Weplanethi",
  "ma.Mayor": "Imeya",
@@ -971,5 +970,7 @@
  "hex.claimed": "{card}: kugodliwe ngu-{who}; akekho omunye ongabeka ithayela lapha",
  "rp.povTitle": "Ubuka ngesihlalo sikabani: isandla sakhe, ukukhetha kwe-draft namakhadi adonsiwe. Chofoza ukuze ushintshe umdlali",
  "rp.povOld": "Isihlalo sakho kuphela: lokhu kuphinda kwaqoshwa ngaphambi kokuba kugcinwe amakhadi e-TFMBot",
- "atk.offset": "{who} ulahlekelwe yiwo, kodwa {card} ubuyise okufanayo"
+ "atk.offset": "{who} ulahlekelwe yiwo, kodwa {card} ubuyise okufanayo",
+ "log.download": "Landa ilogi",
+ "log.firstCity": "{who} ubeke idolobha lokuqala lamahhala le-{card}{extra}"
 }

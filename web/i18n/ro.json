@@ -587,7 +587,6 @@
  "go.ms": "Obiective",
  "go.aw": "Premii",
  "go.sub": "Generația {n}. Jurnalul partidei a fost salvat pentru datele de antrenament ale TFMBot.",
- "go.look": "Privește tabla",
  "go.chart": "PV pe generații",
  "maps.titleFirst": "Alege-ți planeta Marte",
  "maps.title": "Joc nou — alege o hartă",
@@ -603,7 +602,7 @@
  "map.hellas.blurb": "Marele bazin de impact din sud — câmpii adânci, perfecte pentru oceane, și polul sud înghețat.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Provincia vulcanică Elysium Mons și vulcanii ei surori, deasupra câmpiilor nordice.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Vastele câmpii nordice care urcă până la calota polară.",
  "ma.Terraformer": "Terraformator",
  "ma.Mayor": "Primar",
@@ -1036,5 +1035,7 @@
  "hex.claimed": "{card}: rezervat de {who}; nimeni altcineva nu poate plasa o piesă aici",
  "rp.povTitle": "Din locul cui privești: mâna, alegerile din draft și cărțile trase. Dă clic pentru a schimba jucătorul",
  "rp.povOld": "Doar locul tău: această reluare a fost înregistrată înainte ca cărțile lui TFMBot să fie salvate",
- "atk.offset": "{who} le-a pierdut, dar {card} a dat înapoi tot atâtea"
+ "atk.offset": "{who} le-a pierdut, dar {card} a dat înapoi tot atâtea",
+ "log.download": "Descarcă jurnalul",
+ "log.firstCity": "{who} a plasat primul oraș gratuit al {card}{extra}"
 }

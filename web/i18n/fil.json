@@ -566,7 +566,6 @@
  "go.ms": "Muhon",
  "go.aw": "Gantimpala",
  "go.sub": "Henerasyon {n}. Na-save ang talaan ng laro para sa training data ni TFMBot.",
- "go.look": "Tingnan ang board",
  "go.chart": "VP bawat henerasyon",
  "maps.titleFirst": "Piliin ang iyong Marte",
  "maps.title": "Bagong laro — pumili ng mapa",
@@ -582,7 +581,7 @@
  "map.hellas.blurb": "Ang malaking impact basin sa timog — malalalim na kapatagang bagay sa karagatan, at ang nagyeyelong timog na polo.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Ang bulkanikong lalawigan ng Elysium Mons at ng mga kapatid nitong bulkan sa ibabaw ng hilagang kapatagan.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Ang malawak na hilagang kapatagan hanggang sa yelo ng polo.",
  "ma.Terraformer": "Terraformer",
  "ma.Mayor": "Alkalde",
@@ -1009,5 +1008,7 @@
  "hex.claimed": "{card}: nakareserba kay {who}; walang ibang makapaglalagay ng tile dito",
  "rp.povTitle": "Kaninong upuan ka nanonood: ang kanilang kamay, mga pinili sa draft at mga nabunot. I-click para magpalit ng manlalaro",
  "rp.povOld": "Ang upuan mo lang: na-record ang replay na ito bago na-save ang mga baraha ng TFMBot",
- "atk.offset": "Nawala ang mga ito kay {who}, pero ibinalik ng {card} ang ganoon din"
+ "atk.offset": "Nawala ang mga ito kay {who}, pero ibinalik ng {card} ang ganoon din",
+ "log.download": "I-download ang log",
+ "log.firstCity": "Inilagay ni {who} ang libreng unang lungsod ng {card}{extra}"
 }

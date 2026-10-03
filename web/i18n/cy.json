@@ -646,7 +646,6 @@
  "go.ms": "Cerrig milltir",
  "go.aw": "Gwobrau",
  "go.sub": "Cenhedlaeth {n}. Cafodd log y gêm ei gadw ar gyfer data hyfforddi TFMBot.",
- "go.look": "Edrych ar y bwrdd",
  "go.chart": "PB fesul cenhedlaeth",
  "maps.titleFirst": "Dewiswch eich Mawrth",
  "maps.title": "Gêm newydd — dewiswch fap",
@@ -662,7 +661,7 @@
  "map.hellas.blurb": "Y basn ardrawiad mawr yn y de — iseldiroedd dwfn wedi'u gwneud ar gyfer cefnforoedd, a'r pegwn deheuol rhewllyd.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Talaith folcanig Elysium Mons a'i chwaer-losgfynyddoedd uwchben y gwastadeddau gogleddol.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Y gwastadeddau gogleddol eang sy'n ymestyn hyd at y cap iâ pegynol.",
  "ma.Terraformer": "Terraffurfiwr",
  "ma.Mayor": "Maer",
@@ -1120,5 +1119,7 @@
  "hex.claimed": "{card}: wedi'i gadw gan {who}; ni all neb arall osod teilsen yma",
  "rp.povTitle": "O sedd pwy rydych chi'n gwylio: eu llaw, eu dewisiadau drafft a'u tyniadau. Cliciwch i newid chwaraewr",
  "rp.povOld": "Eich sedd chi yn unig: recordiwyd yr ailchwarae hwn cyn i gardiau TFMBot gael eu cadw",
- "atk.offset": "Collodd {who} nhw, ond rhoddodd {card} yr un faint yn ôl"
+ "atk.offset": "Collodd {who} nhw, ond rhoddodd {card} yr un faint yn ôl",
+ "log.download": "Lawrlwytho'r log",
+ "log.firstCity": "Gosododd {who} ddinas gyntaf am ddim {card}{extra}"
 }

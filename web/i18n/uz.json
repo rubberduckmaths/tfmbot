@@ -566,7 +566,6 @@
  "go.ms": "Yutuqlar",
  "go.aw": "Mukofotlar",
  "go.sub": "Avlod {n}. Oʻyin jurnali TFMBot ning oʻquv maʼlumotlari uchun saqlandi.",
- "go.look": "Taxtaga qarash",
  "go.chart": "Avlodlar boʻyicha ochkolar",
  "maps.titleFirst": "Marsingizni tanlang",
  "maps.title": "Yangi oʻyin — xaritani tanlang",
@@ -582,7 +581,7 @@
  "map.hellas.blurb": "Janubdagi ulkan zarba havzasi — okeanlar uchun yaratilgan chuqur pastliklar va muzlagan janubiy qutb.",
  "map.elysium.name": "Elizium",
  "map.elysium.blurb": "Elizium togʻining vulqonli oʻlkasi va shimoliy tekisliklar uzra koʻtarilgan uning singil vulqonlari.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Qutb muz qalpogʻigacha choʻzilgan keng shimoliy tekisliklar.",
  "ma.Terraformer": "Terraformchi",
  "ma.Mayor": "Hokim",
@@ -1009,5 +1008,7 @@
  "hex.claimed": "{card}: {who} tomonidan band qilingan; bu yerga boshqa hech kim plitka qo‘ya olmaydi",
  "rp.povTitle": "Kimning o‘rnidan tomosha qilyapsiz: uning qo‘li, draft tanlovlari va olgan kartalari. O‘yinchini almashtirish uchun bosing",
  "rp.povOld": "Faqat sizning o‘rningiz: bu takror TFMBot kartalari saqlanishidan oldin yozib olingan",
- "atk.offset": "{who} ularni yo‘qotdi, lekin {card} shuncha qaytarib berdi"
+ "atk.offset": "{who} ularni yo‘qotdi, lekin {card} shuncha qaytarib berdi",
+ "log.download": "Jurnalni yuklab olish",
+ "log.firstCity": "{who} {card} ning bepul birinchi shahrini qo‘ydi{extra}"
 }

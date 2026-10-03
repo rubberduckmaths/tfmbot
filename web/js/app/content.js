@@ -11,7 +11,7 @@ export const MAPS = [
     ms: ['Diversifier', 'Tactician', 'Polar Explorer', 'Energizer', 'Rim Settler'], aw: ['Cultivator', 'Magnate', 'Space Baron', 'Eccentric', 'Contractor'] },
   { id: 2, key: 'elysium', name: 'Elysium', blurb: 'The volcanic province of Elysium Mons and its sister volcanoes above the northern plains.',
     ms: ['Generalist', 'Specialist', 'Ecologist', 'Tycoon', 'Legend'], aw: ['Celebrity', 'Industrialist', 'Desert Settler', 'Estate Dealer', 'Benefactor'] },
-  { id: 7, key: 'vastitas-borealis-novus', name: 'Vastitas Borealis Novus', blurb: 'The vast northern plains running up to the polar ice cap.',
+  { id: 7, key: 'vastitas-borealis-novus', name: 'Vastitas Borealis', blurb: 'The vast northern plains running up to the polar ice cap.',
     ms: ['Agronomist', 'Engineer', 'Spacefarer', 'Geologist', 'Farmer'], aw: ['Traveller', 'Landscaper', 'Highlander', 'Promoter', 'Blacksmith'] },
 ];
 export const MOOD_RANK = { none: 0, science: 1, nature: 2, city: 3, water: 4, space: 5, impact: 6 };

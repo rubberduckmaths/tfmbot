@@ -173,14 +173,24 @@ export class App {
           this.pump();
         });
         break;
-      case 'view': if (Q.has('gallery')) break; this.recorder?.onView(m); this.queue.push(m); this.pump(); break;
+      case 'view': if (Q.has('gallery')) break; if (m.oldSave) { this.resumed = false; this.lastSaveBytes = null; setTimeout(() => this.toast(t('toast.oldSave')), 4000); } this.recorder?.onView(m); this.queue.push(m); this.pump(); break;
       case 'progress': this.progress(m); break;
       case 'thinking': this.thinking(m); break;
-      case 'hint': if (m.think?.pick) { this.applyPickRec?.(m.think.pick, m.think); break; } if (m.think?.setup || this.recPending) { this.applySetupRec?.(m.think?.setup); this.applyPickRec?.(null); break; } this.showHint(m.idx, m.think); break;
-      case 'payopts': this.payModal(m.idx, m.opts); break;
+      case 'hint': if (this.recFlow) { const rf = this.recFlow; this.recFlow = null; if (rf.el.isConnected) { rf.fn(m.idx, m.think); break; } } if (m.think?.pick) { this.applyPickRec?.(m.think.pick, m.think); break; } if (m.think?.setup || this.recPending) { this.applySetupRec?.(m.think?.setup); this.applyPickRec?.(null); break; } this.showHint(m.idx, m.think); break;
+      case 'payopts': this.payModal(m.idx, m.stale ? { stale: true } : m.opts); break;
       case 'save': this.save(m); break;
-      case 'reload': this.toast(t('toast.reloading')); setTimeout(() => location.reload(), 900); break;
+      case 'reload': {
+        // the bot server runs a newer engine (409): reload onto it -- at most once a minute, so a client that keeps
+        // getting the old page back (a crawler with its own cache: one every 2 s, 10-02) can't loop
+        let last = 0; try { last = +sessionStorage.getItem('tfm.staleReload') || 0; } catch {}
+        if (Date.now() - last > 60000) {
+          try { sessionStorage.setItem('tfm.staleReload', String(Date.now())); } catch {}
+          this.toast(t('toast.reloading')); setTimeout(() => location.reload(), 900);
+        } else this.toast(t('toast.reloadManual'), '#ff8a8a');
+        break;
+      }
       case 'gamelog': fetch('api/gamelog', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(m) }).catch(() => {}); break;
+      case 'stale': this.answerSent = false; this.recorder?.noteAnswer(null); break;   // an answer to a position already left: dropped
       case 'error': this.answerSent = false; console.warn(m.msg); if (this.recPending) { this.applySetupRec?.(null); this.applyPickRec?.(null); } report('engine-error', m.msg, { answer: this.lastAnswer, snapshot: b64(this.lastSaveBytes), view: this.view && { gen: this.view.gen, pending: this.view.pending, moves: this.view.moves } }); this.toast(m.msg.slice(0, 80), '#ff8a8a'); break;
       case 'warn': console.warn(m.msg); break;
     }
@@ -219,6 +229,11 @@ export class App {
     // (preludes resolve in turn order once both have chosen, so the globals
     // are still at their start values here; pinned for safety)
     v.temp = -30; v.oxy = 0;
+    // their milestone / award standings (productions, tags, cards in hand...) and the discard pile (the cards they did
+    // not buy) would give their secret choices away: shown as for a seat that has chosen nothing yet
+    const blank = (list) => (list || []).map((x) => ({ ...x, v: x.v.map((n, p) => (p === v.human ? n : x.crit === 'tr' ? 20 : 0)) }));
+    v.ms = blank(v.ms); v.aw = blank(v.aw);
+    v.discard = 0;
     return v;
   }
 
@@ -241,12 +256,14 @@ export class App {
       this.feedMarks.length = Math.min(this.feedMarks.length, m.undoN);
       this.undoN = m.undoN;
     }
-    this.awaitingConfirm = m.awaitingConfirm;
+    this.awaitingConfirm = m.awaitingConfirm; this.confirmWhat = m.confirmWhat || '';
     const first = !prev || m.fresh;
     this.uiFx.quiet = first || !!m.undone;            // counters jump (no ticking) on a load, a new game or an undo
     // a move's resource changes show a beat AFTER its card flies / its cost rises off the board
     // (at the same moment, the eye misses the numbers changing); a new generation's production pours at once
-    const holdRes = !first && !m.undone && prev.gen === v.gen && v.moves !== prev.moves;
+    // a move's resource changes wait for its animations, then tick -- the generation's production too (the pass that
+    // ends it: the counters used to jump at once while the production was still pouring in; a player's request)
+    const holdRes = !first && !m.undone && v.moves !== prev.moves;
     if (holdRes) this.uiFx.hold();
     if (first) {
       PCOL.splice(0, 2, ...(v.human === 0 ? [BLUE, ORANGE] : [ORANGE, BLUE]));
@@ -350,7 +367,8 @@ export class App {
     if (this.answerSent) return;
     this.answerSent = true;
     clearTimeout(this.answerT); this.answerT = setTimeout(() => { this.answerSent = false; }, 2500);   // never a lock-out if no view follows
-    this.worker.postMessage({ t: 'answer', ...msg });
+    // (at: the position it answers -- the worker drops it if the game has moved on: a second tap after a slow view)
+    this.worker.postMessage({ t: 'answer', ...msg, at: this.view?.moves });
   }
   closeModal() { $('#modal').classList.add('hidden'); $('#modal').innerHTML = ''; this.flowModalOpen = false; }
   closeZoom() { $('#zoom').classList.add('hidden'); }

@@ -213,7 +213,7 @@ export function sanitizeReplay(r, local, mapId) {
     id: PL0, name: { t: 's', re: PLAYER_NAME }, corp: CARD, tr: N, res: arr(N, 6, 6), prod: arr(N, 6, 6), tags: arr(N, 16),
     hand: cards(), hdisc: arr(N, 300), played: cards(), events: cards(), preludes: cards(50), cres: { t: 'm', val: N }, act: cards(),
     steelv: N, tiv: N, cities: N, greens: N, vp: obj({ total: N, tr: N, cards: N, green: N, city: N, ms: N, aw: N }),
-  }, { dcorps: cards(20), dpre: cards(20), dproj: cards(50) });
+  }, { cvp: { t: 'm', val: N }, dcorps: cards(20), dpre: cards(20), dproj: cards(50) });
   const view = obj({
     gen: int(0, 999), phase: int(0, 16), active: PL, an: SMALL, passed: int(0, 255), first: PL, human: PL0, map: int(mapId, mapId),
     deck: N, discard: N, temp: int(-99, 99), oxy: int(-99, 99), oceans: int(-99, 99), stage: int(0, 8), moves: N,

@@ -617,7 +617,6 @@
  "go.ms": "Pasiekimai",
  "go.aw": "Apdovanojimai",
  "go.sub": "Karta {n}. Žaidimo žurnalas išsaugotas TFMBot mokymo duomenims.",
- "go.look": "Žiūrėti lentą",
  "go.chart": "PT pagal kartas",
  "maps.titleFirst": "Pasirink savo Marsą",
  "maps.title": "Naujas žaidimas — pasirink žemėlapį",
@@ -633,7 +632,7 @@
  "map.hellas.blurb": "Didysis pietinis smūginis baseinas — gilios žemumos, sukurtos vandenynams, ir įšalęs pietų ašigalis.",
  "map.elysium.name": "Elizijus",
  "map.elysium.blurb": "Elizijaus kalno vulkaninė provincija ir jo seserys ugnikalniai virš šiaurinių lygumų.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Plačiosios šiaurinės lygumos, besidriekiančios iki poliarinės ledo kepurės.",
  "ma.Terraformer": "Teraformuotojas",
  "ma.Mayor": "Meras",
@@ -1077,5 +1076,7 @@
  "hex.claimed": "{card}: rezervavo {who}; niekas kitas čia negali padėti plytelės",
  "rp.povTitle": "Iš kieno vietos žiūrite: jo ranka, drafto pasirinkimai ir traukiamos kortos. Spustelėkite, kad perjungtumėte žaidėją",
  "rp.povOld": "Tik jūsų vieta: šis įrašas padarytas prieš pradedant saugoti TFMBot kortas",
- "atk.offset": "{who} jų neteko, bet {card} grąžino tiek pat"
+ "atk.offset": "{who} jų neteko, bet {card} grąžino tiek pat",
+ "log.download": "Atsisiųsti žurnalą",
+ "log.firstCity": "{who} padėjo nemokamą pirmąjį {card} miestą{extra}"
 }

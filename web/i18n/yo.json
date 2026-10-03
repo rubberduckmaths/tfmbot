@@ -507,7 +507,6 @@
  "go.ms": "Àwọn ìpele pàtàkì",
  "go.aw": "Àwọn ẹ̀bùn",
  "go.sub": "Ìran {n}. A ti fi àkọsílẹ̀ eré pamọ́ fún dátà ìdálẹ́kọ̀ọ́ TFMBot.",
- "go.look": "Wo pátákó",
  "go.chart": "Máàkì ní ìran kọ̀ọ̀kan",
  "maps.titleFirst": "Yan Mars rẹ",
  "maps.title": "Eré tuntun — yan máàpù",
@@ -523,7 +522,7 @@
  "map.hellas.blurb": "Kòtò ìkọlù ńlá ti gúúsù — àwọn ilẹ̀ jíjìn tí a ṣe fún òkun, àti òpó gúúsù tí ó dì.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Agbègbè òkè onínà ti Elysium Mons àti àwọn òkè onínà arábìnrin rẹ̀ lókè pẹ̀tẹ́lẹ̀ àríwá.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Àwọn pẹ̀tẹ́lẹ̀ àríwá tó gbòòrò tó nà dé fìlà yìnyín òpó.",
  "ma.Terraformer": "Aṣàtúnṣe Pílánẹ́ẹ̀tì",
  "ma.Mayor": "Baálẹ̀",
@@ -944,5 +943,7 @@
  "hex.claimed": "{card}: {who} ti fi pamọ́; kò sí ẹlòmíràn tó lè gbé àwo síbí",
  "rp.povTitle": "Ìjókòó ta ni o ń wò láti: ọwọ́ wọn, àṣàyàn draft àti àwọn káàdì tí wọ́n fà. Tẹ̀ láti yí olùṣeré padà",
  "rp.povOld": "Ìjókòó rẹ nìkan: a gba àtúnwò yìí sílẹ̀ kí a tó máa fi káàdì TFMBot pamọ́",
- "atk.offset": "{who} pàdánù wọn, ṣùgbọ́n {card} dá iye kan náà padà"
+ "atk.offset": "{who} pàdánù wọn, ṣùgbọ́n {card} dá iye kan náà padà",
+ "log.download": "Ṣe igbasilẹ àkọsílẹ̀",
+ "log.firstCity": "{who} gbé ìlú àkọ́kọ́ ọ̀fẹ́ ti {card} sílẹ̀{extra}"
 }

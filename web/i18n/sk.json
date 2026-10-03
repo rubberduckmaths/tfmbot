@@ -619,7 +619,6 @@
  "go.ms": "Čestné tituly",
  "go.aw": "Súťaže",
  "go.sub": "Generácia {n}. Záznam hry bol uložený na tréning TFMBota.",
- "go.look": "Pozrieť si herný plán",
  "go.chart": "VB podľa generácií",
  "maps.titleFirst": "Vyberte si svoj Mars",
  "maps.title": "Nová hra — vyberte mapu",
@@ -635,7 +634,7 @@
  "map.hellas.blurb": "Veľká južná impaktná panva — hlboké nížiny ako stvorené pre oceány a zamrznutý južný pól.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Sopečná provincia Elysium Mons a jej sesterských sopiek nad severnými planinami.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Rozľahlé severné planiny siahajúce až k polárnej ľadovej čiapočke.",
  "ma.Terraformer": "Terraformátor",
  "ma.Mayor": "Starosta",
@@ -1074,5 +1073,7 @@
  "hex.claimed": "{card}: rezervované hráčom {who}; nikto iný sem nemôže umiestniť dielik",
  "rp.povTitle": "Z koho miesta sa pozeráte: jeho ruka, výbery v drafte a ťahané karty. Kliknutím prepnete hráča",
  "rp.povOld": "Len vaše miesto: tento záznam vznikol skôr, než sa začali ukladať karty TFMBota",
- "atk.offset": "{who} o ne prišiel, ale {card} vrátila rovnako"
+ "atk.offset": "{who} o ne prišiel, ale {card} vrátila rovnako",
+ "log.download": "Stiahnuť záznam",
+ "log.firstCity": "{who} umiestnil prvé mesto zadarmo ({card}){extra}"
 }

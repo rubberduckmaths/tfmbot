@@ -1,7 +1,7 @@
 // dialogs.js -- App's decision dialogs: setup, draft, research, keeps and buys, triggers, attack targets and
 // other choices, plus the modal / card-picker machinery they share. setupDecision() opens the one the view asks for.
 import { has as tHas, t, tj, tw } from '../i18n.js';
-import { cardActions, cardDesc, cardEl, cardName, cardOrTitles } from '../cards/cards.js';
+import { cardActions, cardDesc, cardEl, cardName, cardOrTitles, cardProd } from '../cards/cards.js';
 import { $, h, esc } from '../dom.js';
 import { D, AK } from '../protocol.js';
 import { PCOL, REPLAY, cresName, critName, maName, resName } from './shared.js';
@@ -74,18 +74,19 @@ export class AppDialogs {
       box.appendChild(h('h2', '', `${esc(cd ? cardName(cd) : t('atk.attack'))} — ${esc(t(onCards ? 'choice.t.atc' : 'choice.t.atp'))}`));
       const text = cd ? (a0.k === AK.BLUE ? cardActions(cd)[a0.ai ?? 0] : cardDesc(cd)) || '' : '';
       box.appendChild(h('div', 'sub', `${text ? `<span style="color:var(--faint)">${esc(text)}</span><br>` : ''}${note}`));
-      const el = h('div', 'opts');
+      const el = h('div', 'opts'), recOpts = [];
       for (const { idxs, a } of opts) {
         const b = h('button', 'abtn opt', `<span class="nm">${esc(this.targetText(a))}</span>`);
         const vp = a.atp ?? (a.rfc != null ? this.view.players.find((pl) => pl.played.includes(a.rfc) || pl.corp === a.rfc)?.id : null);
         if (vp != null) b.style.borderColor = PCOL[vp];
         b.onclick = () => { f.cands = idxs; f.targetOk = true; this.closeModal(); this.resolve(); };
+        recOpts.push({ el: b, idxs });
         el.appendChild(b);
       }
       box.appendChild(el);
       const c = h('button', 'ghost', esc(t('btn.cancel')));
       c.onclick = () => this.cancelFlow();
-      const foot = h('div', 'foot'); foot.appendChild(h('div', 'info', '')); foot.appendChild(c); box.appendChild(foot);
+      const foot = h('div', 'foot'); foot.appendChild(h('div', 'info', '')); foot.appendChild(c); this.flowRecInFoot(foot, recOpts); box.appendChild(foot);
     });
   }
 
@@ -96,17 +97,71 @@ export class AppDialogs {
     this.modal((box) => {
       box.appendChild(h('h2', '', esc(t('vitor.title'))));
       box.appendChild(h('div', 'sub', esc(t('vitor.sub'))));
-      const row = h('div', 'opts awpick');
+      const row = h('div', 'opts awpick'), recOpts = [], ent = this.entries();
       v.aw.forEach((w, i) => {
         const key = 'aw:' + (v.map * 5 + i);
         if (!keys.includes(key)) return;
         const vals = w.v.map((x, p) => `<span style="color:${PCOL[p]}">${esc(this.pname(p))} ${x}</span>`).join(' · ');
         const b = h('button', 'abtn opt', `<span class="nm">${esc(maName(w.name))}</span><small>${esc(critName(w.crit))}</small><small>${vals}</small>`);
         b.onclick = () => { this.closeModal(); this.startFlow(key); };
-        row.appendChild(b);
+        row.appendChild(b); recOpts.push({ el: b, idxs: ent.get(key) || [] });
       });
       box.appendChild(row);
+      const foot = h('div', 'foot'); foot.appendChild(h('div', 'info', '')); this.flowRecInFoot(foot, recOpts); box.appendChild(foot);
     });
+  }
+
+  // A corporation's first action in generation 1 (it uses one of the turn's two actions): Inventrix draws
+  // 3 cards; Valley Trust plays 1 of the 3 preludes it drew (one it can't play is discarded for 15 M€)
+  firstActionModal(keys) {
+    const v = this.view, me = v.players[v.human], L = this.legal, ent = this.entries();
+    const ids = keys.filter((k) => k.startsWith('card:')).map((k) => +k.slice(5));
+    this.forced = true;
+    if (ids.length === 1 && ids[0] === me.corp) {
+      this.flowModalOpen = true;
+      return this.modal((box) => {
+        box.appendChild(h('h2', '', esc(t('fa.title', { card: this.db.lname(me.corp) }))));
+        box.appendChild(h('div', 'sub', esc(t('fa.inventrix'))));
+        const foot = h('div', 'foot'); foot.appendChild(h('div', 'info', ''));
+        const go = h('button', 'primary', esc(t('fa.draw'))); go.onclick = () => { this.closeModal(); this.startFlow('card:' + me.corp); };
+        foot.append(go); box.appendChild(foot);
+      });
+    }
+    const fz = new Set(ids.filter((c) => (ent.get('card:' + c) || []).some((i) => L[i].fz)));
+    this.infoFn = (sel) => [...sel].filter((c) => fz.has(c)).map((c) => esc(t('vt.fizzle', { card: this.db.lname(c) }))).join('');
+    this.okFn = null;
+    this.footFn = (foot) => this.flowRecInFoot(foot, [...document.querySelectorAll('#modal .cards > [data-id]')].map((el) => ({ el, idxs: ent.get('card:' + el.dataset.id) || [] })));
+    return this.pickModal(esc(t('vt.title')), esc(t('vt.sub')), ids, 1, 1, (sel) => this.startFlow('card:' + sel[0]));
+  }
+
+  // "TFMBot's pick" inside a choice made in the middle of a move (attack target, either/or option, which card...):
+  // the hint search (the same advice as the bar's 💡) for the whole move, then the option holding the bot's move is
+  // lit up -- or, when the bot would do something else entirely, the dialog says what. opts: [{ el, idxs }]
+  flowRecInFoot(foot, opts) {
+    const rb = h('button', 'ghost', esc(t('rec.pick')));
+    rb.title = t('rec.flowTitle');
+    const info = foot.querySelector('.info');
+    rb.onclick = () => {
+      rb.disabled = true; rb.textContent = t('rec.thinking');
+      this.recFlow = { el: rb, fn: (idx) => {
+        rb.disabled = false; rb.textContent = t('rec.pick');
+        const hit = opts.find((o) => o.idxs.includes(idx));
+        opts.forEach((o) => { o.el.style.outline = o === hit ? '2px solid #fff27a' : ''; o.el.style.outlineOffset = o === hit ? '1px' : ''; });
+        if (!hit && info && idx >= 0 && this.legal?.[idx]) info.textContent = t('rec.elsewhere', { act: this.actText(this.legal[idx]) });
+      } };
+      this.worker.postMessage({ t: 'hint' });
+    };
+    foot.insertBefore(rb, foot.children[1] || null);
+  }
+
+  // An Undo button inside a decision dialog that follows your own move (a trigger choice, a buy, a keep): the dialog
+  // covers the screen, so the bar's Undo can't be reached -- a player couldn't take back a play that raised a
+  // Viral Enhancers choice. Takes back the move that opened it, like the bar's button.
+  undoInFoot(foot) {
+    if (!this.canUndo) return;
+    const b = h('button', 'ghost', esc(t('btn.undo')));
+    b.onclick = () => { this.closeModal(); $('#btn-undo').click(); };
+    foot.appendChild(b);
   }
 
   // ---------------------------------------------------------------- decisions
@@ -131,6 +186,7 @@ export class AppDialogs {
       }
       case D.KEEP: {
         const k = v.pending.keep;
+        this.footFn = (foot) => this.undoInFoot(foot);
         this.infoFn = (sel) => esc(t('keep.info', { n: sel.size, k }));
         this.okFn = (sel) => sel.size === k;
         return this.pickModal(esc(t('keep.title', { n: k })), esc(t('keep.sub', { card: this.db.lname(v.last.card) })), v.pending.cards, k, k, (sel) => this.answer({ a: 'keep', cards: sel }), null, true);
@@ -146,15 +202,19 @@ export class AppDialogs {
           const foot = h('div', 'foot'); foot.appendChild(h('div', 'info', ''));
           const no = h('button', 'ghost', esc(t('btn.discard'))); no.onclick = () => this.answer({ a: 'buy', yes: 0 });
           const yes = h('button', 'primary', esc(t('buy.btn'))); yes.disabled = !b.can; yes.onclick = () => this.answer({ a: 'buy', yes: 1 });
-          foot.append(no, yes); box.appendChild(foot);
+          this.undoInFoot(foot); foot.append(no, yes); box.appendChild(foot);
         });
       }
       case D.ACTION: case D.FG: {
         this.closeModal();
         // a forced move (Tharsis Republic's first city, ...): no menu, go
         // straight to it
-        const keys = [...this.entries().keys()];
+        const keys = [...this.entries().keys()], L = this.legal || [];
         if (v.pending.kind === D.ACTION && keys.length && keys.every((k) => k.startsWith('aw:'))) return this.freeAwardModal(keys);
+        // a corporation's first action (Inventrix / Valley Trust): the only move, still the player's own tap
+        if (v.pending.kind === D.ACTION && L.length && L.every((a) => a.k === AK.PLAY && a.free) && !this.flow) return this.firstActionModal(keys);
+        // Valley Trust's Eccentric Sponsor / Ecology Experts: the card play it grants (no end turn, no pass)
+        if (v.pending.kind === D.ACTION && L.length && L.every((a) => a.k === AK.PLAY && !a.free) && !this.flow) return this.preludePlayModal();
         if (v.pending.kind === D.ACTION && keys.length === 1 && !['pass', 'end'].includes(keys[0]) && !this.flow) { this.forced = true; this.startFlow(keys[0]); }
         // final greenery: straight to the board (Cancel on the prompt skips it)
         if (v.pending.kind === D.FG && keys.includes('plants') && !this.flow && this.fgSkip !== v.moves) { this.fgAuto = v.moves; this.startFlow('plants', true); }
@@ -176,12 +236,13 @@ export class AppDialogs {
       this.infoFn = (sel) => esc(sel.size ? t('mu.info', { card: db.lname([...sel][0]) }) : t('mu.pick'));
       this.okFn = () => true;
       // the no-swap choice, said outright (not a cancel: the card is already played);
-      // lit up when TFMBot's pick is to keep the hand
+      // lit up when TFMBot's pick is to keep the hand -- only while no card is selected: once you pick one to
+      // discard, the lit button read as "keep" still being chosen (a player's report)
       this.footFn = (foot, sel, recd) => {
         const kb = h('button', 'ghost', esc(t('mu.keep')));
-        if (recd && !recd.length) kb.style.cssText = 'outline:2px solid #fff27a;outline-offset:1px';
+        if (recd && !recd.length && !sel.size) kb.style.cssText = 'outline:2px solid #fff27a;outline-offset:1px';
         kb.onclick = () => { this.infoFn = this.okFn = null; this.answer({ a: 'trigger', opt: 0 }); };
-        foot.appendChild(kb);
+        foot.appendChild(kb); this.undoInFoot(foot);
       };
       return this.pickModal(`${esc(sn)}${of}`, esc(t('mu.sub', { card: pn })), me.hand, 0, 1,
         (sel) => this.answer(sel.length ? { a: 'trigger', opt: 1, card: sel[0] } : { a: 'trigger', opt: 0 }), (box) => this.trigOrderNote(box, tg), 'mu.recKeep');
@@ -207,7 +268,7 @@ export class AppDialogs {
       const rb = h('button', 'ghost', esc(t('rec.pick')));
       rb.title = t('rec.pickTitle');
       rb.onclick = () => { this.recPending = true; rb.disabled = true; rb.textContent = t('rec.thinking'); this.worker.postMessage({ t: 'hint' }); };
-      foot.appendChild(rb); box.appendChild(foot);
+      foot.appendChild(rb); this.undoInFoot(foot); box.appendChild(foot);
       this.applyPickRec = (pick, think) => {
         this.recPending = false; rb.disabled = false; rb.textContent = t('rec.pick');
         const o = think?.opt;
@@ -431,6 +492,8 @@ export class AppDialogs {
   choiceModal(dim, vals) {
     const f = this.flow, L = this.legal, db = this.db;
     const a0 = L[f.cands[0]];
+    // Robotic Workforce's target is the building card whose production box it copies (not a resource target)
+    const rw = dim === 'rtc' && a0.card != null && /robotic workforce/i.test(db.name(a0.card));
     const label = (d, v) => {
       if (v == null) return t(d === 'atp' ? 'choice.nobody' : d === 'rtc' || d === 'rfc' ? 'choice.noCard' : 'choice.none');
       switch (d) {
@@ -455,6 +518,11 @@ export class AppDialogs {
         case 'rtc': case 'rtc2': case 'rfc': {
           // "Decomposers — 3 microbes now" (whose card, and how many it holds)
           const own = this.view.players.find((pl) => pl.played.includes(v) || pl.corp === v);
+          if (rw) {   // "Mine — production: +1 steel"
+            const K = ['megacredits', 'steel', 'titanium', 'plants', 'energy', 'heat'], pr = cardProd(db.get(v)) || {};
+            const parts = K.flatMap((k, i) => (k in pr ? [`${typeof pr[k] === 'number' ? (pr[k] > 0 ? '+' : '') + pr[k] : '+X'} ${resName(i)}`] : []));
+            return `${db.lname(v)}${parts.length ? ' — ' + t('choice.prodBox', { list: tj(parts) }) : ''}`;
+          }
           const n = own?.cres?.[v] ?? 0;
           const RN = { 6: 'animal', 8: 'microbe', 9: 'science', 10: 'floater', 7: 'fighter' };
           const r = RN[db.get(v)?.res] || 'resource';
@@ -476,20 +544,21 @@ export class AppDialogs {
     this.flowModalOpen = true;
     this.modal((box) => {
       const src = a0.card != null ? db.get(a0.card) : null;
-      box.appendChild(h('h2', '', esc(tHas('choice.t.' + dim) ? t('choice.t.' + dim) : t('choice.choose'))));
+      const tk = rw ? 'choice.t.rtcCopy' : 'choice.t.' + dim;
+      box.appendChild(h('h2', '', esc(rw || tHas(tk) ? t(tk) : t('choice.choose'))));   // (t falls back to English)
       box.appendChild(h('div', 'sub', src ? esc(cardName(src)) + (cardDesc(src) ? ' — ' + esc(cardDesc(src)) : '') : ''));
-      const opts = h('div', 'opts');
+      const opts = h('div', 'opts'), recOpts = [];
       for (const [k, idxs] of vals) {
         const v = JSON.parse(k);
         const b = h('button', 'abtn opt', `<span class="nm">${esc(dim === 'steal' ? this.stealText(L[idxs[0]]) : label(dim, v))}</span>`);
         if (dim === 'atp' && v != null) b.style.borderColor = PCOL[v];
         b.onclick = () => { f.cands = idxs; this.closeModal(); this.resolve(); };
-        opts.appendChild(b);
+        opts.appendChild(b); recOpts.push({ el: b, idxs });
       }
       const c = h('button', 'ghost', esc(t('btn.cancel')));
       c.onclick = () => this.cancelFlow();
       box.appendChild(opts);
-      const foot = h('div', 'foot'); foot.appendChild(h('div', 'info', '')); foot.appendChild(c); box.appendChild(foot);
+      const foot = h('div', 'foot'); foot.appendChild(h('div', 'info', '')); foot.appendChild(c); this.flowRecInFoot(foot, recOpts); box.appendChild(foot);
     });
   }
 }

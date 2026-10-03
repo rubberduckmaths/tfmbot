@@ -140,7 +140,8 @@ async function replayCheck() {
   }
   // a whole recording (r.full) holds both seats' secrets: compare what the viewer shows from the human's seat
   // (app.js mask + redact; secret-only changes collapse into one step there)
-  const mask = (v) => (v.stage !== 0 ? v : { ...v, temp: -30, oxy: 0, players: v.players.map((p) => p.id === v.human ? p : { ...p, corp: -1, preludes: [], played: [], hand: [], res: [0, 0, 0, 0, 0, 0], prod: [0, 0, 0, 0, 0, 0], tags: p.tags.map(() => 0), cres: {}, events: [], tr: 20, vp: { ...p.vp, total: 20, cards: 0 } }) });
+  const blank = (v, list) => (list || []).map((x) => ({ ...x, v: x.v.map((n, p) => (p === v.human ? n : x.crit === 'tr' ? 20 : 0)) }));   // (app.js mask)
+  const mask = (v) => (v.stage !== 0 ? v : { ...v, temp: -30, oxy: 0, discard: 0, ms: blank(v, v.ms), aw: blank(v, v.aw), players: v.players.map((p) => p.id === v.human ? p : { ...p, corp: -1, preludes: [], played: [], hand: [], res: [0, 0, 0, 0, 0, 0], prod: [0, 0, 0, 0, 0, 0], tags: p.tags.map(() => 0), cres: {}, events: [], tr: 20, vp: { ...p.vp, total: 20, cards: 0 } }) });
   const full = r.full === 1 || views.some((v) => v.players.some((p) => p.id !== v.human && p.hand.some((c) => c >= 0)));
   const got = full ? views.map((v) => vhash(redact(mask(JSON.parse(JSON.stringify(v)))))).filter((x, i, a) => !i || x !== a[i - 1]) : views.map(vhash);
   if (!full) console.log('REPLAY: not a whole recording (full) -- only the human seat can be watched');

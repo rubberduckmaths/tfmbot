@@ -638,7 +638,6 @@
  "go.ms": "Clocha míle",
  "go.aw": "Duaiseanna",
  "go.sub": "Glúin {n}. Sábháladh loga an chluiche do shonraí traenála TFMBot.",
- "go.look": "Féach ar an gclár",
  "go.chart": "PB de réir glúine",
  "maps.titleFirst": "Roghnaigh do Mhars",
  "maps.title": "Cluiche nua — roghnaigh léarscáil",
@@ -654,7 +653,7 @@
  "map.hellas.blurb": "An t-imchuach tuairte mór sa deisceart — ísealchríocha doimhne atá déanta d'aigéin, agus an pol theas reoite.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Cúige bolcánach Elysium Mons agus a dheirfiúracha bolcán os cionn na machairí thuaidh.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Na machairí ollmhóra thuaidh a shíneann suas go dtí an caipín oighir polach.",
  "ma.Terraformer": "Terraformálaí",
  "ma.Mayor": "Méara",
@@ -1105,5 +1104,7 @@
  "hex.claimed": "{card}: curtha in áirithe ag {who}; ní féidir le haon duine eile leacán a chur anseo",
  "rp.povTitle": "Suíochán cé atá á fhéachaint agat: a lámh, a roghanna dréachta agus a dtarraingtí. Cliceáil chun imreoir a athrú",
  "rp.povOld": "Do shuíochán amháin: taifeadadh an t-athsheinm seo sular sábháladh cártaí TFMBot",
- "atk.offset": "Chaill {who} iad, ach thug {card} an méid céanna ar ais"
+ "atk.offset": "Chaill {who} iad, ach thug {card} an méid céanna ar ais",
+ "log.download": "Íoslódáil an log",
+ "log.firstCity": "Chuir {who} céad chathair saor in aisce {card} síos{extra}"
 }

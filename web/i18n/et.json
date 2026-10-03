@@ -577,7 +577,6 @@
  "go.ms": "Verstapostid",
  "go.aw": "Auhinnad",
  "go.sub": "Põlvkond {n}. Mängulogi salvestati TFMBoti treeningandmeteks.",
- "go.look": "Vaata lauda",
  "go.chart": "VP põlvkondade kaupa",
  "maps.titleFirst": "Vali oma Mars",
  "maps.title": "Uus mäng — vali kaart",
@@ -593,7 +592,7 @@
  "map.hellas.blurb": "Suur lõunapoolne löögibassein — sügavad madalikud ookeanide jaoks ja jäätunud lõunapoolus.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Elysium Monsi vulkaaniline provints ja tema õdedest vulkaanid põhjatasandike kohal.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Avarad põhjatasandikud, mis ulatuvad polaarjäämütsini.",
  "ma.Terraformer": "Terraformija",
  "ma.Mayor": "Linnapea",
@@ -1023,5 +1022,7 @@
  "hex.claimed": "{card}: reserveeritud mängijale {who}; keegi teine ei saa siia plaati panna",
  "rp.povTitle": "Kelle kohalt vaatad: tema käsi, drafti valikud ja tõmmatud kaardid. Klõpsa mängija vahetamiseks",
  "rp.povOld": "Ainult sinu koht: see kordus salvestati enne, kui TFMBoti kaarte hakati talletama",
- "atk.offset": "{who} kaotas need, kuid {card} andis sama palju tagasi"
+ "atk.offset": "{who} kaotas need, kuid {card} andis sama palju tagasi",
+ "log.download": "Laadi logi alla",
+ "log.firstCity": "{who} paigutas {card} tasuta esimese linna{extra}"
 }

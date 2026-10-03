@@ -505,7 +505,6 @@
  "go.ms": "Pencapaian",
  "go.aw": "Penghargaan",
  "go.sub": "Generasi {n}. Log permainan disimpan sebagai data latihan TFMBot.",
- "go.look": "Lihat papan",
  "go.chart": "PK per generasi",
  "maps.titleFirst": "Pilih Mars Anda",
  "maps.title": "Game baru — pilih peta",
@@ -521,7 +520,7 @@
  "map.hellas.blurb": "Cekungan tumbukan raksasa di selatan — dataran rendah yang dalam, pas untuk samudra, dan kutub selatan yang membeku.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Provinsi vulkanik Elysium Mons dan gunung-gunung api saudaranya di atas dataran utara.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Dataran utara yang luas, membentang hingga tudung es kutub.",
  "ma.Terraformer": "Terraformer",
  "ma.Mayor": "Wali Kota",
@@ -942,5 +941,7 @@
  "hex.claimed": "{card}: dipesan oleh {who}; tidak ada orang lain yang bisa menaruh petak di sini",
  "rp.povTitle": "Kursi siapa yang Anda tonton: tangan, pilihan draf, dan kartu yang diambilnya. Klik untuk ganti pemain",
  "rp.povOld": "Hanya kursi Anda: tayangan ulang ini direkam sebelum kartu TFMBot disimpan",
- "atk.offset": "{who} kehilangan itu, tetapi {card} mengembalikan jumlah yang sama"
+ "atk.offset": "{who} kehilangan itu, tetapi {card} mengembalikan jumlah yang sama",
+ "log.download": "Unduh log",
+ "log.firstCity": "{who} menaruh kota pertama gratis dari {card}{extra}"
 }

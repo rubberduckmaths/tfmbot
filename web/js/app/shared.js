@@ -58,8 +58,11 @@ export const WORKER_MSG = { 'TFMBot is unreachable — retrying…': 'status.unr
 
 // problems worth a human look go to the server's anomaly log
 const reported = new Set();
+// crawlers that execute the page (Bingbot, link previews, '(compatible; ...)' agents) file no anomaly reports
+const CRAWLER = /bot|crawl|spider|slurp|preview|headless|compatible;/i.test(navigator.userAgent || '');
 export function report(kind, detail, extra = {}) {
   if (REPLAY != null) return;                          // (a replay re-shows a finished game: nothing new to report)
+  if (CRAWLER) return;                                 // (search / preview bots run the app without a GPU or a full POST: noise)
   const key = kind + ':' + String(detail).slice(0, 120);
   if (reported.has(key)) return;
   reported.add(key);

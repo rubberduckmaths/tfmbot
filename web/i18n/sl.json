@@ -619,7 +619,6 @@
  "go.ms": "Mejniki",
  "go.aw": "Nagrade",
  "go.sub": "Generacija {n}. Dnevnik igre je shranjen za učne podatke TFMBota.",
- "go.look": "Poglej ploščo",
  "go.chart": "ZT po generacijah",
  "maps.titleFirst": "Izberi svoj Mars",
  "maps.title": "Nova igra — izberi zemljevid",
@@ -635,7 +634,7 @@
  "map.hellas.blurb": "Velik južni udarni bazen — globoka nižavja, kot ustvarjena za oceane, in zamrznjeni južni pol.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Vulkanska provinca Elysium Mons in njegovi sestrski vulkani nad severnimi nižinami.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Prostrane severne nižine, ki segajo do polarne ledene kape.",
  "ma.Terraformer": "Teraformer",
  "ma.Mayor": "Župan",
@@ -1079,5 +1078,7 @@
  "hex.claimed": "{card}: rezerviral {who}; nihče drug sem ne more postaviti ploščice",
  "rp.povTitle": "S čigavega mesta gledaš: njegova roka, izbire v draftu in potegnjene karte. Klikni za zamenjavo igralca",
  "rp.povOld": "Samo tvoje mesto: ta posnetek je nastal, preden so se TFMBotove karte shranjevale",
- "atk.offset": "{who} jih je izgubil, a {card} je vrnila enako"
+ "atk.offset": "{who} jih je izgubil, a {card} je vrnila enako",
+ "log.download": "Prenesi dnevnik",
+ "log.firstCity": "{who} je postavil brezplačno prvo mesto ({card}){extra}"
 }

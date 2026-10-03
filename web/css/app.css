@@ -56,6 +56,7 @@ h3 small { font-family: var(--fb); letter-spacing: 0; text-transform: none; font
 .deck small { font-size: 11px; color: var(--faint); }
 .cardico { width: 13px; height: 18px; border-radius: 2px; background: linear-gradient(135deg, #b44a24, #6a2410); border: 1px solid #ffb07a55; }
 .spacer { flex: 1; }
+#top button.icon, #top .odds, #top .deck { flex-shrink: 0; }
 button.icon { width: 34px; height: 34px; border-radius: 8px; border: 1px solid var(--line); background: rgba(255,255,255,.04); cursor: pointer; font-size: 16px; }
 button.icon:hover { background: rgba(255,255,255,.1); }
 button.icon.off { opacity: .45; }
@@ -109,13 +110,17 @@ button.icon.off { opacity: .45; }
 .abtn { display: flex; align-items: center; gap: 8px; width: 100%; text-align: left; border: 1px solid var(--line); background: rgba(255,255,255,.035); border-radius: 8px; padding: 6px 8px; margin-bottom: 4px; cursor: pointer; font-size: 12.5px; transition: background .15s, border-color .15s, transform .1s; }
 .abtn:hover:not(:disabled) { background: rgba(255,122,61,.12); border-color: rgba(255,122,61,.45); }
 .abtn:active:not(:disabled) { transform: scale(.98); }
-.abtn:disabled, #mss .abtn.off, #aws .abtn.off { opacity: .38; cursor: default; }   /* (.off: milestones/awards stay tappable to read their full text) */
+.abtn:disabled { opacity: .38; cursor: default; }
+/* a milestone / award you can't claim or fund now: its name fades, but the race (both players' counts) stays readable at a
+   glance (a player's request) -- .off rows stay tappable to read their full text */
+#mss .abtn.off, #aws .abtn.off { cursor: default; }
+#mss .abtn.off .nm { opacity: .42; }   /* (awards stay at full strength: they show the live standings -- user decision 10-02) */
 .abtn .cost { margin-left: auto; font-family: var(--fd); font-weight: 700; font-size: 14px; color: var(--mc); white-space: nowrap; }
 .abtn .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .abtn.claimed { border-color: color-mix(in srgb, var(--oc) 70%, transparent); background: color-mix(in srgb, var(--oc) 14%, transparent); opacity: .9; }
 .abtn .prog { font-size: 10.5px; color: var(--dim); display: block; }
 .mini { display: flex; gap: 4px; font-family: var(--fd); font-size: 12px; }
-.mini span { padding: 0 4px; border-radius: 4px; background: rgba(255,255,255,.05); }
+.mini span { padding: 0 4px; border-radius: 4px; background: rgba(255,255,255,.09); font-weight: 700; filter: brightness(1.3); }
 .mini span.lead { outline: 1px solid currentColor; }
 button.primary { background: linear-gradient(180deg, #ff8a4d, #e55a22); border: 0; color: #fff; font-weight: 600; border-radius: 9px; padding: 8px 14px; cursor: pointer; box-shadow: 0 4px 16px -4px #ff6a2d99; }
 button.primary:disabled { filter: grayscale(.8); opacity: .5; cursor: default; }
@@ -597,7 +602,8 @@ button.cact.turn:hover:not(:disabled) { background: #6a3d2a; }
 /* maxed global parameters */
 .trk.maxed .val { color: #7dffb0; text-shadow: 0 0 8px #3dff9a88; }
 .trk.maxed .cells { filter: drop-shadow(0 0 4px #3dff9a99); }
-.tfdone-b { padding: 3px 10px; border-radius: 999px; background: linear-gradient(90deg, #1f7a4a, #2a9a8a); color: #eafff4; font-weight: 700; font-size: 12px; white-space: nowrap; box-shadow: 0 0 14px #3dff9a55; animation: tfpulse 2.4s ease-in-out infinite; }
+/* (it gives way, cut short with its tooltip, before the bar's buttons are pushed off the screen) */
+.tfdone-b { min-width: 0; flex: 0 1 auto; overflow: hidden; text-overflow: ellipsis; padding: 3px 10px; border-radius: 999px; background: linear-gradient(90deg, #1f7a4a, #2a9a8a); color: #eafff4; font-weight: 700; font-size: 12px; white-space: nowrap; box-shadow: 0 0 14px #3dff9a55; animation: tfpulse 2.4s ease-in-out infinite; }
 @keyframes tfpulse { 50% { box-shadow: 0 0 22px #3dff9a99; } }
 @media (max-width: 900px) { .tfdone-b { font-size: 10px; padding: 2px 6px; } }
 /* log details */
@@ -642,6 +648,10 @@ body:has(#tableau:not(.hidden)) #modal.peek .peekbtn { display: none; }
 
 /* attack on ANY player's production: red-bordered box (board-game convention) */
 .card .prodbox.atk { border: 2px solid #e03a3a; box-shadow: 0 0 0 1px #0006, 0 0 6px #e03a3a88; }
+.card .prodbox.rmv { background: transparent; }
+#hintbox .hbrow { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 2px 0; }
+#hintbox .hbplay { padding: 2px 8px; font-size: 12px; flex: none; }   /* resources off any player (no production box: the board game's bare red frame) */
+.card .prodbox.rmv i { font-style: normal; color: #ff8a8a; margin: 0 1px; }
 
 /* resources held by an action card, on its button in the Actions panel */
 .abtn .resbadge { display: inline-flex; align-items: center; gap: 3px; margin-left: auto; margin-right: 6px; padding: 2px 7px; border-radius: 999px; background: #ffffff14; border: 1px solid #ffffff2a; font-weight: 700; font-size: 14px; white-space: nowrap; }
@@ -657,6 +667,9 @@ body:has(#tableau:not(.hidden)) #modal.peek .peekbtn { display: none; }
 .card .gainrow .gi img { width: 13px; height: 13px; }
 .card .gainrow .gi.oncard img { outline: 1px solid #ffffff99; outline-offset: 1px; border-radius: 2px; }
 .card .gainrow i { font-style: normal; color: #a9d9b6; margin: 0 1px; }
+.card .gainrow .anyres { display: inline-grid; grid-template-columns: repeat(2, auto); gap: 1px; padding: 1px; margin-left: 1px; border-radius: 3px; outline: 1px solid #ffffff99; }
+.card .gainrow .gi .anyres img { width: 9px; height: 9px; outline: none; }
+.card.big .gainrow .gi .anyres img { width: 11px; height: 11px; }
 .card.big .gainrow { font-size: 16px; left: 9px; bottom: 9px; right: 54px; padding: 3px 7px; }
 .card.big .gainrow .gi img { width: 20px; height: 20px; }
 
@@ -1275,6 +1288,17 @@ body.replay #menu label:has(#set-sims), body.replay #menu label:has(#set-autocon
 #flyer .card.actused .fx.act { position: relative; background: rgba(74,163,255,.3); border-color: #9fd3ff; box-shadow: 0 0 0 2px #7fc4ff, 0 0 22px 2px #4aa3ff; animation: actpulse calc(.9s * var(--as, 1)) ease-in-out 3; }
 @keyframes actpulse { 50% { box-shadow: 0 0 0 3px #d6ecff, 0 0 34px 6px #4aa3ff; background: rgba(120,190,255,.42); } }
 @media (prefers-reduced-motion: reduce) { #flyer .card.actused .fx.act { animation: none; } }
+
+/* a card in use (app/anim.js flyUse): popped up beside its owner's board, holding its resource tokens */
+#flyer .card.inuse { z-index: 61; }
+#flyer .card.inuse .used { top: 52px; right: 10px; z-index: 2; font-size: 12px; }
+#flyer .card.inuse .gainrow { display: none; }   /* (what playing it gave: not this moment's news) */
+.card .restoks { position: absolute; left: 9px; right: 9px; bottom: 44px; z-index: 2; display: flex; align-items: center; gap: 2px; min-height: 26px; padding: 2px 5px; border-radius: 8px; background: rgba(0,0,0,.45); border: 1px solid rgba(255,255,255,.14); font-family: var(--fd); font-weight: 700; font-size: 16px; }
+.card .restoks:empty { display: none; }
+.card .restoks img { width: 22px; height: 22px; object-fit: contain; filter: drop-shadow(0 1px 2px #000a); }
+.card .resn.tick { animation: uitick .5s ease-out; }
+#flyer .restokfly { position: absolute; left: 0; top: 0; width: 32px; height: 32px; z-index: 62; object-fit: contain; opacity: 0; filter: drop-shadow(0 3px 6px #000c); transition: transform calc(.7s * var(--as, 1)) cubic-bezier(.3,.7,.3,1), opacity calc(.5s * var(--as, 1)); }
+@media (prefers-reduced-motion: reduce) { .card .resn.tick { animation: none; } }
 
 /* big cards (the zoomed card, fly-bys): no art -- the text is the point -- and one text size for all, the largest at
    which the wordiest card still fits (Livestock in English, Search For Life in German: 15px; fitText covers longer

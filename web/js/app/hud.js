@@ -11,11 +11,20 @@ import { PCOL, PMARK_MS, STACK_N, TB_VIEWS, critName, lsPick, maName, resName, s
 const PHONE_DRAWER = '(max-width: 640px) and (orientation: portrait)';
 
 export class AppHud {
-  toastLong(title, body) {
+  // rows: optional [{ html, play }] -- each row gets a "Play" button (the hint's moves, made through the normal flow)
+  toastLong(title, body, rows) {
     let hb = $('#hintbox');
     if (!hb) { hb = h('div', 'panel hintbox'); hb.id = 'hintbox'; $('#ui').appendChild(hb); hb.onclick = () => hb.remove(); }
-    hb.innerHTML = `<b>${title}</b><div class="hb">${body}</div><small>${esc(t('hint.footer'))}</small>`;
-    clearTimeout(this.hbT); this.hbT = setTimeout(() => hb.remove(), 9000);
+    hb.innerHTML = `<b>${title}</b><div class="hb">${rows ? '' : body}</div><small>${esc(t('hint.footer'))}</small>`;
+    if (rows) {
+      const box = hb.querySelector('.hb');
+      rows.forEach((r) => {
+        const row = h('div', 'hbrow', `<span>${r.html}</span>`);
+        if (r.play) { const b = h('button', 'ghost hbplay', esc(t('hint.play'))); b.onclick = (e) => { e.stopPropagation(); hb.remove(); r.play(); }; row.appendChild(b); }
+        box.appendChild(row);
+      });
+    }
+    clearTimeout(this.hbT); this.hbT = setTimeout(() => hb.remove(), rows ? 20000 : 9000);
   }
 
   toast(msg, color) {
@@ -79,7 +88,7 @@ export class AppHud {
     const done = mx.temp && mx.oxy && mx.ocean;
     $('#top').classList.toggle('tfdone', done);
     let ban = $('#tf-done');
-    if (done && !ban) { ban = h('div', 'tfdone-b', t('top.tfDone')); ban.id = 'tf-done'; $('#top .deck').before(ban); }
+    if (done && !ban) { ban = h('div', 'tfdone-b', t('top.tfDone')); ban.id = 'tf-done'; ban.title = t('top.tfDone'); $('#top .deck').before(ban); }
     if (!done && ban) ban.remove();
   }
 
@@ -171,13 +180,13 @@ export class AppHud {
     const tagN = (i) => (TAGS[i] === 'event' ? (p.events || []).length : p.tags[i]);
     tb.appendChild(h('div', 'tags tbtags', TAGS.map((g, i) => `<span class="tg${tagN(i) ? '' : ' zero'}" title="${esc(g === 'event' ? t('pb.eventsPlayed') : tagName(g))}"><img src="assets/tags/${g}.png" alt="">${tagN(i)}</span>`).join('')));
     const resOf = (c) => p.cres[c.id] ?? (c.res >= 0 && c.res != null && c.type === 2 ? 0 : undefined);
-    const cardOf = (id) => { const c = this.db.get(id); return cardEl(c, { resCount: resOf(c), used: p.act.includes(id), onClick: (card) => this.zoomCard(card) }); };
+    const cardOf = (id) => { const c = this.db.get(id); return cardEl(c, { resCount: resOf(c), used: p.act.includes(id), vpNow: p.cvp?.[id], onClick: (card) => this.zoomCard(card) }); };
     // Names: one line per card -- its colour, name, tags, resources on it, printed VP, "used"
     const nameRow = (id) => {
       const c = this.db.get(id), res = resOf(c), r = h('div', `tbn t${c.type}`);
       r.innerHTML = `<span class="nm">${esc(cardName(c))}</span><span class="ntags">${(c.tags || []).map((g) => `<img src="assets/tags/${TAGS[g]}.png" alt="" title="${esc(tagName(TAGS[g]))}">`).join('')}</span>`
         + (res != null ? `<span class="nres"><img src="assets/res/${CARD_RES_ICON[c.res] || 'wild'}.png" alt="">${res}</span>` : '')
-        + (c.hasvp && c.vp ? `<span class="nvp" title="${esc(t('card.vp'))}">${c.vp}</span>` : '')
+        + (c.hasvp && c.vp ? `<span class="nvp" title="${esc(t('card.vp'))}">${c.vp}</span>` : p.cvp?.[id] != null ? `<span class="nvp" title="${esc(t('card.vp'))}">${p.cvp[id]}</span>` : '')
         + (p.act.includes(id) ? `<span class="nused">${esc(t('card.used'))}</span>` : '');
       r.title = cardName(c) === c.name ? c.name : `${cardName(c)} · ${c.name}`;
       r.onclick = (e) => { e.stopPropagation(); this.zoomCard(c); };
@@ -281,7 +290,7 @@ export class AppHud {
     const pk = v.pending.kind;
     let who, sub = '';
     if (pk === D.OVER) { who = esc(t('turn.gameOver')); sub = esc(v.winner === v.human ? t('turn.youWin') : t('turn.wins', { who: this.pname(v.winner) })); }
-    else if (this.awaitingConfirm) { who = esc(t('turn.confirm')); sub = esc(t('turn.confirmSub')); }
+    else if (this.awaitingConfirm) { who = esc(t(this.confirmWhat === 'preludes' ? 'turn.confirmPre' : 'turn.confirm')); sub = esc(t('turn.confirmSub')); }
     else if (v.pending.player === v.human) { who = '<span style="color:' + PCOL[v.human] + '">' + esc(t('turn.yours')) + '</span>'; sub = this.decisionText(); }
     else { who = `<span style="color:${PCOL[v.pending.player] || '#fff'}">${esc(this.pname(v.pending.player))}</span>`; sub = esc(t(this.botThinking ? 'turn.thinking' : 'turn.toMove')); }
     tb.innerHTML = `<div class="who">${who}</div><div class="sub">${sub}</div><div class="row"></div>`;
@@ -293,7 +302,7 @@ export class AppHud {
     btn(esc(t(pk === D.FG ? 'act.done' : 'act.passGen')), 'pass');
     // the one thing to do next, lit the same way in both places
     tb.classList.toggle('confirm', !!this.awaitingConfirm);
-    if (this.awaitingConfirm) { const b = h('button', 'primary confirmbtn', esc(t('btn.confirmTurn'))); b.onclick = () => $('#btn-confirm').click(); row.appendChild(b); }
+    if (this.awaitingConfirm) { const b = h('button', 'primary confirmbtn', esc(t(this.confirmWhat === 'preludes' ? 'btn.confirmPre' : 'btn.confirmTurn'))); b.onclick = () => $('#btn-confirm').click(); row.appendChild(b); }
     if (!row.children.length) row.remove();
 
     // standard projects
@@ -390,10 +399,12 @@ export class AppHud {
     const awCost = [8, 14, 20][v.awn] ?? '—';
     $('#awcost').textContent = v.awn < 3 ? t('aw.cost', { n: awCost }) : t('aw.allFunded');
     const aws = $('#aws'); aws.innerHTML = '';
+    // awards show the CURRENT standings (user decision 10-02): each player's count now, the leader(s) lit whenever
+    // someone leads, funded ones in the funder's colour -- no projected counts, no faded names
     v.aw.forEach((w, i) => {
       const key = 'aw:' + (v.map * 5 + i);
       const best = Math.max(...w.v);
-      const vals = w.v.map((x, p) => `<span style="color:${PCOL[p]}" class="${x === best && w.funder >= 0 ? 'lead' : ''}">${x}</span>`).join('');
+      const vals = w.v.map((x, p) => `<span style="color:${PCOL[p]}" class="${x === best && best > 0 ? 'lead' : ''}">${x}</span>`).join('');
       const b = h('button', 'abtn' + (w.funder >= 0 ? ' claimed' : ''), `<span class="nm">${esc(maName(w.name))}<span class="prog">${esc(critName(w.crit))}</span></span><span class="mini">${vals}</span>`);
       if (w.funder >= 0) b.style.setProperty('--oc', PCOL[w.funder]);
       const full = `${maName(w.name)} — ${critName(w.crit)}\n${w.v.map((x, p) => `${this.pname(p)}: ${x}`).join(' · ')}\n`
@@ -415,6 +426,7 @@ export class AppHud {
   renderTurnCtl() {
     $('#btn-undo').disabled = !this.canUndo || this.botThinking;
     $('#btn-confirm').classList.toggle('hidden', !this.awaitingConfirm);
+    $('#btn-confirm').textContent = t(this.confirmWhat === 'preludes' ? 'btn.confirmPre' : 'btn.confirmTurn');
     $('#btn-hint').classList.toggle('hidden', !(this.myTurn() && (this.view.pending.kind === D.ACTION || this.view.pending.kind === D.FG)));
   }
 

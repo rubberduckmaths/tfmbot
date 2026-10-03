@@ -505,7 +505,6 @@
  "go.ms": "Cột mốc",
  "go.aw": "Giải thưởng",
  "go.sub": "Thế hệ {n}. Nhật ký ván đã được lưu làm dữ liệu huấn luyện cho TFMBot.",
- "go.look": "Xem bàn chơi",
  "go.chart": "Điểm theo thế hệ",
  "maps.titleFirst": "Chọn Sao Hỏa của bạn",
  "maps.title": "Ván mới — chọn bản đồ",
@@ -521,7 +520,7 @@
  "map.hellas.blurb": "Lòng chảo va chạm khổng lồ ở phía nam — vùng trũng sâu sinh ra cho đại dương, cùng cực nam băng giá.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Vùng núi lửa Elysium Mons và các núi lửa chị em trên đồng bằng phương bắc.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "Đồng bằng phương bắc bao la trải dài tới chỏm băng vùng cực.",
  "ma.Terraformer": "Nhà cải tạo",
  "ma.Mayor": "Thị trưởng",
@@ -942,5 +941,7 @@
  "hex.claimed": "{card}: {who} đã giữ chỗ; không ai khác được đặt ô ở đây",
  "rp.povTitle": "Bạn xem từ ghế của ai: bài trên tay, lựa chọn draft và các lá rút. Nhấp để đổi người chơi",
  "rp.povOld": "Chỉ ghế của bạn: bản phát lại này được ghi trước khi lưu bài của TFMBot",
- "atk.offset": "{who} đã mất chúng, nhưng {card} trả lại đúng bằng số đó"
+ "atk.offset": "{who} đã mất chúng, nhưng {card} trả lại đúng bằng số đó",
+ "log.download": "Tải nhật ký xuống",
+ "log.firstCity": "{who} đã đặt thành phố đầu tiên miễn phí của {card}{extra}"
 }

@@ -91,12 +91,30 @@ function atkBox(atk) {
   const parts = atk.map(([r, n]) => `<span style="color:#ff8a8a">−${n}</span><img src="assets/res/${RES[r]}.png" alt="">`);
   return `<div class="prodbox atk" title="${esc(t('card.atk'))}">${parts.join('')}</div>`;
 }
+// resources the card REMOVES from any player's stock (Giant Ice Asteroid: up to 6 plants; Sabotage: titanium /
+// steel / M€ -- an either/or), from the engine rules (card.rmv): the board game's red "any player" frame
+function rmvBox(rmv) {
+  if (!rmv || !rmv.length) return '';
+  const item = ([r, n]) => `<span style="color:#ff8a8a">−${n}</span><img src="assets/res/${GAIN_ICON[r] || 'wild'}.png" alt="">`;   // (Virus: animals off a card)
+  const plain = rmv.filter((x) => !x[2]).map(item);
+  const alts = rmv.filter((x) => x[2]).map(item);
+  const parts = [...plain, ...(alts.length ? [alts.join('<i>/</i>')] : [])];
+  return `<div class="prodbox atk rmv" title="${esc(t('card.rmv'))}">${parts.join('')}</div>`;
+}
 // resources the card GIVES (not production), from the engine rules: resources
 // added to cards and every alternative of an either/or -- a strip at the
 // bottom of the card, "+3 plants / +3 microbes / +2 animals"
 const GAIN_ICON = { 0: 'megacredit', 1: 'steel', 2: 'titanium', 3: 'plant', 4: 'power', 5: 'heat', 6: 'animal', 7: 'wild', 8: 'microbe', 9: 'science', 10: 'floater' };
-function gainRow(gain) {
+// CEO's Favorite Project adds a resource of ANY kind (microbe, animal, science, floater...) to a card that already
+// has one; the engine rules name one resource type, so its gain shows a mixed cluster instead (a player's report:
+// it read as microbes only)
+const ANY_RES = ['microbe', 'animal', 'science', 'floater'];
+function gainRow(gain, name) {
   if (!gain || !gain.length) return '';
+  if (name === "CEO's Favorite Project") {
+    const cl = ANY_RES.map((r) => `<img src="assets/res/${r}.png" alt="">`).join('');
+    return `<div class="gainrow" title="${esc(t('card.anyRes'))}"><span class="gi oncard">+${gain[0][1]}<span class="anyres">${cl}</span></span></div>`;
+  }
   const item = ([r, n, , onCard]) => `<span class="gi${onCard ? ' oncard' : ''}" title="${esc(t(onCard === 2 ? 'card.toAny' : onCard === 1 ? 'card.toThis' : 'card.gain'))}">+${n}<img src="assets/res/${GAIN_ICON[r] || 'wild'}.png" alt=""></span>`;
   const plain = gain.filter((g) => !g[2]).map(item);
   const opts = {};
@@ -110,6 +128,9 @@ function ipProd(ip) {
   const K = ['megacredits', 'steel', 'titanium', 'plants', 'energy', 'heat'];
   return Object.fromEntries(ip.map(([r, n]) => [K[r], n]));
 }
+
+// a card's production box as {megacredits: 1, steel: -1, ...} (its text's, else the engine rules')
+export const cardProd = (card) => card?.prod || ipProd(card?.ip) || null;
 
 function prodBox(prod) {
   if (!prod) return '';
@@ -186,13 +207,14 @@ export function cardEl(card, opts = {}) {
   ].join('');
   let vp = '';
   if (card.hasvp && card.vp) vp = `<div class="vp" title="${esc(t('card.vp'))}">${card.vp}</div>`;
-  else if (card.hasvp || card.vpText) vp = `<div class="vp var" title="${esc(arr(card, 'vpText').join(' '))}">VP*</div>`;
+  // (vpNow: what a card in play scores now -- Fish, Commercial District... -- the engine's count; else the rule's VP*)
+  else if (card.hasvp || card.vpText) vp = `<div class="vp var" title="${esc(arr(card, 'vpText').join(' '))}">${opts.vpNow != null ? opts.vpNow : 'VP*'}</div>`;
   const resn = opts.resCount != null ? `<div class="resn"><img src="assets/res/${CARD_RES_ICON[card.res] || 'wild'}.png" alt="">${opts.resCount}</div>` : '';
   el.innerHTML = `
     <div class="top">${cost}${reqs}<div class="ctags">${tags}</div></div>
     <div class="title">${esc(cardName(card))}</div>
-    <div class="body"><div class="icons">${prodBox(card.prod || ipProd(card.ip))}${atkBox(card.atk)}${effectRow(card)}</div>${cardText(card) ? `<div class="desc">${esc(cardText(card))}</div>` : ''}${fx}${card.vpText && !card.description?.includes(card.vpText[0]) ? `<div class="desc"><i>${esc(arr(card, 'vpText').join(' '))}</i></div>` : ''}<div class="art"><i></i></div></div>
-    ${gainRow(card.gain)}${vp}${resn}${opts.used ? `<div class="used">${esc(t('card.used'))}</div>` : ''}`;
+    <div class="body"><div class="icons">${prodBox(card.prod || ipProd(card.ip))}${atkBox(card.atk)}${rmvBox(card.rmv)}${effectRow(card)}</div>${cardText(card) ? `<div class="desc">${esc(cardText(card))}</div>` : ''}${fx}${card.vpText && !card.description?.includes(card.vpText[0]) ? `<div class="desc"><i>${esc(arr(card, 'vpText').join(' '))}</i></div>` : ''}<div class="art"><i></i></div></div>
+    ${gainRow(card.gain, card.name)}${vp}${resn}${opts.used ? `<div class="used">${esc(t('card.used'))}</div>` : ''}`;
   el.title = cardName(card) === card.name ? card.name : `${cardName(card)} · ${card.name}`;   // the English name stays findable
   el.dataset.name = card.name;
   watchArt(el.querySelector('.art'), card);            // a painted vignette in the spare space, where cards are shown large (card_art.js)

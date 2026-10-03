@@ -567,7 +567,6 @@
  "go.ms": "ምዕራፎች",
  "go.aw": "ሽልማቶች",
  "go.sub": "ትውልድ {n}። የጨዋታው መዝገብ ለTFMBot የሥልጠና ዳታ ተቀምጧል።",
- "go.look": "ሰሌዳውን ተመልከት",
  "go.chart": "ነጥብ በየትውልዱ",
  "maps.titleFirst": "ማርስዎን ይምረጡ",
  "maps.title": "አዲስ ጨዋታ — ካርታ ይምረጡ",
@@ -583,7 +582,7 @@
  "map.hellas.blurb": "ታላቁ የደቡብ የግጭት ተፋሰስ — ለውቅያኖሶች የተሠሩ ጥልቅ ቆላዎች፣ እና የቀዘቀዘው ደቡብ ዋልታ።",
  "map.elysium.name": "ኤሊሲየም",
  "map.elysium.blurb": "የElysium Mons እሳተ ገሞራማ ግዛት እና እህት እሳተ ገሞራዎቹ ከሰሜናዊ ሜዳዎች በላይ።",
- "map.vastitas-borealis-novus.name": "ቫስቲታስ ቦሪያሊስ ኖቩስ",
+ "map.vastitas-borealis-novus.name": "ቫስቲታስ ቦሪያሊስ",
  "map.vastitas-borealis-novus.blurb": "እስከ ዋልታው የበረዶ ቆብ የሚዘረጉት ሰፊ ሰሜናዊ ሜዳዎች።",
  "ma.Terraformer": "ቴራፎርመር",
  "ma.Mayor": "ከንቲባ",
@@ -1010,5 +1009,7 @@
  "hex.claimed": "{card}፦ በ{who} የተያዘ፤ ሌላ ማንም እዚህ ንጣፍ ማስቀመጥ አይችልም",
  "rp.povTitle": "ከማን መቀመጫ እንደሚመለከቱ፦ እጃቸው፣ የምርጫ ካርዶቻቸው እና የሳቧቸው። ተጫዋች ለመቀየር ይጫኑ",
  "rp.povOld": "የእርስዎ መቀመጫ ብቻ፦ ይህ ድጋሚ ማጫወቻ የTFMBot ካርዶች ከመቀመጣቸው በፊት ተቀርጿል",
- "atk.offset": "{who} አጥቷቸዋል፣ ግን {card} ያንኑ መልሶ ሰጥቷል"
+ "atk.offset": "{who} አጥቷቸዋል፣ ግን {card} ያንኑ መልሶ ሰጥቷል",
+ "log.download": "መዝገቡን አውርድ",
+ "log.firstCity": "{who} የ{card}ን ነፃ የመጀመሪያ ከተማ አስቀመጠ{extra}"
 }

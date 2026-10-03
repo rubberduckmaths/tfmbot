@@ -504,7 +504,6 @@
  "go.ms": "里程碑",
  "go.aw": "奖项",
  "go.sub": "第{n}世代。本局记录已保存为TFMBot的训练数据。",
- "go.look": "查看版图",
  "go.chart": "各世代胜利点",
  "maps.titleFirst": "选择你的火星",
  "maps.title": "新游戏——选择地图",
@@ -520,7 +519,7 @@
  "map.hellas.blurb": "南半球的巨大撞击盆地——为海洋而生的深邃低地，以及冰封的南极。",
  "map.elysium.name": "埃律西昂",
  "map.elysium.blurb": "埃律西昂山及其姊妹火山所在的火山区，俯瞰北方平原。",
- "map.vastitas-borealis-novus.name": "新北方大荒原",
+ "map.vastitas-borealis-novus.name": "北方大荒原",
  "map.vastitas-borealis-novus.blurb": "一路延伸至极地冰盖的辽阔北方平原。",
  "ma.Terraformer": "改造者",
  "ma.Mayor": "市长",
@@ -941,5 +940,7 @@
  "hex.claimed": "{card}：已被{who}预留，其他人不能在此放置板块",
  "rp.povTitle": "从谁的座位观看：其手牌、轮抽选择和抽到的牌。点击切换玩家",
  "rp.povOld": "仅限你的座位：此回放录制于保存TFMBot手牌之前",
- "atk.offset": "{who}失去了它们，但{card}又补回了同样的数量"
+ "atk.offset": "{who}失去了它们，但{card}又补回了同样的数量",
+ "log.download": "下载日志",
+ "log.firstCity": "{who}放置了{card}的免费首座城市{extra}"
 }

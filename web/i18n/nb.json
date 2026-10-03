@@ -536,7 +536,6 @@
  "go.ms": "Milepæler",
  "go.aw": "Utmerkelser",
  "go.sub": "Generasjon {n}. Spilloggen ble lagret som treningsdata for TFMBot.",
- "go.look": "Se på spillbrettet",
  "go.chart": "VP per generasjon",
  "maps.titleFirst": "Velg din Mars",
  "maps.title": "Nytt spill — velg kart",
@@ -552,7 +551,7 @@
  "map.hellas.blurb": "Det store nedslagsbassenget i sør — dype lavland som skapt for hav, og den frosne sørpolen.",
  "map.elysium.name": "Elysium",
  "map.elysium.blurb": "Vulkanprovinsen rundt Elysium Mons og søstervulkanene over de nordlige slettene.",
- "map.vastitas-borealis-novus.name": "Vastitas Borealis Novus",
+ "map.vastitas-borealis-novus.name": "Vastitas Borealis",
  "map.vastitas-borealis-novus.blurb": "De vidstrakte nordlige slettene, helt opp til polarisen.",
  "ma.Terraformer": "Terraformer",
  "ma.Mayor": "Ordfører",
@@ -982,5 +981,7 @@
  "hex.claimed": "{card}: reservert av {who}; ingen andre kan legge en brikke her",
  "rp.povTitle": "Hvem sin plass du ser fra: hånden, draftvalgene og trekkene. Klikk for å bytte spiller",
  "rp.povOld": "Bare din plass: denne reprisen ble tatt opp før TFMBots kort ble lagret",
- "atk.offset": "{who} mistet dem, men {card} ga like mange tilbake"
+ "atk.offset": "{who} mistet dem, men {card} ga like mange tilbake",
+ "log.download": "Last ned loggen",
+ "log.firstCity": "{who} la ut den gratis første byen fra {card}{extra}"
 }
